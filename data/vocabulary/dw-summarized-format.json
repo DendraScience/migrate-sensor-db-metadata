@@ -1,0 +1,15 @@
+{
+  "_id": "dw-summarized-format",
+  "label": "SummarizedFormat",
+  "scheme_id": "dw",
+  "terms": [
+    {
+      "label": "12Hourly",
+      "name": "12 Hourly"
+    },
+    {
+      "label": "24Hourly",
+      "name": "24 Hourly"
+    }
+  ]
+}

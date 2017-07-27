@@ -1,0 +1,51 @@
+{
+  "_id": "ds-medium",
+  "label": "Medium",
+  "scheme_id": "ds",
+  "terms": [
+    {
+      "label": "Air"
+    },
+    {
+      "label": "Battery"
+    },
+    {
+      "label": "GroundWater",
+      "name": "Ground Water"
+    },
+    {
+      "label": "Instrument"
+    },
+    {
+      "label": "Leaf"
+    },
+    {
+      "label": "Precipitation"
+    },
+    {
+      "label": "Rock"
+    },
+    {
+      "label": "Saprolite"
+    },
+    {
+      "label": "Sediment"
+    },
+    {
+      "label": "Snow"
+    },
+    {
+      "label": "Soil"
+    },
+    {
+      "label": "Solar"
+    },
+    {
+      "label": "SurfaceWater",
+      "name": "Surface Water"
+    },
+    {
+      "label": "Tissue"
+    }
+  ]
+}

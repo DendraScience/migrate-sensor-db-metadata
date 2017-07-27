@@ -1,0 +1,68 @@
+{
+  "_id": "dw-parameter",
+  "label": "Parameter",
+  "scheme_id": "dw",
+  "terms": [
+    {
+      "label": "ClimateAnomaly",
+      "name": "Climate Anomaly"
+    },
+    {
+      "label": "CloudAmount",
+      "name": "Cloud Amount"
+    },
+    {
+      "label": "ConditionsIcon",
+      "name": "Conditions Icon"
+    },
+    {
+      "label": "ConvectiveHazard",
+      "name": "Convective Hazard"
+    },
+    {
+      "label": "Direction"
+    },
+    {
+      "label": "FireWeather",
+      "name": "Fire Weather"
+    },
+    {
+      "label": "Hazards"
+    },
+    {
+      "label": "Humidity"
+    },
+    {
+      "label": "Precipitation"
+    },
+    {
+      "label": "Pressure"
+    },
+    {
+      "label": "ProbabilisticCondition",
+      "name": "Probabilistic Condition"
+    },
+    {
+      "label": "ProbabilityOfPrecipitation",
+      "name": "Probability of Precipitation"
+    },
+    {
+      "label": "Temperature"
+    },
+    {
+      "label": "WaterState",
+      "name": "Water State"
+    },
+    {
+      "label": "Weather"
+    },
+    {
+      "label": "WindSpeed",
+      "name": "Wind Speed"
+    },
+    {
+      "label": "WordedForecast",
+      "name": "Worded Forecast"
+    }
+  ]
+}

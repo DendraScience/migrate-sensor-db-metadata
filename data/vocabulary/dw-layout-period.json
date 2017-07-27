@@ -1,0 +1,22 @@
+{
+  "_id": "dw-layout-period",
+  "label": "LayoutPeriod",
+  "scheme_id": "dw",
+  "terms": [
+    {
+      "label": "Hour"
+    },
+    {
+      "label": "3Hour",
+      "name": "3 Hour"
+    },
+    {
+      "label": "12Hour",
+      "name": "12 Hour"
+    },
+    {
+      "label": "24Hour",
+      "name": "24 Hour"
+    }
+  ]
+}
