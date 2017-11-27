@@ -1,0 +1,42 @@
+{
+  "_id": "58e6cc1bdf5ce60001260961",
+  "station_id": "58e68cabdf5ce600012602b6",
+  "name": "Air Temp Deg C BigCreek Highlands Avg Seasonal Maximum",
+  "external_refs": [
+    {
+      "identifier": "3689",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "347",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "source_type": "procedure",
+  "state": "ready",
+  "enabled": true,
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "datastream_id": 33689,
+          "compact": true,
+          "time_adjust": -28800
+        }
+      },
+      "begins_at": "2016-07-09T02:50:00Z",
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 3689",
+  "tags": [
+    "ds_Aggregate_Maximum",
+    "ds_Function_Seasonal",
+    "ds_Medium_Air",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ],
+  "created_at": "2017-04-06T23:15:39.102Z",
+  "updated_at": "2017-04-06T23:15:39.102Z",
+  "_include": []
+}

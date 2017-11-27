@@ -1,0 +1,20 @@
+{
+  "_id": "foot",
+  "convertible_to_uom_ids": [
+    "meter",
+    "inch",
+    "centimeter"
+  ],
+  "library_config": {
+    "mathjs": {
+      "round_n": 1,
+      "unit_name": "ft"
+    }
+  },
+  "som_id": "imp",
+  "unit_tags": [
+    "dt_Unit_Foot"
+  ],
+  "created_at": "2017-07-21T03:13:31.709Z",
+  "updated_at": "2017-07-21T03:13:31.709Z"
+}

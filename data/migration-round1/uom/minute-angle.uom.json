@@ -1,0 +1,18 @@
+{
+  "_id": "minute-angle",
+  "convertible_to_uom_ids": [
+    "degree-angle"
+  ],
+  "library_config": {
+    "mathjs": {
+      "round_n": 1,
+      "unit_name": "arcminute"
+    }
+  },
+  "som_id": "met",
+  "unit_tags": [
+    "dt_Unit_MinuteAngle"
+  ],
+  "created_at": "2017-07-21T03:19:07.473Z",
+  "updated_at": "2017-07-21T03:19:07.473Z"
+}

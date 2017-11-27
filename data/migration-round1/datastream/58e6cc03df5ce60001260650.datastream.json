@@ -1,0 +1,41 @@
+{
+  "_id": "58e6cc03df5ce60001260650",
+  "station_id": "58e68cacdf5ce600012602d1",
+  "name": "Precipitation mm Sagehen Creek ",
+  "external_refs": [
+    {
+      "identifier": "4176",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "364",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "source_type": "sensor",
+  "state": "ready",
+  "enabled": true,
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "datastream_id": 4176,
+          "compact": true,
+          "time_adjust": -28800
+        }
+      },
+      "begins_at": "1997-04-02T21:00:00Z",
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "tags": [
+    "ds_Aggregate_Cumulative",
+    "ds_Medium_Precipitation",
+    "ds_Variable_Height",
+    "dt_Unit_Millimeter"
+  ],
+  "created_at": "2017-04-06T23:15:15.820Z",
+  "updated_at": "2017-04-06T23:15:15.820Z",
+  "_include": []
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "millibar",
+  "convertible_to_uom_ids": [
+    "bar",
+    "psi",
+    "centibar"
+  ],
+  "library_config": {
+    "mathjs": {
+      "round_n": 1,
+      "unit_name": "mbar"
+    }
+  },
+  "som_id": "met",
+  "unit_tags": [
+    "dt_Unit_Millibar"
+  ],
+  "created_at": "2017-07-21T03:17:21.712Z",
+  "updated_at": "2017-07-21T03:17:21.712Z"
+}

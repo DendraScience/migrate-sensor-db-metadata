@@ -1,0 +1,18 @@
+{
+  "_id": "megavolt-per-meter",
+  "convertible_to_uom_ids": [
+    "volt-per-meter"
+  ],
+  "library_config": {
+    "mathjs": {
+      "round_n": 1,
+      "unit_name": "mV*m^-1"
+    }
+  },
+  "som_id": "met",
+  "unit_tags": [
+    "dt_Unit_MegavoltPerMeter"
+  ],
+  "created_at": "2017-07-21T03:15:05.654Z",
+  "updated_at": "2017-07-21T03:15:05.654Z"
+}

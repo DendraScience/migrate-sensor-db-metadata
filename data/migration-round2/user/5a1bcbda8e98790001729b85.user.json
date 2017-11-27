@@ -1,0 +1,10 @@
+{
+  "_id": "5a1bcbda8e98790001729b85",
+  "email": "scott@newleafsolutionsinc.com",
+  "name": "Scott",
+  "roles": [
+    "sys-admin"
+  ],
+  "created_at": "2017-11-27T08:24:58.216Z",
+  "updated_at": "2017-11-27T08:24:58.216Z"
+}

@@ -1,0 +1,41 @@
+{
+  "_id": "58e6cc03df5ce60001260618",
+  "station_id": "58e68cabdf5ce600012602c1",
+  "name": "Barometric Pressure mbar Hastings Avg",
+  "external_refs": [
+    {
+      "identifier": "3296",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "333",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "source_type": "sensor",
+  "state": "ready",
+  "enabled": true,
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "datastream_id": 3296,
+          "compact": true,
+          "time_adjust": -28800
+        }
+      },
+      "begins_at": "2011-01-31T16:50:00Z",
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Air",
+    "ds_Variable_BarometricPressure",
+    "dt_Unit_Millibar"
+  ],
+  "created_at": "2017-04-06T23:15:15.477Z",
+  "updated_at": "2017-04-06T23:15:15.477Z",
+  "_include": []
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "dw-summarized-format",
+  "description": "TBD",
+  "label": "SummarizedFormat",
+  "scheme_id": "dw",
+  "terms": [
+    {
+      "definition": "TBD",
+      "label": "12Hourly",
+      "name": "12 Hourly"
+    },
+    {
+      "definition": "TBD",
+      "label": "24Hourly",
+      "name": "24 Hourly"
+    }
+  ],
+  "created_at": "2017-05-11T22:20:09.734Z",
+  "updated_at": "2017-05-11T22:20:09.734Z"
+}

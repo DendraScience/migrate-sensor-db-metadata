@@ -1,0 +1,41 @@
+{
+  "_id": "58e6cc03df5ce60001260613",
+  "station_id": "58e68cabdf5ce600012602bc",
+  "name": "Barometric Pressure mbar Chickering Avg",
+  "external_refs": [
+    {
+      "identifier": "3490",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "339",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "source_type": "sensor",
+  "state": "ready",
+  "enabled": true,
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "datastream_id": 3490,
+          "compact": true,
+          "time_adjust": -28800
+        }
+      },
+      "begins_at": "2013-08-21T11:10:00Z",
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Air",
+    "ds_Variable_BarometricPressure",
+    "dt_Unit_Millibar"
+  ],
+  "created_at": "2017-04-06T23:15:15.447Z",
+  "updated_at": "2017-04-06T23:15:15.447Z",
+  "_include": []
+}

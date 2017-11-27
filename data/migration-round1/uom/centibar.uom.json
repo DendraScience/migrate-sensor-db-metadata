@@ -1,0 +1,20 @@
+{
+  "_id": "centibar",
+  "convertible_to_uom_ids": [
+    "bar",
+    "millibar",
+    "pound-force-per-square-inch"
+  ],
+  "library_config": {
+    "mathjs": {
+      "round_n": 1,
+      "unit_name": "cbar"
+    }
+  },
+  "som_id": "met",
+  "unit_tags": [
+    "dt_Unit_Centibar"
+  ],
+  "created_at": "2017-07-21T03:09:47.619Z",
+  "updated_at": "2017-07-21T03:09:47.619Z"
+}

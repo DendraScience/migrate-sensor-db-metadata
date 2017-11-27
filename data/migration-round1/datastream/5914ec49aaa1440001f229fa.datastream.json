@@ -1,0 +1,32 @@
+{
+  "_id": "5914ec49aaa1440001f229fa",
+  "datapoints_config": [
+    {
+      "connection": "noaa",
+      "params": {
+        "query": {
+          "interface": "unsummarized",
+          "parameter": {
+            "key_path": "/weather/p3h"
+          },
+          "unit": "m"
+        }
+      },
+      "path": "/series"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "name": "Digital Weather Unsummarized 3 Hour Weather",
+  "source": "gov.noaa.nws.ndfd.rest.xml",
+  "source_type": "service",
+  "state": "ready",
+  "tags": [
+    "dw_Interface_Unsummarized",
+    "dw_LayoutPeriod_3Hour",
+    "dw_Parameter_Weather"
+  ],
+  "created_at": "2017-05-11T22:57:13.136Z",
+  "updated_at": "2017-05-11T22:57:13.136Z",
+  "_include": []
+}

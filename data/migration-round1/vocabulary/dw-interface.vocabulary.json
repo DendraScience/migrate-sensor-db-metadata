@@ -1,0 +1,18 @@
+{
+  "_id": "dw-interface",
+  "description": "TBD",
+  "label": "Interface",
+  "scheme_id": "dw",
+  "terms": [
+    {
+      "definition": "TBD",
+      "label": "Summarized"
+    },
+    {
+      "definition": "TBD",
+      "label": "Unsummarized"
+    }
+  ],
+  "created_at": "2017-05-11T22:17:52.957Z",
+  "updated_at": "2017-05-11T22:17:52.957Z"
+}

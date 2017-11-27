@@ -1,0 +1,47 @@
+{
+  "_id": "58e6cc04df5ce600012606b3",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Soil",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ],
+  "station_id": "58e68cabdf5ce600012602b8",
+  "name": "Soil Temp Deg C 8 in Blue Oak Avg",
+  "external_refs": [
+    {
+      "identifier": "3102",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "334",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "source_type": "sensor",
+  "state": "ready",
+  "enabled": true,
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "datastream_id": 3102,
+          "compact": true,
+          "time_adjust": -28800
+        }
+      },
+      "begins_at": "2011-06-03T13:00:00Z",
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Inch",
+      "value": 8
+    }
+  },
+  "created_at": "2017-04-06T23:15:16.416Z",
+  "updated_at": "2017-04-06T23:15:16.416Z",
+  "_include": []
+}

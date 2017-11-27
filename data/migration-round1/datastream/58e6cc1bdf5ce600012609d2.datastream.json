@@ -1,0 +1,42 @@
+{
+  "_id": "58e6cc1bdf5ce600012609d2",
+  "station_id": "58e68cabdf5ce600012602b3",
+  "name": "Precipitation mm Angelo  Seasonal Cumulative",
+  "external_refs": [
+    {
+      "identifier": "3350",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "335",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "source_type": "procedure",
+  "state": "ready",
+  "enabled": true,
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "datastream_id": 43350,
+          "compact": true,
+          "time_adjust": -28800
+        }
+      },
+      "begins_at": "2013-05-07T15:10:00Z",
+      "path": "/legacy/datavalues-day"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 3350",
+  "tags": [
+    "ds_Aggregate_Cumulative",
+    "ds_Interval_Day",
+    "ds_Medium_Precipitation",
+    "ds_Variable_Height",
+    "dt_Unit_Millimeter"
+  ],
+  "created_at": "2017-04-06T23:15:39.733Z",
+  "updated_at": "2017-04-06T23:15:39.733Z",
+  "_include": []
+}

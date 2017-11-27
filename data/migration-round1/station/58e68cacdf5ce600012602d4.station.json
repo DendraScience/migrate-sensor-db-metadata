@@ -1,0 +1,236 @@
+{
+  "_id": "58e68cacdf5ce600012602d4",
+  "is_stationary": true,
+  "time_zone": "PST",
+  "slug": "sap-station2",
+  "utc_offset": -28800,
+  "is_active": true,
+  "geo": {
+    "type": "Point",
+    "coordinates": [
+      -123.644141,
+      39.729166,
+      451.8
+    ]
+  },
+  "name": "Sap Station2",
+  "external_refs": [
+    {
+      "identifier": "92",
+      "type": "odm.station.stationid"
+    }
+  ],
+  "station_type": "weather",
+  "external_links": [
+    {
+      "title": "Sensor database",
+      "url": "http://sensor.berkeley.edu/"
+    }
+  ],
+  "media": [
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb_2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/sap-station2.p1.jpg"
+        },
+        "medium_2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/sap-station2.p1.jpg"
+        },
+        "small_2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/sap-station2.p1.jpg"
+        },
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/sap-station2.p1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/sap-station2.p1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/sap-station2.p1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/sap-station2.p1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb_2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/sap-station2.p2.jpg"
+        },
+        "medium_2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/sap-station2.p2.jpg"
+        },
+        "small_2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/sap-station2.p2.jpg"
+        },
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/sap-station2.p2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/sap-station2.p2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/sap-station2.p2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/sap-station2.p2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb_2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/sap-station2.p3.jpg"
+        },
+        "medium_2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/sap-station2.p3.jpg"
+        },
+        "small_2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/sap-station2.p3.jpg"
+        },
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/sap-station2.p3.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/sap-station2.p3.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/sap-station2.p3.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/sap-station2.p3.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb_2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/sap-station2.p4.jpg"
+        },
+        "medium_2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/sap-station2.p4.jpg"
+        },
+        "small_2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/sap-station2.p4.jpg"
+        },
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/sap-station2.p4.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/sap-station2.p4.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/sap-station2.p4.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/sap-station2.p4.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb_2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/sap-station2.p5.jpg"
+        },
+        "medium_2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/sap-station2.p5.jpg"
+        },
+        "small_2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/sap-station2.p5.jpg"
+        },
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/sap-station2.p5.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/sap-station2.p5.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/sap-station2.p5.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/sap-station2.p5.jpg"
+        }
+      }
+    }
+  ],
+  "enabled": false,
+  "organization_id": "58db17c424dc720001671378",
+  "created_at": "2017-04-06T18:45:00.640Z",
+  "updated_at": "2017-04-06T18:45:00.640Z"
+}

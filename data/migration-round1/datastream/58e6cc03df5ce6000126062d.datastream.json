@@ -1,0 +1,41 @@
+{
+  "_id": "58e6cc03df5ce6000126062d",
+  "station_id": "58e68cabdf5ce600012602bc",
+  "name": "PAR um m2 Chickering Avg",
+  "external_refs": [
+    {
+      "identifier": "3484",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "339",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "source_type": "sensor",
+  "state": "ready",
+  "enabled": true,
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "datastream_id": 3484,
+          "compact": true,
+          "time_adjust": -28800
+        }
+      },
+      "begins_at": "2013-08-21T11:10:00Z",
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Solar",
+    "ds_Variable_PhotosyntheticallyActiveRadiation",
+    "dt_Unit_MicromolePerSquareMeter"
+  ],
+  "created_at": "2017-04-06T23:15:15.600Z",
+  "updated_at": "2017-04-06T23:15:15.600Z",
+  "_include": []
+}

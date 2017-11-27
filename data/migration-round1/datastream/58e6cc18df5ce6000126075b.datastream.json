@@ -1,0 +1,42 @@
+{
+  "_id": "58e6cc18df5ce6000126075b",
+  "station_id": "58e68cabdf5ce600012602b3",
+  "name": "Precipitation mm Angelo  Seasonal Minimum",
+  "external_refs": [
+    {
+      "identifier": "3350",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "335",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "source_type": "procedure",
+  "state": "ready",
+  "enabled": true,
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "datastream_id": 13350,
+          "compact": true,
+          "time_adjust": -28800
+        }
+      },
+      "begins_at": "2013-05-07T15:10:00Z",
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 3350",
+  "tags": [
+    "ds_Aggregate_Minimum",
+    "ds_Function_Seasonal",
+    "ds_Medium_Precipitation",
+    "ds_Variable_Height",
+    "dt_Unit_Millimeter"
+  ],
+  "created_at": "2017-04-06T23:15:36.125Z",
+  "updated_at": "2017-04-06T23:15:36.125Z",
+  "_include": []
+}

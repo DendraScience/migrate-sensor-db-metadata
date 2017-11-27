@@ -1,0 +1,42 @@
+{
+  "_id": "58e6cc1bdf5ce60001260983",
+  "station_id": "58e68cacdf5ce600012602d6",
+  "name": "Relative Humidity Per Sedgwick Avg Seasonal Maximum",
+  "external_refs": [
+    {
+      "identifier": "3874",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "355",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "source_type": "procedure",
+  "state": "ready",
+  "enabled": true,
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "datastream_id": 33874,
+          "compact": true,
+          "time_adjust": -28800
+        }
+      },
+      "begins_at": "2011-05-18T14:50:00Z",
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 3874",
+  "tags": [
+    "ds_Aggregate_Maximum",
+    "ds_Function_Seasonal",
+    "ds_Medium_Air",
+    "ds_Variable_Moisture",
+    "dt_Unit_Percent"
+  ],
+  "created_at": "2017-04-06T23:15:39.291Z",
+  "updated_at": "2017-04-06T23:15:39.291Z",
+  "_include": []
+}

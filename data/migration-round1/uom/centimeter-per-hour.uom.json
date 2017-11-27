@@ -1,0 +1,20 @@
+{
+  "_id": "centimeter-per-hour",
+  "convertible_to_uom_ids": [
+    "millimeter-per-hour",
+    "meter-per-day",
+    "millimeter-per-day"
+  ],
+  "library_config": {
+    "mathjs": {
+      "round_n": 1,
+      "unit_name": "cm*hr^-1"
+    }
+  },
+  "som_id": "met",
+  "unit_tags": [
+    "dt_Unit_CentimeterPerHour"
+  ],
+  "created_at": "2017-07-21T03:10:16.830Z",
+  "updated_at": "2017-07-21T03:10:16.830Z"
+}

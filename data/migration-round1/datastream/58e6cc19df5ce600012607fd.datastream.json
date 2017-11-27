@@ -1,0 +1,42 @@
+{
+  "_id": "58e6cc19df5ce600012607fd",
+  "station_id": "58e68caddf5ce600012602de",
+  "name": "Air Temp Deg C WhiteMt Summit Avg Seasonal Minimum",
+  "external_refs": [
+    {
+      "identifier": "4070",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "360",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "source_type": "procedure",
+  "state": "ready",
+  "enabled": true,
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "datastream_id": 14070,
+          "compact": true,
+          "time_adjust": -28800
+        }
+      },
+      "begins_at": "2003-09-10T20:00:00Z",
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 4070",
+  "tags": [
+    "ds_Aggregate_Minimum",
+    "ds_Function_Seasonal",
+    "ds_Medium_Air",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ],
+  "created_at": "2017-04-06T23:15:37.055Z",
+  "updated_at": "2017-04-06T23:15:37.055Z",
+  "_include": []
+}

@@ -1,0 +1,18 @@
+{
+  "_id": "micromole",
+  "convertible_to_uom_ids": [
+    "mole"
+  ],
+  "library_config": {
+    "mathjs": {
+      "round_n": 1,
+      "unit_name": "umol"
+    }
+  },
+  "som_id": "met",
+  "unit_tags": [
+    "dt_Unit_Micromole"
+  ],
+  "created_at": "2017-07-21T03:16:59.520Z",
+  "updated_at": "2017-07-21T03:16:59.520Z"
+}

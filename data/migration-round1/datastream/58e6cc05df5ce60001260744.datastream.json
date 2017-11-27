@@ -1,0 +1,41 @@
+{
+  "_id": "58e6cc05df5ce60001260744",
+  "station_id": "58e68caddf5ce600012602de",
+  "name": "Wind Speed m s WhiteMt Summit Avg",
+  "external_refs": [
+    {
+      "identifier": "4063",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "360",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "source_type": "sensor",
+  "state": "ready",
+  "enabled": true,
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "datastream_id": 4063,
+          "compact": true,
+          "time_adjust": -28800
+        }
+      },
+      "begins_at": "2003-09-10T20:00:00Z",
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Air",
+    "ds_Variable_Speed",
+    "dt_Unit_MeterPerSecond"
+  ],
+  "created_at": "2017-04-06T23:15:17.279Z",
+  "updated_at": "2017-04-06T23:15:17.279Z",
+  "_include": []
+}

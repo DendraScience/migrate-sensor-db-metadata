@@ -1,0 +1,48 @@
+{
+  "_id": "58e6cc1bdf5ce6000126096b",
+  "tags": [
+    "ds_Aggregate_Maximum",
+    "ds_Function_Seasonal",
+    "ds_Medium_Soil",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ],
+  "station_id": "58e68cacdf5ce600012602c5",
+  "name": "Soil Temp Deg C 2 in McLaughlin Avg Seasonal Maximum",
+  "external_refs": [
+    {
+      "identifier": "3731",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "350",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "source_type": "procedure",
+  "state": "ready",
+  "enabled": true,
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "datastream_id": 33731,
+          "compact": true,
+          "time_adjust": -28800
+        }
+      },
+      "begins_at": "2011-12-14T14:20:00Z",
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 3731",
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Inch",
+      "value": 2
+    }
+  },
+  "created_at": "2017-04-06T23:15:39.159Z",
+  "updated_at": "2017-04-06T23:15:39.159Z",
+  "_include": []
+}
