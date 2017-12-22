@@ -1,4 +1,5 @@
 {
+  "_id": "5a31a04d549a2b0001429140",
   "attributes": {
     "county": "Nevada County",
     "state": "California",
@@ -3581,5 +3582,7 @@
     ]
   },
   "name": "Nevada County",
-  "place_type": "county"
+  "place_type": "county",
+  "updated_at": "2017-12-13T21:53:32.541Z",
+  "created_at": "2017-12-13T21:49:01.671Z"
 }

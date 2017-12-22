@@ -79,6 +79,11 @@
       "name": "Kilojoule Per Square Meter"
     },
     {
+      "abbreviation": "kW/m^2",
+      "label": "KiloWattPerSquareMeter",
+      "name": "Kilowatt Per Square Meter"
+    },
+    {
       "abbreviation": "lx",
       "label": "Lux"
     },
@@ -111,9 +116,13 @@
       "label": "Micromole"
     },
     {
+      "abbreviation": "µmol/m^2",
+      "label": "MicromolePerSquareMeter"
+    },
+    {
       "abbreviation": "mi/hr",
-      "label": "MilePerHour",
-      "name": "Mile Per Hour"
+      "label": "MilesPerHour",
+      "name": "Miles Per Hour"
     },
     {
       "abbreviation": "mb",

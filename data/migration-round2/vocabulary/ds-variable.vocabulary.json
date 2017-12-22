@@ -53,11 +53,14 @@
       "name": "Relative Humidity"
     },
     {
-      "label": "SolarRadiation",
-      "name": "Solar Radiation"
+      "label": "Radiation"
     },
     {
       "label": "Speed"
+    },
+    {
+      "label": "SolarRadiation",
+      "name": "Solar Radiation"
     },
     {
       "label": "Temperature"

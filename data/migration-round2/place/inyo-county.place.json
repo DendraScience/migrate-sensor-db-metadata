@@ -1,4 +1,5 @@
 {
+  "_id": "5a31a04d549a2b000142913a",
   "attributes": {
     "county": "Inyo County",
     "state": "California",
@@ -1337,5 +1338,7 @@
     ]
   },
   "name": "Inyo County",
-  "place_type": "county"
+  "place_type": "county",
+  "updated_at": "2017-12-13T21:53:32.323Z",
+  "created_at": "2017-12-13T21:49:01.469Z"
 }
