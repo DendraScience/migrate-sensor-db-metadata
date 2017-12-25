@@ -1,8 +1,9 @@
 {
+  "_id": "58143930650aad2999d57289",
   "description": "Blue Oak Ranch Reserve is part of the UC Natural Reserve System, protecting land for research and education.  It sprawls across the steep slopes of Mount Hamilton just east of urban San Jose. Located on the western slopes of the Diablo Range, the reserve falls within the watershed of San Francisco Bay.", 
   "email": "harlow@berkeley.edu",
   "full_name": "Blue Oak Ranch Reserve",
   "name": "Blue Oak",
-  "stub": "blue-oak",
+  "slug": "blue-oak",
   "url": "http://www.blueoakranchreserve.org"
 }
