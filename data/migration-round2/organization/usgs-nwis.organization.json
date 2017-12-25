@@ -1,0 +1,7 @@
+{
+	"description": "The U.S. Geological Survey's (USGS) National Water Information System (NWIS) is a comprehensive and distributed application that supports the acquisition, processing, and long-term storage of water data",
+	"full_name": "USGS National Water Information System (NWIS)",
+ 	"name": "USGS NWIS",
+ 	"stub": "usgs-nwis",
+ 	"url": "https://waterdata.usgs.gov/nwis/sw"
+}
