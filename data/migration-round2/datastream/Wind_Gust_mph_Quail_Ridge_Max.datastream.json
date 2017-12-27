@@ -24,7 +24,7 @@
     "ds_Aggregate_Maximum",
     "ds_Medium_Air",
     "ds_Variable_Speed",
-    "dt_Unit_MilesPerHour"
+    "dt_Unit_MilePerHour"
   ],
   "updated_at": "2017-12-22T00:27:23.056Z",
   "tags_info": {
