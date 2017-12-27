@@ -1,8 +1,14 @@
 {
-  "_id": "58e6cc04df5ce600012606c4",
+  "_id": "58e6cc19df5ce60001260838",
   "station_id": "5a37e71ba546db0001547681",
-  "name": "Total Solar Radiation Kw m2 Quail Ridge Avg",
-  "source_type": "sensor",
+  "name": "Soil Temp Deg C 20 in Quail Ridge Avg Seasonal Average",
+  "external_refs": [
+    {
+      "identifier": "58e6cc04df5ce60001260674",
+      "type": "dendra.datastreams"
+    }
+  ],
+  "source_type": "procedure",
   "state": "ready",
   "enabled": true,
   "datapoints_config": [
@@ -10,7 +16,7 @@
       "params": {
         "query": {
           "db": "station_quail_ridge",
-          "sc": "\"time\", \"RS_kw_m2_Avg\"",
+          "sc": "\"time\", \"Soil_T20_C_Avg\"",
           "fc": "ten_minute_data",
           "utc_offset": -28800
         }
@@ -22,11 +28,12 @@
   "description": "TBD",
   "tags": [
     "ds_Aggregate_Average",
-    "ds_Medium_Solar",
-    "ds_Variable_Radiation",
-    "dt_Unit_KiloWattPerSquareMeter"
+    "ds_Function_Seasonal",
+    "ds_Medium_Soil",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
   ],
-  "updated_at": "2017-12-22T00:53:01.768Z",
+  "updated_at": "2017-12-22T00:27:22.464Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -37,22 +44,29 @@
         "vocabulary_label": "Aggregate"
       },
       {
-        "label": "Solar",
+        "label": "Seasonal",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-function",
+        "vocabulary_label": "Function"
+      },
+      {
+        "label": "Soil",
         "scheme_id": "ds",
         "scheme_priority": 10,
         "vocabulary_id": "ds-medium",
         "vocabulary_label": "Medium"
       },
       {
-        "label": "SolarRadiation",
+        "label": "Temperature",
         "scheme_id": "ds",
         "scheme_priority": 10,
         "vocabulary_id": "ds-variable",
         "vocabulary_label": "Variable"
       },
       {
-        "abbreviation": "kW/m^2",
-        "label": "KiloWattPerSquareMeter",
+        "abbreviation": "degC",
+        "label": "DegreeCelsius",
         "scheme_id": "dt",
         "scheme_priority": 10,
         "vocabulary_id": "dt-unit",
@@ -62,7 +76,7 @@
     "scheme_refs": [
       {
         "_id": "ds",
-        "tag_count": 3
+        "tag_count": 4
       },
       {
         "_id": "dt",
@@ -72,6 +86,9 @@
     "vocabulary_refs": [
       {
         "_id": "ds-aggregate"
+      },
+      {
+        "_id": "ds-function"
       },
       {
         "_id": "ds-medium"
@@ -99,15 +116,15 @@
     },
     {
       "key": "tag",
-      "str": "d62d9c0654639e5afda3af85d95aa4ad85cd5dab",
+      "str": "004dcbcc365f7ca2e8d1352adccf6e3e37284d5f",
       "scheme_id": "ds"
     },
     {
       "key": "tag",
-      "str": "4290e4645dab10139f20f268aa5de9ab6200d066",
+      "str": "5795c6e74091f87a34b256903db271fcca161eee",
       "scheme_id": "dt"
     }
   ],
-  "created_at": "2017-12-21T18:20:00.488Z",
+  "created_at": "2017-12-21T18:20:15.379Z",
   "_include": []
 }

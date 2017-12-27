@@ -1,7 +1,7 @@
 {
   "_id": "58e6cc04df5ce600012606c4",
   "station_id": "5a37e71ba546db0001547681",
-  "name": "Total Solar Radiation Kw m2 Quail Ridge Avg",
+  "name": "Total Solar Radiation w m2 Quail Ridge Avg",
   "source_type": "sensor",
   "state": "ready",
   "enabled": true,
@@ -10,7 +10,7 @@
       "params": {
         "query": {
           "db": "station_quail_ridge",
-          "sc": "\"time\", \"RS_kw_m2_Avg\"",
+          "sc": "\"time\", \"RS_kw_m2_Avg\"*1000 as \"RS_w_m2_Avg\"",
           "fc": "ten_minute_data",
           "utc_offset": -28800
         }
@@ -24,7 +24,7 @@
     "ds_Aggregate_Average",
     "ds_Medium_Solar",
     "ds_Variable_Radiation",
-    "dt_Unit_KiloWattPerSquareMeter"
+    "dt_Unit_WattPerSquareMeter"
   ],
   "updated_at": "2017-12-22T00:53:01.768Z",
   "tags_info": {

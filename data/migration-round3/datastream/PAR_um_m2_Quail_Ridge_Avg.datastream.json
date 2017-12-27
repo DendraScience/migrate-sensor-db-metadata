@@ -1,7 +1,7 @@
 {
-  "_id": "58e6cc04df5ce600012606c4",
+  "_id": "58e6cc03df5ce60001260627",
   "station_id": "5a37e71ba546db0001547681",
-  "name": "Total Solar Radiation Kw m2 Quail Ridge Avg",
+  "name": "PAR um m2 Quail Ridge Avg",
   "source_type": "sensor",
   "state": "ready",
   "enabled": true,
@@ -10,7 +10,7 @@
       "params": {
         "query": {
           "db": "station_quail_ridge",
-          "sc": "\"time\", \"RS_kw_m2_Avg\"",
+          "sc": "\"time\", \"PAR_Avg\"",
           "fc": "ten_minute_data",
           "utc_offset": -28800
         }
@@ -23,10 +23,10 @@
   "tags": [
     "ds_Aggregate_Average",
     "ds_Medium_Solar",
-    "ds_Variable_Radiation",
-    "dt_Unit_KiloWattPerSquareMeter"
+    "ds_Variable_PhotosyntheticallyActiveRadiation",
+    "dt_Unit_MicromolePerSquareMeter"
   ],
-  "updated_at": "2017-12-22T00:53:01.768Z",
+  "updated_at": "2017-12-22T00:27:21.911Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -44,15 +44,15 @@
         "vocabulary_label": "Medium"
       },
       {
-        "label": "SolarRadiation",
+        "label": "PhotosyntheticallyActiveRadiation",
         "scheme_id": "ds",
         "scheme_priority": 10,
         "vocabulary_id": "ds-variable",
         "vocabulary_label": "Variable"
       },
       {
-        "abbreviation": "kW/m^2",
-        "label": "KiloWattPerSquareMeter",
+        "abbreviation": "µmol/m^2",
+        "label": "MicromolePerSquareMeter",
         "scheme_id": "dt",
         "scheme_priority": 10,
         "vocabulary_id": "dt-unit",
@@ -99,15 +99,15 @@
     },
     {
       "key": "tag",
-      "str": "d62d9c0654639e5afda3af85d95aa4ad85cd5dab",
+      "str": "c8c4c2fa926b39fbf3237b21aeafbafd602174f9",
       "scheme_id": "ds"
     },
     {
       "key": "tag",
-      "str": "4290e4645dab10139f20f268aa5de9ab6200d066",
+      "str": "a777bdf54dddf01d46e4c59d1c340afee26c3b57",
       "scheme_id": "dt"
     }
   ],
-  "created_at": "2017-12-21T18:20:00.488Z",
+  "created_at": "2017-12-21T18:19:54.898Z",
   "_include": []
 }

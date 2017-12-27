@@ -19,7 +19,7 @@ SELECT
   `stations`.`StationID` AS `StationID`,
   `stations`.`StationName` AS `StationName`,
   `stations`.`MC_Name` AS `MC_Name`,
-  `stations`.`Organization` AS `Organization`,
+  `m`.`organization_id` AS `organization_id`,
   `stations`.`DataLogger` AS `DataLogger`,
   `stations`.`TimeIntervalForUpdate` AS `TimeIntervalForUpdate`,
   `stations`.`TimeUnitsName` AS `TimeUnitsName`,
@@ -27,5 +27,14 @@ SELECT
   `stations`.`Comments` AS `stations_Comments`,
   `stations`.`Contact` AS `Contact`
 FROM `sites`
-  INNER JOIN `stations` ON `sites`.`SiteCode` = `stations`.`SiteCode`
+  INNER JOIN `stations` ON `sites`.`SiteCode` = `stations`.`SiteCode`, 
+  dendra_map_mcollections_organizations as m 
+WHERE
+  stations.MC_Name = m.MC_Name
 ;
+
+-- Code to get organization_id
+-- select s.stationid,s.stationname,m.organization_id,m.mc_name 
+-- FROM stations as s, dendra_map_mcollections_organizations as m 
+-- WHERE s.mc_name = m.MC_Name 
+-- ORDER BY s.stationname;

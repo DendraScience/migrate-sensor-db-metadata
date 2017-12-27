@@ -24,7 +24,7 @@
     "ds_Aggregate_Average",
     "ds_Medium_Solar",
     "ds_Variable_PhotosyntheticallyActiveRadiation",
-    "dt_Unit_MicromolePerSquareMeter"
+    "dt_Unit_Micromole"
   ],
   "updated_at": "2017-12-22T00:27:21.911Z",
   "tags_info": {
