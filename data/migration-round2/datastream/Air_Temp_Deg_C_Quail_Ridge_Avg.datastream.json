@@ -16,7 +16,6 @@
         }
       },
       "begins_at": "2017-06-07T13:00:00.000Z",
-      "ends_before": "2018-01-01T00:00:00.000Z",
       "path": "/influx/select"
     }
   ],
