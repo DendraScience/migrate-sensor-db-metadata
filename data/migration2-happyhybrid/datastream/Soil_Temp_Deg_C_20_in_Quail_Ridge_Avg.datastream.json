@@ -26,6 +26,11 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
+    "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Inch",
+      "value": 20
+    },
   "updated_at": "2017-12-22T00:27:22.564Z",
   "tags_info": {
     "resolved_terms": [

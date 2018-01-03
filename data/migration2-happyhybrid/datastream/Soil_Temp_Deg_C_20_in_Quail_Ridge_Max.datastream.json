@@ -6,7 +6,7 @@
     "dt_Unit_DegreeCelsius"
   ],
   "station_id": "5a37e71ba546db0001547681",
-  "name": "Soil Temp Deg C 2 in Quail Ridge Max",
+  "name": "Soil Temp Deg C 20 in Quail Ridge Max",
   "source_type": "sensor",
   "state": "ready",
   "enabled": true,
@@ -15,7 +15,7 @@
       "params": {
         "query": {
           "db": "station_quail_ridge",
-          "sc": "\"time\", \"Soil_T2_C_Max\"",
+          "sc": "\"time\", \"Soil_T20_C_Max\"",
           "fc": "ten_minute_data",
           "utc_offset": -28800
         }
@@ -28,7 +28,7 @@
   "attributes": {
     "depth": {
       "unit": "dt_Unit_Inch",
-      "value": 2
+      "value": 20
     }
   }
 }

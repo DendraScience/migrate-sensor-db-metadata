@@ -1,12 +1,6 @@
 {
-  "tags": [
-    "ds_Aggregate_Maximum",
-    "ds_Medium_Soil",
-    "ds_Variable_Temperature",
-    "dt_Unit_DegreeCelsius"
-  ],
   "station_id": "5a37e71ba546db0001547681",
-  "name": "Soil Temp Deg C 2 in Quail Ridge Max",
+  "name": "Wind Gust mph Quail Ridge Std",
   "source_type": "sensor",
   "state": "ready",
   "enabled": true,
@@ -15,7 +9,7 @@
       "params": {
         "query": {
           "db": "station_quail_ridge",
-          "sc": "\"time\", \"Soil_T2_C_Max\"",
+          "sc": "\"time\", \"WS_mph_Std\"",
           "fc": "ten_minute_data",
           "utc_offset": -28800
         }
@@ -25,10 +19,10 @@
     }
   ],
   "description": "TBD",
-  "attributes": {
-    "depth": {
-      "unit": "dt_Unit_Inch",
-      "value": 2
-    }
-  }
+  "tags": [
+    "ds_Aggregate_StandardDeviation",
+    "ds_Medium_Air",
+    "ds_Variable_Speed",
+    "dt_Unit_MilePerHour"
+  ]
 }

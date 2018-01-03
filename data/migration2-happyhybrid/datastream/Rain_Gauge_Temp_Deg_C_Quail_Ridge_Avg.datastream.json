@@ -1,6 +1,6 @@
 {
   "station_id": "5a37e71ba546db0001547681",
-  "name": "Logger Panel Temp Deg C Quail Ridge Avg",
+  "name": "Rain Gage Temp Deg C Quail Ridge Avg",
   "source_type": "sensor",
   "state": "ready",
   "enabled": true,
@@ -26,7 +26,13 @@
     "dt_Unit_DegreeCelsius"
   ],
   "attribute": {
-    "instrument": "Rain Gauge",
-    "datastream_id":"58e6cc03df5ce6000126063d" 
-  }
+    "text": "Rain Gauge"
+  },
+  "derivation_description": "This datastream is not derived, it is raw sensed temperature. However, it's purpose is to quality control another datastream, precipitation, listed here.",
+  "derived_from_datastream_ids": [    
+    {
+      "identifier": "58e6cc03df5ce6000126063d",
+      "type": "dendra.datastreams._id" 
+    }
+  ]
 }
