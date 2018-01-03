@@ -1,7 +1,7 @@
 {
-  "_id": "58e6cc04df5ce600012606c4",
+  "_id": "5a44689f5294b50001dbdb04",
   "station_id": "5a37e71ba546db0001547681",
-  "name": "Total Solar Radiation Kw m2 Quail Ridge Avg",
+  "name": "Total Solar Radiation w m2 Quail Ridge Avg",
   "source_type": "sensor",
   "state": "ready",
   "enabled": true,
@@ -10,7 +10,7 @@
       "params": {
         "query": {
           "db": "station_quail_ridge",
-          "sc": "\"time\", \"RS_kw_m2_Avg\"",
+          "sc": "\"time\", \"RS_kw_m2_Avg\"*1000 as \"RS_w_m2_Avg\"",
           "fc": "ten_minute_data",
           "utc_offset": -28800
         }
@@ -19,14 +19,19 @@
       "path": "/influx/select"
     }
   ],
+  "derivation_description": "InfluxDB values unit conversion, multiplying KiloWattPerSquareMeter by 1000 to get WattsPerSquareMeter.",
+  "derived_from_datastream_ids": [
+    "58e6cc04df5ce600012606c4"
+  ],
   "description": "TBD",
   "tags": [
     "ds_Aggregate_Average",
     "ds_Medium_Solar",
     "ds_Variable_Radiation",
-    "dt_Unit_KiloWattPerSquareMeter"
+    "dt_Unit_WattPerSquareMeter"
   ],
-  "updated_at": "2017-12-22T00:53:01.768Z",
+  "updated_at": "2017-12-28T17:07:21.166Z",
+  "created_at": "2017-12-28T03:44:31.356Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -44,15 +49,15 @@
         "vocabulary_label": "Medium"
       },
       {
-        "label": "SolarRadiation",
+        "label": "Radiation",
         "scheme_id": "ds",
         "scheme_priority": 10,
         "vocabulary_id": "ds-variable",
         "vocabulary_label": "Variable"
       },
       {
-        "abbreviation": "kW/m^2",
-        "label": "KiloWattPerSquareMeter",
+        "abbreviation": "W/m^2",
+        "label": "WattPerSquareMeter",
         "scheme_id": "dt",
         "scheme_priority": 10,
         "vocabulary_id": "dt-unit",
@@ -99,15 +104,14 @@
     },
     {
       "key": "tag",
-      "str": "d62d9c0654639e5afda3af85d95aa4ad85cd5dab",
+      "str": "7fea997bfc9d14bd9d196e84559ca3681d6deb67",
       "scheme_id": "ds"
     },
     {
       "key": "tag",
-      "str": "4290e4645dab10139f20f268aa5de9ab6200d066",
+      "str": "4d1ef8d2d372f256104c186984a14d7b6d38ef8f",
       "scheme_id": "dt"
     }
   ],
-  "created_at": "2017-12-21T18:20:00.488Z",
   "_include": []
 }

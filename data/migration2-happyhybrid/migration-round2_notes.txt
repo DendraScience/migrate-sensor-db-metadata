@@ -1,0 +1,19 @@
+MIGRATION2 "HAPPY HYBRID"
+
+Purpose:  maintain compatability with round1 Preview Dashboard, while including the first all-Dendra station, Quail Ridge.  
+
+Notes:  
+- tools/dendra-push-happyhybrid.sh  will populate all relevant JSON for the Preview Dashboard to operate.  
+
+- Fixes to some existing datastreams are placed into migration2-happyhybrid/datastreams.  These will update after the migration1-preview versions are inserted. 
+
+Datastream Errors Found
+Younger Lagoon
+	- Humidity seasonal low. -99999%.  I think this is DRI NaN error.
+	- Humidity seasonal high  -99999%. 
+	- No soil moisture (it is on a roof)
+	- PAR? getting a dash. Missing on graph
+	- cumulative rainfall looks odd
+
+
+

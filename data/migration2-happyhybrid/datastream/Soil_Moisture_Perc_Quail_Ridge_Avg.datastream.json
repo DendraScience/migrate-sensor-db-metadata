@@ -1,0 +1,37 @@
+{
+  "name": "Soil Moisture  Quail Ridge Avg",
+  "station_id": "5a37e71ba546db0001547681",
+  "description": "TBD",
+  "tags": [
+    "ds_Aggregate_",
+    "ds_Medium_",
+    "ds_Variable_",
+    "dt_Unit_"
+  ],
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "db": "station_quail_ridge",
+          "sc": "\"time\", \"field\"",
+          "fc": "ten_minute_data",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2017-06-07T13:00:00.000Z",  
+      "path": "/influx/select"
+    }
+  ],
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_",
+      "value": 1
+    },
+    "orientation": {
+      "value":"horizontal"
+    }
+  },
+  "source_type": "sensor",
+  "state": "ready",
+  "enabled": true
+}
