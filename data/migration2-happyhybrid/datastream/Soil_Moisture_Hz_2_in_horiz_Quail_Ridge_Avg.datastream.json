@@ -1,7 +1,7 @@
 {
-  "_id": "58e6cc05df5ce6000126072a",
+  "_id": "5a4e0a76273ec50001638679",
   "station_id": "5a37e71ba546db0001547681",
-  "name": "Wind Speed mph Quail Ridge Avg",
+  "name": "Soil Moisture TDR Hz 2 in horiz Quail Ridge Avg",
   "source_type": "sensor",
   "state": "ready",
   "enabled": true,
@@ -10,7 +10,7 @@
       "params": {
         "query": {
           "db": "station_quail_ridge",
-          "sc": "\"time\", \"WS_mph_WVc_1_\"",
+          "sc": "\"time\", \"CS616_2_Avg\"",
           "fc": "ten_minute_data",
           "utc_offset": -28800
         }
@@ -19,15 +19,31 @@
       "path": "/influx/select"
     }
   ],
-  "description": "TBD",
+  "description": "Soil moisture measurement using TDR (hertz). Converted into volumetric water content.",
   "tags": [
     "ds_Aggregate_Average",
-    "ds_Medium_Air",
-    "ds_Variable_Speed",
-    "dt_Unit_MilePerHour"
+    "ds_Medium_Soil",
+    "ds_Variable_Moisture",
+    "dt_Unit_Hertz"
   ],
-  "updated_at": "2018-01-04T11:07:08.298Z",
-  "created_at": "2018-01-04T11:05:27.721Z",
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Inch",
+      "value": 2
+    },
+    "orientation": {
+      "text": "horizontal"
+    }
+  },
+  "created_at": "2018-01-04T11:05:26.888Z",
+  "updated_at": "2018-01-04T11:07:07.482Z",
+  "attributes_info": {
+    "sort": {
+      "value1": 2,
+      "value2": 0
+    },
+    "text": "2"
+  },
   "tags_info": {
     "resolved_terms": [
       {
@@ -38,22 +54,22 @@
         "vocabulary_label": "Aggregate"
       },
       {
-        "label": "Air",
+        "label": "Soil",
         "scheme_id": "ds",
         "scheme_priority": 10,
         "vocabulary_id": "ds-medium",
         "vocabulary_label": "Medium"
       },
       {
-        "label": "Speed",
+        "label": "Moisture",
         "scheme_id": "ds",
         "scheme_priority": 10,
         "vocabulary_id": "ds-variable",
         "vocabulary_label": "Variable"
       },
       {
-        "abbreviation": "mi/hr",
-        "label": "MilePerHour",
+        "abbreviation": "s^-1",
+        "label": "Hertz",
         "scheme_id": "dt",
         "scheme_priority": 10,
         "vocabulary_id": "dt-unit",
@@ -92,7 +108,7 @@
     },
     {
       "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      "str": "a187d0a430872c9faa8ef2c6a3e9fb7951882498"
     },
     {
       "key": "geo",
@@ -100,12 +116,12 @@
     },
     {
       "key": "tag",
-      "str": "5a7ed3e0aa0165780b9fbbdee53f00da282cb347",
+      "str": "a419a867eee1eb7b90ff73592001f7d5e75d5420",
       "scheme_id": "ds"
     },
     {
       "key": "tag",
-      "str": "fb5cb5e343b3026658ca95f5a4c87342cb047508",
+      "str": "429e809a6c083ceeaa8efe60c2919cc9bbcd7981",
       "scheme_id": "dt"
     }
   ],

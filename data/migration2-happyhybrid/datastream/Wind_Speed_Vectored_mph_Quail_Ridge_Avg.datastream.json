@@ -1,4 +1,5 @@
 {
+  "_id": "5a4e0a77273ec50001638689",
   "station_id": "5a37e71ba546db0001547681",
   "name": "Wind Speed Vectored mph Quail Ridge Avg",
   "source_type": "sensor",
@@ -27,5 +28,96 @@
   ],
   "attributes": {
     "text": "vectored"
-  }
+  },
+  "created_at": "2018-01-04T11:05:27.808Z",
+  "updated_at": "2018-01-04T11:07:08.391Z",
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      },
+      {
+        "label": "Air",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Speed",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "mi/hr",
+        "label": "MilePerHour",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-aggregate"
+      },
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "f26094889cb1fcec3ada1bf103d44d6247707986"
+    },
+    {
+      "key": "att",
+      "str": "3acb7b1746838f0d1318734418c42365cedf4a9f"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "5a7ed3e0aa0165780b9fbbdee53f00da282cb347",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "fb5cb5e343b3026658ca95f5a4c87342cb047508",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
 }
