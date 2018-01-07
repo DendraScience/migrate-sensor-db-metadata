@@ -31,9 +31,7 @@
       "unit": "dt_Unit_Inch",
       "value": 2
     },
-    "orientation": {
-      "text": "horizontal"
-    }
+    "orientation": "horizontal"
   },
   "derivation_description": "Derived from raw TDR frequency (hz) on logger. Converted to volumetric water content using the following polynomial:  VWC = 0.0007 * TDR_Freq^2  - 0.0063 * TDR_Freq - 0.0663",
   "derived_from_datastream_ids": [

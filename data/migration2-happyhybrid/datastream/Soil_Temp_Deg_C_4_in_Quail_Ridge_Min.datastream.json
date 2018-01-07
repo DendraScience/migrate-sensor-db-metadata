@@ -16,7 +16,7 @@
       "params": {
         "query": {
           "db": "station_quail_ridge",
-          "sc": "\"time\", \"Soil_T4_C_Max\"",
+          "sc": "\"time\", \"Soil_T4_C_Min\"",
           "fc": "ten_minute_data",
           "utc_offset": -28800
         }

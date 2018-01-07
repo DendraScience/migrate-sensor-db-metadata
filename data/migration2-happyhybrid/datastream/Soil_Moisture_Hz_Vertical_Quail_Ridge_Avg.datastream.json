@@ -24,7 +24,7 @@
     }
   ],
   "attributes": {
-    "text": "vertical orientation"
+    "orientation": "vertical"
   },
   "source_type": "sensor",
   "state": "ready",

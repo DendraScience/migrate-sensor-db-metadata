@@ -21,7 +21,7 @@
   ],
   "description": "TBD",
   "tags": [
-    "ds_Aggregate_Maximum",
+    "ds_Aggregate_Minimum",
     "ds_Medium_Air",
     "ds_Variable_Moisture",
     "dt_Unit_Percent"
