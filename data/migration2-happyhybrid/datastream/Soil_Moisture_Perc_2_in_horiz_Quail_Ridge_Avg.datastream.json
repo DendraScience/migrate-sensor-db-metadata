@@ -1,5 +1,5 @@
 {
-  "_id": "58e6cc04df5ce600012606df",
+  "_id": "5a52b79479449000014eba04",
   "station_id": "5a37e71ba546db0001547681",
   "name": "Soil Moisture (Volumetric Water Content) Per 2 in horiz Quail Ridge Avg",
   "source_type": "procedure",
@@ -35,10 +35,10 @@
   },
   "derivation_description": "Derived from raw TDR frequency (hz) on logger. Converted to volumetric water content using the following polynomial:  VWC = 0.0007 * TDR_Freq^2  - 0.0063 * TDR_Freq - 0.0663",
   "derived_from_datastream_ids": [
-    "5a4e0a76273ec50001638679"
+    "5a52b79479449000014eba02"
   ],
-  "updated_at": "2018-01-04T11:07:07.560Z",
-  "created_at": "2018-01-04T11:07:07.560Z",
+  "updated_at": "2018-01-08T00:16:59.508Z",
+  "created_at": "2018-01-08T00:13:08.334Z",
   "attributes_info": {
     "sort": {
       "value1": 2,
@@ -110,7 +110,7 @@
     },
     {
       "key": "att",
-      "str": "a187d0a430872c9faa8ef2c6a3e9fb7951882498"
+      "str": "019b01d0d2b98c2f5d6fb3a113ed5c3c5d6e1f05"
     },
     {
       "key": "geo",

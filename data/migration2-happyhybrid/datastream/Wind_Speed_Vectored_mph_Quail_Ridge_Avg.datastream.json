@@ -1,5 +1,5 @@
 {
-  "_id": "5a4e0a77273ec50001638689",
+  "_id": "5a52b3eb79449000014eb9fd",
   "station_id": "5a37e71ba546db0001547681",
   "name": "Wind Speed Vectored mph Quail Ridge Avg",
   "source_type": "sensor",
@@ -29,8 +29,8 @@
   "attributes": {
     "text": "vectored"
   },
-  "created_at": "2018-01-04T11:05:27.808Z",
-  "updated_at": "2018-01-04T11:07:08.391Z",
+  "created_at": "2018-01-08T00:13:09.719Z",
+  "updated_at": "2018-01-08T00:17:00.476Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

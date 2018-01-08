@@ -1,5 +1,5 @@
 {
-  "_id": "5a4e0a76273ec50001638668",
+  "_id": "5a52b3e979449000014eb9cf",
   "tags": [
     "ds_Aggregate_Minimum",
     "ds_Medium_Air",
@@ -32,8 +32,8 @@
       "value": 2
     }
   },
-  "created_at": "2018-01-04T11:05:26.115Z",
-  "updated_at": "2018-01-04T11:07:06.742Z",
+  "created_at": "2018-01-08T00:13:07.145Z",
+  "updated_at": "2018-01-08T00:16:58.613Z",
   "attributes_info": {
     "sort": {
       "value1": 2,

@@ -1,7 +1,7 @@
 {
-  "_id": "58e6cc03df5ce6000126063d",
+  "_id": "5a52b3ea79449000014eb9df",
   "station_id": "5a37e71ba546db0001547681",
-  "name": "Precipitation in Quail Ridge ",
+  "name": "Precipitation in Quail Ridge",
   "source_type": "sensor",
   "state": "ready",
   "enabled": true,
@@ -26,8 +26,8 @@
     "ds_Variable_Height",
     "dt_Unit_Inch"
   ],
-  "updated_at": "2018-01-04T11:07:07.281Z",
-  "created_at": "2018-01-04T11:05:26.698Z",
+  "updated_at": "2018-01-08T00:16:59.252Z",
+  "created_at": "2018-01-08T00:13:08.018Z",
   "tags_info": {
     "resolved_terms": [
       {

@@ -1,5 +1,5 @@
 {
-  "_id": "5a4e0a76273ec50001638676",
+  "_id": "5a52b3ea79449000014eb9e1",
   "station_id": "5a37e71ba546db0001547681",
   "name": "Rain Gage Temp Deg C Quail Ridge Avg",
   "source_type": "sensor",
@@ -7,7 +7,7 @@
   "enabled": true,
   "external_refs": [
     {
-      "identifier": "58e6cc03df5ce6000126063d",
+      "identifier": "5a37e71ba546db0001547681",
       "type": "dendra.datastreams"
     }
   ],
@@ -35,8 +35,8 @@
   "attributes": {
     "instrument": "Rain Gauge"
   },
-  "created_at": "2018-01-04T11:05:26.757Z",
-  "updated_at": "2018-01-04T11:07:07.348Z",
+  "created_at": "2018-01-08T00:13:08.068Z",
+  "updated_at": "2018-01-08T00:16:59.293Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -108,7 +108,7 @@
     },
     {
       "key": "att",
-      "str": "c249a9bf1201a88b0a1d19536915f038465124ca"
+      "str": "27708212982d9b447cfb91c5a1fb31edb964210f"
     },
     {
       "key": "geo",

@@ -1,5 +1,5 @@
 {
-  "_id": "58e6cc03df5ce6000126060b",
+  "_id": "5a52b3e979449000014eb9d3",
   "station_id": "5a37e71ba546db0001547681",
   "name": "Barometric Pressure mbar Quail Ridge Avg",
   "source_type": "sensor",
@@ -26,8 +26,8 @@
     "ds_Variable_BarometricPressure",
     "dt_Unit_Millibar"
   ],
-  "updated_at": "2018-01-04T11:07:06.879Z",
-  "created_at": "2018-01-04T11:05:26.289Z",
+  "updated_at": "2018-01-08T00:16:58.768Z",
+  "created_at": "2018-01-08T00:13:07.376Z",
   "tags_info": {
     "resolved_terms": [
       {

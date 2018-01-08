@@ -1,5 +1,5 @@
 {
-  "_id": "5a4e0a76273ec5000163866f",
+  "_id": "5a52b3ea79449000014eb9d8",
   "name": "Leaf Wetness Dry Min Quail Ridge",
   "station_id": "5a37e71ba546db0001547681",
   "description": "Minutes of dryness per interval",
@@ -25,8 +25,8 @@
   "source_type": "sensor",
   "state": "ready",
   "enabled": true,
-  "created_at": "2018-01-04T11:05:26.462Z",
-  "updated_at": "2018-01-04T11:07:07.044Z",
+  "created_at": "2018-01-08T00:13:07.624Z",
+  "updated_at": "2018-01-08T00:16:58.951Z",
   "tags_info": {
     "resolved_terms": [
       {

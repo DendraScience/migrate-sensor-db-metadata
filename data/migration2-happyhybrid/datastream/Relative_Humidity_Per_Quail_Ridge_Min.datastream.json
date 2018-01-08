@@ -1,5 +1,5 @@
 {
-  "_id": "5a4e0a76273ec50001638678",
+  "_id": "5a52b3ea79449000014eb9e4",
   "station_id": "5a37e71ba546db0001547681",
   "name": "Relative Humidity Per Quail Ridge Min",
   "source_type": "sensor",
@@ -26,12 +26,12 @@
     "ds_Variable_Moisture",
     "dt_Unit_Percent"
   ],
-  "created_at": "2018-01-04T11:05:26.858Z",
-  "updated_at": "2018-01-04T11:07:07.447Z",
+  "created_at": "2018-01-08T00:13:08.233Z",
+  "updated_at": "2018-01-08T00:16:59.394Z",
   "tags_info": {
     "resolved_terms": [
       {
-        "label": "Maximum",
+        "label": "Minimum",
         "scheme_id": "ds",
         "scheme_priority": 10,
         "vocabulary_id": "ds-aggregate",
@@ -100,7 +100,7 @@
     },
     {
       "key": "tag",
-      "str": "2080f224af48ec9c6d6fafd002d4ac14813f56c0",
+      "str": "843b44a7cd1ec7959e187796b08132a6ea357bc1",
       "scheme_id": "ds"
     },
     {

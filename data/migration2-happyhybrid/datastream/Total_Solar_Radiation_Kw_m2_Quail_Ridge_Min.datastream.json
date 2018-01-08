@@ -1,5 +1,5 @@
 {
-  "_id": "5a4e0a77273ec50001638684",
+  "_id": "5a52b3eb79449000014eb9f4",
   "station_id": "5a37e71ba546db0001547681",
   "name": "Total Solar Radiation Kw m2 Quail Ridge Min",
   "source_type": "sensor",
@@ -26,8 +26,8 @@
     "ds_Variable_Radiation",
     "dt_Unit_KiloWattPerSquareMeter"
   ],
-  "created_at": "2018-01-04T11:05:27.463Z",
-  "updated_at": "2018-01-04T11:07:08.107Z",
+  "created_at": "2018-01-08T00:13:09.223Z",
+  "updated_at": "2018-01-08T00:17:00.174Z",
   "tags_info": {
     "resolved_terms": [
       {

@@ -1,5 +1,5 @@
 {
-  "_id": "5a4e0a77273ec50001638687",
+  "_id": "5a52b3eb79449000014eb9fb",
   "station_id": "5a37e71ba546db0001547681",
   "name": "Wind Gust mph Quail Ridge Min",
   "source_type": "sensor",
@@ -26,8 +26,8 @@
     "ds_Variable_Speed",
     "dt_Unit_MilePerHour"
   ],
-  "created_at": "2018-01-04T11:05:27.750Z",
-  "updated_at": "2018-01-04T11:07:08.328Z",
+  "created_at": "2018-01-08T00:13:09.623Z",
+  "updated_at": "2018-01-08T00:17:00.410Z",
   "tags_info": {
     "resolved_terms": [
       {

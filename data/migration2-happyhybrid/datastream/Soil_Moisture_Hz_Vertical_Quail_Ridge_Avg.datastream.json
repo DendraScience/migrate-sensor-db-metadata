@@ -1,5 +1,5 @@
 {
-  "_id": "5a4e0a76273ec5000163867a",
+  "_id": "5a52b79479449000014eba03",
   "name": "Soil Moisture Hz Vertical Quail Ridge Avg",
   "station_id": "5a37e71ba546db0001547681",
   "description": "Soil moisture measurement using TDR (hertz) and converted to percent volumetric water content.",
@@ -29,8 +29,8 @@
   "source_type": "sensor",
   "state": "ready",
   "enabled": true,
-  "created_at": "2018-01-04T11:05:26.922Z",
-  "updated_at": "2018-01-04T11:07:07.512Z",
+  "created_at": "2018-01-08T00:13:08.302Z",
+  "updated_at": "2018-01-08T00:16:59.463Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -102,7 +102,7 @@
     },
     {
       "key": "att",
-      "str": "de27806ca208d41a54c0c7ac2050378fd55eae70"
+      "str": "bb6e07d58f94078c02cafaeda007b575a71586a5"
     },
     {
       "key": "geo",
