@@ -1,5 +1,5 @@
 {
-  "_id": "58e6cc18df5ce6000126075a",
+  "_id": "5a78e933f55c4b0001ed0285",
   "station_id": "5a37e71ba546db0001547681",
   "name": "Barometric Pressure mbar Quail Ridge Avg Seasonal Minimum",
   "external_refs": [
@@ -33,7 +33,8 @@
     "ds_Variable_BarometricPressure",
     "dt_Unit_Millibar"
   ],
-  "updated_at": "2017-12-22T00:27:21.837Z",
+  "updated_at": "2018-02-05T23:32:21.788Z",
+  "created_at": "2018-02-05T23:30:59.467Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -125,6 +126,5 @@
       "scheme_id": "dt"
     }
   ],
-  "created_at": "2017-12-21T18:20:06.847Z",
   "_include": []
 }

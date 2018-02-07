@@ -249,7 +249,7 @@ SELECT
   ( SELECT `dendra_map_variables_tags`.`tag`
     FROM `dendra_map_variables_tags`
     WHERE `dendra_map_variables_tags`.`VariableCode` = `datastreams`.`VariableCode`
-    ORDER BY `dendra_map_variables_tags`.`tag` LIMIT 1 OFFSET 1
+    ORDER BY `dendra_map_variables_tags`.`tag` LIMIT 1 OFFSET 2
     ) AS `tags$2`,
   ( SELECT `dendra_map_variables_tags`.`tag`
     FROM `dendra_map_variables_tags`

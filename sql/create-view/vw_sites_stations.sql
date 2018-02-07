@@ -20,17 +20,25 @@ SELECT
   `stations`.`StationName` AS `StationName`,
   `stations`.`MC_Name` AS `MC_Name`,
   `m`.`organization_id` AS `organization_id`,
+  `m`.`slug` AS `organization_slug`,
+  `m`.`transfer_metadata` AS `transfer_metadata`, 
   `stations`.`DataLogger` AS `DataLogger`,
   `stations`.`TimeIntervalForUpdate` AS `TimeIntervalForUpdate`,
   `stations`.`TimeUnitsName` AS `TimeUnitsName`,
   `stations`.`FileName` AS `FileName`,
   `stations`.`Comments` AS `stations_Comments`,
-  `stations`.`Contact` AS `Contact`
+  `stations`.`Contact` AS `Contact`,
+  CONCAT("http://sensor.berkeley.edu/cgi/sensor_show_tables?Access=4.00&username=Guest+User&MC_Name=",
+    REPLACE(`stations`.`MC_Name`,' ','+'),
+    "&table=stations&name=",
+    REPLACE(`stations`.`StationName`,' ','+')
+  ) AS url 
 FROM `sites`
   INNER JOIN `stations` ON `sites`.`SiteCode` = `stations`.`SiteCode`, 
-  dendra_map_mcollections_organizations as m 
+  `dendra_map_mcollections_organizations` as `m` 
 WHERE
-  stations.MC_Name = m.MC_Name
+  `stations`.`MC_Name` = `m`.`MC_Name` AND
+  `m`.`transfer_metadata` = 1
 ;
 
 -- Code to get organization_id

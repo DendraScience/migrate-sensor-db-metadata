@@ -8,6 +8,11 @@ SELECT
   -- "deactivated_at": "2017-05-28T09:50:23.106Z",
 
   -- ----------------------------
+  -- "description": "station is mid-slope at Rivendell research site.  Primarily for wells and soil moisture. Has four enclosures for TDRs.",
+  -- NOT IN SCHEMA YET 
+  -- CONCAT(stations_comments,"\n",sites_comments) as `description`,
+
+  -- ----------------------------
   -- "enabled": true,
 
   'true' AS `enabled`,
@@ -19,6 +24,8 @@ SELECT
   --     "url": "http://sensor.berkeley.edu/index_ucnrs.html"
   --   }
   -- ],
+  "Sensor database" AS `external_links$0$title`,
+  `vw_sites_stations`.`url` AS `external_links$0$url`,
 
   -- ----------------------------
   -- "external_refs": [
@@ -630,13 +637,15 @@ SELECT
   -- ----------------------------
   -- "organization_id": "592f155746a1b867a114e030",
 
-  `dendra_map_stations_organizations`.`organization_id` AS `organization_id`,
+  `vw_sites_stations`.`organization_id` AS `organization_id`,
+  `vw_sites_stations`.`organization_slug` AS `organization_slug`,  
 
   -- ----------------------------
   -- "place_id": "592f155746a1b867a114e050",
 
   -- ----------------------------
   -- "slug": "blue-oak-ranch",
+  LOWER(REPLACE(REPLACE(`vw_sites_stations`.`StationName`,' ','-'),'_',''))  AS `slug`,
 
   -- ----------------------------
   -- "station_type": "weather",
@@ -659,7 +668,6 @@ SELECT
   '-28800' AS `utc_offset`
 
 FROM `vw_sites_stations`
-  LEFT JOIN `dendra_map_stations_organizations`
-    ON `vw_sites_stations`.`StationID` = `dendra_map_stations_organizations`.`StationID`
--- WHERE `vw_sites_stations`.`StationID` IN (SELECT StationID FROM dendra_map_stations_media)
+--  INNER JOIN `dendra_map_stations_media` ON `vw_sites_stations`.`StationID` = (SELECT StationID FROM dendra_map_stations_media)
+WHERE `transfer_metadata` = 1 
 ;

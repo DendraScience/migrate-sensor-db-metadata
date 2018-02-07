@@ -1,5 +1,5 @@
 {
-  "_id": "58e6cc1bdf5ce600012609d2",
+  "_id": "5a78e933f55c4b0001ed0287",
   "station_id": "5a37e71ba546db0001547681",
   "name": "Precipitation in Quail Ridge Seasonal Cumulative",
   "external_refs": [
@@ -33,7 +33,8 @@
     "ds_Variable_Height",
     "dt_Unit_Inch"
   ],
-  "updated_at": "2017-12-22T00:27:22.014Z",
+  "updated_at": "2018-02-05T23:32:21.858Z",
+  "created_at": "2018-02-05T23:30:59.535Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -125,6 +126,5 @@
       "scheme_id": "dt"
     }
   ],
-  "created_at": "2017-12-21T18:20:30.709Z",
   "_include": []
 }

@@ -1,5 +1,5 @@
 {
-  "_id": "58e6cc19df5ce60001260837",
+  "_id": "5a78e934f55c4b0001ed0296",
   "tags": [
     "ds_Aggregate_Average",
     "ds_Function_Seasonal",
@@ -39,7 +39,8 @@
       "value": 8
     }
   },
-  "updated_at": "2017-12-22T00:27:22.742Z",
+  "updated_at": "2018-02-05T23:32:22.385Z",
+  "created_at": "2018-02-05T23:31:00.041Z",
   "attributes_info": {
     "sort": {
       "value1": 8,
@@ -138,6 +139,5 @@
       "scheme_id": "dt"
     }
   ],
-  "created_at": "2017-12-21T18:20:15.344Z",
   "_include": []
 }

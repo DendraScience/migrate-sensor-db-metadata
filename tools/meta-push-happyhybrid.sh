@@ -8,5 +8,5 @@ den meta push-organizations --filespec=../data/migration2-happyhybrid/organizati
 den meta push-stations --filespec=../data/migration1-preview/station/*
 den meta push-stations --filespec=../data/migration2-happyhybrid/station/quail-ridge.station.json
 den meta push-datastreams --filespec=../data/migration1-preview/datastream/*
-den meta push-datastreams --filespec=../data/migration2-happyhybrid/datastream/*
+#den meta push-datastreams --filespec=../data/migration2-happyhybrid/datastream/*
 

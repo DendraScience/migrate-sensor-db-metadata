@@ -1,0 +1,112 @@
+{
+  "station_id": "5a37e71ba546db0001547681",
+  "name": "Relative Humidity Per Quail Ridge Avg",
+  "source_type": "sensor",
+  "state": "ready",
+  "enabled": true,
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "db": "station_quail_ridge",
+          "sc": "\"time\", \"RH_pct_Avg\"",
+          "fc": "ten_minute_data",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2017-06-07T13:00:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "description": "TBD",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Air",
+    "ds_Variable_Moisture",
+    "dt_Unit_Percent"
+  ],
+  "updated_at": "2017-12-22T00:27:22.239Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      },
+      {
+        "label": "Air",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Moisture",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "%",
+        "label": "Percent",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-aggregate"
+      },
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "f26094889cb1fcec3ada1bf103d44d6247707986"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "c7b88088f30b08b2058fcbcce9dd01a7cf8b6d68",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "2734b26dc0ddea857c1c6f650f5735cc8bb660eb",
+      "scheme_id": "dt"
+    }
+  ],
+  "created_at": "2017-12-21T18:19:56.757Z",
+  "_include": []
+}
