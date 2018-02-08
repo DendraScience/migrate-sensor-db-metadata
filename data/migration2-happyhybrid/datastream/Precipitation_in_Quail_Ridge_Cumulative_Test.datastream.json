@@ -1,4 +1,5 @@
 {
+  "_id": "5a78e901f55c4b0001ed025e",
   "station_id": "5a37e71ba546db0001547681",
   "name": "Precipitation in Quail Ridge Cumulative Test",
   "source_type": "sensor",
@@ -31,9 +32,8 @@
     "ds_Variable_Height",
     "dt_Unit_Inch"
   ],
-  "created_at": "2018-02-08T15:56:36.798Z",
-  "updated_at": "2018-02-08T15:56:36.798Z",
-  "_id": "5a78e901f55c4b0001ed025e",
+  "created_at": "2018-02-08T16:19:09.291Z",
+  "updated_at": "2018-02-08T19:32:33.550Z",
   "tags_info": {
     "resolved_terms": [
       {

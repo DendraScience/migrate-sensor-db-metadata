@@ -1,42 +1,41 @@
 {
-  "_id": "5a78e901f55c4b0001ed025f",
-  "station_id": "5a37e71ba546db0001547681",
-  "name": "Precipitation in Quail Ridge",
-  "source_type": "sensor",
-  "state": "ready",
-  "enabled": true,
+  "name": "Precipitation mm Rancho Marino,2011-02-01 13:40:00",
+  "station_id": "58e68cacdf5ce600012602c7",
+  "description": "TBD",
+  "tags": [
+    "ds_Medium_Precipitation",
+    "ds_Variable_Precipitation",
+    "dt_Unit_Millimeter"
+  ],
+  "external_refs": [
+    {
+      "identifier": "3642",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "345",
+      "type": "odm.stations.stationid"
+    }
+  ],
   "datapoints_config": [
     {
       "params": {
         "query": {
-          "db": "station_quail_ridge",
-          "sc": "\"time\", \"PCPN_in_Tot\"",
-          "fc": "ten_minute_data",
-          "utc_offset": -28800
+          "datastream_id": 3642,
+          "compact": true,
+          "time_adjust": -28800
         }
       },
-      "begins_at": "2017-06-07T13:00:00.000Z",
-      "path": "/influx/select"
+      "path": "/legacy/datavalues-ucnrs"
     }
   ],
-  "description": "TBD",
-  "tags": [
-    "ds_Aggregate_Cumulative",
-    "ds_Medium_Precipitation",
-    "ds_Variable_Height",
-    "dt_Unit_Inch"
-  ],
-  "updated_at": "2018-02-08T19:32:33.589Z",
-  "created_at": "2018-02-08T16:19:09.322Z",
+  "source_type": "sensor",
+  "state": "ready",
+  "enabled": true,
+  "created_at": "2018-02-08T19:32:34.200Z",
+  "updated_at": "2018-02-08T19:32:34.200Z",
   "tags_info": {
     "resolved_terms": [
-      {
-        "label": "Cumulative",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      },
       {
         "label": "Precipitation",
         "scheme_id": "ds",
@@ -45,15 +44,15 @@
         "vocabulary_label": "Medium"
       },
       {
-        "label": "Height",
+        "label": "Precipitation",
         "scheme_id": "ds",
         "scheme_priority": 10,
         "vocabulary_id": "ds-variable",
         "vocabulary_label": "Variable"
       },
       {
-        "abbreviation": "in",
-        "label": "Inch",
+        "abbreviation": "mm",
+        "label": "Millimeter",
         "scheme_id": "dt",
         "scheme_priority": 10,
         "vocabulary_id": "dt-unit",
@@ -63,7 +62,7 @@
     "scheme_refs": [
       {
         "_id": "ds",
-        "tag_count": 3
+        "tag_count": 2
       },
       {
         "_id": "dt",
@@ -71,9 +70,6 @@
       }
     ],
     "vocabulary_refs": [
-      {
-        "_id": "ds-aggregate"
-      },
       {
         "_id": "ds-medium"
       },
@@ -88,7 +84,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "f26094889cb1fcec3ada1bf103d44d6247707986"
+      "str": "263cb79ec7094fba98156cc3005be4a141866ab6"
     },
     {
       "key": "att",
@@ -100,14 +96,15 @@
     },
     {
       "key": "tag",
-      "str": "04f5587b5d2fd49636f4ef115a40c0d02bfa4a78",
+      "str": "2abdf136524d4e4541a8884e8af6a68982a90c31",
       "scheme_id": "ds"
     },
     {
       "key": "tag",
-      "str": "69326d87e5be97ef77d163580a7947cca3e81447",
+      "str": "b0c7386b883ea89804e8613181308a0d15033964",
       "scheme_id": "dt"
     }
   ],
+  "_id": "5a7ca5d2610afd00019f3d5b",
   "_include": []
 }
