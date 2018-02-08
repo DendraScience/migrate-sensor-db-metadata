@@ -31,8 +31,9 @@
       "value": 8
     }
   },
-  "created_at": "2018-02-05T23:30:10.592Z",
-  "updated_at": "2018-02-05T23:30:10.592Z",
+  "created_at": "2018-02-08T15:56:37.814Z",
+  "updated_at": "2018-02-08T15:56:37.814Z",
+  "_id": "5a78e902f55c4b0001ed0272",
   "attributes_info": {
     "sort": {
       "value1": 8,
@@ -121,6 +122,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a78e902f55c4b0001ed0272",
   "_include": []
 }

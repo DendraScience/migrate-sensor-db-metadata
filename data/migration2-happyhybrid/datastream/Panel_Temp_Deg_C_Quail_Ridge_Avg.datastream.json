@@ -28,8 +28,9 @@
   "attributes": {
     "text": "CR1000 Logger"
   },
-  "created_at": "2018-02-05T23:30:09.789Z",
-  "updated_at": "2018-02-05T23:30:09.789Z",
+  "created_at": "2018-02-08T15:56:36.601Z",
+  "updated_at": "2018-02-08T15:56:36.601Z",
+  "_id": "5a78e901f55c4b0001ed025a",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -118,6 +119,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a78e901f55c4b0001ed025a",
   "_include": []
 }

@@ -1,0 +1,122 @@
+{
+  "name": "Battery Voltage volts Anza Borrego Min",
+  "station_id": "58e68cabdf5ce600012602b4",
+  "description": "TBD",
+  "tags": [
+    "ds_Aggregate_Minimum",
+    "ds_Medium_Battery",
+    "ds_Variable_Voltage",
+    "dt_Unit_Volt"
+  ],
+  "external_refs": [
+    {
+      "identifier": "4011",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "357",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "datastream_id": 4011,
+          "compact": true,
+          "time_adjust": -28800
+        }
+      },
+      "begins_at": "2013-04-30 13:40:00",
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "source_type": "sensor",
+  "state": "ready",
+  "enabled": true,
+  "created_at": "2018-02-08T15:56:35.657Z",
+  "updated_at": "2018-02-08T15:56:35.657Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Minimum",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      },
+      {
+        "label": "Battery",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Voltage",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "V",
+        "label": "Volt",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-aggregate"
+      },
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "4bdc6de531c9958b1d5d373802bcfd01ba12f8b9"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "25651c9b5831cff917156ce2a3b0a18599130653",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "0d253c13e10350db516b0a0d7684f951c8d84985",
+      "scheme_id": "dt"
+    }
+  ],
+  "_id": "5a7c7333772cfb0001e4c61e",
+  "_include": []
+}

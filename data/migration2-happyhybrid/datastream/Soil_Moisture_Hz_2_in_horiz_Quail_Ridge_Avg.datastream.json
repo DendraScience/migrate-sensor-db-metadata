@@ -32,8 +32,9 @@
     },
     "orientation": "horizontal"
   },
-  "created_at": "2018-02-05T23:30:10.113Z",
-  "updated_at": "2018-02-05T23:30:10.113Z",
+  "created_at": "2018-02-08T15:56:37.094Z",
+  "updated_at": "2018-02-08T15:56:37.094Z",
+  "_id": "5a78e902f55c4b0001ed0264",
   "attributes_info": {
     "sort": {
       "value1": 2,
@@ -122,6 +123,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a78e902f55c4b0001ed0264",
   "_include": []
 }

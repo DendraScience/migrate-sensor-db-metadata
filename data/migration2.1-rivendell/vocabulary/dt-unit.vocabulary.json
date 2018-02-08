@@ -39,7 +39,8 @@
     },
     {
       "abbreviation": "dBm",
-      "label": "Decibel-Milliwatt"
+      "label": "DecibelMilliwatt",
+      "name": "Decibel-Milliwatt"
     },
     {
       "abbreviation": "dS/m",

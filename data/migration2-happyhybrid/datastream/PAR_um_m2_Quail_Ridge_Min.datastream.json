@@ -25,8 +25,9 @@
     "ds_Variable_PhotosyntheticallyActiveRadiation",
     "dt_Unit_Micromole"
   ],
-  "created_at": "2018-02-05T23:30:09.879Z",
-  "updated_at": "2018-02-05T23:30:09.879Z",
+  "created_at": "2018-02-08T15:56:36.747Z",
+  "updated_at": "2018-02-08T15:56:36.747Z",
+  "_id": "5a78e901f55c4b0001ed025d",
   "tags_info": {
     "resolved_terms": [
       {
@@ -108,6 +109,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a78e901f55c4b0001ed025d",
   "_include": []
 }
