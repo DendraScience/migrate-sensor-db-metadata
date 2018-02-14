@@ -1,6 +1,6 @@
 {
-  "name": "Precipitation mm Chickering",
-  "station_id": "58e68cabdf5ce600012602bc",
+  "name": "Precipitation mm BigCreek Gatehouse",
+  "station_id": "58e68cabdf5ce600012602b5",
   "description": "TBD",
   "tags": [
     "ds_Medium_Precipitation",
@@ -9,11 +9,11 @@
   ],
   "external_refs": [
     {
-      "identifier": "3491",
+      "identifier": "4244",
       "type": "odm.datastreams.datastreamid"
     },
     {
-      "identifier": "339",
+      "identifier": "348",
       "type": "odm.stations.stationid"
     }
   ],
@@ -21,7 +21,7 @@
     {
       "params": {
         "query": {
-          "datastream_id": 3491,
+          "datastream_id": 4244,
           "compact": true,
           "time_adjust": -28800
         }
@@ -32,8 +32,8 @@
   "source_type": "sensor",
   "state": "ready",
   "enabled": true,
-  "created_at": "2018-02-08T19:32:33.865Z",
-  "updated_at": "2018-02-08T19:32:33.865Z",
+  "created_at": "2018-02-13T18:12:44.311Z",
+  "updated_at": "2018-02-13T18:12:44.311Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -84,7 +84,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "199a123339023d700ee108a5da2b7f5d90efcffc"
+      "str": "62b65685871c86ec1c616dcb04edda5543fb4b4a"
     },
     {
       "key": "att",
@@ -105,6 +105,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a7ca5d1610afd00019f3d51",
+  "_id": "5a832a9cb8277200015725f4",
   "_include": []
 }
