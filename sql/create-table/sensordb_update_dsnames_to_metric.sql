@@ -12,4 +12,8 @@ UPDATE datastreams_copy SET DatastreamName = REPLACE(DatastreamName, ' 4 in ', '
 UPDATE datastreams_copy SET DatastreamName = REPLACE(DatastreamName, ' 8 in ', ' 200 mm') WHERE INSTR(DatastreamName, ' 8 in ') > 0 AND mc_name = 'UCNRS';
 UPDATE datastreams_copy SET DatastreamName = REPLACE(DatastreamName, ' 20 in ', ' 500 mm') WHERE INSTR(DatastreamName, ' 20 in ') > 0 AND mc_name = 'UCNRS';
 
+UPDATE datastreams_copy SET DatastreamName = REPLACE(DatastreamName, ' 2 inch ', ' 50 mm') WHERE INSTR(DatastreamName, ' 2 inch ') > 0 AND StationName = 'South Meadow WS';
+UPDATE datastreams_copy SET DatastreamName = REPLACE(DatastreamName, ' 4 inch ', ' 100 mm') WHERE INSTR(DatastreamName, ' 4 inch ') > 0 AND StationName = 'South Meadow WS';
+UPDATE datastreams_copy SET DatastreamName = REPLACE(DatastreamName, ' 8 inch ', ' 200 mm') WHERE INSTR(DatastreamName, ' 8 inch ') > 0 AND StationName = 'South Meadow WS';
+UPDATE datastreams_copy SET DatastreamName = REPLACE(DatastreamName, ' 20 inch ', ' 500 mm') WHERE INSTR(DatastreamName, ' 20 inch ') > 0 AND StationName = 'South Meadow WS';
 
