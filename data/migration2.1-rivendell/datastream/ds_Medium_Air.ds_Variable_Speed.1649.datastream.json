@@ -1,0 +1,109 @@
+{
+  "enabled": true,
+  "name": "Wind Speed - WSHQ 30min",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "5a982615b21340000145f9da",
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 1649,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "1649",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "2",
+      "type": "odm.stations.StationID"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_Speed",
+    "dt_Unit_MeterPerSecond"
+  ],
+  "created_at": "2018-03-01T16:11:05.656Z",
+  "updated_at": "2018-03-01T16:11:05.656Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Air",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Speed",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "m/s",
+        "label": "MeterPerSecond",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "9b1e37068e370381e2763b53b248d697f575d7dd"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "4f299cb1b98488f0339f42c343b9d0e616bb5870",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "ed410d68f80e0ee139fcd18c842f80a8f3dcf437",
+      "scheme_id": "dt"
+    }
+  ],
+  "_id": "5a982619b21340000145fa2c",
+  "_include": []
+}

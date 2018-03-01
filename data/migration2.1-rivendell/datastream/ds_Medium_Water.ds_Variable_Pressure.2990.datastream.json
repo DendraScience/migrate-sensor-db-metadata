@@ -1,0 +1,125 @@
+{
+  "enabled": true,
+  "name": "FNS Water Pressure VMS_B6",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "5a982615b21340000145f9ef",
+  "attributes": {
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "range": [
+        8,
+        10
+      ]
+    }
+  },
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 2990,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "2990",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "332",
+      "type": "odm.stations.StationID"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Water",
+    "ds_Variable_Pressure",
+    "dt_Unit_Millibar"
+  ],
+  "created_at": "2018-03-01T16:11:36.078Z",
+  "updated_at": "2018-03-01T16:11:36.078Z",
+  "attributes_info": {
+    "sort": {
+      "value1": 8,
+      "value2": 2
+    },
+    "text": "8...10"
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Water",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Pressure",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "mb",
+        "label": "Millibar",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "8dcc7ba176f1d4f64fd443fc5a13ef0e902be95c"
+    },
+    {
+      "key": "att",
+      "str": "79a433ec2e919316b2a27c2a52c670b08b593147"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "5e35e7ca8a9cd343e5febdee3173521bfda9266c",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "f6e143fd7229fe4fb31a03055310db4b5f29e664",
+      "scheme_id": "dt"
+    }
+  ],
+  "_id": "5a982638b21340000145fde9",
+  "_include": []
+}

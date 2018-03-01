@@ -1,0 +1,109 @@
+{
+  "enabled": true,
+  "name": "Soil Moisture L3SM_2",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "5a982615b21340000145f9e4",
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 416,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "416",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "9",
+      "type": "odm.stations.StationID"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Soil",
+    "ds_Variable_Moisture",
+    "dt_Unit_Millivolt"
+  ],
+  "created_at": "2018-03-01T16:11:31.178Z",
+  "updated_at": "2018-03-01T16:11:31.178Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Soil",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Moisture",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "mV",
+        "label": "Millivolt",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "ec866d7763dc7a8a70fc7d5c61ec7b00a6040496"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "2ceeaf76cac23ed4d1f78af864db7fb15a54c676",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "c3f3cc3ed0f4887a2f21485ac834d57e1352a99a",
+      "scheme_id": "dt"
+    }
+  ],
+  "_id": "5a982633b21340000145fd4b",
+  "_include": []
+}

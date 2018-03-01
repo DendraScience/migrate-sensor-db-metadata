@@ -1,0 +1,109 @@
+{
+  "enabled": true,
+  "name": "CO2 Concentration ppm/10 Well10",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "5a982615b21340000145f9e4",
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 1679,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "1679",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "9",
+      "type": "odm.stations.StationID"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_Concentration",
+    "dt_Unit_PartPerMillion"
+  ],
+  "created_at": "2018-03-01T16:11:04.299Z",
+  "updated_at": "2018-03-01T16:11:04.299Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Air",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Concentration",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "ppm",
+        "label": "PartPerMillion",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "ec866d7763dc7a8a70fc7d5c61ec7b00a6040496"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "a3fd3e493d9b96ef4c9e4fc9869acb2937f444b9",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "b2787b56fbd22de22a2692960696333442755fc5",
+      "scheme_id": "dt"
+    }
+  ],
+  "_id": "5a982618b21340000145fa03",
+  "_include": []
+}

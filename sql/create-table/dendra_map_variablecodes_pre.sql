@@ -146,13 +146,13 @@ INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Water Temp C','ds_Medium_Wat
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Wind Direction Degrees','ds_Medium_Air','ds_Variable_Direction','dt_Unit_DegreeAngle','','');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Wind Direction Standard Deviation','ds_Medium_Air','ds_Variable_Direction','dt_Unit_DegreeAngle','ds_Aggregate_StandardDeviation','');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Wind Gust MS','ds_Medium_Air','ds_Variable_Speed','dt_Unit_MeterPerSecond','','');
-INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Wind Speed Avg MPH','ds_Medium_Air','ds_Variable_Speed','dt_Unit_MilesPerHour','ds_Aggregate_Average','');
+INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Wind Speed Avg MPH','ds_Medium_Air','ds_Variable_Speed','dt_Unit_MilePerHour','ds_Aggregate_Average','');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Wind Speed Avg MS','ds_Medium_Air','ds_Variable_Speed','dt_Unit_MeterPerSecond','ds_Aggregate_Average','');
-INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Wind Speed Max MPH','ds_Medium_Air','ds_Variable_Speed','dt_Unit_MilesPerHour','ds_Aggregate_Maximum','');
+INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Wind Speed Max MPH','ds_Medium_Air','ds_Variable_Speed','dt_Unit_MilePerHour','ds_Aggregate_Maximum','');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Wind Speed Max MS','ds_Medium_Air','ds_Variable_Speed','dt_Unit_MeterPerSecond','ds_Aggregate_Maximum','');
-INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Wind Speed Min MPH','ds_Medium_Air','ds_Variable_Speed','dt_Unit_MilesPerHour','ds_Aggregate_Minimum','');
+INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Wind Speed Min MPH','ds_Medium_Air','ds_Variable_Speed','dt_Unit_MilePerHour','ds_Aggregate_Minimum','');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Wind Speed Min MS','ds_Medium_Air','ds_Variable_Speed','dt_Unit_MeterPerSecond','ds_Aggregate_Minimum','');
-INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Wind Speed Stdev MPH','ds_Medium_Air','ds_Variable_Speed','dt_Unit_MilesPerHour','ds_Aggregate_StandardDeviation','');
+INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Wind Speed Stdev MPH','ds_Medium_Air','ds_Variable_Speed','dt_Unit_MilePerHour','ds_Aggregate_StandardDeviation','');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Wind Speed Stdev MS','ds_Medium_Air','ds_Variable_Speed','dt_Unit_MeterPerSecond','ds_Aggregate_StandardDeviation','');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Wind Vector Magnitude MS','ds_Medium_Air','ds_Variable_Speed','dt_Unit_MeterPerSecond','','vector');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Wind Vector Speed m s','ds_Medium_Air','ds_Variable_Speed','dt_Unit_MeterPerSecond','','vector');

@@ -130,11 +130,16 @@ SELECT
   -- ],
 
   -- NULL AS `datapoints_config$0$begins_at`,
-  'true' AS `datapoints_config$0$params$query$compact`,
+  "true" AS `datapoints_config$0$params$query$compact`,
   `datastreams`.`DatastreamID` AS `datapoints_config$0$params$query$datastream_id`,
   -28800 AS `datapoints_config$0$params$query$time_adjust`,
-  '/legacy/datavalues-ucnrs' AS `datapoints_config$0$path`,
-
+  
+  -- path to table is dependent on the organization
+  -- '/legacy/datavalues-ucnrs' AS `datapoints_config$0$path`,
+  ( SELECT CONCAT('/legacy/',`dendra_map_mcollections_organizations`.`legacy_path`) 
+    FROM `dendra_map_mcollections_organizations`  
+    WHERE `dendra_map_mcollections_organizations`.`MC_Name` = `datastreams`.`MC_Name`
+  ) AS `datapoints_config$0$path`,
   -- ----------------------------
   -- "derivation_description": "Calculated server-side based on the Celsius datastream.",
 
@@ -149,7 +154,7 @@ SELECT
   -- ----------------------------
   -- "enabled": true,
 
-  'true' AS `enabled`,
+  "true" AS `enabled`,
 
   -- ----------------------------
   -- "external_refs": [
@@ -164,10 +169,10 @@ SELECT
   --   }
   -- ],
 
-  `datastreams`.`DatastreamID` AS `external_refs$0$identifier`,
+  CAST(`datastreams`.`DatastreamID` AS CHAR(50)) AS `external_refs$0$identifier`,
   'odm.datastreams.DatastreamID' AS `external_refs$0$type`,
 
-  `datastreams`.`StationID` AS `external_refs$1$identifier`,
+  CAST(`datastreams`.`StationID` AS CHAR(50)) AS `external_refs$1$identifier`,
   'odm.stations.StationID' AS `external_refs$1$type`,
 
   -- ----------------------------
@@ -236,36 +241,36 @@ SELECT
   --   "dt_Unit_DegreeFahrenheit"
   -- ],
 
-  ( SELECT `dendra_map_variables_tags`.`tag`
-    FROM `dendra_map_variables_tags`
-    WHERE `dendra_map_variables_tags`.`VariableCode` = `datastreams`.`VariableCode`
-    ORDER BY `dendra_map_variables_tags`.`tag` LIMIT 1 OFFSET 0
-    ) AS `tags$0`,
+  -- ( SELECT `dendra_map_variables_tags`.`tag`
+  --   FROM `dendra_map_variables_tags`
+  --   WHERE `dendra_map_variables_tags`.`VariableCode` = `datastreams`.`VariableCode`
+  --   ORDER BY `dendra_map_variables_tags`.`tag` LIMIT 1 OFFSET 0
+  --   ) AS `tags$0`,
   ( SELECT `dendra_map_variables_tags`.`tag`
     FROM `dendra_map_variables_tags`
     WHERE `dendra_map_variables_tags`.`VariableCode` = `datastreams`.`VariableCode`
     ORDER BY `dendra_map_variables_tags`.`tag` LIMIT 1 OFFSET 1
-    ) AS `tags$1`,
+    ) AS `tags$0`,
   ( SELECT `dendra_map_variables_tags`.`tag`
     FROM `dendra_map_variables_tags`
     WHERE `dendra_map_variables_tags`.`VariableCode` = `datastreams`.`VariableCode`
     ORDER BY `dendra_map_variables_tags`.`tag` LIMIT 1 OFFSET 2
-    ) AS `tags$2`,
+    ) AS `tags$1`,
   ( SELECT `dendra_map_variables_tags`.`tag`
     FROM `dendra_map_variables_tags`
     WHERE `dendra_map_variables_tags`.`VariableCode` = `datastreams`.`VariableCode`
     ORDER BY `dendra_map_variables_tags`.`tag` LIMIT 1 OFFSET 3
-    ) AS `tags$3`,
+    ) AS `tags$2`,
   ( SELECT `dendra_map_variables_tags`.`tag`
     FROM `dendra_map_variables_tags`
     WHERE `dendra_map_variables_tags`.`VariableCode` = `datastreams`.`VariableCode`
     ORDER BY `dendra_map_variables_tags`.`tag` LIMIT 1 OFFSET 4
-    ) AS `tags$4`,
+    ) AS `tags$3`,
   ( SELECT `dendra_map_variables_tags`.`tag`
     FROM `dendra_map_variables_tags`
     WHERE `dendra_map_variables_tags`.`VariableCode` = `datastreams`.`VariableCode`
     ORDER BY `dendra_map_variables_tags`.`tag` LIMIT 1 OFFSET 5
-    ) AS `tags$5`
+    ) AS `tags$4`
 
   -- ----------------------------
   -- "thing_id": "592f155746a1b867a114e070",
@@ -277,6 +282,8 @@ SELECT
   --     "url": "https://en.wikipedia.org/wiki/Conversion_of_units_of_temperature"
   --   }
   -- ]
-
-FROM `datastreams`
+FROM `datastreams`, `dendra_map_mcollections_organizations` 
+WHERE 
+  `datastreams`.`MC_Name` = `dendra_map_mcollections_organizations`.`MC_Name` AND
+  `dendra_map_mcollections_organizations`.`transfer_metadata` = 1
 ;

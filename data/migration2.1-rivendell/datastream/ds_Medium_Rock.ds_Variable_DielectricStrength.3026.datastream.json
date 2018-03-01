@@ -1,0 +1,124 @@
+{
+  "enabled": true,
+  "name": "Permitivity no calib VMS_A2",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "5a982615b21340000145f9ef",
+  "attributes": {
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "range": [
+        4,
+        4
+      ]
+    }
+  },
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3026,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3026",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "332",
+      "type": "odm.stations.StationID"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Rock",
+    "ds_Variable_DielectricStrength",
+    "dt_Unit_Dimensionless"
+  ],
+  "created_at": "2018-03-01T16:11:14.734Z",
+  "updated_at": "2018-03-01T16:11:14.734Z",
+  "attributes_info": {
+    "sort": {
+      "value1": 4,
+      "value2": 0
+    },
+    "text": "4...4"
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Rock",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "DielectricStrength",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "label": "Dimensionless",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "8dcc7ba176f1d4f64fd443fc5a13ef0e902be95c"
+    },
+    {
+      "key": "att",
+      "str": "40d1ed44ac3e6e303baf4bb9d9a2e98538ea628e"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "0f1da05bf282c3f64a50e810606bedb776afad6a",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "bc6194f65d6298e5bbbc77877d576f7d7eb0a93e",
+      "scheme_id": "dt"
+    }
+  ],
+  "_id": "5a982622b21340000145fb46",
+  "_include": []
+}

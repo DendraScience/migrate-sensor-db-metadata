@@ -14,21 +14,21 @@ den meta push-uoms --filespec=../data/migration2.1-rivendell/uom/*
 
 # Org and place can change but haven't
 den meta push-places --filespec=../data/migration2-happyhybrid/place/*
-den meta push-places --filespec=../data/migration2.1-rivendell/place/*
+den meta push-places --filespec=../data/migration2.1-rivendell/place/* --save
 
 den meta push-organizations --filespec=../data/migration2-happyhybrid/organization/*
-den meta push-organizations --filespec=../data/migration2.1-rivendell/organization/*
+den meta push-organizations --filespec=../data/migration2.1-rivendell/organization/* --save
 
 
 # vocabulary, stations, datastreams
 den meta push-vocabularies --filespec=../data/migration2-happyhybrid/vocabulary/*
-den meta push-vocabularies --filespec=../data/migration2.1-rivendell/vocabulary/*
+den meta push-vocabularies --filespec=../data/migration2.1-rivendell/vocabulary/* --save
 
 den meta push-stations --filespec=../data/migration1-preview/station/*
 den meta push-stations --filespec=../data/migration2-happyhybrid/station/quail-ridge.station.json
-den meta push-stations --filespec=../data/migration2.1-rivendell/*
+den meta push-stations --filespec=../data/migration2.1-rivendell/station/* --save
 
 den meta push-datastreams --filespec=../data/migration1-preview/datastream/*
 den meta push-datastreams --filespec=../data/migration2-happyhybrid/datastream/*
-den meta push-datastreams --filespec=../data/migration2.1-rivendell/datastream/*
+den meta push-datastreams --filespec=../data/migration2.1-rivendell/datastream/* --save
 

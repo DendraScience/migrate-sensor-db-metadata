@@ -15,7 +15,7 @@ SELECT
   -- ----------------------------
   -- "enabled": true,
 
-  'true' AS `enabled`,
+  "true" AS `enabled`,
 
   -- ----------------------------
   -- "external_links": [
@@ -36,7 +36,7 @@ SELECT
   --   }
   -- ],
 
-  `vw_sites_stations`.`StationID` AS `external_refs$0$identifier`,
+  CAST(`vw_sites_stations`.`StationID` AS CHAR(50)) AS `external_refs$0$identifier`,
   'odm.station.StationID' AS `external_refs$0$type`,
   CONCAT('file://', `vw_sites_stations`.`FileName`) AS `external_refs$0$url`,
 
@@ -61,12 +61,12 @@ SELECT
   -- ----------------------------
   -- "is_active": true,
 
-  'true' AS `is_active`,
+  "true" AS `is_active`,
 
   -- ----------------------------
   -- "is_stationary": true,
 
-  'true' AS `is_stationary`,
+  "true" AS `is_stationary`,
 
   -- ----------------------------
   -- "media": [
@@ -638,7 +638,7 @@ SELECT
   -- "organization_id": "592f155746a1b867a114e030",
 
   `vw_sites_stations`.`organization_id` AS `organization_id`,
-  `vw_sites_stations`.`organization_slug` AS `organization_slug`,  
+  -- `vw_sites_stations`.`organization_slug` AS `organization_slug`,  
 
   -- ----------------------------
   -- "place_id": "592f155746a1b867a114e050",
@@ -665,7 +665,7 @@ SELECT
   -- ----------------------------
   -- "utc_offset": -28800
 
-  '-28800' AS `utc_offset`
+  -28800 AS `utc_offset`
 
 FROM `vw_sites_stations`
 --  INNER JOIN `dendra_map_stations_media` ON `vw_sites_stations`.`StationID` = (SELECT StationID FROM dendra_map_stations_media)

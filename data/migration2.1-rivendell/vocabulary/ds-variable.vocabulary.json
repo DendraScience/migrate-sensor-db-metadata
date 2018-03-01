@@ -8,7 +8,7 @@
       "name": "Barometric Pressure"
     },
     {
-      "label":"Concentration"
+      "label": "Concentration"
     },
     {
       "label": "Count"
@@ -33,16 +33,16 @@
       "label": "Duration"
     },
     {
-      "label":"ElectricCurrent",
-      "name":"Electric Current"
+      "label": "ElectricCurrent",
+      "name": "Electric Current"
     },
     {
-      "label":"ElectricalResistance",
-      "name":"Electrical Resistance"
+      "label": "ElectricalResistance",
+      "name": "Electrical Resistance"
     },
     {
-      "label":"ElectricalConductivity",
-      "name":"Electrical Conductivity"
+      "label": "ElectricalConductivity",
+      "name": "Electrical Conductivity"
     },
     {
       "label": "Evapotranspiration"
@@ -57,21 +57,21 @@
       "label": "Moisture"
     },
     {
-      "label":"NetRadiation",
-      "name":"Net Radiation"
+      "label": "NetRadiation",
+      "name": "Net Radiation"
     },
     {
       "label": "PhotosyntheticallyActiveRadiation",
       "name": "Photosynthetically Active Radiation"
     },
     {
-      "label":"Power"
+      "label": "Power"
     },
     {
       "label": "Precipitation"
     },
     {
-      "label":"Pressure"
+      "label": "Pressure"
     },
     {
       "label": "RelativeHumidity",
@@ -81,8 +81,8 @@
       "label": "Radiation"
     },
     {
-      "label":"RadioTransmission",
-      "name":"Radio Transmission"
+      "label": "RadioTransmission",
+      "name": "Radio Transmission"
     },
     {
       "label": "Speed"
@@ -97,11 +97,11 @@
       "label": "Turbidity"
     },
     {
-      "label":"Unknown"
+      "label": "Unknown"
     },
     {
       "label": "VaporPressure",
-      "name":"Vapor Pressure"
+      "name": "Vapor Pressure"
     },
     {
       "label": "VaporPressureDeficit",
@@ -123,5 +123,7 @@
       "label": "VolumetricWaterContent",
       "name": "Volumetric Water Content"
     }
-  ]
+  ],
+  "updated_at": "2018-03-01T16:11:00.701Z",
+  "created_at": "2018-03-01T16:11:00.152Z"
 }
