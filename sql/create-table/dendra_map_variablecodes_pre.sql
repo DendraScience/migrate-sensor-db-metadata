@@ -60,7 +60,7 @@ INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Electrical Conductivity dS/m
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Electrical Current mA','ds_Medium_Not Applicable','ds_Variable_ElectricCurrent','dt_Unit_Milliamp','','');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Evapotranspiration','ds_Medium_Air','ds_Variable_Evapotranspiration','dt_Unit_Millimeter','','');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('External Voltage','ds_Medium_Instrument','ds_Variable_Voltage','dt_Unit_Volt','','external');
-INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Forward Power','ds_Medium_instrument','ds_Variable_RadioTransmission','dt_Unit_DecibelMilliwatt','','forward');
+INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Forward Power','ds_Medium_Instrument','ds_Variable_RadioTransmission','dt_Unit_DecibelMilliwatt','','forward');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Fuel Moisture Per Avg','ds_Medium_Instrument','ds_Variable_Moisture','dt_Unit_Percent','ds_Aggregate_Average','fuel');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Gage Height meters','ds_Medium_SurfaceWater','ds_Variable_Depth','dt_Unit_Meter','','');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('GEONOR GAUGE FREQ hz','ds_Medium_Precipitation','ds_Variable_Precipitation','dt_Unit_Hertz','','');
@@ -86,7 +86,7 @@ INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Rainfall Intensity mm/h','ds
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Rainfall mm','ds_Medium_Precipitation','ds_Variable_Precipitation','dt_Unit_Millimeter','','');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Rainfall Raw Hz','ds_Medium_Precipitation','ds_Variable_Precipitation','dt_Unit_Hertz','','');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Rainfall Raw Std Dev Hz','ds_Medium_Precipitation','ds_Variable_Precipitation','dt_Unit_Hertz','ds_Aggregate_StandardDeviation','');
-INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Raw Sensor Response','ds_Medium_Not Applicable','ds_Variable_Unknown','dt_Unit_Unknown','','');
+INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Raw Sensor Response','ds_Medium_Not Applicable','ds_Variable_Unknown','dt_Unit_Dimensionless','','');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Reflected Power','ds_Medium_Instrument','ds_Variable_RadioTransmission','dt_Unit_DecibelMilliwatt','','reflected');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Rel Humidity Per Avg','ds_Medium_Air','ds_Variable_RelativeHumidity','dt_Unit_Percent','ds_Aggregate_Average','');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Rel Humidity Per Max','ds_Medium_Air','ds_Variable_RelativeHumidity','dt_Unit_Percent','ds_Aggregate_Maximum','');
@@ -97,10 +97,10 @@ INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Rock Moisture Percent','ds_M
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Rock Temperature C','ds_Medium_Rock','ds_Variable_Temperature','dt_Unit_DegreeCelsius','','');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Sap Flow cm/hr','ds_Medium_Sap','ds_Variable_Flux','dt_Unit_CentimeterPerHour','','sap');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Sap Flow mV','ds_Medium_Sap','ds_Variable_Flux','dt_Unit_Millivolt','','sap');
-INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Sky Quality','ds_Medium_Air','ds_Variable_Visibility','dt_Unit_Unknown','','sky');
-INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Sky Quality Avg','ds_Medium_Air','ds_Variable_Visibility','dt_Unit_Unknown','ds_Aggregate_Average','sky');
-INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Sky Quality Max','ds_Medium_Air','ds_Variable_Visibility','dt_Unit_Unknown','ds_Aggregate_Maximum','sky');
-INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Sky Quality Min','ds_Medium_Air','ds_Variable_Visibility','dt_Unit_Unknown','ds_Aggregate_Minimum','sky');
+INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Sky Quality','ds_Medium_Air','ds_Variable_Visibility','dt_Unit_Dimensionless','','sky');
+INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Sky Quality Avg','ds_Medium_Air','ds_Variable_Visibility','dt_Unit_Dimensionless','ds_Aggregate_Average','sky');
+INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Sky Quality Max','ds_Medium_Air','ds_Variable_Visibility','dt_Unit_Dimensionless','ds_Aggregate_Maximum','sky');
+INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Sky Quality Min','ds_Medium_Air','ds_Variable_Visibility','dt_Unit_Dimensionless','ds_Aggregate_Minimum','sky');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Snow Depth cm','ds_Medium_Snow','ds_Variable_Depth','dt_Unit_Centimeter','','');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Snow Depth in.','ds_Medium_Snow','ds_Variable_Depth','dt_Unit_Inch','','');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Snow Depth Meters','ds_Medium_Snow','ds_Variable_Depth','dt_Unit_Meter','','');
@@ -136,7 +136,7 @@ INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Solar Radiation Total MJ/m^2
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Solar Radiation Total W/m^2','ds_Medium_Solar','ds_Variable_Radiation','dt_Unit_WattPerSquareMeter','','');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Solar Voltage','ds_Medium_Instrument','ds_Variable_Radiation','dt_Unit_Volt','','solar panel');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Turbidity NTU','ds_Medium_SurfaceWater','ds_Variable_Turbidity','dt_Unit_NephelometricTurbidityUnit','','');
-INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Unknown','ds_Medium_Unknown','ds_Variable_Unknown','dt_Unit_Unknown','','');
+INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Unknown','ds_Medium_Unknown','ds_Variable_Unknown','dt_Unit_Dimensionless','','');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Water Level m','ds_Medium_GroundWater','ds_Variable_Depth','dt_Unit_Meter','','');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Water Level Manual m','ds_Medium_GroundWater','ds_Variable_Depth','dt_Unit_Meter','','manual');
 INSERT INTO `dendra_map_variablecodes_pre` VALUES ('Water Pressure mbar','ds_Medium_Water','ds_Variable_Pressure','dt_Unit_Millibar','','');

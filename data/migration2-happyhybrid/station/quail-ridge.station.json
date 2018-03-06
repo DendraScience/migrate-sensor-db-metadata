@@ -5,6 +5,18 @@
   "slug": "quail-ridge",
   "utc_offset": -28800,
   "is_active": true,
+  "external_links": [
+    {
+      "title": "Quail Ridge Reserve",
+      "url": "https://naturalreserves.ucdavis.edu/quail-ridge-reserve"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "352",
+      "type": "odm.station.StationID"
+    }
+  ],
   "geo": {
     "type": "Point",
     "coordinates": [
@@ -15,12 +27,6 @@
   },
   "name": "Quail Ridge",
   "station_type": "weather",
-  "external_links": [
-    {
-      "title": "Quail Ridge Reserve",
-      "url": "https://naturalreserves.ucdavis.edu/quail-ridge-reserve"
-    }
-  ],
   "media": [
     {
       "type": "photo",

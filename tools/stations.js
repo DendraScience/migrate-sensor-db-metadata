@@ -36,6 +36,12 @@
 
 
 		{
+		    "_id" : "5a9cd13a18af1700013b1109",
+		    "name" : "BigCreek Caretaker",
+		    "station_id" : "349"
+		},
+
+		{
 		    "_id" : "58e68cabdf5ce600012602b5",
 		    "name" : "BigCreek Gatehouse",
 		    "station_id" : "348"
@@ -84,6 +90,12 @@
 		    "_id" : "58e68cabdf5ce600012602bc",
 		    "name" : "Chickering",
 		    "station_id" : "339"
+		},
+
+		{
+		    "_id" : "5a9cd13b18af1700013b110a",
+		    "name" : "Dawson",
+		    "station_id" : "340"
 		},
 
 		{
@@ -147,6 +159,12 @@
 		},
 
 		{
+		    "_id": "5a37e71ba546db0001547681",
+		    "name": "Quail Ridge",
+		    "station_id" : "352"
+		},
+		
+		{
 		    "_id" : "58e68cacdf5ce600012602c7",
 		    "name" : "Rancho Marino",
 		    "station_id" : "345"
@@ -207,6 +225,24 @@
 		},
 
 		{
+		    "_id" : "5a9cd13b18af1700013b110c",
+		    "name" : "Riv Level 6_1 SoilMoisture",
+		    "station_id" : "367"
+		},
+
+		{
+		    "_id" : "5a9cd13b18af1700013b110d",
+		    "name" : "Riv Level 6_1 TreeTransect",
+		    "station_id" : "366"
+		},
+
+		{
+		    "_id" : "5a9cd13b18af1700013b110e",
+		    "name" : "Riv Level 6_1 Weather",
+		    "station_id" : "365"
+		},
+
+		{
 		    "_id" : "58e68cacdf5ce600012602d1",
 		    "name" : "Sagehen Creek",
 		    "station_id" : "364"
@@ -216,6 +252,12 @@
 		    "_id" : "58e68cacdf5ce600012602d2",
 		    "name" : "Sagehorn Ranch WS",
 		    "station_id" : "331"
+		},
+
+		{
+		    "_id" : "5a9cd13c18af1700013b110f",
+		    "name" : "San Joaquin",
+		    "station_id" : "353"
 		},
 
 		{

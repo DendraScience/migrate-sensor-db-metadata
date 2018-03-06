@@ -1,9 +1,10 @@
 {
+  "_id": "5a9de903a956fb00018467d9",
   "enabled": true,
   "name": "Relative Humidity - WSCP 30min",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "5a982615b21340000145f9dc",
+  "station_id": "58e68cabdf5ce600012602bb",
   "datapoints_config": [
     {
       "params": {
@@ -31,8 +32,8 @@
     "ds_Variable_RelativeHumidity",
     "dt_Unit_Percent"
   ],
-  "created_at": "2018-03-01T16:11:04.891Z",
-  "updated_at": "2018-03-01T16:11:04.891Z",
+  "created_at": "2018-03-06T01:04:03.039Z",
+  "updated_at": "2018-03-06T01:07:11.264Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -83,7 +84,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "d30db508c72e7247cac75352d7e277aedd622b57"
+      "str": "8551e5c470f60d2395da33c5f1044d3765fbcdc0"
     },
     {
       "key": "att",
@@ -104,6 +105,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a982618b21340000145fa15",
   "_include": []
 }

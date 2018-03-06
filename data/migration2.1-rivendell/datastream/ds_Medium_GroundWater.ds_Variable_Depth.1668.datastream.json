@@ -1,9 +1,10 @@
 {
+  "_id": "5a9de917a956fb0001846a59",
   "enabled": true,
   "name": "Well 15 Water Level m 30min",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "5a982615b21340000145f9e6",
+  "station_id": "58e68cacdf5ce600012602d0",
   "datapoints_config": [
     {
       "params": {
@@ -31,8 +32,8 @@
     "ds_Variable_Depth",
     "dt_Unit_Meter"
   ],
-  "created_at": "2018-03-01T16:11:09.864Z",
-  "updated_at": "2018-03-01T16:11:09.864Z",
+  "created_at": "2018-03-06T01:04:23.245Z",
+  "updated_at": "2018-03-06T01:07:32.629Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -83,7 +84,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "e0b57504c28d5560daa777a8683697db940cc626"
+      "str": "45ea78c1adf277d8846be030d3809b3428b9f97a"
     },
     {
       "key": "att",
@@ -104,6 +105,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a98261db21340000145faac",
   "_include": []
 }

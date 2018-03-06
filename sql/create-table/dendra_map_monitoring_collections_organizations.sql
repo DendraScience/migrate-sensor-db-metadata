@@ -23,7 +23,7 @@ INSERT INTO `dendra_map_mcollections_organizations` VALUES ('Angelo Reserve','er
 INSERT INTO `dendra_map_mcollections_organizations` VALUES ('Blue Oak Ranch Reserve','blue-oak',"58143930650aad2999d57289",14,false,'datavalues-borr');
 INSERT INTO `dendra_map_mcollections_organizations` VALUES ('Keck Motes','keck-motes',"5a416c49732a67000130eb4e",8,false,'datavalues-motes');
 INSERT INTO `dendra_map_mcollections_organizations` VALUES ('Sagehen','sagehen',"5a3eaabee15cbd00016b9665",10,false,'datavalues-sagehen');
-INSERT INTO `dendra_map_mcollections_organizations` VALUES ('UCNRS','ucnrs',"58db17c424dc720001671378",15,false,'datavalues-ucnrs');
+INSERT INTO `dendra_map_mcollections_organizations` VALUES ('UCNRS','ucnrs',"58db17c424dc720001671378",15,true,'datavalues-ucnrs');
 INSERT INTO `dendra_map_mcollections_organizations` VALUES ('USGS NWIS','usgs-nwis',"5a4171f0732a67000130eb50",9,false,'datavalues-usgs');
 COMMIT;
 

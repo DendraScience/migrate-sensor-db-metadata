@@ -1,9 +1,10 @@
 {
+  "_id": "5a9de92ca956fb0001846d00",
   "enabled": true,
   "name": "Sap Flow SVP87032_two",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "5a982615b21340000145f9ec",
+  "station_id": "58e68cacdf5ce600012602d5",
   "datapoints_config": [
     {
       "params": {
@@ -31,8 +32,8 @@
     "ds_Variable_Flux",
     "dt_Unit_CentimeterPerHour"
   ],
-  "created_at": "2018-03-01T16:11:26.370Z",
-  "updated_at": "2018-03-01T16:11:26.370Z",
+  "created_at": "2018-03-06T01:04:44.669Z",
+  "updated_at": "2018-03-06T01:07:55.696Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -83,7 +84,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "d6918683165ef70841156bc098ca4192a728eccc"
+      "str": "07db10981ff62b1cceb4955aed99e806d5305e9b"
     },
     {
       "key": "att",
@@ -104,6 +105,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a98262eb21340000145fcb2",
   "_include": []
 }

@@ -1,9 +1,10 @@
 {
+  "_id": "5a9de916a956fb0001846a4e",
   "enabled": true,
   "name": "Well 1 Water Level m Old 30min",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "5a982615b21340000145f9df",
+  "station_id": "58e68cacdf5ce600012602c9",
   "datapoints_config": [
     {
       "params": {
@@ -31,8 +32,8 @@
     "ds_Variable_Depth",
     "dt_Unit_Meter"
   ],
-  "created_at": "2018-03-01T16:11:09.511Z",
-  "updated_at": "2018-03-01T16:11:09.511Z",
+  "created_at": "2018-03-06T01:04:22.886Z",
+  "updated_at": "2018-03-06T01:07:32.272Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -83,7 +84,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "053d538ee944d0c672c46c2bacc272caa144ee46"
+      "str": "f287669f1538e1bb064fc90fe3f8e10948979c6c"
     },
     {
       "key": "att",
@@ -104,6 +105,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a98261db21340000145faa1",
   "_include": []
 }

@@ -1,9 +1,10 @@
 {
+  "_id": "5a9de905a956fb0001846833",
   "enabled": true,
   "name": "Air Relative Humidity - WSTB",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "5a982615b21340000145f9ee",
+  "station_id": "58e68cacdf5ce600012602da",
   "datapoints_config": [
     {
       "params": {
@@ -31,8 +32,8 @@
     "ds_Variable_RelativeHumidity",
     "dt_Unit_Percent"
   ],
-  "created_at": "2018-03-01T16:11:05.527Z",
-  "updated_at": "2018-03-01T16:11:05.527Z",
+  "created_at": "2018-03-06T01:04:05.812Z",
+  "updated_at": "2018-03-06T01:07:14.289Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -83,7 +84,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "d79783442209517da2a38db932bd022c5a868204"
+      "str": "b7db56d4fa84bb62a0bc45ed765b5c97f0b4c811"
     },
     {
       "key": "att",
@@ -104,6 +105,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a982619b21340000145fa28",
   "_include": []
 }

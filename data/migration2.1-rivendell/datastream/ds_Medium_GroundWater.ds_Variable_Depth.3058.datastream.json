@@ -1,9 +1,10 @@
 {
+  "_id": "5a9de917a956fb0001846a65",
   "enabled": true,
   "name": "Well 500 Water Level Manual m",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "5a982615b21340000145f9ea",
+  "station_id": "58e68cacdf5ce600012602d2",
   "datapoints_config": [
     {
       "params": {
@@ -31,8 +32,8 @@
     "ds_Variable_Depth",
     "dt_Unit_Meter"
   ],
-  "created_at": "2018-03-01T16:11:10.230Z",
-  "updated_at": "2018-03-01T16:11:10.230Z",
+  "created_at": "2018-03-06T01:04:23.628Z",
+  "updated_at": "2018-03-06T01:07:33.022Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -83,7 +84,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "2381fcc64699850267fdfa166385786e95d6a6de"
+      "str": "77b6771c7de3b16647901ef97837d2410ebc6dd3"
     },
     {
       "key": "att",
@@ -104,6 +105,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a98261eb21340000145fab8",
   "_include": []
 }

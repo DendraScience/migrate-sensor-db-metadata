@@ -1,9 +1,10 @@
 {
+  "_id": "5a9de926a956fb0001846c45",
   "enabled": true,
   "name": "Rock Moisture no calib VMS_A4",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "5a982615b21340000145f9ef",
+  "station_id": "58e68cacdf5ce600012602db",
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
@@ -40,8 +41,8 @@
     "ds_Variable_Moisture",
     "dt_Unit_Percent"
   ],
-  "created_at": "2018-03-01T16:11:20.390Z",
-  "updated_at": "2018-03-01T16:11:20.390Z",
+  "created_at": "2018-03-06T01:04:38.683Z",
+  "updated_at": "2018-03-06T01:07:49.255Z",
   "attributes_info": {
     "sort": {
       "value1": 7,
@@ -99,7 +100,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "8dcc7ba176f1d4f64fd443fc5a13ef0e902be95c"
+      "str": "10b86d74fd75403e350e747a02115ec7510bc857"
     },
     {
       "key": "att",
@@ -120,6 +121,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a982628b21340000145fbf7",
   "_include": []
 }

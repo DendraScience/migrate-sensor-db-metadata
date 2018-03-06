@@ -1,9 +1,10 @@
 {
+  "_id": "5a9de919a956fb0001846aaf",
   "enabled": true,
   "name": "Logger Temp Riv 6_1",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "5a982615b21340000145f9e9",
+  "station_id": "5a9cd13b18af1700013b110e",
   "datapoints_config": [
     {
       "params": {
@@ -31,8 +32,8 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-03-01T16:11:10.647Z",
-  "updated_at": "2018-03-01T16:11:10.647Z",
+  "created_at": "2018-03-06T01:04:25.931Z",
+  "updated_at": "2018-03-06T01:07:35.528Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -83,7 +84,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "772cde9073958eb94438e23d9e4bae9291d46e75"
+      "str": "970aa8e2c2fcd9ec6a2183f0256c96856b5a3afa"
     },
     {
       "key": "att",
@@ -104,6 +105,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a98261eb21340000145fac5",
   "_include": []
 }

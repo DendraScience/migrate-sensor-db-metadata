@@ -1,0 +1,109 @@
+{
+  "_id": "5a9de918a956fb0001846a77",
+  "enabled": true,
+  "name": "TX FORWARD POWER Rancho Marino",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602c7",
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 4283,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "4283",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "345",
+      "type": "odm.stations.StationID"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Instrument",
+    "ds_Variable_RadioTransmission",
+    "dt_Unit_DecibelMilliwatt"
+  ],
+  "created_at": "2018-03-06T01:04:24.211Z",
+  "updated_at": "2018-03-06T01:07:33.641Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Instrument",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "RadioTransmission",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "dBm",
+        "label": "DecibelMilliwatt",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "263cb79ec7094fba98156cc3005be4a141866ab6"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "dee0cd41b3a339aa122cb9d25a1ea9018c721fc8",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "8f8be1cd35bed81353acca910abc5edfc099ba3c",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

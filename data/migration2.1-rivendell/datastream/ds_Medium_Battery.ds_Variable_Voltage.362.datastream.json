@@ -1,9 +1,10 @@
 {
+  "_id": "5a9de914a956fb00018469f4",
   "enabled": true,
   "name": "Battery Voltage RLL1_2",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "5a982615b21340000145f9df",
+  "station_id": "58e68cacdf5ce600012602c9",
   "datapoints_config": [
     {
       "params": {
@@ -31,8 +32,8 @@
     "ds_Variable_Voltage",
     "dt_Unit_Volt"
   ],
-  "created_at": "2018-03-01T16:11:08.308Z",
-  "updated_at": "2018-03-01T16:11:08.308Z",
+  "created_at": "2018-03-06T01:04:20.057Z",
+  "updated_at": "2018-03-06T01:07:29.339Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -83,7 +84,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "053d538ee944d0c672c46c2bacc272caa144ee46"
+      "str": "f287669f1538e1bb064fc90fe3f8e10948979c6c"
     },
     {
       "key": "att",
@@ -104,6 +105,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a98261cb21340000145fa7b",
   "_include": []
 }

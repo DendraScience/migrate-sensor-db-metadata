@@ -1,9 +1,10 @@
 {
+  "_id": "5a9de92ea956fb0001846d2d",
   "enabled": true,
   "name": "Soil Moisture L1S3_1.25",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "5a982615b21340000145f9de",
+  "station_id": "58e68cacdf5ce600012602c8",
   "datapoints_config": [
     {
       "params": {
@@ -31,8 +32,8 @@
     "ds_Variable_Moisture",
     "dt_Unit_Percent"
   ],
-  "created_at": "2018-03-01T16:11:27.441Z",
-  "updated_at": "2018-03-01T16:11:27.441Z",
+  "created_at": "2018-03-06T01:04:46.077Z",
+  "updated_at": "2018-03-06T01:07:57.166Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -83,7 +84,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "2498b851a50300e425fb420fe6e3966ec2a1d67c"
+      "str": "d7a87b6769f78e630a71fc7b9d6d78f57b2a42ff"
     },
     {
       "key": "att",
@@ -104,6 +105,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a98262fb21340000145fcd4",
   "_include": []
 }

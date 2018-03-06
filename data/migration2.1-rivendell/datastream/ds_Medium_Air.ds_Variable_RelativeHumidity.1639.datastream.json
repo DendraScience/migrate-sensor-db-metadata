@@ -1,9 +1,10 @@
 {
+  "_id": "5a9de903a956fb00018467db",
   "enabled": true,
   "name": "Air Relative Humidity - RLL2_2 30min",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "5a982615b21340000145f9e1",
+  "station_id": "58e68cacdf5ce600012602cb",
   "datapoints_config": [
     {
       "params": {
@@ -31,8 +32,8 @@
     "ds_Variable_RelativeHumidity",
     "dt_Unit_Percent"
   ],
-  "created_at": "2018-03-01T16:11:04.950Z",
-  "updated_at": "2018-03-01T16:11:04.950Z",
+  "created_at": "2018-03-06T01:04:03.104Z",
+  "updated_at": "2018-03-06T01:07:11.331Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -83,7 +84,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "90c29b438c31c192b4e59d5c524bd6e1ade04ced"
+      "str": "b554b3f45aa618f5f3be7b38fb3aafe654da3097"
     },
     {
       "key": "att",
@@ -104,6 +105,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a982618b21340000145fa17",
   "_include": []
 }

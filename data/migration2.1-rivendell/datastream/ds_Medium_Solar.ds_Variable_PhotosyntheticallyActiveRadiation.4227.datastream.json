@@ -1,0 +1,109 @@
+{
+  "_id": "5a9de93da956fb0001846f1e",
+  "enabled": true,
+  "name": "PAR um m2 BigCreek Gatehouse Avg",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602b5",
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 4227,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "4227",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "348",
+      "type": "odm.stations.StationID"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Solar",
+    "ds_Variable_PhotosyntheticallyActiveRadiation",
+    "dt_Unit_MicromolePerSquareMeter"
+  ],
+  "created_at": "2018-03-06T01:05:01.634Z",
+  "updated_at": "2018-03-06T01:08:14.591Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Solar",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "PhotosyntheticallyActiveRadiation",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "µmol/m^2",
+        "label": "MicromolePerSquareMeter",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "62b65685871c86ec1c616dcb04edda5543fb4b4a"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "ca6af6a82971ee7be50eae1da8e34f4a126651f9",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "a777bdf54dddf01d46e4c59d1c340afee26c3b57",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

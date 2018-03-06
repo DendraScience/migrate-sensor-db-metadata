@@ -1,9 +1,10 @@
 {
+  "_id": "5a9de93ba956fb0001846ee6",
   "enabled": true,
   "name": "Solar Radiation Net W/m^2  WindCorrected WSAM 30min",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "5a982615b21340000145f9db",
+  "station_id": "58e68cabdf5ce600012602b2",
   "datapoints_config": [
     {
       "params": {
@@ -31,8 +32,8 @@
     "ds_Variable_NetRadiation",
     "dt_Unit_WattPerSquareMeter"
   ],
-  "created_at": "2018-03-01T16:11:33.670Z",
-  "updated_at": "2018-03-01T16:11:33.670Z",
+  "created_at": "2018-03-06T01:04:59.886Z",
+  "updated_at": "2018-03-06T01:08:12.629Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -83,7 +84,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "c5ffbe27a7cab22c8061fda4ab5ffd59fa16ee7b"
+      "str": "cccad7d9b78b139c0f014fb26123ff51bbf6d991"
     },
     {
       "key": "att",
@@ -104,6 +105,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a982635b21340000145fd9d",
   "_include": []
 }

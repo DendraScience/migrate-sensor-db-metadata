@@ -1,9 +1,10 @@
 {
+  "_id": "5a9de90aa956fb00018468c7",
   "enabled": true,
   "name": "Air Temp C Riv 2_3 30min",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "5a982615b21340000145f9e2",
+  "station_id": "58e68cacdf5ce600012602cc",
   "datapoints_config": [
     {
       "params": {
@@ -31,8 +32,8 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-03-01T16:11:06.514Z",
-  "updated_at": "2018-03-01T16:11:06.514Z",
+  "created_at": "2018-03-06T01:04:10.472Z",
+  "updated_at": "2018-03-06T01:07:19.145Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -83,7 +84,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "0498677c85812b4efadee44300cb70ba9ddcc57c"
+      "str": "449b306ffee3c5aa369af37ff776110af29146dd"
     },
     {
       "key": "att",
@@ -104,6 +105,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a98261ab21340000145fa45",
   "_include": []
 }

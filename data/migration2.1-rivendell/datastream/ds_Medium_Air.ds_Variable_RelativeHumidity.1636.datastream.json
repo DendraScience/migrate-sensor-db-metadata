@@ -1,9 +1,10 @@
 {
+  "_id": "5a9de903a956fb00018467d8",
   "enabled": true,
   "name": "Relative Humidity - WSAM 30min",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "5a982615b21340000145f9db",
+  "station_id": "58e68cabdf5ce600012602b2",
   "datapoints_config": [
     {
       "params": {
@@ -31,8 +32,8 @@
     "ds_Variable_RelativeHumidity",
     "dt_Unit_Percent"
   ],
-  "created_at": "2018-03-01T16:11:04.860Z",
-  "updated_at": "2018-03-01T16:11:04.860Z",
+  "created_at": "2018-03-06T01:04:03.008Z",
+  "updated_at": "2018-03-06T01:07:11.233Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -83,7 +84,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "c5ffbe27a7cab22c8061fda4ab5ffd59fa16ee7b"
+      "str": "cccad7d9b78b139c0f014fb26123ff51bbf6d991"
     },
     {
       "key": "att",
@@ -104,6 +105,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a982618b21340000145fa14",
   "_include": []
 }

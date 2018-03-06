@@ -1,9 +1,10 @@
 {
+  "_id": "5a9de934a956fb0001846def",
   "enabled": true,
   "name": "Soil Temp L3ST2_2.10",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "5a982615b21340000145f9e4",
+  "station_id": "58e68cacdf5ce600012602ce",
   "datapoints_config": [
     {
       "params": {
@@ -31,8 +32,8 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-03-01T16:11:32.051Z",
-  "updated_at": "2018-03-01T16:11:32.051Z",
+  "created_at": "2018-03-06T01:04:52.091Z",
+  "updated_at": "2018-03-06T01:08:03.913Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -83,7 +84,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "ec866d7763dc7a8a70fc7d5c61ec7b00a6040496"
+      "str": "495db2e6a5bf906030def305ed08b3968b1643a1"
     },
     {
       "key": "att",
@@ -104,6 +105,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a982634b21340000145fd68",
   "_include": []
 }

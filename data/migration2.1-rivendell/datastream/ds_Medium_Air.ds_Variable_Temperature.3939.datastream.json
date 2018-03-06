@@ -1,0 +1,125 @@
+{
+  "_id": "5a9de910a956fb0001846989",
+  "enabled": true,
+  "name": "Air Temp Delta Deg C 10m-2m SNARL Min",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602d7",
+  "attributes": {
+    "height": {
+      "unit_tag": "dt_Unit_Meter",
+      "delta": [
+        10,
+        2
+      ]
+    }
+  },
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3939,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3939",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "356",
+      "type": "odm.stations.StationID"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ],
+  "created_at": "2018-03-06T01:04:16.742Z",
+  "updated_at": "2018-03-06T01:07:25.678Z",
+  "attributes_info": {
+    "sort": {
+      "value1": 10,
+      "value2": 2
+    },
+    "text": "10-2"
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Air",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Temperature",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "degC",
+        "label": "DegreeCelsius",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "1cb75f1c94eb897aed3f3e5b0d1fe190794aabf7"
+    },
+    {
+      "key": "att",
+      "str": "c13274d2f2830d854e35ebef392ccf171d557fbe"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "852125373a62569f010f58fe1beab748cf18ef58",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "5795c6e74091f87a34b256903db271fcca161eee",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

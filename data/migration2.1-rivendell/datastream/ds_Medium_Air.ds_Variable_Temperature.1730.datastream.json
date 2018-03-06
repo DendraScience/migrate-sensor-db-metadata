@@ -1,9 +1,10 @@
 {
+  "_id": "5a9de90aa956fb00018468d5",
   "enabled": true,
   "name": "Air Temp WSSM Avg 30min",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "5a982615b21340000145f9ed",
+  "station_id": "58e68cacdf5ce600012602d8",
   "datapoints_config": [
     {
       "params": {
@@ -31,8 +32,8 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-03-01T16:11:06.997Z",
-  "updated_at": "2018-03-01T16:11:06.997Z",
+  "created_at": "2018-03-06T01:04:10.906Z",
+  "updated_at": "2018-03-06T01:07:19.597Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -83,7 +84,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "62f1871262acc1bb0c253ef78c1c2411556ec3a1"
+      "str": "8e65855d88dabaff4fe4f70fa0f3342e9b21ed2e"
     },
     {
       "key": "att",
@@ -104,6 +105,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a98261bb21340000145fa53",
   "_include": []
 }

@@ -1,9 +1,10 @@
 {
+  "_id": "5a9de941a956fb0001846f9e",
   "enabled": true,
   "name": "Turbidity GHQ",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "5a982615b21340000145f9d9",
+  "station_id": "58e68cabdf5ce600012602b0",
   "datapoints_config": [
     {
       "params": {
@@ -31,8 +32,8 @@
     "ds_Variable_Turbidity",
     "dt_Unit_NephelometricTurbidityUnit"
   ],
-  "created_at": "2018-03-01T16:11:35.145Z",
-  "updated_at": "2018-03-01T16:11:35.145Z",
+  "created_at": "2018-03-06T01:05:05.535Z",
+  "updated_at": "2018-03-06T01:08:19.076Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -83,7 +84,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "f5def892f3a87506d6141cd11d5a3f1b14064803"
+      "str": "b2b70040136ab2876d58a6e44fa2a6de751296c5"
     },
     {
       "key": "att",
@@ -104,6 +105,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a982637b21340000145fdcd",
   "_include": []
 }

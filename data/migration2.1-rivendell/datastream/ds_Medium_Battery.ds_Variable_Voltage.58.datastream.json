@@ -1,9 +1,10 @@
 {
+  "_id": "5a9de916a956fb0001846a33",
   "enabled": true,
   "name": "Battery Voltage WSCP",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "5a982615b21340000145f9dc",
+  "station_id": "58e68cabdf5ce600012602bb",
   "datapoints_config": [
     {
       "params": {
@@ -31,8 +32,8 @@
     "ds_Variable_Voltage",
     "dt_Unit_Volt"
   ],
-  "created_at": "2018-03-01T16:11:08.649Z",
-  "updated_at": "2018-03-01T16:11:08.649Z",
+  "created_at": "2018-03-06T01:04:21.999Z",
+  "updated_at": "2018-03-06T01:07:31.399Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -83,7 +84,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "d30db508c72e7247cac75352d7e277aedd622b57"
+      "str": "8551e5c470f60d2395da33c5f1044d3765fbcdc0"
     },
     {
       "key": "att",
@@ -104,6 +105,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a98261cb21340000145fa86",
   "_include": []
 }

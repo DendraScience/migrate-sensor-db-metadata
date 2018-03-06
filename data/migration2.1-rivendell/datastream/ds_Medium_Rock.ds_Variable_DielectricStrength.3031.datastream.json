@@ -1,9 +1,10 @@
 {
+  "_id": "5a9de920a956fb0001846b79",
   "enabled": true,
   "name": "Permitivity no calib VMS_A7",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "5a982615b21340000145f9ef",
+  "station_id": "58e68cacdf5ce600012602db",
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
@@ -40,8 +41,8 @@
     "ds_Variable_DielectricStrength",
     "dt_Unit_Dimensionless"
   ],
-  "created_at": "2018-03-01T16:11:14.918Z",
-  "updated_at": "2018-03-01T16:11:14.918Z",
+  "created_at": "2018-03-06T01:04:32.191Z",
+  "updated_at": "2018-03-06T01:07:42.217Z",
   "attributes_info": {
     "sort": {
       "value1": 12,
@@ -98,7 +99,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "8dcc7ba176f1d4f64fd443fc5a13ef0e902be95c"
+      "str": "10b86d74fd75403e350e747a02115ec7510bc857"
     },
     {
       "key": "att",
@@ -119,6 +120,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a982622b21340000145fb4b",
   "_include": []
 }

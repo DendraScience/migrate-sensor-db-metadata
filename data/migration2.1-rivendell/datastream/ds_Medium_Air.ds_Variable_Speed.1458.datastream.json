@@ -1,9 +1,10 @@
 {
+  "_id": "5a9de905a956fb0001846836",
   "enabled": true,
   "name": "Wind Speed - Ingrid",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "5a982615b21340000145f9dd",
+  "station_id": "58e68cabdf5ce600012602c2",
   "datapoints_config": [
     {
       "params": {
@@ -31,8 +32,8 @@
     "ds_Variable_Speed",
     "dt_Unit_MeterPerSecond"
   ],
-  "created_at": "2018-03-01T16:11:05.625Z",
-  "updated_at": "2018-03-01T16:11:05.625Z",
+  "created_at": "2018-03-06T01:04:05.897Z",
+  "updated_at": "2018-03-06T01:07:14.384Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -83,7 +84,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "ea79c45dc8fd2ede50316057194d56a55c9c4578"
+      "str": "dca4244aeef39e073ed53a063853a34ca68b06b6"
     },
     {
       "key": "att",
@@ -104,6 +105,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a982619b21340000145fa2b",
   "_include": []
 }

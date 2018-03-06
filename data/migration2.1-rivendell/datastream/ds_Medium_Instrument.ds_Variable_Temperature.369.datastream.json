@@ -1,9 +1,10 @@
 {
+  "_id": "5a9de919a956fb0001846a92",
   "enabled": true,
   "name": "Logger Temp  RLL1_2",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "5a982615b21340000145f9df",
+  "station_id": "58e68cacdf5ce600012602c9",
   "datapoints_config": [
     {
       "params": {
@@ -31,8 +32,8 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-03-01T16:11:10.455Z",
-  "updated_at": "2018-03-01T16:11:10.455Z",
+  "created_at": "2018-03-06T01:04:25.025Z",
+  "updated_at": "2018-03-06T01:07:34.581Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -83,7 +84,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "053d538ee944d0c672c46c2bacc272caa144ee46"
+      "str": "f287669f1538e1bb064fc90fe3f8e10948979c6c"
     },
     {
       "key": "att",
@@ -104,6 +105,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_id": "5a98261eb21340000145fabf",
   "_include": []
 }
