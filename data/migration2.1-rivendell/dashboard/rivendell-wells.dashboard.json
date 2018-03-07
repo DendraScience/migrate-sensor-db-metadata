@@ -16,7 +16,7 @@
                     "zoomType": "x"
                   },
                   "title": {
-                    "text": "Battery Voltage A"
+                    "text": "Battery Voltage"
                   },
                   "xAxis": {
                     "crosshair": true,
@@ -59,8 +59,7 @@
               "topic": "batVolt_a"
             }
           }
-        ],
-        "title": "Battery Voltage"
+        ]
       },
       {
         "classes": [
@@ -80,7 +79,7 @@
                     "zoomType": "x"
                   },
                   "title": {
-                    "text": "Air Temperature A"
+                    "text": "Air Temperature"
                   },
                   "xAxis": {
                     "crosshair": true,
@@ -123,8 +122,7 @@
               "topic": "avgAirTemp_a"
             }
           }
-        ],
-        "title": "Air Temperature"
+        ]
       },
       {
         "classes": [
@@ -144,7 +142,7 @@
                     "zoomType": "x"
                   },
                   "title": {
-                    "text": "Precipitation A"
+                    "text": "Precipitation & Throughfall"
                   },
                   "xAxis": {
                     "crosshair": true,
@@ -187,8 +185,7 @@
               "topic": "precip_a"
             }
           }
-        ],
-        "title": "Precipitation"
+        ]
       },
       {
         "classes": [
@@ -208,7 +205,7 @@
                     "zoomType": "x"
                   },
                   "title": {
-                    "text": "Barometric Pressure A"
+                    "text": "Barometric Pressure"
                   },
                   "xAxis": {
                     "crosshair": true,
@@ -251,14 +248,13 @@
               "topic": "avgAirPres_a"
             }
           }
-        ],
-        "title": "Barometric Pressure"
+        ]
       }
     ]
   },
   "enabled": true,
   "name": "Rivendell Well Status",
-  "organization_id": "58db17c424dc720001671378",
+  "organization_id": "58db17e824dc720001671379",
   "slug": "well-status",
   "sort_value": 10,
   "sources": [
@@ -269,25 +265,13 @@
           "query": {
             "attributes_exists": false,
             "station_id": [
-              "58e68cabdf5ce600012602b9"
+              "58e68cacdf5ce600012602c8",
+              "58e68cacdf5ce600012602cc",
+              "58e68cacdf5ce600012602cd",
+              "58e68cacdf5ce600012602cf",
+              "58e68cacdf5ce600012602d0"
             ],
-            "tags": "ds_Aggregate_Average.ds_Medium_Battery.ds_Variable_Voltage.dt_Unit_Volt",
-            "tags_exact": true,
-            "time_local": true
-          }
-        },
-        {
-          "path": "/datapoints/lookup",
-          "query": {
-            "attributes_exists": false,
-            "station_id": [
-              "58e68cabdf5ce600012602b3",
-              "58e68cabdf5ce600012602b5",
-              "58e68cabdf5ce600012602bf",
-              "58e68cacdf5ce600012602c7",
-              "58e68caddf5ce600012602e0"
-            ],
-            "tags": "ds_Aggregate_Minimum.ds_Medium_Battery.ds_Variable_Voltage.dt_Unit_Volt",
+            "tags": "ds_Medium_Battery.ds_Variable_Voltage.dt_Unit_Volt",
             "tags_exact": true,
             "time_local": true
           }
@@ -340,86 +324,13 @@
           "query": {
             "attributes_exists": false,
             "station_id": [
-              "58e68cabdf5ce600012602bc"
+              "58e68cacdf5ce600012602cb",
+              "58e68cacdf5ce600012602cc",
+              "58e68cacdf5ce600012602ce",
+              "58e68cacdf5ce600012602d0",
+              "58e68cabdf5ce600012602b2"
             ],
-            "tags": "ds_Aggregate_Average.ds_Medium_Battery.ds_Variable_Voltage.dt_Unit_Volt",
-            "tags_exact": true,
-            "time_local": true
-          }
-        },
-        {
-          "path": "/datapoints/lookup",
-          "query": {
-            "attributes_exists": false,
-            "station_id": [
-              "58e68cabdf5ce600012602b8",
-              "58e68cabdf5ce600012602c1",
-              "58e68cacdf5ce600012602c4",
-              "58e68cacdf5ce600012602c5",
-              "58e68cacdf5ce600012602d1",
-              "5a37e71ba546db0001547681"
-            ],
-            "tags": "ds_Aggregate_Minimum.ds_Medium_Battery.ds_Variable_Voltage.dt_Unit_Volt",
-            "tags_exact": true,
-            "time_local": true
-          }
-        }
-      ],
-      "options": {
-        "cursorDate": [
-          {
-            "m": "add",
-            "p": [
-              12,
-              "d"
-            ]
-          }
-        ],
-        "endDate": [
-          {
-            "m": "startOf",
-            "p": "d"
-          },
-          {
-            "m": "add",
-            "p": [
-              1,
-              "d"
-            ]
-          }
-        ],
-        "startDate": [
-          {
-            "m": "startOf",
-            "p": "d"
-          },
-          {
-            "m": "subtract",
-            "p": [
-              6,
-              "d"
-            ]
-          }
-        ]
-      },
-      "template": "seriesAsc",
-      "topic": "batVolt_b"
-    },
-    {
-      "find_actions": [
-        {
-          "path": "/datapoints/lookup",
-          "query": {
-            "attributes_exists": false,
-            "station_id": [
-              "58e68cabdf5ce600012602b3",
-              "58e68cabdf5ce600012602b5",
-              "58e68cabdf5ce600012602b9",
-              "58e68cabdf5ce600012602bf",
-              "58e68cacdf5ce600012602c7",
-              "58e68caddf5ce600012602e0"
-            ],
-            "tags": "ds_Aggregate_Average.ds_Medium_Air.ds_Variable_Temperature.dt_Unit_DegreeCelsius",
+            "tags": "ds_Medium_Air.ds_Variable_Temperature.dt_Unit_DegreeCelsius",
             "tags_exact": true,
             "time_local": true
           }
@@ -472,73 +383,11 @@
           "query": {
             "attributes_exists": false,
             "station_id": [
-              "58e68cabdf5ce600012602b8",
-              "58e68cabdf5ce600012602bc",
-              "58e68cabdf5ce600012602c1",
-              "58e68cacdf5ce600012602c4",
-              "58e68cacdf5ce600012602c5",
-              "58e68cacdf5ce600012602d1",
-              "5a37e71ba546db0001547681"
-            ],
-            "tags": "ds_Aggregate_Average.ds_Medium_Air.ds_Variable_Temperature.dt_Unit_DegreeCelsius",
-            "tags_exact": true,
-            "time_local": true
-          }
-        }
-      ],
-      "options": {
-        "cursorDate": [
-          {
-            "m": "add",
-            "p": [
-              12,
-              "d"
-            ]
-          }
-        ],
-        "endDate": [
-          {
-            "m": "startOf",
-            "p": "d"
-          },
-          {
-            "m": "add",
-            "p": [
-              1,
-              "d"
-            ]
-          }
-        ],
-        "startDate": [
-          {
-            "m": "startOf",
-            "p": "d"
-          },
-          {
-            "m": "subtract",
-            "p": [
-              6,
-              "d"
-            ]
-          }
-        ]
-      },
-      "template": "seriesAsc",
-      "topic": "avgAirTemp_b"
-    },
-    {
-      "find_actions": [
-        {
-          "path": "/datapoints/lookup",
-          "query": {
-            "attributes_exists": false,
-            "station_id": [
-              "58e68cabdf5ce600012602b3",
-              "58e68cabdf5ce600012602b5",
-              "58e68cabdf5ce600012602b9",
-              "58e68cabdf5ce600012602bf",
-              "58e68cacdf5ce600012602c7",
-              "58e68caddf5ce600012602e0"
+              "58e68cacdf5ce600012602c9",
+              "58e68cacdf5ce600012602cb",
+              "58e68cacdf5ce600012602ce",
+              "58e68cacdf5ce600012602d0",
+              "58e68cabdf5ce600012602b2"
             ],
             "tags": "ds_Medium_Precipitation.ds_Variable_Precipitation.dt_Unit_Millimeter",
             "tags_exact": true,
@@ -585,78 +434,6 @@
       },
       "template": "seriesAsc",
       "topic": "precip_a"
-    },
-    {
-      "find_actions": [
-        {
-          "path": "/datapoints/lookup",
-          "query": {
-            "attributes_exists": false,
-            "station_id": [
-              "5a37e71ba546db0001547681"
-            ],
-            "tags": "ds_Aggregate_Cumulative.ds_Medium_Precipitation.ds_Variable_Height.dt_Unit_Millimeter",
-            "tags_exact": true,
-            "time_local": true
-          }
-        },
-        {
-          "path": "/datapoints/lookup",
-          "query": {
-            "attributes_exists": false,
-            "station_id": [
-              "58e68cabdf5ce600012602b8",
-              "58e68cabdf5ce600012602bc",
-              "58e68cabdf5ce600012602c1",
-              "58e68cacdf5ce600012602c4",
-              "58e68cacdf5ce600012602c5",
-              "58e68cacdf5ce600012602d1"
-            ],
-            "tags": "ds_Medium_Precipitation.ds_Variable_Precipitation.dt_Unit_Millimeter",
-            "tags_exact": true,
-            "time_local": true
-          }
-        }
-      ],
-      "options": {
-        "cursorDate": [
-          {
-            "m": "add",
-            "p": [
-              12,
-              "d"
-            ]
-          }
-        ],
-        "endDate": [
-          {
-            "m": "startOf",
-            "p": "d"
-          },
-          {
-            "m": "add",
-            "p": [
-              1,
-              "d"
-            ]
-          }
-        ],
-        "startDate": [
-          {
-            "m": "startOf",
-            "p": "d"
-          },
-          {
-            "m": "subtract",
-            "p": [
-              6,
-              "d"
-            ]
-          }
-        ]
-      },
-      "template": "seriesAsc",
-      "topic": "precip_b"
     },
     {
       "find_actions": [
@@ -717,67 +494,6 @@
       },
       "template": "seriesAsc",
       "topic": "avgAirPres_a"
-    },
-    {
-      "find_actions": [
-        {
-          "path": "/datapoints/lookup",
-          "query": {
-            "attributes_exists": false,
-            "station_id": [
-              "58e68cabdf5ce600012602b8",
-              "58e68cabdf5ce600012602bc",
-              "58e68cabdf5ce600012602c1",
-              "58e68cacdf5ce600012602c4",
-              "58e68cacdf5ce600012602c5",
-              "58e68cacdf5ce600012602d1",
-              "5a37e71ba546db0001547681"
-            ],
-            "tags": "ds_Aggregate_Average.ds_Medium_Air.ds_Variable_BarometricPressure.dt_Unit_Millibar",
-            "tags_exact": true,
-            "time_local": true
-          }
-        }
-      ],
-      "options": {
-        "cursorDate": [
-          {
-            "m": "add",
-            "p": [
-              12,
-              "d"
-            ]
-          }
-        ],
-        "endDate": [
-          {
-            "m": "startOf",
-            "p": "d"
-          },
-          {
-            "m": "add",
-            "p": [
-              1,
-              "d"
-            ]
-          }
-        ],
-        "startDate": [
-          {
-            "m": "startOf",
-            "p": "d"
-          },
-          {
-            "m": "subtract",
-            "p": [
-              6,
-              "d"
-            ]
-          }
-        ]
-      },
-      "template": "seriesAsc",
-      "topic": "avgAirPres_b"
     }
   ],
   "updated_at": "2018-03-04T18:01:58.561Z",

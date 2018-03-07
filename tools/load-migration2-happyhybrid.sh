@@ -1,6 +1,9 @@
-#
-# Dendra: Push mixed migration JSON files to Mongo
-#
+# Migrate Metadata TO Mongo for Preview push
+echo "usage: load-migration2-happyhybrid.sh <den username> <den password>"
+echo "HappyHybrid Push loading script."
+
+# Log into Dendra
+den login $1 $2 
 
 # Core metadata from migration2-happyhybrid
 den meta push-schemes --filespec=../data/migration2-happyhybrid/scheme/*

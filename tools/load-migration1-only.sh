@@ -1,6 +1,10 @@
-# Dendra: Push all JSON files to Mongo
-# assumes you are in migrationN with subfolders
-# do the migration-round2 first
+# Migrate Metadata TO Mongo for Preview push
+echo "usage: load-migration1-preview.sh <den username> <den password>"
+echo "Preview Push loading script."
+
+# Log into Dendra
+den login $1 $2 
+
 den meta push-schemes --filespec=../data/migration1-preview/scheme
 den meta push-soms --filespec=../data/migration1-preview/som/*
 den meta push-uoms --filespec=../data/migration1-preview/uom/*
