@@ -1,0 +1,27 @@
+{
+  "_id": "ds-aggregate",
+  "label": "Aggregate",
+  "scheme_id": "ds",
+  "terms": [
+    {
+      "label": "Average",
+      "name": "Average/Mean"
+    },
+    {
+      "label": "Maximum"
+    },
+    {
+      "label": "Median"
+    },
+    {
+      "label": "Minimum"
+    },
+    {
+      "label": "StandardDeviation",
+      "name": "Standard Deviation"
+    },
+    {
+      "label": "Cumulative"
+    }
+  ]
+}

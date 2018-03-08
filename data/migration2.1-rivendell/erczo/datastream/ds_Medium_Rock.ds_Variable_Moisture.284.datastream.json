@@ -1,0 +1,109 @@
+{
+  "enabled": true,
+  "name": "ERP L2S3-0.2 b",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602ca",
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 284,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "284",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "6",
+      "type": "odm.stations.StationID"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Rock",
+    "ds_Variable_Moisture",
+    "dt_Unit_Kiloohm"
+  ],
+  "created_at": "2018-03-08T01:03:53.045Z",
+  "updated_at": "2018-03-08T01:03:53.045Z",
+  "_id": "5aa089485a929000014f2a3d",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Rock",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Moisture",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "kΩ",
+        "label": "Kiloohm",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "f41440a7477ba7347e4c9196543af9bb0d9a23e7"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "abb89e0bf3da5cee4e0a271d1df9e219f6c4daae",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "65f1595df3265eb622e0512aae79ee69c2112c65",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

@@ -1,0 +1,18 @@
+{
+  "_id": "dw-probability-of-precipitation-type",
+  "label": "ProbabilityOfPrecipitationType",
+  "scheme_id": "dw",
+  "terms": [
+    {
+      "label": "12Hour",
+      "name": "12 Hour"
+    },
+    {
+      "label": "Floating"
+    },
+    {
+      "label": "EKDMOS6Hour",
+      "name": "EKDMOS 6 Hour"
+    }
+  ]
+}

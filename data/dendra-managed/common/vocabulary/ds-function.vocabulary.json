@@ -1,0 +1,13 @@
+{
+  "_id": "ds-function",
+  "label": "Function",
+  "scheme_id": "ds",
+  "terms": [
+    {
+      "label": "Seasonal"
+    },
+    {
+      "label": "Forecast"
+    }
+  ]
+}

@@ -7,8 +7,8 @@ console.log("\n Station ID inserter to Stations and Datastreasms starting \n")
 
 fs = require("fs")
 args = process.argv.slice(2)
-path = args[0] // Requires trailing slash, e.g. "../data/migration2.1-rivendell/" 
-console.log('usage: node migrate-stationid-inserter.js <migration_path/>')
+path = args[0] // Requires trailing slash, e.g. "../data/migration2.1-rivendell/erczo/" 
+console.log('usage: node transform-sensordb-stationid-inserter.js <migration_path/>')
 
 // To use old station ids, for compatibility, set this to true
 stations = JSON.parse(fs.readFileSync("stations.js"))

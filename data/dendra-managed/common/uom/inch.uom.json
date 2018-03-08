@@ -1,0 +1,17 @@
+{
+  "_id": "inch",
+  "convertible_to_uom_ids": [
+    "centimeter",
+    "foot"
+  ],
+  "library_config": {
+    "mathjs": {
+      "round_n": 1,
+      "unit_name": "in"
+    }
+  },
+  "som_id": "imp",
+  "unit_tags": [
+    "dt_Unit_Inch"
+  ]
+}

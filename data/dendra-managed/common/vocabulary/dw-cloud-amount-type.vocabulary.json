@@ -1,0 +1,14 @@
+{
+  "_id": "dw-cloud-amount-type",
+  "label": "CloudAmountType",
+  "scheme_id": "dw",
+  "terms": [
+    {
+      "label": "Total"
+    },
+    {
+      "label": "RTMATotal",
+      "name": "RTMA Total"
+    }
+  ]
+}

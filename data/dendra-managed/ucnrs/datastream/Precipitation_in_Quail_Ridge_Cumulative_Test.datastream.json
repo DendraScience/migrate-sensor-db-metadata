@@ -1,0 +1,119 @@
+{
+  "_id": "5a78e901f55c4b0001ed025e",
+  "station_id": "5a37e71ba546db0001547681",
+  "name": "Precipitation in Quail Ridge Cumulative Test",
+  "source_type": "sensor",
+  "state": "ready",
+  "enabled": false,
+  "external_refs": [
+    {
+      "identifier": "5a37e71ba546db0001547681",
+      "type": "dendra.datastreams"
+    }
+  ],
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "db": "station_quail_ridge",
+          "sc": "\"time\", \"PCPN_Tot\"",
+          "fc": "ten_minute_data",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2017-06-07T13:00:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "description": "Continuously accumulating precipiation. Troubleshooting purposes only.",
+  "tags": [
+    "ds_Aggregate_Cumulative",
+    "ds_Medium_Instrument",
+    "ds_Variable_Height",
+    "dt_Unit_Inch"
+  ],
+  "created_at": "2018-03-08T01:04:23.617Z",
+  "updated_at": "2018-03-08T01:04:23.617Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Cumulative",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      },
+      {
+        "label": "Instrument",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Height",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "in",
+        "label": "Inch",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-aggregate"
+      },
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "f26094889cb1fcec3ada1bf103d44d6247707986"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "5a6d8e49547b7cd9e0d0a5784b5c19d4a6171467",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "69326d87e5be97ef77d163580a7947cca3e81447",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

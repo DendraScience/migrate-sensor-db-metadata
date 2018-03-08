@@ -1,0 +1,16 @@
+{
+  "_id": "volt",
+  "convertible_to_uom_ids": [
+    "millivolt"
+  ],
+  "library_config": {
+    "mathjs": {
+      "round_n": 1,
+      "unit_name": "V"
+    }
+  },
+  "som_id": "met",
+  "unit_tags": [
+    "dt_Unit_Volt"
+  ]
+}

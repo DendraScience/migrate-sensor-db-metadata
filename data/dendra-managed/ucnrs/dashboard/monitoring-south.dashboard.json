@@ -1,0 +1,995 @@
+{
+  "_id": "5a8339b7b8277200015725f6",
+  "content": {
+    "rows": [
+      {
+        "columns": [
+          {
+            "classes": [
+              "col-md-6"
+            ],
+            "component": {
+              "name": "HcTimeSeries",
+              "options": {
+                "chart": {
+                  "chart": {
+                    "height": 300,
+                    "zoomType": "x"
+                  },
+                  "title": {
+                    "text": "Battery Voltage A"
+                  },
+                  "xAxis": {
+                    "crosshair": true,
+                    "title": {
+                      "text": "Time"
+                    },
+                    "type": "datetime"
+                  },
+                  "yAxis": [
+                    {
+                      "title": {
+                        "text": "Volts"
+                      }
+                    },
+                    {
+                      "gridLineWidth": 0,
+                      "linkedTo": 0,
+                      "opposite": true,
+                      "title": {
+                        "text": "Volts"
+                      }
+                    }
+                  ]
+                },
+                "colors": [
+                  "WHEEL.RED",
+                  "WHEEL.ORANGE",
+                  "WHEEL.GREEN",
+                  "WHEEL.BLUE",
+                  "WHEEL.BLUE_GREEN",
+                  "WHEEL.RED_VIOLET",
+                  "WHEEL.BLUE_VIOLET"
+                ],
+                "orderBy": {
+                  "iteratees": [
+                    "name"
+                  ]
+                }
+              },
+              "topic": "batVolt_a"
+            }
+          },
+          {
+            "classes": [
+              "col-md-6"
+            ],
+            "component": {
+              "name": "HcTimeSeries",
+              "options": {
+                "chart": {
+                  "chart": {
+                    "height": 300,
+                    "zoomType": "x"
+                  },
+                  "title": {
+                    "text": "Battery Voltage B"
+                  },
+                  "xAxis": {
+                    "crosshair": true,
+                    "title": {
+                      "text": "Time"
+                    },
+                    "type": "datetime"
+                  },
+                  "yAxis": [
+                    {
+                      "title": {
+                        "text": "Volts"
+                      }
+                    },
+                    {
+                      "gridLineWidth": 0,
+                      "linkedTo": 0,
+                      "opposite": true,
+                      "title": {
+                        "text": "Volts"
+                      }
+                    }
+                  ]
+                },
+                "colors": [
+                  "WHEEL.RED",
+                  "WHEEL.ORANGE",
+                  "WHEEL.GREEN",
+                  "WHEEL.BLUE",
+                  "WHEEL.BLUE_GREEN",
+                  "WHEEL.RED_VIOLET",
+                  "WHEEL.BLUE_VIOLET"
+                ],
+                "orderBy": {
+                  "iteratees": [
+                    "name"
+                  ]
+                }
+              },
+              "topic": "batVolt_b"
+            }
+          }
+        ],
+        "title": "Battery Voltage"
+      },
+      {
+        "classes": [
+          "pt-4"
+        ],
+        "columns": [
+          {
+            "classes": [
+              "col-md-6"
+            ],
+            "component": {
+              "name": "HcTimeSeries",
+              "options": {
+                "chart": {
+                  "chart": {
+                    "height": 300,
+                    "zoomType": "x"
+                  },
+                  "title": {
+                    "text": "Air Temperature A"
+                  },
+                  "xAxis": {
+                    "crosshair": true,
+                    "title": {
+                      "text": "Time"
+                    },
+                    "type": "datetime"
+                  },
+                  "yAxis": [
+                    {
+                      "title": {
+                        "text": "Degrees"
+                      }
+                    },
+                    {
+                      "gridLineWidth": 0,
+                      "linkedTo": 0,
+                      "opposite": true,
+                      "title": {
+                        "text": "Degrees"
+                      }
+                    }
+                  ]
+                },
+                "colors": [
+                  "WHEEL.RED",
+                  "WHEEL.ORANGE",
+                  "WHEEL.GREEN",
+                  "WHEEL.BLUE",
+                  "WHEEL.BLUE_GREEN",
+                  "WHEEL.RED_VIOLET",
+                  "WHEEL.BLUE_VIOLET"
+                ],
+                "orderBy": {
+                  "iteratees": [
+                    "name"
+                  ]
+                }
+              },
+              "topic": "avgAirTemp_a"
+            }
+          },
+          {
+            "classes": [
+              "col-md-6"
+            ],
+            "component": {
+              "name": "HcTimeSeries",
+              "options": {
+                "chart": {
+                  "chart": {
+                    "height": 300,
+                    "zoomType": "x"
+                  },
+                  "title": {
+                    "text": "Air Temperature B"
+                  },
+                  "xAxis": {
+                    "crosshair": true,
+                    "title": {
+                      "text": "Time"
+                    },
+                    "type": "datetime"
+                  },
+                  "yAxis": [
+                    {
+                      "title": {
+                        "text": "Degrees"
+                      }
+                    },
+                    {
+                      "gridLineWidth": 0,
+                      "linkedTo": 0,
+                      "opposite": true,
+                      "title": {
+                        "text": "Degrees"
+                      }
+                    }
+                  ]
+                },
+                "colors": [
+                  "WHEEL.RED",
+                  "WHEEL.ORANGE",
+                  "WHEEL.GREEN",
+                  "WHEEL.BLUE",
+                  "WHEEL.BLUE_GREEN",
+                  "WHEEL.RED_VIOLET",
+                  "WHEEL.BLUE_VIOLET"
+                ],
+                "orderBy": {
+                  "iteratees": [
+                    "name"
+                  ]
+                }
+              },
+              "topic": "avgAirTemp_b"
+            }
+          }
+        ],
+        "title": "Air Temperature"
+      },
+      {
+        "classes": [
+          "pt-4"
+        ],
+        "columns": [
+          {
+            "classes": [
+              "col-md-6"
+            ],
+            "component": {
+              "name": "HcTimeSeries",
+              "options": {
+                "chart": {
+                  "chart": {
+                    "height": 300,
+                    "zoomType": "x"
+                  },
+                  "title": {
+                    "text": "Precipitation A"
+                  },
+                  "xAxis": {
+                    "crosshair": true,
+                    "title": {
+                      "text": "Time"
+                    },
+                    "type": "datetime"
+                  },
+                  "yAxis": [
+                    {
+                      "title": {
+                        "text": "Millimeters"
+                      }
+                    },
+                    {
+                      "gridLineWidth": 0,
+                      "linkedTo": 0,
+                      "opposite": true,
+                      "title": {
+                        "text": "Millimeters"
+                      }
+                    }
+                  ]
+                },
+                "colors": [
+                  "WHEEL.RED",
+                  "WHEEL.ORANGE",
+                  "WHEEL.GREEN",
+                  "WHEEL.BLUE",
+                  "WHEEL.BLUE_GREEN",
+                  "WHEEL.RED_VIOLET",
+                  "WHEEL.BLUE_VIOLET"
+                ],
+                "orderBy": {
+                  "iteratees": [
+                    "name"
+                  ]
+                }
+              },
+              "topic": "precip_a"
+            }
+          },
+          {
+            "classes": [
+              "col-md-6"
+            ],
+            "component": {
+              "name": "HcTimeSeries",
+              "options": {
+                "chart": {
+                  "chart": {
+                    "height": 300,
+                    "zoomType": "x"
+                  },
+                  "title": {
+                    "text": "Precipitation B"
+                  },
+                  "xAxis": {
+                    "crosshair": true,
+                    "title": {
+                      "text": "Time"
+                    },
+                    "type": "datetime"
+                  },
+                  "yAxis": [
+                    {
+                      "title": {
+                        "text": "Millimeters"
+                      }
+                    },
+                    {
+                      "gridLineWidth": 0,
+                      "linkedTo": 0,
+                      "opposite": true,
+                      "title": {
+                        "text": "Millimeters"
+                      }
+                    }
+                  ]
+                },
+                "colors": [
+                  "WHEEL.RED",
+                  "WHEEL.ORANGE",
+                  "WHEEL.GREEN",
+                  "WHEEL.BLUE",
+                  "WHEEL.BLUE_GREEN",
+                  "WHEEL.RED_VIOLET",
+                  "WHEEL.BLUE_VIOLET"
+                ],
+                "orderBy": {
+                  "iteratees": [
+                    "name"
+                  ]
+                },
+                "reject": {
+                  "_id": "5a7ca5d1610afd00019f3d49"
+                }
+              },
+              "topic": "precip_b"
+            }
+          }
+        ],
+        "title": "Precipitation"
+      },
+      {
+        "classes": [
+          "pt-4"
+        ],
+        "columns": [
+          {
+            "classes": [
+              "col-md-6"
+            ],
+            "component": {
+              "name": "HcTimeSeries",
+              "options": {
+                "chart": {
+                  "chart": {
+                    "height": 300,
+                    "zoomType": "x"
+                  },
+                  "title": {
+                    "text": "Barometric Pressure A"
+                  },
+                  "xAxis": {
+                    "crosshair": true,
+                    "title": {
+                      "text": "Time"
+                    },
+                    "type": "datetime"
+                  },
+                  "yAxis": [
+                    {
+                      "title": {
+                        "text": "Millibar"
+                      }
+                    },
+                    {
+                      "gridLineWidth": 0,
+                      "linkedTo": 0,
+                      "opposite": true,
+                      "title": {
+                        "text": "Millibar"
+                      }
+                    }
+                  ]
+                },
+                "colors": [
+                  "WHEEL.RED",
+                  "WHEEL.ORANGE",
+                  "WHEEL.GREEN",
+                  "WHEEL.BLUE",
+                  "WHEEL.BLUE_GREEN",
+                  "WHEEL.RED_VIOLET",
+                  "WHEEL.BLUE_VIOLET"
+                ],
+                "orderBy": {
+                  "iteratees": [
+                    "name"
+                  ]
+                }
+              },
+              "topic": "avgAirPres_a"
+            }
+          },
+          {
+            "classes": [
+              "col-md-6"
+            ],
+            "component": {
+              "name": "HcTimeSeries",
+              "options": {
+                "chart": {
+                  "chart": {
+                    "height": 300,
+                    "zoomType": "x"
+                  },
+                  "title": {
+                    "text": "Barometric Pressure B"
+                  },
+                  "xAxis": {
+                    "crosshair": true,
+                    "title": {
+                      "text": "Time"
+                    },
+                    "type": "datetime"
+                  },
+                  "yAxis": [
+                    {
+                      "title": {
+                        "text": "Millibar"
+                      }
+                    },
+                    {
+                      "gridLineWidth": 0,
+                      "linkedTo": 0,
+                      "opposite": true,
+                      "title": {
+                        "text": "Millibar"
+                      }
+                    }
+                  ]
+                },
+                "colors": [
+                  "WHEEL.RED",
+                  "WHEEL.ORANGE",
+                  "WHEEL.GREEN",
+                  "WHEEL.BLUE",
+                  "WHEEL.BLUE_GREEN",
+                  "WHEEL.RED_VIOLET",
+                  "WHEEL.BLUE_VIOLET"
+                ],
+                "orderBy": {
+                  "iteratees": [
+                    "name"
+                  ]
+                }
+              },
+              "topic": "avgAirPres_b"
+            }
+          }
+        ],
+        "title": "Barometric Pressure"
+      }
+    ]
+  },
+  "created_at": "2018-02-13T19:17:11.639Z",
+  "enabled": true,
+  "name": "Monitoring South",
+  "organization_id": "58db17c424dc720001671378",
+  "slug": "monitoring-south",
+  "sort_value": 10,
+  "sources": [
+    {
+      "find_actions": [
+        {
+          "path": "/datapoints/lookup",
+          "query": {
+            "attributes_exists": false,
+            "station_id": [
+              "58e68cacdf5ce600012602d9"
+            ],
+            "tags": "ds_Aggregate_Average.ds_Medium_Battery.ds_Variable_Voltage.dt_Unit_Volt",
+            "tags_exact": true,
+            "time_local": true
+          }
+        },
+        {
+          "path": "/datapoints/lookup",
+          "query": {
+            "attributes_exists": false,
+            "station_id": [
+              "58e68cabdf5ce600012602be",
+              "58e68cacdf5ce600012602c6",
+              "58e68cacdf5ce600012602d3",
+              "58e68cacdf5ce600012602d6"
+            ],
+            "tags": "ds_Aggregate_Minimum.ds_Medium_Battery.ds_Variable_Voltage.dt_Unit_Volt",
+            "tags_exact": true,
+            "time_local": true
+          }
+        }
+      ],
+      "options": {
+        "cursorDate": [
+          {
+            "m": "add",
+            "p": [
+              12,
+              "d"
+            ]
+          }
+        ],
+        "endDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "add",
+            "p": [
+              1,
+              "d"
+            ]
+          }
+        ],
+        "startDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "subtract",
+            "p": [
+              6,
+              "d"
+            ]
+          }
+        ]
+      },
+      "template": "seriesAsc",
+      "topic": "batVolt_a"
+    },
+    {
+      "find_actions": [
+        {
+          "path": "/datapoints/lookup",
+          "query": {
+            "attributes_exists": false,
+            "station_id": [
+              "58e68cabdf5ce600012602ba",
+              "58e68cabdf5ce600012602c0"
+            ],
+            "tags": "ds_Aggregate_Average.ds_Medium_Battery.ds_Variable_Voltage.dt_Unit_Volt",
+            "tags_exact": true,
+            "time_local": true
+          }
+        },
+        {
+          "path": "/datapoints/lookup",
+          "query": {
+            "attributes_exists": false,
+            "station_id": [
+              "58e68cabdf5ce600012602b4",
+              "58e68cabdf5ce600012602bd",
+              "58e68cacdf5ce600012602c3",
+              "58e68cacdf5ce600012602d7"
+            ],
+            "tags": "ds_Aggregate_Minimum.ds_Medium_Battery.ds_Variable_Voltage.dt_Unit_Volt",
+            "tags_exact": true,
+            "time_local": true
+          }
+        }
+      ],
+      "options": {
+        "cursorDate": [
+          {
+            "m": "add",
+            "p": [
+              12,
+              "d"
+            ]
+          }
+        ],
+        "endDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "add",
+            "p": [
+              1,
+              "d"
+            ]
+          }
+        ],
+        "startDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "subtract",
+            "p": [
+              6,
+              "d"
+            ]
+          }
+        ]
+      },
+      "template": "seriesAsc",
+      "topic": "batVolt_b"
+    },
+    {
+      "find_actions": [
+        {
+          "path": "/datapoints/lookup",
+          "query": {
+            "attributes_exists": false,
+            "station_id": [
+              "58e68cabdf5ce600012602be",
+              "58e68cacdf5ce600012602c6",
+              "58e68cacdf5ce600012602d3",
+              "58e68cacdf5ce600012602d6",
+              "58e68cacdf5ce600012602d9"
+            ],
+            "tags": "ds_Aggregate_Average.ds_Medium_Air.ds_Variable_Temperature.dt_Unit_DegreeCelsius",
+            "tags_exact": true,
+            "time_local": true
+          }
+        }
+      ],
+      "options": {
+        "cursorDate": [
+          {
+            "m": "add",
+            "p": [
+              12,
+              "d"
+            ]
+          }
+        ],
+        "endDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "add",
+            "p": [
+              1,
+              "d"
+            ]
+          }
+        ],
+        "startDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "subtract",
+            "p": [
+              6,
+              "d"
+            ]
+          }
+        ]
+      },
+      "template": "seriesAsc",
+      "topic": "avgAirTemp_a"
+    },
+    {
+      "find_actions": [
+        {
+          "path": "/datapoints/lookup",
+          "query": {
+            "attributes_exists": false,
+            "station_id": [
+              "58e68cabdf5ce600012602b4",
+              "58e68cabdf5ce600012602ba",
+              "58e68cabdf5ce600012602bd",
+              "58e68cabdf5ce600012602c0",
+              "58e68cacdf5ce600012602c3",
+              "58e68cacdf5ce600012602d7"
+            ],
+            "tags": "ds_Aggregate_Average.ds_Medium_Air.ds_Variable_Temperature.dt_Unit_DegreeCelsius",
+            "tags_exact": true,
+            "time_local": true
+          }
+        }
+      ],
+      "options": {
+        "cursorDate": [
+          {
+            "m": "add",
+            "p": [
+              12,
+              "d"
+            ]
+          }
+        ],
+        "endDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "add",
+            "p": [
+              1,
+              "d"
+            ]
+          }
+        ],
+        "startDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "subtract",
+            "p": [
+              6,
+              "d"
+            ]
+          }
+        ]
+      },
+      "template": "seriesAsc",
+      "topic": "avgAirTemp_b"
+    },
+    {
+      "find_actions": [
+        {
+          "path": "/datapoints/lookup",
+          "query": {
+            "attributes_exists": false,
+            "station_id": [
+              "58e68cabdf5ce600012602be",
+              "58e68cacdf5ce600012602c6",
+              "58e68cacdf5ce600012602d3",
+              "58e68cacdf5ce600012602d6",
+              "58e68cacdf5ce600012602d9"
+            ],
+            "tags": "ds_Medium_Precipitation.ds_Variable_Precipitation.dt_Unit_Millimeter",
+            "tags_exact": true,
+            "time_local": true
+          }
+        }
+      ],
+      "options": {
+        "cursorDate": [
+          {
+            "m": "add",
+            "p": [
+              12,
+              "d"
+            ]
+          }
+        ],
+        "endDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "add",
+            "p": [
+              1,
+              "d"
+            ]
+          }
+        ],
+        "startDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "subtract",
+            "p": [
+              6,
+              "d"
+            ]
+          }
+        ]
+      },
+      "template": "seriesAsc",
+      "topic": "precip_a"
+    },
+    {
+      "find_actions": [
+        {
+          "path": "/datapoints/lookup",
+          "query": {
+            "attributes_exists": false,
+            "station_id": [
+              "58e68cabdf5ce600012602b4",
+              "58e68cabdf5ce600012602ba",
+              "58e68cabdf5ce600012602bd",
+              "58e68cabdf5ce600012602c0",
+              "58e68cacdf5ce600012602c3",
+              "58e68cacdf5ce600012602d7"
+            ],
+            "tags": "ds_Medium_Precipitation.ds_Variable_Precipitation.dt_Unit_Millimeter",
+            "tags_exact": true,
+            "time_local": true
+          }
+        }
+      ],
+      "options": {
+        "cursorDate": [
+          {
+            "m": "add",
+            "p": [
+              12,
+              "d"
+            ]
+          }
+        ],
+        "endDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "add",
+            "p": [
+              1,
+              "d"
+            ]
+          }
+        ],
+        "startDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "subtract",
+            "p": [
+              6,
+              "d"
+            ]
+          }
+        ]
+      },
+      "template": "seriesAsc",
+      "topic": "precip_b"
+    },
+    {
+      "find_actions": [
+        {
+          "path": "/datapoints/lookup",
+          "query": {
+            "attributes_exists": false,
+            "station_id": [
+              "58e68cabdf5ce600012602be",
+              "58e68cacdf5ce600012602c6",
+              "58e68cacdf5ce600012602d3",
+              "58e68cacdf5ce600012602d6",
+              "58e68cacdf5ce600012602d9"
+            ],
+            "tags": "ds_Aggregate_Average.ds_Medium_Air.ds_Variable_BarometricPressure.dt_Unit_Millibar",
+            "tags_exact": true,
+            "time_local": true
+          }
+        }
+      ],
+      "options": {
+        "cursorDate": [
+          {
+            "m": "add",
+            "p": [
+              12,
+              "d"
+            ]
+          }
+        ],
+        "endDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "add",
+            "p": [
+              1,
+              "d"
+            ]
+          }
+        ],
+        "startDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "subtract",
+            "p": [
+              6,
+              "d"
+            ]
+          }
+        ]
+      },
+      "template": "seriesAsc",
+      "topic": "avgAirPres_a"
+    },
+    {
+      "find_actions": [
+        {
+          "path": "/datapoints/lookup",
+          "query": {
+            "attributes_exists": false,
+            "station_id": [
+              "58e68cabdf5ce600012602b4",
+              "58e68cabdf5ce600012602ba",
+              "58e68cabdf5ce600012602bd",
+              "58e68cabdf5ce600012602c0",
+              "58e68cacdf5ce600012602c3",
+              "58e68cacdf5ce600012602d7"
+            ],
+            "tags": "ds_Aggregate_Average.ds_Medium_Air.ds_Variable_BarometricPressure.dt_Unit_Millibar",
+            "tags_exact": true,
+            "time_local": true
+          }
+        }
+      ],
+      "options": {
+        "cursorDate": [
+          {
+            "m": "add",
+            "p": [
+              12,
+              "d"
+            ]
+          }
+        ],
+        "endDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "add",
+            "p": [
+              1,
+              "d"
+            ]
+          }
+        ],
+        "startDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "subtract",
+            "p": [
+              6,
+              "d"
+            ]
+          }
+        ]
+      },
+      "template": "seriesAsc",
+      "topic": "avgAirPres_b"
+    }
+  ],
+  "updated_at": "2018-02-14T17:56:59.413Z",
+  "utc_offset": -28800
+}
