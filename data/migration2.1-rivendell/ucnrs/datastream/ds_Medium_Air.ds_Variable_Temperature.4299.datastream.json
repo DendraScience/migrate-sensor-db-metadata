@@ -105,5 +105,14 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "attributes": {
+    "height": {
+      "unit": "dt_Unit_Meter",
+      "range": [
+        "10",
+        "2"
+      ]
+    }
+  }
 }

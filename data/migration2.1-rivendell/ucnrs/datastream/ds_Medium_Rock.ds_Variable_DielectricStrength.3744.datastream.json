@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "name": "Soil Moisture TDR freq 4 in horiz McLaughlin ",
+  "name": "Soil Moisture TDR freq 0.1 m horiz McLaughlin ",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602c5",
@@ -104,5 +104,12 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "attributes": {
+    "orientation": "horizontal",
+    "depth": {
+      "unit": "dt_Unit_Meter",
+      "value": "0.1"
+    }
+  }
 }

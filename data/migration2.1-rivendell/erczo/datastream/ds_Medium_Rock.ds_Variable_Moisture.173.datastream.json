@@ -6,8 +6,8 @@
   "station_id": "58e68cacdf5ce600012602c8",
   "attributes": {
     "depth": {
-      "unit_tag": "dt_Unit_Meter",
-      "value": 0
+      "unit": "dt_Unit_Meter",
+      "value": "0.3"
     }
   },
   "datapoints_config": [

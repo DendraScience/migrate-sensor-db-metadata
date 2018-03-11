@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "name": "Soil Moisture CS_138",
+  "name": "Soil Moisture CS138",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602d0",
@@ -105,5 +105,11 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Meter",
+      "value": "138"
+    }
+  }
 }

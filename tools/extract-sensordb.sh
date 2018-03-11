@@ -22,8 +22,9 @@ do
 	node ./transform-sensordb-stationid-inserter.js ../data/migration2.1-rivendell/$orgslug/
 
 	# map names to attributes for datastreams
-	#echo node ./transform-map-names-to-attributes.js ../data/migration2.1-rivendell/$orgslug/ 
-	#node ./transform-map-names-to-attributes.js ../data/migration2.1-rivendell/$orgslug/
+	# note: org_slug needs to be passed in as a separate argument from path
+	echo node ./transform-sensordb-map-names-to-attributes.js ../data/migration2.1-rivendell/ $orgslug 
+	node ./transform-sensordb-map-names-to-attributes.js ../data/migration2.1-rivendell/ $orgslug
 done
 
 echo "RIVENDELL SENSOR DATABASE EXTRACTION & TRANSFORMATION COMPLETE!" 

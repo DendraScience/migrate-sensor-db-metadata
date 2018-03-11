@@ -105,5 +105,12 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Meter",
+      "value": "0.72"
+    },
+    "orientation": "horizontal"
+  }
 }

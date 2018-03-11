@@ -1,13 +1,13 @@
 {
   "enabled": true,
-  "name": "Soil Temp 8 inch depth C WSSM Avg",
+  "name": "Soil Temp 0.2 meter depth C WSSM Avg",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602d8",
   "attributes": {
     "depth": {
-      "unit_tag": "dt_Unit_Inch",
-      "value": 8
+      "unit": "dt_Unit_Meter",
+      "value": "0.2"
     }
   },
   "datapoints_config": [

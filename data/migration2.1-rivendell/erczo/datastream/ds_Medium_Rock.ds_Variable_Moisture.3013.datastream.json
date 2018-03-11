@@ -6,9 +6,9 @@
   "station_id": "58e68cacdf5ce600012602db",
   "attributes": {
     "depth": {
-      "unit_tag": "dt_Unit_Meter",
+      "unit": "dt_Unit_Meter",
       "range": [
-        15,
+        14.8,
         15
       ]
     }

@@ -1,13 +1,13 @@
 {
   "enabled": true,
-  "name": "Soil Temp 20 inch depth C WSSM Max",
+  "name": "Soil Temp 0.5 meter depth C WSSM Max",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602d8",
   "attributes": {
     "depth": {
-      "unit_tag": "dt_Unit_Inch",
-      "value": 20
+      "unit": "dt_Unit_Meter",
+      "value": "0.5"
     }
   },
   "datapoints_config": [

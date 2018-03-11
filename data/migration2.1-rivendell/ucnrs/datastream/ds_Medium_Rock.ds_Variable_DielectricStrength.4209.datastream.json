@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "name": "Soil Moisture TDR freq 2 in vertical Fort Ord",
+  "name": "Soil Moisture TDR freq 0.05 m vertical Fort Ord",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cabdf5ce600012602bf",
@@ -104,5 +104,12 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "attributes": {
+    "orientation": "vertical",
+    "depth": {
+      "unit": "dt_Unit_Meter",
+      "value": "0.05"
+    }
+  }
 }

@@ -6,10 +6,10 @@
   "station_id": "58e68cacdf5ce600012602db",
   "attributes": {
     "depth": {
-      "unit_tag": "dt_Unit_Meter",
+      "unit": "dt_Unit_Meter",
       "range": [
         5,
-        6
+        6.4
       ]
     }
   },

@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "name": "Soil Temp Deg C 8 in James Min",
+  "name": "Soil Temp Deg C 0.2 m James Min",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602c3",
@@ -105,5 +105,11 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Meter",
+      "value": "0.2"
+    }
+  }
 }

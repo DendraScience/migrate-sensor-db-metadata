@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "name": "Soil Temp Deg C 4 in Sedgwick Min",
+  "name": "Soil Temp Deg C 0.1 m Sedgwick Min",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602d6",
@@ -105,5 +105,11 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Meter",
+      "value": "0.1"
+    }
+  }
 }

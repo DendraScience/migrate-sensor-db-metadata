@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "name": "Soil Temp Deg C 8 in Blue Oak Min",
+  "name": "Soil Temp Deg C 0.2 m Blue Oak Min",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cabdf5ce600012602b8",
@@ -105,5 +105,11 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Meter",
+      "value": "0.2"
+    }
+  }
 }

@@ -42,7 +42,7 @@ den meta push-vocabularies --filespec=../data/migration2.1-rivendell/common/thin
 # ORGANIZATION SPECIFIC METADATA
 organization_list="erczo ucnrs"
 for orgslug in $organization_list 
-do 
+do ß
 	# dashboards
 	den meta push-dashboards --filespec=../data/dendra-managed/$orgslug/dashboard/*dashboard.json  
 	den meta push-dashboards --filespec=../data/migration2.1-rivendell/$orgslug/dashboard/*dashboard.json 
