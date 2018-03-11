@@ -1,11 +1,14 @@
 {
-  "enabled": true,
+  "_id": "5aa089575a929000014f2c17",
+  "enabled": false,
   "name": "Total Solar Radiation MJ WSAM",
   "source_type": "sensor",
-  "state": "ready",
+  "state": "retired",
   "station_id": "58e68cabdf5ce600012602b2",
   "datapoints_config": [
     {
+      "begins_at": "2008-04-29T22:30:00.000Z",
+      "ends_before": "2010-01-05T20:39:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +35,7 @@
     "dt_Unit_MegajoulePerSquareMeter"
   ],
   "created_at": "2018-03-08T01:04:14.844Z",
-  "updated_at": "2018-03-08T01:04:14.844Z",
-  "_id": "5aa089575a929000014f2c17",
+  "updated_at": "2018-03-11T21:19:09.387Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -105,5 +107,7 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "changed units to kJ. \"Total Solar Radiation kJ WSAM\"",
+  "organization_id": "58db17e824dc720001671379"
 }

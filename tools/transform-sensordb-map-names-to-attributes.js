@@ -105,7 +105,7 @@ for(var i=0;i<ds_files.length;i++) {
 			//console.log("ERP Found!",dsname," Location:",location," Attribute:",attribute)
 			ds_json.attributes = {
     		"depth": {
-      		"unit": "dt_Unit_Meter",
+      		"unit_tag": "dt_Unit_Meter",
       		"value": attribute
     		}
   		}
@@ -136,7 +136,7 @@ for(var i=0;i<ds_files.length;i++) {
 						// Insert Attributes
 						ds_json.attributes = {
 					    "depth": {
-					      "unit": "dt_Unit_Meter",
+					      "unit_tag": "dt_Unit_Meter",
 					      "range": [
 					        depth1,
 					        depth2
@@ -177,7 +177,7 @@ for(var i=0;i<ds_files.length;i++) {
 			depth = dsname.substring(dsname.search('_')+1)
 			ds_json.attributes = {
 		    "depth": {
-		      "unit": "dt_Unit_Meter",
+		      "unit_tag": "dt_Unit_Meter",
 		      "value": depth
 		    },
 		    "orientation": orientation
@@ -192,7 +192,7 @@ for(var i=0;i<ds_files.length;i++) {
 			depth = dsname.substring(dsname.search('CS')+2)
 			ds_json.attributes = {
 		    "depth": {
-		      "unit": "dt_Unit_Meter",
+		      "unit_tag": "dt_Unit_Meter",
 		      "value": depth
 		    }
 		  }
@@ -223,14 +223,14 @@ for(var i=0;i<ds_files.length;i++) {
 			// depth
 			if(dsname.match(/4/)) {
 				ds_json.attributes.depth = {
-		      "unit": "dt_Unit_Meter",
+		      "unit_tag": "dt_Unit_Meter",
 		      "value": "0.1"
 		    }
 		    dsname = dsname.replace("4 in","0.1 m")
 			}
 			if(dsname.match(/2/)) {
 				ds_json.attributes.depth = {
-		      "unit": "dt_Unit_Meter",
+		      "unit_tag": "dt_Unit_Meter",
 		      "value": "0.05"
 		    }
 		    dsname = dsname.replace("2 in","0.05 m")
@@ -252,7 +252,7 @@ for(var i=0;i<ds_files.length;i++) {
 			depth = dsname.substring(dsname.search('_')+1)
 			ds_json.attributes = {
 				"depth": {
-					"unit": "dt_Unit_Meter",
+					"unit_tag": "dt_Unit_Meter",
 					"value": depth
 				}
 			}
@@ -267,7 +267,7 @@ for(var i=0;i<ds_files.length;i++) {
 			depth = inches2meters(depth1)
 			ds_json.attributes = {
 				"depth": {
-					"unit": "dt_Unit_Meter",
+					"unit_tag": "dt_Unit_Meter",
 					"value": depth
 				}
 			}
@@ -285,7 +285,7 @@ for(var i=0;i<ds_files.length;i++) {
 			depth = inches2meters(depth1)
 			ds_json.attributes = {
 				"depth": {
-					"unit": "dt_Unit_Meter",
+					"unit_tag": "dt_Unit_Meter",
 					"value": depth
 				}
 			}
@@ -301,7 +301,7 @@ for(var i=0;i<ds_files.length;i++) {
 			height = dsname.substring(dsname.search('Deg C ')+6,dsname.search(' m '))
 			ds_json.attributes = {
 				"height": {
-					"unit": "dt_Unit_Meter",
+					"unit_tag": "dt_Unit_Meter",
 					"value": height
 				}
 			}
@@ -314,7 +314,7 @@ for(var i=0;i<ds_files.length;i++) {
 			height = dsname.substring(dsname.search('Temp')+5,dsname.search(' m '))
 			ds_json.attributes = {
 				"height": {
-					"unit": "dt_Unit_Meter",
+					"unit_tag": "dt_Unit_Meter",
 					"value": height
 				}
 			}
@@ -328,7 +328,7 @@ for(var i=0;i<ds_files.length;i++) {
 			height2 = dsname.substring(dsname.search('m-')+2,dsname.search('m C'))
 			ds_json.attributes = {
 				"height": {
-					"unit": "dt_Unit_Meter",
+					"unit_tag": "dt_Unit_Meter",
 					"range":[height1,height2]
 				}
 			}
@@ -342,7 +342,7 @@ for(var i=0;i<ds_files.length;i++) {
 			height2 = dsname.substring(dsname.search('m-')+2,dsname.search('m '))
 			ds_json.attributes = {
 				"height": {
-					"unit": "dt_Unit_Meter",
+					"unit_tag": "dt_Unit_Meter",
 					"range":[height1,height2]
 				}
 			}

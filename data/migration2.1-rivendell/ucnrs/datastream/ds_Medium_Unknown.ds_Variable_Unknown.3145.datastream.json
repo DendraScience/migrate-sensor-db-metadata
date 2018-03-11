@@ -1,4 +1,5 @@
 {
+  "_id": "5aa089855a929000014f30c4",
   "enabled": true,
   "name": "Precipitation 2nd gage unkown SNARL",
   "source_type": "sensor",
@@ -6,6 +7,7 @@
   "station_id": "58e68cacdf5ce600012602d7",
   "datapoints_config": [
     {
+      "begins_at": "2012-07-11T19:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +34,7 @@
     "dt_Unit_Dimensionless"
   ],
   "created_at": "2018-03-08T01:05:17.854Z",
-  "updated_at": "2018-03-08T01:05:17.854Z",
-  "_id": "5aa089855a929000014f30c4",
+  "updated_at": "2018-03-11T21:19:56.932Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -104,5 +105,7 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "Data is always -9999 and is not associated with an actual instrument.  ",
+  "organization_id": "58db17c424dc720001671378"
 }

@@ -1,4 +1,5 @@
 {
+  "_id": "5aa089535a929000014f2b84",
   "enabled": true,
   "name": "Soil Moisture SandS_Rock_BF",
   "source_type": "sensor",
@@ -6,6 +7,7 @@
   "station_id": "58e68cacdf5ce600012602cf",
   "datapoints_config": [
     {
+      "begins_at": "2008-06-05T16:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -24,6 +26,9 @@
     {
       "identifier": "10",
       "type": "odm.stations.StationID"
+    },
+    {
+      "type": "odm.datastreams.DerivedID"
     }
   ],
   "tags": [
@@ -32,8 +37,7 @@
     "dt_Unit_Percent"
   ],
   "created_at": "2018-03-08T01:04:08.234Z",
-  "updated_at": "2018-03-08T01:04:08.234Z",
-  "_id": "5aa089535a929000014f2b84",
+  "updated_at": "2018-03-11T21:19:04.617Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -105,5 +109,8 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "derivation_description": "Derived Soil Moisture",
+  "derived_from_datastream_ids": "[166]",
+  "organization_id": "58db17e824dc720001671379"
 }

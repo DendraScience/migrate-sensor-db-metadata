@@ -1,11 +1,14 @@
 {
-  "enabled": true,
+  "_id": "5aa089795a929000014f2f4c",
+  "enabled": false,
   "name": "Soil Moisture Per James RETIRED",
   "source_type": "sensor",
-  "state": "ready",
+  "state": "retired",
   "station_id": "58e68cacdf5ce600012602c3",
   "datapoints_config": [
     {
+      "begins_at": "2009-12-31T18:30:00.000Z",
+      "ends_before": "2017-05-02T16:10:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +35,15 @@
     "dt_Unit_Percent"
   ],
   "created_at": "2018-03-08T01:05:01.269Z",
-  "updated_at": "2018-03-08T01:05:01.269Z",
-  "_id": "5aa089795a929000014f2f4c",
+  "updated_at": "2018-03-11T21:19:44.594Z",
+  "attributes": {},
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
   "tags_info": {
     "resolved_terms": [
       {
@@ -88,7 +98,7 @@
     },
     {
       "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      "str": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
     },
     {
       "key": "geo",
@@ -106,5 +116,6 @@
     }
   ],
   "_include": [],
-  "attributes": {}
+  "description": "Echo retired on May 2, 2017 and replaced with a CS616",
+  "organization_id": "58db17c424dc720001671378"
 }

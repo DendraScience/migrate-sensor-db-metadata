@@ -1,4 +1,5 @@
 {
+  "_id": "5aa089835a929000014f307e",
   "enabled": true,
   "name": "Total Solar Radiation W m2 Bodega Avg",
   "source_type": "sensor",
@@ -6,6 +7,7 @@
   "station_id": "58e68cabdf5ce600012602b9",
   "datapoints_config": [
     {
+      "begins_at": "2012-06-27T21:50:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +34,7 @@
     "dt_Unit_WattPerSquareMeter"
   ],
   "created_at": "2018-03-08T01:05:14.732Z",
-  "updated_at": "2018-03-08T01:05:14.732Z",
-  "_id": "5aa089835a929000014f307e",
+  "updated_at": "2018-03-11T21:19:54.679Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -105,5 +106,7 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "",
+  "organization_id": "58db17c424dc720001671378"
 }

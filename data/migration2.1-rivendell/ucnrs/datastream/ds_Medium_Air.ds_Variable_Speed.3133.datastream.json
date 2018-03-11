@@ -1,4 +1,5 @@
 {
+  "_id": "5aa089665a929000014f2d02",
   "enabled": true,
   "name": "Wind Gust m s 100 ft Sagehen Creek Max",
   "source_type": "sensor",
@@ -6,6 +7,7 @@
   "station_id": "58e68cacdf5ce600012602d1",
   "datapoints_config": [
     {
+      "begins_at": "1997-04-03T05:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +34,7 @@
     "dt_Unit_MeterPerSecond"
   ],
   "created_at": "2018-03-08T01:04:34.846Z",
-  "updated_at": "2018-03-08T01:04:34.846Z",
-  "_id": "5aa089665a929000014f2d02",
+  "updated_at": "2018-03-11T21:19:25.074Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -105,5 +106,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "organization_id": "58db17c424dc720001671378"
 }

@@ -1,4 +1,5 @@
 {
+  "_id": "5aa0893e5a929000014f2906",
   "enabled": true,
   "name": "Well 16 Water Level m 30min",
   "source_type": "sensor",
@@ -6,6 +7,7 @@
   "station_id": "58e68cacdf5ce600012602d0",
   "datapoints_config": [
     {
+      "begins_at": "2011-02-10T00:50:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -24,6 +26,9 @@
     {
       "identifier": "103",
       "type": "odm.stations.StationID"
+    },
+    {
+      "type": "odm.datastreams.DerivedID"
     }
   ],
   "tags": [
@@ -32,8 +37,28 @@
     "dt_Unit_Meter"
   ],
   "created_at": "2018-03-08T01:03:38.688Z",
-  "updated_at": "2018-03-08T01:03:38.688Z",
-  "_id": "5aa0893e5a929000014f2906",
+  "updated_at": "2018-03-11T21:18:42.690Z",
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Meter",
+      "value": "34.29"
+    },
+    "wellhead_height": {
+      "unit": "dt_Unit_Meter",
+      "value": "0.25"
+    },
+    "cable_length": {
+      "unit": "dt_Unit_Meter",
+      "value": "26.4"
+    }
+  },
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
   "tags_info": {
     "resolved_terms": [
       {
@@ -88,7 +113,7 @@
     },
     {
       "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      "str": "71cc0b21344f7cc86ba6a6897b421bf8bc045c52"
     },
     {
       "key": "geo",
@@ -106,18 +131,7 @@
     }
   ],
   "_include": [],
-  "attributes": {
-    "depth": {
-      "unit": "dt_Unit_Meter",
-      "value": "34.29"
-    },
-    "wellhead_height": {
-      "unit": "dt_Unit_Meter",
-      "value": "0.25"
-    },
-    "cable_length": {
-      "unit": "dt_Unit_Meter",
-      "value": "26.4"
-    }
-  }
+  "derivation_description": "Conversion to 30-minute timesteps",
+  "derived_from_datastream_ids": "[1479]",
+  "organization_id": "58db17e824dc720001671379"
 }

@@ -1,11 +1,14 @@
 {
-  "enabled": true,
+  "_id": "5aa089405a929000014f2954",
+  "enabled": false,
   "name": "Rainfall mm WSCP",
   "source_type": "sensor",
-  "state": "ready",
+  "state": "retired",
   "station_id": "58e68cabdf5ce600012602bb",
   "datapoints_config": [
     {
+      "begins_at": "2008-09-18T20:15:00.000Z",
+      "ends_before": "2015-12-06T09:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +35,7 @@
     "dt_Unit_Millimeter"
   ],
   "created_at": "2018-03-08T01:03:42.237Z",
-  "updated_at": "2018-03-08T01:03:42.237Z",
-  "_id": "5aa089405a929000014f2954",
+  "updated_at": "2018-03-11T21:18:45.309Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -105,5 +107,7 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "Old rain bucket is no longer operational. See Incident Report 237",
+  "organization_id": "58db17e824dc720001671379"
 }

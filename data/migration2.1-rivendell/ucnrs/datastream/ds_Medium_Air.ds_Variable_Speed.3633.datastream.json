@@ -1,4 +1,5 @@
 {
+  "_id": "5aa089685a929000014f2d28",
   "enabled": true,
   "name": "Wind Speed Deg Rancho Marino Std",
   "source_type": "sensor",
@@ -6,6 +7,7 @@
   "station_id": "58e68cacdf5ce600012602c7",
   "datapoints_config": [
     {
+      "begins_at": "2011-02-01T21:40:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +34,7 @@
     "dt_Unit_MilePerHour"
   ],
   "created_at": "2018-03-08T01:04:36.660Z",
-  "updated_at": "2018-03-08T01:04:36.660Z",
-  "_id": "5aa089685a929000014f2d28",
+  "updated_at": "2018-03-11T21:19:26.383Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -105,5 +106,7 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "",
+  "organization_id": "58db17c424dc720001671378"
 }

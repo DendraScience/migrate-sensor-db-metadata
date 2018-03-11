@@ -1,4 +1,5 @@
 {
+  "_id": "5aa089565a929000014f2be1",
   "enabled": true,
   "name": "Soil Temp L2ST_0.30",
   "source_type": "sensor",
@@ -6,6 +7,7 @@
   "station_id": "58e68cacdf5ce600012602cb",
   "datapoints_config": [
     {
+      "begins_at": "2008-06-04T19:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +34,20 @@
     "dt_Unit_DegreeCelsius"
   ],
   "created_at": "2018-03-08T01:04:12.479Z",
-  "updated_at": "2018-03-08T01:04:12.479Z",
-  "_id": "5aa089565a929000014f2be1",
+  "updated_at": "2018-03-11T21:19:07.621Z",
+  "attributes": {
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": "0.30"
+    }
+  },
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
   "tags_info": {
     "resolved_terms": [
       {
@@ -88,7 +102,7 @@
     },
     {
       "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      "str": "c7a11272954e80da00fd2b74bcc687001a55ca6d"
     },
     {
       "key": "geo",
@@ -106,10 +120,5 @@
     }
   ],
   "_include": [],
-  "attributes": {
-    "depth": {
-      "unit": "dt_Unit_Meter",
-      "value": "0.30"
-    }
-  }
+  "organization_id": "58db17e824dc720001671379"
 }

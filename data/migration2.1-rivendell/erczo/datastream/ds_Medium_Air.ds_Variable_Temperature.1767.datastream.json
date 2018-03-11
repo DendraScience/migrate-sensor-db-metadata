@@ -1,4 +1,5 @@
 {
+  "_id": "5aa0893c5a929000014f28be",
   "enabled": true,
   "name": "Air Temp 10 m height C WSSM Min 30min",
   "source_type": "sensor",
@@ -6,12 +7,13 @@
   "station_id": "58e68cacdf5ce600012602d8",
   "attributes": {
     "height": {
-      "unit": "dt_Unit_Meter",
+      "unit_tag": "dt_Unit_Meter",
       "value": "10"
     }
   },
   "datapoints_config": [
     {
+      "begins_at": "2012-05-15T07:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -30,6 +32,9 @@
     {
       "identifier": "108",
       "type": "odm.stations.StationID"
+    },
+    {
+      "type": "odm.datastreams.DerivedID"
     }
   ],
   "tags": [
@@ -38,14 +43,13 @@
     "dt_Unit_DegreeCelsius"
   ],
   "created_at": "2018-03-08T01:03:35.302Z",
-  "updated_at": "2018-03-08T01:03:35.302Z",
-  "_id": "5aa0893c5a929000014f28be",
+  "updated_at": "2018-03-11T21:18:40.349Z",
   "attributes_info": {
     "sort": {
-      "value1": 10,
+      "value1": 0,
       "value2": 0
     },
-    "text": "10"
+    "text": ""
   },
   "tags_info": {
     "resolved_terms": [
@@ -101,7 +105,7 @@
     },
     {
       "key": "att",
-      "str": "de050f182f5b52eb5a40a177981b5eca40465ee2"
+      "str": "e13062bdc4015a7f10be66bfbd15f54f8d3c4d56"
     },
     {
       "key": "geo",
@@ -118,5 +122,8 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "derivation_description": "Conversion to 30-minute timesteps",
+  "derived_from_datastream_ids": "[1745]",
+  "organization_id": "58db17e824dc720001671379"
 }

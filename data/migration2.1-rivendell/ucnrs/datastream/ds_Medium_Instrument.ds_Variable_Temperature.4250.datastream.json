@@ -1,4 +1,5 @@
 {
+  "_id": "5aa089755a929000014f2eda",
   "enabled": true,
   "name": "Datalogger Panel Temp Deg C BigCreek Gatehouse ",
   "source_type": "sensor",
@@ -6,6 +7,7 @@
   "station_id": "58e68cabdf5ce600012602b5",
   "datapoints_config": [
     {
+      "begins_at": "2013-08-22T19:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +34,7 @@
     "dt_Unit_DegreeCelsius"
   ],
   "created_at": "2018-03-08T01:04:56.243Z",
-  "updated_at": "2018-03-08T01:04:56.243Z",
-  "_id": "5aa089755a929000014f2eda",
+  "updated_at": "2018-03-11T21:19:40.786Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -105,5 +106,7 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "",
+  "organization_id": "58db17c424dc720001671378"
 }

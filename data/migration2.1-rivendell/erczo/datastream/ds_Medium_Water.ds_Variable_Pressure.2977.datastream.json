@@ -1,4 +1,5 @@
 {
+  "_id": "5aa089585a929000014f2c35",
   "enabled": true,
   "name": "VSP Water Pressure VMS_A3",
   "source_type": "sensor",
@@ -6,7 +7,7 @@
   "station_id": "58e68cacdf5ce600012602db",
   "attributes": {
     "depth": {
-      "unit": "dt_Unit_Meter",
+      "unit_tag": "dt_Unit_Meter",
       "range": [
         5.1,
         5.3
@@ -15,6 +16,7 @@
   },
   "datapoints_config": [
     {
+      "begins_at": "2015-10-25T00:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -41,14 +43,13 @@
     "dt_Unit_Millibar"
   ],
   "created_at": "2018-03-08T01:04:16.232Z",
-  "updated_at": "2018-03-08T01:04:16.232Z",
-  "_id": "5aa089585a929000014f2c35",
+  "updated_at": "2018-03-11T21:19:10.429Z",
   "attributes_info": {
     "sort": {
-      "value1": 5,
-      "value2": 0
+      "value1": 5.1,
+      "value2": 0.20000000000000018
     },
-    "text": "5...5"
+    "text": "5.1...5.3"
   },
   "tags_info": {
     "resolved_terms": [
@@ -104,7 +105,7 @@
     },
     {
       "key": "att",
-      "str": "3d60723631dd75231a397e340939cc72c71d24f4"
+      "str": "b7a0764536edb9d584ce2216aa94b2f2306fac99"
     },
     {
       "key": "geo",
@@ -121,5 +122,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "organization_id": "58db17e824dc720001671379"
 }

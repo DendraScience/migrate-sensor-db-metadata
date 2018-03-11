@@ -1,11 +1,14 @@
 {
-  "enabled": true,
+  "_id": "5aa0893a5a929000014f2889",
+  "enabled": false,
   "name": "Wind Speed - Ingrid 30min",
   "source_type": "sensor",
-  "state": "ready",
+  "state": "retired",
   "station_id": "58e68cabdf5ce600012602c2",
   "datapoints_config": [
     {
+      "begins_at": "2011-01-26T22:00:00.000Z",
+      "ends_before": "2012-05-07T22:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -24,6 +27,9 @@
     {
       "identifier": "107",
       "type": "odm.stations.StationID"
+    },
+    {
+      "type": "odm.datastreams.DerivedID"
     }
   ],
   "tags": [
@@ -32,8 +38,7 @@
     "dt_Unit_MeterPerSecond"
   ],
   "created_at": "2018-03-08T01:03:32.824Z",
-  "updated_at": "2018-03-08T01:03:32.824Z",
-  "_id": "5aa0893a5a929000014f2889",
+  "updated_at": "2018-03-11T21:18:38.607Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -105,5 +110,8 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "derivation_description": "Conversion to 30-minute timesteps",
+  "derived_from_datastream_ids": "[1458]",
+  "organization_id": "58db17e824dc720001671379"
 }

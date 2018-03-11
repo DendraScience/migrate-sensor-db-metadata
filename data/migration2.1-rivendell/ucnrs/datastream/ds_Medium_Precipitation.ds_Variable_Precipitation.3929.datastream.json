@@ -1,4 +1,5 @@
 {
+  "_id": "5aa089775a929000014f2f07",
   "enabled": true,
   "name": "Precipitation mm SNARL ",
   "source_type": "sensor",
@@ -6,6 +7,7 @@
   "station_id": "58e68cacdf5ce600012602d7",
   "datapoints_config": [
     {
+      "begins_at": "2012-07-11T19:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +34,7 @@
     "dt_Unit_Millimeter"
   ],
   "created_at": "2018-03-08T01:04:58.198Z",
-  "updated_at": "2018-03-08T01:04:58.198Z",
-  "_id": "5aa089775a929000014f2f07",
+  "updated_at": "2018-03-11T21:19:42.269Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -105,5 +106,7 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "",
+  "organization_id": "58db17c424dc720001671378"
 }

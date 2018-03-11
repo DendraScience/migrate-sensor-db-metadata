@@ -1,4 +1,5 @@
 {
+  "_id": "5aa0894b5a929000014f2a8d",
   "enabled": true,
   "name": "ERP L3S2-2",
   "source_type": "sensor",
@@ -6,12 +7,13 @@
   "station_id": "58e68cacdf5ce600012602cd",
   "attributes": {
     "depth": {
-      "unit": "dt_Unit_Meter",
+      "unit_tag": "dt_Unit_Meter",
       "value": "2"
     }
   },
   "datapoints_config": [
     {
+      "begins_at": "2008-10-29T15:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -38,14 +40,13 @@
     "dt_Unit_Kiloohm"
   ],
   "created_at": "2018-03-08T01:03:57.003Z",
-  "updated_at": "2018-03-08T01:03:57.003Z",
-  "_id": "5aa0894b5a929000014f2a8d",
+  "updated_at": "2018-03-11T21:18:55.495Z",
   "attributes_info": {
     "sort": {
-      "value1": 2,
+      "value1": 0,
       "value2": 0
     },
-    "text": "2"
+    "text": ""
   },
   "tags_info": {
     "resolved_terms": [
@@ -101,7 +102,7 @@
     },
     {
       "key": "att",
-      "str": "f142fda6ee0d0ac21882e0c07c9490d38a59f5ff"
+      "str": "3803dd79f8ba1fb955fa1806a2d3c4f3d495703d"
     },
     {
       "key": "geo",
@@ -118,5 +119,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "organization_id": "58db17e824dc720001671379"
 }

@@ -129,7 +129,8 @@ SELECT
   --   }
   -- ],
 
-  -- NULL AS `datapoints_config$0$begins_at`,
+  `datastreams`.`StartDate` AS `datapoints_config$0$begins_at`,
+  `datastreams`.`EndDate` AS `datapoints_config$0$ends_before`, 
   "true" AS `datapoints_config$0$params$query$compact`,
   `datastreams`.`DatastreamID` AS `datapoints_config$0$params$query$datastream_id`,
   -28800 AS `datapoints_config$0$params$query$time_adjust`,
@@ -140,21 +141,26 @@ SELECT
     FROM `dendra_map_mcollections_organizations`  
     WHERE `dendra_map_mcollections_organizations`.`MC_Name` = `datastreams`.`MC_Name`
   ) AS `datapoints_config$0$path`,
+  
   -- ----------------------------
   -- "derivation_description": "Calculated server-side based on the Celsius datastream.",
-
+  IF(`datastreams`.`FieldName` LIKE "converted from%",`datastreams`.`MethodName`, NULL ) AS `derivation_description`,
+  
   -- ----------------------------
   -- "derived_from_datastream_ids": [
   --   "592f155746a1b867a114e021"
+  
   -- ],
-
+  IF(`datastreams`.`FieldName` LIKE "converted from%",(CONCAT('[',REPLACE(fieldname, 'converted from ', ''),']')), NULL ) AS `derived_from_datastream_ids`,
+  
   -- ----------------------------
   -- "description": "Blue Oak Ranch average air temperature in degree Fahrenheit at 10 meter height.",
+  `datastreams`.`Comments` AS `description`,
 
   -- ----------------------------
   -- "enabled": true,
 
-  "true" AS `enabled`,
+  IF(`datastreams`.`EndDate` is NULL,"true","false") AS `enabled`,
 
   -- ----------------------------
   -- "external_refs": [
@@ -169,11 +175,15 @@ SELECT
   --   }
   -- ],
 
+  -- datastreamid
   CAST(`datastreams`.`DatastreamID` AS CHAR(50)) AS `external_refs$0$identifier`,
   'odm.datastreams.DatastreamID' AS `external_refs$0$type`,
-
+  -- stationid
   CAST(`datastreams`.`StationID` AS CHAR(50)) AS `external_refs$1$identifier`,
   'odm.stations.StationID' AS `external_refs$1$type`,
+  -- derivedid
+  IF(`datastreams`.`FieldName` LIKE "converted from%", (REPLACE(fieldname, 'converted from ', '')), NULL ) AS `external_refs$2identifier`,
+  IF(`datastreams`.`FieldName` LIKE "converted from%","odm.datastreams.DerivedID", NULL) AS `external_refs$2$type`,
 
   -- ----------------------------
   -- "geo": {
@@ -209,6 +219,7 @@ SELECT
 
   -- ----------------------------
   -- "organization_id": "592f155746a1b867a114e030",
+ `dendra_map_mcollections_organizations`.`organization_id` AS `organization_id`,
 
   -- ----------------------------
   -- "preferred_uom_ids": [
@@ -224,9 +235,9 @@ SELECT
   'sensor' AS `source_type`,
 
   -- ----------------------------
-  -- "state": "ready",
+  -- "state": "ready" or "retired",
 
-  'ready' AS `state`,
+  IF(`datastreams`.`EndDate` is NULL,"ready","retired") AS `state`,
 
   -- ----------------------------
   -- "station_id": "592f155746a1b867a114e060",

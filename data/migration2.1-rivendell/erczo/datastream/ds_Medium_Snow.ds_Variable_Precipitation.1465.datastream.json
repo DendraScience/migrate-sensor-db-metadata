@@ -1,11 +1,14 @@
 {
-  "enabled": true,
+  "_id": "5aa0894f5a929000014f2b20",
+  "enabled": false,
   "name": "Hail cumulative - Ingrid",
   "source_type": "sensor",
-  "state": "ready",
+  "state": "retired",
   "station_id": "58e68cabdf5ce600012602c2",
   "datapoints_config": [
     {
+      "begins_at": "2011-01-26T22:00:00.000Z",
+      "ends_before": "2012-05-07T22:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +35,7 @@
     "dt_Unit_Millimeter"
   ],
   "created_at": "2018-03-08T01:04:03.694Z",
-  "updated_at": "2018-03-08T01:04:03.694Z",
-  "_id": "5aa0894f5a929000014f2b20",
+  "updated_at": "2018-03-11T21:19:00.247Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -105,5 +107,7 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "Cumulative hail for the season.  The WXT510 does not automatically reset, so it must be manually set to 0 at end/beginning of season.  \r\n\r\nHail is considered kinetic impacts too large to be rain.",
+  "organization_id": "58db17e824dc720001671379"
 }

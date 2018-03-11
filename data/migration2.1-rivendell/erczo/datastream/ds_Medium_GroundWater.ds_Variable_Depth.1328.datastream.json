@@ -1,11 +1,14 @@
 {
-  "enabled": true,
+  "_id": "5aa0893d5a929000014f28ed",
+  "enabled": false,
   "name": "Well 1 Water Level m Old",
   "source_type": "sensor",
-  "state": "ready",
+  "state": "retired",
   "station_id": "58e68cacdf5ce600012602c9",
   "datapoints_config": [
     {
+      "begins_at": "2008-06-04T22:30:00.000Z",
+      "ends_before": "2010-11-21T02:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -24,6 +27,9 @@
     {
       "identifier": "5",
       "type": "odm.stations.StationID"
+    },
+    {
+      "type": "odm.datastreams.DerivedID"
     }
   ],
   "tags": [
@@ -32,8 +38,28 @@
     "dt_Unit_Meter"
   ],
   "created_at": "2018-03-08T01:03:37.610Z",
-  "updated_at": "2018-03-08T01:03:37.610Z",
-  "_id": "5aa0893d5a929000014f28ed",
+  "updated_at": "2018-03-11T21:18:41.884Z",
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Meter",
+      "value": "9.5"
+    },
+    "wellhead_height": {
+      "unit": "dt_Unit_Meter",
+      "value": "0"
+    },
+    "cable_length": {
+      "unit": "dt_Unit_Meter",
+      "value": "7.13"
+    }
+  },
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
   "tags_info": {
     "resolved_terms": [
       {
@@ -88,7 +114,7 @@
     },
     {
       "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      "str": "4b998b74ecd9e7b07f36d21f5b3f5ad516930f3b"
     },
     {
       "key": "geo",
@@ -106,18 +132,8 @@
     }
   ],
   "_include": [],
-  "attributes": {
-    "depth": {
-      "unit": "dt_Unit_Meter",
-      "value": "9.5"
-    },
-    "wellhead_height": {
-      "unit": "dt_Unit_Meter",
-      "value": "0"
-    },
-    "cable_length": {
-      "unit": "dt_Unit_Meter",
-      "value": "7.13"
-    }
-  }
+  "derivation_description": "Convert mV to meters for wells",
+  "derived_from_datastream_ids": "[379]",
+  "description": "This derived dataset has been replaced by a derivation that is done on-datalogger.  Replacement has the same name. ",
+  "organization_id": "58db17e824dc720001671379"
 }

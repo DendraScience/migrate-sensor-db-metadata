@@ -1,4 +1,5 @@
 {
+  "_id": "5aa089595a929000014f2c46",
   "enabled": true,
   "name": "FNS Water Pressure VMS_B10",
   "source_type": "sensor",
@@ -6,7 +7,7 @@
   "station_id": "58e68cacdf5ce600012602db",
   "attributes": {
     "depth": {
-      "unit": "dt_Unit_Meter",
+      "unit_tag": "dt_Unit_Meter",
       "range": [
         14.1,
         15.6
@@ -15,6 +16,7 @@
   },
   "datapoints_config": [
     {
+      "begins_at": "2015-10-25T00:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -41,14 +43,13 @@
     "dt_Unit_Millibar"
   ],
   "created_at": "2018-03-08T01:04:17.077Z",
-  "updated_at": "2018-03-08T01:04:17.077Z",
-  "_id": "5aa089595a929000014f2c46",
+  "updated_at": "2018-03-11T21:19:11.004Z",
   "attributes_info": {
     "sort": {
-      "value1": 14,
-      "value2": 2
+      "value1": 14.1,
+      "value2": 1.5
     },
-    "text": "14...16"
+    "text": "14.1...15.6"
   },
   "tags_info": {
     "resolved_terms": [
@@ -104,7 +105,7 @@
     },
     {
       "key": "att",
-      "str": "8f0c3150e0a06137c7cca6114386483e1a246a55"
+      "str": "70437f7e9b7f9c78efed5f4706045abe279c077c"
     },
     {
       "key": "geo",
@@ -121,5 +122,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "organization_id": "58db17e824dc720001671379"
 }

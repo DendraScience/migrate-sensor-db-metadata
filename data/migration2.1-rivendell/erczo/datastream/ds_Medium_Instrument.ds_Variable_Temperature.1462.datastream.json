@@ -1,11 +1,14 @@
 {
-  "enabled": true,
+  "_id": "5aa0893e5a929000014f2914",
+  "enabled": false,
   "name": "Logger Temp Ingrid",
   "source_type": "sensor",
-  "state": "ready",
+  "state": "retired",
   "station_id": "58e68cabdf5ce600012602c2",
   "datapoints_config": [
     {
+      "begins_at": "2011-01-26T22:00:00.000Z",
+      "ends_before": "2012-05-07T22:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +35,7 @@
     "dt_Unit_DegreeCelsius"
   ],
   "created_at": "2018-03-08T01:03:39.289Z",
-  "updated_at": "2018-03-08T01:03:39.289Z",
-  "_id": "5aa0893e5a929000014f2914",
+  "updated_at": "2018-03-11T21:18:43.170Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -105,5 +107,7 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "Wiring panel temperature. Used to make sure logger is within proper operating temperatures. Not valid for research use.",
+  "organization_id": "58db17e824dc720001671379"
 }

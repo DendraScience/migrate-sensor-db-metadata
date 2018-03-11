@@ -1,4 +1,5 @@
 {
+  "_id": "5aa089445a929000014f29c4",
   "enabled": true,
   "name": "TDR L1T2_0.40",
   "source_type": "sensor",
@@ -6,6 +7,7 @@
   "station_id": "58e68cacdf5ce600012602c8",
   "datapoints_config": [
     {
+      "begins_at": "2008-10-29T18:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +34,21 @@
     "dt_Unit_Dimensionless"
   ],
   "created_at": "2018-03-08T01:03:47.294Z",
-  "updated_at": "2018-03-08T01:03:47.294Z",
-  "_id": "5aa089445a929000014f29c4",
+  "updated_at": "2018-03-11T21:18:48.900Z",
+  "attributes": {
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": "0.40"
+    },
+    "orientation": "vertical"
+  },
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
   "tags_info": {
     "resolved_terms": [
       {
@@ -87,7 +102,7 @@
     },
     {
       "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      "str": "46734cd8a85164c2ea7e7b5e68b06cb9d63d2b4d"
     },
     {
       "key": "geo",
@@ -105,11 +120,6 @@
     }
   ],
   "_include": [],
-  "attributes": {
-    "depth": {
-      "unit": "dt_Unit_Meter",
-      "value": "0.40"
-    },
-    "orientation": "vertical"
-  }
+  "description": "TDR-probe7.5cm ",
+  "organization_id": "58db17e824dc720001671379"
 }

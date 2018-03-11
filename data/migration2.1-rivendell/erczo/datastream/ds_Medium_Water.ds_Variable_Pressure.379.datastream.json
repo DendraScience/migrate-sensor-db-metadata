@@ -1,11 +1,14 @@
 {
-  "enabled": true,
+  "_id": "5aa089595a929000014f2c4a",
+  "enabled": false,
   "name": "Well 1 Pressure mV Old",
   "source_type": "sensor",
-  "state": "ready",
+  "state": "retired",
   "station_id": "58e68cacdf5ce600012602c9",
   "datapoints_config": [
     {
+      "begins_at": "2008-06-04T22:30:00.000Z",
+      "ends_before": "2010-11-21T02:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +35,28 @@
     "dt_Unit_Millivolt"
   ],
   "created_at": "2018-03-08T01:04:17.250Z",
-  "updated_at": "2018-03-08T01:04:17.250Z",
-  "_id": "5aa089595a929000014f2c4a",
+  "updated_at": "2018-03-11T21:19:11.132Z",
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Meter",
+      "value": "9.5"
+    },
+    "wellhead_height": {
+      "unit": "dt_Unit_Meter",
+      "value": "0"
+    },
+    "cable_length": {
+      "unit": "dt_Unit_Meter",
+      "value": "7.13"
+    }
+  },
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
   "tags_info": {
     "resolved_terms": [
       {
@@ -88,7 +111,7 @@
     },
     {
       "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      "str": "4b998b74ecd9e7b07f36d21f5b3f5ad516930f3b"
     },
     {
       "key": "geo",
@@ -106,18 +129,6 @@
     }
   ],
   "_include": [],
-  "attributes": {
-    "depth": {
-      "unit": "dt_Unit_Meter",
-      "value": "9.5"
-    },
-    "wellhead_height": {
-      "unit": "dt_Unit_Meter",
-      "value": "0"
-    },
-    "cable_length": {
-      "unit": "dt_Unit_Meter",
-      "value": "7.13"
-    }
-  }
+  "description": "Well 1 transducer was removed and replaced by a new transducer on 11/20/2010 18:45 - see \"Well 1 Pressure psi\" ",
+  "organization_id": "58db17e824dc720001671379"
 }

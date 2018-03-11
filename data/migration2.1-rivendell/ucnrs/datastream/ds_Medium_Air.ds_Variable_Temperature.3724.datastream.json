@@ -1,4 +1,5 @@
 {
+  "_id": "5aa0896d5a929000014f2dd8",
   "enabled": true,
   "name": "Air Temp Deg C 10 m McLaughlin Min",
   "source_type": "sensor",
@@ -6,6 +7,7 @@
   "station_id": "58e68cacdf5ce600012602c5",
   "datapoints_config": [
     {
+      "begins_at": "2011-12-14T22:20:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +34,20 @@
     "dt_Unit_DegreeCelsius"
   ],
   "created_at": "2018-03-08T01:04:44.574Z",
-  "updated_at": "2018-03-08T01:04:44.574Z",
-  "_id": "5aa0896d5a929000014f2dd8",
+  "updated_at": "2018-03-11T21:19:32.293Z",
+  "attributes": {
+    "height": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": "10"
+    }
+  },
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
   "tags_info": {
     "resolved_terms": [
       {
@@ -88,7 +102,7 @@
     },
     {
       "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      "str": "e13062bdc4015a7f10be66bfbd15f54f8d3c4d56"
     },
     {
       "key": "geo",
@@ -106,10 +120,6 @@
     }
   ],
   "_include": [],
-  "attributes": {
-    "height": {
-      "unit": "dt_Unit_Meter",
-      "value": "10"
-    }
-  }
+  "description": "Temperature at 10 meters",
+  "organization_id": "58db17c424dc720001671378"
 }

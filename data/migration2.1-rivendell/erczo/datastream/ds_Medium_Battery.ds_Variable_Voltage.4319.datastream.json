@@ -1,4 +1,5 @@
 {
+  "_id": "5aa0893d5a929000014f28dc",
   "enabled": true,
   "name": "Battery Voltage Riv 6_1",
   "source_type": "sensor",
@@ -6,6 +7,7 @@
   "station_id": "5a9cd13b18af1700013b110e",
   "datapoints_config": [
     {
+      "begins_at": "2017-05-24T23:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +34,7 @@
     "dt_Unit_Volt"
   ],
   "created_at": "2018-03-08T01:03:36.702Z",
-  "updated_at": "2018-03-08T01:03:36.702Z",
-  "_id": "5aa0893d5a929000014f28dc",
+  "updated_at": "2018-03-11T21:18:41.322Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -105,5 +106,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "organization_id": "58db17e824dc720001671379"
 }

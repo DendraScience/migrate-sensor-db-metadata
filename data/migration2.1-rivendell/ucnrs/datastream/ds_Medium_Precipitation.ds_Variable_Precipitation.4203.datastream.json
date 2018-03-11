@@ -1,4 +1,5 @@
 {
+  "_id": "5aa089775a929000014f2f1c",
   "enabled": true,
   "name": "Precipitation mm Fort Ord",
   "source_type": "sensor",
@@ -6,6 +7,7 @@
   "station_id": "58e68cabdf5ce600012602bf",
   "datapoints_config": [
     {
+      "begins_at": "2016-11-30T20:10:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +34,7 @@
     "dt_Unit_Millimeter"
   ],
   "created_at": "2018-03-08T01:04:59.100Z",
-  "updated_at": "2018-03-08T01:04:59.100Z",
-  "_id": "5aa089775a929000014f2f1c",
+  "updated_at": "2018-03-11T21:19:42.965Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -105,5 +106,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "organization_id": "58db17c424dc720001671378"
 }

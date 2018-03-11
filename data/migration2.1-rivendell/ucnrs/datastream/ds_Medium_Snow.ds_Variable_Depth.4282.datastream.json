@@ -1,11 +1,14 @@
 {
-  "enabled": true,
+  "_id": "5aa089795a929000014f2f45",
+  "enabled": false,
   "name": "Snow Depth1 mm Sagehen Creek",
   "source_type": "sensor",
-  "state": "ready",
+  "state": "retired",
   "station_id": "58e68cacdf5ce600012602d1",
   "datapoints_config": [
     {
+      "begins_at": "1997-04-03T05:00:00.000Z",
+      "ends_before": "2001-09-01T06:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +35,7 @@
     "dt_Unit_Millimeter"
   ],
   "created_at": "2018-03-08T01:05:00.976Z",
-  "updated_at": "2018-03-08T01:05:00.976Z",
-  "_id": "5aa089795a929000014f2f45",
+  "updated_at": "2018-03-11T21:19:44.351Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -105,5 +107,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "organization_id": "58db17c424dc720001671378"
 }

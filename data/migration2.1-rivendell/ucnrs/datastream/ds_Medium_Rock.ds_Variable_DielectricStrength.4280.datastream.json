@@ -1,11 +1,14 @@
 {
-  "enabled": true,
+  "_id": "5aa089795a929000014f2f3d",
+  "enabled": false,
   "name": "TDR freq 1 Jepson",
   "source_type": "sensor",
-  "state": "ready",
+  "state": "retired",
   "station_id": "58e68cacdf5ce600012602c4",
   "datapoints_config": [
     {
+      "begins_at": "2013-04-30T16:50:00.000Z",
+      "ends_before": "2014-01-01T08:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +35,7 @@
     "dt_Unit_Dimensionless"
   ],
   "created_at": "2018-03-08T01:05:00.585Z",
-  "updated_at": "2018-03-08T01:05:00.585Z",
-  "_id": "5aa089795a929000014f2f3d",
+  "updated_at": "2018-03-11T21:19:44.082Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -104,5 +106,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "organization_id": "58db17c424dc720001671378"
 }

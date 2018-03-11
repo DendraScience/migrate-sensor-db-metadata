@@ -1,4 +1,5 @@
 {
+  "_id": "5aa0894f5a929000014f2b1f",
   "enabled": true,
   "name": "Snow Depth Signal Quality WSCP",
   "source_type": "sensor",
@@ -6,6 +7,7 @@
   "station_id": "58e68cabdf5ce600012602bb",
   "datapoints_config": [
     {
+      "begins_at": "2009-12-08T17:49:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +34,7 @@
     "dt_Unit_Dimensionless"
   ],
   "created_at": "2018-03-08T01:04:03.652Z",
-  "updated_at": "2018-03-08T01:04:03.652Z",
-  "_id": "5aa0894f5a929000014f2b1f",
+  "updated_at": "2018-03-11T21:19:00.215Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -104,5 +105,7 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "Sonic Ranging Sensor for snow depth, uses a signal quality measurement to evaluate the accuracy of the depth measurement.\r\n0 Not able to read distance\r\n152-210 Good measurement\r\n210-300 Reduced echo signal strength\r\n300-600 High uncertainty in measurement\r\n",
+  "organization_id": "58db17e824dc720001671379"
 }

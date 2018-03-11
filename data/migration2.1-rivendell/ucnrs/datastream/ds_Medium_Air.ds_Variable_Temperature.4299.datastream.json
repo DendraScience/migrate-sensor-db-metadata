@@ -1,4 +1,5 @@
 {
+  "_id": "5aa089715a929000014f2e4c",
   "enabled": true,
   "name": "Air Temp Delta Deg C 10m-2m James Avg",
   "source_type": "sensor",
@@ -6,6 +7,7 @@
   "station_id": "58e68cacdf5ce600012602c3",
   "datapoints_config": [
     {
+      "begins_at": "2017-05-04T16:10:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +34,23 @@
     "dt_Unit_DegreeCelsius"
   ],
   "created_at": "2018-03-08T01:04:49.839Z",
-  "updated_at": "2018-03-08T01:04:49.839Z",
-  "_id": "5aa089715a929000014f2e4c",
+  "updated_at": "2018-03-11T21:19:36.084Z",
+  "attributes": {
+    "height": {
+      "unit_tag": "dt_Unit_Meter",
+      "range": [
+        "10",
+        "2"
+      ]
+    }
+  },
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
   "tags_info": {
     "resolved_terms": [
       {
@@ -88,7 +105,7 @@
     },
     {
       "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      "str": "36e377badd11925ffc8de06505a47951d002f228"
     },
     {
       "key": "geo",
@@ -106,13 +123,5 @@
     }
   ],
   "_include": [],
-  "attributes": {
-    "height": {
-      "unit": "dt_Unit_Meter",
-      "range": [
-        "10",
-        "2"
-      ]
-    }
-  }
+  "organization_id": "58db17c424dc720001671378"
 }

@@ -1,4 +1,5 @@
 {
+  "_id": "5aa089785a929000014f2f24",
   "enabled": true,
   "name": "Soil Moisture TDR freq 0.1 m horiz Angelo ",
   "source_type": "sensor",
@@ -6,6 +7,7 @@
   "station_id": "58e68cabdf5ce600012602b3",
   "datapoints_config": [
     {
+      "begins_at": "2013-05-07T22:10:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +34,21 @@
     "dt_Unit_Dimensionless"
   ],
   "created_at": "2018-03-08T01:04:59.444Z",
-  "updated_at": "2018-03-08T01:04:59.444Z",
-  "_id": "5aa089785a929000014f2f24",
+  "updated_at": "2018-03-11T21:19:43.229Z",
+  "attributes": {
+    "orientation": "horizontal",
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": "0.1"
+    }
+  },
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
   "tags_info": {
     "resolved_terms": [
       {
@@ -87,7 +102,7 @@
     },
     {
       "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      "str": "6a54256acbc9329b930eadb90779710c1eefd9a9"
     },
     {
       "key": "geo",
@@ -105,11 +120,6 @@
     }
   ],
   "_include": [],
-  "attributes": {
-    "orientation": "horizontal",
-    "depth": {
-      "unit": "dt_Unit_Meter",
-      "value": "0.1"
-    }
-  }
+  "description": "",
+  "organization_id": "58db17c424dc720001671378"
 }

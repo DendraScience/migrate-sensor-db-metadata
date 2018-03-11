@@ -1,4 +1,5 @@
 {
+  "_id": "5aa0896b5a929000014f2d8c",
   "enabled": true,
   "name": "Air Temp Deg C Angelo Max",
   "source_type": "sensor",
@@ -6,6 +7,7 @@
   "station_id": "58e68cabdf5ce600012602b3",
   "datapoints_config": [
     {
+      "begins_at": "2013-05-07T22:10:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +34,7 @@
     "dt_Unit_DegreeCelsius"
   ],
   "created_at": "2018-03-08T01:04:41.190Z",
-  "updated_at": "2018-03-08T01:04:41.190Z",
-  "_id": "5aa0896b5a929000014f2d8c",
+  "updated_at": "2018-03-11T21:19:29.681Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -105,5 +106,7 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "",
+  "organization_id": "58db17c424dc720001671378"
 }

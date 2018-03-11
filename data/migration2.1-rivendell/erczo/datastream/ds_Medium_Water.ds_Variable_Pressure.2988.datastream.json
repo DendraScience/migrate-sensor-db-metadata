@@ -1,4 +1,5 @@
 {
+  "_id": "5aa089595a929000014f2c40",
   "enabled": true,
   "name": "FNS Water Pressure VMS_B4",
   "source_type": "sensor",
@@ -6,7 +7,7 @@
   "station_id": "58e68cacdf5ce600012602db",
   "attributes": {
     "depth": {
-      "unit": "dt_Unit_Meter",
+      "unit_tag": "dt_Unit_Meter",
       "range": [
         5,
         6.4
@@ -15,6 +16,7 @@
   },
   "datapoints_config": [
     {
+      "begins_at": "2015-10-25T00:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -41,14 +43,13 @@
     "dt_Unit_Millibar"
   ],
   "created_at": "2018-03-08T01:04:16.789Z",
-  "updated_at": "2018-03-08T01:04:16.789Z",
-  "_id": "5aa089595a929000014f2c40",
+  "updated_at": "2018-03-11T21:19:10.816Z",
   "attributes_info": {
     "sort": {
       "value1": 5,
-      "value2": 1
+      "value2": 1.4000000000000004
     },
-    "text": "5...6"
+    "text": "5...6.4"
   },
   "tags_info": {
     "resolved_terms": [
@@ -104,7 +105,7 @@
     },
     {
       "key": "att",
-      "str": "f452659aa53f34cd5140d8f2965976b1c6a6838a"
+      "str": "e9ac4eb3c99e9252eae0b31ef837ac8938d18279"
     },
     {
       "key": "geo",
@@ -121,5 +122,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "organization_id": "58db17e824dc720001671379"
 }

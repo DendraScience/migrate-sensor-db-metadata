@@ -1,4 +1,5 @@
 {
+  "_id": "5aa089505a929000014f2b36",
   "enabled": true,
   "name": "Soil Moisture L1T1_0.20",
   "source_type": "sensor",
@@ -6,6 +7,7 @@
   "station_id": "58e68cacdf5ce600012602c8",
   "datapoints_config": [
     {
+      "begins_at": "2008-10-29T18:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -24,6 +26,9 @@
     {
       "identifier": "4",
       "type": "odm.stations.StationID"
+    },
+    {
+      "type": "odm.datastreams.DerivedID"
     }
   ],
   "tags": [
@@ -32,8 +37,21 @@
     "dt_Unit_Percent"
   ],
   "created_at": "2018-03-08T01:04:04.677Z",
-  "updated_at": "2018-03-08T01:04:04.677Z",
-  "_id": "5aa089505a929000014f2b36",
+  "updated_at": "2018-03-11T21:19:01.993Z",
+  "attributes": {
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": "0.20"
+    },
+    "orientation": "vertical"
+  },
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
   "tags_info": {
     "resolved_terms": [
       {
@@ -88,7 +106,7 @@
     },
     {
       "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      "str": "d8d8f06726f6d5a19422367b30e7f5be1e5d6249"
     },
     {
       "key": "geo",
@@ -106,11 +124,7 @@
     }
   ],
   "_include": [],
-  "attributes": {
-    "depth": {
-      "unit": "dt_Unit_Meter",
-      "value": "0.20"
-    },
-    "orientation": "vertical"
-  }
+  "derivation_description": "Derived Soil Moisture",
+  "derived_from_datastream_ids": "[88]",
+  "organization_id": "58db17e824dc720001671379"
 }

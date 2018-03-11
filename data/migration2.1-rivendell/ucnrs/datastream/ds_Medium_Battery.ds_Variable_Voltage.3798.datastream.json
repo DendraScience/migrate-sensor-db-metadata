@@ -1,4 +1,5 @@
 {
+  "_id": "5aa089725a929000014f2e72",
   "enabled": true,
   "name": "Battery Voltage volts Motte Max",
   "source_type": "sensor",
@@ -6,6 +7,7 @@
   "station_id": "58e68cacdf5ce600012602c6",
   "datapoints_config": [
     {
+      "begins_at": "2010-09-28T17:30:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +34,7 @@
     "dt_Unit_Volt"
   ],
   "created_at": "2018-03-08T01:04:51.621Z",
-  "updated_at": "2018-03-08T01:04:51.621Z",
-  "_id": "5aa089725a929000014f2e72",
+  "updated_at": "2018-03-11T21:19:37.313Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -105,5 +106,7 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "",
+  "organization_id": "58db17c424dc720001671378"
 }

@@ -1,4 +1,5 @@
 {
+  "_id": "5aa089565a929000014f2bea",
   "enabled": true,
   "name": "Soil Temp L3ST_0.45",
   "source_type": "sensor",
@@ -6,6 +7,7 @@
   "station_id": "58e68cacdf5ce600012602ce",
   "datapoints_config": [
     {
+      "begins_at": "2008-11-26T21:30:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +34,20 @@
     "dt_Unit_DegreeCelsius"
   ],
   "created_at": "2018-03-08T01:04:12.862Z",
-  "updated_at": "2018-03-08T01:04:12.862Z",
-  "_id": "5aa089565a929000014f2bea",
+  "updated_at": "2018-03-11T21:19:07.907Z",
+  "attributes": {
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": "0.45"
+    }
+  },
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
   "tags_info": {
     "resolved_terms": [
       {
@@ -88,7 +102,7 @@
     },
     {
       "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      "str": "b2e0fa99d27fd7bebf44a22d33ac512d51a4e4b7"
     },
     {
       "key": "geo",
@@ -106,10 +120,5 @@
     }
   ],
   "_include": [],
-  "attributes": {
-    "depth": {
-      "unit": "dt_Unit_Meter",
-      "value": "0.45"
-    }
-  }
+  "organization_id": "58db17e824dc720001671379"
 }

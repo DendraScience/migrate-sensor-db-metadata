@@ -1,4 +1,5 @@
 {
+  "_id": "5aa0897d5a929000014f2fbb",
   "enabled": true,
   "name": "Soil Temp Deg C 0.2 m Elliott Min",
   "source_type": "sensor",
@@ -6,6 +7,7 @@
   "station_id": "58e68cabdf5ce600012602be",
   "datapoints_config": [
     {
+      "begins_at": "2010-09-28T23:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +34,20 @@
     "dt_Unit_DegreeCelsius"
   ],
   "created_at": "2018-03-08T01:05:06.143Z",
-  "updated_at": "2018-03-08T01:05:06.143Z",
-  "_id": "5aa0897d5a929000014f2fbb",
+  "updated_at": "2018-03-11T21:19:48.230Z",
+  "attributes": {
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": "0.2"
+    }
+  },
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
   "tags_info": {
     "resolved_terms": [
       {
@@ -88,7 +102,7 @@
     },
     {
       "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      "str": "aff4a6ba63ae757e8fc0d2b79729be44fd319a25"
     },
     {
       "key": "geo",
@@ -106,10 +120,6 @@
     }
   ],
   "_include": [],
-  "attributes": {
-    "depth": {
-      "unit": "dt_Unit_Meter",
-      "value": "0.2"
-    }
-  }
+  "description": "",
+  "organization_id": "58db17c424dc720001671378"
 }

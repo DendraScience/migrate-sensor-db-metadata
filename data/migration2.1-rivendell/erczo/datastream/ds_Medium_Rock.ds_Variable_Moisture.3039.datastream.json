@@ -1,4 +1,5 @@
 {
+  "_id": "5aa0894a5a929000014f2a69",
   "enabled": true,
   "name": "Sleeve Elec Conductivity VMS_A5",
   "source_type": "sensor",
@@ -6,7 +7,7 @@
   "station_id": "58e68cacdf5ce600012602db",
   "attributes": {
     "depth": {
-      "unit": "dt_Unit_Meter",
+      "unit_tag": "dt_Unit_Meter",
       "range": [
         8.4,
         8.6
@@ -15,6 +16,7 @@
   },
   "datapoints_config": [
     {
+      "begins_at": "2015-10-25T00:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -41,14 +43,13 @@
     "dt_Unit_DecisiemenPerMeter"
   ],
   "created_at": "2018-03-08T01:03:55.208Z",
-  "updated_at": "2018-03-08T01:03:55.208Z",
-  "_id": "5aa0894a5a929000014f2a69",
+  "updated_at": "2018-03-11T21:18:54.333Z",
   "attributes_info": {
     "sort": {
-      "value1": 8,
-      "value2": 1
+      "value1": 8.4,
+      "value2": 0.1999999999999993
     },
-    "text": "8...9"
+    "text": "8.4...8.6"
   },
   "tags_info": {
     "resolved_terms": [
@@ -104,7 +105,7 @@
     },
     {
       "key": "att",
-      "str": "102b1840413919704893c4ae2d62895402d5b84a"
+      "str": "006d69d19a68ebd9d2f00009ddc259d6c3cdf1a3"
     },
     {
       "key": "geo",
@@ -121,5 +122,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "organization_id": "58db17e824dc720001671379"
 }

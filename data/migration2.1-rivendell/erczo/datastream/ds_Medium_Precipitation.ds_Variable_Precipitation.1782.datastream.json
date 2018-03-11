@@ -1,11 +1,14 @@
 {
-  "enabled": true,
+  "_id": "5aa089405a929000014f293c",
+  "enabled": false,
   "name": "Rainfall Cumulative mm WSCP 30min",
   "source_type": "sensor",
-  "state": "ready",
+  "state": "retired",
   "station_id": "58e68cabdf5ce600012602bb",
   "datapoints_config": [
     {
+      "begins_at": "2008-04-29T22:30:00.000Z",
+      "ends_before": "2015-12-06T09:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -24,6 +27,9 @@
     {
       "identifier": "47",
       "type": "odm.stations.StationID"
+    },
+    {
+      "type": "odm.datastreams.DerivedID"
     }
   ],
   "tags": [
@@ -32,8 +38,7 @@
     "dt_Unit_Millimeter"
   ],
   "created_at": "2018-03-08T01:03:41.190Z",
-  "updated_at": "2018-03-08T01:03:41.190Z",
-  "_id": "5aa089405a929000014f293c",
+  "updated_at": "2018-03-11T21:18:44.532Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -105,5 +110,9 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "derivation_description": "Conversion to 30-minute timesteps",
+  "derived_from_datastream_ids": "[1780]",
+  "description": "New datastream added Nov 2014 by G.O.\r\nDec 2015: Old rain bucket is no longer operational. See Incident Report 237",
+  "organization_id": "58db17e824dc720001671379"
 }

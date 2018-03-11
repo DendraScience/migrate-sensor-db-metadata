@@ -1,11 +1,14 @@
 {
-  "enabled": true,
+  "_id": "5aa0893f5a929000014f292d",
+  "enabled": false,
   "name": "Rainfall mm RG3 30min",
   "source_type": "sensor",
-  "state": "ready",
+  "state": "retired",
   "station_id": "58e68cacdf5ce600012602cb",
   "datapoints_config": [
     {
+      "begins_at": "2008-06-04T19:00:00.000Z",
+      "ends_before": "2011-10-04T19:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -24,6 +27,9 @@
     {
       "identifier": "7",
       "type": "odm.stations.StationID"
+    },
+    {
+      "type": "odm.datastreams.DerivedID"
     }
   ],
   "tags": [
@@ -32,8 +38,7 @@
     "dt_Unit_Millimeter"
   ],
   "created_at": "2018-03-08T01:03:40.484Z",
-  "updated_at": "2018-03-08T01:03:40.484Z",
-  "_id": "5aa0893f5a929000014f292d",
+  "updated_at": "2018-03-11T21:18:44.016Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -105,5 +110,9 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "derivation_description": "Conversion to 30-minute timesteps",
+  "derived_from_datastream_ids": "[391]",
+  "description": "End date is approximate.  Datastream was left active until 2014-03-27, even though it has not had an attached instrument. -cab.",
+  "organization_id": "58db17e824dc720001671379"
 }

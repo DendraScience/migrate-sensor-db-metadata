@@ -1,11 +1,14 @@
 {
-  "enabled": true,
+  "_id": "5aa089595a929000014f2c4d",
+  "enabled": false,
   "name": "Well 2 Pressure mV Old",
   "source_type": "sensor",
-  "state": "ready",
+  "state": "retired",
   "station_id": "58e68cacdf5ce600012602cb",
   "datapoints_config": [
     {
+      "begins_at": "2008-06-04T19:00:00.000Z",
+      "ends_before": "2014-03-12T19:30:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -32,8 +35,28 @@
     "dt_Unit_Millivolt"
   ],
   "created_at": "2018-03-08T01:04:17.386Z",
-  "updated_at": "2018-03-08T01:04:17.386Z",
-  "_id": "5aa089595a929000014f2c4d",
+  "updated_at": "2018-03-11T21:19:11.227Z",
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Meter",
+      "value": "12.2"
+    },
+    "wellhead_height": {
+      "unit": "dt_Unit_Meter",
+      "value": "0.3"
+    },
+    "cable_length": {
+      "unit": "dt_Unit_Meter",
+      "value": "12.15"
+    }
+  },
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
   "tags_info": {
     "resolved_terms": [
       {
@@ -88,7 +111,7 @@
     },
     {
       "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      "str": "427925fb3b670efe0978de523c7be868fe6de810"
     },
     {
       "key": "geo",
@@ -106,18 +129,5 @@
     }
   ],
   "_include": [],
-  "attributes": {
-    "depth": {
-      "unit": "dt_Unit_Meter",
-      "value": "12.2"
-    },
-    "wellhead_height": {
-      "unit": "dt_Unit_Meter",
-      "value": "0.3"
-    },
-    "cable_length": {
-      "unit": "dt_Unit_Meter",
-      "value": "12.15"
-    }
-  }
+  "organization_id": "58db17e824dc720001671379"
 }
