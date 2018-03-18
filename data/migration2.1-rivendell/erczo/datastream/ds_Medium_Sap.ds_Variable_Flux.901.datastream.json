@@ -1,9 +1,10 @@
 {
-  "_id": "5aa0894e5a929000014f2aec",
+  "_id": "5aaed7bb6947d70001b29ae3",
   "enabled": false,
   "name": "Sap Flow SVP87017_one",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602d5",
   "datapoints_config": [
     {
@@ -34,8 +35,8 @@
     "ds_Variable_Flux",
     "dt_Unit_CentimeterPerHour"
   ],
-  "created_at": "2018-03-08T01:04:01.449Z",
-  "updated_at": "2018-03-11T21:18:58.608Z",
+  "created_at": "2018-03-18T21:18:51.535Z",
+  "updated_at": "2018-03-18T21:19:29.807Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -107,6 +108,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

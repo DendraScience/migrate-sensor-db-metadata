@@ -1,7 +1,9 @@
 {
-  "_id": "5aa0897a5a929000014f2f68",
+  "_id": "5aaed80e6947d70001b29f5f",
+  "description": "",
   "enabled": true,
   "name": "Soil Moisture VWC Sedgwick Avg",
+  "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602d6",
@@ -33,9 +35,9 @@
     "ds_Variable_Moisture",
     "dt_Unit_Percent"
   ],
-  "created_at": "2018-03-08T01:05:02.469Z",
-  "updated_at": "2018-03-11T21:19:45.555Z",
   "attributes": {},
+  "created_at": "2018-03-18T21:20:14.087Z",
+  "updated_at": "2018-03-18T21:20:49.536Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -114,7 +116,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "",
-  "organization_id": "58db17c424dc720001671378"
+  "_include": []
 }

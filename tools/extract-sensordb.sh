@@ -5,7 +5,7 @@ echo "Rivendell Push extract and transform script."
 DATE=`date '+%Y-%m-%dh%Hm%M'`
 logfile="../compost/migration_"$DATE".log"
 
-organization_list="erczo ucnrs"
+organization_list="ucnrs erczo"
 for orgslug in $organization_list 
 do 
 	echo "Organization to Extract: $orgslug"

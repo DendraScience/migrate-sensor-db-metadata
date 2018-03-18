@@ -149,9 +149,8 @@ SELECT
   -- ----------------------------
   -- "derived_from_datastream_ids": [
   --   "592f155746a1b867a114e021"
-  
   -- ],
-  IF(`datastreams`.`FieldName` LIKE "converted from%",(CONCAT('[',REPLACE(fieldname, 'converted from ', ''),']')), NULL ) AS `derived_from_datastream_ids`,
+  -- IF(`datastreams`.`FieldName` LIKE "converted from%",(CONCAT('[',REPLACE(fieldname, 'converted from ', ''),']')), NULL ) AS `derived_from_datastream_ids`,
   
   -- ----------------------------
   -- "description": "Blue Oak Ranch average air temperature in degree Fahrenheit at 10 meter height.",
@@ -159,7 +158,6 @@ SELECT
 
   -- ----------------------------
   -- "enabled": true,
-
   IF(`datastreams`.`EndDate` is NULL,"true","false") AS `enabled`,
 
   -- ----------------------------
@@ -174,16 +172,15 @@ SELECT
   --     "url": "http://sensor.berkeley.edu/index_ucnrs.html"
   --   }
   -- ],
-
-  -- datastreamid
+  -- datastream_id
   CAST(`datastreams`.`DatastreamID` AS CHAR(50)) AS `external_refs$0$identifier`,
   'odm.datastreams.DatastreamID' AS `external_refs$0$type`,
-  -- stationid
+  -- station_id
   CAST(`datastreams`.`StationID` AS CHAR(50)) AS `external_refs$1$identifier`,
   'odm.stations.StationID' AS `external_refs$1$type`,
-  -- derivedid
-  IF(`datastreams`.`FieldName` LIKE "converted from%", (REPLACE(fieldname, 'converted from ', '')), NULL ) AS `external_refs$2identifier`,
-  IF(`datastreams`.`FieldName` LIKE "converted from%","odm.datastreams.DerivedID", NULL) AS `external_refs$2$type`,
+  -- derived_id
+  CAST(IF(`datastreams`.`FieldName` LIKE "converted from%", REPLACE(fieldname, 'converted from ', ''), NULL ) AS CHAR(50)) AS `external_refs$2$identifier`, 
+  IF(`datastreams`.`FieldName` LIKE "converted from%", "odm.datastreams.DerivedID", NULL) AS `external_refs$2$type`,
 
   -- ----------------------------
   -- "geo": {
@@ -214,7 +211,6 @@ SELECT
 
   -- ----------------------------
   -- "name": "Blue Oak Ranch Avg Air Temp F 10 m",
-
   `datastreams`.`DatastreamName` AS `name`,
 
   -- ----------------------------
@@ -236,12 +232,11 @@ SELECT
 
   -- ----------------------------
   -- "state": "ready" or "retired",
-
-  IF(`datastreams`.`EndDate` is NULL,"ready","retired") AS `state`,
+  "ready" AS `state`, 
+  -- IF(`datastreams`.`EndDate` is NULL,"ready","retired") AS `state`,
 
   -- ----------------------------
   -- "station_id": "592f155746a1b867a114e060",
-
   `datastreams`.`StationID` AS `station_id`,
 
   -- ----------------------------

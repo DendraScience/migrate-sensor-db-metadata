@@ -1,7 +1,9 @@
 {
-  "_id": "5aa0893c5a929000014f28bd",
+  "_id": "5aaed7aa6947d70001b298b4",
+  "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": true,
   "name": "Air Temp 10 m height C WSSM Max 30min",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602d8",
@@ -34,6 +36,7 @@
       "type": "odm.stations.StationID"
     },
     {
+      "identifier": "1744",
       "type": "odm.datastreams.DerivedID"
     }
   ],
@@ -42,8 +45,11 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-03-08T01:03:35.246Z",
-  "updated_at": "2018-03-11T21:18:40.317Z",
+  "created_at": "2018-03-18T21:18:34.225Z",
+  "updated_at": "2018-03-18T21:19:11.947Z",
+  "derived_from_datastream_ids": [
+    "5aaed7a96947d70001b298aa"
+  ],
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -105,7 +111,7 @@
     },
     {
       "key": "att",
-      "str": "e13062bdc4015a7f10be66bfbd15f54f8d3c4d56"
+      "str": "021646698c177f658c751d5534424564e32a4d50"
     },
     {
       "key": "geo",
@@ -122,8 +128,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "derivation_description": "Conversion to 30-minute timesteps",
-  "derived_from_datastream_ids": "[1744]",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

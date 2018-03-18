@@ -1,7 +1,10 @@
 {
-  "_id": "5aa0893e5a929000014f28fb",
+  "_id": "5aaed7ac6947d70001b298f2",
+  "derivation_description": "Conversion to 30-minute timesteps",
+  "description": "changed conversion source from 1329 to 1691. 2014-03-12.",
   "enabled": true,
   "name": "Well 2 Water Level m 30min",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602cb",
@@ -28,6 +31,7 @@
       "type": "odm.stations.StationID"
     },
     {
+      "identifier": "1691",
       "type": "odm.datastreams.DerivedID"
     }
   ],
@@ -36,8 +40,6 @@
     "ds_Variable_Depth",
     "dt_Unit_Meter"
   ],
-  "created_at": "2018-03-08T01:03:38.206Z",
-  "updated_at": "2018-03-11T21:18:42.338Z",
   "attributes": {
     "depth": {
       "unit": "dt_Unit_Meter",
@@ -52,6 +54,11 @@
       "value": "12.15"
     }
   },
+  "created_at": "2018-03-18T21:18:36.091Z",
+  "updated_at": "2018-03-18T21:19:13.851Z",
+  "derived_from_datastream_ids": [
+    "5aaed7ac6947d70001b29903"
+  ],
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -130,9 +137,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "derivation_description": "Conversion to 30-minute timesteps",
-  "derived_from_datastream_ids": "[1691]",
-  "description": "changed conversion source from 1329 to 1691. 2014-03-12.",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

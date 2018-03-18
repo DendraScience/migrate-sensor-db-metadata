@@ -1,7 +1,9 @@
 {
-  "_id": "5aa089725a929000014f2e73",
+  "_id": "5aaed8066947d70001b29e6a",
+  "description": "",
   "enabled": true,
   "name": "Battery Voltage volts Motte Min",
+  "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602c6",
@@ -33,8 +35,8 @@
     "ds_Variable_Voltage",
     "dt_Unit_Volt"
   ],
-  "created_at": "2018-03-08T01:04:51.671Z",
-  "updated_at": "2018-03-11T21:19:37.343Z",
+  "created_at": "2018-03-18T21:20:06.927Z",
+  "updated_at": "2018-03-18T21:20:42.048Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -106,7 +108,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "",
-  "organization_id": "58db17c424dc720001671378"
+  "_include": []
 }

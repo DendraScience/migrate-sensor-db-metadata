@@ -1,9 +1,11 @@
 {
-  "_id": "5aa089595a929000014f2c4a",
+  "_id": "5aaed7c56947d70001b29c41",
+  "description": "Well 1 transducer was removed and replaced by a new transducer on 11/20/2010 18:45 - see \"Well 1 Pressure psi\" ",
   "enabled": false,
   "name": "Well 1 Pressure mV Old",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602c9",
   "datapoints_config": [
     {
@@ -34,8 +36,6 @@
     "ds_Variable_Pressure",
     "dt_Unit_Millivolt"
   ],
-  "created_at": "2018-03-08T01:04:17.250Z",
-  "updated_at": "2018-03-11T21:19:11.132Z",
   "attributes": {
     "depth": {
       "unit": "dt_Unit_Meter",
@@ -50,6 +50,8 @@
       "value": "7.13"
     }
   },
+  "created_at": "2018-03-18T21:19:01.985Z",
+  "updated_at": "2018-03-18T21:19:40.981Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -128,7 +130,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "Well 1 transducer was removed and replaced by a new transducer on 11/20/2010 18:45 - see \"Well 1 Pressure psi\" ",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

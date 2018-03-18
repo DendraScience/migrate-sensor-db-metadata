@@ -1,7 +1,9 @@
 {
-  "_id": "5aa0893f5a929000014f2932",
+  "_id": "5aaed7ad6947d70001b29929",
+  "derivation_description": "Derived Cumulative Rainfall",
   "enabled": true,
   "name": "Rainfall Cumulative mm WSAM",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cabdf5ce600012602b2",
@@ -28,6 +30,7 @@
       "type": "odm.stations.StationID"
     },
     {
+      "identifier": "48",
       "type": "odm.datastreams.DerivedID"
     }
   ],
@@ -36,8 +39,11 @@
     "ds_Variable_Precipitation",
     "dt_Unit_Millimeter"
   ],
-  "created_at": "2018-03-08T01:03:40.741Z",
-  "updated_at": "2018-03-11T21:18:44.192Z",
+  "created_at": "2018-03-18T21:18:37.766Z",
+  "updated_at": "2018-03-18T21:19:15.496Z",
+  "derived_from_datastream_ids": [
+    "5aaed7ae6947d70001b2994a"
+  ],
   "tags_info": {
     "resolved_terms": [
       {
@@ -109,8 +115,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "derivation_description": "Derived Cumulative Rainfall",
-  "derived_from_datastream_ids": "[48]",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

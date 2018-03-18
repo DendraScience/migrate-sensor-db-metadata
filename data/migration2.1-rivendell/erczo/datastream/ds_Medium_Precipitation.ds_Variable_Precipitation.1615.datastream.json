@@ -1,9 +1,11 @@
 {
-  "_id": "5aa0893f5a929000014f292a",
+  "_id": "5aaed7ad6947d70001b29921",
+  "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": false,
   "name": "Rainfall cumulative mm WSTB 30min",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602da",
   "datapoints_config": [
     {
@@ -29,6 +31,7 @@
       "type": "odm.stations.StationID"
     },
     {
+      "identifier": "464",
       "type": "odm.datastreams.DerivedID"
     }
   ],
@@ -37,8 +40,11 @@
     "ds_Variable_Precipitation",
     "dt_Unit_Millimeter"
   ],
-  "created_at": "2018-03-08T01:03:40.333Z",
-  "updated_at": "2018-03-11T21:18:43.914Z",
+  "created_at": "2018-03-18T21:18:37.522Z",
+  "updated_at": "2018-03-18T21:19:15.230Z",
+  "derived_from_datastream_ids": [
+    "5aaed7ae6947d70001b29948"
+  ],
   "tags_info": {
     "resolved_terms": [
       {
@@ -110,8 +116,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "derivation_description": "Conversion to 30-minute timesteps",
-  "derived_from_datastream_ids": "[464]",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

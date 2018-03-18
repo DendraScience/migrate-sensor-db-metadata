@@ -1,7 +1,8 @@
 {
-  "_id": "5aa089795a929000014f2f4a",
+  "_id": "5aaed80d6947d70001b29f41",
   "enabled": true,
   "name": "Soil Moisture VWC Blue Oak Avg",
+  "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cabdf5ce600012602b8",
@@ -33,9 +34,9 @@
     "ds_Variable_Moisture",
     "dt_Unit_Percent"
   ],
-  "created_at": "2018-03-08T01:05:01.189Z",
-  "updated_at": "2018-03-11T21:19:44.524Z",
   "attributes": {},
+  "created_at": "2018-03-18T21:20:13.213Z",
+  "updated_at": "2018-03-18T21:20:48.571Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -114,6 +115,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17c424dc720001671378"
+  "_include": []
 }

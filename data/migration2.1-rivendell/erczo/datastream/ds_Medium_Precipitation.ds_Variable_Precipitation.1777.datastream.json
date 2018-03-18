@@ -1,7 +1,10 @@
 {
-  "_id": "5aa0893f5a929000014f2937",
+  "_id": "5aaed7ad6947d70001b2992e",
+  "derivation_description": "Derived Cumulative Rainfall",
+  "description": "Originally this datastream was converted from cumulative rain inches, which is computed on the datalogger. In Oct 2014 I changed it because the datalogger is not rolling over on the new water year. It is now accumulated from rainfall mm, which is in turn derived from rainfall inches. - G.O. 10/29/2014",
   "enabled": true,
   "name": "Rainfall Cumulative mm WSSM",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602d8",
@@ -28,6 +31,7 @@
       "type": "odm.stations.StationID"
     },
     {
+      "identifier": "1776",
       "type": "odm.datastreams.DerivedID"
     }
   ],
@@ -36,8 +40,11 @@
     "ds_Variable_Precipitation",
     "dt_Unit_Millimeter"
   ],
-  "created_at": "2018-03-08T01:03:40.963Z",
-  "updated_at": "2018-03-11T21:18:44.360Z",
+  "created_at": "2018-03-18T21:18:37.918Z",
+  "updated_at": "2018-03-18T21:19:15.653Z",
+  "derived_from_datastream_ids": [
+    "5aaed7ad6947d70001b2992d"
+  ],
   "tags_info": {
     "resolved_terms": [
       {
@@ -109,9 +116,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "derivation_description": "Derived Cumulative Rainfall",
-  "derived_from_datastream_ids": "[1776]",
-  "description": "Originally this datastream was converted from cumulative rain inches, which is computed on the datalogger. In Oct 2014 I changed it because the datalogger is not rolling over on the new water year. It is now accumulated from rainfall mm, which is in turn derived from rainfall inches. - G.O. 10/29/2014",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

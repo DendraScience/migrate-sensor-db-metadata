@@ -1,9 +1,12 @@
 {
-  "_id": "5aa0893e5a929000014f2907",
+  "_id": "5aaed7ac6947d70001b298fe",
+  "derivation_description": "Convert mV to meters for wells",
+  "description": "Added datastream 2013-07-25 16:00:00.\r\n\r\nEnd date added May 2014; transducer removed",
   "enabled": false,
   "name": "Elder Gage Height L1_2 m",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602c9",
   "datapoints_config": [
     {
@@ -29,6 +32,7 @@
       "type": "odm.stations.StationID"
     },
     {
+      "identifier": "380",
       "type": "odm.datastreams.DerivedID"
     }
   ],
@@ -37,8 +41,11 @@
     "ds_Variable_Depth",
     "dt_Unit_Meter"
   ],
-  "created_at": "2018-03-08T01:03:38.731Z",
-  "updated_at": "2018-03-11T21:18:42.725Z",
+  "created_at": "2018-03-18T21:18:36.484Z",
+  "updated_at": "2018-03-18T21:19:14.182Z",
+  "derived_from_datastream_ids": [
+    "5aaed7c66947d70001b29c42"
+  ],
   "tags_info": {
     "resolved_terms": [
       {
@@ -110,9 +117,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "derivation_description": "Convert mV to meters for wells",
-  "derived_from_datastream_ids": "[380]",
-  "description": "Added datastream 2013-07-25 16:00:00.\r\n\r\nEnd date added May 2014; transducer removed",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

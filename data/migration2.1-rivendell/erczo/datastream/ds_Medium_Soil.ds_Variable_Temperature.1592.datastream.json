@@ -1,7 +1,8 @@
 {
-  "_id": "5aa089555a929000014f2bc4",
+  "_id": "5aaed7c26947d70001b29bbb",
   "enabled": true,
   "name": "Soil Temp CS35",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602d0",
@@ -33,14 +34,15 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-03-08T01:04:11.167Z",
-  "updated_at": "2018-03-11T21:19:06.670Z",
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
       "value": "35"
-    }
+    },
+    "orientation": "horizontal"
   },
+  "created_at": "2018-03-18T21:18:58.007Z",
+  "updated_at": "2018-03-18T21:19:36.614Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -102,7 +104,7 @@
     },
     {
       "key": "att",
-      "str": "019bf40a962dd44c23b8daeb8488eaebb1c842bb"
+      "str": "48cf54549bd3d0e29d7e8205685d129be56a6137"
     },
     {
       "key": "geo",
@@ -119,6 +121,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

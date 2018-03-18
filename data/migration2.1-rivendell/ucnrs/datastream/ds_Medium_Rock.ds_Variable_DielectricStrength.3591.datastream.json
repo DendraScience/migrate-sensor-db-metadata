@@ -1,9 +1,11 @@
 {
-  "_id": "5aa089785a929000014f2f29",
+  "_id": "5aaed80c6947d70001b29f20",
+  "description": "Echo retired on May 2, 2017 and replaced with a CS616",
   "enabled": false,
   "name": "TDR freq 1 James RETIRED",
+  "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602c3",
   "datapoints_config": [
     {
@@ -34,8 +36,8 @@
     "ds_Variable_DielectricStrength",
     "dt_Unit_Dimensionless"
   ],
-  "created_at": "2018-03-08T01:04:59.651Z",
-  "updated_at": "2018-03-11T21:19:43.412Z",
+  "created_at": "2018-03-18T21:20:12.211Z",
+  "updated_at": "2018-03-18T21:20:47.577Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -106,7 +108,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "Echo retired on May 2, 2017 and replaced with a CS616",
-  "organization_id": "58db17c424dc720001671378"
+  "_include": []
 }

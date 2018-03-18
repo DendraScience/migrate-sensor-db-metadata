@@ -1,9 +1,11 @@
 {
-  "_id": "5aa089385a929000014f285b",
+  "_id": "5aaed7a76947d70001b29852",
+  "description": "From Todd Wood's co2 database, serial numbers 0, 0304970b, and 0304977a",
   "enabled": false,
   "name": "CO2 Concentration ppm/10 Well3",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602cb",
   "datapoints_config": [
     {
@@ -34,8 +36,8 @@
     "ds_Variable_Concentration",
     "dt_Unit_PartPerMillion"
   ],
-  "created_at": "2018-03-08T01:03:30.539Z",
-  "updated_at": "2018-03-11T21:18:36.184Z",
+  "created_at": "2018-03-18T21:18:31.103Z",
+  "updated_at": "2018-03-18T21:19:08.851Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -107,7 +109,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "From Todd Wood's co2 database, serial numbers 0, 0304970b, and 0304977a",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

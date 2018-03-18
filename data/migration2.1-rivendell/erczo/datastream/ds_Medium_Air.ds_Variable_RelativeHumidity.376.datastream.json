@@ -1,9 +1,11 @@
 {
-  "_id": "5aa089395a929000014f287c",
+  "_id": "5aaed7a86947d70001b29873",
+  "description": "Device died May 2014 - see Incident Report 164",
   "enabled": false,
   "name": "Air Relative Humidity - RLL1_2",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602c9",
   "datapoints_config": [
     {
@@ -34,8 +36,8 @@
     "ds_Variable_RelativeHumidity",
     "dt_Unit_Percent"
   ],
-  "created_at": "2018-03-08T01:03:32.252Z",
-  "updated_at": "2018-03-11T21:18:38.160Z",
+  "created_at": "2018-03-18T21:18:32.152Z",
+  "updated_at": "2018-03-18T21:19:09.909Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -107,7 +109,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "Device died May 2014 - see Incident Report 164",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

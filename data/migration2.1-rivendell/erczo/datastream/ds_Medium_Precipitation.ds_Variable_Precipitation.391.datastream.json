@@ -1,9 +1,11 @@
 {
-  "_id": "5aa089405a929000014f294e",
+  "_id": "5aaed7ae6947d70001b29945",
+  "description": "End date is approximate.  Datastream was left active until 2014-03-27.  - cab",
   "enabled": false,
   "name": "Rainfall mm RG3",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602cb",
   "datapoints_config": [
     {
@@ -34,8 +36,8 @@
     "ds_Variable_Precipitation",
     "dt_Unit_Millimeter"
   ],
-  "created_at": "2018-03-08T01:03:41.976Z",
-  "updated_at": "2018-03-11T21:18:45.117Z",
+  "created_at": "2018-03-18T21:18:38.647Z",
+  "updated_at": "2018-03-18T21:19:16.381Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -107,7 +109,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "End date is approximate.  Datastream was left active until 2014-03-27.  - cab",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

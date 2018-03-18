@@ -1,7 +1,9 @@
 {
-  "_id": "5aa089385a929000014f284d",
+  "_id": "5aaed7a66947d70001b29844",
+  "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": true,
   "name": "BP Cahto Peak 30min",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cabdf5ce600012602bb",
@@ -28,6 +30,7 @@
       "type": "odm.stations.StationID"
     },
     {
+      "identifier": "61",
       "type": "odm.datastreams.DerivedID"
     }
   ],
@@ -36,8 +39,11 @@
     "ds_Variable_BarometricPressure",
     "dt_Unit_Millibar"
   ],
-  "created_at": "2018-03-08T01:03:29.894Z",
-  "updated_at": "2018-03-11T21:18:35.685Z",
+  "created_at": "2018-03-18T21:18:30.676Z",
+  "updated_at": "2018-03-18T21:19:08.404Z",
+  "derived_from_datastream_ids": [
+    "5aaed7a76947d70001b29851"
+  ],
   "tags_info": {
     "resolved_terms": [
       {
@@ -109,8 +115,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "derivation_description": "Conversion to 30-minute timesteps",
-  "derived_from_datastream_ids": "[61]",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

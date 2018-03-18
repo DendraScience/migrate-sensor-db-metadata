@@ -1,9 +1,11 @@
 {
-  "_id": "5aa0893f5a929000014f291f",
+  "_id": "5aaed7ad6947d70001b29916",
+  "description": "Wiring panel temperature. Used to make sure logger is within proper operating temperatures. Not valid for research use.",
   "enabled": false,
   "name": "Logger Temp WSTB",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602da",
   "datapoints_config": [
     {
@@ -34,8 +36,8 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-03-08T01:03:39.776Z",
-  "updated_at": "2018-03-11T21:18:43.543Z",
+  "created_at": "2018-03-18T21:18:37.194Z",
+  "updated_at": "2018-03-18T21:19:14.889Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -107,7 +109,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "Wiring panel temperature. Used to make sure logger is within proper operating temperatures. Not valid for research use.",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

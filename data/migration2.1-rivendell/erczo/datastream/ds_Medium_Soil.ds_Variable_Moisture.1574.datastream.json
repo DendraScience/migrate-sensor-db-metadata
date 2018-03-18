@@ -1,7 +1,9 @@
 {
-  "_id": "5aa089535a929000014f2b81",
+  "_id": "5aaed7c06947d70001b29b78",
+  "derivation_description": "Derived Soil Moisture",
   "enabled": true,
   "name": "Soil Moisture MudS_Drilled",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602cf",
@@ -28,6 +30,7 @@
       "type": "odm.stations.StationID"
     },
     {
+      "identifier": "163",
       "type": "odm.datastreams.DerivedID"
     }
   ],
@@ -36,8 +39,11 @@
     "ds_Variable_Moisture",
     "dt_Unit_Percent"
   ],
-  "created_at": "2018-03-08T01:04:08.103Z",
-  "updated_at": "2018-03-11T21:19:04.525Z",
+  "created_at": "2018-03-18T21:18:56.023Z",
+  "updated_at": "2018-03-18T21:19:34.545Z",
+  "derived_from_datastream_ids": [
+    "5aaed7b06947d70001b2998b"
+  ],
   "tags_info": {
     "resolved_terms": [
       {
@@ -109,8 +115,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "derivation_description": "Derived Soil Moisture",
-  "derived_from_datastream_ids": "[163]",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

@@ -1,7 +1,8 @@
 {
-  "_id": "5aa089595a929000014f2c3f",
+  "_id": "5aaed7c56947d70001b29c36",
   "enabled": true,
   "name": "FNS Water Pressure VMS_B3",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602db",
@@ -42,8 +43,8 @@
     "ds_Variable_Pressure",
     "dt_Unit_Millibar"
   ],
-  "created_at": "2018-03-08T01:04:16.743Z",
-  "updated_at": "2018-03-11T21:19:10.785Z",
+  "created_at": "2018-03-18T21:19:01.645Z",
+  "updated_at": "2018-03-18T21:19:40.645Z",
   "attributes_info": {
     "sort": {
       "value1": 3.4,
@@ -105,7 +106,7 @@
     },
     {
       "key": "att",
-      "str": "f40c79b7a90f71f9a65d96dfdfa712c216bd0086"
+      "str": "63aab303d6baf5b2daf3d611c1ddc24c56715906"
     },
     {
       "key": "geo",
@@ -122,6 +123,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

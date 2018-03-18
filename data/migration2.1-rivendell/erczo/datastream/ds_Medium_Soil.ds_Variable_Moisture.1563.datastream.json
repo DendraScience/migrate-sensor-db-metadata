@@ -1,7 +1,9 @@
 {
-  "_id": "5aa089525a929000014f2b76",
+  "_id": "5aaed7bf6947d70001b29b6d",
+  "derivation_description": "Derived Soil Moisture",
   "enabled": true,
   "name": "Soil Moisture L3T1_0.55",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602cd",
@@ -28,6 +30,7 @@
       "type": "odm.stations.StationID"
     },
     {
+      "identifier": "152",
       "type": "odm.datastreams.DerivedID"
     }
   ],
@@ -36,8 +39,6 @@
     "ds_Variable_Moisture",
     "dt_Unit_Percent"
   ],
-  "created_at": "2018-03-08T01:04:07.622Z",
-  "updated_at": "2018-03-11T21:19:04.132Z",
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
@@ -45,6 +46,11 @@
     },
     "orientation": "vertical"
   },
+  "created_at": "2018-03-18T21:18:55.677Z",
+  "updated_at": "2018-03-18T21:19:34.194Z",
+  "derived_from_datastream_ids": [
+    "5aaed7b06947d70001b29980"
+  ],
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -106,7 +112,7 @@
     },
     {
       "key": "att",
-      "str": "e57354970d786d746985ce2d61488676e7b16e4b"
+      "str": "40ac5a24b47a2da0c58068bac6895f8d95ff2a11"
     },
     {
       "key": "geo",
@@ -123,8 +129,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "derivation_description": "Derived Soil Moisture",
-  "derived_from_datastream_ids": "[152]",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

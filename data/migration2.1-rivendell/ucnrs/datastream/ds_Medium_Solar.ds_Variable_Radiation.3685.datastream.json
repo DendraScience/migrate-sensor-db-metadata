@@ -1,7 +1,9 @@
 {
-  "_id": "5aa089835a929000014f3090",
+  "_id": "5aaed8166947d70001b2a087",
+  "description": "",
   "enabled": true,
   "name": "Total Solar Radiation W m2 BigCreek Highlands Avg",
+  "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cabdf5ce600012602b6",
@@ -33,8 +35,8 @@
     "ds_Variable_Radiation",
     "dt_Unit_WattPerSquareMeter"
   ],
-  "created_at": "2018-03-08T01:05:15.569Z",
-  "updated_at": "2018-03-11T21:19:55.247Z",
+  "created_at": "2018-03-18T21:20:22.983Z",
+  "updated_at": "2018-03-18T21:20:58.981Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -106,7 +108,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "",
-  "organization_id": "58db17c424dc720001671378"
+  "_include": []
 }

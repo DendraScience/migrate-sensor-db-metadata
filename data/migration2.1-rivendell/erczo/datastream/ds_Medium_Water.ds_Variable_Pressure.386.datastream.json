@@ -1,9 +1,11 @@
 {
-  "_id": "5aa089595a929000014f2c51",
+  "_id": "5aaed7c66947d70001b29c48",
+  "description": "datafile has \"well_8\" but it is actually Well 10.\r\nDecommissioned and replaced by cs451 pressure transducer.",
   "enabled": false,
   "name": "Well 10 Pressure mV Old",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602ce",
   "datapoints_config": [
     {
@@ -34,8 +36,6 @@
     "ds_Variable_Pressure",
     "dt_Unit_Millivolt"
   ],
-  "created_at": "2018-03-08T01:04:17.549Z",
-  "updated_at": "2018-03-11T21:19:11.353Z",
   "attributes": {
     "depth": {
       "unit": "dt_Unit_Meter",
@@ -50,6 +50,8 @@
       "value": "22.09"
     }
   },
+  "created_at": "2018-03-18T21:19:02.179Z",
+  "updated_at": "2018-03-18T21:19:41.192Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -128,7 +130,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "datafile has \"well_8\" but it is actually Well 10.\r\nDecommissioned and replaced by cs451 pressure transducer.",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

@@ -1,5 +1,4 @@
 {
-  "_id": "58e68cabdf5ce600012602c2",
   "enabled": true,
   "is_active": true,
   "is_stationary": true,
@@ -30,6 +29,7 @@
     ],
     "type": "Point"
   },
-  "updated_at": "2018-03-11T21:45:27.747Z",
-  "created_at": "2018-03-08T01:03:28.381Z"
+  "_id": "58e68cabdf5ce600012602c2",
+  "created_at": "2018-03-18T21:18:28.703Z",
+  "updated_at": "2018-03-18T21:18:28.703Z"
 }

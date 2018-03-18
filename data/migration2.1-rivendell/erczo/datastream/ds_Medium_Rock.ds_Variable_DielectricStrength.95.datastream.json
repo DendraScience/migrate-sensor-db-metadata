@@ -1,7 +1,9 @@
 {
-  "_id": "5aa089445a929000014f29c1",
+  "_id": "5aaed7b26947d70001b299b8",
+  "description": "TDR-probe7.5cm ",
   "enabled": true,
   "name": "TDR L1T2_0.15",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602c8",
@@ -33,8 +35,6 @@
     "ds_Variable_DielectricStrength",
     "dt_Unit_Dimensionless"
   ],
-  "created_at": "2018-03-08T01:03:47.164Z",
-  "updated_at": "2018-03-11T21:18:48.798Z",
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
@@ -42,6 +42,8 @@
     },
     "orientation": "vertical"
   },
+  "created_at": "2018-03-18T21:18:42.249Z",
+  "updated_at": "2018-03-18T21:19:19.989Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -102,7 +104,7 @@
     },
     {
       "key": "att",
-      "str": "f5ed90af37c2e246f6377586fc2b3d0f1a84e969"
+      "str": "16f389774a45e9c95059f07c4f7b2ff00f3f526c"
     },
     {
       "key": "geo",
@@ -119,7 +121,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "TDR-probe7.5cm ",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

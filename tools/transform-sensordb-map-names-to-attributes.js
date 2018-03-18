@@ -190,11 +190,17 @@ for(var i=0;i<ds_files.length;i++) {
 			// CS650 at level 5 have custom names
 			// Soil Moisture and Soil Temp - same instruments
 			depth = dsname.substring(dsname.search('CS')+2)
+			if(depth == '138') {
+				orientation = 'vertical'
+			} else {
+				orientation = 'horizontal'
+			}
 			ds_json.attributes = {
 		    "depth": {
 		      "unit_tag": "dt_Unit_Meter",
 		      "value": depth
-		    }
+		    },
+		    "orientation": orientation
 		  }
 		  if(dsname.match(/^Soil Temp CS/)) {
 		  	soiltemp_count++

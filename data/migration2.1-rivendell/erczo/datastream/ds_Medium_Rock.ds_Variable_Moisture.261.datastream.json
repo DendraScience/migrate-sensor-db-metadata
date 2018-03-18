@@ -1,7 +1,8 @@
 {
-  "_id": "5aa089475a929000014f2a26",
+  "_id": "5aaed7b56947d70001b29a1d",
   "enabled": true,
   "name": "ERP L2S2-0.6 b",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602ca",
@@ -33,14 +34,14 @@
     "ds_Variable_Moisture",
     "dt_Unit_Kiloohm"
   ],
-  "created_at": "2018-03-08T01:03:51.970Z",
-  "updated_at": "2018-03-11T21:18:52.179Z",
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
       "value": "0.6 b"
     }
   },
+  "created_at": "2018-03-18T21:18:45.489Z",
+  "updated_at": "2018-03-18T21:19:23.366Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -102,7 +103,7 @@
     },
     {
       "key": "att",
-      "str": "bc27547fc4bc6d68c72b8f5493683cb9f2b53328"
+      "str": "65f69cee12c571557dd7b29bc0ac156bdb17fad7"
     },
     {
       "key": "geo",
@@ -119,6 +120,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

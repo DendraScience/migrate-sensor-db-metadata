@@ -1,9 +1,10 @@
 {
-  "_id": "5aa0893c5a929000014f28cd",
+  "_id": "5aaed7aa6947d70001b298c4",
   "enabled": false,
   "name": "Battery Voltage Ingrid",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cabdf5ce600012602c2",
   "datapoints_config": [
     {
@@ -34,8 +35,8 @@
     "ds_Variable_Voltage",
     "dt_Unit_Volt"
   ],
-  "created_at": "2018-03-08T01:03:36.045Z",
-  "updated_at": "2018-03-11T21:18:40.831Z",
+  "created_at": "2018-03-18T21:18:34.704Z",
+  "updated_at": "2018-03-18T21:19:12.438Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -107,6 +108,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

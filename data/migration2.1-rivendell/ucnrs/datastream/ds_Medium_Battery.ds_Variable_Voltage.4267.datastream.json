@@ -1,9 +1,10 @@
 {
-  "_id": "5aa089735a929000014f2e9a",
+  "_id": "5aaed8086947d70001b29e91",
   "enabled": false,
   "name": "Battery Voltage volts Jepson Min",
+  "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602c4",
   "datapoints_config": [
     {
@@ -34,8 +35,8 @@
     "ds_Variable_Voltage",
     "dt_Unit_Volt"
   ],
-  "created_at": "2018-03-08T01:04:53.331Z",
-  "updated_at": "2018-03-11T21:19:38.698Z",
+  "created_at": "2018-03-18T21:20:08.056Z",
+  "updated_at": "2018-03-18T21:20:43.235Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -107,6 +108,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17c424dc720001671378"
+  "_include": []
 }

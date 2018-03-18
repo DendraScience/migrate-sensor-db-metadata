@@ -1,9 +1,12 @@
 {
-  "_id": "5aa089385a929000014f2861",
+  "_id": "5aaed7a76947d70001b29858",
+  "derivation_description": "Conversion to 30-minute timesteps",
+  "description": "\"average direction, not instantaneous.\"",
   "enabled": false,
   "name": "Wind Direction -  WSTB 30min",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602da",
   "datapoints_config": [
     {
@@ -29,6 +32,7 @@
       "type": "odm.stations.StationID"
     },
     {
+      "identifier": "458",
       "type": "odm.datastreams.DerivedID"
     }
   ],
@@ -37,8 +41,11 @@
     "ds_Variable_Direction",
     "dt_Unit_DegreeAngle"
   ],
-  "created_at": "2018-03-08T01:03:30.866Z",
-  "updated_at": "2018-03-11T21:18:36.407Z",
+  "created_at": "2018-03-18T21:18:31.277Z",
+  "updated_at": "2018-03-18T21:19:09.032Z",
+  "derived_from_datastream_ids": [
+    "5aaed7a76947d70001b2985f"
+  ],
   "tags_info": {
     "resolved_terms": [
       {
@@ -110,9 +117,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "derivation_description": "Conversion to 30-minute timesteps",
-  "derived_from_datastream_ids": "[458]",
-  "description": "\"average direction, not instantaneous.\"",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

@@ -1,9 +1,10 @@
 {
-  "_id": "5aa0896a5a929000014f2d6c",
+  "_id": "5aaed7fe6947d70001b29d63",
   "enabled": false,
   "name": "Wind Speed m s Jepson Std",
+  "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602c4",
   "datapoints_config": [
     {
@@ -34,8 +35,8 @@
     "ds_Variable_Speed",
     "dt_Unit_MeterPerSecond"
   ],
-  "created_at": "2018-03-08T01:04:39.654Z",
-  "updated_at": "2018-03-11T21:19:28.645Z",
+  "created_at": "2018-03-18T21:19:58.877Z",
+  "updated_at": "2018-03-18T21:20:33.763Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -107,6 +108,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17c424dc720001671378"
+  "_include": []
 }

@@ -1,9 +1,11 @@
 {
-  "_id": "5aa0893e5a929000014f28fa",
+  "_id": "5aaed7ac6947d70001b298f1",
+  "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": false,
   "name": "Well 1 Water Level m Old 30min",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602c9",
   "datapoints_config": [
     {
@@ -29,6 +31,7 @@
       "type": "odm.stations.StationID"
     },
     {
+      "identifier": "1328",
       "type": "odm.datastreams.DerivedID"
     }
   ],
@@ -37,8 +40,6 @@
     "ds_Variable_Depth",
     "dt_Unit_Meter"
   ],
-  "created_at": "2018-03-08T01:03:38.161Z",
-  "updated_at": "2018-03-11T21:18:42.308Z",
   "attributes": {
     "depth": {
       "unit": "dt_Unit_Meter",
@@ -53,6 +54,11 @@
       "value": "7.13"
     }
   },
+  "created_at": "2018-03-18T21:18:36.060Z",
+  "updated_at": "2018-03-18T21:19:13.823Z",
+  "derived_from_datastream_ids": [
+    "5aaed7ab6947d70001b298e4"
+  ],
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -131,8 +137,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "derivation_description": "Conversion to 30-minute timesteps",
-  "derived_from_datastream_ids": "[1328]",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

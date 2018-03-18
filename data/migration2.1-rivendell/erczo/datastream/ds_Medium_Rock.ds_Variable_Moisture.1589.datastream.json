@@ -1,7 +1,8 @@
 {
-  "_id": "5aa089445a929000014f29c9",
+  "_id": "5aaed7b26947d70001b299c0",
   "enabled": true,
   "name": "Elec Conductivity CS100",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602d0",
@@ -33,14 +34,15 @@
     "ds_Variable_Moisture",
     "dt_Unit_DecisiemenPerMeter"
   ],
-  "created_at": "2018-03-08T01:03:47.506Z",
-  "updated_at": "2018-03-11T21:18:49.070Z",
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
       "value": "100"
-    }
+    },
+    "orientation": "horizontal"
   },
+  "created_at": "2018-03-18T21:18:42.492Z",
+  "updated_at": "2018-03-18T21:19:20.237Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -102,7 +104,7 @@
     },
     {
       "key": "att",
-      "str": "9a713464f0b5ab1c4e3958019c89846e55524f54"
+      "str": "a7e4c3994c9214d089700ae7c4b7f7a20495c279"
     },
     {
       "key": "geo",
@@ -119,6 +121,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

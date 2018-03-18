@@ -1,7 +1,9 @@
 {
-  "_id": "5aa089795a929000014f2f3c",
+  "_id": "5aaed80c6947d70001b29f33",
+  "description": "Volumetric water content is derived from this count using a polynomial on the logger.",
   "enabled": true,
   "name": "Soil Moisture TDR freq 0.05 m vertical Fort Ord",
+  "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cabdf5ce600012602bf",
@@ -33,8 +35,6 @@
     "ds_Variable_DielectricStrength",
     "dt_Unit_Dimensionless"
   ],
-  "created_at": "2018-03-08T01:05:00.539Z",
-  "updated_at": "2018-03-11T21:19:44.052Z",
   "attributes": {
     "orientation": "vertical",
     "depth": {
@@ -42,6 +42,8 @@
       "value": "0.05"
     }
   },
+  "created_at": "2018-03-18T21:20:12.785Z",
+  "updated_at": "2018-03-18T21:20:48.158Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -102,7 +104,7 @@
     },
     {
       "key": "att",
-      "str": "bec12fd78683e6f096301ee2e5b8ee0dce499766"
+      "str": "23a4ed802219ab4b0a649c048cc508f78a6fae57"
     },
     {
       "key": "geo",
@@ -119,7 +121,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "Volumetric water content is derived from this count using a polynomial on the logger.",
-  "organization_id": "58db17c424dc720001671378"
+  "_include": []
 }

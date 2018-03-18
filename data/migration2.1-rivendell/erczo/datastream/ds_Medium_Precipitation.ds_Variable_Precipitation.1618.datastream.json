@@ -1,9 +1,12 @@
 {
-  "_id": "5aa0893f5a929000014f292d",
+  "_id": "5aaed7ad6947d70001b29924",
+  "derivation_description": "Conversion to 30-minute timesteps",
+  "description": "End date is approximate.  Datastream was left active until 2014-03-27, even though it has not had an attached instrument. -cab.",
   "enabled": false,
   "name": "Rainfall mm RG3 30min",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602cb",
   "datapoints_config": [
     {
@@ -29,6 +32,7 @@
       "type": "odm.stations.StationID"
     },
     {
+      "identifier": "391",
       "type": "odm.datastreams.DerivedID"
     }
   ],
@@ -37,8 +41,11 @@
     "ds_Variable_Precipitation",
     "dt_Unit_Millimeter"
   ],
-  "created_at": "2018-03-08T01:03:40.484Z",
-  "updated_at": "2018-03-11T21:18:44.016Z",
+  "created_at": "2018-03-18T21:18:37.618Z",
+  "updated_at": "2018-03-18T21:19:15.323Z",
+  "derived_from_datastream_ids": [
+    "5aaed7ae6947d70001b29945"
+  ],
   "tags_info": {
     "resolved_terms": [
       {
@@ -110,9 +117,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "derivation_description": "Conversion to 30-minute timesteps",
-  "derived_from_datastream_ids": "[391]",
-  "description": "End date is approximate.  Datastream was left active until 2014-03-27, even though it has not had an attached instrument. -cab.",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

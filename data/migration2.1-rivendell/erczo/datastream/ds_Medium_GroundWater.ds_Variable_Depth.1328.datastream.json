@@ -1,9 +1,12 @@
 {
-  "_id": "5aa0893d5a929000014f28ed",
+  "_id": "5aaed7ab6947d70001b298e4",
+  "derivation_description": "Convert mV to meters for wells",
+  "description": "This derived dataset has been replaced by a derivation that is done on-datalogger.  Replacement has the same name. ",
   "enabled": false,
   "name": "Well 1 Water Level m Old",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602c9",
   "datapoints_config": [
     {
@@ -29,6 +32,7 @@
       "type": "odm.stations.StationID"
     },
     {
+      "identifier": "379",
       "type": "odm.datastreams.DerivedID"
     }
   ],
@@ -37,8 +41,6 @@
     "ds_Variable_Depth",
     "dt_Unit_Meter"
   ],
-  "created_at": "2018-03-08T01:03:37.610Z",
-  "updated_at": "2018-03-11T21:18:41.884Z",
   "attributes": {
     "depth": {
       "unit": "dt_Unit_Meter",
@@ -53,6 +55,11 @@
       "value": "7.13"
     }
   },
+  "created_at": "2018-03-18T21:18:35.669Z",
+  "updated_at": "2018-03-18T21:19:13.427Z",
+  "derived_from_datastream_ids": [
+    "5aaed7c56947d70001b29c41"
+  ],
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -131,9 +138,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "derivation_description": "Convert mV to meters for wells",
-  "derived_from_datastream_ids": "[379]",
-  "description": "This derived dataset has been replaced by a derivation that is done on-datalogger.  Replacement has the same name. ",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

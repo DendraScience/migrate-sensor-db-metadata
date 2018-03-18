@@ -1,7 +1,8 @@
 {
-  "_id": "5aa089555a929000014f2bdb",
+  "_id": "5aaed7c26947d70001b29bd2",
   "enabled": true,
   "name": "Soil Temp L1ST_0.50",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602c9",
@@ -33,14 +34,14 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-03-08T01:04:12.216Z",
-  "updated_at": "2018-03-11T21:19:07.426Z",
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
       "value": "0.50"
     }
   },
+  "created_at": "2018-03-18T21:18:58.763Z",
+  "updated_at": "2018-03-18T21:19:37.343Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -102,7 +103,7 @@
     },
     {
       "key": "att",
-      "str": "e9d1d4332850dbd20e0e3e724be23ce07e468ab0"
+      "str": "341b74e1b33f5ea224ae20c61751ee7ae9c7eb52"
     },
     {
       "key": "geo",
@@ -119,6 +120,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

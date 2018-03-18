@@ -1,7 +1,10 @@
 {
-  "_id": "5aa0893e5a929000014f290d",
+  "_id": "5aaed7ac6947d70001b29904",
+  "derivation_description": "Convert psi to meters for wells",
+  "description": "See incident report 126 for details",
   "enabled": true,
   "name": "Well 3 Water Level m",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602cb",
@@ -28,6 +31,7 @@
       "type": "odm.stations.StationID"
     },
     {
+      "identifier": "1696",
       "type": "odm.datastreams.DerivedID"
     }
   ],
@@ -36,8 +40,6 @@
     "ds_Variable_Depth",
     "dt_Unit_Meter"
   ],
-  "created_at": "2018-03-08T01:03:38.987Z",
-  "updated_at": "2018-03-11T21:18:42.921Z",
   "attributes": {
     "depth": {
       "unit": "dt_Unit_Meter",
@@ -52,6 +54,11 @@
       "value": "12.45"
     }
   },
+  "created_at": "2018-03-18T21:18:36.653Z",
+  "updated_at": "2018-03-18T21:19:14.357Z",
+  "derived_from_datastream_ids": [
+    "5aaed7c56947d70001b29c29"
+  ],
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -130,9 +137,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "derivation_description": "Convert psi to meters for wells",
-  "derived_from_datastream_ids": "[1696]",
-  "description": "See incident report 126 for details",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

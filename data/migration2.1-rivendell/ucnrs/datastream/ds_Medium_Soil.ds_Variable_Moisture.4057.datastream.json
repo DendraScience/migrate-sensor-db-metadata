@@ -1,7 +1,9 @@
 {
-  "_id": "5aa0897a5a929000014f2f71",
+  "_id": "5aaed80e6947d70001b29f68",
+  "description": "",
   "enabled": true,
   "name": "Volumetric Water Content Per 4 in horiz Granites Avg",
+  "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cabdf5ce600012602c0",
@@ -33,8 +35,8 @@
     "ds_Variable_Moisture",
     "dt_Unit_Percent"
   ],
-  "created_at": "2018-03-08T01:05:02.856Z",
-  "updated_at": "2018-03-11T21:19:45.836Z",
+  "created_at": "2018-03-18T21:20:14.336Z",
+  "updated_at": "2018-03-18T21:20:49.826Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -106,7 +108,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "",
-  "organization_id": "58db17c424dc720001671378"
+  "_include": []
 }

@@ -1,7 +1,9 @@
 {
-  "_id": "5aa0893b5a929000014f28b9",
+  "_id": "5aaed7aa6947d70001b298b0",
+  "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": true,
   "name": "Rain Gage Temperature C Avg 30min",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602d8",
@@ -28,6 +30,7 @@
       "type": "odm.stations.StationID"
     },
     {
+      "identifier": "1740",
       "type": "odm.datastreams.DerivedID"
     }
   ],
@@ -36,8 +39,11 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-03-08T01:03:35.023Z",
-  "updated_at": "2018-03-11T21:18:40.185Z",
+  "created_at": "2018-03-18T21:18:34.092Z",
+  "updated_at": "2018-03-18T21:19:11.824Z",
+  "derived_from_datastream_ids": [
+    "5aaed7a96947d70001b298a6"
+  ],
   "tags_info": {
     "resolved_terms": [
       {
@@ -109,8 +115,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "derivation_description": "Conversion to 30-minute timesteps",
-  "derived_from_datastream_ids": "[1740]",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

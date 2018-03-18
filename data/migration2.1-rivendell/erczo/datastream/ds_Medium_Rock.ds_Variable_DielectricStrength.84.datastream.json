@@ -1,7 +1,9 @@
 {
-  "_id": "5aa089445a929000014f29b6",
+  "_id": "5aaed7b16947d70001b299ad",
+  "description": "TDR-probe30cm",
   "enabled": true,
   "name": "TDR L1S4_0.85",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602c8",
@@ -33,8 +35,6 @@
     "ds_Variable_DielectricStrength",
     "dt_Unit_Dimensionless"
   ],
-  "created_at": "2018-03-08T01:03:46.663Z",
-  "updated_at": "2018-03-11T21:18:48.436Z",
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
@@ -42,6 +42,8 @@
     },
     "orientation": "horizontal"
   },
+  "created_at": "2018-03-18T21:18:41.904Z",
+  "updated_at": "2018-03-18T21:19:19.640Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -102,7 +104,7 @@
     },
     {
       "key": "att",
-      "str": "9c055e3dc61423ae333cf5ee85a707fe2e160798"
+      "str": "e707044f8437aacd54c2267aed63101dafe09877"
     },
     {
       "key": "geo",
@@ -119,7 +121,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "TDR-probe30cm",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

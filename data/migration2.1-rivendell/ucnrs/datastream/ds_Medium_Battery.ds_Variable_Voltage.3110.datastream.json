@@ -1,7 +1,8 @@
 {
-  "_id": "5aa089715a929000014f2e51",
+  "_id": "5aaed8056947d70001b29e48",
   "enabled": true,
   "name": "Battery Voltage volts Blue Oak Max",
+  "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cabdf5ce600012602b8",
@@ -33,8 +34,8 @@
     "ds_Variable_Voltage",
     "dt_Unit_Volt"
   ],
-  "created_at": "2018-03-08T01:04:50.066Z",
-  "updated_at": "2018-03-11T21:19:36.241Z",
+  "created_at": "2018-03-18T21:20:05.938Z",
+  "updated_at": "2018-03-18T21:20:41.070Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -106,6 +107,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17c424dc720001671378"
+  "_include": []
 }

@@ -1,7 +1,9 @@
 {
-  "_id": "5aa0893b5a929000014f28ae",
+  "_id": "5aaed7a96947d70001b298a5",
+  "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": true,
   "name": "Air Temp WSSM Min 30min",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602d8",
@@ -28,6 +30,7 @@
       "type": "odm.stations.StationID"
     },
     {
+      "identifier": "1710",
       "type": "odm.datastreams.DerivedID"
     }
   ],
@@ -36,8 +39,11 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-03-08T01:03:34.475Z",
-  "updated_at": "2018-03-11T21:18:39.831Z",
+  "created_at": "2018-03-18T21:18:33.732Z",
+  "updated_at": "2018-03-18T21:19:11.476Z",
+  "derived_from_datastream_ids": [
+    "5aaed7a96947d70001b298a1"
+  ],
   "tags_info": {
     "resolved_terms": [
       {
@@ -109,8 +115,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "derivation_description": "Conversion to 30-minute timesteps",
-  "derived_from_datastream_ids": "[1710]",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

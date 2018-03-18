@@ -1,9 +1,10 @@
 {
-  "_id": "5aa089545a929000014f2ba3",
+  "_id": "5aaed7c16947d70001b29b9a",
   "enabled": false,
   "name": "Soil Moisture L3SM_1",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602ce",
   "datapoints_config": [
     {
@@ -34,8 +35,8 @@
     "ds_Variable_Moisture",
     "dt_Unit_Millivolt"
   ],
-  "created_at": "2018-03-08T01:04:09.590Z",
-  "updated_at": "2018-03-11T21:19:05.629Z",
+  "created_at": "2018-03-18T21:18:57.002Z",
+  "updated_at": "2018-03-18T21:19:35.590Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -107,6 +108,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

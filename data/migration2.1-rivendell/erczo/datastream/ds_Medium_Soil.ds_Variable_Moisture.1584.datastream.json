@@ -1,7 +1,8 @@
 {
-  "_id": "5aa089535a929000014f2b8b",
+  "_id": "5aaed7c06947d70001b29b82",
   "enabled": true,
   "name": "Soil Moisture CS100",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602d0",
@@ -33,14 +34,15 @@
     "ds_Variable_Moisture",
     "dt_Unit_Percent"
   ],
-  "created_at": "2018-03-08T01:04:08.555Z",
-  "updated_at": "2018-03-11T21:19:04.840Z",
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
       "value": "100"
-    }
+    },
+    "orientation": "horizontal"
   },
+  "created_at": "2018-03-18T21:18:56.314Z",
+  "updated_at": "2018-03-18T21:19:34.866Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -102,7 +104,7 @@
     },
     {
       "key": "att",
-      "str": "9a713464f0b5ab1c4e3958019c89846e55524f54"
+      "str": "a7e4c3994c9214d089700ae7c4b7f7a20495c279"
     },
     {
       "key": "geo",
@@ -119,6 +121,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

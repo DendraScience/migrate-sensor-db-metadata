@@ -1,9 +1,11 @@
 {
-  "_id": "5aa089595a929000014f2c4c",
+  "_id": "5aaed7c66947d70001b29c43",
+  "description": "replaced with newer pressure psi pressure transducer.",
   "enabled": false,
   "name": "Well 3 Pressure mV Old",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602cb",
   "datapoints_config": [
     {
@@ -34,8 +36,6 @@
     "ds_Variable_Pressure",
     "dt_Unit_Millivolt"
   ],
-  "created_at": "2018-03-08T01:04:17.339Z",
-  "updated_at": "2018-03-11T21:19:11.194Z",
   "attributes": {
     "depth": {
       "unit": "dt_Unit_Meter",
@@ -50,6 +50,8 @@
       "value": "12.45"
     }
   },
+  "created_at": "2018-03-18T21:19:02.040Z",
+  "updated_at": "2018-03-18T21:19:41.046Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -128,7 +130,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "replaced with newer pressure psi pressure transducer.",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

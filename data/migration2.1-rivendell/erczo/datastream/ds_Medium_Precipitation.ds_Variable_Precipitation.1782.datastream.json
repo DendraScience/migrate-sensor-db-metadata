@@ -1,9 +1,12 @@
 {
-  "_id": "5aa089405a929000014f293c",
+  "_id": "5aaed7ae6947d70001b29933",
+  "derivation_description": "Conversion to 30-minute timesteps",
+  "description": "New datastream added Nov 2014 by G.O.\r\nDec 2015: Old rain bucket is no longer operational. See Incident Report 237",
   "enabled": false,
   "name": "Rainfall Cumulative mm WSCP 30min",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cabdf5ce600012602bb",
   "datapoints_config": [
     {
@@ -29,6 +32,7 @@
       "type": "odm.stations.StationID"
     },
     {
+      "identifier": "1780",
       "type": "odm.datastreams.DerivedID"
     }
   ],
@@ -37,8 +41,11 @@
     "ds_Variable_Precipitation",
     "dt_Unit_Millimeter"
   ],
-  "created_at": "2018-03-08T01:03:41.190Z",
-  "updated_at": "2018-03-11T21:18:44.532Z",
+  "created_at": "2018-03-18T21:18:38.078Z",
+  "updated_at": "2018-03-18T21:19:15.819Z",
+  "derived_from_datastream_ids": [
+    "5aaed7ae6947d70001b29931"
+  ],
   "tags_info": {
     "resolved_terms": [
       {
@@ -110,9 +117,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "derivation_description": "Conversion to 30-minute timesteps",
-  "derived_from_datastream_ids": "[1780]",
-  "description": "New datastream added Nov 2014 by G.O.\r\nDec 2015: Old rain bucket is no longer operational. See Incident Report 237",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

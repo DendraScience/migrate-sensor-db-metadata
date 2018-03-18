@@ -1,7 +1,8 @@
 {
-  "_id": "5aa089435a929000014f29a5",
+  "_id": "5aaed7b16947d70001b2999c",
   "enabled": true,
   "name": "Permitivity no calib VMS_A8",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602db",
@@ -42,8 +43,8 @@
     "ds_Variable_DielectricStrength",
     "dt_Unit_Dimensionless"
   ],
-  "created_at": "2018-03-08T01:03:45.916Z",
-  "updated_at": "2018-03-11T21:18:47.891Z",
+  "created_at": "2018-03-18T21:18:41.391Z",
+  "updated_at": "2018-03-18T21:19:19.131Z",
   "attributes_info": {
     "sort": {
       "value1": 13.2,
@@ -104,7 +105,7 @@
     },
     {
       "key": "att",
-      "str": "d31861404ca09a71d45d692de420481c0035010a"
+      "str": "c7609e4563b90642c44519eea82759118e719f90"
     },
     {
       "key": "geo",
@@ -121,6 +122,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

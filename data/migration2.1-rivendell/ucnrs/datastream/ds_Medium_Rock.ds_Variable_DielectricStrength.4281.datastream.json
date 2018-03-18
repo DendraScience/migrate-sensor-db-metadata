@@ -1,9 +1,10 @@
 {
-  "_id": "5aa089795a929000014f2f3e",
+  "_id": "5aaed80c6947d70001b29f35",
   "enabled": false,
   "name": "Soil Moisture TDR freq 0.1 m horiz Jepson",
+  "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602c4",
   "datapoints_config": [
     {
@@ -34,8 +35,6 @@
     "ds_Variable_DielectricStrength",
     "dt_Unit_Dimensionless"
   ],
-  "created_at": "2018-03-08T01:05:00.630Z",
-  "updated_at": "2018-03-11T21:19:44.114Z",
   "attributes": {
     "orientation": "horizontal",
     "depth": {
@@ -43,6 +42,8 @@
       "value": "0.1"
     }
   },
+  "created_at": "2018-03-18T21:20:12.848Z",
+  "updated_at": "2018-03-18T21:20:48.210Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -103,7 +104,7 @@
     },
     {
       "key": "att",
-      "str": "6a54256acbc9329b930eadb90779710c1eefd9a9"
+      "str": "182ecf31bbc3b34f20e8ffb7e58d146960b3b3b2"
     },
     {
       "key": "geo",
@@ -120,6 +121,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17c424dc720001671378"
+  "_include": []
 }

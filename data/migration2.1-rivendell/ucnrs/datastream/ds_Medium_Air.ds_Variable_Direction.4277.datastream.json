@@ -1,9 +1,10 @@
 {
-  "_id": "5aa089645a929000014f2cb2",
+  "_id": "5aaed7f96947d70001b29ca9",
   "enabled": false,
   "name": "Wind Direction Deg Jepson Std",
+  "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602c4",
   "datapoints_config": [
     {
@@ -34,8 +35,8 @@
     "ds_Variable_Direction",
     "dt_Unit_DegreeAngle"
   ],
-  "created_at": "2018-03-08T01:04:31.254Z",
-  "updated_at": "2018-03-11T21:19:22.385Z",
+  "created_at": "2018-03-18T21:19:53.416Z",
+  "updated_at": "2018-03-18T21:20:28.026Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -107,6 +108,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17c424dc720001671378"
+  "_include": []
 }

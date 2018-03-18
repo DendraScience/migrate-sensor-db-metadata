@@ -1,7 +1,9 @@
 {
-  "_id": "5aa089795a929000014f2f49",
+  "_id": "5aaed80d6947d70001b29f40",
+  "description": "Range of values unknown since method type is also unknown, values entered are only a guess",
   "enabled": true,
   "name": "Snow Temp Deg C WhiteMt Barcroft Avg",
+  "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602dc",
@@ -33,8 +35,8 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-03-08T01:05:01.148Z",
-  "updated_at": "2018-03-11T21:19:44.490Z",
+  "created_at": "2018-03-18T21:20:13.181Z",
+  "updated_at": "2018-03-18T21:20:48.537Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -106,7 +108,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "Range of values unknown since method type is also unknown, values entered are only a guess",
-  "organization_id": "58db17c424dc720001671378"
+  "_include": []
 }

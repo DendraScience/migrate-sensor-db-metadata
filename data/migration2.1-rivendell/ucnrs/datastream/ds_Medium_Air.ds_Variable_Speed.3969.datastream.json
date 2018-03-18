@@ -1,7 +1,9 @@
 {
-  "_id": "5aa089695a929000014f2d48",
+  "_id": "5aaed7fd6947d70001b29d3f",
+  "description": "",
   "enabled": true,
   "name": "Wind Vector Magnitude m s Anza Borrego ",
+  "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cabdf5ce600012602b4",
@@ -33,8 +35,8 @@
     "ds_Variable_Speed",
     "dt_Unit_MeterPerSecond"
   ],
-  "created_at": "2018-03-08T01:04:38.092Z",
-  "updated_at": "2018-03-11T21:19:27.436Z",
+  "created_at": "2018-03-18T21:19:57.762Z",
+  "updated_at": "2018-03-18T21:20:32.664Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -106,7 +108,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "",
-  "organization_id": "58db17c424dc720001671378"
+  "_include": []
 }

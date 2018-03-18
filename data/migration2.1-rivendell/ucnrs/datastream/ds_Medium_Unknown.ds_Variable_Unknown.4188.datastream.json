@@ -1,9 +1,11 @@
 {
-  "_id": "5aa089855a929000014f30ca",
+  "_id": "5aaed8186947d70001b2a0c1",
+  "description": "Two fields \"ForwardTxX10\" and \"ReflectTxX10\" were never used, then were removed. ",
   "enabled": false,
   "name": "X10 Forward Transmit",
+  "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cabdf5ce600012602be",
   "datapoints_config": [
     {
@@ -34,8 +36,8 @@
     "ds_Variable_Unknown",
     "dt_Unit_Dimensionless"
   ],
-  "created_at": "2018-03-08T01:05:18.108Z",
-  "updated_at": "2018-03-11T21:19:57.140Z",
+  "created_at": "2018-03-18T21:20:24.644Z",
+  "updated_at": "2018-03-18T21:21:00.732Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -106,7 +108,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "Two fields \"ForwardTxX10\" and \"ReflectTxX10\" were never used, then were removed. ",
-  "organization_id": "58db17c424dc720001671378"
+  "_include": []
 }

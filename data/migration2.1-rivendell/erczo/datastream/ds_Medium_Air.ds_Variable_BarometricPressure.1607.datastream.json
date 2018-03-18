@@ -1,9 +1,12 @@
 {
-  "_id": "5aa089385a929000014f284b",
+  "_id": "5aaed7a66947d70001b29842",
+  "derivation_description": "Conversion to 30-minute timesteps",
+  "description": "See incident report 109 -- barometer failed again 1/21/2014",
   "enabled": false,
   "name": "BP Angelo HQ 30min",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cabdf5ce600012602b1",
   "datapoints_config": [
     {
@@ -29,6 +32,7 @@
       "type": "odm.stations.StationID"
     },
     {
+      "identifier": "40",
       "type": "odm.datastreams.DerivedID"
     }
   ],
@@ -37,8 +41,11 @@
     "ds_Variable_BarometricPressure",
     "dt_Unit_Millibar"
   ],
-  "created_at": "2018-03-08T01:03:29.801Z",
-  "updated_at": "2018-03-11T21:18:35.615Z",
+  "created_at": "2018-03-18T21:18:30.615Z",
+  "updated_at": "2018-03-18T21:19:08.335Z",
+  "derived_from_datastream_ids": [
+    "5aaed7a66947d70001b2984e"
+  ],
   "tags_info": {
     "resolved_terms": [
       {
@@ -110,9 +117,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "derivation_description": "Conversion to 30-minute timesteps",
-  "derived_from_datastream_ids": "[40]",
-  "description": "See incident report 109 -- barometer failed again 1/21/2014",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

@@ -1,7 +1,8 @@
 {
-  "_id": "5aa089435a929000014f299c",
+  "_id": "5aaed7b16947d70001b29993",
   "enabled": true,
   "name": "Soil Moisture V Period ms WSSM Avg",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602d8",
@@ -33,8 +34,8 @@
     "ds_Variable_DielectricStrength",
     "dt_Unit_Dimensionless"
   ],
-  "created_at": "2018-03-08T01:03:45.428Z",
-  "updated_at": "2018-03-11T21:18:47.609Z",
+  "created_at": "2018-03-18T21:18:41.106Z",
+  "updated_at": "2018-03-18T21:19:18.851Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -105,6 +106,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

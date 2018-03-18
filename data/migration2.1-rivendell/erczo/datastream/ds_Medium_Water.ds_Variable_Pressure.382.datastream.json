@@ -1,9 +1,10 @@
 {
-  "_id": "5aa089595a929000014f2c4d",
+  "_id": "5aaed7c66947d70001b29c44",
   "enabled": false,
   "name": "Well 2 Pressure mV Old",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602cb",
   "datapoints_config": [
     {
@@ -34,8 +35,6 @@
     "ds_Variable_Pressure",
     "dt_Unit_Millivolt"
   ],
-  "created_at": "2018-03-08T01:04:17.386Z",
-  "updated_at": "2018-03-11T21:19:11.227Z",
   "attributes": {
     "depth": {
       "unit": "dt_Unit_Meter",
@@ -50,6 +49,8 @@
       "value": "12.15"
     }
   },
+  "created_at": "2018-03-18T21:19:02.070Z",
+  "updated_at": "2018-03-18T21:19:41.074Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -128,6 +129,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

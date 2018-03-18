@@ -1,9 +1,10 @@
 {
-  "_id": "5aa089715a929000014f2e43",
+  "_id": "5aaed8056947d70001b29e3a",
   "enabled": false,
   "name": "Air Temp Deg C 10 m Jepson Max",
+  "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602c4",
   "datapoints_config": [
     {
@@ -34,14 +35,14 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-03-08T01:04:49.437Z",
-  "updated_at": "2018-03-11T21:19:35.788Z",
   "attributes": {
     "height": {
       "unit_tag": "dt_Unit_Meter",
       "value": "10"
     }
   },
+  "created_at": "2018-03-18T21:20:05.503Z",
+  "updated_at": "2018-03-18T21:20:40.647Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -103,7 +104,7 @@
     },
     {
       "key": "att",
-      "str": "e13062bdc4015a7f10be66bfbd15f54f8d3c4d56"
+      "str": "021646698c177f658c751d5534424564e32a4d50"
     },
     {
       "key": "geo",
@@ -120,6 +121,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17c424dc720001671378"
+  "_include": []
 }

@@ -1,7 +1,8 @@
 {
-  "_id": "5aa0894c5a929000014f2ab1",
+  "_id": "5aaed7b96947d70001b29aa8",
   "enabled": true,
   "name": "Rock Temp C VMS_A9",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602db",
@@ -42,8 +43,8 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-03-08T01:03:58.714Z",
-  "updated_at": "2018-03-11T21:18:56.732Z",
+  "created_at": "2018-03-18T21:18:49.852Z",
+  "updated_at": "2018-03-18T21:19:27.958Z",
   "attributes_info": {
     "sort": {
       "value1": 14.8,
@@ -105,7 +106,7 @@
     },
     {
       "key": "att",
-      "str": "bb71a4c4392bf719289c7232e5283d6dae5404bb"
+      "str": "8bbcb3a7f0021ab29db60e6c99be86ab22755c3d"
     },
     {
       "key": "geo",
@@ -122,6 +123,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

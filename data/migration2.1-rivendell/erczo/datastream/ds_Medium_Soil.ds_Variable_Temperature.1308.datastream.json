@@ -1,7 +1,9 @@
 {
-  "_id": "5aa089545a929000014f2bc0",
+  "_id": "5aaed7c16947d70001b29bb7",
+  "description": "new device added in May 2010",
   "enabled": true,
   "name": "Soil Temp L3ST2_1.80",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602ce",
@@ -33,14 +35,14 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-03-08T01:04:10.990Z",
-  "updated_at": "2018-03-11T21:19:06.544Z",
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
       "value": "1.80"
     }
   },
+  "created_at": "2018-03-18T21:18:57.877Z",
+  "updated_at": "2018-03-18T21:19:36.483Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -102,7 +104,7 @@
     },
     {
       "key": "att",
-      "str": "0cb22f9622253511f3b435685d1010ced84e1da0"
+      "str": "99e115cf01c27fb9f9df7b147be2f7d81e3483a2"
     },
     {
       "key": "geo",
@@ -119,7 +121,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "new device added in May 2010",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

@@ -1,7 +1,10 @@
 {
-  "_id": "5aa0893d5a929000014f28f5",
+  "_id": "5aaed7ab6947d70001b298ec",
+  "derivation_description": "Convert psi to meters for wells",
+  "description": "[GO 2/8/2014] Moving psi->meters conversion to the Loader; ignoring incoming value from datalogger.\r\nPreviously: fieldname=Well12_WaterLevel_m\r\nDerived dataset from Transducer pressure.  Requires CableLength to be updated for proper calculation.  ",
   "enabled": true,
   "name": "Well 12 WaterLevel m",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602c9",
@@ -28,6 +31,7 @@
       "type": "odm.stations.StationID"
     },
     {
+      "identifier": "1336",
       "type": "odm.datastreams.DerivedID"
     }
   ],
@@ -36,8 +40,6 @@
     "ds_Variable_Depth",
     "dt_Unit_Meter"
   ],
-  "created_at": "2018-03-08T01:03:37.946Z",
-  "updated_at": "2018-03-11T21:18:42.135Z",
   "attributes": {
     "depth": {
       "unit": "dt_Unit_Meter",
@@ -52,6 +54,11 @@
       "value": "7.04"
     }
   },
+  "created_at": "2018-03-18T21:18:35.905Z",
+  "updated_at": "2018-03-18T21:19:13.671Z",
+  "derived_from_datastream_ids": [
+    "5aaed7c46947d70001b29c1f"
+  ],
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -130,9 +137,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "derivation_description": "Convert psi to meters for wells",
-  "derived_from_datastream_ids": "[1336]",
-  "description": "[GO 2/8/2014] Moving psi->meters conversion to the Loader; ignoring incoming value from datalogger.\r\nPreviously: fieldname=Well12_WaterLevel_m\r\nDerived dataset from Transducer pressure.  Requires CableLength to be updated for proper calculation.  ",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

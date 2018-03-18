@@ -1,7 +1,8 @@
 {
-  "_id": "5aa089495a929000014f2a5e",
+  "_id": "5aaed7b76947d70001b29a55",
   "enabled": true,
   "name": "Rock Moisture VMS_A6",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602db",
@@ -42,8 +43,8 @@
     "ds_Variable_Moisture",
     "dt_Unit_Percent"
   ],
-  "created_at": "2018-03-08T01:03:54.629Z",
-  "updated_at": "2018-03-11T21:18:53.985Z",
+  "created_at": "2018-03-18T21:18:47.278Z",
+  "updated_at": "2018-03-18T21:19:25.177Z",
   "attributes_info": {
     "sort": {
       "value1": 10.1,
@@ -105,7 +106,7 @@
     },
     {
       "key": "att",
-      "str": "b13034c88e709e228773ea4fc2bb423c739669fd"
+      "str": "60a02dc6a392aae5f9562a333a8d1dad729272c2"
     },
     {
       "key": "geo",
@@ -122,6 +123,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

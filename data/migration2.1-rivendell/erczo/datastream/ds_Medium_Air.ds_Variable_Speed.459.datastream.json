@@ -1,9 +1,10 @@
 {
-  "_id": "5aa0893a5a929000014f2895",
+  "_id": "5aaed7a86947d70001b2988c",
   "enabled": false,
   "name": "Wind Speed - WSTB",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602da",
   "datapoints_config": [
     {
@@ -34,8 +35,8 @@
     "ds_Variable_Speed",
     "dt_Unit_MeterPerSecond"
   ],
-  "created_at": "2018-03-08T01:03:33.352Z",
-  "updated_at": "2018-03-11T21:18:39.007Z",
+  "created_at": "2018-03-18T21:18:32.938Z",
+  "updated_at": "2018-03-18T21:19:10.707Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -107,6 +108,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

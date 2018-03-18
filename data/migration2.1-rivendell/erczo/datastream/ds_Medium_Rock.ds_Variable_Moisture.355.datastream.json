@@ -1,7 +1,8 @@
 {
-  "_id": "5aa0894c5a929000014f2aa2",
+  "_id": "5aaed7b96947d70001b29a99",
   "enabled": true,
   "name": "ERP L3S3-1.4",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602cd",
@@ -39,8 +40,8 @@
     "ds_Variable_Moisture",
     "dt_Unit_Kiloohm"
   ],
-  "created_at": "2018-03-08T01:03:58.030Z",
-  "updated_at": "2018-03-11T21:18:56.210Z",
+  "created_at": "2018-03-18T21:18:49.387Z",
+  "updated_at": "2018-03-18T21:19:27.450Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -102,7 +103,7 @@
     },
     {
       "key": "att",
-      "str": "d66f5f467a5d616d4a59df0367f3197ac9c50e0b"
+      "str": "5754a99d2c814a3b0f26028c961350d19a1987b3"
     },
     {
       "key": "geo",
@@ -119,6 +120,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

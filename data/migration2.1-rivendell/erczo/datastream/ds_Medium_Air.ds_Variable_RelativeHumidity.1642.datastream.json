@@ -1,9 +1,11 @@
 {
-  "_id": "5aa089395a929000014f2873",
+  "_id": "5aaed7a76947d70001b2986a",
+  "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": false,
   "name": "Air Relative Humidity - WSTB 30min",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602da",
   "datapoints_config": [
     {
@@ -29,6 +31,7 @@
       "type": "odm.stations.StationID"
     },
     {
+      "identifier": "461",
       "type": "odm.datastreams.DerivedID"
     }
   ],
@@ -37,8 +40,11 @@
     "ds_Variable_RelativeHumidity",
     "dt_Unit_Percent"
   ],
-  "created_at": "2018-03-08T01:03:31.798Z",
-  "updated_at": "2018-03-11T21:18:37.076Z",
+  "created_at": "2018-03-18T21:18:31.855Z",
+  "updated_at": "2018-03-18T21:19:09.627Z",
+  "derived_from_datastream_ids": [
+    "5aaed7a86947d70001b29878"
+  ],
   "tags_info": {
     "resolved_terms": [
       {
@@ -110,8 +116,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "derivation_description": "Conversion to 30-minute timesteps",
-  "derived_from_datastream_ids": "[461]",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }

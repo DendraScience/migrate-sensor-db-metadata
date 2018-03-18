@@ -1,9 +1,11 @@
 {
-  "_id": "5aa089385a929000014f285c",
+  "_id": "5aaed7a76947d70001b29853",
+  "description": "device = Serial number 03049717",
   "enabled": false,
   "name": "CO2 Concentration ppm/10 Well10",
+  "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
-  "state": "retired",
+  "state": "ready",
   "station_id": "58e68cacdf5ce600012602ce",
   "datapoints_config": [
     {
@@ -34,8 +36,8 @@
     "ds_Variable_Concentration",
     "dt_Unit_PartPerMillion"
   ],
-  "created_at": "2018-03-08T01:03:30.589Z",
-  "updated_at": "2018-03-11T21:18:36.220Z",
+  "created_at": "2018-03-18T21:18:31.136Z",
+  "updated_at": "2018-03-18T21:19:08.885Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -107,7 +109,5 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "device = Serial number 03049717",
-  "organization_id": "58db17e824dc720001671379"
+  "_include": []
 }
