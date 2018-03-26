@@ -19,6 +19,14 @@
       "identifier": "337",
       "type": "odm.station.StationID",
       "url": "file://ucde_deep_canyon_dri.dat"
+    },
+    {
+      "identifier": "ucde_boyddeepcanyon",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "geo": {
@@ -671,7 +679,5 @@
       }
     }
   ],
-  "_id": "58e68cabdf5ce600012602bd",
-  "created_at": "2018-03-18T21:19:43.506Z",
-  "updated_at": "2018-03-18T21:19:43.506Z"
+  "_id": "58e68cabdf5ce600012602bd"
 }

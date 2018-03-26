@@ -19,6 +19,14 @@
       "identifier": "338",
       "type": "odm.station.StationID",
       "url": "file://ucbu_burns_dri.dat"
+    },
+    {
+      "identifier": "ucbu_burns",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "BEC025B0",
+      "type": "goes.address"
     }
   ],
   "geo": {
@@ -671,7 +679,5 @@
       }
     }
   ],
-  "_id": "58e68cabdf5ce600012602ba",
-  "created_at": "2018-03-18T21:19:43.410Z",
-  "updated_at": "2018-03-18T21:19:43.410Z"
+  "_id": "58e68cabdf5ce600012602ba"
 }

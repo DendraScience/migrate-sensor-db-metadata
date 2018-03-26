@@ -18,6 +18,10 @@
     {
       "identifier": "93",
       "type": "odm.station.StationID"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "geo": {
@@ -28,7 +32,5 @@
     ],
     "type": "Point"
   },
-  "_id": "58e68cacdf5ce600012602d5",
-  "created_at": "2018-03-18T21:18:29.158Z",
-  "updated_at": "2018-03-18T21:18:29.158Z"
+  "_id": "58e68cacdf5ce600012602d5"
 }

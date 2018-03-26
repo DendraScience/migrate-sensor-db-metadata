@@ -1,5 +1,4 @@
 {
-  "_id": "5aaed7c46947d70001b29bfd",
   "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": true,
   "name": "Total Solar Radiation W WSAM 30min",
@@ -32,88 +31,19 @@
     {
       "identifier": "838",
       "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "WSAM_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "tags": [
     "ds_Medium_Solar",
     "ds_Variable_Radiation",
     "dt_Unit_WattPerSquareMeter"
-  ],
-  "created_at": "2018-03-18T21:19:00.005Z",
-  "updated_at": "2018-03-18T21:19:38.784Z",
-  "derived_from_datastream_ids": [
-    "5aaed7c46947d70001b29c14"
-  ],
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Solar",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Radiation",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "W/m^2",
-        "label": "WattPerSquareMeter",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "cccad7d9b78b139c0f014fb26123ff51bbf6d991"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "e3f5c6664ac344e64017855f42af5f173b9625ae",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "4d1ef8d2d372f256104c186984a14d7b6d38ef8f",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+  ]
 }

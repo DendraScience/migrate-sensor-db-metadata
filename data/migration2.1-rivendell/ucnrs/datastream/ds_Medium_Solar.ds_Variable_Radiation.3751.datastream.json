@@ -1,5 +1,4 @@
 {
-  "_id": "5aaed8176947d70001b2a08e",
   "description": "",
   "enabled": true,
   "name": "Total Solar Radiation W m2 Motte Min",
@@ -28,85 +27,24 @@
     {
       "identifier": "351",
       "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Min_Solar_Radiation",
+      "type": "loggernet.field"
+    },
+    {
+      "identifier": "ucmo_motterimrock",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "tags": [
     "ds_Medium_Solar",
     "ds_Variable_Radiation",
-    "dt_Unit_WattPerSquareMeter"
-  ],
-  "created_at": "2018-03-18T21:20:23.178Z",
-  "updated_at": "2018-03-18T21:20:59.189Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Solar",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Radiation",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "W/m^2",
-        "label": "WattPerSquareMeter",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "cf29116e233c3ade1db6fbf46be1988b9bf22ea6"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "e3f5c6664ac344e64017855f42af5f173b9625ae",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "4d1ef8d2d372f256104c186984a14d7b6d38ef8f",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+    "dt_Unit_WattPerSquareMeter",
+    "ds_Aggregate_Maximum"
+  ]
 }

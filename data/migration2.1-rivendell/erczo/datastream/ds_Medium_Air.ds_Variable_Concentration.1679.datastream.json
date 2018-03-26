@@ -1,5 +1,4 @@
 {
-  "_id": "5aaed7a76947d70001b29853",
   "description": "device = Serial number 03049717",
   "enabled": false,
   "name": "CO2 Concentration ppm/10 Well10",
@@ -29,85 +28,23 @@
     {
       "identifier": "9",
       "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "unknown",
+      "type": "loggernet.field"
+    },
+    {
+      "identifier": "RUL3_2_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "tags": [
     "ds_Medium_Air",
     "ds_Variable_Concentration",
     "dt_Unit_PartPerMillion"
-  ],
-  "created_at": "2018-03-18T21:18:31.136Z",
-  "updated_at": "2018-03-18T21:19:08.885Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Air",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Concentration",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "ppm",
-        "label": "PartPerMillion",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "495db2e6a5bf906030def305ed08b3968b1643a1"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "a3fd3e493d9b96ef4c9e4fc9869acb2937f444b9",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "b2787b56fbd22de22a2692960696333442755fc5",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+  ]
 }

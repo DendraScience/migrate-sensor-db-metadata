@@ -19,6 +19,14 @@
       "identifier": "347",
       "type": "odm.station.StationID",
       "url": "file://hipk_bigcreek_highlands_dri.dat"
+    },
+    {
+      "identifier": "hipk_bigcreekhighlands",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "geo": {
@@ -671,7 +679,5 @@
       }
     }
   ],
-  "_id": "58e68cabdf5ce600012602b6",
-  "created_at": "2018-03-18T21:19:43.270Z",
-  "updated_at": "2018-03-18T21:19:43.270Z"
+  "_id": "58e68cabdf5ce600012602b6"
 }

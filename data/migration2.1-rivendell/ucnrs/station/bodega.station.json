@@ -19,6 +19,14 @@
       "identifier": "336",
       "type": "odm.station.StationID",
       "url": "file://ucbm_bodega_dri.dat"
+    },
+    {
+      "identifier": "ucbm_bodega",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "BEC036C6",
+      "type": "goes.address"
     }
   ],
   "geo": {
@@ -671,7 +679,5 @@
       }
     }
   ],
-  "_id": "58e68cabdf5ce600012602b9",
-  "created_at": "2018-03-18T21:19:43.376Z",
-  "updated_at": "2018-03-18T21:19:43.376Z"
+  "_id": "58e68cabdf5ce600012602b9"
 }

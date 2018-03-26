@@ -1,5 +1,4 @@
 {
-  "_id": "5aaed8076947d70001b29e7a",
   "description": "",
   "enabled": true,
   "name": "Battery Voltage volts WhiteMt Summit Max",
@@ -28,85 +27,20 @@
     {
       "identifier": "360",
       "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Max_Battery_Voltage",
+      "type": "loggernet.field"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "tags": [
     "ds_Medium_Battery",
     "ds_Variable_Voltage",
-    "dt_Unit_Volt"
-  ],
-  "created_at": "2018-03-18T21:20:07.394Z",
-  "updated_at": "2018-03-18T21:20:42.541Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Battery",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Voltage",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "V",
-        "label": "Volt",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "883b5328cd5a5a14baf6a860e894e90db2333a0b"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "6a1663d5ea14d8da947ee7cc17068a89ea8b607f",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "0d253c13e10350db516b0a0d7684f951c8d84985",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+    "dt_Unit_Volt",
+    "ds_Aggregate_Maximum"
+  ]
 }

@@ -1,5 +1,4 @@
 {
-  "_id": "5aaed8026947d70001b29de4",
   "description": "Temperature at 2 meters",
   "enabled": true,
   "name": "Air Temp Deg C 2 m Santa Cruz Island Min",
@@ -28,98 +27,30 @@
     {
       "identifier": "354",
       "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Min_T_TC_2m",
+      "type": "loggernet.field"
+    },
+    {
+      "identifier": "ucsc_santacruzisle",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "tags": [
     "ds_Medium_Air",
     "ds_Variable_Temperature",
-    "dt_Unit_DegreeCelsius"
+    "dt_Unit_DegreeCelsius",
+    "ds_Aggregate_Minimum"
   ],
   "attributes": {
     "height": {
       "unit_tag": "dt_Unit_Meter",
       "value": "2"
     }
-  },
-  "created_at": "2018-03-18T21:20:02.804Z",
-  "updated_at": "2018-03-18T21:20:37.868Z",
-  "attributes_info": {
-    "sort": {
-      "value1": 0,
-      "value2": 0
-    },
-    "text": ""
-  },
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Air",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Temperature",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "degC",
-        "label": "DegreeCelsius",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "2c8f40054c130e48a795978787902424a92da43e"
-    },
-    {
-      "key": "att",
-      "str": "e386969d21cc3578408b8315968999bd5fb9d8e8"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "852125373a62569f010f58fe1beab748cf18ef58",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "5795c6e74091f87a34b256903db271fcca161eee",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+  }
 }

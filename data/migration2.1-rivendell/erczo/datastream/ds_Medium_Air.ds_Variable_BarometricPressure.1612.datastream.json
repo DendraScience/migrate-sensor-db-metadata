@@ -1,5 +1,4 @@
 {
-  "_id": "5aaed7a66947d70001b29847",
   "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": true,
   "name": "BP Riv 4_1 30min",
@@ -32,88 +31,19 @@
     {
       "identifier": "394",
       "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "RRL4_1_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "tags": [
     "ds_Medium_Air",
     "ds_Variable_BarometricPressure",
     "dt_Unit_Millibar"
-  ],
-  "created_at": "2018-03-18T21:18:30.773Z",
-  "updated_at": "2018-03-18T21:19:08.500Z",
-  "derived_from_datastream_ids": [
-    "5aaed7a66947d70001b2984d"
-  ],
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Air",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "BarometricPressure",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "mb",
-        "label": "Millibar",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "cbbdadb611704e1838fee6693882cf07844ab858"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "0040c17ba60fe8565034932062d001f55848edc6",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "f6e143fd7229fe4fb31a03055310db4b5f29e664",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+  ]
 }

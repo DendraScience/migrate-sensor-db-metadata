@@ -19,6 +19,14 @@
       "identifier": "355",
       "type": "odm.station.StationID",
       "url": "file://ucse_sedgwick_dri.dat"
+    },
+    {
+      "identifier": "ucse_sedgwick",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "geo": {
@@ -671,7 +679,5 @@
       }
     }
   ],
-  "_id": "58e68cacdf5ce600012602d6",
-  "created_at": "2018-03-18T21:19:43.971Z",
-  "updated_at": "2018-03-18T21:19:43.971Z"
+  "_id": "58e68cacdf5ce600012602d6"
 }

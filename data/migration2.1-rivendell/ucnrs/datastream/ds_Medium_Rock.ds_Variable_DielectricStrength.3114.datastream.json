@@ -1,7 +1,6 @@
 {
-  "_id": "5aaed80b6947d70001b29f17",
   "enabled": true,
-  "name": "Soil Moisture TDR freq 0.1 m horiz Blue Oak",
+  "name": "Soil Moisture TDR freq 100 mm horiz Blue Oak",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -27,6 +26,18 @@
     {
       "identifier": "334",
       "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "TDR_Frequency_hz_depth1",
+      "type": "loggernet.field"
+    },
+    {
+      "identifier": "ucbo_blueoak",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "tags": [
@@ -35,90 +46,6 @@
     "dt_Unit_Dimensionless"
   ],
   "attributes": {
-    "orientation": "horizontal",
-    "depth": {
-      "unit_tag": "dt_Unit_Meter",
-      "value": "0.1"
-    }
-  },
-  "created_at": "2018-03-18T21:20:11.948Z",
-  "updated_at": "2018-03-18T21:20:47.315Z",
-  "attributes_info": {
-    "sort": {
-      "value1": 0,
-      "value2": 0
-    },
-    "text": ""
-  },
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Rock",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "DielectricStrength",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "label": "Dimensionless",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "2ad150c038b5b77caeafe86d66fd76e01a728e62"
-    },
-    {
-      "key": "att",
-      "str": "182ecf31bbc3b34f20e8ffb7e58d146960b3b3b2"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "0f1da05bf282c3f64a50e810606bedb776afad6a",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "bc6194f65d6298e5bbbc77877d576f7d7eb0a93e",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+    "orientation": "horizontal"
+  }
 }

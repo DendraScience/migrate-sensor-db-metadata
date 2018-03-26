@@ -1,5 +1,4 @@
 {
-  "_id": "5aaed80c6947d70001b29f38",
   "description": "Valid Range for Values unknown - only a guess because method is unknown",
   "enabled": true,
   "name": "Snow Depth Inches Sagehen Creek",
@@ -28,85 +27,23 @@
     {
       "identifier": "364",
       "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Snow_Depth",
+      "type": "loggernet.field"
+    },
+    {
+      "identifier": "sagh_sagehen",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "tags": [
     "ds_Medium_Snow",
     "ds_Variable_Depth",
     "dt_Unit_Inch"
-  ],
-  "created_at": "2018-03-18T21:20:12.949Z",
-  "updated_at": "2018-03-18T21:20:48.296Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Snow",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Depth",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "in",
-        "label": "Inch",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "6cc6f789699747d59f8b41beda379b991365b5da"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "232731769aa0c43c9a4e2b3f2c986878684dcdfb",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "69326d87e5be97ef77d163580a7947cca3e81447",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+  ]
 }

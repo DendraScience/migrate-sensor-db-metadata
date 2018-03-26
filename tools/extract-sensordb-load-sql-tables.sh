@@ -17,8 +17,7 @@ echo $org_update
 echo $org_update | mysql -p$pass -u$user odm
 
 SQLfiles="../sql/create-table/dendra_map_stations_media.sql
-../sql/create-table/dendra_map_variablecodes_pre.sql
-../sql/create-table/dendra_map_variables_tags.sql
+../sql/create-table/dendra_map_variablecodes_tags.sql
 ../sql/create-view/vw_sites_stations.sql
 ../sql/create-view/vw_export_stations.sql
 ../sql/create-view/vw_export_datastreams.sql"

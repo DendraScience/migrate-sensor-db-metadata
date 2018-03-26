@@ -1,7 +1,6 @@
 {
-  "_id": "5aaed7b66947d70001b29a32",
   "enabled": true,
-  "name": "ERP L2S3-0 b",
+  "name": "ERP L2S3b-0.00",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -27,6 +26,18 @@
     {
       "identifier": "6",
       "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "erp65",
+      "type": "loggernet.field"
+    },
+    {
+      "identifier": "RML2_1_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "tags": [
@@ -37,88 +48,7 @@
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
-      "value": "0 b"
+      "value": "0.00"
     }
-  },
-  "created_at": "2018-03-18T21:18:46.198Z",
-  "updated_at": "2018-03-18T21:19:24.039Z",
-  "attributes_info": {
-    "sort": {
-      "value1": 0,
-      "value2": 0
-    },
-    "text": ""
-  },
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Rock",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Moisture",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "kΩ",
-        "label": "Kiloohm",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "f41440a7477ba7347e4c9196543af9bb0d9a23e7"
-    },
-    {
-      "key": "att",
-      "str": "70885967453fe4d28324b2db58080e8683ae4fff"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "abb89e0bf3da5cee4e0a271d1df9e219f6c4daae",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "65f1595df3265eb622e0512aae79ee69c2112c65",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+  }
 }

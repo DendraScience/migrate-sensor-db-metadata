@@ -19,6 +19,14 @@
       "identifier": "107",
       "type": "odm.station.StationID",
       "url": "file://WSIC_CR1000_VaisalaTable.dat"
+    },
+    {
+      "identifier": "WSIC_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "geo": {
@@ -29,7 +37,5 @@
     ],
     "type": "Point"
   },
-  "_id": "58e68cabdf5ce600012602c2",
-  "created_at": "2018-03-18T21:18:28.703Z",
-  "updated_at": "2018-03-18T21:18:28.703Z"
+  "_id": "58e68cabdf5ce600012602c2"
 }

@@ -22,5 +22,7 @@ INSERT INTO `dendra_map_variables_tags` (`VariableCode`,`tag`)
 	SELECT `VariableCode`, `Unit` FROM `dendra_map_variablecodes_pre`;
 INSERT INTO `dendra_map_variables_tags` (`VariableCode`,`tag`) 
 	SELECT `VariableCode`, `Aggregate` FROM `dendra_map_variablecodes_pre`;
+INSERT INTO `dendra_map_variables_tags` (`VariableCode`,`tag`) 
+	SELECT `VariableCode`, `Misc` FROM `dendra_map_variablecodes_pre`;
 
 SET FOREIGN_KEY_CHECKS = 1;

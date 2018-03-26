@@ -178,9 +178,9 @@ SELECT
   -- station_id
   CAST(`datastreams`.`StationID` AS CHAR(50)) AS `external_refs$1$identifier`,
   'odm.stations.StationID' AS `external_refs$1$type`,
-  -- derived_id
-  CAST(IF(`datastreams`.`FieldName` LIKE "converted from%", REPLACE(fieldname, 'converted from ', ''), NULL ) AS CHAR(50)) AS `external_refs$2$identifier`, 
-  IF(`datastreams`.`FieldName` LIKE "converted from%", "odm.datastreams.DerivedID", NULL) AS `external_refs$2$type`,
+  -- derived_id or loggernet.field  (mutually exclusive)
+  CAST( IF(`datastreams`.`FieldName` LIKE "converted from%", REPLACE(fieldname, 'converted from ', ''), fieldname) AS CHAR(50)) AS `external_refs$2$identifier`, 
+  IF(`datastreams`.`FieldName` LIKE "converted from%", "odm.datastreams.DerivedID", "loggernet.field") AS `external_refs$2$type`,
 
   -- ----------------------------
   -- "geo": {
@@ -241,42 +241,26 @@ SELECT
 
   -- ----------------------------
   -- "tags": [
-  --   "ds_Aggregate_Average",
   --   "ds_Medium_Air",
   --   "ds_Variable_Temperature",
-  --   "dt_Unit_DegreeFahrenheit"
+  --   "dt_Unit_DegreeFahrenheit",
+  --   "ds_Aggregate_Average"
   -- ],
-
-  -- ( SELECT `dendra_map_variables_tags`.`tag`
-  --   FROM `dendra_map_variables_tags`
-  --   WHERE `dendra_map_variables_tags`.`VariableCode` = `datastreams`.`VariableCode`
-  --   ORDER BY `dendra_map_variables_tags`.`tag` LIMIT 1 OFFSET 0
-  --   ) AS `tags$0`,
-  ( SELECT `dendra_map_variables_tags`.`tag`
-    FROM `dendra_map_variables_tags`
-    WHERE `dendra_map_variables_tags`.`VariableCode` = `datastreams`.`VariableCode`
-    ORDER BY `dendra_map_variables_tags`.`tag` LIMIT 1 OFFSET 1
+    ( SELECT `dendra_map_variablecodes_tags`.`Medium` FROM `dendra_map_variablecodes_tags`
+      WHERE `dendra_map_variablecodes_tags`.`VariableCode` = `datastreams`.`VariableCode`
     ) AS `tags$0`,
-  ( SELECT `dendra_map_variables_tags`.`tag`
-    FROM `dendra_map_variables_tags`
-    WHERE `dendra_map_variables_tags`.`VariableCode` = `datastreams`.`VariableCode`
-    ORDER BY `dendra_map_variables_tags`.`tag` LIMIT 1 OFFSET 2
+    ( SELECT `dendra_map_variablecodes_tags`.`Variable` FROM `dendra_map_variablecodes_tags`
+      WHERE `dendra_map_variablecodes_tags`.`VariableCode` = `datastreams`.`VariableCode`
     ) AS `tags$1`,
-  ( SELECT `dendra_map_variables_tags`.`tag`
-    FROM `dendra_map_variables_tags`
-    WHERE `dendra_map_variables_tags`.`VariableCode` = `datastreams`.`VariableCode`
-    ORDER BY `dendra_map_variables_tags`.`tag` LIMIT 1 OFFSET 3
+    ( SELECT `dendra_map_variablecodes_tags`.`Unit` FROM `dendra_map_variablecodes_tags`
+      WHERE `dendra_map_variablecodes_tags`.`VariableCode` = `datastreams`.`VariableCode`
     ) AS `tags$2`,
-  ( SELECT `dendra_map_variables_tags`.`tag`
-    FROM `dendra_map_variables_tags`
-    WHERE `dendra_map_variables_tags`.`VariableCode` = `datastreams`.`VariableCode`
-    ORDER BY `dendra_map_variables_tags`.`tag` LIMIT 1 OFFSET 4
-    ) AS `tags$3`,
-  ( SELECT `dendra_map_variables_tags`.`tag`
-    FROM `dendra_map_variables_tags`
-    WHERE `dendra_map_variables_tags`.`VariableCode` = `datastreams`.`VariableCode`
-    ORDER BY `dendra_map_variables_tags`.`tag` LIMIT 1 OFFSET 5
-    ) AS `tags$4`
+    ( SELECT `dendra_map_variablecodes_tags`.`Aggregate` FROM `dendra_map_variablecodes_tags`
+      WHERE `dendra_map_variablecodes_tags`.`VariableCode` = `datastreams`.`VariableCode`
+    ) AS `tags$3`
+  --  ( SELECT `dendra_map_variablecodes_tags`.`Misc` FROM `dendra_map_variablecodes_tags`
+  --    WHERE `dendra_map_variablecodes_tags`.`VariableCode` = `datastreams`.`VariableCode`
+  --  ) AS `tags$4` 
 
   -- ----------------------------
   -- "thing_id": "592f155746a1b867a114e070",

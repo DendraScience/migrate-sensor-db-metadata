@@ -1,5 +1,4 @@
 {
-  "_id": "5aaed7bd6947d70001b29b18",
   "enabled": false,
   "name": "Hail intensity - Ingrid",
   "organization_id": "58db17e824dc720001671379",
@@ -28,85 +27,23 @@
     {
       "identifier": "107",
       "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Hintensity_Max",
+      "type": "loggernet.field"
+    },
+    {
+      "identifier": "WSIC_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "tags": [
     "ds_Medium_Snow",
     "ds_Variable_Precipitation",
     "dt_Unit_MillimeterPerHour"
-  ],
-  "created_at": "2018-03-18T21:18:53.067Z",
-  "updated_at": "2018-03-18T21:19:31.380Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Snow",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Precipitation",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "mm/hr",
-        "label": "MillimeterPerHour",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "dca4244aeef39e073ed53a063853a34ca68b06b6"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "cc70de48c5f523b26b01fb25d2d3220e5499a84e",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "f6fc7d25fab85709ba88467c96ea1e8cb321a827",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+  ]
 }

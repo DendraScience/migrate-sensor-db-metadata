@@ -1,5 +1,4 @@
 {
-  "_id": "5aaed7ae6947d70001b29947",
   "description": "The WSHQ datalogger was malfunctioning from 2013-07-24 to 2014-02-25, causing timestamps to accelerate into the future, so values have been removed for this period.  See Incident Report 94.",
   "enabled": true,
   "name": "Rainfall mm WSHQ",
@@ -28,85 +27,23 @@
     {
       "identifier": "2",
       "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "HWS_Rain_Tot",
+      "type": "loggernet.field"
+    },
+    {
+      "identifier": "WSHQ_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "tags": [
     "ds_Medium_Precipitation",
     "ds_Variable_Precipitation",
     "dt_Unit_Millimeter"
-  ],
-  "created_at": "2018-03-18T21:18:38.709Z",
-  "updated_at": "2018-03-18T21:19:16.443Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Precipitation",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Precipitation",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "mm",
-        "label": "Millimeter",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "ec5ff8d8bd8816c1d86d85bb5e3513166cb03f54"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "2abdf136524d4e4541a8884e8af6a68982a90c31",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "b0c7386b883ea89804e8613181308a0d15033964",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+  ]
 }

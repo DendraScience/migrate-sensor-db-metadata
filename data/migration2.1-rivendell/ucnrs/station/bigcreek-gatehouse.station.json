@@ -19,6 +19,14 @@
       "identifier": "348",
       "type": "odm.station.StationID",
       "url": "file://ucbc_bigcreek_gatehouse_dri.dat"
+    },
+    {
+      "identifier": "bcgh_bigcreekgatehouse",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "geo": {
@@ -671,7 +679,5 @@
       }
     }
   ],
-  "_id": "58e68cabdf5ce600012602b5",
-  "created_at": "2018-03-18T21:19:43.240Z",
-  "updated_at": "2018-03-18T21:19:43.240Z"
+  "_id": "58e68cabdf5ce600012602b5"
 }

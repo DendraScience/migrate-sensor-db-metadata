@@ -1,5 +1,4 @@
 {
-  "_id": "5aaed7f76947d70001b29c60",
   "description": "",
   "enabled": true,
   "name": "Barometric Pressure mbar Burns Avg",
@@ -28,85 +27,23 @@
     {
       "identifier": "338",
       "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Barometric_Pressure",
+      "type": "loggernet.field"
+    },
+    {
+      "identifier": "ucbu_burns",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "BEC025B0",
+      "type": "goes.address"
     }
   ],
   "tags": [
     "ds_Medium_Air",
     "ds_Variable_BarometricPressure",
     "dt_Unit_Millibar"
-  ],
-  "created_at": "2018-03-18T21:19:51.267Z",
-  "updated_at": "2018-03-18T21:20:25.675Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Air",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "BarometricPressure",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "mb",
-        "label": "Millibar",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "96a8def6aab093be204c605124faa71ce82038dd"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "0040c17ba60fe8565034932062d001f55848edc6",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "f6e143fd7229fe4fb31a03055310db4b5f29e664",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+  ]
 }

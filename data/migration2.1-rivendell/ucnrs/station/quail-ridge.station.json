@@ -1,5 +1,4 @@
 {
-  "_id": "5a37e71ba546db0001547681",
   "enabled": true,
   "is_active": true,
   "is_stationary": true,
@@ -19,6 +18,14 @@
     {
       "identifier": "352",
       "type": "odm.station.StationID"
+    },
+    {
+      "identifier": "ucqr_quailridge",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "geo": {
@@ -231,6 +238,5 @@
       }
     }
   ],
-  "updated_at": "2018-03-18T21:19:43.820Z",
-  "created_at": "2018-03-18T21:19:42.801Z"
+  "_id": "5a37e71ba546db0001547681"
 }

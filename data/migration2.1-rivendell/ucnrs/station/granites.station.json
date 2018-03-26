@@ -19,6 +19,14 @@
       "identifier": "359",
       "type": "odm.station.StationID",
       "url": "file://ucgr_granites_dri.dat"
+    },
+    {
+      "identifier": "ucgr_granites",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "BEC01EF8",
+      "type": "goes.address"
     }
   ],
   "geo": {
@@ -711,7 +719,5 @@
       }
     }
   ],
-  "_id": "58e68cabdf5ce600012602c0",
-  "created_at": "2018-03-18T21:19:43.609Z",
-  "updated_at": "2018-03-18T21:19:43.609Z"
+  "_id": "58e68cabdf5ce600012602c0"
 }

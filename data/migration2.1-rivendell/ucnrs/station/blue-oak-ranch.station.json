@@ -19,6 +19,14 @@
       "identifier": "334",
       "type": "odm.station.StationID",
       "url": "file://ucbo_blue_oak_ranch_dri.dat"
+    },
+    {
+      "identifier": "ucbo_blueoak",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "geo": {
@@ -671,7 +679,5 @@
       }
     }
   ],
-  "_id": "58e68cabdf5ce600012602b8",
-  "created_at": "2018-03-18T21:19:43.341Z",
-  "updated_at": "2018-03-18T21:19:43.341Z"
+  "_id": "58e68cabdf5ce600012602b8"
 }

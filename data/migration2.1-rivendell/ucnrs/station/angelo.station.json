@@ -19,6 +19,14 @@
       "identifier": "335",
       "type": "odm.station.StationID",
       "url": "file://ucac_angelo_dri.dat"
+    },
+    {
+      "identifier": "WSSM_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "geo": {
@@ -671,7 +679,5 @@
       }
     }
   ],
-  "_id": "58e68cabdf5ce600012602b3",
-  "created_at": "2018-03-18T21:19:43.134Z",
-  "updated_at": "2018-03-18T21:19:43.134Z"
+  "_id": "58e68cabdf5ce600012602b3"
 }

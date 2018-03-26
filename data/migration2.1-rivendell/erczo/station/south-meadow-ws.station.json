@@ -19,6 +19,14 @@
       "identifier": "108",
       "type": "odm.station.StationID",
       "url": "file://WSSM_CR1000_TenMin.dat"
+    },
+    {
+      "identifier": "WSSM_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "geo": {
@@ -29,7 +37,5 @@
     ],
     "type": "Point"
   },
-  "_id": "58e68cacdf5ce600012602d8",
-  "created_at": "2018-03-18T21:18:29.192Z",
-  "updated_at": "2018-03-18T21:18:29.192Z"
+  "_id": "58e68cacdf5ce600012602d8"
 }

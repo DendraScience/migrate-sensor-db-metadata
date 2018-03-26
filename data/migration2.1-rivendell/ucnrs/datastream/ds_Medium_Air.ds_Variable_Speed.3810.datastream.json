@@ -1,5 +1,4 @@
 {
-  "_id": "5aaed7fd6947d70001b29d30",
   "description": "",
   "enabled": true,
   "name": "Wind Vector Magnitude m s Santa Cruz Island ",
@@ -28,85 +27,23 @@
     {
       "identifier": "354",
       "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Wind_Vector_Magnitude",
+      "type": "loggernet.field"
+    },
+    {
+      "identifier": "ucsc_santacruzisle",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "tags": [
     "ds_Medium_Air",
     "ds_Variable_Speed",
     "dt_Unit_MeterPerSecond"
-  ],
-  "created_at": "2018-03-18T21:19:57.321Z",
-  "updated_at": "2018-03-18T21:20:32.194Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Air",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Speed",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "m/s",
-        "label": "MeterPerSecond",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "2c8f40054c130e48a795978787902424a92da43e"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "4f299cb1b98488f0339f42c343b9d0e616bb5870",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "ed410d68f80e0ee139fcd18c842f80a8f3dcf437",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+  ]
 }

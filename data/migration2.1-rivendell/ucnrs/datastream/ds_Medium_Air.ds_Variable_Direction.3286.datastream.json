@@ -1,5 +1,4 @@
 {
-  "_id": "5aaed7f86947d70001b29c7c",
   "description": "",
   "enabled": true,
   "name": "Wind Direction Deg Hastings Std",
@@ -28,85 +27,24 @@
     {
       "identifier": "333",
       "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Std_Dev_of_Wind_Direction",
+      "type": "loggernet.field"
+    },
+    {
+      "identifier": "ucha_hastings",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "tags": [
     "ds_Medium_Air",
     "ds_Variable_Direction",
-    "dt_Unit_DegreeAngle"
-  ],
-  "created_at": "2018-03-18T21:19:52.114Z",
-  "updated_at": "2018-03-18T21:20:26.608Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Air",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Direction",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "°",
-        "label": "DegreeAngle",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "ba86585042f16280dcb37b928326dfb6b99a7701"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "51e09f8ab17f5012b59ae3a5c830bb8214906005",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "e242a0f75953a903a48de15d8ca3771d8378e501",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+    "dt_Unit_DegreeAngle",
+    "ds_Aggregate_StandardDeviation"
+  ]
 }

@@ -19,6 +19,14 @@
       "identifier": "357",
       "type": "odm.station.StationID",
       "url": "file://ucab_anza_borrego_dri.dat"
+    },
+    {
+      "identifier": "ucab_anzaborrego",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "geo": {
@@ -711,7 +719,5 @@
       }
     }
   ],
-  "_id": "58e68cabdf5ce600012602b4",
-  "created_at": "2018-03-18T21:19:43.176Z",
-  "updated_at": "2018-03-18T21:19:43.176Z"
+  "_id": "58e68cabdf5ce600012602b4"
 }

@@ -1,5 +1,4 @@
 {
-  "_id": "5aaed8086947d70001b29e95",
   "enabled": true,
   "name": "Fuel Moisture Per James Avg",
   "organization_id": "58db17c424dc720001671378",
@@ -27,85 +26,24 @@
     {
       "identifier": "343",
       "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Fuel_Moisture_Avg",
+      "type": "loggernet.field"
+    },
+    {
+      "identifier": "ucja_james",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "tags": [
     "ds_Medium_Instrument",
     "ds_Variable_Moisture",
-    "dt_Unit_Percent"
-  ],
-  "created_at": "2018-03-18T21:20:08.175Z",
-  "updated_at": "2018-03-18T21:20:43.360Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Instrument",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Moisture",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "%",
-        "label": "Percent",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "8da73705956f50baaf01369295bd6db12c0f5c67"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "47e29095f9ee155e9dd3ab082f490a2428b1f0d9",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "2734b26dc0ddea857c1c6f650f5735cc8bb660eb",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+    "dt_Unit_Percent",
+    "ds_Aggregate_Average"
+  ]
 }

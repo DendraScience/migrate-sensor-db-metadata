@@ -1,5 +1,4 @@
 {
-  "_id": "5aaed7ac6947d70001b298ef",
   "derivation_description": "Convert psi to meters for wells",
   "description": "[GO 2/8/2014] Moving psi->meters conversion to the Loader; ignoring incoming value from datalogger.\r\nPreviously: fieldname=Well15_WaterLevel_m \r\n\r\nwater level: converted PSI to well level from surface in meters.",
   "enabled": true,
@@ -33,6 +32,14 @@
     {
       "identifier": "1469",
       "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "RUL5_1_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "tags": [
@@ -53,89 +60,5 @@
       "unit": "dt_Unit_Meter",
       "value": "28.38"
     }
-  },
-  "created_at": "2018-03-18T21:18:35.998Z",
-  "updated_at": "2018-03-18T21:19:13.761Z",
-  "derived_from_datastream_ids": [
-    "5aaed7c56947d70001b29c22"
-  ],
-  "attributes_info": {
-    "sort": {
-      "value1": 0,
-      "value2": 0
-    },
-    "text": ""
-  },
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "GroundWater",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Depth",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "m",
-        "label": "Meter",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "45ea78c1adf277d8846be030d3809b3428b9f97a"
-    },
-    {
-      "key": "att",
-      "str": "fcc41cd8da23ea130d6af119b89c9d81c0241b8a"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "c59aec5c72dc86b58c5b70d83498b4d20f92387d",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "b63be3e347ff3aa52f47812826e6d3621eadba76",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+  }
 }

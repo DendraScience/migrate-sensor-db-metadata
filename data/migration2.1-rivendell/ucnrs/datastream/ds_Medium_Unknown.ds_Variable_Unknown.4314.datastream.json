@@ -1,5 +1,4 @@
 {
-  "_id": "5aaed8186947d70001b2a0c5",
   "description": "Units unknown",
   "enabled": true,
   "name": "Soil Moisture TDR freq in vert James",
@@ -28,6 +27,18 @@
     {
       "identifier": "343",
       "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "TDR_Frequency_hz_depth2",
+      "type": "loggernet.field"
+    },
+    {
+      "identifier": "ucja_james",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "tags": [
@@ -37,85 +48,5 @@
   ],
   "attributes": {
     "orientation": "vertical"
-  },
-  "created_at": "2018-03-18T21:20:24.797Z",
-  "updated_at": "2018-03-18T21:21:00.866Z",
-  "attributes_info": {
-    "sort": {
-      "value1": 0,
-      "value2": 0
-    },
-    "text": ""
-  },
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Unknown",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Unknown",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "label": "Dimensionless",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "8da73705956f50baaf01369295bd6db12c0f5c67"
-    },
-    {
-      "key": "att",
-      "str": "bb6e07d58f94078c02cafaeda007b575a71586a5"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "210b2648eeca5484e5cc188c1857de66c53740d9",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "bc6194f65d6298e5bbbc77877d576f7d7eb0a93e",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+  }
 }

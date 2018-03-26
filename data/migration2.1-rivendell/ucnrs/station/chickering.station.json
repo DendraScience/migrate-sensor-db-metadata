@@ -19,6 +19,14 @@
       "identifier": "339",
       "type": "odm.station.StationID",
       "url": "file://ucca_chickering_dri.dat"
+    },
+    {
+      "identifier": "ucca_chickering",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "BEC0035C",
+      "type": "goes.address"
     }
   ],
   "geo": {
@@ -671,7 +679,5 @@
       }
     }
   ],
-  "_id": "58e68cabdf5ce600012602bc",
-  "created_at": "2018-03-18T21:19:43.446Z",
-  "updated_at": "2018-03-18T21:19:43.446Z"
+  "_id": "58e68cabdf5ce600012602bc"
 }

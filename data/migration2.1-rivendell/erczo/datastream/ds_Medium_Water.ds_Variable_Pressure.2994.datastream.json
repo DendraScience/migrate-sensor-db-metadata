@@ -1,5 +1,4 @@
 {
-  "_id": "5aaed7c56947d70001b29c3d",
   "enabled": true,
   "name": "FNS Water Pressure VMS_B10",
   "organization_id": "58db17e824dc720001671379",
@@ -36,92 +35,23 @@
     {
       "identifier": "332",
       "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "PT_Bet_10",
+      "type": "loggernet.field"
+    },
+    {
+      "identifier": "VMS_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "tags": [
     "ds_Medium_Water",
     "ds_Variable_Pressure",
     "dt_Unit_Millibar"
-  ],
-  "created_at": "2018-03-18T21:19:01.862Z",
-  "updated_at": "2018-03-18T21:19:40.858Z",
-  "attributes_info": {
-    "sort": {
-      "value1": 14.1,
-      "value2": 1.5
-    },
-    "text": "14.1...15.6"
-  },
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Water",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Pressure",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "mb",
-        "label": "Millibar",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "10b86d74fd75403e350e747a02115ec7510bc857"
-    },
-    {
-      "key": "att",
-      "str": "78f8452a2a6788df384c10e54b5f62260afb3512"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "5e35e7ca8a9cd343e5febdee3173521bfda9266c",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "f6e143fd7229fe4fb31a03055310db4b5f29e664",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+  ]
 }

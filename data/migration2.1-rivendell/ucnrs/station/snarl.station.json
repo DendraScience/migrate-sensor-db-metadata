@@ -19,6 +19,14 @@
       "identifier": "356",
       "type": "odm.station.StationID",
       "url": "file://ucsh_snarl_dri.dat"
+    },
+    {
+      "identifier": "ucsh_snarl",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "geo": {
@@ -671,7 +679,5 @@
       }
     }
   ],
-  "_id": "58e68cacdf5ce600012602d7",
-  "created_at": "2018-03-18T21:19:44.004Z",
-  "updated_at": "2018-03-18T21:19:44.004Z"
+  "_id": "58e68cacdf5ce600012602d7"
 }

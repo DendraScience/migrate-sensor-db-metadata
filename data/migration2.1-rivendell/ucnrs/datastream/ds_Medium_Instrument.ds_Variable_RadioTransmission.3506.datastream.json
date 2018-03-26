@@ -1,5 +1,4 @@
 {
-  "_id": "5aaed8086947d70001b29e9d",
   "enabled": true,
   "name": "TX REFLECTED POWER Chickering ",
   "organization_id": "58db17c424dc720001671378",
@@ -27,85 +26,23 @@
     {
       "identifier": "339",
       "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "TX_REFLECTED_POWER",
+      "type": "loggernet.field"
+    },
+    {
+      "identifier": "ucca_chickering",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "BEC0035C",
+      "type": "goes.address"
     }
   ],
   "tags": [
     "ds_Medium_Instrument",
     "ds_Variable_RadioTransmission",
     "dt_Unit_DecibelMilliwatt"
-  ],
-  "created_at": "2018-03-18T21:20:08.394Z",
-  "updated_at": "2018-03-18T21:20:43.606Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Instrument",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "RadioTransmission",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "dBm",
-        "label": "DecibelMilliwatt",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "199a123339023d700ee108a5da2b7f5d90efcffc"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "dee0cd41b3a339aa122cb9d25a1ea9018c721fc8",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "8f8be1cd35bed81353acca910abc5edfc099ba3c",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+  ]
 }

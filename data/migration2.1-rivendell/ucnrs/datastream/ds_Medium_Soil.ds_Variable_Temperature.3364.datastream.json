@@ -1,8 +1,7 @@
 {
-  "_id": "5aaed80f6947d70001b29f89",
   "description": "",
   "enabled": true,
-  "name": "Soil Temp Deg C 0.05 m Angelo Avg",
+  "name": "Soil Temp Deg C 50 mm Angelo Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -28,98 +27,24 @@
     {
       "identifier": "335",
       "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Avg_Soil_Temp_2_Inches",
+      "type": "loggernet.field"
+    },
+    {
+      "identifier": "WSSM_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "tags": [
     "ds_Medium_Soil",
     "ds_Variable_Temperature",
-    "dt_Unit_DegreeCelsius"
-  ],
-  "attributes": {
-    "depth": {
-      "unit_tag": "dt_Unit_Meter",
-      "value": "0.05"
-    }
-  },
-  "created_at": "2018-03-18T21:20:15.344Z",
-  "updated_at": "2018-03-18T21:20:50.913Z",
-  "attributes_info": {
-    "sort": {
-      "value1": 0,
-      "value2": 0
-    },
-    "text": ""
-  },
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Soil",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Temperature",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "degC",
-        "label": "DegreeCelsius",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "9ee51d05d216c314371676826908fbe7ad86da94"
-    },
-    {
-      "key": "att",
-      "str": "ca096e49c67966f366a80dfc7d4b572f44661bf4"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "9da9ad5305d07a5786d85f90fb747950dddb0571",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "5795c6e74091f87a34b256903db271fcca161eee",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+    "dt_Unit_DegreeCelsius",
+    "ds_Aggregate_Average"
+  ]
 }

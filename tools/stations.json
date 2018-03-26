@@ -4,34 +4,39 @@
 		{
 		    "_id" : "58e68cabdf5ce600012602b0",
 		    "name" : "Angelo HQ SF Eel Gage",
-		    "station_id" : "3"
+		    "station_id" : "3",
+		    "loggernet":"GHQ_CR1000"
 		},
 
 		{
 		    "_id" : "58e68cabdf5ce600012602b1",
 		    "name" : "Angelo HQ WS",
-		    "station_id" : "2"
+		    "station_id" : "2",
+		    "loggernet":"WSHQ_CR1000"
 		},
 
 
 		{
 		    "_id" : "58e68cabdf5ce600012602b2",
 		    "name" : "Angelo Meadow WS",
-		    "station_id" : "11"
+		    "station_id" : "11",
+		    "loggernet":"WSAM_CR1000"
 		},
 
 
 		{
 		    "_id" : "58e68cabdf5ce600012602b3",
 		    "name" : "Angelo Reserve South Meadow",
-		    "station_id" : "335"
+		    "station_id" : "335",
+		    "loggernet":"WSSM_CR1000"
 		},
 
 
 		{
 		    "_id" : "58e68cabdf5ce600012602b4",
 		    "name" : "Anza Borrego",
-		    "station_id" : "357"
+		    "station_id" : "357",
+			  "loggernet":"ucab_anzaborrego"  
 		},
 
 
@@ -44,52 +49,63 @@
 		{
 		    "_id" : "58e68cabdf5ce600012602b5",
 		    "name" : "BigCreek Gatehouse",
-		    "station_id" : "348"
+		    "station_id" : "348",
+		    "loggernet":"bcgh_bigcreekgatehouse"
 		},
 
 
 		{
 		    "_id" : "58e68cabdf5ce600012602b6",
 		    "name" : "BigCreek Highlands",
-		    "station_id" : "347"
+		    "station_id" : "347",
+		    "loggernet":"hipk_bigcreekhighlands"
 		},
 
 
 		{
 		    "_id" : "58e68cabdf5ce600012602b7",
 		    "name" : "BigCreek Whale",
-		    "station_id" : "346"
+		    "station_id" : "346",
+		    "loggernet":"whpt_bigcreekwhale"
 		},
 
 
 		{
 		    "_id" : "58e68cabdf5ce600012602b8",
 		    "name" : "Blue Oak Ranch",
-		    "station_id" : "334"
+		    "station_id" : "334",
+		    "loggernet":"ucbo_blueoak"
 		},
 
 		{
 		    "_id" : "58e68cabdf5ce600012602b9",
 		    "name" : "Bodega",
-		    "station_id" : "336"
+		    "station_id" : "336",
+		    "loggernet":"ucbm_bodega",
+		    "goes":"BEC036C6"
 		},
 
 		{
 		    "_id" : "58e68cabdf5ce600012602ba",
 		    "name" : "Burns",
-		    "station_id" : "338"
+		    "station_id" : "338",
+		    "loggernet":"ucbu_burns",
+		    "goes":"BEC025B0"
 		},
 
 		{
 		    "_id" : "58e68cabdf5ce600012602bb",
 		    "name" : "Cahto Peak WS",
-		    "station_id" : "47"
+		    "station_id" : "47",
+		    "loggernet":"WSCP_CR1000"
 		},
 
 		{
 		    "_id" : "58e68cabdf5ce600012602bc",
 		    "name" : "Chickering",
-		    "station_id" : "339"
+		    "station_id" : "339",
+		    "loggernet":"ucca_chickering",
+		    "goes":"BEC0035C"
 		},
 
 		{
@@ -101,49 +117,59 @@
 		{
 		    "_id" : "58e68cabdf5ce600012602bd",
 		    "name" : "Deep Canyon",
-		    "station_id" : "337"
+		    "station_id" : "337",
+		    "loggernet":"ucde_boyddeepcanyon"
 		},
 
 		{
 		    "_id" : "58e68cabdf5ce600012602be",
 		    "name" : "Elliott",
-		    "station_id" : "341"
+		    "station_id" : "341",
+		    "loggernet":"ucel_elliotchaparral"
 		},
 
 		{
 		    "_id" : "58e68cabdf5ce600012602bf",
 		    "name" : "Fort Ord",
-		    "station_id" : "342"
+		    "station_id" : "342",
+		    "loggernet":"fonr_FortOrd"
 		},
 
 		{
 		    "_id" : "58e68cabdf5ce600012602c0",
 		    "name" : "Granites",
-		    "station_id" : "359"
+		    "station_id" : "359",
+		    "loggernet":"ucgr_granites",
+		    "goes":"BEC01EF8"
 		},
 
 		{
 		    "_id" : "58e68cabdf5ce600012602c1",
 		    "name" : "Hastings",
-		    "station_id" : "333"
+		    "station_id" : "333",
+		    "loggernet":"ucha_hastings"
 		},
 
 		{
 		    "_id" : "58e68cabdf5ce600012602c2",
 		    "name" : "Ingrid Canopy WS",
-		    "station_id" : "107"
+		    "station_id" : "107",
+		    "loggernet":"WSIC_CR1000"
 		},
 
 		{
 		    "_id" : "58e68cacdf5ce600012602c3",
 		    "name" : "James",
-		    "station_id" : "343"
+		    "station_id" : "343",
+		    "loggernet":"ucja_james"
 		},
 
 		{
 		    "_id" : "58e68cacdf5ce600012602c4",
 		    "name" : "Jepson",
-		    "station_id" : "344"
+		    "station_id" : "344",
+		    "loggernet":"ucjp_jepson",
+		    "goes":"BEC0102A"
 		},
 
 		{
@@ -155,73 +181,85 @@
 		{
 		    "_id" : "58e68cacdf5ce600012602c6",
 		    "name" : "Motte",
-		    "station_id" : "351"
+		    "station_id" : "351",
+		    "loggernet":"ucmo_motterimrock"
 		},
 
 		{
 		    "_id": "5a37e71ba546db0001547681",
 		    "name": "Quail Ridge",
-		    "station_id" : "352"
+		    "station_id" : "352",
+		    "loggernet":"ucqr_quailridge"
 		},
 		
 		{
 		    "_id" : "58e68cacdf5ce600012602c7",
 		    "name" : "Rancho Marino",
-		    "station_id" : "345"
+		    "station_id" : "345",
+		    "loggernet":"ucrm_norrisranchomarino"
 		},
 
 		{
 		    "_id" : "58e68cacdf5ce600012602c8",
 		    "name" : "Riv Level 1_1",
-		    "station_id" : "4"
+		    "station_id" : "4",
+		    "loggernet":"RLL1_1_CR1000"
 		},
 
 		{
 		    "_id" : "58e68cacdf5ce600012602c9",
 		    "name" : "Riv Level 1_2",
-		    "station_id" : "5"
+		    "station_id" : "5",
+		    "loggernet":"RLL1_2_CR1000"
 		},
 
 		{
 		    "_id" : "58e68cacdf5ce600012602ca",
 		    "name" : "Riv Level 2_1",
-		    "station_id" : "6"
+		    "station_id" : "6",
+		    "loggernet":"RML2_1_CR1000"
 		},
 
 		{
 		    "_id" : "58e68cacdf5ce600012602cb",
 		    "name" : "Riv Level 2_2",
-		    "station_id" : "7"
+		    "station_id" : "7",
+		    "loggernet":"RML2_2_CR1000"
 		},
 
 		{
 		    "_id" : "58e68cacdf5ce600012602cc",
 		    "name" : "Riv Level 2_3",
-		    "station_id" : "102"
+		    "station_id" : "102",
+		    "loggernet":"RML2_3_CR1000"
 		},
 
 		{
 		    "_id" : "58e68cacdf5ce600012602cd",
 		    "name" : "Riv Level 3_1",
-		    "station_id" : "8"
+		    "station_id" : "8",
+		    "loggernet":"RUL3_1_CR1000"
 		},
 
 		{
 		    "_id" : "58e68cacdf5ce600012602ce",
 		    "name" : "Riv Level 3_2",
-		    "station_id" : "9"
+		    "station_id" : "9",
+		    "loggernet":"RUL3_2_CR1000"
 		},
 
 		{
 		    "_id" : "58e68cacdf5ce600012602cf",
 		    "name" : "Riv Level 4_1",
-		    "station_id" : "10"
+		    "station_id" : "10",
+		    "loggernet":"RRL4_1_CR1000"
 		},
 
 		{
 		    "_id" : "58e68cacdf5ce600012602d0",
 		    "name" : "Riv Level 5_1",
-		    "station_id" : "103"
+		    "station_id" : "103",
+		    "loggernet":"RUL5_1_CR1000"
 		},
 
 		{
@@ -239,19 +277,22 @@
 		{
 		    "_id" : "5a9cd13b18af1700013b110e",
 		    "name" : "Riv Level 6_1 Weather",
-		    "station_id" : "365"
+		    "station_id" : "365",
+		    "loggernet":"L6_WSSS"
 		},
 
 		{
 		    "_id" : "58e68cacdf5ce600012602d1",
 		    "name" : "Sagehen Creek",
-		    "station_id" : "364"
+		    "station_id" : "364",
+		    "loggernet":"sagh_sagehen"
 		},
 
 		{
 		    "_id" : "58e68cacdf5ce600012602d2",
 		    "name" : "Sagehorn Ranch WS",
-		    "station_id" : "331"
+		    "station_id" : "331",
+		    "loggernet":"WSSR_CR1000"
 		},
 
 		{
@@ -263,7 +304,8 @@
 		{
 		    "_id" : "58e68cacdf5ce600012602d3",
 		    "name" : "Santa Cruz Island",
-		    "station_id" : "354"
+		    "station_id" : "354",
+		    "loggernet":"ucsc_santacruzisle"
 		},
 
 		{
@@ -281,25 +323,30 @@
 		{
 		    "_id" : "58e68cacdf5ce600012602d6",
 		    "name" : "Sedgwick",
-		    "station_id" : "355"
+		    "station_id" : "355",
+		    "loggernet":"ucse_sedgwick"
 		},
 
 		{
 		    "_id" : "58e68cacdf5ce600012602d7",
 		    "name" : "SNARL",
-		    "station_id" : "356"
+		    "station_id" : "356",
+		    "loggernet":"ucsh_snarl"
 		},
 
 		{
 		    "_id" : "58e68cacdf5ce600012602d8",
 		    "name" : "South Meadow WS",
-		    "station_id" : "108"
+		    "station_id" : "108",
+		    "loggernet":"WSSM_CR1000"
 		},
 
 		{
 		    "_id" : "58e68cacdf5ce600012602d9",
 		    "name" : "Stunt Ranch",
-		    "station_id" : "358"
+		    "station_id" : "358",
+		    "loggernet":"ucsr_stuntranch",
+		    "goes":"BEC036C6"
 		},
 
 		{
@@ -311,7 +358,8 @@
 		{
 		    "_id" : "58e68cacdf5ce600012602db",
 		    "name" : "VMS",
-		    "station_id" : "332"
+		    "station_id" : "332",
+		    "loggernet":"VMS_CR1000"
 		},
 
 		{
@@ -341,7 +389,8 @@
 		{
 		    "_id" : "58e68caddf5ce600012602e0",
 		    "name" : "Younger",
-		    "station_id" : "363"
+		    "station_id" : "363",
+		    "loggernet":"ucyl_youngerlagoon"
 		}
 	]
 }

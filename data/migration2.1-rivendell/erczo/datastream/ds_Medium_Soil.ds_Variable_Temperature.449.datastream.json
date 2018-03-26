@@ -1,5 +1,4 @@
 {
-  "_id": "5aaed7c36947d70001b29be3",
   "enabled": true,
   "name": "Soil Temp L3ST_0.75",
   "organization_id": "58db17e824dc720001671379",
@@ -27,6 +26,18 @@
     {
       "identifier": "9",
       "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "SoilTL3_(9)",
+      "type": "loggernet.field"
+    },
+    {
+      "identifier": "RUL3_2_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "tags": [
@@ -39,86 +50,5 @@
       "unit_tag": "dt_Unit_Meter",
       "value": "0.75"
     }
-  },
-  "created_at": "2018-03-18T21:18:59.254Z",
-  "updated_at": "2018-03-18T21:19:37.893Z",
-  "attributes_info": {
-    "sort": {
-      "value1": 0,
-      "value2": 0
-    },
-    "text": ""
-  },
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Soil",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Temperature",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "degC",
-        "label": "DegreeCelsius",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "495db2e6a5bf906030def305ed08b3968b1643a1"
-    },
-    {
-      "key": "att",
-      "str": "8c0729e2cae131d576e544ac3f2cd6f5a062def3"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "9da9ad5305d07a5786d85f90fb747950dddb0571",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "5795c6e74091f87a34b256903db271fcca161eee",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+  }
 }

@@ -1,5 +1,4 @@
 {
-  "_id": "5aaed8096947d70001b29ed0",
   "description": "",
   "enabled": true,
   "name": "Rain Gage Temp Deg C BigCreek Gatehouse ",
@@ -28,85 +27,23 @@
     {
       "identifier": "348",
       "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Rain_Gauge_Temp",
+      "type": "loggernet.field"
+    },
+    {
+      "identifier": "bcgh_bigcreekgatehouse",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "tags": [
     "ds_Medium_Instrument",
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
-  ],
-  "created_at": "2018-03-18T21:20:09.850Z",
-  "updated_at": "2018-03-18T21:20:45.236Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Instrument",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Temperature",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "degC",
-        "label": "DegreeCelsius",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "62b65685871c86ec1c616dcb04edda5543fb4b4a"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "ade9a3c67024faaf9fac585305ff0e89f68a72f8",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "5795c6e74091f87a34b256903db271fcca161eee",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+  ]
 }

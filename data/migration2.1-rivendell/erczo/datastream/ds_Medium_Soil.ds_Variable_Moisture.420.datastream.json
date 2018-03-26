@@ -1,5 +1,4 @@
 {
-  "_id": "5aaed7c16947d70001b29b9f",
   "enabled": false,
   "name": "Soil Moisture L3SM_6",
   "organization_id": "58db17e824dc720001671379",
@@ -28,85 +27,23 @@
     {
       "identifier": "9",
       "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "L3SM_(6)",
+      "type": "loggernet.field"
+    },
+    {
+      "identifier": "RUL3_2_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
     }
   ],
   "tags": [
     "ds_Medium_Soil",
     "ds_Variable_Moisture",
     "dt_Unit_Millivolt"
-  ],
-  "created_at": "2018-03-18T21:18:57.136Z",
-  "updated_at": "2018-03-18T21:19:35.731Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Soil",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Moisture",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "mV",
-        "label": "Millivolt",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "495db2e6a5bf906030def305ed08b3968b1643a1"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "2ceeaf76cac23ed4d1f78af864db7fb15a54c676",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "c3f3cc3ed0f4887a2f21485ac834d57e1352a99a",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+  ]
 }
