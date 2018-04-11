@@ -1,4 +1,5 @@
 {
+  "_id": "5ace2efea599e40001a487b8",
   "description": "",
   "enabled": true,
   "name": "Wind Speed m s Jepson Avg",
@@ -50,5 +51,89 @@
     "ds_Variable_Speed",
     "dt_Unit_MeterPerSecond",
     "ds_Aggregate_Average"
-  ]
+  ],
+  "created_at": "2018-04-11T15:51:26.858Z",
+  "updated_at": "2018-04-11T15:52:02.497Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Air",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Speed",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "m/s",
+        "label": "MeterPerSecond",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "3970be5fa5322e1c194ea44a89dda5ade6b86b1f"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "5a7ed3e0aa0165780b9fbbdee53f00da282cb347",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "ed410d68f80e0ee139fcd18c842f80a8f3dcf437",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
 }

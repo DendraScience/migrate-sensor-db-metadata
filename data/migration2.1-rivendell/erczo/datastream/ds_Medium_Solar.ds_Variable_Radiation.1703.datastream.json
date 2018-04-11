@@ -1,4 +1,5 @@
 {
+  "_id": "5ace2ec4a599e40001a486a2",
   "derivation_description": "Apogee SQ-110 Pyranometer",
   "enabled": true,
   "name": "Total Solar Radiation W Level 5 Mean 30min",
@@ -53,5 +54,82 @@
     "ds_Medium_Solar",
     "ds_Variable_Radiation",
     "dt_Unit_WattPerSquareMeter"
-  ]
+  ],
+  "created_at": "2018-04-11T15:50:28.160Z",
+  "updated_at": "2018-04-11T15:51:07.100Z",
+  "derived_from_datastream_ids": [
+    "5ace2ec4a599e40001a4869e"
+  ],
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Solar",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Radiation",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "W/m^2",
+        "label": "WattPerSquareMeter",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "45ea78c1adf277d8846be030d3809b3428b9f97a"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "e3f5c6664ac344e64017855f42af5f173b9625ae",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "4d1ef8d2d372f256104c186984a14d7b6d38ef8f",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
 }

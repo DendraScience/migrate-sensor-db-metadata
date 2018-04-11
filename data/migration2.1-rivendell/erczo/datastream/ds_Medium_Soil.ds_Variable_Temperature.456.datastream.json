@@ -1,4 +1,5 @@
 {
+  "_id": "5ace2ec3a599e40001a48688",
   "description": "Per Collin: A set of psychrometers on a cable was pulled out of Well 10 and left on the ground.  These 'Soil Temperature' sensors have been recording open air, not soil or water.   They need to be marked\r\ninvalid data. (see Incident Report 77)",
   "enabled": false,
   "name": "Soil Temp L3WT_11.50",
@@ -60,5 +61,86 @@
       "unit_tag": "dt_Unit_Meter",
       "value": "11.50"
     }
-  }
+  },
+  "created_at": "2018-04-11T15:50:27.386Z",
+  "updated_at": "2018-04-11T15:51:06.290Z",
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Soil",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Temperature",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "degC",
+        "label": "DegreeCelsius",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "495db2e6a5bf906030def305ed08b3968b1643a1"
+    },
+    {
+      "key": "att",
+      "str": "b4572f815efe7dbcc0725bd382d26bc5479f328e"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "9da9ad5305d07a5786d85f90fb747950dddb0571",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "5795c6e74091f87a34b256903db271fcca161eee",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
 }

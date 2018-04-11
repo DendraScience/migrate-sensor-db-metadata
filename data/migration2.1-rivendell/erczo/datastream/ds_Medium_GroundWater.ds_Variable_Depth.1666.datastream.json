@@ -1,4 +1,5 @@
 {
+  "_id": "5ace2eaca599e40001a48398",
   "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": true,
   "name": "Well 12 WaterLevel m 30min",
@@ -67,5 +68,89 @@
       "unit": "dt_Unit_Meter",
       "value": "7.04"
     }
-  }
+  },
+  "created_at": "2018-04-11T15:50:04.744Z",
+  "updated_at": "2018-04-11T15:50:42.495Z",
+  "derived_from_datastream_ids": [
+    "5ace2eaca599e40001a4838a"
+  ],
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "GroundWater",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Depth",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "m",
+        "label": "Meter",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "f287669f1538e1bb064fc90fe3f8e10948979c6c"
+    },
+    {
+      "key": "att",
+      "str": "0eaf7bc893119927b31067d5add333e870aa369b"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "c59aec5c72dc86b58c5b70d83498b4d20f92387d",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "b63be3e347ff3aa52f47812826e6d3621eadba76",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
 }

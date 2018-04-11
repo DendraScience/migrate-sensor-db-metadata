@@ -1,4 +1,5 @@
 {
+  "_id": "5ace2ebfa599e40001a4860b",
   "derivation_description": "Derived Soil Moisture",
   "enabled": true,
   "name": "Soil Moisture L3T1_0.55",
@@ -60,5 +61,89 @@
       "value": "0.55"
     },
     "orientation": "vertical"
-  }
+  },
+  "created_at": "2018-04-11T15:50:23.555Z",
+  "updated_at": "2018-04-11T15:51:02.384Z",
+  "derived_from_datastream_ids": [
+    "5ace2eb0a599e40001a4841e"
+  ],
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Soil",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Moisture",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "%",
+        "label": "Percent",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "cce45fe467efcfd9485bef09698725e3a4b39413"
+    },
+    {
+      "key": "att",
+      "str": "40ac5a24b47a2da0c58068bac6895f8d95ff2a11"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "2ceeaf76cac23ed4d1f78af864db7fb15a54c676",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "2734b26dc0ddea857c1c6f650f5735cc8bb660eb",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
 }

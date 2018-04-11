@@ -15,6 +15,7 @@ migration_list="dendra-managed migration2.1-rivendell"
 # Basics - these don't change much
 for mig in $migration_list
 do
+	echo "LOADING ../data/$mig/common/"
 	# scheme
 	den meta push-schemes --filespec=../data/$mig/common/scheme/*scheme.json 
 	# som - system of measure (metric, imperial)
@@ -42,18 +43,19 @@ for orgslug in $organization_list
 do 
 	for mig in $migration_list
 	do
+		echo "LOADING ../data/$mig/$org/"
 		# dashboards
-		den meta push-dashboards --filespec=../data/dendra-managed/$orgslug/dashboard/*dashboard.json  
+		den meta push-dashboards --filespec=../data/$mig/$orgslug/dashboard/*dashboard.json  
 		# stations
-		den meta push-stations --save --filespec=../data/dendra-managed/$orgslug/station/*station.json
+		den meta push-stations --save --filespec=../data/$mig/$orgslug/station/*station.json
 		# thing
-		den meta push-things --save --filespec=../data/dendra-managed/$orgslug/thing/*thing.json
+		den meta push-things --save --filespec=../data/$mig/$orgslug/thing/*thing.json
 		# datastreams
-		den meta push-datastreams --save --filespec=../data/dendra-managed/$orgslug/datastream/*datastream.json
+		den meta push-datastreams --save --filespec=../data/$mig/$orgslug/datastream/*datastream.json
 		# TRANSFORM 
 		# after the load - add mongoid for derived datasets 
-		node ./transform-sensordb-derivedid-inserter.js ../data/migration2.1-rivendell/$orgslug/
-		den meta push-datastreams --save --filespec=../data/migration2.1-rivendell/$orgslug/datastream/*datastream.json
+		node ./transform-sensordb-derivedid-inserter.js ../data/$mig/$orgslug/
+		den meta push-datastreams --save --filespec=../data/$mig/$orgslug/datastream/*datastream.json
 
 	done
 done

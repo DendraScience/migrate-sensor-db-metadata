@@ -52,8 +52,12 @@ parent_path = args[0] // Requires trailing slash, e.g. "../data/migration2.1-riv
 org_slug = args[1] // "erczo" or "ucnrs"
 //path = parent_path+org_slug+"/" 
 path = "../data/migration2.1-rivendell/ucnrs_test/"
-console.log('usage: node transform-sensordb-stationid-inserter.js <migration_path/> <organization_slug>')
-console.log('path:',path)
+if(fs.existsSync(ds_path) == false) {
+	console.log('usage: node transform-sensordb-stationid-inserter.js <migration_path/> <organization_slug>')
+	console.log("\tDIR does not exist! Skipping.",path)
+	process.exit()
+}
+console.log("\n Derived ID inserter to Datastreasms DIR:",path)
 
 // CONSTANTS
 sensordb_end_date = "2018-04-17T00:00:00Z"

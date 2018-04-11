@@ -1,4 +1,5 @@
 {
+  "_id": "5ace2f12a599e40001a48a42",
   "description": "",
   "enabled": true,
   "name": "Soil Temp Deg C 100 mm Burns Avg",
@@ -56,5 +57,96 @@
       "unit_tag": "dt_Unit_Meter",
       "value": 0.1
     }
-  }
+  },
+  "created_at": "2018-04-11T15:51:46.775Z",
+  "updated_at": "2018-04-11T15:52:23.326Z",
+  "attributes_info": {
+    "sort": {
+      "value1": 0.1,
+      "value2": 0
+    },
+    "text": "0.1"
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Soil",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Temperature",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "degC",
+        "label": "DegreeCelsius",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "96a8def6aab093be204c605124faa71ce82038dd"
+    },
+    {
+      "key": "att",
+      "str": "6197fce17ba1b8b3470dbd8edddc6ca03b6e3a3a"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "b4c6a256529ec99265a3b4598274206e62b724be",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "5795c6e74091f87a34b256903db271fcca161eee",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
 }

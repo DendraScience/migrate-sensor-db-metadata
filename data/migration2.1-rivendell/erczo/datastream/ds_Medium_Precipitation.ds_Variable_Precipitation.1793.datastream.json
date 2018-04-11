@@ -1,4 +1,5 @@
 {
+  "_id": "5ace2eaea599e40001a483db",
   "derivation_description": "Derived Cumulative Rainfall",
   "enabled": true,
   "name": "Rainfall Cumulative mm TB4  WSAM",
@@ -54,5 +55,92 @@
     "ds_Variable_Precipitation",
     "dt_Unit_Millimeter",
     "ds_Aggregate_Cumulative"
-  ]
+  ],
+  "created_at": "2018-04-11T15:50:06.610Z",
+  "updated_at": "2018-04-11T15:50:44.564Z",
+  "derived_from_datastream_ids": [
+    "5ace2eaea599e40001a483d3"
+  ],
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Precipitation",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Precipitation",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "mm",
+        "label": "Millimeter",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Cumulative",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "cccad7d9b78b139c0f014fb26123ff51bbf6d991"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "c86cec8e8c1912a5c612c1b9f50e68431a60afaf",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "b0c7386b883ea89804e8613181308a0d15033964",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
 }

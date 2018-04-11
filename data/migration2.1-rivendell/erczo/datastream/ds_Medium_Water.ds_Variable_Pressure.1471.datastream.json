@@ -1,4 +1,5 @@
 {
+  "_id": "5ace2ec5a599e40001a486c1",
   "enabled": true,
   "name": "Well 16 Pressure psi",
   "organization_id": "58db17e824dc720001671379",
@@ -66,5 +67,86 @@
       "unit": "dt_Unit_Meter",
       "value": "26.4"
     }
-  }
+  },
+  "created_at": "2018-04-11T15:50:29.038Z",
+  "updated_at": "2018-04-11T15:51:08.006Z",
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Water",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Pressure",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "psi",
+        "label": "PoundForcePerSquareInch",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "45ea78c1adf277d8846be030d3809b3428b9f97a"
+    },
+    {
+      "key": "att",
+      "str": "71cc0b21344f7cc86ba6a6897b421bf8bc045c52"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "5e35e7ca8a9cd343e5febdee3173521bfda9266c",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "41be565b37cae6329bda165fbf375c09c4d9a74a",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
 }

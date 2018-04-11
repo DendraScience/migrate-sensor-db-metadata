@@ -9,14 +9,18 @@ particular attributes in the name of the datatream.  These are known aspects of 
 datastream names and it is not recommended for general use elsewhere.
 SOIL MOISTURE UCNRS VWC NEEDS FIXING
 */
-console.log("\n Datastream names to attributes mapping starting \n")
 
 fs = require("fs")
 args = process.argv.slice(2)
 parent_path = args[0] // Requires trailing slash, e.g. "../data/migration2.1-rivendell/" 
 org_slug = args[1]	 // "erczo"
 path = parent_path+org_slug+"/datastream/"  // "../data/migration2.1-rivendell/erczo/datastream/" 
-console.log('usage: node transform-sensordb-map-names-to-attributes.js <migration_path> <org_slub>')
+if(fs.existsSync(path) == false) {
+	console.log('usage: node ./transform-sensordb-map-names-to-attributes.js <migration_path/> <organization_slug>')
+	console.log("\tDIR does not exist! Skipping.",path)
+	process.exit()
+}
+console.log("\n Datastream names to attributes mapping DIR:",path)
 
 function parse_tags(ds_json) {
 	/* 

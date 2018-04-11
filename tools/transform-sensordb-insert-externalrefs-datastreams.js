@@ -17,7 +17,6 @@ Purpose: runs through datastream directories and
 5. NOT inserted: Datastream ONLY -- get from Core8 spreadsheet
 	"loggernet.field":"slr_kw_avg"
 */
-console.log("\n Datastreams External References Inserter starting \n")
 
 fs = require("fs")
 tr = require("./transform_functions.js")
@@ -26,7 +25,12 @@ args = process.argv.slice(2)
 parent_path = args[0] // Requires trailing slash, e.g. "../data/migration2.1-rivendell/"
 org_slug = args[1] // "erczo" or "ucnrs"
 path = parent_path+org_slug+"/" 
-console.log('usage: node transform-sensordb-stationid-inserter.js <migration_path/> <organization_slug>')
+if(fs.existsSync(path) == false) {
+	console.log('usage: node ./transform-sensordb-insert-externalrefs-datastreams.js <migration_path/> <organization_slug>')
+	console.log("\tDIR does not exist! Skipping.",path)
+	process.exit()
+}
+console.log("\n Datastreams External References Inserter DIR:",path)
 
 // Load static list of stations
 stations = JSON.parse(fs.readFileSync("stations.json"))

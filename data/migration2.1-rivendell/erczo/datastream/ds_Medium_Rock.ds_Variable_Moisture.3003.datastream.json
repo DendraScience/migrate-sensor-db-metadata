@@ -1,4 +1,5 @@
 {
+  "_id": "5ace2eb6a599e40001a484eb",
   "description": "Values are suspect because the instrument has been modified.  See Method.",
   "enabled": true,
   "name": "Rock Moisture no calib VMS_A9",
@@ -62,5 +63,86 @@
     "ds_Medium_Rock",
     "ds_Variable_Moisture",
     "dt_Unit_Percent"
-  ]
+  ],
+  "created_at": "2018-04-11T15:50:14.913Z",
+  "updated_at": "2018-04-11T15:50:53.383Z",
+  "attributes_info": {
+    "sort": {
+      "value1": 14.8,
+      "value2": 0.1999999999999993
+    },
+    "text": "14.8...15"
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Rock",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Moisture",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "%",
+        "label": "Percent",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "10b86d74fd75403e350e747a02115ec7510bc857"
+    },
+    {
+      "key": "att",
+      "str": "8bbcb3a7f0021ab29db60e6c99be86ab22755c3d"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "abb89e0bf3da5cee4e0a271d1df9e219f6c4daae",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "2734b26dc0ddea857c1c6f650f5735cc8bb660eb",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
 }

@@ -1,4 +1,5 @@
 {
+  "_id": "5ace2eb2a599e40001a4846b",
   "enabled": true,
   "name": "ERP L1S1-1.10",
   "organization_id": "58db17e824dc720001671379",
@@ -58,5 +59,86 @@
       "unit_tag": "dt_Unit_Meter",
       "value": "1.10"
     }
-  }
+  },
+  "created_at": "2018-04-11T15:50:10.940Z",
+  "updated_at": "2018-04-11T15:50:49.263Z",
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Rock",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Moisture",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "kΩ",
+        "label": "Kiloohm",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "d7a87b6769f78e630a71fc7b9d6d78f57b2a42ff"
+    },
+    {
+      "key": "att",
+      "str": "365c4f29a8f5ea06e08242debea02d788bd31963"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "abb89e0bf3da5cee4e0a271d1df9e219f6c4daae",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "65f1595df3265eb622e0512aae79ee69c2112c65",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
 }

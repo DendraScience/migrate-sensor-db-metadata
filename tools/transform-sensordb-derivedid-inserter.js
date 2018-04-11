@@ -5,12 +5,17 @@ will not have been generated.
 @author: Collin Bode
 @date: 2018-02-28
 */
-console.log("\n Derived ID inserter to Datastreasms starting \n")
 
 fs = require("fs")
 args = process.argv.slice(2)
 path = args[0] // Requires trailing slash, e.g. "../data/migration2.1-rivendell/erczo/" 
-console.log('usage: node transform-sensordb-derivedid-inserter.js <migration_path/>')
+ds_path = path + 'datastream/'
+if(fs.existsSync(ds_path) == false) {
+	console.log('usage: node transform-sensordb-derivedid-inserter.js <migration_path/>')
+	console.log("\tDIR does not exist! Skipping.",ds_path)
+	process.exit()
+}
+console.log("\n Derived ID inserter to Datastreasms DIR:",ds_path)
 
 /*  "external_refs": [
 {
@@ -43,7 +48,7 @@ function get_derived_mongoid(ds_path,name,derived_id) {
 			dd_json = JSON.parse(fs.readFileSync(ds_path+dd_filename))
 			dd_datastreamid = get_external_ref(dd_json,"odm.datastreams.DatastreamID")
 	    if(derived_id == dd_datastreamid) {
-	      console.log("FOUND! ",dd_json.name,'-->',name,dd_datastreamid,derived_id,dd_json._id)
+	      //console.log("FOUND! ",dd_json.name,'-->',name,dd_datastreamid,derived_id,dd_json._id)
 	      return dd_json._id
 	    }
 	  }
@@ -59,7 +64,6 @@ match_count = 0
 not_derived_count = 0
 
 // Get list of Datastreams from directory
-ds_path = path + 'datastream/'
 ds_files = fs.readdirSync(ds_path)
 console.log('Datastream Path:',ds_path,"files found:",ds_files.length)
 
@@ -70,21 +74,21 @@ for(var i=0;i<ds_files.length;i++) {
 		ds_count++
 		ds_json = JSON.parse(fs.readFileSync(ds_path+ds_filename))
 		name = ds_json.name
-		if(ds_json.external_refs.length < 3) {
+		derived_id = get_external_ref(ds_json,"odm.datastreams.DerivedID")
+		if(typeof derived_id === 'undefined') {
 			//console.log('Not derived datastream ',name)
 			not_derived_count++
 		} else {
-			//derived_id = ds_json.external_refs[2].identifier
-			derived_id = get_external_ref(ds_json,"odm.datastreams.DerivedID")
+			//console.log('Derived datastream ',name)
 			derived_mongo_id = get_derived_mongoid(ds_path,name,derived_id)
-			if(derived_mongo_id == "") {
+			if(typeof derived_mongo_id === 'undefined') {
 				console.log(name," had NO match!")
 				no_match_count++
 			} else {
 				ds_json.derived_from_datastream_ids = [derived_mongo_id]
 				// Write JSON file
 				ds_json_string = JSON.stringify(ds_json,null,2)
-				//console.log('Updating Datastream',name,'with derived:',ds_json.derived_from_datastream_ids)
+				console.log('Updating Datastream',name,'with derived:',ds_json.derived_from_datastream_ids)
 				match_count++
 				fs.writeFileSync(ds_path+ds_filename,ds_json_string,'utf-8')
 			}
