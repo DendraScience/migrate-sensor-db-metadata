@@ -29,7 +29,11 @@
     },
     {
       "identifier": "erp43",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "33",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "RML2_1_CR1000",
@@ -38,6 +42,10 @@
     {
       "identifier": "208.186.56.6:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "Level201",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

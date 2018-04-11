@@ -30,7 +30,11 @@
     },
     {
       "identifier": "Solar_Radiation",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "81",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucsh_snarl",
@@ -39,6 +43,10 @@
     {
       "identifier": "wanda.berkeley.edu:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

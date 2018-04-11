@@ -33,12 +33,20 @@
       "type": "odm.datastreams.DerivedID"
     },
     {
+      "identifier": "87",
+      "type": "odm.stations.MethodID"
+    },
+    {
       "identifier": "WSSM_CR1000",
       "type": "loggernet.station"
     },
     {
       "identifier": "208.186.56.6:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

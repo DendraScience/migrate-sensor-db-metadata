@@ -1,0 +1,55 @@
+{
+  "derivation_description": "Conversion to 30-minute timesteps",
+  "description": "new datastream added Nov 2014 G.O.",
+  "enabled": true,
+  "name": "Rainfall Cumulative mm WSHQ 30min",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602b1",
+  "datapoints_config": [
+    {
+      "begins_at": "2008-11-25T19:50:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 1783,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "1783",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "2",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "1781",
+      "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "WSHQ_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "AR_HWS",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Precipitation",
+    "ds_Variable_Precipitation",
+    "dt_Unit_Millimeter",
+    "ds_Aggregate_Cumulative"
+  ]
+}

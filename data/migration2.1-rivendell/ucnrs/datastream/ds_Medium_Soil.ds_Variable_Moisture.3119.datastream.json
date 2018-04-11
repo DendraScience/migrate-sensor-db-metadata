@@ -31,7 +31,11 @@
     },
     {
       "identifier": "Soil_Moisture_4_Inches",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "47",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucja_james",
@@ -40,6 +44,10 @@
     {
       "identifier": "wanda.berkeley.edu:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -47,5 +55,10 @@
     "ds_Variable_Moisture",
     "dt_Unit_Percent"
   ],
-  "attributes": {}
+  "attributes": {
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": "0.1"
+    }
+  }
 }

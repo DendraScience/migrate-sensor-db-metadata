@@ -30,7 +30,15 @@
     },
     {
       "identifier": "Avg_T_TC_2m",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "85",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "ucmc_mclaughlin",
+      "type": "loggernet.station"
     },
     {
       "identifier": "wanda.berkeley.edu:1024",

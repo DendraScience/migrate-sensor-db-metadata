@@ -34,6 +34,10 @@
       "type": "odm.datastreams.DerivedID"
     },
     {
+      "identifier": "0",
+      "type": "odm.stations.MethodID"
+    },
+    {
       "identifier": "208.186.56.6:1024",
       "type": "loggernet.ldmp"
     }

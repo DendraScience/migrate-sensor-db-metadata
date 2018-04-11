@@ -30,7 +30,11 @@
     },
     {
       "identifier": "TDR_Frequency_hz_depth1",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "47",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucsh_snarl",
@@ -39,6 +43,10 @@
     {
       "identifier": "wanda.berkeley.edu:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -47,6 +55,10 @@
     "dt_Unit_Dimensionless"
   ],
   "attributes": {
-    "orientation": "horizontal"
+    "orientation": "horizontal",
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": "0.1"
+    }
   }
 }

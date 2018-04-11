@@ -30,7 +30,11 @@
     },
     {
       "identifier": "RWS_Rain_TB4_Tot",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "98",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "WSAM_CR1000",
@@ -39,6 +43,10 @@
     {
       "identifier": "208.186.56.6:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "AR_RWS",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

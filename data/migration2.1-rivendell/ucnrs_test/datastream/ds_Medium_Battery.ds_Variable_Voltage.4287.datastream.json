@@ -1,0 +1,53 @@
+{
+  "enabled": true,
+  "name": "Battery Voltage2 volts Elliott Min",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602be",
+  "datapoints_config": [
+    {
+      "begins_at": "2016-08-01T07:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 4287,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "4287",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "341",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Min_Battery_Voltage2",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "ucel_elliotchaparral",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Battery",
+    "ds_Variable_Voltage",
+    "dt_Unit_Volt",
+    "ds_Aggregate_Minimum"
+  ]
+}

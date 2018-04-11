@@ -1,0 +1,50 @@
+{
+  "description": "Swapped older HMP50 with newer HMP60 on 11-07-2013, by Grant Susner.",
+  "enabled": true,
+  "name": "Relative Humidity Per Bodega Avg",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602b9",
+  "datapoints_config": [
+    {
+      "begins_at": "2012-06-27T21:50:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3388,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3388",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "336",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Avg_Relative_Humidity",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "ucbm_bodega",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "BEC036C6",
+      "type": "goes.address"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_RelativeHumidity",
+    "dt_Unit_Percent",
+    "ds_Aggregate_Average"
+  ]
+}

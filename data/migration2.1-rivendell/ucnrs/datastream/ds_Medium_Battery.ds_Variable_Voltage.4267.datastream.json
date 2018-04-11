@@ -30,7 +30,11 @@
     },
     {
       "identifier": "Min_Battery_Voltage",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "13",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucjp_jepson",

@@ -29,7 +29,11 @@
     },
     {
       "identifier": "Sky_Quality_Avg_mag",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "53",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucse_sedgwick",
@@ -38,6 +42,10 @@
     {
       "identifier": "wanda.berkeley.edu:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

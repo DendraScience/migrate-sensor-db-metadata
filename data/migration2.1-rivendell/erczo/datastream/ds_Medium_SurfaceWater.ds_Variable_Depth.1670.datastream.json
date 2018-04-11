@@ -33,12 +33,20 @@
       "type": "odm.datastreams.DerivedID"
     },
     {
+      "identifier": "71",
+      "type": "odm.stations.MethodID"
+    },
+    {
       "identifier": "GHQ_CR1000",
       "type": "loggernet.station"
     },
     {
       "identifier": "208.186.56.6:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "GHQTable",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

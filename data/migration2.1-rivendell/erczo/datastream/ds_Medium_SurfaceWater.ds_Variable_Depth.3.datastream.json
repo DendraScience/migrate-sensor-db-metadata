@@ -30,7 +30,11 @@
     },
     {
       "identifier": "stageMetersIn",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "21",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "GHQ_CR1000",
@@ -39,6 +43,10 @@
     {
       "identifier": "208.186.56.6:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "GHQTable",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

@@ -31,7 +31,11 @@
     },
     {
       "identifier": "ReflectTxX10",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "53",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucel_elliotchaparral",
@@ -40,6 +44,10 @@
     {
       "identifier": "wanda.berkeley.edu:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

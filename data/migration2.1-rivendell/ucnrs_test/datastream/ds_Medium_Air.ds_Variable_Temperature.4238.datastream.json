@@ -1,0 +1,68 @@
+{
+  "description": "",
+  "enabled": true,
+  "name": "Air Temp Deg C BigCreek Gatehouse Min",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602b5",
+  "datapoints_config": [
+    {
+      "begins_at": "2013-08-22T19:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 4238,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-17T00:00:00Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_bcgh_bigcreekgatehouse",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"AT_C_Min\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-17T00:00:00Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "4238",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "348",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Min_Air_Temp",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "bcgh_bigcreekgatehouse",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius",
+    "ds_Aggregate_Minimum"
+  ]
+}

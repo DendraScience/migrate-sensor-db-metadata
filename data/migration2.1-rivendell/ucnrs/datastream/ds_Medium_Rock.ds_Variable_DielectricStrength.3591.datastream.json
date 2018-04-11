@@ -31,7 +31,11 @@
     },
     {
       "identifier": "Misc_Number_1",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "47",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucja_james",
@@ -40,11 +44,16 @@
     {
       "identifier": "wanda.berkeley.edu:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
     "ds_Medium_Rock",
     "ds_Variable_DielectricStrength",
     "dt_Unit_Dimensionless"
-  ]
+  ],
+  "attributes": {}
 }

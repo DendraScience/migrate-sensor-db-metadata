@@ -7,7 +7,7 @@ Dendra Map Datastream Names to Attributes
 Script will iterate through datastream directory and check each *.datastream.json file for
 particular attributes in the name of the datatream.  These are known aspects of the Eel River CZO and UCNRS 
 datastream names and it is not recommended for general use elsewhere.
-
+SOIL MOISTURE UCNRS VWC NEEDS FIXING
 */
 console.log("\n Datastream names to attributes mapping starting \n")
 
@@ -16,7 +16,7 @@ args = process.argv.slice(2)
 parent_path = args[0] // Requires trailing slash, e.g. "../data/migration2.1-rivendell/" 
 org_slug = args[1]	 // "erczo"
 path = parent_path+org_slug+"/datastream/"  // "../data/migration2.1-rivendell/erczo/datastream/" 
-console.log('usage: node transform-sensordb-map-names-to-attributes.js <migration_path/>')
+console.log('usage: node transform-sensordb-map-names-to-attributes.js <migration_path> <org_slub>')
 
 function parse_tags(ds_json) {
 	/* 
@@ -147,7 +147,7 @@ for(var i=0;i<ds_files.length;i++) {
 					}
 				}
 			} else {
-				console.log("VMS datastream without position!",dsname)
+				console.log(dsname,"VMS datastream without position!")
 			}
 
 		} else if((dsname.match(/^Soil Moisture L/) || dsname.match(/TDR L/)) && org_slug == "erczo" && tag.unit != "Millivolt") {
@@ -183,7 +183,7 @@ for(var i=0;i<ds_files.length;i++) {
 		    "orientation": orientation
 		  }
 			//console.log(dsname," Orientation:",orientation," Depth:",depth)
-			console.log(ds_json.attributes)
+			//console.log(ds_json.attributes)
 			soilmoisture_count++
 
 		} else if((dsname.match(/^Soil Moisture CS/) || dsname.match(/^Soil Temp CS/) || dsname.match(/^Elec Conductivity CS/)) && org_slug == "erczo") {
@@ -207,15 +207,15 @@ for(var i=0;i<ds_files.length;i++) {
 		  } else {
 		  	soilmoisture_count++
 		  }
-		  console.log(dsname,ds_json.attributes)
+		  //console.log(dsname,ds_json.attributes)
 
-		} else if((dsname.match(/^Soil Moisture /) || dsname.match(/TDR L/)) && org_slug == "ucnrs") {
+		} else if((dsname.match(/^Soil Moisture /) || dsname.match(/TDR/)) && org_slug == "ucnrs") {
 			/* Soil Moisture - UCNRS
 			UCNRS soil moisture is pairs of TDRs. One is vertical orientation and the other is horizontal.
 			Most horizontal are placed at 4 inch depth (0.1 meter) or 2 inches (0.05 meter).  I don't know
 			the depth of the vertical oriented TDRs.
 			*/
-			if(ds_json.attributes === null || ds_json.attributes === undefined) {
+			if(typeof ds_json.attributes === 'undefined') {
 				ds_json.attributes = {}
 				//console.log('UCNRS adding attributes',dsname)
 			}
@@ -227,24 +227,24 @@ for(var i=0;i<ds_files.length;i++) {
 				ds_json.attributes.orientation = "vertical"
 			}
 			// depth
-			if(dsname.match(/4/)) {
+			if(dsname.match(/4/) || dsname.match(/100 mm/)) {
 				ds_json.attributes.depth = {
 		      "unit_tag": "dt_Unit_Meter",
 		      "value": "0.1"
 		    }
-		    dsname = dsname.replace("4 in","0.1 m")
+		    dsname = dsname.replace("4 in","100 mm")
 			}
-			if(dsname.match(/2/)) {
+			if(dsname.match(/2/) || dsname.match(/50 mm/)) {
 				ds_json.attributes.depth = {
 		      "unit_tag": "dt_Unit_Meter",
 		      "value": "0.05"
 		    }
-		    dsname = dsname.replace("2 in","0.05 m")
+		    dsname = dsname.replace("2 in","50 mm")
 			}
 			if(ds_json.attributes.length == 0) {
 				delete ds_json.attributes
 			}
-			console.log(ds_json.name,"-->",dsname,ds_json.attributes)
+			//console.log(ds_json.name,"-->",dsname,ds_json.attributes)
 			ds_json.name = dsname
 			soilmoisture_count++
 
@@ -262,7 +262,7 @@ for(var i=0;i<ds_files.length;i++) {
 					"value": depth
 				}
 			}
-			console.log(dsname,ds_json.attributes)
+			//console.log(dsname,ds_json.attributes)
 			soiltemp_count++
 
 		} else if(dsname.match(/Soil Temp /) && dsname.match(/inch depth/) && org_slug == "erczo") {
@@ -279,7 +279,7 @@ for(var i=0;i<ds_files.length;i++) {
 			}
 			dsname = dsname.replace(depth1,depth)
 			dsname = dsname.replace("inch", "meter")
-			console.log(ds_json.name,"-->",dsname,ds_json.attributes)
+			//console.log(ds_json.name,"-->",dsname,ds_json.attributes)
 			ds_json.name = dsname
 			soiltemp_count++
 
@@ -297,8 +297,23 @@ for(var i=0;i<ds_files.length;i++) {
 			}
 			dsname = dsname.replace(depth1,depth)
 			dsname = dsname.replace("in", "m")
-			console.log(ds_json.name,"-->",dsname,ds_json.attributes)
+			//console.log(ds_json.name,"-->",dsname,ds_json.attributes)
 			ds_json.name = dsname
+			soiltemp_count++
+
+		} else if(dsname.match(/Soil Temp Deg C/) && dsname.match(/ mm /) && org_slug == "ucnrs") {			
+			// UCNRS standard naming for Soil Temp
+			//"name": "Soil Temp Deg C 500 mm McLaughlin Max"
+			// For the datastreams already changed to metric
+			depth_mm = dsname.substring(dsname.search('Deg C')+6,dsname.search(' mm'))
+			depth_m = depth_mm/1000
+			ds_json.attributes = {
+				"depth": {
+					"unit_tag": "dt_Unit_Meter",
+					"value": depth_m
+				}
+			}
+			//console.log(ds_json.name,ds_json.attributes)
 			soiltemp_count++
 
 		} else if(dsname.match(/Air Temp Deg C/) && dsname.match(/ m /) && org_slug == "ucnrs") {
@@ -311,7 +326,7 @@ for(var i=0;i<ds_files.length;i++) {
 					"value": height
 				}
 			}
-			console.log(dsname,ds_json.attributes)
+			//console.log(dsname,ds_json.attributes)
 			airtemp_count++
 
 		} else if(dsname.match(/Air Temp /) && dsname.match(/ m height/) && org_slug == "erczo") {
@@ -324,7 +339,7 @@ for(var i=0;i<ds_files.length;i++) {
 					"value": height
 				}
 			}
-			console.log(dsname,ds_json.attributes)
+			//console.log(dsname,ds_json.attributes)
 			airtemp_count++
 
 		} else if(dsname.match(/Air Temp Delta/) && org_slug == "erczo") {
@@ -338,7 +353,7 @@ for(var i=0;i<ds_files.length;i++) {
 					"range":[height1,height2]
 				}
 			}
-			console.log(dsname,ds_json.attributes)
+			//console.log(dsname,ds_json.attributes)
 			airtemp_count++
 
 		} else if(dsname.match(/Air Temp Delta/) && org_slug == "ucnrs") {
@@ -352,7 +367,7 @@ for(var i=0;i<ds_files.length;i++) {
 					"range":[height1,height2]
 				}
 			}
-			console.log(dsname,ds_json.attributes)
+			//console.log(dsname,ds_json.attributes)
 			airtemp_count++
 		} else if (dsname.match(/Well/) && !dsname.match(/CO2/) && org_slug == "erczo") {
 			/* Wells (depths, pressures, and temp)
@@ -411,7 +426,7 @@ for(var i=0;i<ds_files.length;i++) {
 			ds_json.attributes.depth.value = well_info_array[0]
 			ds_json.attributes.wellhead_height.value = well_info_array[1]
 			ds_json.attributes.cable_length.value = well_info_array[2]
-			console.log(dsname,ds_json.attributes)
+			//console.log(dsname,ds_json.attributes)
 			well_count++
 			
 		// FINISHED WITH ATTRIBUTE MODIFICATION

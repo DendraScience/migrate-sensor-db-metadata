@@ -1,0 +1,74 @@
+{
+  "description": "Temperature at 2 meters",
+  "enabled": true,
+  "name": "Air Temp Deg C 2 m Angelo Max",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602b3",
+  "datapoints_config": [
+    {
+      "begins_at": "2013-05-07T22:10:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3353,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-17T00:00:00Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucac_angelo",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"TC_C_2_Max\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-17T00:00:00Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3353",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "335",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Max_T_TC_2m",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "ucac_angelo",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius",
+    "ds_Aggregate_Maximum"
+  ],
+  "attributes": {
+    "height": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": "2"
+    }
+  }
+}

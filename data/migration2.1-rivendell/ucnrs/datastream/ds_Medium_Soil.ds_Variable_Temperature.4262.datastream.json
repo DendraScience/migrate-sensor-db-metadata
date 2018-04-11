@@ -30,7 +30,11 @@
     },
     {
       "identifier": "Max_Soil_Temp_4_Inches",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "85",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucjp_jepson",
@@ -46,5 +50,11 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius",
     "ds_Aggregate_Maximum"
-  ]
+  ],
+  "attributes": {
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": 0.1
+    }
+  }
 }

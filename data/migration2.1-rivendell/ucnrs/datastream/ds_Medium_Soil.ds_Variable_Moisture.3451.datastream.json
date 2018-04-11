@@ -30,7 +30,11 @@
     },
     {
       "identifier": "Soil_Moisture_2_Inches",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "47",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucde_boyddeepcanyon",
@@ -39,6 +43,10 @@
     {
       "identifier": "wanda.berkeley.edu:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

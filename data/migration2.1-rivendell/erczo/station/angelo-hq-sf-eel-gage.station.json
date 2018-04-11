@@ -27,6 +27,10 @@
     {
       "identifier": "208.186.56.6:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "GHQTable",
+      "type": "loggernet.data_tables"
     }
   ],
   "geo": {

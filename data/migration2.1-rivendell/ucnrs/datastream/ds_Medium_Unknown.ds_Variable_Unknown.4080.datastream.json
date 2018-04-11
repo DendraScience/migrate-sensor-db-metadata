@@ -30,7 +30,11 @@
     },
     {
       "identifier": "Misc_Number_2",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "53",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "wanda.berkeley.edu:1024",

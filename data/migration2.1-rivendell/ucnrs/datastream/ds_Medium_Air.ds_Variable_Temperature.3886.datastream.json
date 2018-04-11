@@ -39,7 +39,11 @@
     },
     {
       "identifier": "Min_dT_10m-2m",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "86",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucse_sedgwick",
@@ -48,6 +52,10 @@
     {
       "identifier": "wanda.berkeley.edu:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

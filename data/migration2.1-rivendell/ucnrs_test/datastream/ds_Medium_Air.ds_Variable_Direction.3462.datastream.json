@@ -1,0 +1,63 @@
+{
+  "description": "",
+  "enabled": true,
+  "name": "Wind Direction Deg Burns Avg",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602ba",
+  "datapoints_config": [
+    {
+      "begins_at": "2010-09-30T18:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3462,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-17T00:00:00Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucbu_burns",
+          "fc": "source_undefined",
+          "sc": "\"time\", \"mean_vector_wind_dir\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-17T00:00:00Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3462",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "338",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Mean_Wind_Direction",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "ucbu_burns",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "BEC025B0",
+      "type": "goes.address"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_Direction",
+    "dt_Unit_DegreeAngle"
+  ]
+}

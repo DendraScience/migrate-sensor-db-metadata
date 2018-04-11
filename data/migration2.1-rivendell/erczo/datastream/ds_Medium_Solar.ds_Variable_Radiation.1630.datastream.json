@@ -34,12 +34,20 @@
       "type": "odm.datastreams.DerivedID"
     },
     {
+      "identifier": "71",
+      "type": "odm.stations.MethodID"
+    },
+    {
       "identifier": "WSCP_CR1000",
       "type": "loggernet.station"
     },
     {
       "identifier": "208.186.56.6:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "AR_CWS",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

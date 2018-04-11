@@ -29,7 +29,11 @@
     },
     {
       "identifier": "manual",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "56",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "RUL5_1_CR1000",
@@ -38,6 +42,10 @@
     {
       "identifier": "208.186.56.6:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "Table501",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

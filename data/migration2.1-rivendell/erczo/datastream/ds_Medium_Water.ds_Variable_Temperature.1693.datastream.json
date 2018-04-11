@@ -29,7 +29,11 @@
     },
     {
       "identifier": "Well5Temp_C",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "65",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "RRL4_1_CR1000",
@@ -38,6 +42,10 @@
     {
       "identifier": "208.186.56.6:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "Table401",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

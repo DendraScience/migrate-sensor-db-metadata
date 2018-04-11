@@ -30,7 +30,11 @@
     },
     {
       "identifier": "Std_Dev_Solar_Radiation",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "16",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucjp_jepson",

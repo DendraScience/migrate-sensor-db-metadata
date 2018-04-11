@@ -30,7 +30,11 @@
     },
     {
       "identifier": "Volumetric_Water_Content_1",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "47",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucca_chickering",

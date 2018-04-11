@@ -30,7 +30,11 @@
     },
     {
       "identifier": "Max_Temp_Thermocouple_10_m",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "85",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucyl_youngerlagoon",
@@ -39,6 +43,10 @@
     {
       "identifier": "wanda.berkeley.edu:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

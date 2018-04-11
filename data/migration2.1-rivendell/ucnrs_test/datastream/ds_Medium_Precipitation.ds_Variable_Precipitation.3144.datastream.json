@@ -1,0 +1,52 @@
+{
+  "enabled": true,
+  "name": "Precipitation Geonor Freq SNARL Std",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602d7",
+  "datapoints_config": [
+    {
+      "begins_at": "2012-07-11T19:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3144,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3144",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "356",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "GEONOR_STD_DEV_FREQ",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "ucsh_snarl",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Precipitation",
+    "ds_Variable_Precipitation",
+    "dt_Unit_Hertz"
+  ]
+}

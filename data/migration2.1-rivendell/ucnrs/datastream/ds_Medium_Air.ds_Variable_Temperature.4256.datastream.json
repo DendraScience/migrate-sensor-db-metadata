@@ -30,7 +30,11 @@
     },
     {
       "identifier": "Max_Air_Temp",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "79",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucjp_jepson",

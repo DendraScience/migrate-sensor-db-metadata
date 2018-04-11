@@ -29,7 +29,15 @@
     },
     {
       "identifier": "Std_Dev_of_Wind_Speed",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "81",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "ucmc_mclaughlin",
+      "type": "loggernet.station"
     },
     {
       "identifier": "wanda.berkeley.edu:1024",

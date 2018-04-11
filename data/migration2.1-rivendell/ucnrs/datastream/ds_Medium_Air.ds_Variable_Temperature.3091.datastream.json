@@ -38,7 +38,11 @@
     },
     {
       "identifier": "Max_dT_10m-2m",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "85",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucbo_blueoak",
@@ -47,6 +51,10 @@
     {
       "identifier": "wanda.berkeley.edu:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

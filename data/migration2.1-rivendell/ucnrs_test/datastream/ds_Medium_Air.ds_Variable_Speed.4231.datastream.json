@@ -1,0 +1,53 @@
+{
+  "description": "",
+  "enabled": true,
+  "name": "Wind Vector Magnitude m s BigCreek Gatehouse ",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602b5",
+  "datapoints_config": [
+    {
+      "begins_at": "2013-08-22T19:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 4231,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "4231",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "348",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Wind_Vector_Magnitude",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "bcgh_bigcreekgatehouse",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_Speed",
+    "dt_Unit_MeterPerSecond"
+  ]
+}

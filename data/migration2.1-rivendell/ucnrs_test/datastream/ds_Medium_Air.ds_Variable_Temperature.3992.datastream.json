@@ -1,0 +1,77 @@
+{
+  "description": "",
+  "enabled": true,
+  "name": "Air Temp Delta Deg C 10m-2m Anza Borrego Min",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602b4",
+  "attributes": {
+    "height": {
+      "unit_tag": "dt_Unit_Meter",
+      "range": [
+        "10",
+        "2"
+      ]
+    }
+  },
+  "datapoints_config": [
+    {
+      "begins_at": "2013-04-30T20:40:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3992,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-17T00:00:00Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucab_anzaborrego",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"delta_T_C_Min\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-17T00:00:00Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3992",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "357",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Min_dT_10m-2m",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "ucab_anzaborrego",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius",
+    "ds_Aggregate_Minimum"
+  ]
+}

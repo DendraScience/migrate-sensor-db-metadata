@@ -1,0 +1,67 @@
+{
+  "enabled": true,
+  "name": "Volumetric Water Content Per 100 mm horiz James Avg",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602c3",
+  "datapoints_config": [
+    {
+      "begins_at": "2017-05-04T16:10:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 4311,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-17T00:00:00Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucja_james",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"VWC50_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-17T00:00:00Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "4311",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "343",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Volumetric_Water_Content_1",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "ucja_james",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Soil",
+    "ds_Variable_Moisture",
+    "dt_Unit_Percent",
+    "ds_Aggregate_Average"
+  ]
+}

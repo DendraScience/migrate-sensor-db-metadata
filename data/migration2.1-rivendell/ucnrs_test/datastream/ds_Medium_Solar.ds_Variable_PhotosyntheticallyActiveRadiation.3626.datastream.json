@@ -1,0 +1,67 @@
+{
+  "description": "",
+  "enabled": true,
+  "name": "PAR um m2 Rancho Marino Max",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602c7",
+  "datapoints_config": [
+    {
+      "begins_at": "2011-02-01T21:40:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3626,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-17T00:00:00Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucrm_norrisranchomarino",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"PAR_Max\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-17T00:00:00Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3626",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "345",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Max_PAR",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "ucrm_norrisranchomarino",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Solar",
+    "ds_Variable_PhotosyntheticallyActiveRadiation",
+    "dt_Unit_MicromolePerSquareMeter"
+  ]
+}

@@ -29,7 +29,15 @@
     },
     {
       "identifier": "Min_Relative_Humidity",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "79",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "ucmc_mclaughlin",
+      "type": "loggernet.station"
     },
     {
       "identifier": "wanda.berkeley.edu:1024",

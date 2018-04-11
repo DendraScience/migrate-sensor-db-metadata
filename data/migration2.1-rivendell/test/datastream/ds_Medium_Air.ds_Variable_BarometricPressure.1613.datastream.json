@@ -1,0 +1,50 @@
+{
+  "derivation_description": "Conversion to 30-minute timesteps",
+  "enabled": false,
+  "name": "BP Treebeard 30min",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602da",
+  "datapoints_config": [
+    {
+      "begins_at": "2008-11-13T01:55:00.000Z",
+      "ends_before": "2011-01-25T08:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 1613,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "1613",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "48",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "462",
+      "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "WSTB_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_BarometricPressure",
+    "dt_Unit_Millibar"
+  ]
+}

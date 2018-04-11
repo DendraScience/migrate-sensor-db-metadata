@@ -33,12 +33,20 @@
       "type": "odm.datastreams.DerivedID"
     },
     {
+      "identifier": "72",
+      "type": "odm.stations.MethodID"
+    },
+    {
       "identifier": "RUL5_1_CR1000",
       "type": "loggernet.station"
     },
     {
       "identifier": "208.186.56.6:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "Table501",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

@@ -29,7 +29,11 @@
     },
     {
       "identifier": "BattV",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "26",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "L6_WSSS",

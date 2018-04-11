@@ -1,0 +1,45 @@
+{
+  "description": "",
+  "enabled": true,
+  "name": "YEAR White Mt Crooked WhiteMt Barcroft",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602dc",
+  "datapoints_config": [
+    {
+      "begins_at": "2003-11-01T23:40:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 4105,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "4105",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "361",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "YEAR",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Unknown",
+    "ds_Variable_Unknown",
+    "dt_Unit_Dimensionless"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "enabled": true,
+  "name": "Leaf Wetness Per James",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602c3",
+  "datapoints_config": [
+    {
+      "begins_at": "2009-12-31T18:30:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3116,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3116",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "343",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Leaf_Wetness",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "ucja_james",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Leaf",
+    "ds_Variable_Moisture",
+    "dt_Unit_Percent"
+  ]
+}

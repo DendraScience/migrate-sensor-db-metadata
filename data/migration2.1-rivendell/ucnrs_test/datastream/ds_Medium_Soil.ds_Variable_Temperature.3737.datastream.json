@@ -1,0 +1,64 @@
+{
+  "description": "",
+  "enabled": true,
+  "name": "Soil Temp Deg C 200 mm McLaughlin Avg",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602c5",
+  "datapoints_config": [
+    {
+      "begins_at": "2011-12-14T22:20:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3737,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-17T00:00:00Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucmc_mclaughlin",
+          "fc": "source_undefined",
+          "sc": "\"time\", \"Soil_T200_C_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-17T00:00:00Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3737",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "350",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Avg_Soil_Temp_8_Inches",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "ucmc_mclaughlin",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Soil",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius",
+    "ds_Aggregate_Average"
+  ]
+}

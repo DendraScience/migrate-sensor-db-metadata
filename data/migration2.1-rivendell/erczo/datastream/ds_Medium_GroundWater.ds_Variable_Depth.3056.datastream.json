@@ -29,7 +29,11 @@
     },
     {
       "identifier": "WSSR_Lvl_m_2",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "78",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "WSSR_CR1000",
@@ -38,6 +42,10 @@
     {
       "identifier": "208.186.56.6:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "Table1",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

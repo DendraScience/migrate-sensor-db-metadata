@@ -1,0 +1,55 @@
+{
+  "description": "WindSonic 2D retired on May 2, 2017 and replaced with a RM Young 05103",
+  "enabled": false,
+  "name": "Wind Speed m s James Avg RETIRED",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602c3",
+  "datapoints_config": [
+    {
+      "begins_at": "2010-01-01T06:30:00.000Z",
+      "ends_before": "2017-05-02T16:10:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3562,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3562",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "343",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Mean_Wind_Speed",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "ucja_james",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_Speed",
+    "dt_Unit_MeterPerSecond",
+    "ds_Aggregate_Average"
+  ]
+}

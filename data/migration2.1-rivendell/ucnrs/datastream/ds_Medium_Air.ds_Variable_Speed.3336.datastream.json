@@ -30,15 +30,23 @@
     },
     {
       "identifier": "Mean_Wind_Speed",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
     },
     {
-      "identifier": "WSSM_CR1000",
+      "identifier": "82",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "ucac_angelo",
       "type": "loggernet.station"
     },
     {
       "identifier": "wanda.berkeley.edu:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

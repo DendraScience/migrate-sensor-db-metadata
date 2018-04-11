@@ -30,7 +30,11 @@
     },
     {
       "identifier": "Max_Wind_Gust",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "18",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucgr_granites",

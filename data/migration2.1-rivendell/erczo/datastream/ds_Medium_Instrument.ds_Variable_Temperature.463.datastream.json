@@ -31,7 +31,15 @@
     },
     {
       "identifier": "PTemp_Avg",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "28",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "WSTB_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "208.186.56.6:1024",

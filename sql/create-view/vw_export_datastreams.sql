@@ -180,8 +180,10 @@ SELECT
   'odm.stations.StationID' AS `external_refs$1$type`,
   -- derived_id or loggernet.field  (mutually exclusive)
   CAST( IF(`datastreams`.`FieldName` LIKE "converted from%", REPLACE(fieldname, 'converted from ', ''), fieldname) AS CHAR(50)) AS `external_refs$2$identifier`, 
-  IF(`datastreams`.`FieldName` LIKE "converted from%", "odm.datastreams.DerivedID", "loggernet.field") AS `external_refs$2$type`,
-
+  IF(`datastreams`.`FieldName` LIKE "converted from%", "odm.datastreams.DerivedID", "odm.datastreams.FieldName") AS `external_refs$2$type`,
+  -- method_id
+  CAST(`datastreams`.`MethodID` AS CHAR(50)) AS `external_refs$3$identifier`,
+  'odm.stations.MethodID' AS `external_refs$3$type`,  
   -- ----------------------------
   -- "geo": {
   --   "coordinates": [

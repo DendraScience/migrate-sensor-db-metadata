@@ -30,7 +30,11 @@
     },
     {
       "identifier": "Std_Dev_of_Wind_Speed",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "18",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucjp_jepson",

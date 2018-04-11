@@ -30,7 +30,11 @@
     },
     {
       "identifier": "Avg_PAR",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "82",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucsr_stuntranch",

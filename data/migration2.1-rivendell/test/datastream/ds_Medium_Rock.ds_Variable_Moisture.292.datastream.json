@@ -1,0 +1,72 @@
+{
+  "enabled": true,
+  "name": "ERP L3S1-0.20",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602cd",
+  "datapoints_config": [
+    {
+      "begins_at": "2008-10-29T15:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 292,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-01T00:00:00Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_RUL3_1_CR1000",
+          "fc": "source_Level301",
+          "sc": "\"time\", \"erp3\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-01T00:00:00Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "292",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "8",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "erp3",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "RUL3_1_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "Level301",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Rock",
+    "ds_Variable_Moisture",
+    "dt_Unit_Kiloohm"
+  ],
+  "attributes": {
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": "0.20"
+    }
+  }
+}

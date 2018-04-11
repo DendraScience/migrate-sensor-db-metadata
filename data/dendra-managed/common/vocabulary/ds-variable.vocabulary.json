@@ -54,11 +54,17 @@
       "label": "Height"
     },
     {
+      "label": "Luminance"
+    },
+    {
       "label": "Moisture"
     },
     {
       "label": "NetRadiation",
       "name": "Net Radiation"
+    },
+    {
+      "label": "Period"
     },
     {
       "label": "PhotosyntheticallyActiveRadiation",

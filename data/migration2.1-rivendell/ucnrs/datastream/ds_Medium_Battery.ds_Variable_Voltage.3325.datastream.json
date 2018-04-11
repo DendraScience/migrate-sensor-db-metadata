@@ -30,7 +30,11 @@
     },
     {
       "identifier": "Max_Battery_Voltage",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "13",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucha_hastings",
@@ -39,6 +43,10 @@
     {
       "identifier": "wanda.berkeley.edu:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

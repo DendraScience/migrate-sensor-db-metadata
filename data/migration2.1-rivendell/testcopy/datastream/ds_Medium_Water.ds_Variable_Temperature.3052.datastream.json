@@ -1,0 +1,66 @@
+{
+  "enabled": true,
+  "name": "Well 500 Water Temp C",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602d2",
+  "datapoints_config": [
+    {
+      "begins_at": "2016-02-18T19:20:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3052,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3052",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "331",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "WSSR_Temp_C",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "WSSR_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "Table1",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Water",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ],
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Meter",
+      "value": ""
+    },
+    "wellhead_height": {
+      "unit": "dt_Unit_Meter",
+      "value": ""
+    },
+    "cable_length": {
+      "unit": "dt_Unit_Meter",
+      "value": ""
+    }
+  }
+}

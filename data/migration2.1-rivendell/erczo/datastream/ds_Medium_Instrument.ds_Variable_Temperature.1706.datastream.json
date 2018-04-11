@@ -29,7 +29,11 @@
     },
     {
       "identifier": "PTemp_Avg",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "28",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "WSSM_CR1000",
@@ -38,6 +42,10 @@
     {
       "identifier": "208.186.56.6:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

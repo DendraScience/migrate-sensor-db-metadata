@@ -30,7 +30,11 @@
     },
     {
       "identifier": "Datalogger_Panel_Temp",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "13",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucgr_granites",

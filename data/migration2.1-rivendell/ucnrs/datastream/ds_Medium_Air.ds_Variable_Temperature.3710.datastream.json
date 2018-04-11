@@ -29,7 +29,15 @@
     },
     {
       "identifier": "Max_Air_Temp",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "18",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "ucmc_mclaughlin",
+      "type": "loggernet.station"
     },
     {
       "identifier": "wanda.berkeley.edu:1024",

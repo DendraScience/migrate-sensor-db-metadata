@@ -1,0 +1,48 @@
+{
+  "enabled": true,
+  "name": "TX FORWARD POWER Granites ",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602c0",
+  "datapoints_config": [
+    {
+      "begins_at": "2010-10-01T00:50:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 4060,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "4060",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "359",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "TX_FORWARD_POWER",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "ucgr_granites",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "BEC01EF8",
+      "type": "goes.address"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Instrument",
+    "ds_Variable_RadioTransmission",
+    "dt_Unit_DecibelMilliwatt"
+  ]
+}

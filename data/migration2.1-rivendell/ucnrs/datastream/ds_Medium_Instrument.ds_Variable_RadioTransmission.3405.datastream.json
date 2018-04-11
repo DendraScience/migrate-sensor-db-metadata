@@ -29,7 +29,11 @@
     },
     {
       "identifier": "TX_REFLECTED_POWER",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "53",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucbm_bodega",

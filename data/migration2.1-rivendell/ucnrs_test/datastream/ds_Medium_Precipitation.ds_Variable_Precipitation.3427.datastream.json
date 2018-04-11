@@ -1,0 +1,53 @@
+{
+  "description": "",
+  "enabled": true,
+  "name": "Precipitation mm Deep Canyon ",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602bd",
+  "datapoints_config": [
+    {
+      "begins_at": "2010-09-29T17:10:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3427,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3427",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "337",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Precipitation",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "ucde_boyddeepcanyon",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Precipitation",
+    "ds_Variable_Precipitation",
+    "dt_Unit_Millimeter"
+  ]
+}

@@ -30,7 +30,11 @@
     },
     {
       "identifier": "Rintensity_Max",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "36",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "WSIC_CR1000",
@@ -39,6 +43,10 @@
     {
       "identifier": "208.186.56.6:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "WSIC_Table",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

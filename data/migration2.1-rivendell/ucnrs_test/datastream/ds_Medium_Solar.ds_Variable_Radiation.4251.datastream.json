@@ -1,0 +1,49 @@
+{
+  "enabled": false,
+  "name": "Total Solar Radiation W m2 Jepson Max",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602c4",
+  "datapoints_config": [
+    {
+      "begins_at": "2013-04-30T16:50:00.000Z",
+      "ends_before": "2014-01-01T08:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 4251,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "4251",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "344",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Max_Solar_Radiation",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "ucjp_jepson",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "BEC0102A",
+      "type": "goes.address"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Solar",
+    "ds_Variable_Radiation",
+    "dt_Unit_WattPerSquareMeter"
+  ]
+}

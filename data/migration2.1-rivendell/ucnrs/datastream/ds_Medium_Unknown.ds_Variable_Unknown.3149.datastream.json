@@ -29,7 +29,11 @@
     },
     {
       "identifier": "YEAR",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "13",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "wanda.berkeley.edu:1024",

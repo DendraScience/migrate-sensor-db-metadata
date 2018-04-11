@@ -30,7 +30,11 @@
     },
     {
       "identifier": "Wind_Vector_Magnitude",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "18",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "wanda.berkeley.edu:1024",

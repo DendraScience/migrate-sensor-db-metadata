@@ -30,7 +30,15 @@
     },
     {
       "identifier": "TDR_Frequency_hz_depth1",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "47",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "ucmc_mclaughlin",
+      "type": "loggernet.station"
     },
     {
       "identifier": "wanda.berkeley.edu:1024",
@@ -43,6 +51,10 @@
     "dt_Unit_Dimensionless"
   ],
   "attributes": {
-    "orientation": "horizontal"
+    "orientation": "horizontal",
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": "0.1"
+    }
   }
 }

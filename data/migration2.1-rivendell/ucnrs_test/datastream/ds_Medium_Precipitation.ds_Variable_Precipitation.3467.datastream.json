@@ -1,0 +1,49 @@
+{
+  "description": "",
+  "enabled": true,
+  "name": "Precipitation mm Burns ",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602ba",
+  "datapoints_config": [
+    {
+      "begins_at": "2010-09-30T18:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3467,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3467",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "338",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Precipitation",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "ucbu_burns",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "BEC025B0",
+      "type": "goes.address"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Precipitation",
+    "ds_Variable_Precipitation",
+    "dt_Unit_Millimeter"
+  ]
+}

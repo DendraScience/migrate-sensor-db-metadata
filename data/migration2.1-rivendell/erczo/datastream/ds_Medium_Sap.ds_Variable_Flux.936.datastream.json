@@ -30,7 +30,11 @@
     },
     {
       "identifier": "SVP84005 p",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "52",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "208.186.56.6:1024",

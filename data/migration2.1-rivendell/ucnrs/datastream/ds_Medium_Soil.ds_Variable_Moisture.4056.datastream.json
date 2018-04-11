@@ -30,7 +30,11 @@
     },
     {
       "identifier": "Soil_Moisture_2_Inches",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "47",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucgr_granites",

@@ -38,7 +38,11 @@
     },
     {
       "identifier": "PT_Aleph_10",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "103",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "VMS_CR1000",
@@ -47,6 +51,10 @@
     {
       "identifier": "208.186.56.6:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "VMS",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

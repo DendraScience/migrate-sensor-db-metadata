@@ -20,7 +20,8 @@
       "label": "Leaf"
     },
     {
-      "label": "Not Applicable"
+      "label": "Not Applicable",
+      "name": "NotApplicable"
     },
     {
       "label": "Precipitation"
@@ -36,6 +37,9 @@
     },
     {
       "label": "Sediment"
+    },
+    {
+      "label": "Sky"
     },
     {
       "label": "Snow"

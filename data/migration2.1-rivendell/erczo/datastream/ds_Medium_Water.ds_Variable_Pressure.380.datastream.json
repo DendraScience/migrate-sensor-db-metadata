@@ -31,7 +31,11 @@
     },
     {
       "identifier": "River_Ht",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "34",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "RLL1_2_CR1000",
@@ -40,6 +44,10 @@
     {
       "identifier": "208.186.56.6:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "Table102",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

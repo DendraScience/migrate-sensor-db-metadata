@@ -30,7 +30,11 @@
     },
     {
       "identifier": "Precipitation",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "83",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucjp_jepson",

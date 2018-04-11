@@ -1,13 +1,18 @@
 # Migrate Metadata to Mongo for Rivendell push
+# NOTE: Mongo database must be empty before load if you are pushing a new set of datastreams.
+# Mongo can be populated if you are updating existing datastreams with modified json.
+echo "Rivendell Migration loading script."
 echo "usage: load-migration2.1-rivendell.sh <den username> <den password>"
-echo "Rivendell Push loading script."
 
 # Log into Dendra
 den login $1 $2 
 
+# lists 
+organization_list="erczo ucnrs"
+migration_list="dendra-managed migration2.1-rivendell"
+
 # COMMON METADATA
 # Basics - these don't change much
-migration_list="dendra-managed migration2.1-rivendell"
 for mig in $migration_list
 do
 	# scheme
@@ -33,24 +38,24 @@ do
 done
 
 # ORGANIZATION SPECIFIC METADATA
-organization_list="erczo ucnrs"
 for orgslug in $organization_list 
 do 
-	# dashboards
-	den meta push-dashboards --filespec=../data/dendra-managed/$orgslug/dashboard/*dashboard.json  
-	den meta push-dashboards --filespec=../data/migration2.1-rivendell/$orgslug/dashboard/*dashboard.json 
-	# stations
-	den meta push-stations --save --filespec=../data/dendra-managed/$orgslug/station/*station.json
-	den meta push-stations --save --filespec=../data/migration2.1-rivendell/$orgslug/station/*station.json 
-	# thing
-	den meta push-things --save --filespec=../data/dendra-managed/$orgslug/thing/*thing.json
-	den meta push-things --save --filespec=../data/migration2.1-rivendell/$orgslug/thing/*thing.json 
-	# datastreams
-	den meta push-datastreams --save --filespec=../data/dendra-managed/$orgslug/datastream/*datastream.json
-	den meta push-datastreams --save --filespec=../data/migration2.1-rivendell/$orgslug/datastream/*datastream.json
-	
-	# Transform datastream - add derived mongoid
-	node ./transform-sensordb-derivedid-inserter.js ../data/migration2.1-rivendell/$orgslug/
-	den meta push-datastreams --save --filespec=../data/migration2.1-rivendell/$orgslug/datastream/*datastream.json
+	for mig in $migration_list
+	do
+		# dashboards
+		den meta push-dashboards --filespec=../data/dendra-managed/$orgslug/dashboard/*dashboard.json  
+		# stations
+		den meta push-stations --save --filespec=../data/dendra-managed/$orgslug/station/*station.json
+		# thing
+		den meta push-things --save --filespec=../data/dendra-managed/$orgslug/thing/*thing.json
+		# datastreams
+		den meta push-datastreams --save --filespec=../data/dendra-managed/$orgslug/datastream/*datastream.json
+		# TRANSFORM 
+		# after the load - add mongoid for derived datasets 
+		node ./transform-sensordb-derivedid-inserter.js ../data/migration2.1-rivendell/$orgslug/
+		den meta push-datastreams --save --filespec=../data/migration2.1-rivendell/$orgslug/datastream/*datastream.json
+
+	done
 done
+
 echo "RIVENDELL MIGRATION LOADED!" 

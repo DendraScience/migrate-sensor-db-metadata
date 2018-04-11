@@ -30,7 +30,15 @@
     },
     {
       "identifier": "Min_Soil_Temp_20_Inches",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "85",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "ucmc_mclaughlin",
+      "type": "loggernet.station"
     },
     {
       "identifier": "wanda.berkeley.edu:1024",
@@ -42,5 +50,11 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius",
     "ds_Aggregate_Minimum"
-  ]
+  ],
+  "attributes": {
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": 0.5
+    }
+  }
 }

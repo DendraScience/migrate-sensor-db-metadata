@@ -31,7 +31,11 @@
     },
     {
       "identifier": "Std_Dev_of_Wind_Speed",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "81",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucja_james",
@@ -40,6 +44,10 @@
     {
       "identifier": "wanda.berkeley.edu:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

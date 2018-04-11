@@ -1,0 +1,66 @@
+{
+  "enabled": true,
+  "name": "PAR um m2 Blue Oak Min",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602b8",
+  "datapoints_config": [
+    {
+      "begins_at": "2011-06-03T20:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3068,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-17T00:00:00Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucbo_blueoak",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"PAR_Min\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-17T00:00:00Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3068",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "334",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Min_PAR",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "ucbo_blueoak",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Solar",
+    "ds_Variable_PhotosyntheticallyActiveRadiation",
+    "dt_Unit_MicromolePerSquareMeter"
+  ]
+}

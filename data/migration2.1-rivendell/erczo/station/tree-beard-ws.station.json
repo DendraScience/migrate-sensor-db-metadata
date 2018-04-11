@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "is_active": true,
   "is_stationary": true,
   "name": "Tree Beard WS",
@@ -19,6 +19,10 @@
       "identifier": "48",
       "type": "odm.station.StationID",
       "url": "file://WSTB_CR1000_VaisalaTable.dat"
+    },
+    {
+      "identifier": "WSTB_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "208.186.56.6:1024",

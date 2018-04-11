@@ -39,7 +39,11 @@
     },
     {
       "identifier": "Max_dT_10m-2m",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "86",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucjp_jepson",

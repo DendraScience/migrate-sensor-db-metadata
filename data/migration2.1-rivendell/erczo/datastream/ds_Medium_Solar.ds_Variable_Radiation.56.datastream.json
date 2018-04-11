@@ -30,7 +30,11 @@
     },
     {
       "identifier": "HWS_SlrMJ",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "16",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "WSHQ_CR1000",
@@ -39,6 +43,10 @@
     {
       "identifier": "208.186.56.6:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "AR_HWS",
+      "type": "loggernet.table"
     }
   ],
   "tags": [

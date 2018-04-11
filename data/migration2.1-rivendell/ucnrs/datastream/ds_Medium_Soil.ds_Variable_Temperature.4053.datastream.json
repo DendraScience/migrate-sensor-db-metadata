@@ -30,7 +30,11 @@
     },
     {
       "identifier": "Avg_Soil_Temp_4_Inches",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "85",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucgr_granites",
@@ -46,5 +50,11 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius",
     "ds_Aggregate_Average"
-  ]
+  ],
+  "attributes": {
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": 0.1
+    }
+  }
 }

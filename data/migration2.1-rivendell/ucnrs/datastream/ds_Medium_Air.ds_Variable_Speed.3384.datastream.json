@@ -30,7 +30,11 @@
     },
     {
       "identifier": "Mean_Wind_Speed",
-      "type": "loggernet.field"
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "82",
+      "type": "odm.stations.MethodID"
     },
     {
       "identifier": "ucbm_bodega",
