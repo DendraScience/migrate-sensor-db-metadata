@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f0da599e40001a4898c",
+  "_id": "5adeac206502f5343f5ddfb9",
   "description": "",
   "enabled": true,
   "name": "Precipitation mm Jepson ",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucjp_jepson",
+          "fc": "source_goes_tenmin",
+          "sc": "\"time\", \"PCPN_intrvl_Tot\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Rainfall mm",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucjp_jepson",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC0102A",
       "type": "goes.address"
+    },
+    {
+      "identifier": "GOES_TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -51,8 +73,8 @@
     "ds_Variable_Precipitation",
     "dt_Unit_Millimeter"
   ],
-  "created_at": "2018-04-11T15:51:41.272Z",
-  "updated_at": "2018-04-11T15:52:17.435Z",
+  "created_at": "2018-04-24T04:01:36.902Z",
+  "updated_at": "2018-04-24T04:05:36.340Z",
   "tags_info": {
     "resolved_terms": [
       {

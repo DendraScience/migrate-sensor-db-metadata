@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2efea599e40001a4879c",
+  "_id": "5adeabba6502f546895dddcc",
   "description": "",
   "enabled": true,
   "name": "Wind Speed Deg Hastings Std",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucha_hastings",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"WS_ms_Std\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucha_hastings",
-      "type": "loggernet.station"
+      "identifier": "Wind Speed Stdev MPH",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucha_hastings",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -56,8 +70,8 @@
     "dt_Unit_MilePerHour",
     "ds_Aggregate_StandardDeviation"
   ],
-  "created_at": "2018-04-11T15:51:26.056Z",
-  "updated_at": "2018-04-11T15:52:01.636Z",
+  "created_at": "2018-04-24T03:59:54.664Z",
+  "updated_at": "2018-04-24T04:03:50.720Z",
   "tags_info": {
     "resolved_terms": [
       {

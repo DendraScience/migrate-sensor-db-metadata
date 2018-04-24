@@ -2,6 +2,7 @@
     {
         "name": "Station1_wx100",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:sh_site1_2_6.CR1",
         "data_tables": [
             {
                 "name": "Hydra",
@@ -78,11 +79,13 @@
                     "wfv_Avg"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2017-09-09T15:01:34.4"
     },
     {
         "name": "Station2_wx",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:#2_cardout.CR1",
         "data_tables": [
             {
                 "name": "Table1",
@@ -139,11 +142,13 @@
                     "Batt_Volt_Min"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2009-07-07 18:17:24.63"
     },
     {
         "name": "Station3_wx",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:SH_Site3_2_8.CR1",
         "data_tables": [
             {
                 "name": "Hydra",
@@ -213,11 +218,13 @@
                     "ppt_inches_Avg"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2016-08-02T10:08:11.22"
     },
     {
         "name": "Station4_wx",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:SH_Site4_2_7.CR1",
         "data_tables": [
             {
                 "name": "Raw",
@@ -264,16 +271,19 @@
                     "ppt_inches_Avg"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2017-04-15T09:25:27.35"
     },
     {
         "name": "Station6_wx",
         "organization_slug": "ucnrs",
+        "program_name": "",
         "data_tables": []
     },
     {
         "name": "Station7_wx",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:SH_Site7_2_3.CR1",
         "data_tables": [
             {
                 "name": "Hydra",
@@ -333,11 +343,13 @@
                     "cum_ppt"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2016-12-05T08:32:34.38"
     },
     {
         "name": "Station8_wx",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:SH_Site8_2_3.CR1",
         "data_tables": [
             {
                 "name": "Hydra",
@@ -397,11 +409,13 @@
                     "cum_ppt"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2018-01-17T14:24:14.07"
     },
     {
         "name": "Station9_wx",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:SH_Site9_2_6.CR1",
         "data_tables": [
             {
                 "name": "Hydra",
@@ -461,11 +475,13 @@
                     "cum_ppt"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2015-05-11T12:32:06"
     },
     {
         "name": "Station11_wx",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:SH_Site11_2_4.CR1",
         "data_tables": [
             {
                 "name": "Hydra",
@@ -525,16 +541,19 @@
                     "cum_ppt"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2015-04-27T22:59:06"
     },
     {
         "name": "Station10wx_CR10XPB",
         "organization_slug": "ucnrs",
+        "program_name": "",
         "data_tables": []
     },
     {
         "name": "Station10_wx_CR10X",
         "organization_slug": "ucnrs",
+        "program_name": "",
         "data_tables": [
             {
                 "name": "ports_and_flags",
@@ -548,6 +567,7 @@
     {
         "name": "ucac_angelo",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:UC_Angelo_v2.CR1",
         "data_tables": [
             {
                 "name": "SatTen",
@@ -640,11 +660,13 @@
                     "Sta_Id"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2017-09-25T18:44:01.61"
     },
     {
         "name": "ucab_anzaborrego",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:UC_Anza_Borrego_v5.1.CR1",
         "data_tables": [
             {
                 "name": "Audit",
@@ -748,11 +770,13 @@
                     "ApplyAndRestart"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2018-02-18T13:31:13.51"
     },
     {
         "name": "whpt_bigcreekwhale",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:WhalePt.CR1",
         "data_tables": [
             {
                 "name": "SatTen",
@@ -799,11 +823,13 @@
                     "Stat_id"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2013-08-27T19:20:40.75"
     },
     {
         "name": "ucbo_blueoak",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:UC_BlueOaks.CR1",
         "data_tables": [
             {
                 "name": "TenMin",
@@ -865,11 +891,13 @@
                     "Sta_Id"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2016-02-08T11:34:26.32"
     },
     {
         "name": "ucde_boyddeepcanyon",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:UC_Deep_verA.CR1",
         "data_tables": [
             {
                 "name": "TenMin",
@@ -931,11 +959,13 @@
                     "Sta_Id"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2016-10-05T08:37:56.26"
     },
     {
         "name": "ucel_elliotchaparral",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:UC_Elliott_verA.CR1",
         "data_tables": [
             {
                 "name": "TenMin",
@@ -997,11 +1027,13 @@
                     "Sta_Id"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2016-11-29T11:53:33.84"
     },
     {
         "name": "ucha_hastings",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:UC_Hastings.CR1",
         "data_tables": [
             {
                 "name": "TenMin",
@@ -1063,11 +1095,13 @@
                     "Sta_Id"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2017-06-03T00:22:03.45"
     },
     {
         "name": "ucja_james",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:UC_James_Reserve_Meadow_ver_D.CR1",
         "data_tables": [
             {
                 "name": "TenMin",
@@ -1128,11 +1162,13 @@
                     "Sta_Id"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2018-03-05T09:36:01.39"
     },
     {
         "name": "ucmo_motterimrock",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:UC_Mott.CR1",
         "data_tables": [
             {
                 "name": "TenMin",
@@ -1194,11 +1230,13 @@
                     "Sta_Id"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2015-11-10T19:36:21.73"
     },
     {
         "name": "ucrm_norrisranchomarino",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:UC_Rancho_M_ver4.CR1",
         "data_tables": [
             {
                 "name": "Rancho_Audit",
@@ -1286,11 +1324,13 @@
                     "Sta_Id"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2017-07-27T11:34:39.7"
     },
     {
         "name": "sagh_sagehen",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:sh_site1_2_7.CR1",
         "data_tables": [
             {
                 "name": "Hydra",
@@ -1367,11 +1407,13 @@
                     "wfv_Avg"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2018-01-04T09:01:05.81"
     },
     {
         "name": "ucsc_santacruzisle",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:UC_SantaCruzIslVP_verA.CR1",
         "data_tables": [
             {
                 "name": "TenMin",
@@ -1433,36 +1475,38 @@
                     "Sta_Id"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2016-12-09T15:59:19.22"
     },
     {
         "name": "ucse_sedgwick",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:UC_Sedgwick_Tipton_v8.1.CR1",
         "data_tables": [
             {
                 "name": "Audit",
                 "fields": [
-                    "Sta_Id",
+                    "Sta_ID",
                     "Day_of_Year",
-                    "Hour",
+                    "HourMin",
                     "PTemp",
-                    "batt_volt",
+                    "Batt_volt",
                     "RS_kw_m2",
                     "PAR",
                     "AT_C",
                     "RH_pct",
-                    "BP_mb",
-                    "WS_mph",
+                    "BP_mB",
+                    "WS_ms",
                     "WD",
-                    "PCPN_intr_Tot",
-                    "PCPN_TOTAL"
+                    "PCPN_intrvl_Tot",
+                    "PCPN_accumulated"
                 ]
             },
             {
-                "name": "TenMin",
+                "name": "GOES_TenMin",
                 "fields": [
                     "Day_of_Year",
-                    "Hour",
+                    "HourMin",
                     "RS_kw_m2_Avg",
                     "RS_kw_m2_Max",
                     "RS_kw_m2_Min",
@@ -1470,22 +1514,22 @@
                     "PAR_Avg",
                     "PAR_Max",
                     "PAR_Min",
-                    "mean_hz_wind_vel",
+                    "mean_wind_vel",
                     "mean_wind_vector_mag",
-                    "mean_vector_wind_direction",
+                    "mean_vector_wind_dir",
                     "sd_wind_dir",
-                    "WS_mph_Max",
-                    "WS_mph_Std",
-                    "WS_mph_Min",
+                    "WS_ms_Max",
+                    "WS_ms_Min",
+                    "WS_ms_Std",
                     "AT_C_Max",
                     "AT_C_Min",
                     "AT_C_Avg",
                     "RH_pct_Max",
                     "RH_pct_Min",
                     "RH_pct_Avg",
-                    "BP_mb_Avg",
-                    "PCPN_intr_Tot",
-                    "PCPN_TOTAL",
+                    "BP_mB_GOES_Avg",
+                    "PCPN_intrvl_Tot",
+                    "PCPN_accumulated",
                     "RGTemp_C_Avg",
                     "TC_C_2_Max",
                     "TC_C_2_Min",
@@ -1496,31 +1540,94 @@
                     "delta_T_C_Max",
                     "delta_T_C_Min",
                     "delta_T_C_Avg",
-                    "Soil_T2_C_Max",
-                    "Soil_T2_C_Min",
-                    "Soil_T2_C_Avg",
-                    "Soil_T4_C_Max",
-                    "Soil_T4_C_Min",
-                    "Soil_T4_C_Avg",
-                    "Soil_T8_C_Max",
-                    "Soil_T8_C_Min",
-                    "Soil_T8_C_Avg",
-                    "Soil_T20_C_Max",
-                    "Soil_T20_C_Min",
-                    "Soil_T20_C_Avg",
-                    "VWC2_Avg",
+                    "Soil_T50_C_Max",
+                    "Soil_T50_C_Min",
+                    "Soil_T50_C_Avg",
+                    "Soil_T100_C_Max",
+                    "Soil_T100_C_Min",
+                    "Soil_T100_C_Avg",
+                    "Soil_T200_C_Max",
+                    "Soil_T200_C_Min",
+                    "Soil_T200_C_Avg",
+                    "Soil_T500_C_Max",
+                    "Soil_T500_C_Min",
+                    "Soil_T500_C_Avg",
+                    "VWC50_Avg",
                     "VWC_V_Avg",
-                    "CS616_2_Avg",
+                    "CS616_50_Avg",
                     "CS616_V_Avg",
+                    "Batt_volt_Max",
+                    "Batt_volt_Min",
+                    "Batt_volt_Avg",
+                    "PTemp_Avg",
+                    "ForwardTxX10",
+                    "ReflectTxX10",
+                    "Sta_ID"
+                ]
+            },
+            {
+                "name": "TenMin",
+                "fields": [
+                    "Day_of_Year",
+                    "HourMin",
+                    "RS_kw_m2_Avg",
+                    "RS_kw_m2_Max",
+                    "RS_kw_m2_Min",
+                    "RS_kw_m2_Std",
+                    "PAR_Avg",
+                    "PAR_Max",
+                    "PAR_Min",
+                    "mean_wind_vel",
+                    "mean_wind_vector_mag",
+                    "mean_vector_wind_dir",
+                    "sd_wind_dir",
+                    "WS_ms_Max",
+                    "WS_ms_Min",
+                    "WS_ms_Std",
+                    "AT_C_Max",
+                    "AT_C_Min",
+                    "AT_C_Avg",
+                    "RH_pct_Max",
+                    "RH_pct_Min",
+                    "RH_pct_Avg",
+                    "BP_mB_Avg",
+                    "PCPN_intrvl_Tot",
+                    "PCPN_accumulated",
+                    "RGTemp_C_Avg",
+                    "TC_C_2_Max",
+                    "TC_C_2_Min",
+                    "TC_C_2_Avg",
+                    "TC_C_10_Max",
+                    "TC_C_10_Min",
+                    "TC_C_10_Avg",
+                    "delta_T_C_Max",
+                    "delta_T_C_Min",
+                    "delta_T_C_Avg",
+                    "Soil_T50_C_Max",
+                    "Soil_T50_C_Min",
+                    "Soil_T50_C_Avg",
+                    "Soil_T100_C_Max",
+                    "Soil_T100_C_Min",
+                    "Soil_T100_C_Avg",
+                    "Soil_T200_C_Max",
+                    "Soil_T200_C_Min",
+                    "Soil_T200_C_Avg",
+                    "Soil_T500_C_Max",
+                    "Soil_T500_C_Min",
+                    "Soil_T500_C_Avg",
+                    "VWC50_Avg",
+                    "VWC_V_Avg",
+                    "CS616_50_Avg",
+                    "CS616_V_Avg",
+                    "Batt_volt_Max",
+                    "Batt_volt_Min",
+                    "Batt_volt_Avg",
+                    "PTemp_Avg",
                     "SQMmagnitude_Max",
                     "SQMmagnitude_Min",
                     "SQMmagnitude_Avg",
                     "SQMTempC_Avg",
-                    "batt_volt_Max",
-                    "batt_volt_Min",
-                    "batt_volt_Avg",
-                    "PTemp_Avg",
-                    "Sta_Id"
+                    "Sta_ID"
                 ]
             },
             {
@@ -1532,19 +1639,24 @@
                     "goes_load_offset",
                     "network_power_cycle_time",
                     "par_serial",
-                    "par_cal",
+                    "par_muliti",
                     "par_cal_date",
+                    "par_install_date",
                     "rad_serial",
-                    "rad_cal",
+                    "rad_muliti",
                     "rad_cal_date",
+                    "rad_install_date",
+                    "rain_cal",
                     "ApplyAndRestart"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2018-04-11T08:10:38.43"
     },
     {
         "name": "ucsh_snarl",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:UC_SNARL_HQ_verB.CR1",
         "data_tables": [
             {
                 "name": "TenMin",
@@ -1610,11 +1722,13 @@
                     "Sta_Id"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2017-10-25T14:18:03.32"
     },
     {
         "name": "ucyl_youngerlagoon",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:UC_Younger.CR1",
         "data_tables": [
             {
                 "name": "SatTen",
@@ -1712,11 +1826,13 @@
                     "Sta_Id"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2018-03-13T14:19:16.42"
     },
     {
         "name": "fonr_FortOrd",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:FortOrd_v4.4.CR1",
         "data_tables": [
             {
                 "name": "Audit",
@@ -1820,11 +1936,13 @@
                     "ApplyAndRestart"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2018-02-28T11:13:40.11"
     },
     {
         "name": "ucqr_quailridge",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:UC_Quail Ridge_Field Station.CR1",
         "data_tables": [
             {
                 "name": "SatTen",
@@ -1921,11 +2039,13 @@
                     "LWMWet_Tot"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2018-03-08T17:10:29.86"
     },
     {
         "name": "hipk_bigcreekhighlands",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:HighlandsPk.CR1",
         "data_tables": [
             {
                 "name": "SatTen",
@@ -1975,11 +2095,13 @@
                     "Stat_id"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2013-08-28T08:39:08.42"
     },
     {
         "name": "bcgh_bigcreekgatehouse",
         "organization_slug": "ucnrs",
+        "program_name": "CPU:UC_Big Creek_Entry.CR1",
         "data_tables": [
             {
                 "name": "SatTen",
@@ -2072,21 +2194,25 @@
                     "Sta_Id"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2013-08-22T11:54:04.68"
     },
     {
         "name": "ucsr_stuntranch",
         "organization_slug": "ucnrs",
+        "program_name": "",
         "data_tables": []
     },
     {
         "name": "station_10_wx",
         "organization_slug": "ucnrs",
+        "program_name": "",
         "data_tables": []
     },
     {
         "name": "WSHQ_CR1000",
         "organization_slug": "erczo",
+        "program_name": "CPU:WSHQ.CR1",
         "data_tables": [
             {
                 "name": "AR_HWS",
@@ -2105,11 +2231,13 @@
                     "HWS_WDirection"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2018-03-02T15:08:41.13"
     },
     {
         "name": "GHQ_CR1000",
         "organization_slug": "erczo",
+        "program_name": "CPU:GHQ.CR1",
         "data_tables": [
             {
                 "name": "GHQTable",
@@ -2125,11 +2253,13 @@
                     "batteryVolts"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2014-05-16T08:33:04"
     },
     {
         "name": "WSIC_CR1000",
         "organization_slug": "erczo",
+        "program_name": "CPU:WSIC_2012-10-22.CR1",
         "data_tables": [
             {
                 "name": "WSIC_Table",
@@ -2138,11 +2268,13 @@
                     "PTemp_Avg"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2017-09-26T11:52:50.34"
     },
     {
         "name": "RLL1_2_CR1000",
         "organization_slug": "erczo",
+        "program_name": "CPU:Level1_2.CR1",
         "data_tables": [
             {
                 "name": "Table102",
@@ -2163,11 +2295,13 @@
                     "SoilTL1_"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2017-09-26T16:26:37.35"
     },
     {
         "name": "RML2_2_CR1000",
         "organization_slug": "erczo",
+        "program_name": "CPU:Level2_2.CR1",
         "data_tables": [
             {
                 "name": "Table202",
@@ -2185,11 +2319,13 @@
                     "Well3Temp_C"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2017-09-26T17:20:18.95"
     },
     {
         "name": "RUL3_2_CR1000",
         "organization_slug": "erczo",
+        "program_name": "CPU:Level3_2.CR1",
         "data_tables": [
             {
                 "name": "Table302",
@@ -2204,11 +2340,13 @@
                     "SoilTL3_"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2017-09-27T17:02:13.75"
     },
     {
         "name": "RRL4_1_CR1000",
         "organization_slug": "erczo",
+        "program_name": "CPU:Level4_1_2014-03-11.CR1",
         "data_tables": [
             {
                 "name": "Table401",
@@ -2225,11 +2363,13 @@
                     "Well7Temp_C"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2018-02-01T11:59:12.06"
     },
     {
         "name": "WSAM_CR1000",
         "organization_slug": "erczo",
+        "program_name": "CPU:WSAngeloMeadow.CR1",
         "data_tables": [
             {
                 "name": "AR_RWS",
@@ -2250,11 +2390,13 @@
                     "RWS_CNR_Wm2_Avg"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2018-02-17T14:46:28.31"
     },
     {
         "name": "RLL1_1_CR1000",
         "organization_slug": "erczo",
+        "program_name": "CPU:Level1_1.CR1",
         "data_tables": [
             {
                 "name": "Level101",
@@ -2312,11 +2454,13 @@
                     "erp48"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2017-09-26T16:56:53.93"
     },
     {
         "name": "RML2_1_CR1000",
         "organization_slug": "erczo",
+        "program_name": "CPU:Level2_1.CR1",
         "data_tables": [
             {
                 "name": "Level201",
@@ -2398,11 +2542,13 @@
                     "erp72"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2017-09-26T17:31:48.61"
     },
     {
         "name": "RUL3_1_CR1000",
         "organization_slug": "erczo",
+        "program_name": "CPU:Level3_1_2017-09-27.CR1",
         "data_tables": [
             {
                 "name": "Level301",
@@ -2484,11 +2630,13 @@
                     "erp72"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2017-09-27T17:28:57.49"
     },
     {
         "name": "WSCP_CR1000",
         "organization_slug": "erczo",
+        "program_name": "CPU:ANGELO CWS 060415.CR1",
         "data_tables": [
             {
                 "name": "AR_CWS",
@@ -2509,11 +2657,13 @@
                     "CWSSnowD_SignalQuality"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2015-06-04T14:02:16.79"
     },
     {
         "name": "RML2_3_CR1000",
         "organization_slug": "erczo",
+        "program_name": "CPU:Level2_3.CR1",
         "data_tables": [
             {
                 "name": "Table203",
@@ -2528,11 +2678,13 @@
                     "Well14_ToC"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2017-09-26T17:51:17.1"
     },
     {
         "name": "RUL5_1_CR1000",
         "organization_slug": "erczo",
+        "program_name": "CPU:Level5_1.CR1",
         "data_tables": [
             {
                 "name": "Table501",
@@ -2566,11 +2718,13 @@
                     "Rain_mm_Tot"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2018-02-23T12:57:26.22"
     },
     {
         "name": "WSSM_CR1000",
         "organization_slug": "erczo",
+        "program_name": "CPU:UC_Angelo_v2.CR1",
         "data_tables": [
             {
                 "name": "SatTen",
@@ -2663,11 +2817,13 @@
                     "Sta_Id"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2017-09-25T18:44:01.61"
     },
     {
         "name": "WSSR_CR1000",
         "organization_slug": "erczo",
+        "program_name": "CPU:WSSR.CR1",
         "data_tables": [
             {
                 "name": "Table1",
@@ -2700,11 +2856,13 @@
                     "WSSR_Lvl_m_3"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2018-01-09T16:23:16.78"
     },
     {
         "name": "VMS_CR1000",
         "organization_slug": "erczo",
+        "program_name": "CPU:VMS.CR1",
         "data_tables": [
             {
                 "name": "VMS",
@@ -2783,11 +2941,13 @@
                     "SleeveEC_10"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2017-09-27T11:37:23.73"
     },
     {
         "name": "L6_WSSS",
         "organization_slug": "erczo",
+        "program_name": "CPU:Level 6_2017-09-27.CR1",
         "data_tables": [
             {
                 "name": "CS215s",
@@ -2972,6 +3132,7 @@
                     "Rain_mm_Tot"
                 ]
             }
-        ]
+        ],
+        "program_startdate": "2018-02-01T11:36:29.35"
     }
 ]

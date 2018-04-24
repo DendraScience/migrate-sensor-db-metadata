@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f0ca599e40001a48979",
+  "_id": "5adeac1c6502f5481f5ddfa6",
   "enabled": true,
   "name": "Precipitation Geonor cm SNARL",
   "organization_id": "58db17c424dc720001671378",
@@ -16,7 +16,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucsh_snarl",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"Geonor_PCP\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -37,12 +51,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucsh_snarl",
-      "type": "loggernet.station"
+      "identifier": "GEONOR PRECIP cm",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucsh_snarl",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -54,8 +68,8 @@
     "ds_Variable_Precipitation",
     "dt_Unit_Centimeter"
   ],
-  "created_at": "2018-04-11T15:51:40.710Z",
-  "updated_at": "2018-04-11T15:52:16.817Z",
+  "created_at": "2018-04-24T04:01:32.985Z",
+  "updated_at": "2018-04-24T04:05:32.281Z",
   "tags_info": {
     "resolved_terms": [
       {

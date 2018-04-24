@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2efba599e40001a48754",
+  "_id": "5adeabab6502f57ae65ddd84",
   "description": "Swapped older HMP50 with newer HMP60 on 11-07-2013, by Grant Susner.",
   "enabled": true,
   "name": "Relative Humidity Per Bodega Avg",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucbm_bodega",
+          "fc": "source_goes_tenmin",
+          "sc": "\"time\", \"RH_pct_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Rel Humidity Per Avg",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucbm_bodega",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC036C6",
       "type": "goes.address"
+    },
+    {
+      "identifier": "GOES_TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -52,8 +74,8 @@
     "dt_Unit_Percent",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:23.920Z",
-  "updated_at": "2018-04-11T15:51:59.290Z",
+  "created_at": "2018-04-24T03:59:39.761Z",
+  "updated_at": "2018-04-24T04:03:35.375Z",
   "tags_info": {
     "resolved_terms": [
       {

@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f02a599e40001a48827",
+  "_id": "5adeabd76502f56bc95dde56",
   "description": "Temperature at 2 meters",
   "enabled": true,
   "name": "Air Temp Deg C 2 m Angelo Avg",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucac_angelo",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"TC_C_2_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucac_angelo",
-      "type": "loggernet.station"
+      "identifier": "Air Temp C Avg",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucac_angelo",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -62,8 +76,8 @@
       "value": "2"
     }
   },
-  "created_at": "2018-04-11T15:51:30.248Z",
-  "updated_at": "2018-04-11T15:52:05.987Z",
+  "created_at": "2018-04-24T04:00:23.139Z",
+  "updated_at": "2018-04-24T04:04:19.883Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

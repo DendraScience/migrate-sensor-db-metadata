@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f0da599e40001a48990",
+  "_id": "5adeac216502f575fe5ddfbd",
   "description": "",
   "enabled": true,
   "name": "Precipitation mm BigCreek Whale ",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_whpt_bigcreekwhale",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"PCPN_in_Tot\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "whpt_bigcreekwhale",
-      "type": "loggernet.station"
+      "identifier": "Rainfall mm",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "whpt_bigcreekwhale",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -55,8 +69,8 @@
     "ds_Variable_Precipitation",
     "dt_Unit_Millimeter"
   ],
-  "created_at": "2018-04-11T15:51:41.390Z",
-  "updated_at": "2018-04-11T15:52:17.551Z",
+  "created_at": "2018-04-24T04:01:37.723Z",
+  "updated_at": "2018-04-24T04:05:37.199Z",
   "tags_info": {
     "resolved_terms": [
       {

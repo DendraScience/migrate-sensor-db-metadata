@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ec3a599e40001a48681",
+  "_id": "5adea55c6502f592f25ddcb1",
   "enabled": true,
   "name": "Soil Temp L3ST_0.75",
   "organization_id": "58db17e824dc720001671379",
@@ -16,7 +16,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues2"
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_rul3_2_cr1000",
+          "fc": "source_table302",
+          "sc": "\"time\", \"SoilTL3__9_\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -37,12 +51,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RUL3_2_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Soil Temperature C",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RUL3_2_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table302",
@@ -60,8 +74,8 @@
       "value": "0.75"
     }
   },
-  "created_at": "2018-04-11T15:50:27.174Z",
-  "updated_at": "2018-04-11T15:51:06.050Z",
+  "created_at": "2018-04-24T03:53:44.643Z",
+  "updated_at": "2018-04-24T03:57:56.391Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

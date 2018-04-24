@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f0fa599e40001a489d7",
+  "_id": "5adeac2a6502f508b95ddfe7",
   "description": "Valid Range for Values unknown - only a guess because method is unknown",
   "enabled": true,
   "name": "Snow Depth mm Sagehen Creek Std",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "sagh_sagehen",
-      "type": "loggernet.station"
+      "identifier": "Snow Depth in.",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "sagh_sagehen",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -55,8 +55,8 @@
     "ds_Variable_Depth",
     "dt_Unit_Inch"
   ],
-  "created_at": "2018-04-11T15:51:43.515Z",
-  "updated_at": "2018-04-11T15:52:19.740Z",
+  "created_at": "2018-04-24T04:01:46.283Z",
+  "updated_at": "2018-04-24T04:05:46.302Z",
   "tags_info": {
     "resolved_terms": [
       {

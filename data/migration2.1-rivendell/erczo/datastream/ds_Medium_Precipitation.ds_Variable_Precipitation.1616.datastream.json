@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eada599e40001a483c0",
+  "_id": "5adea4cb6502f55d4c5dd9f0",
   "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": true,
   "name": "Rainfall mm RG1 30min",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RLL1_2_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Rainfall mm",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RLL1_2_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table102",
@@ -55,10 +55,10 @@
     "ds_Variable_Precipitation",
     "dt_Unit_Millimeter"
   ],
-  "created_at": "2018-04-11T15:50:05.830Z",
-  "updated_at": "2018-04-11T15:50:43.728Z",
+  "created_at": "2018-04-24T03:48:59.244Z",
+  "updated_at": "2018-04-24T03:55:25.469Z",
   "derived_from_datastream_ids": [
-    "5ace2eaea599e40001a483e1"
+    "5adea4d26502f570cb5dda11"
   ],
   "tags_info": {
     "resolved_terms": [

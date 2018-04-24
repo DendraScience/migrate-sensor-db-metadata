@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ea8a599e40001a48318",
+  "_id": "5adea4a86502f5668b5dd948",
   "enabled": true,
   "name": "Relative Humidity - WSCP",
   "organization_id": "58db17e824dc720001671379",
@@ -16,7 +16,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues2"
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_wscp_cr1000",
+          "fc": "source_ar_cws",
+          "sc": "\"time\", \"CWS_AirRH\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -37,12 +51,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSCP_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Rel Humidity Perc",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSCP_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "AR_CWS",
@@ -54,8 +68,8 @@
     "ds_Variable_RelativeHumidity",
     "dt_Unit_Percent"
   ],
-  "created_at": "2018-04-11T15:50:00.944Z",
-  "updated_at": "2018-04-11T15:50:38.438Z",
+  "created_at": "2018-04-24T03:47:51.158Z",
+  "updated_at": "2018-04-24T03:54:49.814Z",
   "tags_info": {
     "resolved_terms": [
       {

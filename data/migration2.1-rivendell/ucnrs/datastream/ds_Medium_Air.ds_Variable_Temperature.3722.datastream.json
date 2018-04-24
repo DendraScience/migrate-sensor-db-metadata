@@ -1,7 +1,7 @@
 {
-  "_id": "5ace2f04a599e40001a4886c",
+  "_id": "5adeabe56502f5b1ee5dde9b",
   "description": "Temperature at 2 meters",
-  "enabled": true,
+  "enabled": false,
   "name": "Air Temp Deg C 2 m McLaughlin Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucmc_mclaughlin",
-      "type": "loggernet.station"
+      "identifier": "Air Temp C Avg",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucmc_mclaughlin",
+      "type": "loggernet.station"
     }
   ],
   "tags": [
@@ -58,8 +58,8 @@
       "value": "2"
     }
   },
-  "created_at": "2018-04-11T15:51:32.374Z",
-  "updated_at": "2018-04-11T15:52:08.248Z",
+  "created_at": "2018-04-24T04:00:37.568Z",
+  "updated_at": "2018-04-24T04:04:34.946Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

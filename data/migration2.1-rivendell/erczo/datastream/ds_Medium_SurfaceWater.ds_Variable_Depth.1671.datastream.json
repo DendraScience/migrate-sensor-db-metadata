@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ec4a599e40001a486b7",
+  "_id": "5adea5676502f543555ddce7",
   "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": true,
   "name": "GageHeight Inside GHQ 30min",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "GHQ_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Gage Height meters",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "GHQ_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "GHQTable",
@@ -55,10 +55,10 @@
     "ds_Variable_Depth",
     "dt_Unit_Meter"
   ],
-  "created_at": "2018-04-11T15:50:28.752Z",
-  "updated_at": "2018-04-11T15:51:07.709Z",
+  "created_at": "2018-04-24T03:54:06.094Z",
+  "updated_at": "2018-04-24T03:58:07.886Z",
   "derived_from_datastream_ids": [
-    "5ace2ec4a599e40001a486b9"
+    "5adea5686502f516c95ddce9"
   ],
   "tags_info": {
     "resolved_terms": [

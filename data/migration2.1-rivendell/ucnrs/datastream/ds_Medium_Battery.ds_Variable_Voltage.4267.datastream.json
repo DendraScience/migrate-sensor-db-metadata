@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f0aa599e40001a4892f",
+  "_id": "5adeac0d6502f5076d5ddf5b",
   "enabled": false,
   "name": "Battery Voltage volts Jepson Min",
   "organization_id": "58db17c424dc720001671378",
@@ -38,12 +38,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Battery Voltage Min",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucjp_jepson",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC0102A",
       "type": "goes.address"
+    },
+    {
+      "identifier": "GOES_TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -52,8 +60,8 @@
     "dt_Unit_Volt",
     "ds_Aggregate_Minimum"
   ],
-  "created_at": "2018-04-11T15:51:38.591Z",
-  "updated_at": "2018-04-11T15:52:14.536Z",
+  "created_at": "2018-04-24T04:01:17.626Z",
+  "updated_at": "2018-04-24T04:05:16.391Z",
   "tags_info": {
     "resolved_terms": [
       {

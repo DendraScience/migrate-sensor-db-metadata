@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f0fa599e40001a489db",
+  "_id": "5adeac2b6502f5e8dd5ddfeb",
   "description": "Range of values unknown since method type is also unknown, values entered are only a guess",
   "enabled": true,
   "name": "Snow Temp Deg C Sagehen Creek Avg",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "sagh_sagehen",
-      "type": "loggernet.station"
+      "identifier": "Snow Temp Deg C Avg",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "sagh_sagehen",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -56,8 +56,8 @@
     "dt_Unit_DegreeCelsius",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:43.626Z",
-  "updated_at": "2018-04-11T15:52:19.873Z",
+  "created_at": "2018-04-24T04:01:47.077Z",
+  "updated_at": "2018-04-24T04:05:47.133Z",
   "tags_info": {
     "resolved_terms": [
       {

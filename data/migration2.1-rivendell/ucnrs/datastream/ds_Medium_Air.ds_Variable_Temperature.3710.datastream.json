@@ -1,6 +1,6 @@
 {
-  "_id": "5ace2f04a599e40001a48867",
-  "enabled": true,
+  "_id": "5adeabe46502f5781b5dde96",
+  "enabled": false,
   "name": "Air Temp Deg C McLaughlin Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -37,12 +37,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucmc_mclaughlin",
-      "type": "loggernet.station"
+      "identifier": "Air Temp C Max",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucmc_mclaughlin",
+      "type": "loggernet.station"
     }
   ],
   "tags": [
@@ -51,8 +51,8 @@
     "dt_Unit_DegreeCelsius",
     "ds_Aggregate_Maximum"
   ],
-  "created_at": "2018-04-11T15:51:32.225Z",
-  "updated_at": "2018-04-11T15:52:08.092Z",
+  "created_at": "2018-04-24T04:00:36.548Z",
+  "updated_at": "2018-04-24T04:04:33.863Z",
   "tags_info": {
     "resolved_terms": [
       {

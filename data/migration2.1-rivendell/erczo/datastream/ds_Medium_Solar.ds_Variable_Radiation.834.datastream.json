@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ec4a599e40001a486b0",
+  "_id": "5adea5666502f598ad5ddce0",
   "description": "Device has been in place since weather station started.  This datastream changes recorded units from kiloWatts/meter^2 to Watts/meter^2.  ",
   "enabled": true,
   "name": "Total Solar Radiation W WSCP",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues2"
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_wscp_cr1000",
+          "fc": "source_ar_cws",
+          "sc": "\"time\", \"CWS_SlrW\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSCP_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Solar Radiation Total W/m^2",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSCP_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "AR_CWS",
@@ -55,8 +69,8 @@
     "ds_Variable_Radiation",
     "dt_Unit_WattPerSquareMeter"
   ],
-  "created_at": "2018-04-11T15:50:28.558Z",
-  "updated_at": "2018-04-11T15:51:07.507Z",
+  "created_at": "2018-04-24T03:54:03.321Z",
+  "updated_at": "2018-04-24T03:58:06.413Z",
   "tags_info": {
     "resolved_terms": [
       {

@@ -94,7 +94,6 @@ for(var i=0;i<ds_files.length;i++) {
 	if (ds_filename.match(/datastream.json$/)) {
 		ds_modified = true
 		ds_count++
-		ds_processed++
 		ds_json = JSON.parse(fs.readFileSync(path+ds_filename))
 		dsname = ds_json.name
 		tag = parse_tags(ds_json)
@@ -225,7 +224,7 @@ for(var i=0;i<ds_files.length;i++) {
 			}
 			// orientation
 			if(dsname.match(/horiz/)) {
-				ds_json.attributes.orientation = "horizontal"
+				ds_json.attributes.orientation =  "horizontal"
 			} 
 			if(dsname.match(/vert/)) {
 				ds_json.attributes.orientation = "vertical"
@@ -436,22 +435,22 @@ for(var i=0;i<ds_files.length;i++) {
 		// FINISHED WITH ATTRIBUTE MODIFICATION
 		} else {
 			//console.log(ds_filename,"has no attributes that need to be modified.")
-			ds_processed--
+			ds_no_match++
 			ds_modified = false
 		}
 		// Write JSON back to file
 		if(ds_modified == true) {
+			ds_processed++
 			// Write JSON file
 			ds_json_string = JSON.stringify(ds_json,null,2)
 			//console.log('Updating Datastream',ds_filename)
 			fs.writeFileSync(path+ds_filename,ds_json_string,'utf-8')
 		}
 	} else {
-		ds_no_match++
 		console.log("Not Datastream JSON file!",ds_filename)
 	}
 }
-console.log('DONE! '+ds_processed+' Datastreams processed out of',ds_count,'with',ds_no_match,'not matched.')
+console.log('DONE! '+ds_processed+' Datastreams added attributes out of',ds_count,'with',ds_no_match,'not altered.')
 console.log("	ERPs found:",erp_count)
 console.log("	VMS found:",vms_count)
 console.log("	Soil moisture found:",soilmoisture_count)

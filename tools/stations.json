@@ -28,7 +28,8 @@
 		    "_id" : "58e68cabdf5ce600012602b3",
 		    "name" : "Angelo Reserve South Meadow",
 		    "station_id" : "335",
-		    "loggernet":"ucac_angelo"
+		    "loggernet":"ucac_angelo",
+		    "table_type":"Core8_TenMin"
 		},
 
 
@@ -36,7 +37,8 @@
 		    "_id" : "58e68cabdf5ce600012602b4",
 		    "name" : "Anza Borrego",
 		    "station_id" : "357",
-			  "loggernet":"ucab_anzaborrego"  
+			  "loggernet":"ucab_anzaborrego",
+			  "table_type":"Core8_TenMin"  
 		},
 
 
@@ -51,7 +53,8 @@
 		    "_id" : "58e68cabdf5ce600012602b5",
 		    "name" : "BigCreek Gatehouse",
 		    "station_id" : "348",
-		    "loggernet":"bcgh_bigcreekgatehouse"
+		    "loggernet":"bcgh_bigcreekgatehouse",
+		    "table_type":"Core8_TenMin"
 		},
 
 
@@ -60,7 +63,7 @@
 		    "name" : "BigCreek Highlands",
 		    "station_id" : "347",
 		    "loggernet":"hipk_bigcreekhighlands",
-		    "fieldname_source":"TenMin"
+		    "table_type":"TenMin"
 		},
 
 
@@ -69,7 +72,7 @@
 		    "name" : "BigCreek Whale",
 		    "station_id" : "346",
 		    "loggernet":"whpt_bigcreekwhale",
-		    "fieldname_source":"TenMin"
+		    "table_type":"TenMin"
 		},
 
 
@@ -77,7 +80,8 @@
 		    "_id" : "58e68cabdf5ce600012602b8",
 		    "name" : "Blue Oak Ranch",
 		    "station_id" : "334",
-		    "loggernet":"ucbo_blueoak"
+		    "loggernet":"ucbo_blueoak",
+		    "table_type":"Core8_TenMin"
 		},
 
 		{
@@ -86,7 +90,7 @@
 		    "station_id" : "336",
 		    "loggernet":"ucbm_bodega",
 		    "goes":"BEC036C6",
-		    "fieldname_source":"GOES_TenMin",
+		    "table_type":"GOES_TenMin",
 		    "core8_startdate":"2018-03-12"
 		},
 
@@ -96,7 +100,7 @@
 		    "station_id" : "338",
 		    "loggernet":"ucbu_burns",
 		    "goes":"BEC025B0",
-		    "fieldname_source":"GOES_TenMin"
+		    "table_type":"GOES_TenMin"
 		},
 
 		{
@@ -112,7 +116,7 @@
 		    "station_id" : "339",
 		    "loggernet":"ucca_chickering",
 		    "goes":"BEC0035C",
-		    "fieldname_source":"SatTen"
+		    "table_type":"SatTen"
 		},
 
 		{
@@ -126,21 +130,24 @@
 		    "_id" : "58e68cabdf5ce600012602bd",
 		    "name" : "Deep Canyon",
 		    "station_id" : "337",
-		    "loggernet":"ucde_boyddeepcanyon"
+		    "loggernet":"ucde_boyddeepcanyon",
+		    "table_type":"Core8_TenMin"
 		},
 
 		{
 		    "_id" : "58e68cabdf5ce600012602be",
 		    "name" : "Elliott",
 		    "station_id" : "341",
-		    "loggernet":"ucel_elliotchaparral"
+		    "loggernet":"ucel_elliotchaparral",
+		    "table_type":"Core8_TenMin"
 		},
 
 		{
 		    "_id" : "58e68cabdf5ce600012602bf",
 		    "name" : "Fort Ord",
 		    "station_id" : "342",
-		    "loggernet":"fonr_FortOrd"
+		    "loggernet":"fonr_FortOrd",
+		    "table_type":"Core8_TenMin"
 		},
 
 		{
@@ -149,14 +156,15 @@
 		    "station_id" : "359",
 		    "loggernet":"ucgr_granites",
 		    "goes":"BEC01EF8",
-		    "fieldname_source":"GOES_TenMin"
+		    "table_type":"GOES_TenMin"
 		},
 
 		{
 		    "_id" : "58e68cabdf5ce600012602c1",
 		    "name" : "Hastings",
 		    "station_id" : "333",
-		    "loggernet":"ucha_hastings"
+		    "loggernet":"ucha_hastings",
+		    "table_type":"Core8_TenMin"
 		},
 
 		{
@@ -170,7 +178,8 @@
 		    "_id" : "58e68cacdf5ce600012602c3",
 		    "name" : "James",
 		    "station_id" : "343",
-		    "loggernet":"ucja_james"
+		    "loggernet":"ucja_james",
+		    "table_type":"Core8_TenMin"
 		},
 
 		{
@@ -179,35 +188,40 @@
 		    "station_id" : "344",
 		    "loggernet":"ucjp_jepson",
 		    "goes":"BEC0102A",
-		    "fieldname_source":"GOES_TenMin"
+		    "table_type":"GOES_TenMin"
 		},
 
 		{
 		    "_id" : "58e68cacdf5ce600012602c5",
 		    "name" : "McLaughlin",
 		    "station_id" : "350",
-		    "loggernet": "ucmc_mclaughlin"
+		    "loggernet": "ucmc_mclaughlin",
+		    "table_type":"TenMin",
+		    "enabled":false
 		},
 
 		{
 		    "_id" : "58e68cacdf5ce600012602c6",
 		    "name" : "Motte",
 		    "station_id" : "351",
-		    "loggernet":"ucmo_motterimrock"
+		    "loggernet":"ucmo_motterimrock",
+		    "table_type":"Core8_TenMin"
 		},
 
 		{
 		    "_id": "5a37e71ba546db0001547681",
 		    "name": "Quail Ridge",
 		    "station_id" : "352",
-		    "loggernet":"ucqr_quailridge"
+		    "loggernet":"ucqr_quailridge",
+		    "table_type":"Core8_TenMin"
 		},
 		
 		{
 		    "_id" : "58e68cacdf5ce600012602c7",
 		    "name" : "Rancho Marino",
 		    "station_id" : "345",
-		    "loggernet":"ucrm_norrisranchomarino"
+		    "loggernet":"ucrm_norrisranchomarino",
+		    "table_type":"Core8_TenMin"
 		},
 
 		{
@@ -291,7 +305,8 @@
 		    "_id" : "5a9cd13b18af1700013b110e",
 		    "name" : "Riv Level 6_1 Weather",
 		    "station_id" : "365",
-		    "loggernet":"L6_WSSS"
+		    "loggernet":"L6_WSSS",
+		  	"enabled" : false  
 		},
 
 		{
@@ -299,7 +314,7 @@
 		    "name" : "Sagehen Creek",
 		    "station_id" : "364",
 		    "loggernet":"sagh_sagehen",
-		    "fieldname_source":"TenMin"
+		    "table_type":"TenMin"
 		},
 
 		{
@@ -320,7 +335,8 @@
 		    "_id" : "58e68cacdf5ce600012602d3",
 		    "name" : "Santa Cruz Island",
 		    "station_id" : "354",
-		    "loggernet":"ucsc_santacruzisle"
+		    "loggernet":"ucsc_santacruzisle",
+		    "table_type":"Core8_TenMin"
 		},
 
 		{
@@ -341,14 +357,16 @@
 		    "_id" : "58e68cacdf5ce600012602d6",
 		    "name" : "Sedgwick",
 		    "station_id" : "355",
-		    "loggernet":"ucse_sedgwick"
+		    "loggernet":"ucse_sedgwick",
+		    "table_type":"Core8_TenMin"
 		},
 
 		{
 		    "_id" : "58e68cacdf5ce600012602d7",
 		    "name" : "SNARL",
 		    "station_id" : "356",
-		    "loggernet":"ucsh_snarl"
+		    "loggernet":"ucsh_snarl",
+		    "table_type":"Core8_TenMin"
 		},
 
 		{
@@ -364,8 +382,9 @@
 		    "station_id" : "358",
 		    "loggernet":"ucsr_stuntranch",
 		    "goes":"BEC036C6",
-		    "fieldname_source":"GOES_TenMin",
-		    "core8_startdate":"2018-03-18"
+		    "table_type":"GOES_TenMin",
+		    "core8_startdate":"2018-03-18",
+		    "static_rules": []
 		},
 
 		{
@@ -387,21 +406,21 @@
 		    "_id" : "58e68cacdf5ce600012602dc",
 		    "name" : "WhiteMt Barcroft",
 		    "station_id" : "361",
-		    "fieldname_source":"DRI"
+		    "table_type":"DRI"
 		},
 
 		{
 		    "_id" : "58e68cacdf5ce600012602dd",
 		    "name" : "WhiteMt Crooked",
 		    "station_id" : "362",
-		    "fieldname_source":"DRI"
+		    "table_type":"DRI"
 		},
 
 		{
 		    "_id" : "58e68caddf5ce600012602de",
 		    "name" : "WhiteMt Summit",
 		    "station_id" : "360",
-		    "fieldname_source":"DRI"
+		    "table_type":"DRI"
 		},
 
 		{
@@ -415,7 +434,8 @@
 		    "_id" : "58e68caddf5ce600012602e0",
 		    "name" : "Younger",
 		    "station_id" : "363",
-		    "loggernet":"ucyl_youngerlagoon"
+		    "loggernet":"ucyl_youngerlagoon",
+		    "table_type":"Core8_TenMin"
 		}
 	]
 }

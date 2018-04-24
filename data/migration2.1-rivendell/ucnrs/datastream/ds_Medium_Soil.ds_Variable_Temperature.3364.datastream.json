@@ -1,8 +1,8 @@
 {
-  "_id": "5ace2f11a599e40001a48a27",
+  "_id": "5adeac416502f50f955de057",
   "description": "",
   "enabled": true,
-  "name": "Soil Temp Deg C 50 mm Angelo Avg",
+  "name": "Soil Temp Deg C 0.05 m Angelo Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucac_angelo",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"Soil_T50_C_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucac_angelo",
-      "type": "loggernet.station"
+      "identifier": "Soil Temp C Avg",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucac_angelo",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -59,17 +73,17 @@
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
-      "value": 0.05
+      "value": "0.05"
     }
   },
-  "created_at": "2018-04-11T15:51:45.922Z",
-  "updated_at": "2018-04-11T15:52:22.383Z",
+  "created_at": "2018-04-24T04:02:09.488Z",
+  "updated_at": "2018-04-24T04:06:10.283Z",
   "attributes_info": {
     "sort": {
-      "value1": 0.05,
+      "value1": 0,
       "value2": 0
     },
-    "text": "0.05"
+    "text": ""
   },
   "tags_info": {
     "resolved_terms": [
@@ -135,7 +149,7 @@
     },
     {
       "key": "att",
-      "str": "538b5a461e9814aa2ce4c04cb37da50939de4b2c"
+      "str": "ca096e49c67966f366a80dfc7d4b572f44661bf4"
     },
     {
       "key": "geo",

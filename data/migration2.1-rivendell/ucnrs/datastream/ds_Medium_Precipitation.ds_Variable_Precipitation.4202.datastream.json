@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f0ea599e40001a489b0",
+  "_id": "5adeac286502f59c9a5ddfdd",
   "description": "Upper valid value range is only a guess - this is a derived DRI variable",
   "enabled": true,
   "name": "Precipitation mm Fort Ord Cumulative",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_fonr_fortord",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"PCPN_accumulated\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "fonr_FortOrd",
-      "type": "loggernet.station"
+      "identifier": "Rainfall Cumulative mm",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "fonr_FortOrd",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -56,8 +70,8 @@
     "dt_Unit_Millimeter",
     "ds_Aggregate_Cumulative"
   ],
-  "created_at": "2018-04-11T15:51:42.373Z",
-  "updated_at": "2018-04-11T15:52:18.492Z",
+  "created_at": "2018-04-24T04:01:44.241Z",
+  "updated_at": "2018-04-24T04:05:44.122Z",
   "tags_info": {
     "resolved_terms": [
       {

@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2efda599e40001a48796",
+  "_id": "5adeabb96502f585a55dddc6",
   "enabled": true,
   "name": "Wind Vector Speed m s 100 ft Sagehen Creek",
   "organization_id": "58db17c424dc720001671378",
@@ -37,12 +37,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "sagh_sagehen",
-      "type": "loggernet.station"
+      "identifier": "Wind Vector Speed m s",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "sagh_sagehen",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -54,8 +54,8 @@
     "ds_Variable_Speed",
     "dt_Unit_MeterPerSecond"
   ],
-  "created_at": "2018-04-11T15:51:25.880Z",
-  "updated_at": "2018-04-11T15:52:01.456Z",
+  "created_at": "2018-04-24T03:59:53.431Z",
+  "updated_at": "2018-04-24T04:03:49.449Z",
   "tags_info": {
     "resolved_terms": [
       {

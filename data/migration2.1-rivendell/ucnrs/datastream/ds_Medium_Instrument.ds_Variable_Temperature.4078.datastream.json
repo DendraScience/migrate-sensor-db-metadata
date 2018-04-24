@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f0ca599e40001a48969",
+  "_id": "5adeac196502f5d2a15ddf96",
   "description": "",
   "enabled": true,
   "name": "Datalogger Panel Temp Deg C WhiteMt Summit ",
@@ -38,17 +38,18 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "Logger Temp c",
+      "type": "odm.stations.VariableCode"
     }
   ],
   "tags": [
     "ds_Medium_Instrument",
     "ds_Variable_Temperature",
-    "dt_Unit_DegreeCelsius"
+    "dt_Unit_DegreeCelsius",
+    "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:40.254Z",
-  "updated_at": "2018-04-11T15:52:16.309Z",
+  "created_at": "2018-04-24T04:01:29.672Z",
+  "updated_at": "2018-04-24T04:05:28.885Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -72,12 +73,19 @@
         "scheme_priority": 10,
         "vocabulary_id": "dt-unit",
         "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
       }
     ],
     "scheme_refs": [
       {
         "_id": "ds",
-        "tag_count": 2
+        "tag_count": 3
       },
       {
         "_id": "dt",
@@ -93,6 +101,9 @@
       },
       {
         "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
       }
     ]
   },
@@ -111,7 +122,7 @@
     },
     {
       "key": "tag",
-      "str": "ade9a3c67024faaf9fac585305ff0e89f68a72f8",
+      "str": "a00cd78ae70ac32f48c827ab8787ce423d25e589",
       "scheme_id": "ds"
     },
     {

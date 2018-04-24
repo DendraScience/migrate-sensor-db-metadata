@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f19a599e40001a48b13",
+  "_id": "5adeac726502f5d7755de143",
   "description": "",
   "enabled": true,
   "name": "Total Solar Radiation W m2 Bodega Avg",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucbm_bodega",
+          "fc": "source_goes_tenmin",
+          "sc": "\"time\", \"RS_kw_m2_Avg\"*1000 as \"RS_w_m2_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Solar Radiation Avg W/m^2",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucbm_bodega",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC036C6",
       "type": "goes.address"
+    },
+    {
+      "identifier": "GOES_TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -52,8 +74,8 @@
     "dt_Unit_WattPerSquareMeter",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:53.319Z",
-  "updated_at": "2018-04-11T15:52:30.068Z",
+  "created_at": "2018-04-24T04:02:58.731Z",
+  "updated_at": "2018-04-24T04:07:01.787Z",
   "tags_info": {
     "resolved_terms": [
       {

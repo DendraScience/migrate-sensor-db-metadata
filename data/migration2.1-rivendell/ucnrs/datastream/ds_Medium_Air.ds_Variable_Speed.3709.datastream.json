@@ -1,6 +1,6 @@
 {
-  "_id": "5ace2effa599e40001a487c7",
-  "enabled": true,
+  "_id": "5adeabc36502f5fb8f5dddf7",
+  "enabled": false,
   "name": "Wind Speed m s McLaughlin Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -37,12 +37,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucmc_mclaughlin",
-      "type": "loggernet.station"
+      "identifier": "Wind Speed Min MS",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucmc_mclaughlin",
+      "type": "loggernet.station"
     }
   ],
   "tags": [
@@ -51,8 +51,8 @@
     "dt_Unit_MeterPerSecond",
     "ds_Aggregate_Minimum"
   ],
-  "created_at": "2018-04-11T15:51:27.322Z",
-  "updated_at": "2018-04-11T15:52:02.957Z",
+  "created_at": "2018-04-24T04:00:03.533Z",
+  "updated_at": "2018-04-24T04:03:59.925Z",
   "tags_info": {
     "resolved_terms": [
       {

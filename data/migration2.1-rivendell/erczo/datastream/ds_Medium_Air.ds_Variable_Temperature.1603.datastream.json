@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaaa599e40001a4833a",
+  "_id": "5adea4af6502f54e775dd96a",
   "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": true,
   "name": "Air Temp WSCP 30min",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSCP_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Air Temp C",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSCP_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "AR_CWS",
@@ -55,10 +55,10 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-04-11T15:50:02.062Z",
-  "updated_at": "2018-04-11T15:50:39.534Z",
+  "created_at": "2018-04-24T03:48:06.055Z",
+  "updated_at": "2018-04-24T03:54:56.996Z",
   "derived_from_datastream_ids": [
-    "5ace2eaba599e40001a48360"
+    "5adea4b76502f560665dd990"
   ],
   "tags_info": {
     "resolved_terms": [

@@ -1,6 +1,6 @@
 {
-  "_id": "5ace2efca599e40001a48768",
-  "enabled": true,
+  "_id": "5adeabaf6502f596a65ddd98",
+  "enabled": false,
   "name": "Relative Humidity Per McLaughlin Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -37,12 +37,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucmc_mclaughlin",
-      "type": "loggernet.station"
+      "identifier": "Rel Humidity Per Avg",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucmc_mclaughlin",
+      "type": "loggernet.station"
     }
   ],
   "tags": [
@@ -51,8 +51,8 @@
     "dt_Unit_Percent",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:24.507Z",
-  "updated_at": "2018-04-11T15:51:59.916Z",
+  "created_at": "2018-04-24T03:59:43.901Z",
+  "updated_at": "2018-04-24T04:03:39.609Z",
   "tags_info": {
     "resolved_terms": [
       {

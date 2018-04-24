@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f05a599e40001a48895",
+  "_id": "5adeabee6502f524355ddec4",
   "description": "",
   "enabled": true,
   "name": "Air Temp Delta Deg C 10m-2m Sedgwick Min",
@@ -26,7 +26,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucse_sedgwick",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"delta_T_C_Min\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -47,12 +61,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucse_sedgwick",
-      "type": "loggernet.station"
+      "identifier": "Air Temp Delta C Min",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucse_sedgwick",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -65,8 +79,8 @@
     "dt_Unit_DegreeCelsius",
     "ds_Aggregate_Minimum"
   ],
-  "created_at": "2018-04-11T15:51:33.658Z",
-  "updated_at": "2018-04-11T15:52:09.584Z",
+  "created_at": "2018-04-24T04:00:46.167Z",
+  "updated_at": "2018-04-24T04:04:43.814Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

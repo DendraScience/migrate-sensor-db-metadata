@@ -1,7 +1,7 @@
 {
-  "_id": "5ace2f09a599e40001a48906",
+  "_id": "5adeac056502f55f135ddf32",
   "description": "",
-  "enabled": true,
+  "enabled": false,
   "name": "Battery Voltage volts McLaughlin Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucmc_mclaughlin",
-      "type": "loggernet.station"
+      "identifier": "Battery Voltage Avg",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucmc_mclaughlin",
+      "type": "loggernet.station"
     }
   ],
   "tags": [
@@ -52,8 +52,8 @@
     "dt_Unit_Volt",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:37.290Z",
-  "updated_at": "2018-04-11T15:52:13.252Z",
+  "created_at": "2018-04-24T04:01:09.220Z",
+  "updated_at": "2018-04-24T04:05:07.524Z",
   "tags_info": {
     "resolved_terms": [
       {

@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ec5a599e40001a486c0",
+  "_id": "5adea5696502f5ee605ddcf0",
   "description": "cs450 replaced by cs451",
   "enabled": true,
   "name": "Well 15 Pressure psi",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues2"
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_rul5_1_cr1000",
+          "fc": "source_table501",
+          "sc": "\"time\", \"Well15_psi\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RUL5_1_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Water Pressure psi",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RUL5_1_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table501",
@@ -69,8 +83,8 @@
       "value": "28.38"
     }
   },
-  "created_at": "2018-04-11T15:50:29.007Z",
-  "updated_at": "2018-04-11T15:51:07.974Z",
+  "created_at": "2018-04-24T03:54:09.622Z",
+  "updated_at": "2018-04-24T03:58:09.507Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

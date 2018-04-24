@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f1aa599e40001a48b40",
+  "_id": "5adeac7b6502f5d6eb5de170",
   "description": "",
   "enabled": true,
   "name": "Total Solar Radiation W m2 WhiteMt Summit Avg",
@@ -38,8 +38,8 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "Solar Radiation Avg W/m^2",
+      "type": "odm.stations.VariableCode"
     }
   ],
   "tags": [
@@ -48,8 +48,8 @@
     "dt_Unit_WattPerSquareMeter",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:54.745Z",
-  "updated_at": "2018-04-11T15:52:31.393Z",
+  "created_at": "2018-04-24T04:03:07.935Z",
+  "updated_at": "2018-04-24T04:07:11.410Z",
   "tags_info": {
     "resolved_terms": [
       {

@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eb1a599e40001a48432",
+  "_id": "5adea4e26502f53c675dda62",
   "enabled": true,
   "name": "Leaf Wetness mV WSSR",
   "organization_id": "58db17e824dc720001671379",
@@ -16,7 +16,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues2"
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_wssr_cr1000",
+          "fc": "source_table1",
+          "sc": "\"time\", \"WSSR_LWmV\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -37,12 +51,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSSR_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Dielectric",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSSR_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table1",
@@ -54,8 +68,8 @@
     "ds_Variable_DielectricStrength",
     "dt_Unit_Dimensionless"
   ],
-  "created_at": "2018-04-11T15:50:09.178Z",
-  "updated_at": "2018-04-11T15:50:47.425Z",
+  "created_at": "2018-04-24T03:49:45.150Z",
+  "updated_at": "2018-04-24T03:55:49.755Z",
   "tags_info": {
     "resolved_terms": [
       {

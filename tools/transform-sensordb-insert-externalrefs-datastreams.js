@@ -34,7 +34,7 @@ console.log("\n Datastreams External References Inserter DIR:",path)
 
 // Load static list of stations
 stations = JSON.parse(fs.readFileSync("stations.json"))
-stations_loggernet = JSON.parse(fs.readFileSync("stations_loggernet.json"))
+//stations_loggernet = JSON.parse(fs.readFileSync("stations_loggernet.json"))
 console.log('number of stations:',stations.list.length)
 
 
@@ -78,7 +78,18 @@ for(var i=0;i<ds_files.length;i++) {
 			// Update "enabled" status to false if station is innactive
 			if(typeof station.enabled !== 'undefined' && station.enabled == false) {
 				ds_json.enabled = false
+				console.log(ds_json.name," station is innactive. setting datastream enabled:false.")
 			}  
+
+			// Some datastreams should be disabled. 
+			odm_datastream_id = tr.get_external_ref(ds_json,"odm.datastreams.DatastreamID")
+			datastreams_to_disable = [3145,3137,3128,3592,4080,4104,4105,4188,4189,4312,4313,4314]
+			for (var j=0;j<datastreams_to_disable.length;j++) {
+				if(odm_datastream_id == datastreams_to_disable[j]) {
+					ds_json.enabled = false
+					console.log(ds_json.name,"enabled:",ds_json.enabled)
+				}
+			}
 
 			// Update external references for loggernet and goes
 			// LoggerNet station name for parent station
@@ -88,7 +99,9 @@ for(var i=0;i<ds_files.length;i++) {
 			}
 			
 			// LoggerNet station ldmp or goes for parent station
-			if(typeof station.goes === 'undefined') {
+			if(station.table_type == "DRI") {
+				console.log(ds_json.name,"is managed by DRI. No ldmp or GOES.")
+			}else if(typeof station.goes === 'undefined' && station.enabled == true) {
 				if(org_slug == "erczo") {
 					ldmp = "208.186.56.6:1024"
 				} else if(org_slug == "ucnrs" || org_slug == "sagehen") {
@@ -100,48 +113,42 @@ for(var i=0;i<ds_files.length;i++) {
 					//console.log('\texternal_refs:loggernet.ldmp:',ldmp)
 					ds_json = tr.update_external_ref(ds_json,"loggernet.ldmp",ldmp)
 				}
-			} else {
+			} else if(typeof station.goes !== 'undefined') {
 				//console.log('\texternal_refs:goes.address:',station.goes)
 				ds_json = tr.update_external_ref(ds_json,"goes.address",station.goes)
+			} else {
+				console.log('NO SOURCE FOUND! Datastream is orphaned.',ds_json.name)
 			}
 
 			// Add Data Table to external references
-			if(typeof station.loggernet !== 'undefined') {
+			if(station.table_type == "DRI") {
+				console.log(ds_json.name,"is managed by DRI. No logger data tables.")
+			} else if(typeof station.goes !== 'undefined') {
+				ds_json = tr.update_external_ref(ds_json,"loggernet.table",station.table_type)
+			} else if(typeof tr.get_loggernet_station(station.loggernet) !== 'undefined')  {
 				lstation = tr.get_loggernet_station(station.loggernet)
-				if(typeof lstation !== 'undefined') {
-					table_str = ""
-					// Only one data table makes life simple. Assign
-					if(lstation.data_tables.length == 1) {
-						ds_json = tr.update_external_ref(ds_json,"loggernet.table",lstation.data_tables[0].name)
-						//console.log("\texternal_refs.loggernet.table:",lstation.data_tables[0].name)
-					} else {
-						// Multiple tables requires some logic to choose the right one
-						// GOES satellite tables are one of two: SatTen for old code and GOES_TenMin for new.
-						if(typeof station.goes !== 'undefined') {
-							if(tr.find_table(lstation.data_tables,"SatTen")) {
-								ds_json = tr.update_external_ref(ds_json,"loggernet.table","SatTen")
-								//console.log("\texternal_refs.loggernet.table: SatTen")
-							} else if(tr.find_table(lstation.data_tables,"GOES_TenMin")) {
-								ds_json = tr.update_external_ref(ds_json,"loggernet.table","GOES_TenMin")
-								//console.log("\texternal_refs.loggernet.table: GOES_TenMin")
-							} else {
-								console.log("\tWARNING! GOES ADDRESS FOUND, BUT NO GOES TABLE LISTED.")
-							}
-						// LoggerNet stations (non-GOES) can have any table name, but UCNRS is all TenMin
-						// ERCZO has one station with TenMin (even though its 5min)
-						} else if(tr.find_table(lstation.data_tables,"TenMin")) {
-								ds_json = tr.update_external_ref(ds_json,"loggernet.table","TenMin")
-								//console.log("\texternal_refs.loggernet.table: TenMin")
-						} else {
-						// Level 6 has 3 tables, these may just need to be done by hand
-							ds_too_many_tables_count++
-							console.log(ds_json.name,"TOO MANY TABLES found. not updating loggernet.table",lstation.data_tables.length)
-						}
-					}
+				//console.log(station.loggernet,ds_json.name,lstation.name)
+				table_str = ""
+				// Only one data table makes life simple. Assign
+				if(lstation.data_tables.length == 1) {
+					ds_json = tr.update_external_ref(ds_json,"loggernet.table",lstation.data_tables[0].name)
+					//console.log("\texternal_refs.loggernet.table:",lstation.data_tables[0].name)
 				} else {
-					console.log(ds_json.name,"NO MATCH! in loggernet station list. not updating loggernet.table")
-					ds_no_station_count++
+					// Multiple tables requires some logic to choose the right one
+					// LoggerNet stations (non-GOES) can have any table name, but UCNRS is all TenMin
+					// ERCZO has one station with TenMin (even though its 5min)
+					if(tr.find_table(lstation.data_tables,"TenMin")) {
+							ds_json = tr.update_external_ref(ds_json,"loggernet.table","TenMin")
+							//console.log("\texternal_refs.loggernet.table: TenMin")
+					} else {
+					// Level 6 has 3 tables, these may just need to be done by hand
+						ds_too_many_tables_count++
+						console.log(ds_json.name,"TOO MANY TABLES found. not updating loggernet.table",lstation.data_tables.length)
+					}
 				}
+			} else {
+				console.log(ds_json.name,"NO MATCH! in loggernet station list. not updating loggernet table")
+				ds_no_station_count++
 			}
 
 			// Write JSON file

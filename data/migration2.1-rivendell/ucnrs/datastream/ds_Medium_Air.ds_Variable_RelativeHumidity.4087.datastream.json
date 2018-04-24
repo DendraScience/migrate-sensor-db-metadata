@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2efda599e40001a4877f",
+  "_id": "5adeabb46502f58c925dddaf",
   "description": "",
   "enabled": true,
   "name": "Relative Humidity Per WhiteMt Barcroft Avg",
@@ -38,8 +38,8 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "Rel Humidity Per Avg",
+      "type": "odm.stations.VariableCode"
     }
   ],
   "tags": [
@@ -48,8 +48,8 @@
     "dt_Unit_Percent",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:25.189Z",
-  "updated_at": "2018-04-11T15:52:00.684Z",
+  "created_at": "2018-04-24T03:59:48.682Z",
+  "updated_at": "2018-04-24T04:03:44.470Z",
   "tags_info": {
     "resolved_terms": [
       {

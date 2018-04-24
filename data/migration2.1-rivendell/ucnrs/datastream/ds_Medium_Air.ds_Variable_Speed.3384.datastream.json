@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2efea599e40001a487a3",
+  "_id": "5adeabbc6502f591285dddd3",
   "description": "",
   "enabled": true,
   "name": "Wind Speed m s Bodega Avg",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucbm_bodega",
+          "fc": "source_goes_tenmin",
+          "sc": "\"time\", \"mean_wind_vel\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Wind Speed Avg MS",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucbm_bodega",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC036C6",
       "type": "goes.address"
+    },
+    {
+      "identifier": "GOES_TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -52,8 +74,8 @@
     "dt_Unit_MeterPerSecond",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:26.260Z",
-  "updated_at": "2018-04-11T15:52:01.861Z",
+  "created_at": "2018-04-24T03:59:56.107Z",
+  "updated_at": "2018-04-24T04:03:52.218Z",
   "tags_info": {
     "resolved_terms": [
       {

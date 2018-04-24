@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaaa599e40001a4833d",
+  "_id": "5adea4b06502f5db085dd96d",
   "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": false,
   "name": "AirTemp Outside GHQ 30min",
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "GHQ_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Air Temp C",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "GHQ_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "GHQTable",
@@ -56,10 +56,10 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-04-11T15:50:02.154Z",
-  "updated_at": "2018-04-11T15:50:39.625Z",
+  "created_at": "2018-04-24T03:48:07.277Z",
+  "updated_at": "2018-04-24T03:54:57.631Z",
   "derived_from_datastream_ids": [
-    "5ace2eaba599e40001a4835d"
+    "5adea4b66502f5c9a75dd98d"
   ],
   "tags_info": {
     "resolved_terms": [

@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eada599e40001a483c4",
+  "_id": "5adea4cc6502f575b55dd9f4",
   "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": true,
   "name": "Rainfall mm WSAM 30min",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSAM_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Rainfall mm",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSAM_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "AR_RWS",
@@ -55,10 +55,10 @@
     "ds_Variable_Precipitation",
     "dt_Unit_Millimeter"
   ],
-  "created_at": "2018-04-11T15:50:05.941Z",
-  "updated_at": "2018-04-11T15:50:43.849Z",
+  "created_at": "2018-04-24T03:49:00.837Z",
+  "updated_at": "2018-04-24T03:55:26.306Z",
   "derived_from_datastream_ids": [
-    "5ace2eaea599e40001a483e8"
+    "5adea4d46502f5146a5dda18"
   ],
   "tags_info": {
     "resolved_terms": [

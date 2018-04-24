@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaaa599e40001a48356",
+  "_id": "5adea4b56502f590795dd986",
   "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": true,
   "name": "Air Temp Delta 10m-2m C WSSM Min 30min",
@@ -47,12 +47,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSSM_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Air Temp C",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSSM_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -64,10 +64,10 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-04-11T15:50:02.936Z",
-  "updated_at": "2018-04-11T15:50:40.424Z",
+  "created_at": "2018-04-24T03:48:17.366Z",
+  "updated_at": "2018-04-24T03:55:03.072Z",
   "derived_from_datastream_ids": [
-    "5ace2eaaa599e40001a4834c"
+    "5adea4b36502f56cea5dd97c"
   ],
   "attributes_info": {
     "sort": {

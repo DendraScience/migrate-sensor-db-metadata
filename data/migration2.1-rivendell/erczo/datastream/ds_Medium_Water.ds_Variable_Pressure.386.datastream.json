@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ec6a599e40001a486e6",
+  "_id": "5adea5716502f546a85ddd16",
   "description": "datafile has \"well_8\" but it is actually Well 10.\r\nDecommissioned and replaced by cs451 pressure transducer.",
   "enabled": false,
   "name": "Well 10 Pressure mV Old",
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RUL3_2_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Water Pressure mV",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RUL3_2_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table302",
@@ -70,8 +70,8 @@
       "value": "22.09"
     }
   },
-  "created_at": "2018-04-11T15:50:30.204Z",
-  "updated_at": "2018-04-11T15:51:09.147Z",
+  "created_at": "2018-04-24T03:54:24.576Z",
+  "updated_at": "2018-04-24T03:58:17.595Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

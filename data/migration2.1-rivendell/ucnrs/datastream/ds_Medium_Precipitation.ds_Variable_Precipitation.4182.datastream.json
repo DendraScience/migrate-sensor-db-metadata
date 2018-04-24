@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f0ea599e40001a489ad",
+  "_id": "5adeac276502f5a93b5ddfda",
   "description": "",
   "enabled": true,
   "name": "Precipitation Geonor Freq Sagehen Creek Std",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "sagh_sagehen",
-      "type": "loggernet.station"
+      "identifier": "GEONOR GAUGE FREQ hz",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "sagh_sagehen",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -55,8 +55,8 @@
     "ds_Variable_Precipitation",
     "dt_Unit_Hertz"
   ],
-  "created_at": "2018-04-11T15:51:42.279Z",
-  "updated_at": "2018-04-11T15:52:18.411Z",
+  "created_at": "2018-04-24T04:01:43.631Z",
+  "updated_at": "2018-04-24T04:05:43.500Z",
   "tags_info": {
     "resolved_terms": [
       {

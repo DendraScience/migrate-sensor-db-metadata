@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2efea599e40001a487b4",
+  "_id": "5adeabbf6502f5cc045ddde4",
   "description": "WindSonic 2D retired on May 2, 2017 and replaced with a RM Young 05103",
   "enabled": false,
   "name": "Wind Vector Magnitude m s James RETIRED",
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucja_james",
-      "type": "loggernet.station"
+      "identifier": "Wind Vector Magnitude MS",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucja_james",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -56,8 +56,8 @@
     "ds_Variable_Speed",
     "dt_Unit_MeterPerSecond"
   ],
-  "created_at": "2018-04-11T15:51:26.741Z",
-  "updated_at": "2018-04-11T15:52:02.372Z",
+  "created_at": "2018-04-24T03:59:59.649Z",
+  "updated_at": "2018-04-24T04:03:55.871Z",
   "tags_info": {
     "resolved_terms": [
       {

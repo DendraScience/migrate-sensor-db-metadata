@@ -1,8 +1,8 @@
 {
-  "_id": "5ace2f10a599e40001a489ef",
+  "_id": "5adeac306502f5395c5de007",
   "description": "",
   "enabled": true,
-  "name": "Volumetric Water Content Per 100 mm horiz Chickering Avg",
+  "name": "Volumetric Water Content Per 4 in horiz Chickering Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucca_chickering",
+          "fc": "source_satten",
+          "sc": "\"time\", \"VWC4_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Soil Moisture Pct Avg",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucca_chickering",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC0035C",
       "type": "goes.address"
+    },
+    {
+      "identifier": "SatTen",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -52,8 +74,8 @@
     "dt_Unit_Percent",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:44.203Z",
-  "updated_at": "2018-04-11T15:52:20.541Z",
+  "created_at": "2018-04-24T04:01:52.861Z",
+  "updated_at": "2018-04-24T04:05:53.119Z",
   "tags_info": {
     "resolved_terms": [
       {

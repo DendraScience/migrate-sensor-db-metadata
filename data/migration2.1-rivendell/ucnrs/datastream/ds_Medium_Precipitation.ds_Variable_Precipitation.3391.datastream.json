@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f0ca599e40001a48981",
+  "_id": "5adeac1e6502f5367c5ddfae",
   "description": "This is a DRI derived datastream, the upper value threshold is unknown but was set at 10,000",
   "enabled": true,
   "name": "Precipitation mm Bodega Cumulative",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucbm_bodega",
+          "fc": "source_goes_tenmin",
+          "sc": "\"time\", \"PCPN_accumulated\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Derived Cumulative Precipitation",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucbm_bodega",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC036C6",
       "type": "goes.address"
+    },
+    {
+      "identifier": "GOES_TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -52,8 +74,8 @@
     "dt_Unit_Millimeter",
     "ds_Aggregate_Cumulative"
   ],
-  "created_at": "2018-04-11T15:51:40.943Z",
-  "updated_at": "2018-04-11T15:52:17.067Z",
+  "created_at": "2018-04-24T04:01:34.661Z",
+  "updated_at": "2018-04-24T04:05:33.999Z",
   "tags_info": {
     "resolved_terms": [
       {

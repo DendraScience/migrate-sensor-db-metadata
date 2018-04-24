@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f07a599e40001a488db",
+  "_id": "5adeabfc6502f554a45ddf0a",
   "enabled": false,
   "name": "Air Temp Delta Deg C 10m-2m Jepson Min",
   "organization_id": "58db17c424dc720001671378",
@@ -47,12 +47,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Air Temp Delta C Min",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucjp_jepson",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC0102A",
       "type": "goes.address"
+    },
+    {
+      "identifier": "GOES_TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -61,8 +69,8 @@
     "dt_Unit_DegreeCelsius",
     "ds_Aggregate_Minimum"
   ],
-  "created_at": "2018-04-11T15:51:35.961Z",
-  "updated_at": "2018-04-11T15:52:11.905Z",
+  "created_at": "2018-04-24T04:01:00.918Z",
+  "updated_at": "2018-04-24T04:04:58.959Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

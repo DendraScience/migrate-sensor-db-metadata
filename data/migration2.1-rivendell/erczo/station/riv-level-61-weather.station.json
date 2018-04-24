@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "is_active": true,
   "is_stationary": true,
   "name": "Riv Level 6_1 Weather",
@@ -42,6 +42,6 @@
     "type": "Point"
   },
   "_id": "5a9cd13b18af1700013b110e",
-  "created_at": "2018-04-11T15:49:58.170Z",
-  "updated_at": "2018-04-11T15:49:58.170Z"
+  "created_at": "2018-04-24T03:47:23.429Z",
+  "updated_at": "2018-04-24T03:47:23.429Z"
 }

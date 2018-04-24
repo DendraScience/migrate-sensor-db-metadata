@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f02a599e40001a48831",
+  "_id": "5adeabd96502f51eaa5dde60",
   "description": "",
   "enabled": true,
   "name": "Air Temp Delta Deg C 10m-2m Bodega Avg",
@@ -26,7 +26,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucbm_bodega",
+          "fc": "source_goes_tenmin",
+          "sc": "\"time\", \"delta_T_C_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -47,12 +61,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Air Temp Delta C Avg",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucbm_bodega",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC036C6",
       "type": "goes.address"
+    },
+    {
+      "identifier": "GOES_TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -61,8 +83,8 @@
     "dt_Unit_DegreeCelsius",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:30.558Z",
-  "updated_at": "2018-04-11T15:52:06.329Z",
+  "created_at": "2018-04-24T04:00:25.314Z",
+  "updated_at": "2018-04-24T04:04:22.035Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

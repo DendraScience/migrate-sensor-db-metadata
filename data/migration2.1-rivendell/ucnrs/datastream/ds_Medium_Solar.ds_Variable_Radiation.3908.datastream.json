@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f1aa599e40001a48b36",
+  "_id": "5adeac796502f5d8755de166",
   "description": "",
   "enabled": true,
   "name": "Total Solar Radiation W m2 SNARL Avg",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucsh_snarl",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"RS_kw_m2_Avg\"*1000 as \"RS_w_m2_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucsh_snarl",
-      "type": "loggernet.station"
+      "identifier": "Solar Radiation Avg W/m^2",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucsh_snarl",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -56,8 +70,8 @@
     "dt_Unit_WattPerSquareMeter",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:54.411Z",
-  "updated_at": "2018-04-11T15:52:31.093Z",
+  "created_at": "2018-04-24T04:03:05.884Z",
+  "updated_at": "2018-04-24T04:07:09.259Z",
   "tags_info": {
     "resolved_terms": [
       {

@@ -184,6 +184,9 @@ SELECT
   -- method_id
   CAST(`datastreams`.`MethodID` AS CHAR(50)) AS `external_refs$3$identifier`,
   'odm.stations.MethodID' AS `external_refs$3$type`,  
+  -- variablecode
+  CAST(`datastreams`.`VariableCode` AS CHAR(50)) AS `external_refs$4$identifier`,
+  'odm.stations.VariableCode' AS `external_refs$4$type`,    
   -- ----------------------------
   -- "geo": {
   --   "coordinates": [

@@ -1,20 +1,11 @@
 {
-  "_id": "5ace2ec5a599e40001a486c9",
+  "_id": "5adea56b6502f54f395ddcf9",
   "enabled": true,
   "name": "VSP Water Pressure VMS_A2",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602db",
-  "attributes": {
-    "depth": {
-      "unit_tag": "dt_Unit_Meter",
-      "range": [
-        3.5,
-        3.7
-      ]
-    }
-  },
   "datapoints_config": [
     {
       "begins_at": "2015-10-25T00:00:00.000Z",
@@ -25,7 +16,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues2"
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_vms_cr1000",
+          "fc": "source_vms",
+          "sc": "\"time\", \"PT_Aleph_2\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -46,12 +51,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "VMS_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Water Pressure mbar",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "VMS_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "VMS",
@@ -63,8 +68,17 @@
     "ds_Variable_Pressure",
     "dt_Unit_Millibar"
   ],
-  "created_at": "2018-04-11T15:50:29.268Z",
-  "updated_at": "2018-04-11T15:51:08.242Z",
+  "attributes": {
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "range": [
+        3.5,
+        3.7
+      ]
+    }
+  },
+  "created_at": "2018-04-24T03:54:12.853Z",
+  "updated_at": "2018-04-24T03:58:11.412Z",
   "attributes_info": {
     "sort": {
       "value1": 3.5,

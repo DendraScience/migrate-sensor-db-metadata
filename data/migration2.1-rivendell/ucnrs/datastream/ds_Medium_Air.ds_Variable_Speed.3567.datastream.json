@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2efea599e40001a487b6",
+  "_id": "5adeabc06502f56bfb5ddde6",
   "description": "WindSonic 2D retired on May 2, 2017 and replaced with a RM Young 05103",
   "enabled": false,
   "name": "Wind Speed Deg James Std RETIRED",
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucja_james",
-      "type": "loggernet.station"
+      "identifier": "Wind Speed Stdev MPH",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucja_james",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -57,8 +57,8 @@
     "dt_Unit_MilePerHour",
     "ds_Aggregate_StandardDeviation"
   ],
-  "created_at": "2018-04-11T15:51:26.798Z",
-  "updated_at": "2018-04-11T15:52:02.435Z",
+  "created_at": "2018-04-24T04:00:00.049Z",
+  "updated_at": "2018-04-24T04:03:56.287Z",
   "tags_info": {
     "resolved_terms": [
       {

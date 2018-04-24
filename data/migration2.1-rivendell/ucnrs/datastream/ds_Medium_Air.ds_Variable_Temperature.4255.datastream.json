@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f07a599e40001a488d5",
+  "_id": "5adeabfb6502f527925ddf04",
   "enabled": false,
   "name": "Air Temp Deg C 10 m Jepson Avg",
   "organization_id": "58db17c424dc720001671378",
@@ -38,12 +38,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Air Temp C Avg",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucjp_jepson",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC0102A",
       "type": "goes.address"
+    },
+    {
+      "identifier": "GOES_TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -58,8 +66,8 @@
       "value": "10"
     }
   },
-  "created_at": "2018-04-11T15:51:35.738Z",
-  "updated_at": "2018-04-11T15:52:11.689Z",
+  "created_at": "2018-04-24T04:00:59.664Z",
+  "updated_at": "2018-04-24T04:04:57.676Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

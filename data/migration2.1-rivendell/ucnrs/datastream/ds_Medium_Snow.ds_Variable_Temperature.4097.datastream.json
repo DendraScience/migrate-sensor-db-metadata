@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f0fa599e40001a489de",
+  "_id": "5adeac2b6502f5e2ed5ddfee",
   "description": "Range of values unknown since method type is also unknown, values entered are only a guess",
   "enabled": true,
   "name": "Snow Temp Deg C WhiteMt Barcroft Avg",
@@ -38,8 +38,8 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "Snow Temp Deg C Avg",
+      "type": "odm.stations.VariableCode"
     }
   ],
   "tags": [
@@ -48,8 +48,8 @@
     "dt_Unit_DegreeCelsius",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:43.709Z",
-  "updated_at": "2018-04-11T15:52:19.971Z",
+  "created_at": "2018-04-24T04:01:47.686Z",
+  "updated_at": "2018-04-24T04:05:47.788Z",
   "tags_info": {
     "resolved_terms": [
       {

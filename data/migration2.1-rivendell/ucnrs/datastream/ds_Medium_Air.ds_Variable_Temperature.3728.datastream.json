@@ -1,7 +1,7 @@
 {
-  "_id": "5ace2f04a599e40001a48872",
+  "_id": "5adeabe66502f52c785ddea1",
   "description": "",
-  "enabled": true,
+  "enabled": false,
   "name": "Air Temp Delta Deg C 10m-2m McLaughlin Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -47,12 +47,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucmc_mclaughlin",
-      "type": "loggernet.station"
+      "identifier": "Air Temp Delta C Avg",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucmc_mclaughlin",
+      "type": "loggernet.station"
     }
   ],
   "tags": [
@@ -61,8 +61,8 @@
     "dt_Unit_DegreeCelsius",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:32.564Z",
-  "updated_at": "2018-04-11T15:52:08.447Z",
+  "created_at": "2018-04-24T04:00:38.864Z",
+  "updated_at": "2018-04-24T04:04:36.249Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaca599e40001a48388",
+  "_id": "5adea4bf6502f58ddb5dd9b8",
   "derivation_description": "Convert mV to meters for wells",
   "description": "Replaced with newer CS451 pressure transducer.  ",
   "enabled": false,
@@ -40,12 +40,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RUL3_2_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Water Level m",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RUL3_2_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table302",
@@ -71,10 +71,10 @@
       "value": "22.09"
     }
   },
-  "created_at": "2018-04-11T15:50:04.328Z",
-  "updated_at": "2018-04-11T15:50:42.016Z",
+  "created_at": "2018-04-24T03:48:36.767Z",
+  "updated_at": "2018-04-24T03:55:13.639Z",
   "derived_from_datastream_ids": [
-    "5ace2ec6a599e40001a486e6"
+    "5adea5716502f546a85ddd16"
   ],
   "attributes_info": {
     "sort": {

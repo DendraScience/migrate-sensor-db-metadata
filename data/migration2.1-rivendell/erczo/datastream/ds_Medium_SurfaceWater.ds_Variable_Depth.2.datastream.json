@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ec4a599e40001a486b8",
+  "_id": "5adea5676502f5f9c45ddce8",
   "description": "Gage Height measured outside the Angelo Reserve Stilling Well.",
   "enabled": true,
   "name": "GageHeight Outside GHQ",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues2"
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_ghq_cr1000",
+          "fc": "source_ghqtable",
+          "sc": "\"time\", \"stageMetersOut\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "GHQ_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Gage Height meters",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "GHQ_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "GHQTable",
@@ -55,8 +69,8 @@
     "ds_Variable_Depth",
     "dt_Unit_Meter"
   ],
-  "created_at": "2018-04-11T15:50:28.777Z",
-  "updated_at": "2018-04-11T15:51:07.740Z",
+  "created_at": "2018-04-24T03:54:06.482Z",
+  "updated_at": "2018-04-24T03:58:08.092Z",
   "tags_info": {
     "resolved_terms": [
       {

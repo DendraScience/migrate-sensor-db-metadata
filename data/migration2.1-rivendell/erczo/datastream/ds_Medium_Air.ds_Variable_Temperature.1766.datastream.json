@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaaa599e40001a48352",
+  "_id": "5adea4b46502f517745dd982",
   "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": true,
   "name": "Air Temp 10 m height C WSSM Max 30min",
@@ -44,12 +44,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSSM_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Air Temp C",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSSM_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -61,10 +61,10 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-04-11T15:50:02.804Z",
-  "updated_at": "2018-04-11T15:50:40.294Z",
+  "created_at": "2018-04-24T03:48:15.766Z",
+  "updated_at": "2018-04-24T03:55:02.226Z",
   "derived_from_datastream_ids": [
-    "5ace2eaaa599e40001a48348"
+    "5adea4b26502f550b45dd978"
   ],
   "attributes_info": {
     "sort": {

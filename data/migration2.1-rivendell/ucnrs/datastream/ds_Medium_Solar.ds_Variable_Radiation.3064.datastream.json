@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f19a599e40001a48b09",
+  "_id": "5adeac706502f524885de139",
   "enabled": true,
   "name": "Total Solar Radiation W m2 Blue Oak Min",
   "organization_id": "58db17c424dc720001671378",
@@ -16,7 +16,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucbo_blueoak",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"RS_kw_m2_Min\"*1000 as \"RS_w_m2_Min\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -37,12 +51,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucbo_blueoak",
-      "type": "loggernet.station"
+      "identifier": "Solar Radiation Min W/m^2",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucbo_blueoak",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -53,10 +67,10 @@
     "ds_Medium_Solar",
     "ds_Variable_Radiation",
     "dt_Unit_WattPerSquareMeter",
-    "ds_Aggregate_Maximum"
+    "ds_Aggregate_Minimum"
   ],
-  "created_at": "2018-04-11T15:51:53.009Z",
-  "updated_at": "2018-04-11T15:52:29.776Z",
+  "created_at": "2018-04-24T04:02:56.689Z",
+  "updated_at": "2018-04-24T04:06:59.658Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -82,7 +96,7 @@
         "vocabulary_label": "Unit"
       },
       {
-        "label": "Maximum",
+        "label": "Minimum",
         "scheme_id": "ds",
         "scheme_priority": 10,
         "vocabulary_id": "ds-aggregate",
@@ -129,7 +143,7 @@
     },
     {
       "key": "tag",
-      "str": "7355e789b87d1c0cd7d98851a6a3e2b41c9506c4",
+      "str": "d1c23225540a0ba6be25a2913fc24b42e4cc353f",
       "scheme_id": "ds"
     },
     {

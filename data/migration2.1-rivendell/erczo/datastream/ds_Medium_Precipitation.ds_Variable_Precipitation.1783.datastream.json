@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaea599e40001a483d2",
+  "_id": "5adea4cf6502f581ce5dda02",
   "derivation_description": "Conversion to 30-minute timesteps",
   "description": "new datastream added Nov 2014 G.O.",
   "enabled": true,
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSHQ_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Rainfall Cumulative mm",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSHQ_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "AR_HWS",
@@ -57,10 +57,10 @@
     "dt_Unit_Millimeter",
     "ds_Aggregate_Cumulative"
   ],
-  "created_at": "2018-04-11T15:50:06.346Z",
-  "updated_at": "2018-04-11T15:50:44.275Z",
+  "created_at": "2018-04-24T03:49:06.405Z",
+  "updated_at": "2018-04-24T03:55:29.257Z",
   "derived_from_datastream_ids": [
-    "5ace2eaea599e40001a483d0"
+    "5adea4cf6502f5e5425dda00"
   ],
   "tags_info": {
     "resolved_terms": [

@@ -1,0 +1,35 @@
+{
+  "_id": "59155b707acd6800017b1b0b",
+  "datapoints_config": [
+    {
+      "connection": "noaaNWS",
+      "params": {
+        "query": {
+          "format": "12 hourly",
+          "interface": "summarized",
+          "numDays": 7,
+          "parameter": {
+            "key_path": "/weather/p12h"
+          },
+          "unit": "m"
+        }
+      },
+      "path": "/series"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "name": "Digital Weather Summarized Weather 7 Day 12 Hourly",
+  "source": "gov.noaa.nws.ndfd.rest.xml",
+  "source_type": "service",
+  "state": "ready",
+  "tags": [
+    "dw_Interface_Summarized",
+    "dw_Parameter_Weather",
+    "dw_SummarizedDays_7Day",
+    "dw_SummarizedFormat_12Hourly"
+  ],
+  "created_at": "2017-05-12T06:51:28.588Z",
+  "updated_at": "2017-05-12T06:51:28.588Z",
+  "_include": []
+}

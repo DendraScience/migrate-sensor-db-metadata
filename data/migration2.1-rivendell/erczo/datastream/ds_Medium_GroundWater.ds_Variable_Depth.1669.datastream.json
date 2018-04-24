@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaca599e40001a4839b",
+  "_id": "5adea4c36502f544d05dd9cb",
   "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": true,
   "name": "Well 16 Water Level m 30min",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RUL5_1_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Water Level m",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RUL5_1_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table501",
@@ -69,10 +69,10 @@
       "value": "26.4"
     }
   },
-  "created_at": "2018-04-11T15:50:04.836Z",
-  "updated_at": "2018-04-11T15:50:42.580Z",
+  "created_at": "2018-04-24T03:48:44.412Z",
+  "updated_at": "2018-04-24T03:55:17.628Z",
   "derived_from_datastream_ids": [
-    "5ace2eaca599e40001a4838e"
+    "5adea4c06502f5f2665dd9be"
   ],
   "attributes_info": {
     "sort": {

@@ -1,7 +1,7 @@
 {
-  "_id": "5ace2f1ba599e40001a48b58",
+  "_id": "5adeac806502f5e9285de188",
   "description": "Valid Range for Values unknown - only a guess because method is unknown",
-  "enabled": true,
+  "enabled": false,
   "name": "Misc Number 2 Unk Sagehen Creek",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "sagh_sagehen",
-      "type": "loggernet.station"
+      "identifier": "Unknown",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "sagh_sagehen",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -55,8 +55,8 @@
     "ds_Variable_Unknown",
     "dt_Unit_Dimensionless"
   ],
-  "created_at": "2018-04-11T15:51:55.468Z",
-  "updated_at": "2018-04-11T15:52:32.121Z",
+  "created_at": "2018-04-24T04:03:12.841Z",
+  "updated_at": "2018-04-24T04:07:16.649Z",
   "tags_info": {
     "resolved_terms": [
       {

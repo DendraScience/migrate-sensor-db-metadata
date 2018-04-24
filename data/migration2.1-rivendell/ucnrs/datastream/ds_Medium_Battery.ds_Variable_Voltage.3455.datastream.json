@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f08a599e40001a488f3",
+  "_id": "5adeac016502f5a86e5ddf1f",
   "description": "",
   "enabled": true,
   "name": "Battery Voltage volts Deep Canyon Max",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucde_boyddeepcanyon",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"Batt_volt_Max\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucde_boyddeepcanyon",
-      "type": "loggernet.station"
+      "identifier": "Battery Voltage Max",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucde_boyddeepcanyon",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -56,8 +70,8 @@
     "dt_Unit_Volt",
     "ds_Aggregate_Maximum"
   ],
-  "created_at": "2018-04-11T15:51:36.711Z",
-  "updated_at": "2018-04-11T15:52:12.653Z",
+  "created_at": "2018-04-24T04:01:05.310Z",
+  "updated_at": "2018-04-24T04:05:03.475Z",
   "tags_info": {
     "resolved_terms": [
       {

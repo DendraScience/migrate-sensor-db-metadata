@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ec3a599e40001a48692",
+  "_id": "5adea5606502f57e575ddcc2",
   "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": true,
   "name": "Total Solar Radiation kJ WSAM 30min",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSAM_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Solar Radiation Total kJ/m^2",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSAM_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "AR_RWS",
@@ -55,10 +55,10 @@
     "ds_Variable_Radiation",
     "dt_Unit_KilojoulePerSquareMeter"
   ],
-  "created_at": "2018-04-11T15:50:27.684Z",
-  "updated_at": "2018-04-11T15:51:06.619Z",
+  "created_at": "2018-04-24T03:53:51.513Z",
+  "updated_at": "2018-04-24T03:57:59.939Z",
   "derived_from_datastream_ids": [
-    "5ace2ec4a599e40001a486b3"
+    "5adea5666502f5ec275ddce3"
   ],
   "tags_info": {
     "resolved_terms": [

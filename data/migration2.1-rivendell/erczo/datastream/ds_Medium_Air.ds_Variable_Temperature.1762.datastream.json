@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaaa599e40001a4834e",
+  "_id": "5adea4b36502f5be625dd97e",
   "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": true,
   "name": "Rain Gage Temperature C Avg 30min",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSSM_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Air Temp C",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSSM_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -55,10 +55,10 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-04-11T15:50:02.689Z",
-  "updated_at": "2018-04-11T15:50:40.158Z",
+  "created_at": "2018-04-24T03:48:14.186Z",
+  "updated_at": "2018-04-24T03:55:01.353Z",
   "derived_from_datastream_ids": [
-    "5ace2eaaa599e40001a48344"
+    "5adea4b16502f5ad3e5dd974"
   ],
   "tags_info": {
     "resolved_terms": [

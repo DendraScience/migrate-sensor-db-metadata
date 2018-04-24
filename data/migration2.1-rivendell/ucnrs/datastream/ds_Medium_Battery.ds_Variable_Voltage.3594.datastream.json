@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f08a599e40001a488fc",
+  "_id": "5adeac036502f5ee9d5ddf28",
   "description": "",
   "enabled": true,
   "name": "Battery Voltage volts James Min",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucja_james",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"Batt_volt_Min\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucja_james",
-      "type": "loggernet.station"
+      "identifier": "Battery Voltage Min",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucja_james",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -56,8 +70,8 @@
     "dt_Unit_Volt",
     "ds_Aggregate_Minimum"
   ],
-  "created_at": "2018-04-11T15:51:36.981Z",
-  "updated_at": "2018-04-11T15:52:12.942Z",
+  "created_at": "2018-04-24T04:01:07.179Z",
+  "updated_at": "2018-04-24T04:05:05.396Z",
   "tags_info": {
     "resolved_terms": [
       {

@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f03a599e40001a48844",
+  "_id": "5adeabdd6502f5eebd5dde73",
   "description": "Temperature at 10 meters",
   "enabled": true,
   "name": "Air Temp Deg C 10 m Chickering Min",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucca_chickering",
+          "fc": "source_satten",
+          "sc": "\"time\", \"\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Air Temp C Min",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucca_chickering",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC0035C",
       "type": "goes.address"
+    },
+    {
+      "identifier": "SatTen",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -58,8 +80,8 @@
       "value": "10"
     }
   },
-  "created_at": "2018-04-11T15:51:31.155Z",
-  "updated_at": "2018-04-11T15:52:06.978Z",
+  "created_at": "2018-04-24T04:00:29.286Z",
+  "updated_at": "2018-04-24T04:04:26.172Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eada599e40001a483a9",
+  "_id": "5adea4c66502f568615dd9d9",
   "description": "Wiring panel temperature. Used to make sure logger is within proper operating temperatures. Not valid for research use.",
   "enabled": false,
   "name": "Logger Temp Ingrid",
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSIC_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Logger Temp c",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSIC_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "WSIC_Table",
@@ -54,10 +54,11 @@
   "tags": [
     "ds_Medium_Instrument",
     "ds_Variable_Temperature",
-    "dt_Unit_DegreeCelsius"
+    "dt_Unit_DegreeCelsius",
+    "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:50:05.195Z",
-  "updated_at": "2018-04-11T15:50:43.023Z",
+  "created_at": "2018-04-24T03:48:50.014Z",
+  "updated_at": "2018-04-24T03:55:20.599Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -81,12 +82,19 @@
         "scheme_priority": 10,
         "vocabulary_id": "dt-unit",
         "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
       }
     ],
     "scheme_refs": [
       {
         "_id": "ds",
-        "tag_count": 2
+        "tag_count": 3
       },
       {
         "_id": "dt",
@@ -102,6 +110,9 @@
       },
       {
         "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
       }
     ]
   },
@@ -120,7 +131,7 @@
     },
     {
       "key": "tag",
-      "str": "ade9a3c67024faaf9fac585305ff0e89f68a72f8",
+      "str": "a00cd78ae70ac32f48c827ab8787ce423d25e589",
       "scheme_id": "ds"
     },
     {

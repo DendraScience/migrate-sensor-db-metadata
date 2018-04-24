@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ec3a599e40001a4868a",
+  "_id": "5adea55e6502f57f5a5ddcba",
   "description": "Wind Corrected Net Radiation compensates for wind over 5m/s as follows:\r\nIf RWS_WSpeed>=5 Then\r\n RWS_CNR_Wm2=RWS_NR_Wm2*(1+0.021286*(RWS_WSpeed-5))\r\nElse\r\n  RWS_CNR_Wm2=RWS_NR_Wm2\r\nEndIf\r\nCurrently attached by VoltSE to port 15.",
   "enabled": true,
   "name": "Solar Radiation Net W/m^2  WindCorrected WSAM",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues2"
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_wsam_cr1000",
+          "fc": "source_ar_rws",
+          "sc": "\"time\", \"RWS_CNR_Wm2_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSAM_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Solar Radiation Net W/m^2",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSAM_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "AR_RWS",
@@ -55,8 +69,8 @@
     "ds_Variable_NetRadiation",
     "dt_Unit_WattPerSquareMeter"
   ],
-  "created_at": "2018-04-11T15:50:27.451Z",
-  "updated_at": "2018-04-11T15:51:06.355Z",
+  "created_at": "2018-04-24T03:53:48.335Z",
+  "updated_at": "2018-04-24T03:57:58.278Z",
   "tags_info": {
     "resolved_terms": [
       {

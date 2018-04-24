@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eada599e40001a483bf",
+  "_id": "5adea4ca6502f55c6a5dd9ef",
   "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": false,
   "name": "Rainfall cumulative mm WSTB 30min",
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSTB_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Rainfall Cumulative mm",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSTB_CR1000",
+      "type": "loggernet.station"
     }
   ],
   "tags": [
@@ -53,10 +53,10 @@
     "dt_Unit_Millimeter",
     "ds_Aggregate_Cumulative"
   ],
-  "created_at": "2018-04-11T15:50:05.801Z",
-  "updated_at": "2018-04-11T15:50:43.696Z",
+  "created_at": "2018-04-24T03:48:58.853Z",
+  "updated_at": "2018-04-24T03:55:25.235Z",
   "derived_from_datastream_ids": [
-    "5ace2eaea599e40001a483e6"
+    "5adea4d36502f580265dda16"
   ],
   "tags_info": {
     "resolved_terms": [

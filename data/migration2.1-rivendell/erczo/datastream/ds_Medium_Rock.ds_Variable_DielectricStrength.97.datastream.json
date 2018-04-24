@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eb2a599e40001a48458",
+  "_id": "5adea4ea6502f505215dda88",
   "description": "TDR-probe7.5cm ",
   "enabled": true,
   "name": "TDR L1T2_0.30",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues2"
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_rll1_1_cr1000",
+          "fc": "source_level101",
+          "sc": "\"time\", \"LaL__28_\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RLL1_1_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Dielectric",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RLL1_1_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Level101",
@@ -62,8 +76,8 @@
     },
     "orientation": "vertical"
   },
-  "created_at": "2018-04-11T15:50:10.338Z",
-  "updated_at": "2018-04-11T15:50:48.632Z",
+  "created_at": "2018-04-24T03:50:00.721Z",
+  "updated_at": "2018-04-24T03:55:57.905Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

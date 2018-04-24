@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaea599e40001a483d5",
+  "_id": "5adea4d06502f5483a5dda05",
   "enabled": true,
   "name": "Rainfall mm TB4 Level 2",
   "organization_id": "58db17e824dc720001671379",
@@ -16,7 +16,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues2"
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_rml2_2_cr1000",
+          "fc": "source_table202",
+          "sc": "\"time\", \"Rain_mm_Tot\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -37,12 +51,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RML2_2_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Rainfall mm",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RML2_2_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table202",
@@ -54,8 +68,8 @@
     "ds_Variable_Precipitation",
     "dt_Unit_Millimeter"
   ],
-  "created_at": "2018-04-11T15:50:06.436Z",
-  "updated_at": "2018-04-11T15:50:44.375Z",
+  "created_at": "2018-04-24T03:49:07.609Z",
+  "updated_at": "2018-04-24T03:55:29.915Z",
   "tags_info": {
     "resolved_terms": [
       {

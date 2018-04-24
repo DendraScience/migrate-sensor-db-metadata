@@ -1,0 +1,520 @@
+[
+  {
+    "FieldName": "Avg_Air_Temp",
+    "Core8_TenMin": "AT_C_Avg",
+    "TenMin": "AT_C_Avg",
+    "GOES_TenMin": "AT_C_Avg",
+    "SatTen": "AT_C_Avg"
+  },
+  {
+    "FieldName": "Max_Air_Temp",
+    "Core8_TenMin": "AT_C_Max",
+    "TenMin": "AT_C_Max",
+    "GOES_TenMin": "AT_C_Max",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Min_Air_Temp",
+    "Core8_TenMin": "AT_C_Min",
+    "TenMin": "AT_C_Min",
+    "GOES_TenMin": "AT_C_Min",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Battery_Voltage",
+    "Core8_TenMin": "Batt_volt_Avg",
+    "TenMin": "batt_volt_Avg",
+    "GOES_TenMin": "Batt_volt_Avg",
+    "SatTen": "batt_volt_Avg"
+  },
+  {
+    "FieldName": "Max_Battery_Voltage",
+    "Core8_TenMin": "Batt_volt_Max",
+    "TenMin": "batt_volt_Max",
+    "GOES_TenMin": "Batt_volt_Max",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Min_Battery_Voltage",
+    "Core8_TenMin": "Batt_volt_Min",
+    "TenMin": "batt_volt_Min",
+    "GOES_TenMin": "Batt_volt_Min",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Barometric_Pressure",
+    "Core8_TenMin": "BP_mB_Avg",
+    "TenMin": "BP_mb_Avg",
+    "GOES_TenMin": "BP_mB_GOES_Avg",
+    "SatTen": "BP_satHG_Avg"
+  },
+  {
+    "FieldName": "TDR_Frequency_hz_depth1",
+    "Core8_TenMin": "CS616_50_Avg",
+    "TenMin": "CS616_4_Avg",
+    "GOES_TenMin": "CS616_50_Avg",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Misc_Number_1",
+    "Core8_TenMin": "CS616_V_Avg",
+    "TenMin": "CS616_V_Avg",
+    "GOES_TenMin": "CS616_V_Avg",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Delta_Temp_10m-2m",
+    "Core8_TenMin": "delta_T_C_Avg",
+    "TenMin": "delta_T_C_Avg",
+    "GOES_TenMin": "delta_T_C_Avg",
+    "SatTen": "delta_T_C_Avg"
+  },
+  {
+    "FieldName": "Max_dT_10m-2m",
+    "Core8_TenMin": "delta_T_C_Max",
+    "TenMin": "delta_T_C_Max",
+    "GOES_TenMin": "delta_T_C_Max",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Min_dT_10m-2m",
+    "Core8_TenMin": "delta_T_C_Min",
+    "TenMin": "delta_T_C_Min",
+    "GOES_TenMin": "delta_T_C_Min",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "ForwardTxX10",
+    "Core8_TenMin": "ForwardTxX10",
+    "TenMin": "ForwardTxX10",
+    "GOES_TenMin": "ForwardTxX10",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "TX_FORWARD_POWER",
+    "Core8_TenMin": "ForwardTxX10",
+    "TenMin": "ForwardTxX10",
+    "GOES_TenMin": "ForwardTxX10",
+    "SatTen": "ForwardTxX10"
+  },
+  {
+    "FieldName": "Fuel_Moisture_Avg",
+    "Core8_TenMin": "FuelM_Avg",
+    "TenMin": "FuelM_Avg",
+    "GOES_TenMin": "FuelM_Avg",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "GEONOR_GAUGE_FREQ_HZ",
+    "Core8_TenMin": "Geonor_Hz",
+    "TenMin": "Geonor_Hz",
+    "GOES_TenMin": "Geonor_Hz",
+    "SatTen": "Geonor_Hz"
+  },
+  {
+    "FieldName": "GEONOR_PRECIP_CM",
+    "Core8_TenMin": "Geonor_PCP",
+    "TenMin": "Geonor_PCP",
+    "GOES_TenMin": "Geonor_PCP",
+    "SatTen": "Geonor_PCP"
+  },
+  {
+    "FieldName": "Fraction_wet",
+    "Core8_TenMin": "kohms_Hst",
+    "TenMin": "kohms_Hst",
+    "GOES_TenMin": "kohms_Hst",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Leaf_Wetness",
+    "Core8_TenMin": "kohms_Hst",
+    "TenMin": "kohms_Hst",
+    "GOES_TenMin": "kohms_Hst",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Avg_237_Resistance",
+    "Core8_TenMin": "LW_KOhm",
+    "TenMin": "LW_KOhm",
+    "GOES_TenMin": "LW_KOhm",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Max_237_Resistance",
+    "Core8_TenMin": "LW_KOhm",
+    "TenMin": "LW_KOhm",
+    "GOES_TenMin": "LW_KOhm",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Min_237_Resistance",
+    "Core8_TenMin": "LW_KOhm",
+    "TenMin": "LW_KOhm",
+    "GOES_TenMin": "LW_KOhm",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Mean_Wind_Direction",
+    "Core8_TenMin": "mean_vector_wind_dir",
+    "TenMin": "WS_mph_WVc(3)",
+    "GOES_TenMin": "mean_vector_wind_dir",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Wind_Vector_Magnitude",
+    "Core8_TenMin": "mean_wind_vector_mag",
+    "TenMin": "WS_mph_WVc(2)",
+    "GOES_TenMin": "mean_wind_vector_mag",
+    "SatTen": "WS_mph_WVc(2)"
+  },
+  {
+    "FieldName": "Mean_Wind_Speed",
+    "Core8_TenMin": "mean_wind_vel",
+    "TenMin": "WS_mph_WVc(1)",
+    "GOES_TenMin": "mean_wind_vel",
+    "SatTen": "WS_mph_WVc(1)"
+  },
+  {
+    "FieldName": "Avg_PAR",
+    "Core8_TenMin": "PAR_Avg",
+    "TenMin": "PAR_Avg",
+    "GOES_TenMin": "PAR_Avg",
+    "SatTen": "PAR_Avg"
+  },
+  {
+    "FieldName": "Max_PAR",
+    "Core8_TenMin": "PAR_Max",
+    "TenMin": "PAR_Max",
+    "GOES_TenMin": "PAR_Max",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Min_PAR",
+    "Core8_TenMin": "PAR_Min",
+    "TenMin": "PAR_Min",
+    "GOES_TenMin": "PAR_Min",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Precipitation_Totaled",
+    "Core8_TenMin": "PCPN_accumulated",
+    "TenMin": "PCPN_tot",
+    "GOES_TenMin": "PCPN_accumulated",
+    "SatTen": "PCPN_tot"
+  },
+  {
+    "FieldName": "Precipitation",
+    "Core8_TenMin": "PCPN_intrvl_Tot",
+    "TenMin": "PCPN_in_Tot",
+    "GOES_TenMin": "PCPN_intrvl_Tot",
+    "SatTen": "PCPN_in_Tot"
+  },
+  {
+    "FieldName": "Datalogger_Panel_Temp",
+    "Core8_TenMin": "PTemp_Avg",
+    "TenMin": "PTemp_Avg",
+    "GOES_TenMin": "PTemp_Avg",
+    "SatTen": "PTemp_Avg"
+  },
+  {
+    "FieldName": "ReflectTxX10",
+    "Core8_TenMin": "ReflectTxX10",
+    "TenMin": "ReflectTxX10",
+    "GOES_TenMin": "ReflectTxX10",
+    "SatTen": "ReflectTxX10"
+  },
+  {
+    "FieldName": "TX_REFLECTED_POWER",
+    "Core8_TenMin": "ReflectTxX10",
+    "TenMin": "ReflectTxX10",
+    "GOES_TenMin": "ReflectTxX10",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Rain_Gauge_Temp",
+    "Core8_TenMin": "RGTemp_C_Avg",
+    "TenMin": "RGTemp_C_Avg",
+    "GOES_TenMin": "RGTemp_C_Avg",
+    "SatTen": "RGTemp_C_Avg"
+  },
+  {
+    "FieldName": "Avg_Relative_Humidity",
+    "Core8_TenMin": "RH_pct_Avg",
+    "TenMin": "RH_pct_Avg",
+    "GOES_TenMin": "RH_pct_Avg",
+    "SatTen": "RH_pct_Avg"
+  },
+  {
+    "FieldName": "Max_Relative_Humidity",
+    "Core8_TenMin": "RH_pct_Max",
+    "TenMin": "RH_pct_Max",
+    "GOES_TenMin": "RH_pct_Max",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Min_Relative_Humidity",
+    "Core8_TenMin": "RH_pct_Min",
+    "TenMin": "RH_pct_Min",
+    "GOES_TenMin": "RH_pct_Min",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Solar_Radiation",
+    "Core8_TenMin": "RS_kw_m2_Avg",
+    "TenMin": "RS_kw_m2_Avg",
+    "GOES_TenMin": "RS_kw_m2_Avg",
+    "SatTen": "RS_kw_m2_Avg"
+  },
+  {
+    "FieldName": "Max_Solar_Radiation",
+    "Core8_TenMin": "RS_kw_m2_Max",
+    "TenMin": "RS_kw_m2_Max",
+    "GOES_TenMin": "RS_kw_m2_Max",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Min_Solar_Radiation",
+    "Core8_TenMin": "RS_kw_m2_Min",
+    "TenMin": "RS_kw_m2_Min",
+    "GOES_TenMin": "RS_kw_m2_Min",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Std_Dev_Solar_Radiation",
+    "Core8_TenMin": "RS_kw_m2_Std",
+    "TenMin": "RS_kw_m2_Std",
+    "GOES_TenMin": "RS_kw_m2_Std",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Std Dev_of_Wind_Direction",
+    "Core8_TenMin": "sd_wind_dir",
+    "TenMin": "WS_mph_WVc(4)",
+    "GOES_TenMin": "sd_wind_dir",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Std_Dev_of_Wind_Direction",
+    "Core8_TenMin": "sd_wind_dir",
+    "TenMin": "WS_mph_WVc(4)",
+    "GOES_TenMin": "sd_wind_dir",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Avg_Soil_Temp_4_Inches",
+    "Core8_TenMin": "Soil_T100_C_Avg",
+    "TenMin": "Soil_T4_C_Avg",
+    "GOES_TenMin": "Soil_T100_C_Avg",
+    "SatTen": "Soil_T4_C_Avg"
+  },
+  {
+    "FieldName": "Max_Soil_Temp_4_Inches",
+    "Core8_TenMin": "Soil_T100_C_Max",
+    "TenMin": "Soil_T4_C_Max",
+    "GOES_TenMin": "Soil_T100_C_Max",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Min_Soil_Temp_4_Inches",
+    "Core8_TenMin": "Soil_T100_C_Min",
+    "TenMin": "Soil_T4_C_Min",
+    "GOES_TenMin": "Soil_T100_C_Min",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Avg_Soil_Temp_8_Inches",
+    "Core8_TenMin": "Soil_T200_C_Avg",
+    "TenMin": "Soil_T8_C_Avg",
+    "GOES_TenMin": "Soil_T200_C_Avg",
+    "SatTen": "Soil_T8_C_Avg"
+  },
+  {
+    "FieldName": "Max_Soil_Temp_8_Inches",
+    "Core8_TenMin": "Soil_T200_C_Max",
+    "TenMin": "Soil_T8_C_Max",
+    "GOES_TenMin": "Soil_T200_C_Max",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Min_Soil_Temp_8_Inches",
+    "Core8_TenMin": "Soil_T200_C_Min",
+    "TenMin": "Soil_T8_C_Min",
+    "GOES_TenMin": "Soil_T200_C_Min",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Avg_Soil_Temp_2_Inches",
+    "Core8_TenMin": "Soil_T50_C_Avg",
+    "TenMin": "Soil_T2_C_Avg",
+    "GOES_TenMin": "Soil_T50_C_Avg",
+    "SatTen": "Soil_T2_C_Avg"
+  },
+  {
+    "FieldName": "Max_Soil_Temp_2_Inches",
+    "Core8_TenMin": "Soil_T50_C_Max",
+    "TenMin": "Soil_T2_C_Max",
+    "GOES_TenMin": "Soil_T50_C_Max",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Min_Soil_Temp_2_Inches",
+    "Core8_TenMin": "Soil_T50_C_Min",
+    "TenMin": "Soil_T2_C_Min",
+    "GOES_TenMin": "Soil_T50_C_Min",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Avg_Soil_Temp_20_Inches",
+    "Core8_TenMin": "Soil_T500_C_Avg",
+    "TenMin": "Soil_T20_C_Avg",
+    "GOES_TenMin": "Soil_T500_C_Avg",
+    "SatTen": "Soil_T20_C_Avg"
+  },
+  {
+    "FieldName": "Max_Soil_Temp_20_Inches",
+    "Core8_TenMin": "Soil_T500_C_Max",
+    "TenMin": "Soil_T20_C_Max",
+    "GOES_TenMin": "Soil_T500_C_Max",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Min_Soil_Temp_20_Inches",
+    "Core8_TenMin": "Soil_T500_C_Min",
+    "TenMin": "Soil_T20_C_Min",
+    "GOES_TenMin": "Soil_T500_C_Min",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Sky_Quality_Avg_mag",
+    "Core8_TenMin": "SQMmagnitude_Avg",
+    "TenMin": "SQMmagnitude_Avg",
+    "GOES_TenMin": "SQMmagnitude_Avg",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Sky_Quality_Max_mag",
+    "Core8_TenMin": "SQMmagnitude_Max",
+    "TenMin": "SQMmagnitude_Max",
+    "GOES_TenMin": "SQMmagnitude_Max",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Sky_Quality_Min_mag",
+    "Core8_TenMin": "SQMmagnitude_Min",
+    "TenMin": "SQMmagnitude_Min",
+    "GOES_TenMin": "SQMmagnitude_Min",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Sky_Quality_meter_sensor_Temp",
+    "Core8_TenMin": "SQMTempC",
+    "TenMin": "SQMTempC",
+    "GOES_TenMin": "SQMTempC",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Dattalogger_Signature",
+    "Core8_TenMin": "Sta_ID",
+    "TenMin": "Sta_Id",
+    "GOES_TenMin": "Sta_ID",
+    "SatTen": "Sta_Id"
+  },
+  {
+    "FieldName": "Avg_Temp_Thermocouple_10_m",
+    "Core8_TenMin": "TC_C_10_Avg",
+    "TenMin": "TC_C_10_Avg",
+    "GOES_TenMin": "TC_C_10_Avg",
+    "SatTen": "TC_C_10_Avg"
+  },
+  {
+    "FieldName": "Max_Temp_Thermocouple_10_m",
+    "Core8_TenMin": "TC_C_10_Max",
+    "TenMin": "TC_C_10_Max",
+    "GOES_TenMin": "TC_C_10_Max",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Min_Temp_Thermocouple_10_m",
+    "Core8_TenMin": "TC_C_10_Min",
+    "TenMin": "TC_C_10_Min",
+    "GOES_TenMin": "TC_C_10_Min",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Avg_T_TC_2m",
+    "Core8_TenMin": "TC_C_2_Avg",
+    "TenMin": "TC_C_2_Avg",
+    "GOES_TenMin": "TC_C_2_Avg",
+    "SatTen": "TC_C_2_Avg"
+  },
+  {
+    "FieldName": "Max_T_TC_2m",
+    "Core8_TenMin": "TC_C_2_Max",
+    "TenMin": "TC_C_2_Max",
+    "GOES_TenMin": "TC_C_2_Max",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Min_T_TC_2m",
+    "Core8_TenMin": "TC_C_2_Min",
+    "TenMin": "TC_C_2_Min",
+    "GOES_TenMin": "TC_C_2_Min",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Soil_Moisture_%_2",
+    "Core8_TenMin": "VWC_V_Avg",
+    "TenMin": "VWC_V_Avg",
+    "GOES_TenMin": "VWC_V_Avg",
+    "SatTen": "VWC_V_Avg"
+  },
+  {
+    "FieldName": "Soil_Moisture_2_Inches",
+    "Core8_TenMin": "VWC_V_Avg",
+    "TenMin": "VWC_V_Avg",
+    "GOES_TenMin": "VWC_V_Avg",
+    "SatTen": "VWC_V_Avg"
+  },
+  {
+    "FieldName": "Soil_Moisture_4_Inches",
+    "Core8_TenMin": "VWC50_Avg",
+    "TenMin": "VWC4_Avg",
+    "GOES_TenMin": "VWC50_Avg",
+    "SatTen": "VWC4_Avg"
+  },
+  {
+    "FieldName": "Volumetric_Water_Content_1",
+    "Core8_TenMin": "VWC50_Avg",
+    "TenMin": "VWC4_Avg",
+    "GOES_TenMin": "VWC50_Avg",
+    "SatTen": "VWC4_Avg"
+  },
+  {
+    "FieldName": "Max_Wind_Gust",
+    "Core8_TenMin": "WS_ms_Max",
+    "TenMin": "WS_mph_Max",
+    "GOES_TenMin": "WS_ms_Max",
+    "SatTen": "WS_mph_Max"
+  },
+  {
+    "FieldName": "Min_Wind_Speed",
+    "Core8_TenMin": "WS_ms_Min",
+    "TenMin": "WS_mph_Min",
+    "GOES_TenMin": "WS_ms_Min",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Std Dev_of_Wind_Speed",
+    "Core8_TenMin": "WS_ms_Std",
+    "TenMin": "WS_mph_Std",
+    "GOES_TenMin": "WS_ms_Std",
+    "SatTen": ""
+  },
+  {
+    "FieldName": "Std_Dev_of_Wind_Speed",
+    "Core8_TenMin": "WS_ms_Std",
+    "TenMin": "WS_mph_Std",
+    "GOES_TenMin": "WS_ms_Std",
+    "SatTen": ""
+  }
+]

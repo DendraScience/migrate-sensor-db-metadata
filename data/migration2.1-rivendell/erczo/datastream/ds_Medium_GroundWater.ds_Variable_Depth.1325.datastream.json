@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaca599e40001a4837f",
+  "_id": "5adea4bd6502f58bc85dd9af",
   "enabled": true,
   "name": "Well 14 Water Level Manual m",
   "organization_id": "58db17e824dc720001671379",
@@ -16,7 +16,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues2"
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_rml2_3_cr1000",
+          "fc": "source_table203",
+          "sc": "\"time\", \"manual\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -37,12 +51,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RML2_3_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Water Level Manual m",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RML2_3_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table203",
@@ -68,8 +82,8 @@
       "value": "32.0"
     }
   },
-  "created_at": "2018-04-11T15:50:04.090Z",
-  "updated_at": "2018-04-11T15:50:41.751Z",
+  "created_at": "2018-04-24T03:48:33.158Z",
+  "updated_at": "2018-04-24T03:55:11.749Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

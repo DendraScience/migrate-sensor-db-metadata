@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ea7a599e40001a482e2",
+  "_id": "5adea49d6502f539635dd912",
   "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": true,
   "name": "BP Cahto Peak 30min",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSCP_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Barometric Pressure mb",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSCP_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "AR_CWS",
@@ -53,12 +53,13 @@
   "tags": [
     "ds_Medium_Air",
     "ds_Variable_BarometricPressure",
-    "dt_Unit_Millibar"
+    "dt_Unit_Millibar",
+    "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:49:59.213Z",
-  "updated_at": "2018-04-11T15:50:36.734Z",
+  "created_at": "2018-04-24T03:47:28.524Z",
+  "updated_at": "2018-04-24T03:54:38.355Z",
   "derived_from_datastream_ids": [
-    "5ace2ea7a599e40001a482ef"
+    "5adea4a06502f5ad585dd91f"
   ],
   "tags_info": {
     "resolved_terms": [
@@ -83,12 +84,19 @@
         "scheme_priority": 10,
         "vocabulary_id": "dt-unit",
         "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
       }
     ],
     "scheme_refs": [
       {
         "_id": "ds",
-        "tag_count": 2
+        "tag_count": 3
       },
       {
         "_id": "dt",
@@ -104,6 +112,9 @@
       },
       {
         "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
       }
     ]
   },
@@ -122,7 +133,7 @@
     },
     {
       "key": "tag",
-      "str": "0040c17ba60fe8565034932062d001f55848edc6",
+      "str": "d97826b01ce9e1934f5ed5c1c071d736b1cac5eb",
       "scheme_id": "ds"
     },
     {

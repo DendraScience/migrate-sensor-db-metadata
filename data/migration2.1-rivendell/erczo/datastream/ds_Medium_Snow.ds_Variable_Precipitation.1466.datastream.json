@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ebda599e40001a485b6",
+  "_id": "5adea5316502f5de115ddbe6",
   "enabled": false,
   "name": "Hail intensity - Ingrid",
   "organization_id": "58db17e824dc720001671379",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSIC_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Hail Intensity mm/h",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSIC_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "WSIC_Table",
@@ -55,8 +55,8 @@
     "ds_Variable_Precipitation",
     "dt_Unit_MillimeterPerHour"
   ],
-  "created_at": "2018-04-11T15:50:21.021Z",
-  "updated_at": "2018-04-11T15:50:59.647Z",
+  "created_at": "2018-04-24T03:52:21.806Z",
+  "updated_at": "2018-04-24T03:57:12.625Z",
   "tags_info": {
     "resolved_terms": [
       {

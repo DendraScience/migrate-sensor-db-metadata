@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f1aa599e40001a48b3d",
+  "_id": "5adeac7b6502f5449e5de16d",
   "description": "",
   "enabled": true,
   "name": "Total Solar Radiation W m2 Anza Borrego Std",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucab_anzaborrego",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"RS_kw_m2_Std\"*1000 as \"RS_w_m2_Std\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucab_anzaborrego",
-      "type": "loggernet.station"
+      "identifier": "Solar Radiation Std W/m^2",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucab_anzaborrego",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -56,8 +70,8 @@
     "dt_Unit_WattPerSquareMeter",
     "ds_Aggregate_StandardDeviation"
   ],
-  "created_at": "2018-04-11T15:51:54.641Z",
-  "updated_at": "2018-04-11T15:52:31.297Z",
+  "created_at": "2018-04-24T04:03:07.324Z",
+  "updated_at": "2018-04-24T04:07:10.773Z",
   "tags_info": {
     "resolved_terms": [
       {

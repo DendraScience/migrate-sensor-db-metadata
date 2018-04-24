@@ -1,7 +1,7 @@
 {
-  "_id": "5ace2f1ba599e40001a48b5d",
+  "_id": "5adeac816502f5259b5de18d",
   "description": "Nothing is known about this misspelled datastream - DRI created",
-  "enabled": true,
+  "enabled": false,
   "name": "Dattalogger Signature White Mt Crooked WhiteMt Barcroft",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -38,8 +38,8 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "Unknown",
+      "type": "odm.stations.VariableCode"
     }
   ],
   "tags": [
@@ -47,8 +47,8 @@
     "ds_Variable_Unknown",
     "dt_Unit_Dimensionless"
   ],
-  "created_at": "2018-04-11T15:51:55.615Z",
-  "updated_at": "2018-04-11T15:52:32.257Z",
+  "created_at": "2018-04-24T04:03:13.833Z",
+  "updated_at": "2018-04-24T04:07:17.693Z",
   "tags_info": {
     "resolved_terms": [
       {

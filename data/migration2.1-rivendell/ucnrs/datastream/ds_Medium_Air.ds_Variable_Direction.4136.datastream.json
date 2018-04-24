@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2efba599e40001a48740",
+  "_id": "5adeaba76502f552af5ddd70",
   "description": "",
   "enabled": true,
   "name": "Wind Direction Deg Younger Std",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucyl_youngerlagoon",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"sd_wind_dir\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucyl_youngerlagoon",
-      "type": "loggernet.station"
+      "identifier": "Wind Direction Standard Deviation",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucyl_youngerlagoon",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -56,8 +70,8 @@
     "dt_Unit_DegreeAngle",
     "ds_Aggregate_StandardDeviation"
   ],
-  "created_at": "2018-04-11T15:51:23.283Z",
-  "updated_at": "2018-04-11T15:51:58.665Z",
+  "created_at": "2018-04-24T03:59:35.600Z",
+  "updated_at": "2018-04-24T04:03:31.097Z",
   "tags_info": {
     "resolved_terms": [
       {

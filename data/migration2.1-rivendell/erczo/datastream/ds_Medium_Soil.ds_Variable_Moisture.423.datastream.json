@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ec1a599e40001a48640",
+  "_id": "5adea54f6502f596d75ddc70",
   "enabled": false,
   "name": "Soil Moisture L3SM_9",
   "organization_id": "58db17e824dc720001671379",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RUL3_2_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Soil Moisture mV",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RUL3_2_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table302",
@@ -55,8 +55,8 @@
     "ds_Variable_Moisture",
     "dt_Unit_Millivolt"
   ],
-  "created_at": "2018-04-11T15:50:25.193Z",
-  "updated_at": "2018-04-11T15:51:03.986Z",
+  "created_at": "2018-04-24T03:53:18.438Z",
+  "updated_at": "2018-04-24T03:57:42.414Z",
   "tags_info": {
     "resolved_terms": [
       {

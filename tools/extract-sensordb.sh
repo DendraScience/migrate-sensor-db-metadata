@@ -7,17 +7,18 @@ logfile="../compost/migration_"$DATE".log"
 
 path="../data/migration2.1-rivendell/"
 organization_list="ucnrs erczo"
+host="gall.berkeley.edu" # "gall.berkeley.edu" # "localhost"
 
 for orgslug in $organization_list 
 do 
 	# start with SQL update
 	echo "Organization to Extract: $orgslug"
-	echo ./extract-sensordb-load-sql-tables.sh $1 $2 $orgslug
-	./extract-sensordb-load-sql-tables.sh $1 $2 $orgslug
+	echo ./extract-sensordb-load-sql-tables.sh $host $1 $2 $orgslug
+	./extract-sensordb-load-sql-tables.sh $host $1 $2 $orgslug
 
 	# export stations & datastreams
-	echo ./extract-sensordb-export-sql-views.sh $path$orgslug/ 
-	./extract-sensordb-export-sql-views.sh $path$orgslug/ 
+	echo ./extract-sensordb-export-sql-views.sh $host $1 $2 $path$orgslug/ 
+	./extract-sensordb-export-sql-views.sh $host $1 $2 $path$orgslug/ 
 	
 	# assign station mongoid's to stations and datastreams
 	# assign various external references 
@@ -34,8 +35,9 @@ do
 	node ./transform-sensordb-map-names-to-attributes.js $path $orgslug
 
 	# Create Influx Datapoints Configuration for Datastreams using External References
-	#echo node ./transform-sensordb-influxconfig.js  $path $orgslug
-
+	echo node ./transform-sensordb-influxconfig.js  $path $orgslug
+	node ./transform-sensordb-influxconfig.js  $path $orgslug
+	
 done
 
 echo "RIVENDELL SENSOR DATABASE EXTRACTION & TRANSFORMATION COMPLETE!" 

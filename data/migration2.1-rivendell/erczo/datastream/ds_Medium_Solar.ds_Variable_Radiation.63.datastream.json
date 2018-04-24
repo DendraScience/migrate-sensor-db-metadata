@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ec4a599e40001a486af",
+  "_id": "5adea5656502f56efe5ddcdf",
   "enabled": false,
   "name": "Total Solar Radiation MJ WSCP",
   "organization_id": "58db17e824dc720001671379",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSCP_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Solar Radiation Total MJ/m^2",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSCP_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "AR_CWS",
@@ -55,8 +55,8 @@
     "ds_Variable_Radiation",
     "dt_Unit_MegajoulePerSquareMeter"
   ],
-  "created_at": "2018-04-11T15:50:28.534Z",
-  "updated_at": "2018-04-11T15:51:07.479Z",
+  "created_at": "2018-04-24T03:54:02.930Z",
+  "updated_at": "2018-04-24T03:58:06.201Z",
   "tags_info": {
     "resolved_terms": [
       {

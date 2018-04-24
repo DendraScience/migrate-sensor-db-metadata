@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eb3a599e40001a48485",
+  "_id": "5adea4f36502f571535ddab5",
   "enabled": true,
   "name": "ERP L1S2-1.30",
   "organization_id": "58db17e824dc720001671379",
@@ -16,7 +16,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues2"
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_rll1_1_cr1000",
+          "fc": "source_level101",
+          "sc": "\"time\", \"erp38\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -37,12 +51,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RLL1_1_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Resistance",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RLL1_1_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Level101",
@@ -60,8 +74,8 @@
       "value": "1.30"
     }
   },
-  "created_at": "2018-04-11T15:50:11.761Z",
-  "updated_at": "2018-04-11T15:50:50.120Z",
+  "created_at": "2018-04-24T03:50:18.602Z",
+  "updated_at": "2018-04-24T03:56:07.622Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

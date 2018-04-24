@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f0aa599e40001a4891e",
+  "_id": "5adeac0a6502f581325ddf4a",
   "description": "",
   "enabled": true,
   "name": "Battery Voltage volts WhiteMt Barcroft Avg",
@@ -38,8 +38,8 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "Battery Voltage Avg",
+      "type": "odm.stations.VariableCode"
     }
   ],
   "tags": [
@@ -48,8 +48,8 @@
     "dt_Unit_Volt",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:38.059Z",
-  "updated_at": "2018-04-11T15:52:13.996Z",
+  "created_at": "2018-04-24T04:01:14.141Z",
+  "updated_at": "2018-04-24T04:05:12.719Z",
   "tags_info": {
     "resolved_terms": [
       {

@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ec5a599e40001a486c7",
+  "_id": "5adea56a6502f50b0f5ddcf7",
   "description": "See incident report 127 for details",
   "enabled": true,
   "name": "Well 3 Pressure psi",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues2"
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_rml2_2_cr1000",
+          "fc": "source_table202",
+          "sc": "\"time\", \"Well3_psi\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RML2_2_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Water Pressure psi",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RML2_2_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table202",
@@ -69,8 +83,8 @@
       "value": "12.45"
     }
   },
-  "created_at": "2018-04-11T15:50:29.208Z",
-  "updated_at": "2018-04-11T15:51:08.183Z",
+  "created_at": "2018-04-24T03:54:12.054Z",
+  "updated_at": "2018-04-24T03:58:10.994Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

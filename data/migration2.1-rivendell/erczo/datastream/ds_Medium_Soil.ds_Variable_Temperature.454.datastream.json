@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ec3a599e40001a48686",
+  "_id": "5adea55d6502f575835ddcb6",
   "description": "Per Collin: A set of psychrometers on a cable was pulled out of Well 10 and left on the ground.  These 'Soil Temperature' sensors have been recording open air, not soil or water.   They need to be marked\r\ninvalid data. (see Incident Report 77)",
   "enabled": false,
   "name": "Soil Temp L3WT_5.50",
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RUL3_2_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Soil Temperature C",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RUL3_2_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table302",
@@ -62,8 +62,8 @@
       "value": "5.50"
     }
   },
-  "created_at": "2018-04-11T15:50:27.326Z",
-  "updated_at": "2018-04-11T15:51:06.223Z",
+  "created_at": "2018-04-24T03:53:46.710Z",
+  "updated_at": "2018-04-24T03:57:57.439Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

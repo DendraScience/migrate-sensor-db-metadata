@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f11a599e40001a48a0a",
+  "_id": "5adeac3b6502f588ed5de03a",
   "enabled": true,
   "name": "Soil Moisture Per James",
   "organization_id": "58db17c424dc720001671378",
@@ -37,12 +37,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucja_james",
-      "type": "loggernet.station"
+      "identifier": "Soil Moisture Pct Avg",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucja_james",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -56,8 +56,8 @@
     "ds_Aggregate_Average"
   ],
   "attributes": {},
-  "created_at": "2018-04-11T15:51:45.016Z",
-  "updated_at": "2018-04-11T15:52:21.399Z",
+  "created_at": "2018-04-24T04:02:03.327Z",
+  "updated_at": "2018-04-24T04:06:04.009Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

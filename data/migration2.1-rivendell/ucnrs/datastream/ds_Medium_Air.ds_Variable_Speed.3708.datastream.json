@@ -1,6 +1,6 @@
 {
-  "_id": "5ace2effa599e40001a487c6",
-  "enabled": true,
+  "_id": "5adeabc36502f552855dddf6",
+  "enabled": false,
   "name": "Wind Speed Deg McLaughlin Std",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -37,12 +37,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucmc_mclaughlin",
-      "type": "loggernet.station"
+      "identifier": "Wind Speed Stdev MPH",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucmc_mclaughlin",
+      "type": "loggernet.station"
     }
   ],
   "tags": [
@@ -51,8 +51,8 @@
     "dt_Unit_MilePerHour",
     "ds_Aggregate_StandardDeviation"
   ],
-  "created_at": "2018-04-11T15:51:27.288Z",
-  "updated_at": "2018-04-11T15:52:02.924Z",
+  "created_at": "2018-04-24T04:00:03.331Z",
+  "updated_at": "2018-04-24T04:03:59.713Z",
   "tags_info": {
     "resolved_terms": [
       {

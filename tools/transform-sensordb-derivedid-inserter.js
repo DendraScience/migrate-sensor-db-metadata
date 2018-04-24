@@ -74,7 +74,12 @@ for(var i=0;i<ds_files.length;i++) {
 		ds_count++
 		ds_json = JSON.parse(fs.readFileSync(ds_path+ds_filename))
 		name = ds_json.name
-		derived_id = get_external_ref(ds_json,"odm.datastreams.DerivedID")
+		if(typeof ds_json.external_refs === 'undefined') {
+			console.log("DerivedId: Skip. no external_refs.",name)
+			continue
+		} else {
+			derived_id = get_external_ref(ds_json,"odm.datastreams.DerivedID")
+		}
 		if(typeof derived_id === 'undefined') {
 			//console.log('Not derived datastream ',name)
 			not_derived_count++

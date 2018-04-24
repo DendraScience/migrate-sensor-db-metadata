@@ -1,11 +1,17 @@
 {
-  "_id": "5ace2ec2a599e40001a48662",
+  "_id": "5adea5566502f5022a5ddc92",
   "enabled": true,
-  "name": "Soil Temp 100 mm depth C WSSM Avg",
+  "name": "Soil Temp 0.1 meter depth C WSSM Avg",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602d8",
+  "attributes": {
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": "0.1"
+    }
+  },
   "datapoints_config": [
     {
       "begins_at": "2012-05-15T07:00:00.000Z",
@@ -16,7 +22,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues2"
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_wssm_cr1000",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"Soil_T4_C_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -37,12 +57,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSSM_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Soil Temperature C",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSSM_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -54,8 +74,15 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-04-11T15:50:26.265Z",
-  "updated_at": "2018-04-11T15:51:05.031Z",
+  "created_at": "2018-04-24T03:53:32.107Z",
+  "updated_at": "2018-04-24T03:57:49.661Z",
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
   "tags_info": {
     "resolved_terms": [
       {
@@ -110,7 +137,7 @@
     },
     {
       "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      "str": "dd025afa90677b874c1da61d732c5007cfdecd94"
     },
     {
       "key": "geo",

@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2efca599e40001a48777",
+  "_id": "5adeabb26502f58cee5ddda7",
   "description": "",
   "enabled": true,
   "name": "Relative Humidity Per Anza Borrego Avg",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucab_anzaborrego",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"RH_pct_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucab_anzaborrego",
-      "type": "loggernet.station"
+      "identifier": "Rel Humidity Per Avg",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucab_anzaborrego",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -56,8 +70,8 @@
     "dt_Unit_Percent",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:24.944Z",
-  "updated_at": "2018-04-11T15:52:00.412Z",
+  "created_at": "2018-04-24T03:59:46.976Z",
+  "updated_at": "2018-04-24T04:03:42.774Z",
   "tags_info": {
     "resolved_terms": [
       {

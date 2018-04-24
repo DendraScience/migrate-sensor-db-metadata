@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaca599e40001a48391",
+  "_id": "5adea4c16502f5a7ee5dd9c1",
   "derivation_description": "Conversion to 30-minute timesteps",
   "description": "transducer changed from mV to psi on 2014-03-11 12:30:00",
   "enabled": true,
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RML2_2_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Water Level m",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RML2_2_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table202",
@@ -70,10 +70,10 @@
       "value": "12.45"
     }
   },
-  "created_at": "2018-04-11T15:50:04.557Z",
-  "updated_at": "2018-04-11T15:50:42.289Z",
+  "created_at": "2018-04-24T03:48:40.361Z",
+  "updated_at": "2018-04-24T03:55:15.540Z",
   "derived_from_datastream_ids": [
-    "5ace2eada599e40001a483a2"
+    "5adea4c46502f5515f5dd9d2"
   ],
   "attributes_info": {
     "sort": {

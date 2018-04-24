@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2effa599e40001a487c1",
+  "_id": "5adeabc26502f52a8e5dddf1",
   "description": "",
   "enabled": true,
   "name": "Wind Speed m s BigCreek Highlands Avg",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_hipk_bigcreekhighlands",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"WS_mph_WVc_1_\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "hipk_bigcreekhighlands",
-      "type": "loggernet.station"
+      "identifier": "Wind Speed Avg MS",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "hipk_bigcreekhighlands",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -56,8 +70,8 @@
     "dt_Unit_MeterPerSecond",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:27.136Z",
-  "updated_at": "2018-04-11T15:52:02.772Z",
+  "created_at": "2018-04-24T04:00:02.320Z",
+  "updated_at": "2018-04-24T04:03:58.630Z",
   "tags_info": {
     "resolved_terms": [
       {

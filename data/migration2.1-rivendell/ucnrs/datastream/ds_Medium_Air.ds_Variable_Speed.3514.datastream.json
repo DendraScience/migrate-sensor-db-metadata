@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2efea599e40001a487ae",
+  "_id": "5adeabbe6502f510b75dddde",
   "description": "",
   "enabled": true,
   "name": "Wind Speed m s Elliott Avg",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucel_elliotchaparral",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"mean_wind_vel\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucel_elliotchaparral",
-      "type": "loggernet.station"
+      "identifier": "Wind Speed Avg MS",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucel_elliotchaparral",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -56,8 +70,8 @@
     "dt_Unit_MeterPerSecond",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:26.576Z",
-  "updated_at": "2018-04-11T15:52:02.189Z",
+  "created_at": "2018-04-24T03:59:58.411Z",
+  "updated_at": "2018-04-24T04:03:54.566Z",
   "tags_info": {
     "resolved_terms": [
       {

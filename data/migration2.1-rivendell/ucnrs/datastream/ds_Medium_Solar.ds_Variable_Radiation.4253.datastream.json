@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f1ba599e40001a48b52",
+  "_id": "5adeac7f6502f5d3575de182",
   "enabled": false,
   "name": "Total Solar Radiation W m2 Jepson Std",
   "organization_id": "58db17c424dc720001671378",
@@ -38,12 +38,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Solar Radiation Std W/m^2",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucjp_jepson",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC0102A",
       "type": "goes.address"
+    },
+    {
+      "identifier": "GOES_TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -52,8 +60,8 @@
     "dt_Unit_WattPerSquareMeter",
     "ds_Aggregate_StandardDeviation"
   ],
-  "created_at": "2018-04-11T15:51:55.294Z",
-  "updated_at": "2018-04-11T15:52:31.958Z",
+  "created_at": "2018-04-24T04:03:11.626Z",
+  "updated_at": "2018-04-24T04:07:15.395Z",
   "tags_info": {
     "resolved_terms": [
       {

@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f0ba599e40001a48941",
+  "_id": "5adeac116502f566bb5ddf6d",
   "enabled": true,
   "name": "TX REFLECTED POWER Granites ",
   "organization_id": "58db17c424dc720001671378",
@@ -16,7 +16,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucgr_granites",
+          "fc": "source_goes_tenmin",
+          "sc": "\"time\", \"ReflectTxX10\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -37,12 +51,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Reflected Power",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucgr_granites",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC01EF8",
       "type": "goes.address"
+    },
+    {
+      "identifier": "GOES_TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -50,8 +72,8 @@
     "ds_Variable_RadioTransmission",
     "dt_Unit_DecibelMilliwatt"
   ],
-  "created_at": "2018-04-11T15:51:39.124Z",
-  "updated_at": "2018-04-11T15:52:15.072Z",
+  "created_at": "2018-04-24T04:01:21.265Z",
+  "updated_at": "2018-04-24T04:05:20.188Z",
   "tags_info": {
     "resolved_terms": [
       {

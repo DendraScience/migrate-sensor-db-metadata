@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaba599e40001a48361",
+  "_id": "5adea4b76502f52aba5dd991",
   "enabled": true,
   "name": "Battery Voltage Riv2_3 ",
   "organization_id": "58db17e824dc720001671379",
@@ -16,7 +16,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues2"
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_rml2_3_cr1000",
+          "fc": "source_table203",
+          "sc": "\"time\", \"BattV\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -37,12 +51,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RML2_3_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Battery Voltage",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RML2_3_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table203",
@@ -54,8 +68,8 @@
     "ds_Variable_Voltage",
     "dt_Unit_Volt"
   ],
-  "created_at": "2018-04-11T15:50:03.262Z",
-  "updated_at": "2018-04-11T15:50:40.752Z",
+  "created_at": "2018-04-24T03:48:21.709Z",
+  "updated_at": "2018-04-24T03:55:05.427Z",
   "tags_info": {
     "resolved_terms": [
       {

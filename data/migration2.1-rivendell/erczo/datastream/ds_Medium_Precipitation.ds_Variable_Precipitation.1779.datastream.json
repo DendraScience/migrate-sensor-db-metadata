@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaea599e40001a483ce",
+  "_id": "5adea4ce6502f5da165dd9fe",
   "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": true,
   "name": "Rainfall Cumulative mm WSSM 30min",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSSM_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Rainfall Cumulative mm",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSSM_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -56,10 +56,10 @@
     "dt_Unit_Millimeter",
     "ds_Aggregate_Cumulative"
   ],
-  "created_at": "2018-04-11T15:50:06.222Z",
-  "updated_at": "2018-04-11T15:50:44.163Z",
+  "created_at": "2018-04-24T03:49:04.785Z",
+  "updated_at": "2018-04-24T03:55:28.401Z",
   "derived_from_datastream_ids": [
-    "5ace2eaea599e40001a483cc"
+    "5adea4ce6502f59ce35dd9fc"
   ],
   "tags_info": {
     "resolved_terms": [

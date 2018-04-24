@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ec4a599e40001a486a3",
+  "_id": "5adea5636502f54d6e5ddcd3",
   "derivation_description": "Apogee SQ-110 Pyranometer",
   "enabled": true,
   "name": "Total Solar Radiation W Level 5 Max 30min",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RUL5_1_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Solar Radiation Total W/m^2",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RUL5_1_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table501",
@@ -55,10 +55,10 @@
     "ds_Variable_Radiation",
     "dt_Unit_WattPerSquareMeter"
   ],
-  "created_at": "2018-04-11T15:50:28.191Z",
-  "updated_at": "2018-04-11T15:51:07.128Z",
+  "created_at": "2018-04-24T03:53:58.212Z",
+  "updated_at": "2018-04-24T03:58:03.675Z",
   "derived_from_datastream_ids": [
-    "5ace2ec4a599e40001a4869f"
+    "5adea5626502f53b735ddccf"
   ],
   "tags_info": {
     "resolved_terms": [

@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ea7a599e40001a482f0",
+  "_id": "5adea4a06502f513bb5dd920",
   "description": "From Todd Wood's co2 database, serial numbers 0, 0304970b, and 0304977a",
   "enabled": false,
   "name": "CO2 Concentration ppm/10 Well3",
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RML2_2_CR1000",
-      "type": "loggernet.station"
+      "identifier": "CO2 Concentration ppm/10",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RML2_2_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table202",
@@ -56,8 +56,8 @@
     "ds_Variable_Concentration",
     "dt_Unit_PartPerMillion"
   ],
-  "created_at": "2018-04-11T15:49:59.658Z",
-  "updated_at": "2018-04-11T15:50:37.182Z",
+  "created_at": "2018-04-24T03:47:34.173Z",
+  "updated_at": "2018-04-24T03:54:41.389Z",
   "tags_info": {
     "resolved_terms": [
       {

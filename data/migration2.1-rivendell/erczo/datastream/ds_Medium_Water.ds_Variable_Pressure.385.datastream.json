@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ec6a599e40001a486e5",
+  "_id": "5adea5716502f5f6865ddd15",
   "enabled": false,
   "name": "Well 7 Pressure mV Old",
   "organization_id": "58db17e824dc720001671379",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RRL4_1_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Water Pressure mV",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RRL4_1_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table401",
@@ -69,8 +69,8 @@
       "value": "16.58"
     }
   },
-  "created_at": "2018-04-11T15:50:30.173Z",
-  "updated_at": "2018-04-11T15:51:09.116Z",
+  "created_at": "2018-04-24T03:54:24.180Z",
+  "updated_at": "2018-04-24T03:58:17.389Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaca599e40001a4838d",
+  "_id": "5adea4c06502f5ff6b5dd9bd",
   "derivation_description": "Convert psi to meters for wells",
   "description": "[GO 2/8/2014] Moving psi->meters conversion to the Loader; ignoring incoming value from datalogger.\r\nPreviously: fieldname=Well15_WaterLevel_m \r\n\r\nwater level: converted PSI to well level from surface in meters.",
   "enabled": true,
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RUL5_1_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Water Level m",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RUL5_1_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table501",
@@ -70,10 +70,10 @@
       "value": "28.38"
     }
   },
-  "created_at": "2018-04-11T15:50:04.463Z",
-  "updated_at": "2018-04-11T15:50:42.170Z",
+  "created_at": "2018-04-24T03:48:38.758Z",
+  "updated_at": "2018-04-24T03:55:14.702Z",
   "derived_from_datastream_ids": [
-    "5ace2ec5a599e40001a486c0"
+    "5adea5696502f5ee605ddcf0"
   ],
   "attributes_info": {
     "sort": {

@@ -1,8 +1,8 @@
 {
-  "_id": "5ace2f12a599e40001a48a45",
+  "_id": "5adeac476502f5204b5de075",
   "description": "",
   "enabled": true,
-  "name": "Soil Temp Deg C 50 mm Chickering Avg",
+  "name": "Soil Temp Deg C 0.05 m Chickering Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucca_chickering",
+          "fc": "source_satten",
+          "sc": "\"time\", \"Soil_T2_C_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Soil Temp C Avg",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucca_chickering",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC0035C",
       "type": "goes.address"
+    },
+    {
+      "identifier": "SatTen",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -55,17 +77,17 @@
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
-      "value": 0.05
+      "value": "0.05"
     }
   },
-  "created_at": "2018-04-11T15:51:46.880Z",
-  "updated_at": "2018-04-11T15:52:23.424Z",
+  "created_at": "2018-04-24T04:02:15.811Z",
+  "updated_at": "2018-04-24T04:06:16.970Z",
   "attributes_info": {
     "sort": {
-      "value1": 0.05,
+      "value1": 0,
       "value2": 0
     },
-    "text": "0.05"
+    "text": ""
   },
   "tags_info": {
     "resolved_terms": [
@@ -131,7 +153,7 @@
     },
     {
       "key": "att",
-      "str": "538b5a461e9814aa2ce4c04cb37da50939de4b2c"
+      "str": "ca096e49c67966f366a80dfc7d4b572f44661bf4"
     },
     {
       "key": "geo",

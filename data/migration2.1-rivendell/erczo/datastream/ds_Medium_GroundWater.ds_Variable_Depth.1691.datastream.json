@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaca599e40001a483a1",
+  "_id": "5adea4c46502f53b355dd9d1",
   "derivation_description": "Convert psi to meters for wells",
   "description": "replaces 'Well 2 Water Level m Old', which used the Setra pressure transducer.",
   "enabled": true,
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RML2_2_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Water Level m",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RML2_2_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table202",
@@ -70,10 +70,10 @@
       "value": "12.15"
     }
   },
-  "created_at": "2018-04-11T15:50:04.987Z",
-  "updated_at": "2018-04-11T15:50:42.771Z",
+  "created_at": "2018-04-24T03:48:46.800Z",
+  "updated_at": "2018-04-24T03:55:18.910Z",
   "derived_from_datastream_ids": [
-    "5ace2ec5a599e40001a486c6"
+    "5adea56a6502f53bb65ddcf6"
   ],
   "attributes_info": {
     "sort": {

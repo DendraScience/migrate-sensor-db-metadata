@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ea7a599e40001a482f1",
+  "_id": "5adea4a06502f5f7645dd921",
   "description": "device = Serial number 03049717",
   "enabled": false,
   "name": "CO2 Concentration ppm/10 Well10",
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RUL3_2_CR1000",
-      "type": "loggernet.station"
+      "identifier": "CO2 Concentration ppm/10",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RUL3_2_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table302",
@@ -56,8 +56,8 @@
     "ds_Variable_Concentration",
     "dt_Unit_PartPerMillion"
   ],
-  "created_at": "2018-04-11T15:49:59.684Z",
-  "updated_at": "2018-04-11T15:50:37.210Z",
+  "created_at": "2018-04-24T03:47:34.565Z",
+  "updated_at": "2018-04-24T03:54:41.596Z",
   "tags_info": {
     "resolved_terms": [
       {

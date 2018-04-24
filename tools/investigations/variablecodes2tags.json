@@ -1,0 +1,982 @@
+[
+  {
+    "VariableCode": "Air Temp C",
+    "Medium": "Air",
+    "Variable": "Temperature",
+    "Unit": "DegreeCelsius",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Air Temp C Avg",
+    "Medium": "Air",
+    "Variable": "Temperature",
+    "Unit": "DegreeCelsius",
+    "Aggregate": "Average",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Air Temp C Max",
+    "Medium": "Air",
+    "Variable": "Temperature",
+    "Unit": "DegreeCelsius",
+    "Aggregate": "Maximum",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Air Temp C Min",
+    "Medium": "Air",
+    "Variable": "Temperature",
+    "Unit": "DegreeCelsius",
+    "Aggregate": "Minimum",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Air Temp Delta C Avg",
+    "Medium": "Air",
+    "Variable": "Temperature",
+    "Unit": "DegreeCelsius",
+    "Aggregate": "Average",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Air Temp Delta C Max",
+    "Medium": "Air",
+    "Variable": "Temperature",
+    "Unit": "DegreeCelsius",
+    "Aggregate": "Maximum",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Air Temp Delta C Min",
+    "Medium": "Air",
+    "Variable": "Temperature",
+    "Unit": "DegreeCelsius",
+    "Aggregate": "Minimum",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Barometric Pressure mb",
+    "Medium": "Air",
+    "Variable": "BarometricPressure",
+    "Unit": "Millibar",
+    "Aggregate": "Average",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Barometric Pressure mmHg",
+    "Medium": "Air",
+    "Variable": "BarometricPressure",
+    "Unit": "MillimeterOfMercury",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Battery Voltage",
+    "Medium": "Battery",
+    "Variable": "Voltage",
+    "Unit": "Volt",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Battery Voltage Avg",
+    "Medium": "Battery",
+    "Variable": "Voltage",
+    "Unit": "Volt",
+    "Aggregate": "Average",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Battery Voltage Max",
+    "Medium": "Battery",
+    "Variable": "Voltage",
+    "Unit": "Volt",
+    "Aggregate": "Maximum",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Battery Voltage Min",
+    "Medium": "Battery",
+    "Variable": "Voltage",
+    "Unit": "Volt",
+    "Aggregate": "Minimum",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "CO2 Concentration ppm/10",
+    "Medium": "Air",
+    "Variable": "Concentration",
+    "Unit": "PartPerMillion",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Derived Cumulative Precipitation",
+    "Medium": "Precipitation",
+    "Variable": "Precipitation",
+    "Unit": "Millimeter",
+    "Aggregate": "Cumulative",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Dielectric",
+    "Medium": "Rock",
+    "Variable": "DielectricStrength",
+    "Unit": "Dimensionless",
+    "Aggregate": "",
+    "Comment": "sqrt(dielectric constant)"
+  },
+  {
+    "VariableCode": "Discharge",
+    "Medium": "SurfaceWater",
+    "Variable": "Discharge",
+    "Unit": "CubicMeterPerSecond",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Electrical Conductivity dS/m",
+    "Medium": "Rock",
+    "Variable": "Moisture",
+    "Unit": "DecisiemenPerMeter",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Electrical Current mA",
+    "Medium": "Not Applicable",
+    "Variable": "ElectricCurrent",
+    "Unit": "Milliamp",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Evapotranspiration",
+    "Medium": "Air",
+    "Variable": "Evapotranspiration",
+    "Unit": "Millimeter",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "External Voltage",
+    "Medium": "Instrument",
+    "Variable": "Voltage",
+    "Unit": "Volt",
+    "Aggregate": "",
+    "Comment": "external"
+  },
+  {
+    "VariableCode": "Forward Power",
+    "Medium": "Instrument",
+    "Variable": "RadioTransmission",
+    "Unit": "DecibelMilliwatt",
+    "Aggregate": "",
+    "Comment": "forward"
+  },
+  {
+    "VariableCode": "Fuel Moisture Per Avg",
+    "Medium": "Instrument",
+    "Variable": "Moisture",
+    "Unit": "Percent",
+    "Aggregate": "Average",
+    "Comment": "instrument\":\"fuel"
+  },
+  {
+    "VariableCode": "Gage Height metßers",
+    "Medium": "SurfaceWater",
+    "Variable": "Depth",
+    "Unit": "Meter",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "GEONOR GAUGE FREQ hz",
+    "Medium": "Precipitation",
+    "Variable": "Precipitation",
+    "Unit": "Hertz",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "GEONOR PRECIP cm",
+    "Medium": "Precipitation",
+    "Variable": "Precipitation",
+    "Unit": "Centimeter",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Hail Cumulative mm",
+    "Medium": "Snow",
+    "Variable": "Precipitation",
+    "Unit": "Millimeter",
+    "Aggregate": "Cumulative",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Hail Intensity mm/h",
+    "Medium": "Snow",
+    "Variable": "Precipitation",
+    "Unit": "MillimeterPerHour",
+    "Aggregate": "",
+    "Comment": ""
+  },
+    {
+    "VariableCode": "Instrument Temp C",
+    "Medium": "Instrument",
+    "Variable": "Temperature",
+    "Unit": "DegreeCelsius",
+    "Aggregate": "Average",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Leaf Wetness cnts mV",
+    "Medium": "Leaf",
+    "Variable": "Moisture",
+    "Unit": "Count",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Leaf Wetness Excitation mV",
+    "Medium": "Leaf",
+    "Variable": "Moisture",
+    "Unit": "Millivolt",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Leaf Wetness kohms",
+    "Medium": "Leaf",
+    "Variable": "Moisture",
+    "Unit": "Kiloohm",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Leaf Wetness Minutes",
+    "Medium": "Leaf",
+    "Variable": "Moisture",
+    "Unit": "MinuteTime",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Leaf Wetness Percent",
+    "Medium": "Leaf",
+    "Variable": "Moisture",
+    "Unit": "Percent",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Logger Temp c",
+    "Medium": "Instrument",
+    "Variable": "Temperature",
+    "Unit": "DegreeCelsius",
+    "Aggregate": "Average",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Logger Voltage V",
+    "Medium": "Instrument",
+    "Variable": "Voltage",
+    "Unit": "Volt",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Par Instant lux",
+    "Medium": "Solar",
+    "Variable": "PhotosyntheticallyActiveRadiation",
+    "Unit": "Lux",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "PAR umole",
+    "Medium": "Solar",
+    "Variable": "PhotosyntheticallyActiveRadiation",
+    "Unit": "MicromolePerSquareMeter",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "PAR umole Avg",
+    "Medium": "Solar",
+    "Variable": "PhotosyntheticallyActiveRadiation",
+    "Unit": "MicromolePerSquareMeter",
+    "Aggregate": "Average",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "PAR umole Max",
+    "Medium": "Solar",
+    "Variable": "PhotosyntheticallyActiveRadiation",
+    "Unit": "MicromolePerSquareMeter",
+    "Aggregate": "Maximum",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "PAR umole Min",
+    "Medium": "Solar",
+    "Variable": "PhotosyntheticallyActiveRadiation",
+    "Unit": "MicromolePerSquareMeter",
+    "Aggregate": "Minimum",
+    "Comment": ""
+  },
+  
+
+  {
+    "VariableCode": "VWC Period uSec",
+    "Medium": "Soil",
+    "Variable": "Moisture",
+    "Unit": "Microsecond",
+    "Aggregate": "Average",
+    "Comment": ""
+  },
+
+
+  {
+    "VariableCode": "Radio Signal Strength dB",
+    "Medium": "Instrument",
+    "Variable": "RadioTransmission",
+    "Unit": "Decibel",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Rain Gauge Temp C",
+    "Medium": "Instrument",
+    "Variable": "Temperature",
+    "Unit": "DegreeCelsius",
+    "Aggregate": "",
+    "Comment": "gauge"
+  },
+  {
+    "VariableCode": "Rainfall Cumulative cm",
+    "Medium": "Precipitation",
+    "Variable": "Precipitation",
+    "Unit": "Centimeter",
+    "Aggregate": "Cumulative",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Rainfall Cumulative in.",
+    "Medium": "Precipitation",
+    "Variable": "Precipitation",
+    "Unit": "Inch",
+    "Aggregate": "Cumulative",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Rainfall Cumulative mm",
+    "Medium": "Precipitation",
+    "Variable": "Precipitation",
+    "Unit": "Millimeter",
+    "Aggregate": "Cumulative",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Rainfall inches",
+    "Medium": "Precipitation",
+    "Variable": "Precipitation",
+    "Unit": "Inch",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Rainfall Intensity mm/h",
+    "Medium": "Precipitation",
+    "Variable": "Precipitation",
+    "Unit": "MillimeterPerHour",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Rainfall mm",
+    "Medium": "Precipitation",
+    "Variable": "Precipitation",
+    "Unit": "Millimeter",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Rainfall Raw Hz",
+    "Medium": "Precipitation",
+    "Variable": "Precipitation",
+    "Unit": "Hertz",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Rainfall Raw Std Dev Hz",
+    "Medium": "Precipitation",
+    "Variable": "Precipitation",
+    "Unit": "Hertz",
+    "Aggregate": "StandardDeviation",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Raw Sensor Response",
+    "Medium": "Not Applicable",
+    "Variable": "Unknown",
+    "Unit": "Dimensionless",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Reflected Power",
+    "Medium": "Instrument",
+    "Variable": "RadioTransmission",
+    "Unit": "DecibelMilliwatt",
+    "Aggregate": "",
+    "Comment": "reflected"
+  },
+  {
+    "VariableCode": "Rel Humidity Per Avg",
+    "Medium": "Air",
+    "Variable": "RelativeHumidity",
+    "Unit": "Percent",
+    "Aggregate": "Average",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Rel Humidity Per Max",
+    "Medium": "Air",
+    "Variable": "RelativeHumidity",
+    "Unit": "Percent",
+    "Aggregate": "Maximum",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Rel Humidity Per Min",
+    "Medium": "Air",
+    "Variable": "RelativeHumidity",
+    "Unit": "Percent",
+    "Aggregate": "Minimum",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Rel Humidity Perc",
+    "Medium": "Air",
+    "Variable": "RelativeHumidity",
+    "Unit": "Percent",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Resistance",
+    "Medium": "Rock",
+    "Variable": "Moisture",
+    "Unit": "Kiloohm",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Rock Moisture Percent",
+    "Medium": "Rock",
+    "Variable": "Moisture",
+    "Unit": "Percent",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Rock Temperature C",
+    "Medium": "Rock",
+    "Variable": "Temperature",
+    "Unit": "DegreeCelsius",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Sap Flow cm/hr",
+    "Medium": "Sap",
+    "Variable": "Flux",
+    "Unit": "CentimeterPerHour",
+    "Aggregate": "",
+    "Comment": "sap"
+  },
+  {
+    "VariableCode": "Sap Flow mV",
+    "Medium": "Sap",
+    "Variable": "Flux",
+    "Unit": "Millivolt",
+    "Aggregate": "",
+    "Comment": "sap"
+  },
+  {
+    "VariableCode": "Sky Quality",
+    "Medium": "Sky",
+    "Variable": "Visibility",
+    "Unit": "MagnitudesperSquareArcsecond",
+    "Aggregate": "",
+    "Comment": "sky"
+  },
+  {
+    "VariableCode": "Sky Quality Avg",
+    "Medium": "Sky",
+    "Variable": "Visibility",
+    "Unit": "MagnitudesperSquareArcsecond",
+    "Aggregate": "Average",
+    "Comment": "sky"
+  },
+  {
+    "VariableCode": "Sky Quality Max",
+    "Medium": "Sky",
+    "Variable": "Visibility",
+    "Unit": "MagnitudesperSquareArcsecond",
+    "Aggregate": "Maximum",
+    "Comment": "sky"
+  },
+  {
+    "VariableCode": "Sky Quality Min",
+    "Medium": "Sky",
+    "Variable": "Visibility",
+    "Unit": "MagnitudesperSquareArcsecond",
+    "Aggregate": "Minimum",
+    "Comment": "sky"
+  },
+  {
+    "VariableCode": "Snow Depth cm",
+    "Medium": "Snow",
+    "Variable": "Depth",
+    "Unit": "Centimeter",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Snow Depth in.",
+    "Medium": "Snow",
+    "Variable": "Depth",
+    "Unit": "Inch",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Snow Depth Meters",
+    "Medium": "Snow",
+    "Variable": "Depth",
+    "Unit": "Meter",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Snow Depth mm",
+    "Medium": "Snow",
+    "Variable": "Depth",
+    "Unit": "Millimeter",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Snow Depth mv",
+    "Medium": "Snow",
+    "Variable": "Depth",
+    "Unit": "Millivolt",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Snow Depth Signal Quality",
+    "Medium": "Snow",
+    "Variable": "Depth",
+    "Unit": "Dimensionless",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Snow Temp Deg C Avg",
+    "Medium": "Snow",
+    "Variable": "Temperature",
+    "Unit": "DegreeCelsius",
+    "Aggregate": "Average",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Snow Temp Deg C Max",
+    "Medium": "Snow",
+    "Variable": "Temperature",
+    "Unit": "DegreeCelsius",
+    "Aggregate": "Maximum",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Snow Temp Deg C Min",
+    "Medium": "Snow",
+    "Variable": "Temperature",
+    "Unit": "DegreeCelsius",
+    "Aggregate": "Minimum",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Snow-water equivalent inches",
+    "Medium": "Snow",
+    "Variable": "Depth",
+    "Unit": "Inch",
+    "Aggregate": "",
+    "Comment": "water equivalent"
+  },
+  {
+    "VariableCode": "Soil Conductivity Avg S/m",
+    "Medium": "Soil",
+    "Variable": "ElectricalConductivity",
+    "Unit": "SiemenPerMeter",
+    "Aggregate": "Average",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Soil Moisture cbar",
+    "Medium": "Soil",
+    "Variable": "Moisture",
+    "Unit": "Centibar",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Soil Moisture mV",
+    "Medium": "Soil",
+    "Variable": "Moisture",
+    "Unit": "Millivolt",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Soil Moisture Pct",
+    "Medium": "Soil",
+    "Variable": "Moisture",
+    "Unit": "Percent",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Soil Moisture Pct Avg",
+    "Medium": "Soil",
+    "Variable": "Moisture",
+    "Unit": "Percent",
+    "Aggregate": "Average",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Soil Moisture Volts",
+    "Medium": "Soil",
+    "Variable": "Moisture",
+    "Unit": "Volt",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Soil Temp C Avg",
+    "Medium": "Soil",
+    "Variable": "Temperature",
+    "Unit": "DegreeCelsius",
+    "Aggregate": "Average",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Soil Temp C Max",
+    "Medium": "Soil",
+    "Variable": "Temperature",
+    "Unit": "DegreeCelsius",
+    "Aggregate": "Maximum",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Soil Temp C Min",
+    "Medium": "Soil",
+    "Variable": "Temperature",
+    "Unit": "DegreeCelsius",
+    "Aggregate": "Minimum",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Soil Temperature C",
+    "Medium": "Soil",
+    "Variable": "Temperature",
+    "Unit": "DegreeCelsius",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Soil Temperature Volts",
+    "Medium": "Soil",
+    "Variable": "Temperature",
+    "Unit": "Volt",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Solar Panel Voltage V",
+    "Medium": "Instrument",
+    "Variable": "Radiation",
+    "Unit": "Volt",
+    "Aggregate": "",
+    "Comment": "solar panel"
+  },
+  {
+    "VariableCode": "Solar Radiation Avg W/m^2",
+    "Medium": "Solar",
+    "Variable": "Radiation",
+    "Unit": "WattPerSquareMeter",
+    "Aggregate": "Average",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Solar Radiation Clear-Sky MJ/m^2",
+    "Medium": "Solar",
+    "Variable": "Radiation",
+    "Unit": "MegajoulePerSquareMeter",
+    "Aggregate": "",
+    "Comment": "clear sky"
+  },
+  {
+    "VariableCode": "Solar Radiation Max W/m^2",
+    "Medium": "Solar",
+    "Variable": "Radiation",
+    "Unit": "WattPerSquareMeter",
+    "Aggregate": "Maximum",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Solar Radiation Min W/m^2",
+    "Medium": "Solar",
+    "Variable": "Radiation",
+    "Unit": "WattPerSquareMeter",
+    "Aggregate": "Minimum",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Solar Radiation Net W/m^2",
+    "Medium": "Solar",
+    "Variable": "NetRadiation",
+    "Unit": "WattPerSquareMeter",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Solar Radiation Std W/m^2",
+    "Medium": "Solar",
+    "Variable": "Radiation",
+    "Unit": "WattPerSquareMeter",
+    "Aggregate": "StandardDeviation",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Solar Radiation Total kJ/m^2",
+    "Medium": "Solar",
+    "Variable": "Radiation",
+    "Unit": "KilojoulePerSquareMeter",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Solar Radiation Total kW/m^2",
+    "Medium": "Solar",
+    "Variable": "Radiation",
+    "Unit": "KilojoulePerSquareMeter",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Solar Radiation Total lux",
+    "Medium": "Solar",
+    "Variable": "Radiation",
+    "Unit": "Lux",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Solar Radiation Total MJ/m^2",
+    "Medium": "Solar",
+    "Variable": "Radiation",
+    "Unit": "MegajoulePerSquareMeter",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Solar Radiation Total W/m^2",
+    "Medium": "Solar",
+    "Variable": "Radiation",
+    "Unit": "WattPerSquareMeter",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Solar Voltage",
+    "Medium": "Instrument",
+    "Variable": "Radiation",
+    "Unit": "Volt",
+    "Aggregate": "",
+    "Comment": "solar panel"
+  },
+  {
+    "VariableCode": "Turbidity NTU",
+    "Medium": "SurfaceWater",
+    "Variable": "Turbidity",
+    "Unit": "NephelometricTurbidityUnit",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Unknown",
+    "Medium": "Unknown",
+    "Variable": "Unknown",
+    "Unit": "Dimensionless",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Water Level m",
+    "Medium": "GroundWater",
+    "Variable": "Depth",
+    "Unit": "Meter",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Water Level Manual m",
+    "Medium": "GroundWater",
+    "Variable": "Depth",
+    "Unit": "Meter",
+    "Aggregate": "",
+    "Comment": "manual"
+  },
+  {
+    "VariableCode": "Water Pressure mbar",
+    "Medium": "Water",
+    "Variable": "Pressure",
+    "Unit": "Millibar",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Water Pressure mV",
+    "Medium": "Water",
+    "Variable": "Pressure",
+    "Unit": "Millivolt",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Water Pressure psi",
+    "Medium": "Water",
+    "Variable": "Pressure",
+    "Unit": "PoundForcePerSquareInch",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Water Temp C",
+    "Medium": "Water",
+    "Variable": "Temperature",
+    "Unit": "DegreeCelsius",
+    "Aggregate": "",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Wind Direction Degrees",
+    "Medium": "Air",
+    "Variable": "Direction",
+    "Unit": "DegreeAngle",
+    "Aggregate": "Average",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Wind Direction Standard Deviation",
+    "Medium": "Air",
+    "Variable": "Direction",
+    "Unit": "DegreeAngle",
+    "Aggregate": "StandardDeviation",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Wind Gust MS",
+    "Medium": "Air",
+    "Variable": "Speed",
+    "Unit": "MeterPerSecond",
+    "Aggregate": "Maximum",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Wind Speed Avg MPH",
+    "Medium": "Air",
+    "Variable": "Speed",
+    "Unit": "MilePerHour",
+    "Aggregate": "Average",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Wind Speed Avg MS",
+    "Medium": "Air",
+    "Variable": "Speed",
+    "Unit": "MeterPerSecond",
+    "Aggregate": "Average",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Wind Speed Max MPH",
+    "Medium": "Air",
+    "Variable": "Speed",
+    "Unit": "MilePerHour",
+    "Aggregate": "Maximum",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Wind Speed Max MS",
+    "Medium": "Air",
+    "Variable": "Speed",
+    "Unit": "MeterPerSecond",
+    "Aggregate": "Maximum",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Wind Speed Min MPH",
+    "Medium": "Air",
+    "Variable": "Speed",
+    "Unit": "MilePerHour",
+    "Aggregate": "Minimum",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Wind Speed Min MS",
+    "Medium": "Air",
+    "Variable": "Speed",
+    "Unit": "MeterPerSecond",
+    "Aggregate": "Minimum",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Wind Speed Stdev MPH",
+    "Medium": "Air",
+    "Variable": "Speed",
+    "Unit": "MilePerHour",
+    "Aggregate": "StandardDeviation",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Wind Speed Stdev MS",
+    "Medium": "Air",
+    "Variable": "Speed",
+    "Unit": "MeterPerSecond",
+    "Aggregate": "StandardDeviation",
+    "Comment": ""
+  },
+  {
+    "VariableCode": "Wind Vector Magnitude MS",
+    "Medium": "Air",
+    "Variable": "Speed",
+    "Unit": "MeterPerSecond",
+    "Aggregate": "",
+    "Comment": "vector"
+  },
+  {
+    "VariableCode": "Wind Vector Speed m s",
+    "Medium": "Air",
+    "Variable": "Speed",
+    "Unit": "MeterPerSecond",
+    "Aggregate": "",
+    "Comment": "vector"
+  }
+]

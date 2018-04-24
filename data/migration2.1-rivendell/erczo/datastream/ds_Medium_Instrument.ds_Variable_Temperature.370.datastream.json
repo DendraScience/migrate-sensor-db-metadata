@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eada599e40001a483ae",
+  "_id": "5adea4c76502f50c985dd9de",
   "enabled": true,
   "name": "Logger Temp  RLL2_1",
   "organization_id": "58db17e824dc720001671379",
@@ -16,7 +16,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues2"
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_rml2_1_cr1000",
+          "fc": "source_level201",
+          "sc": "\"time\", \"Temp201\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -37,12 +51,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RML2_1_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Logger Temp c",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RML2_1_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Level201",
@@ -52,10 +66,11 @@
   "tags": [
     "ds_Medium_Instrument",
     "ds_Variable_Temperature",
-    "dt_Unit_DegreeCelsius"
+    "dt_Unit_DegreeCelsius",
+    "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:50:05.331Z",
-  "updated_at": "2018-04-11T15:50:43.175Z",
+  "created_at": "2018-04-24T03:48:52.030Z",
+  "updated_at": "2018-04-24T03:55:21.656Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -79,12 +94,19 @@
         "scheme_priority": 10,
         "vocabulary_id": "dt-unit",
         "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
       }
     ],
     "scheme_refs": [
       {
         "_id": "ds",
-        "tag_count": 2
+        "tag_count": 3
       },
       {
         "_id": "dt",
@@ -100,6 +122,9 @@
       },
       {
         "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
       }
     ]
   },
@@ -118,7 +143,7 @@
     },
     {
       "key": "tag",
-      "str": "ade9a3c67024faaf9fac585305ff0e89f68a72f8",
+      "str": "a00cd78ae70ac32f48c827ab8787ce423d25e589",
       "scheme_id": "ds"
     },
     {

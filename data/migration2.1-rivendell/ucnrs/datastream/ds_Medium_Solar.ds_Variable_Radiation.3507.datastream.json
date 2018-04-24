@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f19a599e40001a48b1a",
+  "_id": "5adeac746502f56fcf5de14a",
   "description": "",
   "enabled": true,
   "name": "Total Solar Radiation W m2 Elliott Avg",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucel_elliotchaparral",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"RS_kw_m2_Avg\"*1000 as \"RS_w_m2_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucel_elliotchaparral",
-      "type": "loggernet.station"
+      "identifier": "Solar Radiation Avg W/m^2",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucel_elliotchaparral",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -56,8 +70,8 @@
     "dt_Unit_WattPerSquareMeter",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:53.538Z",
-  "updated_at": "2018-04-11T15:52:30.275Z",
+  "created_at": "2018-04-24T04:03:00.159Z",
+  "updated_at": "2018-04-24T04:07:03.281Z",
   "tags_info": {
     "resolved_terms": [
       {

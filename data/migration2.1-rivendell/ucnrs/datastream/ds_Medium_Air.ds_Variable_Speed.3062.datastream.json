@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2efda599e40001a48791",
+  "_id": "5adeabb86502f55f2e5dddc1",
   "enabled": true,
   "name": "Wind Speed Deg Blue Oak Std",
   "organization_id": "58db17c424dc720001671378",
@@ -16,7 +16,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucbo_blueoak",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"WS_ms_Std\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -37,12 +51,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucbo_blueoak",
-      "type": "loggernet.station"
+      "identifier": "Wind Speed Stdev MPH",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucbo_blueoak",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -55,8 +69,8 @@
     "dt_Unit_MilePerHour",
     "ds_Aggregate_StandardDeviation"
   ],
-  "created_at": "2018-04-11T15:51:25.743Z",
-  "updated_at": "2018-04-11T15:52:01.302Z",
+  "created_at": "2018-04-24T03:59:52.404Z",
+  "updated_at": "2018-04-24T04:03:48.341Z",
   "tags_info": {
     "resolved_terms": [
       {

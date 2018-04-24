@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ec3a599e40001a48694",
+  "_id": "5adea5606502f538435ddcc4",
   "derivation_description": "Conversion to 30-minute timesteps",
   "description": "The WSHQ datalogger was malfunctioning from 2013-07-24 to 2014-02-25, causing timestamps to accelerate into the future, so values have been removed for this period.  See Incident Report 94.",
   "enabled": true,
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSHQ_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Solar Radiation Total kJ/m^2",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSHQ_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "AR_HWS",
@@ -56,10 +56,10 @@
     "ds_Variable_Radiation",
     "dt_Unit_KilojoulePerSquareMeter"
   ],
-  "created_at": "2018-04-11T15:50:27.735Z",
-  "updated_at": "2018-04-11T15:51:06.684Z",
+  "created_at": "2018-04-24T03:53:52.291Z",
+  "updated_at": "2018-04-24T03:58:00.345Z",
   "derived_from_datastream_ids": [
-    "5ace2ec4a599e40001a486b5"
+    "5adea5676502f55e845ddce5"
   ],
   "tags_info": {
     "resolved_terms": [

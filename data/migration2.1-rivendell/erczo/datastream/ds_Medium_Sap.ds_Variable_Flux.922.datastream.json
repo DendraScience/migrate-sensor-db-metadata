@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ebca599e40001a48596",
+  "_id": "5adea52b6502f5c16b5ddbc6",
   "enabled": false,
   "name": "Sap Flow SVP87027_two",
   "organization_id": "58db17e824dc720001671379",
@@ -38,8 +38,8 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "Sap Flow cm/hr",
+      "type": "odm.stations.VariableCode"
     }
   ],
   "tags": [
@@ -47,8 +47,8 @@
     "ds_Variable_Flux",
     "dt_Unit_CentimeterPerHour"
   ],
-  "created_at": "2018-04-11T15:50:20.123Z",
-  "updated_at": "2018-04-11T15:50:58.712Z",
+  "created_at": "2018-04-24T03:52:08.498Z",
+  "updated_at": "2018-04-24T03:57:06.009Z",
   "tags_info": {
     "resolved_terms": [
       {

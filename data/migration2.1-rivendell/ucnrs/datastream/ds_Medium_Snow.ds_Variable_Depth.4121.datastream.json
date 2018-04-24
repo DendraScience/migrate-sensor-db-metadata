@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f0fa599e40001a489d9",
+  "_id": "5adeac2a6502f52e2e5ddfe9",
   "description": "Valid Range for Values unknown - only a guess because method is unknown",
   "enabled": true,
   "name": "Snow Depth mm WhiteMt Crooked ",
@@ -38,8 +38,8 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "Snow Depth mm",
+      "type": "odm.stations.VariableCode"
     }
   ],
   "tags": [
@@ -47,8 +47,8 @@
     "ds_Variable_Depth",
     "dt_Unit_Millimeter"
   ],
-  "created_at": "2018-04-11T15:51:43.570Z",
-  "updated_at": "2018-04-11T15:52:19.807Z",
+  "created_at": "2018-04-24T04:01:46.677Z",
+  "updated_at": "2018-04-24T04:05:46.715Z",
   "tags_info": {
     "resolved_terms": [
       {

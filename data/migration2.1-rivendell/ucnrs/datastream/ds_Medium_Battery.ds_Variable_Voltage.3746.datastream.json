@@ -1,7 +1,7 @@
 {
-  "_id": "5ace2f09a599e40001a48905",
+  "_id": "5adeac056502f54efd5ddf31",
   "description": "",
-  "enabled": true,
+  "enabled": false,
   "name": "Battery Voltage volts McLaughlin Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucmc_mclaughlin",
-      "type": "loggernet.station"
+      "identifier": "Battery Voltage Min",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucmc_mclaughlin",
+      "type": "loggernet.station"
     }
   ],
   "tags": [
@@ -52,8 +52,8 @@
     "dt_Unit_Volt",
     "ds_Aggregate_Minimum"
   ],
-  "created_at": "2018-04-11T15:51:37.260Z",
-  "updated_at": "2018-04-11T15:52:13.225Z",
+  "created_at": "2018-04-24T04:01:09.010Z",
+  "updated_at": "2018-04-24T04:05:07.293Z",
   "tags_info": {
     "resolved_terms": [
       {

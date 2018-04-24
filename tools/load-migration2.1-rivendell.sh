@@ -2,10 +2,12 @@
 # NOTE: Mongo database must be empty before load if you are pushing a new set of datastreams.
 # Mongo can be populated if you are updating existing datastreams with modified json.
 echo "Rivendell Migration loading script."
-echo "usage: load-migration2.1-rivendell.sh <den username> <den password>"
+# user-environment: local or staging
+echo "usage: load-migration2.1-rivendell.sh <den username> <den password> <user-environment>"
 
 # Log into Dendra
 den login $1 $2 
+den cli set-user-environment $3
 
 # lists 
 organization_list="erczo ucnrs"
@@ -34,6 +36,8 @@ do
 	den meta push-persons --filespec=../data/$mig/common/person/*person.json
 	# membership
 	den meta push-memberships --filespec=../data/$mig/common/membership/*membership.json
+	# non-organizational datastreams
+	den meta push-datastreams --save --filespec=../data/$mig/common/datastream/*datastream.json
 	# thing-type
 	#den meta push-thing-types --filespec=../data/$mig/common/thing-type/*thing-type.json
 done

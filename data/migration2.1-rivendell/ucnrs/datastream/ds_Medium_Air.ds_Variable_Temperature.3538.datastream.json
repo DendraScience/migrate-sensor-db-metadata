@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f03a599e40001a48850",
+  "_id": "5adeabdf6502f5660b5dde7f",
   "description": "",
   "enabled": true,
   "name": "Air Temp Delta Deg C 10m-2m Elliott Min",
@@ -26,7 +26,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucel_elliotchaparral",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"delta_T_C_Min\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -47,12 +61,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucel_elliotchaparral",
-      "type": "loggernet.station"
+      "identifier": "Air Temp Delta C Min",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucel_elliotchaparral",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -65,8 +79,8 @@
     "dt_Unit_DegreeCelsius",
     "ds_Aggregate_Minimum"
   ],
-  "created_at": "2018-04-11T15:51:31.520Z",
-  "updated_at": "2018-04-11T15:52:07.355Z",
+  "created_at": "2018-04-24T04:00:31.806Z",
+  "updated_at": "2018-04-24T04:04:28.766Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaea599e40001a483cc",
+  "_id": "5adea4ce6502f59ce35dd9fc",
   "derivation_description": "Derived Cumulative Rainfall",
   "description": "Originally this datastream was converted from cumulative rain inches, which is computed on the datalogger. In Oct 2014 I changed it because the datalogger is not rolling over on the new water year. It is now accumulated from rainfall mm, which is in turn derived from rainfall inches. - G.O. 10/29/2014",
   "enabled": true,
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSSM_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Rainfall Cumulative mm",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSSM_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -57,10 +57,10 @@
     "dt_Unit_Millimeter",
     "ds_Aggregate_Cumulative"
   ],
-  "created_at": "2018-04-11T15:50:06.164Z",
-  "updated_at": "2018-04-11T15:50:44.097Z",
+  "created_at": "2018-04-24T03:49:04.001Z",
+  "updated_at": "2018-04-24T03:55:27.980Z",
   "derived_from_datastream_ids": [
-    "5ace2eaea599e40001a483cb"
+    "5adea4ce6502f5e7245dd9fb"
   ],
   "tags_info": {
     "resolved_terms": [

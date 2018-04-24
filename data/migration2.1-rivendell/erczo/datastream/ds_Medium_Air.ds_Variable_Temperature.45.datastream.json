@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaba599e40001a4835e",
+  "_id": "5adea4b76502f5e8fd5dd98e",
   "enabled": true,
   "name": "Air Temp WSAM",
   "organization_id": "58db17e824dc720001671379",
@@ -16,7 +16,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues2"
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_wsam_cr1000",
+          "fc": "source_ar_rws",
+          "sc": "\"time\", \"RWS_AirT\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -37,12 +51,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSAM_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Air Temp C",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSAM_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "AR_RWS",
@@ -54,8 +68,8 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-04-11T15:50:03.174Z",
-  "updated_at": "2018-04-11T15:50:40.661Z",
+  "created_at": "2018-04-24T03:48:20.536Z",
+  "updated_at": "2018-04-24T03:55:04.781Z",
   "tags_info": {
     "resolved_terms": [
       {

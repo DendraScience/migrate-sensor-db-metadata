@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ec5a599e40001a486dc",
+  "_id": "5adea56f6502f5bfb85ddd0c",
   "enabled": true,
   "name": "Well 500 Pressure psi",
   "organization_id": "58db17e824dc720001671379",
@@ -16,7 +16,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues2"
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_wssr_cr1000",
+          "fc": "source_table1",
+          "sc": "\"time\", \"WSSR_Lvl_psi\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -37,12 +51,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSSR_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Water Pressure psi",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSSR_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table1",
@@ -68,8 +82,8 @@
       "value": ""
     }
   },
-  "created_at": "2018-04-11T15:50:29.842Z",
-  "updated_at": "2018-04-11T15:51:08.854Z",
+  "created_at": "2018-04-24T03:54:20.552Z",
+  "updated_at": "2018-04-24T03:58:15.495Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

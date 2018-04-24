@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f03a599e40001a4885f",
+  "_id": "5adeabe26502f55d5e5dde8e",
   "description": "Temperature at 10 meters",
   "enabled": true,
   "name": "Air Temp Deg C 10 m Rancho Marino Max",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucrm_norrisranchomarino",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"TC_C_10_Max\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucrm_norrisranchomarino",
-      "type": "loggernet.station"
+      "identifier": "Air Temp C Max",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucrm_norrisranchomarino",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -62,8 +76,8 @@
       "value": "10"
     }
   },
-  "created_at": "2018-04-11T15:51:31.980Z",
-  "updated_at": "2018-04-11T15:52:07.832Z",
+  "created_at": "2018-04-24T04:00:34.919Z",
+  "updated_at": "2018-04-24T04:04:32.081Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

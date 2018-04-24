@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f18a599e40001a48afa",
+  "_id": "5adeac6d6502f52a235de12a",
   "description": "",
   "enabled": true,
   "name": "PAR um m2 Younger Avg",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucyl_youngerlagoon",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"PAR_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucyl_youngerlagoon",
-      "type": "loggernet.station"
+      "identifier": "PAR umole Avg",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucyl_youngerlagoon",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -53,10 +67,11 @@
   "tags": [
     "ds_Medium_Solar",
     "ds_Variable_PhotosyntheticallyActiveRadiation",
-    "dt_Unit_MicromolePerSquareMeter"
+    "dt_Unit_MicromolePerSquareMeter",
+    "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:52.583Z",
-  "updated_at": "2018-04-11T15:52:29.323Z",
+  "created_at": "2018-04-24T04:02:53.610Z",
+  "updated_at": "2018-04-24T04:06:56.414Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -80,12 +95,19 @@
         "scheme_priority": 10,
         "vocabulary_id": "dt-unit",
         "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
       }
     ],
     "scheme_refs": [
       {
         "_id": "ds",
-        "tag_count": 2
+        "tag_count": 3
       },
       {
         "_id": "dt",
@@ -101,6 +123,9 @@
       },
       {
         "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
       }
     ]
   },
@@ -119,7 +144,7 @@
     },
     {
       "key": "tag",
-      "str": "ca6af6a82971ee7be50eae1da8e34f4a126651f9",
+      "str": "c8c4c2fa926b39fbf3237b21aeafbafd602174f9",
       "scheme_id": "ds"
     },
     {

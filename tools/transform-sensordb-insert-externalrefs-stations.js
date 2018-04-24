@@ -34,8 +34,8 @@ console.log("\n Stations External References DIR:",path)
 
 // Load static list of stations
 stations = JSON.parse(fs.readFileSync("stations.json"))
-stations_loggernet = JSON.parse(fs.readFileSync("stations_loggernet.json"))
-console.log('number of stations:',stations.list.length,"loggernet stations:",stations_loggernet.length)
+//stations_loggernet = JSON.parse(fs.readFileSync("stations_loggernet.json"))
+console.log('number of stations:',stations.list.length) //,"loggernet stations:",stations_loggernet.length)
 
 // STATIONS
 // counters
@@ -76,8 +76,14 @@ for(var i=0;i<ss_files.length;i++) {
 			if(typeof station.enabled !== 'undefined') {
 				ss_json.enabled = station.enabled
 			}
-
-			// Update external references for loggernet and goes
+			/*
+				// If station is innactive, skip the rest of the external references
+				if(station.enabled == false) {
+					console.log("Station",station.name," is innactive. skip.")
+					continue
+			}
+			*/
+			// Update external references for loggernet name
 			if(typeof station.loggernet !== 'undefined') {
 				//console.log('\texternal_refs:loggernet.station:',station.loggernet)
 				ss_json = tr.update_external_ref(ss_json,"loggernet.station",station.loggernet)
@@ -110,13 +116,17 @@ for(var i=0;i<ss_files.length;i++) {
 					//console.log("\texternal_refs:loggernet.data_tables:",data_table_list)
 					ss_station_count++
 				} else {
+					ss_no_station_count++
 					console.log(ss_filename,"external_refs:loggernet.data_tables: NO tables found.")
-				}
+				}			
+			} else if(typeof station.goes !== 'undefined') {
+				ss_json = tr.update_external_ref(ss_json,"loggernet.data_tables","TenMin")
+				ss_station_count++
+			} else if(station.name.match(/WhiteMt/)) {
+				console.log(ss_filename,"White Mountain is maintained by DRI. No external references.")
 			} else {
 				ss_no_station_count++
-				if(typeof station.goes === 'undefined') {
-					console.log(ss_filename,"NO MATCH! in loggernet station list. No data tables for external refs")
-				}
+				console.log(ss_filename,"NO MATCH! in loggernet station list. No data tables for external refs")
 			}
 
 			// Write JSON file
@@ -129,5 +139,5 @@ for(var i=0;i<ss_files.length;i++) {
 }
 
 console.log('DONE! '+ss_match_count+' Stations processed out of',ss_count,'with',ss_no_match_count,'not matched.')
-console.log('DONE! loggernet stations matched',ss_station_count,'NOT matched',ss_no_match_count)
+console.log('DONE! loggernet stations matched',ss_station_count,'NOT matched',ss_no_station_count)
 

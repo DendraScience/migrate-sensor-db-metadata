@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f10a599e40001a489f5",
+  "_id": "5adeac326502f5d0055de010",
   "description": "",
   "enabled": true,
   "name": "Soil Moisture VWC Rancho Marino Avg",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucrm_norrisranchomarino",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"VWC_V_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucrm_norrisranchomarino",
-      "type": "loggernet.station"
+      "identifier": "Soil Moisture Pct Avg",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucrm_norrisranchomarino",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -57,8 +71,8 @@
     "ds_Aggregate_Average"
   ],
   "attributes": {},
-  "created_at": "2018-04-11T15:51:44.386Z",
-  "updated_at": "2018-04-11T15:52:20.738Z",
+  "created_at": "2018-04-24T04:01:54.710Z",
+  "updated_at": "2018-04-24T04:05:55.045Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

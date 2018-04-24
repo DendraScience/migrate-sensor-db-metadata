@@ -1,0 +1,171 @@
+{
+  "_id": "5adeac3a6502f560fc5de035",
+  "description": "Volumetric water content is derived from this count using a polynomial on the logger.",
+  "enabled": true,
+  "name": "Soil Moisture TDR freq 50 mm vertical Fort Ord",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602bf",
+  "datapoints_config": [
+    {
+      "begins_at": "2016-11-30T20:10:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 4209,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_fonr_fortord",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"CS616_50_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "4209",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "342",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "TDR_Frequency_hz_depth1",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "47",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "VWC Period uSec",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "fonr_FortOrd",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Soil",
+    "ds_Variable_Moisture",
+    "dt_Unit_Microsecond",
+    "ds_Aggregate_Average"
+  ],
+  "attributes": {
+    "orientation": "vertical",
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": "0.05"
+    }
+  },
+  "created_at": "2018-04-24T04:02:02.293Z",
+  "updated_at": "2018-04-24T04:06:02.930Z",
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Soil",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Moisture",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "µsec",
+        "label": "Microsecond",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "5bf8a74ae6e6bbca66acd58bd0e92b6cbeddd4e1"
+    },
+    {
+      "key": "att",
+      "str": "23a4ed802219ab4b0a649c048cc508f78a6fae57"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "a419a867eee1eb7b90ff73592001f7d5e75d5420",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "fcfe091619170a6f1fd8ae9a7b901145ff5fbe98",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

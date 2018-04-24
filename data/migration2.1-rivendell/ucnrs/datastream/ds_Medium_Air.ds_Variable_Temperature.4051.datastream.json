@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f06a599e40001a488b6",
+  "_id": "5adeabf56502f537d85ddee5",
   "description": "",
   "enabled": true,
   "name": "Air Temp Delta Deg C 10m-2m Granites Avg",
@@ -26,7 +26,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucgr_granites",
+          "fc": "source_goes_tenmin",
+          "sc": "\"time\", \"delta_T_C_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -47,12 +61,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Air Temp Delta C Avg",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucgr_granites",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC01EF8",
       "type": "goes.address"
+    },
+    {
+      "identifier": "GOES_TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -61,8 +83,8 @@
     "dt_Unit_DegreeCelsius",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:34.718Z",
-  "updated_at": "2018-04-11T15:52:10.641Z",
+  "created_at": "2018-04-24T04:00:53.146Z",
+  "updated_at": "2018-04-24T04:04:51.025Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

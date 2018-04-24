@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaca599e40001a48390",
+  "_id": "5adea4c16502f51ab85dd9c0",
   "derivation_description": "Conversion to 30-minute timesteps",
   "description": "changed conversion source from 1329 to 1691. 2014-03-12.",
   "enabled": true,
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RML2_2_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Water Level m",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RML2_2_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table202",
@@ -70,10 +70,10 @@
       "value": "12.15"
     }
   },
-  "created_at": "2018-04-11T15:50:04.534Z",
-  "updated_at": "2018-04-11T15:50:42.257Z",
+  "created_at": "2018-04-24T03:48:39.961Z",
+  "updated_at": "2018-04-24T03:55:15.333Z",
   "derived_from_datastream_ids": [
-    "5ace2eaca599e40001a483a1"
+    "5adea4c46502f53b355dd9d1"
   ],
   "attributes_info": {
     "sort": {

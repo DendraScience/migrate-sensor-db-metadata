@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f05a599e40001a48898",
+  "_id": "5adeabee6502f5873b5ddec7",
   "description": "",
   "enabled": true,
   "name": "Air Temp Deg C SNARL Min",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucsh_snarl",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"AT_C_Min\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucsh_snarl",
-      "type": "loggernet.station"
+      "identifier": "Air Temp C Min",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucsh_snarl",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -56,8 +70,8 @@
     "dt_Unit_DegreeCelsius",
     "ds_Aggregate_Minimum"
   ],
-  "created_at": "2018-04-11T15:51:33.751Z",
-  "updated_at": "2018-04-11T15:52:09.680Z",
+  "created_at": "2018-04-24T04:00:46.782Z",
+  "updated_at": "2018-04-24T04:04:44.470Z",
   "tags_info": {
     "resolved_terms": [
       {

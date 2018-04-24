@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f09a599e40001a4891b",
+  "_id": "5adeac096502f5edd95ddf47",
   "description": "",
   "enabled": true,
   "name": "Battery Voltage volts 2 WhiteMt Summit ",
@@ -38,8 +38,8 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "Battery Voltage",
+      "type": "odm.stations.VariableCode"
     }
   ],
   "tags": [
@@ -47,8 +47,8 @@
     "ds_Variable_Voltage",
     "dt_Unit_Volt"
   ],
-  "created_at": "2018-04-11T15:51:37.967Z",
-  "updated_at": "2018-04-11T15:52:13.904Z",
+  "created_at": "2018-04-24T04:01:13.538Z",
+  "updated_at": "2018-04-24T04:05:12.063Z",
   "tags_info": {
     "resolved_terms": [
       {

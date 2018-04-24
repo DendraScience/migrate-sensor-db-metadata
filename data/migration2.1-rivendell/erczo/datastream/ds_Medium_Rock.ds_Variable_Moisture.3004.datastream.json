@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eb6a599e40001a484ec",
+  "_id": "5adea5086502f558ba5ddb1c",
   "description": "Values are suspect because the instrument has been modified.  See Method.",
   "enabled": true,
   "name": "Rock Moisture no calib VMS_A10",
@@ -7,15 +7,6 @@
   "source_type": "sensor",
   "state": "ready",
   "station_id": "58e68cacdf5ce600012602db",
-  "attributes": {
-    "depth": {
-      "unit_tag": "dt_Unit_Meter",
-      "range": [
-        16.4,
-        16.6
-      ]
-    }
-  },
   "datapoints_config": [
     {
       "begins_at": "2015-10-25T00:00:00.000Z",
@@ -26,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues2"
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_vms_cr1000",
+          "fc": "source_vms",
+          "sc": "\"time\", \"VWC_10\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -47,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "VMS_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Rock Moisture Percent",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "VMS_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "VMS",
@@ -64,8 +69,17 @@
     "ds_Variable_Moisture",
     "dt_Unit_Percent"
   ],
-  "created_at": "2018-04-11T15:50:14.941Z",
-  "updated_at": "2018-04-11T15:50:53.416Z",
+  "attributes": {
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "range": [
+        16.4,
+        16.6
+      ]
+    }
+  },
+  "created_at": "2018-04-24T03:51:00.484Z",
+  "updated_at": "2018-04-24T03:56:29.950Z",
   "attributes_info": {
     "sort": {
       "value1": 16.4,

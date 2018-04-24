@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2efda599e40001a48779",
+  "_id": "5adeabb36502f5087e5ddda9",
   "description": "",
   "enabled": true,
   "name": "Relative Humidity Per Granites Avg",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucgr_granites",
+          "fc": "source_goes_tenmin",
+          "sc": "\"time\", \"RH_pct_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Rel Humidity Per Avg",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucgr_granites",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC01EF8",
       "type": "goes.address"
+    },
+    {
+      "identifier": "GOES_TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -52,8 +74,8 @@
     "dt_Unit_Percent",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:25.007Z",
-  "updated_at": "2018-04-11T15:52:00.487Z",
+  "created_at": "2018-04-24T03:59:47.403Z",
+  "updated_at": "2018-04-24T04:03:43.201Z",
   "tags_info": {
     "resolved_terms": [
       {

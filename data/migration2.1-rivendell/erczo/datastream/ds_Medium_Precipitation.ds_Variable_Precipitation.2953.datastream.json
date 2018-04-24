@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaea599e40001a483de",
+  "_id": "5adea4d26502f518315dda0e",
   "derivation_description": "Derived Cumulative Rainfall",
   "enabled": true,
   "name": "Rainfall Cumulative mm TB4 WSCP",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSCP_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Rainfall Cumulative mm",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSCP_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "AR_CWS",
@@ -56,10 +56,10 @@
     "dt_Unit_Millimeter",
     "ds_Aggregate_Cumulative"
   ],
-  "created_at": "2018-04-11T15:50:06.701Z",
-  "updated_at": "2018-04-11T15:50:44.652Z",
+  "created_at": "2018-04-24T03:49:11.200Z",
+  "updated_at": "2018-04-24T03:55:31.833Z",
   "derived_from_datastream_ids": [
-    "5ace2eaea599e40001a483dd"
+    "5adea4d16502f52bce5dda0d"
   ],
   "tags_info": {
     "resolved_terms": [

@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f19a599e40001a48b19",
+  "_id": "5adeac736502f515a65de149",
   "description": "",
   "enabled": true,
   "name": "Total Solar Radiation W m2 Chickering Avg",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucca_chickering",
+          "fc": "source_satten",
+          "sc": "\"time\", \"RS_kw_m2_Avg\"*1000 as \"RS_w_m2_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Solar Radiation Avg W/m^2",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucca_chickering",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC0035C",
       "type": "goes.address"
+    },
+    {
+      "identifier": "SatTen",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -52,8 +74,8 @@
     "dt_Unit_WattPerSquareMeter",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:53.505Z",
-  "updated_at": "2018-04-11T15:52:30.247Z",
+  "created_at": "2018-04-24T04:02:59.949Z",
+  "updated_at": "2018-04-24T04:07:03.072Z",
   "tags_info": {
     "resolved_terms": [
       {

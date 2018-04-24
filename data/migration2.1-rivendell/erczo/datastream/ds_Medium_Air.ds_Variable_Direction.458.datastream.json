@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ea8a599e40001a482fd",
+  "_id": "5adea4a36502f524105dd92d",
   "description": "average direction, not instantaneous.",
   "enabled": false,
   "name": "Wind Direction -  WSTB",
@@ -39,21 +39,22 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSTB_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Wind Direction Degrees",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSTB_CR1000",
+      "type": "loggernet.station"
     }
   ],
   "tags": [
     "ds_Medium_Air",
     "ds_Variable_Direction",
-    "dt_Unit_DegreeAngle"
+    "dt_Unit_DegreeAngle",
+    "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:50:00.085Z",
-  "updated_at": "2018-04-11T15:50:37.599Z",
+  "created_at": "2018-04-24T03:47:39.801Z",
+  "updated_at": "2018-04-24T03:54:44.170Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -77,12 +78,19 @@
         "scheme_priority": 10,
         "vocabulary_id": "dt-unit",
         "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
       }
     ],
     "scheme_refs": [
       {
         "_id": "ds",
-        "tag_count": 2
+        "tag_count": 3
       },
       {
         "_id": "dt",
@@ -98,6 +106,9 @@
       },
       {
         "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
       }
     ]
   },
@@ -116,7 +127,7 @@
     },
     {
       "key": "tag",
-      "str": "51e09f8ab17f5012b59ae3a5c830bb8214906005",
+      "str": "2d5bfbf999168396e72ece05e849bc74dab11d9c",
       "scheme_id": "ds"
     },
     {

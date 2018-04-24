@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f0ea599e40001a489a5",
+  "_id": "5adeac266502f5e5bc5ddfd2",
   "description": "This is a DRI derived datastream, the upper value threshold is unknown but was set at 10,000",
   "enabled": true,
   "name": "Precipitation mm WhiteMt Barcroft Cumulative",
@@ -38,8 +38,8 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "Derived Cumulative Precipitation",
+      "type": "odm.stations.VariableCode"
     }
   ],
   "tags": [
@@ -48,8 +48,8 @@
     "dt_Unit_Millimeter",
     "ds_Aggregate_Cumulative"
   ],
-  "created_at": "2018-04-11T15:51:42.038Z",
-  "updated_at": "2018-04-11T15:52:18.180Z",
+  "created_at": "2018-04-24T04:01:42.007Z",
+  "updated_at": "2018-04-24T04:05:41.758Z",
   "tags_info": {
     "resolved_terms": [
       {

@@ -1,7 +1,7 @@
 {
-  "_id": "5ace2f1ba599e40001a48b62",
+  "_id": "5adeac826502f55a355de192",
   "description": "Units unknown",
-  "enabled": true,
+  "enabled": false,
   "name": "Soil Moisture TDR freq 100 mm horiz James",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucja_james",
-      "type": "loggernet.station"
+      "identifier": "Unknown",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucja_james",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -62,8 +62,8 @@
       "value": "0.1"
     }
   },
-  "created_at": "2018-04-11T15:51:55.770Z",
-  "updated_at": "2018-04-11T15:52:32.398Z",
+  "created_at": "2018-04-24T04:03:14.836Z",
+  "updated_at": "2018-04-24T04:07:18.744Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

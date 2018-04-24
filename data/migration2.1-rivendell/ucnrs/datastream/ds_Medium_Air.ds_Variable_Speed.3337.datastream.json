@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2efea599e40001a4879f",
+  "_id": "5adeabbb6502f572615dddcf",
   "description": "",
   "enabled": true,
   "name": "Wind Vector Magnitude m s Angelo ",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucac_angelo",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"mean_wind_vector_mag\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucac_angelo",
-      "type": "loggernet.station"
+      "identifier": "Wind Vector Magnitude MS",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucac_angelo",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -55,8 +69,8 @@
     "ds_Variable_Speed",
     "dt_Unit_MeterPerSecond"
   ],
-  "created_at": "2018-04-11T15:51:26.145Z",
-  "updated_at": "2018-04-11T15:52:01.730Z",
+  "created_at": "2018-04-24T03:59:55.288Z",
+  "updated_at": "2018-04-24T04:03:51.365Z",
   "tags_info": {
     "resolved_terms": [
       {

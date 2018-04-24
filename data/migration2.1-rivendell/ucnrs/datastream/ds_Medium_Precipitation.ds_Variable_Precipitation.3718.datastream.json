@@ -1,7 +1,7 @@
 {
-  "_id": "5ace2f0da599e40001a48995",
+  "_id": "5adeac226502f562515ddfc2",
   "description": "This is a DRI derived datastream, the upper value threshold is unknown but was set at 10,000",
-  "enabled": true,
+  "enabled": false,
   "name": "Precipitation mm McLaughlin Cumulative",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucmc_mclaughlin",
-      "type": "loggernet.station"
+      "identifier": "Derived Cumulative Precipitation",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucmc_mclaughlin",
+      "type": "loggernet.station"
     }
   ],
   "tags": [
@@ -52,8 +52,8 @@
     "dt_Unit_Millimeter",
     "ds_Aggregate_Cumulative"
   ],
-  "created_at": "2018-04-11T15:51:41.536Z",
-  "updated_at": "2018-04-11T15:52:17.701Z",
+  "created_at": "2018-04-24T04:01:38.731Z",
+  "updated_at": "2018-04-24T04:05:38.254Z",
   "tags_info": {
     "resolved_terms": [
       {

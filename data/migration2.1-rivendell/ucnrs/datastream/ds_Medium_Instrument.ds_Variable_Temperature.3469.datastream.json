@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f0ba599e40001a4894e",
+  "_id": "5adeac146502f517115ddf7b",
   "enabled": true,
   "name": "Rain Gage Temp Deg C Burns ",
   "organization_id": "58db17c424dc720001671378",
@@ -16,7 +16,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucbu_burns",
+          "fc": "source_goes_tenmin",
+          "sc": "\"time\", \"RGTemp_C_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -37,12 +51,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Rain Gauge Temp C",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucbu_burns",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC025B0",
       "type": "goes.address"
+    },
+    {
+      "identifier": "GOES_TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -50,8 +72,8 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-04-11T15:51:39.492Z",
-  "updated_at": "2018-04-11T15:52:15.486Z",
+  "created_at": "2018-04-24T04:01:24.104Z",
+  "updated_at": "2018-04-24T04:05:23.128Z",
   "tags_info": {
     "resolved_terms": [
       {

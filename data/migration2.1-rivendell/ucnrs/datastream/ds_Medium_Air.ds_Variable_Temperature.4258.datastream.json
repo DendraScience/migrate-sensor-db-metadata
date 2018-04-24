@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f07a599e40001a488d7",
+  "_id": "5adeabfc6502f5a2fb5ddf06",
   "enabled": false,
   "name": "Air Temp Delta Deg C 10m-2m Jepson Max",
   "organization_id": "58db17c424dc720001671378",
@@ -47,12 +47,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Air Temp Delta C Max",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucjp_jepson",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC0102A",
       "type": "goes.address"
+    },
+    {
+      "identifier": "GOES_TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -61,8 +69,8 @@
     "dt_Unit_DegreeCelsius",
     "ds_Aggregate_Maximum"
   ],
-  "created_at": "2018-04-11T15:51:35.810Z",
-  "updated_at": "2018-04-11T15:52:11.771Z",
+  "created_at": "2018-04-24T04:01:00.083Z",
+  "updated_at": "2018-04-24T04:04:58.101Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

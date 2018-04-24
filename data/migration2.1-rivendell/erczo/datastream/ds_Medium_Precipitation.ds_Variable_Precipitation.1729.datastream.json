@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaea599e40001a483ca",
+  "_id": "5adea4cd6502f549145dd9fa",
   "description": "Auto conversion to mm DSID 1777",
   "enabled": true,
   "name": "Rainfall inches WSSM Cumulative",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues2"
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_wssm_cr1000",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"PCPN_tot\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSSM_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Rainfall Cumulative in.",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSSM_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -56,8 +70,8 @@
     "dt_Unit_Inch",
     "ds_Aggregate_Cumulative"
   ],
-  "created_at": "2018-04-11T15:50:06.109Z",
-  "updated_at": "2018-04-11T15:50:44.037Z",
+  "created_at": "2018-04-24T03:49:03.188Z",
+  "updated_at": "2018-04-24T03:55:27.571Z",
   "tags_info": {
     "resolved_terms": [
       {

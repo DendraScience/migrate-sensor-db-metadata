@@ -1,6 +1,6 @@
 {
-  "_id": "5ace2f1ba599e40001a48b61",
-  "enabled": true,
+  "_id": "5adeac826502f520925de191",
+  "enabled": false,
   "name": "Misc Number 1 Unk James",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -37,12 +37,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucja_james",
-      "type": "loggernet.station"
+      "identifier": "Unknown",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucja_james",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -54,8 +54,8 @@
     "ds_Variable_Unknown",
     "dt_Unit_Dimensionless"
   ],
-  "created_at": "2018-04-11T15:51:55.739Z",
-  "updated_at": "2018-04-11T15:52:32.369Z",
+  "created_at": "2018-04-24T04:03:14.632Z",
+  "updated_at": "2018-04-24T04:07:18.515Z",
   "tags_info": {
     "resolved_terms": [
       {

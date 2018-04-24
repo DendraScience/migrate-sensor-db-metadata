@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaea599e40001a483da",
+  "_id": "5adea4d16502f5b4965dda0a",
   "derivation_description": "Derived Cumulative Rainfall",
   "enabled": true,
   "name": "Rainfall Cumulative mm TB4  Level 5",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RUL5_1_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Rainfall Cumulative mm",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RUL5_1_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table501",
@@ -56,10 +56,10 @@
     "dt_Unit_Millimeter",
     "ds_Aggregate_Cumulative"
   ],
-  "created_at": "2018-04-11T15:50:06.582Z",
-  "updated_at": "2018-04-11T15:50:44.533Z",
+  "created_at": "2018-04-24T03:49:09.592Z",
+  "updated_at": "2018-04-24T03:55:30.977Z",
   "derived_from_datastream_ids": [
-    "5ace2eaea599e40001a483d7"
+    "5adea4d06502f5a3d05dda07"
   ],
   "tags_info": {
     "resolved_terms": [

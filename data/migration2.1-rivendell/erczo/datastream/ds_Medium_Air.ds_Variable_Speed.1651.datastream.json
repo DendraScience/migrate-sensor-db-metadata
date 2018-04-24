@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ea9a599e40001a4831c",
+  "_id": "5adea4a96502f574415dd94c",
   "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": true,
   "name": "Wind Speed - WSCP 30min",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSCP_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Wind Speed Avg MS",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSCP_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "AR_CWS",
@@ -56,10 +56,10 @@
     "dt_Unit_MeterPerSecond",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:50:01.072Z",
-  "updated_at": "2018-04-11T15:50:38.561Z",
+  "created_at": "2018-04-24T03:47:52.748Z",
+  "updated_at": "2018-04-24T03:54:50.655Z",
   "derived_from_datastream_ids": [
-    "5ace2ea9a599e40001a4832c"
+    "5adea4ac6502f585bf5dd95c"
   ],
   "tags_info": {
     "resolved_terms": [

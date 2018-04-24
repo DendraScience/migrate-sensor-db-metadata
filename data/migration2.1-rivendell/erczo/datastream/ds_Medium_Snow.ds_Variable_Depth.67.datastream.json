@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ebca599e40001a485b3",
+  "_id": "5adea5316502f558f15ddbe3",
   "description": "This device is not functioning, and data is not valid (per Percy Link Jan 2012.)",
   "enabled": false,
   "name": "Snow Depth",
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSCP_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Snow Depth Meters",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSCP_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "AR_CWS",
@@ -56,8 +56,8 @@
     "ds_Variable_Depth",
     "dt_Unit_Meter"
   ],
-  "created_at": "2018-04-11T15:50:20.938Z",
-  "updated_at": "2018-04-11T15:50:59.563Z",
+  "created_at": "2018-04-24T03:52:19.874Z",
+  "updated_at": "2018-04-24T03:57:12.005Z",
   "tags_info": {
     "resolved_terms": [
       {

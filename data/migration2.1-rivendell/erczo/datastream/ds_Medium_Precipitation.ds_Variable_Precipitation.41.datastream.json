@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaea599e40001a483e5",
+  "_id": "5adea4d36502f53e015dda15",
   "description": "The WSHQ datalogger was malfunctioning from 2013-07-24 to 2014-02-25, causing timestamps to accelerate into the future, so values have been removed for this period.  See Incident Report 94.",
   "enabled": true,
   "name": "Rainfall mm WSHQ",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues2"
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_wshq_cr1000",
+          "fc": "source_ar_hws",
+          "sc": "\"time\", \"HWS_Rain_Tot\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSHQ_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Rainfall mm",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSHQ_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "AR_HWS",
@@ -55,8 +69,8 @@
     "ds_Variable_Precipitation",
     "dt_Unit_Millimeter"
   ],
-  "created_at": "2018-04-11T15:50:06.903Z",
-  "updated_at": "2018-04-11T15:50:44.869Z",
+  "created_at": "2018-04-24T03:49:13.964Z",
+  "updated_at": "2018-04-24T03:55:33.341Z",
   "tags_info": {
     "resolved_terms": [
       {

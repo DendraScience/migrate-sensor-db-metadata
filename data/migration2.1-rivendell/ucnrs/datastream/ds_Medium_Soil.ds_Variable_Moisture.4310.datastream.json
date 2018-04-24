@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f11a599e40001a48a0b",
+  "_id": "5adeac3b6502f558ec5de03b",
   "enabled": true,
   "name": "Soil Moisture Per 100 mm James",
   "organization_id": "58db17c424dc720001671378",
@@ -16,7 +16,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucja_james",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"VWC50_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -37,12 +51,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucja_james",
-      "type": "loggernet.station"
+      "identifier": "Soil Moisture Pct Avg",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucja_james",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -61,8 +75,8 @@
       "value": "0.1"
     }
   },
-  "created_at": "2018-04-11T15:51:45.047Z",
-  "updated_at": "2018-04-11T15:52:21.432Z",
+  "created_at": "2018-04-24T04:02:03.532Z",
+  "updated_at": "2018-04-24T04:06:04.220Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

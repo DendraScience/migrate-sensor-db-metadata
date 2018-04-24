@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaca599e40001a48387",
+  "_id": "5adea4bf6502f561135dd9b7",
   "derivation_description": "Convert mV to meters for wells",
   "enabled": false,
   "name": "Well 7 Water Level m old",
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RRL4_1_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Water Level m",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RRL4_1_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table401",
@@ -70,10 +70,10 @@
       "value": "16.58"
     }
   },
-  "created_at": "2018-04-11T15:50:04.304Z",
-  "updated_at": "2018-04-11T15:50:41.989Z",
+  "created_at": "2018-04-24T03:48:36.354Z",
+  "updated_at": "2018-04-24T03:55:13.431Z",
   "derived_from_datastream_ids": [
-    "5ace2ec6a599e40001a486e5"
+    "5adea5716502f5f6865ddd15"
   ],
   "attributes_info": {
     "sort": {

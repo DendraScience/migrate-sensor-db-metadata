@@ -27,6 +27,10 @@
     {
       "identifier": "BEC01EF8",
       "type": "goes.address"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.data_tables"
     }
   ],
   "geo": {
@@ -720,6 +724,6 @@
     }
   ],
   "_id": "58e68cabdf5ce600012602c0",
-  "created_at": "2018-04-11T15:51:19.899Z",
-  "updated_at": "2018-04-11T15:51:19.899Z"
+  "created_at": "2018-04-24T03:59:08.951Z",
+  "updated_at": "2018-04-24T03:59:08.951Z"
 }

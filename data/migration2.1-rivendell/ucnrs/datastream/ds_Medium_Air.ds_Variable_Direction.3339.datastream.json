@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2efaa599e40001a4871c",
+  "_id": "5adeaba06502f52c515ddd4c",
   "description": "",
   "enabled": true,
   "name": "Wind Direction Deg Angelo Std",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucac_angelo",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"sd_wind_dir\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucac_angelo",
-      "type": "loggernet.station"
+      "identifier": "Wind Direction Standard Deviation",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucac_angelo",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -56,8 +70,8 @@
     "dt_Unit_DegreeAngle",
     "ds_Aggregate_StandardDeviation"
   ],
-  "created_at": "2018-04-11T15:51:22.164Z",
-  "updated_at": "2018-04-11T15:51:57.552Z",
+  "created_at": "2018-04-24T03:59:28.227Z",
+  "updated_at": "2018-04-24T04:03:23.425Z",
   "tags_info": {
     "resolved_terms": [
       {

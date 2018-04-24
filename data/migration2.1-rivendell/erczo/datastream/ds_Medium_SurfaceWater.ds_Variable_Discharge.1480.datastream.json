@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ec4a599e40001a486ba",
+  "_id": "5adea5686502f553c45ddcea",
   "derivation_description": "Derived Discharge",
   "description": "Discharge m3/s calculated from GHQ gageheight DSID 3",
   "enabled": true,
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "GHQ_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Discharge",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "GHQ_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "GHQTable",
@@ -56,10 +56,10 @@
     "ds_Variable_Discharge",
     "dt_Unit_CubicMeterPerSecond"
   ],
-  "created_at": "2018-04-11T15:50:28.839Z",
-  "updated_at": "2018-04-11T15:51:07.792Z",
+  "created_at": "2018-04-24T03:54:07.283Z",
+  "updated_at": "2018-04-24T03:58:08.249Z",
   "derived_from_datastream_ids": [
-    "5ace2ec4a599e40001a486b9"
+    "5adea5686502f516c95ddce9"
   ],
   "tags_info": {
     "resolved_terms": [

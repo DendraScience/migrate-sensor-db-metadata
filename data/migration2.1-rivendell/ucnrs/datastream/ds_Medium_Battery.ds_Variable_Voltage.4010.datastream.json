@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f09a599e40001a48913",
+  "_id": "5adeac076502f51e305ddf3f",
   "description": "",
   "enabled": true,
   "name": "Battery Voltage volts Anza Borrego Max",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucab_anzaborrego",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"Batt_volt_Max\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucab_anzaborrego",
-      "type": "loggernet.station"
+      "identifier": "Battery Voltage Max",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucab_anzaborrego",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -56,8 +70,8 @@
     "dt_Unit_Volt",
     "ds_Aggregate_Maximum"
   ],
-  "created_at": "2018-04-11T15:51:37.724Z",
-  "updated_at": "2018-04-11T15:52:13.658Z",
+  "created_at": "2018-04-24T04:01:11.882Z",
+  "updated_at": "2018-04-24T04:05:10.330Z",
   "tags_info": {
     "resolved_terms": [
       {

@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f00a599e40001a487f6",
+  "_id": "5adeabcd6502f5d11c5dde26",
   "enabled": true,
   "name": "Wind Gust m s Fort Ord Max",
   "organization_id": "58db17c424dc720001671378",
@@ -16,7 +16,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_fonr_fortord",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"WS_ms_Max\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -37,12 +51,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "fonr_FortOrd",
-      "type": "loggernet.station"
+      "identifier": "Wind Gust MS",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "fonr_FortOrd",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -52,10 +66,11 @@
   "tags": [
     "ds_Medium_Air",
     "ds_Variable_Speed",
-    "dt_Unit_MeterPerSecond"
+    "dt_Unit_MeterPerSecond",
+    "ds_Aggregate_Maximum"
   ],
-  "created_at": "2018-04-11T15:51:28.694Z",
-  "updated_at": "2018-04-11T15:52:04.383Z",
+  "created_at": "2018-04-24T04:00:13.157Z",
+  "updated_at": "2018-04-24T04:04:09.937Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -79,12 +94,19 @@
         "scheme_priority": 10,
         "vocabulary_id": "dt-unit",
         "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Maximum",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
       }
     ],
     "scheme_refs": [
       {
         "_id": "ds",
-        "tag_count": 2
+        "tag_count": 3
       },
       {
         "_id": "dt",
@@ -100,6 +122,9 @@
       },
       {
         "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
       }
     ]
   },
@@ -118,7 +143,7 @@
     },
     {
       "key": "tag",
-      "str": "4f299cb1b98488f0339f42c343b9d0e616bb5870",
+      "str": "b7a7a9d8853d352b4fb578ac96fcbe6a9c2a8f43",
       "scheme_id": "ds"
     },
     {

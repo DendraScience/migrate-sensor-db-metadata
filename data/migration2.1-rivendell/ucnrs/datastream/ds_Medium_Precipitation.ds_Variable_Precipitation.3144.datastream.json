@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f0ca599e40001a4897a",
+  "_id": "5adeac1d6502f5d21b5ddfa7",
   "enabled": true,
   "name": "Precipitation Geonor Freq SNARL Std",
   "organization_id": "58db17c424dc720001671378",
@@ -37,12 +37,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucsh_snarl",
-      "type": "loggernet.station"
+      "identifier": "GEONOR GAUGE FREQ hz",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucsh_snarl",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -54,8 +54,8 @@
     "ds_Variable_Precipitation",
     "dt_Unit_Hertz"
   ],
-  "created_at": "2018-04-11T15:51:40.737Z",
-  "updated_at": "2018-04-11T15:52:16.850Z",
+  "created_at": "2018-04-24T04:01:33.186Z",
+  "updated_at": "2018-04-24T04:05:32.488Z",
   "tags_info": {
     "resolved_terms": [
       {

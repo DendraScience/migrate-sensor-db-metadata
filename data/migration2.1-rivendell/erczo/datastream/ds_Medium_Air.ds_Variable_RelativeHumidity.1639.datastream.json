@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2ea8a599e40001a48305",
+  "_id": "5adea4a46502f5a02c5dd935",
   "derivation_description": "Conversion to 30-minute timesteps",
   "enabled": true,
   "name": "Air Relative Humidity - RLL2_2 30min",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RML2_2_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Rel Humidity Perc",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RML2_2_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table202",
@@ -55,10 +55,10 @@
     "ds_Variable_RelativeHumidity",
     "dt_Unit_Percent"
   ],
-  "created_at": "2018-04-11T15:50:00.342Z",
-  "updated_at": "2018-04-11T15:50:37.857Z",
+  "created_at": "2018-04-24T03:47:43.058Z",
+  "updated_at": "2018-04-24T03:54:45.847Z",
   "derived_from_datastream_ids": [
-    "5ace2ea8a599e40001a48312"
+    "5adea4a76502f548465dd942"
   ],
   "tags_info": {
     "resolved_terms": [

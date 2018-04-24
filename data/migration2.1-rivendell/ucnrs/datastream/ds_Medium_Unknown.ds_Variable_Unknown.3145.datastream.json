@@ -1,7 +1,7 @@
 {
-  "_id": "5ace2f1ba599e40001a48b59",
+  "_id": "5adeac816502f5654c5de189",
   "description": "Data is always -9999 and is not associated with an actual instrument.  ",
-  "enabled": true,
+  "enabled": false,
   "name": "Precipitation 2nd gage unkown SNARL",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucsh_snarl",
-      "type": "loggernet.station"
+      "identifier": "Unknown",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucsh_snarl",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -55,8 +55,8 @@
     "ds_Variable_Unknown",
     "dt_Unit_Dimensionless"
   ],
-  "created_at": "2018-04-11T15:51:55.495Z",
-  "updated_at": "2018-04-11T15:52:32.147Z",
+  "created_at": "2018-04-24T04:03:13.036Z",
+  "updated_at": "2018-04-24T04:07:16.859Z",
   "tags_info": {
     "resolved_terms": [
       {

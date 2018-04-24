@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f08a599e40001a488f6",
+  "_id": "5adeac016502f515ce5ddf22",
   "description": "",
   "enabled": true,
   "name": "Battery Voltage volts Burns Avg",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucbu_burns",
+          "fc": "source_goes_tenmin",
+          "sc": "\"time\", \"Batt_volt_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Battery Voltage Avg",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucbu_burns",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC025B0",
       "type": "goes.address"
+    },
+    {
+      "identifier": "GOES_TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -52,8 +74,8 @@
     "dt_Unit_Volt",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:36.802Z",
-  "updated_at": "2018-04-11T15:52:12.747Z",
+  "created_at": "2018-04-24T04:01:05.933Z",
+  "updated_at": "2018-04-24T04:05:04.109Z",
   "tags_info": {
     "resolved_terms": [
       {

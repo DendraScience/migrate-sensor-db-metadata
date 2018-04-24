@@ -1,8 +1,8 @@
 {
-  "_id": "5ace2f16a599e40001a48ac1",
+  "_id": "5adeac616502f582c75de0f1",
   "description": "",
   "enabled": true,
-  "name": "Soil Temp Deg C 200 mm Granites Avg",
+  "name": "Soil Temp Deg C 0.2 m Granites Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucgr_granites",
+          "fc": "source_goes_tenmin",
+          "sc": "\"time\", \"Soil_T200_C_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Soil Temp C Avg",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucgr_granites",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC01EF8",
       "type": "goes.address"
+    },
+    {
+      "identifier": "GOES_TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -55,17 +77,17 @@
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
-      "value": 0.2
+      "value": "0.2"
     }
   },
-  "created_at": "2018-04-11T15:51:50.920Z",
-  "updated_at": "2018-04-11T15:52:27.531Z",
+  "created_at": "2018-04-24T04:02:41.875Z",
+  "updated_at": "2018-04-24T04:06:44.206Z",
   "attributes_info": {
     "sort": {
-      "value1": 0.2,
+      "value1": 0,
       "value2": 0
     },
-    "text": "0.2"
+    "text": ""
   },
   "tags_info": {
     "resolved_terms": [
@@ -131,7 +153,7 @@
     },
     {
       "key": "att",
-      "str": "6294f8ebf35805a2ead7502689904e9f4d25a04d"
+      "str": "eb9c5eb4fc8cd814e081ad274e55c91b0a380a24"
     },
     {
       "key": "geo",

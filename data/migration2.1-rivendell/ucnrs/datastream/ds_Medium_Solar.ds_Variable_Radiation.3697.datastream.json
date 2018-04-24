@@ -1,7 +1,7 @@
 {
-  "_id": "5ace2f19a599e40001a48b27",
+  "_id": "5adeac766502f5b8505de157",
   "description": "",
-  "enabled": true,
+  "enabled": false,
   "name": "Total Solar Radiation W m2 McLaughlin Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucmc_mclaughlin",
-      "type": "loggernet.station"
+      "identifier": "Solar Radiation Max W/m^2",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucmc_mclaughlin",
+      "type": "loggernet.station"
     }
   ],
   "tags": [
@@ -52,8 +52,8 @@
     "dt_Unit_WattPerSquareMeter",
     "ds_Aggregate_Maximum"
   ],
-  "created_at": "2018-04-11T15:51:53.943Z",
-  "updated_at": "2018-04-11T15:52:30.655Z",
+  "created_at": "2018-04-24T04:03:02.818Z",
+  "updated_at": "2018-04-24T04:07:06.044Z",
   "tags_info": {
     "resolved_terms": [
       {

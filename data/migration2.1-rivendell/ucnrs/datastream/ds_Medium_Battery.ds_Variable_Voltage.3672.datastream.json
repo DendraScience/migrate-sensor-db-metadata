@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f09a599e40001a48901",
+  "_id": "5adeac046502f5c83b5ddf2d",
   "description": "",
   "enabled": true,
   "name": "Battery Voltage volts Rancho Marino Avg",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucrm_norrisranchomarino",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"Batt_volt_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucrm_norrisranchomarino",
-      "type": "loggernet.station"
+      "identifier": "Battery Voltage Avg",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucrm_norrisranchomarino",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -56,8 +70,8 @@
     "dt_Unit_Volt",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:37.141Z",
-  "updated_at": "2018-04-11T15:52:13.107Z",
+  "created_at": "2018-04-24T04:01:08.200Z",
+  "updated_at": "2018-04-24T04:05:06.472Z",
   "tags_info": {
     "resolved_terms": [
       {

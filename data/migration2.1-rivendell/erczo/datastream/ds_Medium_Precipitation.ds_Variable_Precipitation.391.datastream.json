@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaea599e40001a483e3",
+  "_id": "5adea4d36502f5e4045dda13",
   "description": "End date is approximate.  Datastream was left active until 2014-03-27.  - cab",
   "enabled": false,
   "name": "Rainfall mm RG3",
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RML2_2_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Rainfall mm",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RML2_2_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table202",
@@ -56,8 +56,8 @@
     "ds_Variable_Precipitation",
     "dt_Unit_Millimeter"
   ],
-  "created_at": "2018-04-11T15:50:06.851Z",
-  "updated_at": "2018-04-11T15:50:44.810Z",
+  "created_at": "2018-04-24T03:49:13.179Z",
+  "updated_at": "2018-04-24T03:55:32.908Z",
   "tags_info": {
     "resolved_terms": [
       {

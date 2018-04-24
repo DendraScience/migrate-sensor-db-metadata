@@ -1,8 +1,8 @@
 {
-  "_id": "5ace2f13a599e40001a48a5f",
+  "_id": "5adeac4d6502f56ea85de08f",
   "description": "",
   "enabled": true,
-  "name": "Soil Temp Deg C 500 mm James Min",
+  "name": "Soil Temp Deg C 0.5 m James Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucja_james",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"Soil_T500_C_Min\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucja_james",
-      "type": "loggernet.station"
+      "identifier": "Soil Temp C Min",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucja_james",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -59,17 +73,17 @@
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
-      "value": 0.5
+      "value": "0.5"
     }
   },
-  "created_at": "2018-04-11T15:51:47.762Z",
-  "updated_at": "2018-04-11T15:52:24.289Z",
+  "created_at": "2018-04-24T04:02:21.275Z",
+  "updated_at": "2018-04-24T04:06:22.722Z",
   "attributes_info": {
     "sort": {
-      "value1": 0.5,
+      "value1": 0,
       "value2": 0
     },
-    "text": "0.5"
+    "text": ""
   },
   "tags_info": {
     "resolved_terms": [
@@ -135,7 +149,7 @@
     },
     {
       "key": "att",
-      "str": "400322d0ed4b67a3008d96db9190ec388d5bb15e"
+      "str": "1460ac176cccaccb0ea1eb90a0d533858edf0d52"
     },
     {
       "key": "geo",

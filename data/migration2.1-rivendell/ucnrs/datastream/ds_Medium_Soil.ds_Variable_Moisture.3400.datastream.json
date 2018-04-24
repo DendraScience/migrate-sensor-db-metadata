@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f10a599e40001a489e8",
+  "_id": "5adeac2f6502f5196a5ddffe",
   "description": "",
   "enabled": true,
   "name": "Soil Moisture VWC Bodega Avg",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucbm_bodega",
+          "fc": "source_goes_tenmin",
+          "sc": "\"time\", \"VWC_V_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Soil Moisture Pct Avg",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucbm_bodega",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC036C6",
       "type": "goes.address"
+    },
+    {
+      "identifier": "GOES_TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -53,8 +75,8 @@
     "ds_Aggregate_Average"
   ],
   "attributes": {},
-  "created_at": "2018-04-11T15:51:44.005Z",
-  "updated_at": "2018-04-11T15:52:20.308Z",
+  "created_at": "2018-04-24T04:01:51.028Z",
+  "updated_at": "2018-04-24T04:05:51.200Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

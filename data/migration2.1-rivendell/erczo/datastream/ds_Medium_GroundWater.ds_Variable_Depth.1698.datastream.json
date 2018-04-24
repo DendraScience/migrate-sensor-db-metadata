@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eada599e40001a483a2",
+  "_id": "5adea4c46502f5515f5dd9d2",
   "derivation_description": "Convert psi to meters for wells",
   "description": "See incident report 126 for details",
   "enabled": true,
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "RML2_2_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Water Level m",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "RML2_2_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "Table202",
@@ -70,10 +70,10 @@
       "value": "12.45"
     }
   },
-  "created_at": "2018-04-11T15:50:05.012Z",
-  "updated_at": "2018-04-11T15:50:42.804Z",
+  "created_at": "2018-04-24T03:48:47.191Z",
+  "updated_at": "2018-04-24T03:55:19.118Z",
   "derived_from_datastream_ids": [
-    "5ace2ec5a599e40001a486c7"
+    "5adea56a6502f50b0f5ddcf7"
   ],
   "attributes_info": {
     "sort": {

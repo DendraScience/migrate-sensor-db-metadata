@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaba599e40001a4836f",
+  "_id": "5adea4ba6502f59cd55dd99f",
   "enabled": false,
   "name": "Battery Voltage WSTB",
   "organization_id": "58db17e824dc720001671379",
@@ -38,12 +38,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSTB_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Battery Voltage",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSTB_CR1000",
+      "type": "loggernet.station"
     }
   ],
   "tags": [
@@ -51,8 +51,8 @@
     "ds_Variable_Voltage",
     "dt_Unit_Volt"
   ],
-  "created_at": "2018-04-11T15:50:03.648Z",
-  "updated_at": "2018-04-11T15:50:41.190Z",
+  "created_at": "2018-04-24T03:48:27.274Z",
+  "updated_at": "2018-04-24T03:55:08.372Z",
   "tags_info": {
     "resolved_terms": [
       {

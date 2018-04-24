@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2eaaa599e40001a4833b",
+  "_id": "5adea4af6502f590745dd96b",
   "derivation_description": "Conversion to 30-minute timesteps",
   "description": "The WSHQ datalogger was malfunctioning from 2013-07-24 to 2014-02-25, causing timestamps to accelerate into the future, so values have been removed for this period.  See Incident Report 94.",
   "enabled": true,
@@ -39,12 +39,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "WSHQ_CR1000",
-      "type": "loggernet.station"
+      "identifier": "Air Temp C",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "208.186.56.6:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "WSHQ_CR1000",
+      "type": "loggernet.station"
     },
     {
       "identifier": "AR_HWS",
@@ -56,10 +56,10 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-04-11T15:50:02.092Z",
-  "updated_at": "2018-04-11T15:50:39.565Z",
+  "created_at": "2018-04-24T03:48:06.464Z",
+  "updated_at": "2018-04-24T03:54:57.204Z",
   "derived_from_datastream_ids": [
-    "5ace2eaba599e40001a4835b"
+    "5adea4b66502f5da425dd98b"
   ],
   "tags_info": {
     "resolved_terms": [

@@ -1,8 +1,8 @@
 {
-  "_id": "5ace2f10a599e40001a489ed",
+  "_id": "5adeac306502f5d7985de005",
   "description": "",
   "enabled": true,
-  "name": "Volumetric Water Content Per 100 mm horiz Burns Avg",
+  "name": "Volumetric Water Content Per 4 in horiz Burns Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -17,7 +17,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucbu_burns",
+          "fc": "source_goes_tenmin",
+          "sc": "\"time\", \"VWC50_Avg\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -38,12 +52,20 @@
       "type": "odm.stations.MethodID"
     },
     {
+      "identifier": "Soil Moisture Pct Avg",
+      "type": "odm.stations.VariableCode"
+    },
+    {
       "identifier": "ucbu_burns",
       "type": "loggernet.station"
     },
     {
       "identifier": "BEC025B0",
       "type": "goes.address"
+    },
+    {
+      "identifier": "GOES_TenMin",
+      "type": "loggernet.table"
     }
   ],
   "tags": [
@@ -52,8 +74,8 @@
     "dt_Unit_Percent",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-04-11T15:51:44.150Z",
-  "updated_at": "2018-04-11T15:52:20.473Z",
+  "created_at": "2018-04-24T04:01:52.448Z",
+  "updated_at": "2018-04-24T04:05:52.700Z",
   "tags_info": {
     "resolved_terms": [
       {

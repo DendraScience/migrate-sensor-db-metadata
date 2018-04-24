@@ -1,5 +1,5 @@
 {
-  "_id": "5ace2f18a599e40001a48b08",
+  "_id": "5adeac706502f548a75de138",
   "enabled": true,
   "name": "Total Solar Radiation W m2 Blue Oak Max",
   "organization_id": "58db17c424dc720001671378",
@@ -16,7 +16,21 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-10T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucbo_blueoak",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"RS_kw_m2_Max\"*1000 as \"RS_w_m2_Max\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2018-04-10T00:00:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -37,12 +51,12 @@
       "type": "odm.stations.MethodID"
     },
     {
-      "identifier": "ucbo_blueoak",
-      "type": "loggernet.station"
+      "identifier": "Solar Radiation Max W/m^2",
+      "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "wanda.berkeley.edu:1024",
-      "type": "loggernet.ldmp"
+      "identifier": "ucbo_blueoak",
+      "type": "loggernet.station"
     },
     {
       "identifier": "TenMin",
@@ -55,8 +69,8 @@
     "dt_Unit_WattPerSquareMeter",
     "ds_Aggregate_Maximum"
   ],
-  "created_at": "2018-04-11T15:51:52.979Z",
-  "updated_at": "2018-04-11T15:52:29.745Z",
+  "created_at": "2018-04-24T04:02:56.483Z",
+  "updated_at": "2018-04-24T04:06:59.424Z",
   "tags_info": {
     "resolved_terms": [
       {
