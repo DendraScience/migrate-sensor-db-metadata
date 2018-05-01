@@ -53,7 +53,7 @@ INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Battery Voltage Avg','ds_Me
 INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Battery Voltage Max','ds_Medium_Battery','ds_Variable_Voltage','dt_Unit_Volt','ds_Aggregate_Maximum',NULL);
 INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Battery Voltage Min','ds_Medium_Battery','ds_Variable_Voltage','dt_Unit_Volt','ds_Aggregate_Minimum',NULL);
 INSERT INTO `dendra_map_variablecodes_tags` VALUES ('CO2 Concentration ppm/10','ds_Medium_Air','ds_Variable_Concentration','dt_Unit_PartPerMillion',NULL,NULL);
-INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Derived Cumulative Precipitation','ds_Medium_Precipitation','ds_Variable_Precipitation','dt_Unit_Millimeter','ds_Aggregate_Cumulative',NULL);
+INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Derived Cumulative Precipitation','ds_Medium_Precipitation','ds_Variable_Height','dt_Unit_Millimeter','ds_Aggregate_Cumulative',NULL);
 INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Dielectric','ds_Medium_Rock','ds_Variable_DielectricStrength','dt_Unit_Dimensionless',NULL,'sqrt(dielectric constant)');
 INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Discharge','ds_Medium_SurfaceWater','ds_Variable_Discharge','dt_Unit_CubicMeterPerSecond',NULL,NULL);
 INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Electrical Conductivity dS/m','ds_Medium_Rock','ds_Variable_Moisture','dt_Unit_DecisiemenPerMeter',NULL,NULL);
@@ -63,10 +63,10 @@ INSERT INTO `dendra_map_variablecodes_tags` VALUES ('External Voltage','ds_Mediu
 INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Forward Power','ds_Medium_Instrument','ds_Variable_RadioTransmission','dt_Unit_DecibelMilliwatt',NULL,'forward');
 INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Fuel Moisture Per Avg','ds_Medium_Instrument','ds_Variable_Moisture','dt_Unit_Percent','ds_Aggregate_Average','"instrument":"fuel"');
 INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Gage Height meters','ds_Medium_SurfaceWater','ds_Variable_Depth','dt_Unit_Meter',NULL,NULL);
-INSERT INTO `dendra_map_variablecodes_tags` VALUES ('GEONOR GAUGE FREQ hz','ds_Medium_Precipitation','ds_Variable_Precipitation','dt_Unit_Hertz',NULL,NULL);
-INSERT INTO `dendra_map_variablecodes_tags` VALUES ('GEONOR PRECIP cm','ds_Medium_Precipitation','ds_Variable_Precipitation','dt_Unit_Centimeter',NULL,NULL);
-INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Hail Cumulative mm','ds_Medium_Snow','ds_Variable_Precipitation','dt_Unit_Millimeter','ds_Aggregate_Cumulative',NULL);
-INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Hail Intensity mm/h','ds_Medium_Snow','ds_Variable_Precipitation','dt_Unit_MillimeterPerHour',NULL,NULL);
+INSERT INTO `dendra_map_variablecodes_tags` VALUES ('GEONOR GAUGE FREQ hz','ds_Medium_Precipitation','ds_Variable_Height','dt_Unit_Hertz',NULL,NULL);
+INSERT INTO `dendra_map_variablecodes_tags` VALUES ('GEONOR PRECIP cm','ds_Medium_Precipitation','ds_Variable_Height','dt_Unit_Centimeter',NULL,NULL);
+INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Hail Cumulative mm','ds_Medium_Snow','ds_Variable_Height','dt_Unit_Millimeter','ds_Aggregate_Cumulative',NULL);
+INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Hail Intensity mm/h','ds_Medium_Snow','ds_Variable_Height','dt_Unit_MillimeterPerHour',NULL,NULL);
 INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Instrument Temp C','ds_Medium_Instrument','ds_Variable_Temperature','dt_Unit_DegreeCelsius','ds_Aggregate_Average',NULL);
 INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Leaf Wetness cnts mV','ds_Medium_Leaf','ds_Variable_Moisture','dt_Unit_Count',NULL,NULL);
 INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Leaf Wetness Excitation mV','ds_Medium_Leaf','ds_Variable_Moisture','dt_Unit_Millivolt',NULL,NULL);
@@ -83,12 +83,12 @@ INSERT INTO `dendra_map_variablecodes_tags` VALUES ('PAR umole','ds_Medium_Solar
 INSERT INTO `dendra_map_variablecodes_tags` VALUES ('VWC Period uSec','ds_Medium_Soil','ds_Variable_Moisture','dt_Unit_Microsecond','ds_Aggregate_Average',NULL);
 INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Radio Signal Strength dB','ds_Medium_Instrument','ds_Variable_RadioTransmission','dt_Unit_Decibel',NULL,NULL);
 INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Rain Gauge Temp C','ds_Medium_Instrument','ds_Variable_Temperature','dt_Unit_DegreeCelsius',NULL,'gauge');
-INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Rainfall Cumulative cm','ds_Medium_Precipitation','ds_Variable_Precipitation','dt_Unit_Centimeter','ds_Aggregate_Cumulative',NULL);
-INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Rainfall Cumulative in.','ds_Medium_Precipitation','ds_Variable_Precipitation','dt_Unit_Inch','ds_Aggregate_Cumulative',NULL);
-INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Rainfall Cumulative mm','ds_Medium_Precipitation','ds_Variable_Precipitation','dt_Unit_Millimeter','ds_Aggregate_Cumulative',NULL);
-INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Rainfall inches','ds_Medium_Precipitation','ds_Variable_Precipitation','dt_Unit_Inch',NULL,NULL);
-INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Rainfall Intensity mm/h','ds_Medium_Precipitation','ds_Variable_Precipitation','dt_Unit_MillimeterPerHour',NULL,NULL);
-INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Rainfall mm','ds_Medium_Precipitation','ds_Variable_Precipitation','dt_Unit_Millimeter',NULL,NULL);
+INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Rainfall Cumulative cm','ds_Medium_Precipitation','ds_Variable_Height','dt_Unit_Centimeter','ds_Aggregate_Cumulative',NULL);
+INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Rainfall Cumulative in.','ds_Medium_Precipitation','ds_Variable_Height','dt_Unit_Inch','ds_Aggregate_Cumulative',NULL);
+INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Rainfall Cumulative mm','ds_Medium_Precipitation','ds_Variable_Height','dt_Unit_Millimeter','ds_Aggregate_Cumulative',NULL);
+INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Rainfall inches','ds_Medium_Precipitation','ds_Variable_Height','dt_Unit_Inch',NULL,NULL);
+INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Rainfall Intensity mm/h','ds_Medium_Precipitation','ds_Variable_Height','dt_Unit_MillimeterPerHour',NULL,NULL);
+INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Rainfall mm','ds_Medium_Precipitation','ds_Variable_Height','dt_Unit_Millimeter',NULL,NULL);
 INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Rainfall Raw Hz','ds_Medium_Precipitation','ds_Variable_Precipitation','dt_Unit_Hertz',NULL,NULL);
 INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Rainfall Raw Std Dev Hz','ds_Medium_Precipitation','ds_Variable_Precipitation','dt_Unit_Hertz','ds_Aggregate_StandardDeviation',NULL);
 INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Raw Sensor Response','ds_Medium_Not Applicable','ds_Variable_Unknown','dt_Unit_Dimensionless',NULL,NULL);
@@ -161,6 +161,9 @@ INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Wind Speed Stdev MPH','ds_M
 INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Wind Speed Stdev MS','ds_Medium_Air','ds_Variable_Speed','dt_Unit_MeterPerSecond','ds_Aggregate_StandardDeviation',NULL);
 INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Wind Vector Magnitude MS','ds_Medium_Air','ds_Variable_Speed','dt_Unit_MeterPerSecond',NULL,'vector');
 INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Wind Vector Speed m s','ds_Medium_Air','ds_Variable_Speed','dt_Unit_MeterPerSecond',NULL,'vector');
+INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Sap Heat Diffusion Difference C','ds_Medium_Sap','ds_Variable_Temperature','dt_Unit_DegreeCelsius','ds_Aggregate_Average','difference');
+INSERT INTO `dendra_map_variablecodes_tags` VALUES ('Voltage Regulator V Min','ds_Medium_Instrument','ds_Variable_Voltage','dt_Unit_Volt','ds_Aggregate_Minimum',NULL);
+
 /*!40000 ALTER TABLE `dendra_map_variablecodes_tags` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -1,0 +1,117 @@
+{
+  "_id": "591559e97acd6800017b1b0a",
+  "datapoints_config": [
+    {
+      "connection": "noaaNWS",
+      "params": {
+        "query": {
+          "format": "12 hourly",
+          "interface": "summarized",
+          "numDays": 7,
+          "parameter": {
+            "key_path": "/conditions-icon/forecast-NWS/p12h"
+          },
+          "unit": "m"
+        }
+      },
+      "path": "/series"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "name": "Digital Weather NWS Forecast Summarized Conditions Icon 7 Day 12 Hourly",
+  "source": "gov.noaa.nws.ndfd.rest.xml",
+  "source_type": "service",
+  "state": "ready",
+  "tags": [
+    "dw_ConditionsIconType_ForecastNWS",
+    "dw_Interface_Summarized",
+    "dw_Parameter_ConditionsIcon",
+    "dw_SummarizedDays_7Day",
+    "dw_SummarizedFormat_12Hourly"
+  ],
+  "created_at": "2018-05-01T01:18:33.294Z",
+  "updated_at": "2018-05-01T01:18:33.294Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "ForecastNWS",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-conditions-icon-type",
+        "vocabulary_label": "ConditionsIconType"
+      },
+      {
+        "label": "Summarized",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-interface",
+        "vocabulary_label": "Interface"
+      },
+      {
+        "label": "ConditionsIcon",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-parameter",
+        "vocabulary_label": "Parameter"
+      },
+      {
+        "label": "7Day",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-summarized-days",
+        "vocabulary_label": "SummarizedDays"
+      },
+      {
+        "label": "12Hourly",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-summarized-format",
+        "vocabulary_label": "SummarizedFormat"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "dw",
+        "tag_count": 5
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "dw-conditions-icon-type"
+      },
+      {
+        "_id": "dw-interface"
+      },
+      {
+        "_id": "dw-parameter"
+      },
+      {
+        "_id": "dw-summarized-days"
+      },
+      {
+        "_id": "dw-summarized-format"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "12adce9f4d9b04de98293019f0cf61e2de6c092b"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "b28aa104d2069be1c0dd9f5bcfac3c060f03d6df",
+      "scheme_id": "dw"
+    }
+  ],
+  "_include": []
+}

@@ -24,8 +24,16 @@ SELECT
   --     "url": "http://sensor.berkeley.edu/index_ucnrs.html"
   --   }
   -- ],
-  "Sensor database" AS `external_links$0$title`,
+  "Metadata" AS `external_links$0$title`,
   `vw_sites_stations`.`url` AS `external_links$0$url`,
+
+  -- WRCC DRI website for UCNRS only 
+  IF(`vw_sites_stations`.`organization_id` = "58db17c424dc720001671378", 
+    "Original Site", NULL) 
+    AS `external_links$1$title`,
+  IF(`vw_sites_stations`.`organization_id` = "58db17c424dc720001671378", 
+    CONCAT("https://wrcc.dri.edu/weather/",(SELECT substring(`vw_sites_stations`.`FileName`,1,4)),".html"), NULL)  
+    AS `external_links$1$url`,
 
   -- ----------------------------
   -- "external_refs": [

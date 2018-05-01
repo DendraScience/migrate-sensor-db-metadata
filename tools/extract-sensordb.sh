@@ -2,8 +2,8 @@
 # Organizations are separated: use organization slug as directory name
 echo "usage: extract-sensordb.sh <MySQL username> <MySQL password>"
 echo "Rivendell Push extract and transform script."
-DATE=`date '+%Y-%m-%dh%Hm%M'`
-logfile="../compost/migration_"$DATE".log"
+#DATE=`date '+%Y-%m-%dh%Hm%M'`
+#logfile="../compost/migration_"$DATE".log"
 
 path="../data/migration2.1-rivendell/"
 organization_list="ucnrs erczo"
@@ -20,11 +20,17 @@ do
 	echo ./extract-sensordb-export-sql-views.sh $host $1 $2 $path$orgslug/ 
 	./extract-sensordb-export-sql-views.sh $host $1 $2 $path$orgslug/ 
 	
+	# delete json files of datastreams that have been manually modified
+	# and are now under data/dendra-managed/org-slug/datastreams
+	echo node ./transform-datastreams-ignore-manually-edited.js $path $orgslug
+	node ./transform-datastreams-ignore-manually-edited.js $path $orgslug
+
 	# assign station mongoid's to stations and datastreams
 	# assign various external references 
 	# Stations
 	echo node ./transform-sensordb-insert-externalrefs-stations.js $path $orgslug 
 	node ./transform-sensordb-insert-externalrefs-stations.js $path $orgslug
+	
 	# Datastreams
 	echo node ./transform-sensordb-insert-externalrefs-datastreams.js $path $orgslug 
 	node ./transform-sensordb-insert-externalrefs-datastreams.js $path $orgslug

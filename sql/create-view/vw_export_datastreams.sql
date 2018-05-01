@@ -216,7 +216,7 @@ SELECT
 
   -- ----------------------------
   -- "name": "Blue Oak Ranch Avg Air Temp F 10 m",
-  `datastreams`.`DatastreamName` AS `name`,
+  TRIM(`datastreams`.`DatastreamName`) AS `name`,
 
   -- ----------------------------
   -- "organization_id": "592f155746a1b867a114e030",
@@ -242,7 +242,7 @@ SELECT
 
   -- ----------------------------
   -- "station_id": "592f155746a1b867a114e060",
-  `datastreams`.`StationID` AS `station_id`,
+  CAST(`datastreams`.`StationID` AS CHAR(50)) AS `station_id`,
 
   -- ----------------------------
   -- "tags": [
@@ -251,18 +251,19 @@ SELECT
   --   "dt_Unit_DegreeFahrenheit",
   --   "ds_Aggregate_Average"
   -- ],
-    ( SELECT `dendra_map_variablecodes_tags`.`Medium` FROM `dendra_map_variablecodes_tags`
-      WHERE `dendra_map_variablecodes_tags`.`VariableCode` = `datastreams`.`VariableCode`
-    ) AS `tags$0`,
-    ( SELECT `dendra_map_variablecodes_tags`.`Variable` FROM `dendra_map_variablecodes_tags`
-      WHERE `dendra_map_variablecodes_tags`.`VariableCode` = `datastreams`.`VariableCode`
-    ) AS `tags$1`,
-    ( SELECT `dendra_map_variablecodes_tags`.`Unit` FROM `dendra_map_variablecodes_tags`
-      WHERE `dendra_map_variablecodes_tags`.`VariableCode` = `datastreams`.`VariableCode`
-    ) AS `tags$2`,
-    ( SELECT `dendra_map_variablecodes_tags`.`Aggregate` FROM `dendra_map_variablecodes_tags`
-      WHERE `dendra_map_variablecodes_tags`.`VariableCode` = `datastreams`.`VariableCode`
-    ) AS `tags$3`
+  ( SELECT `dendra_map_variablecodes_tags`.`Medium` FROM `dendra_map_variablecodes_tags`
+    WHERE `dendra_map_variablecodes_tags`.`VariableCode` = `datastreams`.`VariableCode`
+  ) AS `tags$0`,
+  ( SELECT `dendra_map_variablecodes_tags`.`Variable` FROM `dendra_map_variablecodes_tags`
+    WHERE `dendra_map_variablecodes_tags`.`VariableCode` = `datastreams`.`VariableCode`
+  ) AS `tags$1`,
+  ( SELECT `dendra_map_variablecodes_tags`.`Unit` FROM `dendra_map_variablecodes_tags`
+    WHERE `dendra_map_variablecodes_tags`.`VariableCode` = `datastreams`.`VariableCode`
+  ) AS `tags$2`,
+  ( SELECT `dendra_map_variablecodes_tags`.`Aggregate` FROM `dendra_map_variablecodes_tags`
+    WHERE `dendra_map_variablecodes_tags`.`VariableCode` = `datastreams`.`VariableCode`
+  ) AS `tags$3`  
+  --  'NULL' as `tags$4` 
   --  ( SELECT `dendra_map_variablecodes_tags`.`Misc` FROM `dendra_map_variablecodes_tags`
   --    WHERE `dendra_map_variablecodes_tags`.`VariableCode` = `datastreams`.`VariableCode`
   --  ) AS `tags$4` 

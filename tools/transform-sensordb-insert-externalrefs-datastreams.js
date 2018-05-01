@@ -101,7 +101,9 @@ for(var i=0;i<ds_files.length;i++) {
 			// LoggerNet station ldmp or goes for parent station
 			if(station.table_type == "DRI") {
 				console.log(ds_json.name,"is managed by DRI. No ldmp or GOES.")
-			}else if(typeof station.goes === 'undefined' && station.enabled == true) {
+			} else if(station.enabled == false) {
+				console.log("Station innactive. st:",station.name,",ds:",ds_json.name)
+			} else if(typeof station.goes === 'undefined') {
 				if(org_slug == "erczo") {
 					ldmp = "208.186.56.6:1024"
 				} else if(org_slug == "ucnrs" || org_slug == "sagehen") {
@@ -117,7 +119,7 @@ for(var i=0;i<ds_files.length;i++) {
 				//console.log('\texternal_refs:goes.address:',station.goes)
 				ds_json = tr.update_external_ref(ds_json,"goes.address",station.goes)
 			} else {
-				console.log('NO SOURCE FOUND! Datastream is orphaned.',ds_json.name)
+				console.log('NO SOURCE FOUND! Datastream is orphaned.',org_slug,station.name,ds_json.name)
 			}
 
 			// Add Data Table to external references

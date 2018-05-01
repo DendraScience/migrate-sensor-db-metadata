@@ -1,0 +1,49 @@
+{
+  "derivation_description": "Conversion to 30-minute timesteps",
+  "enabled": true,
+  "name": "Solar Radiation Net W/m^2  WindCorrected WSAM 30min",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "11",
+  "datapoints_config": [
+    {
+      "begins_at": "2012-05-31T17:14:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 1676,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "1676",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "11",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "1675",
+      "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "71",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Solar Radiation Net W/m^2",
+      "type": "odm.stations.VariableCode"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Solar",
+    "ds_Variable_NetRadiation",
+    "dt_Unit_WattPerSquareMeter"
+  ]
+}

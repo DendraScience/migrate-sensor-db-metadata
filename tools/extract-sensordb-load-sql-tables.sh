@@ -22,7 +22,11 @@ SQLfiles="../sql/create-table/dendra_map_stations_media.sql
 ../sql/create-table/dendra_map_variablecodes_tags.sql
 ../sql/create-view/vw_sites_stations.sql
 ../sql/create-view/vw_export_stations.sql
-../sql/create-view/vw_export_datastreams.sql"
+../sql/create-view/vw_export_datastreams.sql
+../sql/create-view/vw_export_datastreams_seasonal_min.sql
+../sql/create-view/vw_export_datastreams_seasonal_max.sql
+../sql/create-view/vw_export_datastreams_seasonal_avg.sql
+../sql/create-view/vw_export_datastreams_seasonal_sum.sql"
 
 for sqlfile in $SQLfiles
 do

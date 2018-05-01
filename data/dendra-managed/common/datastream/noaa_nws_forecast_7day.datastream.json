@@ -1,0 +1,106 @@
+{
+  "_id": "59155b707acd6800017b1b0b",
+  "datapoints_config": [
+    {
+      "connection": "noaaNWS",
+      "params": {
+        "query": {
+          "format": "12 hourly",
+          "interface": "summarized",
+          "numDays": 7,
+          "parameter": {
+            "key_path": "/weather/p12h"
+          },
+          "unit": "m"
+        }
+      },
+      "path": "/series"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "name": "Digital Weather Summarized Weather 7 Day 12 Hourly",
+  "source": "gov.noaa.nws.ndfd.rest.xml",
+  "source_type": "service",
+  "state": "ready",
+  "tags": [
+    "dw_Interface_Summarized",
+    "dw_Parameter_Weather",
+    "dw_SummarizedDays_7Day",
+    "dw_SummarizedFormat_12Hourly"
+  ],
+  "created_at": "2018-05-01T01:18:33.715Z",
+  "updated_at": "2018-05-01T01:18:33.715Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Summarized",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-interface",
+        "vocabulary_label": "Interface"
+      },
+      {
+        "label": "Weather",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-parameter",
+        "vocabulary_label": "Parameter"
+      },
+      {
+        "label": "7Day",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-summarized-days",
+        "vocabulary_label": "SummarizedDays"
+      },
+      {
+        "label": "12Hourly",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-summarized-format",
+        "vocabulary_label": "SummarizedFormat"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "dw",
+        "tag_count": 4
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "dw-interface"
+      },
+      {
+        "_id": "dw-parameter"
+      },
+      {
+        "_id": "dw-summarized-days"
+      },
+      {
+        "_id": "dw-summarized-format"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "12adce9f4d9b04de98293019f0cf61e2de6c092b"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "9edddeee5b925f31732e6d78c0fe3fdd70c53463",
+      "scheme_id": "dw"
+    }
+  ],
+  "_include": []
+}

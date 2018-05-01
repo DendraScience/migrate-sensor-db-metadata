@@ -60,8 +60,8 @@ if(fs.existsSync(path) == false) {
 console.log("Datastreasms DIR:",path)
 
 // CONSTANTS
-sensordb_end_date = "2018-04-10T00:00:00Z"
-influxdb_start_date = sensordb_end_date
+influxdb_start_date = "2018-04-25T00:00:00Z" //"2018-04-10T00:00:00Z"
+goes_start_date = "2018-04-17T00:00:00Z"
 
 function dpc_set_enddate(dd_json,new_enddate,position,options) {
 	// position = integer of which config to choose out of the list
@@ -105,20 +105,25 @@ function get_core8_fieldname(dri_fieldname,station_id) {
 					tabletype = station_tables.list[q].table_type
 					if(tabletype == "Core8_TenMin") {
 						field = dri2c8[i].Core8_TenMin
+						field2 = dri2c8[i].TenMin
 					} else if(tabletype == "GOES_TenMin") {
 						field = dri2c8[i].GOES_TenMin
+						field2 = dri2c8[i].SatTen
 					} else if(tabletype == "SatTen") {
 						field = dri2c8[i].SatTen
+						field2 = dri2c8[i].GOES_TenMin
 					} else if(tabletype == "TenMin") {
 						field = dri2c8[i].TenMin
+						field2 = dri2c8[i].Core8_TenMin
 					} else if(tabletype == "DRI") {
-						field = dri_fieldname
+						console.log("get_core8_fieldname: DRI managed. no influx.")
+						return
 					} else {
 						console.log("get_core8_fieldname: Field NOT FOUND. dri:",dri_fieldname,"station:",station.name)
 						return
 					}	
 					//console.log("MATCH!",dri_fieldname,"==",dri,"-->",field,"<--",tabletype)
-					return field
+					return [field,field2]
 				}
 			}
 		}
@@ -126,7 +131,7 @@ function get_core8_fieldname(dri_fieldname,station_id) {
 }
 
 function dpc_create_influxdb_from_extref(dd_json,start_date,end_date="") {
-	
+	boo_coalesce = true
 	// Set up config parts, except fieldname
 	// Organization 
   org_slug = tr.get_org_slug(dd_json.organization_id)
@@ -152,15 +157,19 @@ function dpc_create_influxdb_from_extref(dd_json,start_date,end_date="") {
   	return 
   } else {
   	fieldname = tr.get_external_ref(dd_json,"odm.datastreams.FieldName") 
+  	console.log(station_name,table,fieldname)
     // UCNRS sensor database fields are from DRI. Convert to Core8
     if(org_slug == "ucnrs") {
 	  	//fieldname = tr.get_fieldname_ucnrs_match_tags(dd_json)
 	  	//console.log(dd_json.name,fieldname)
-	  	core8field = get_core8_fieldname(fieldname,dd_json.station_id)
-	  	if(typeof core8field === 'undefined') {
+	  	fields = get_core8_fieldname(fieldname,dd_json.station_id)
+	  	if(typeof fields === 'undefined') {
 	  		console.log(dd_json.name,fieldname,"NOMATCH Core8 Fieldname not found!")
 	  		return
 	  	}
+	  	console.log(station.name,fields)
+	  	core8field = fields[0]
+	  	field2 = fields[1]
 	  	fieldname = core8field.replace(/\W/g, '_')
 	  	// Solar Exception: need watts/meter squared for Dashboard
 	  	if(fieldname.match(/RS_kw_m2/)) { 
@@ -169,16 +178,29 @@ function dpc_create_influxdb_from_extref(dd_json,start_date,end_date="") {
 				newfieldname = oldfieldname.replace("RS_kw_m2","RS_w_m2")
 				fieldname = oldfieldname+"\"*1000 as \""+newfieldname
 				console.log("SOLAR",dd_json.name,"o:",oldfieldname,"-->",fieldname)
-	  	}
-	  } else {
-		  fieldname = fieldname.replace(/\W/g, '_')
-	  }
+				boo_coalesce = false
+			} else if(fieldname.match(/PAR/)) { 
+				//"sc": "\"time\", \"PAR_Avg\"*1000 as \"PAR_Avg\""
+				oldfieldname = fieldname
+				fieldname = oldfieldname+"\"*1000 as \""+oldfieldname
+				console.log("PAR",dd_json.name,"o:",oldfieldname,"-->",fieldname)
+				boo_coalesce = false
+		  } else if(core8field == field2) { 
+		  	fieldname = core8field.replace(/\W/g, '_')
+		  	boo_coalesce = false
+		  } else {
+			  fieldname = core8field.replace(/\W/g, '_')+"\",\""+field2.replace(/\W/g, '_')
+		  }
+		} else {
+			fieldname.replace(/\W/g, '_')
+			boo_coalesce = false
+		}
   } 
-  console.log("db:",database,"fc:",table,"sc:",fieldname,"<--",tr.get_external_ref(dd_json,"odm.datastreams.FieldName"))
 
   // check that all params are there, then create datapoints config
   // Note: the replace() function removes ([ and other unsafe characters from fieldname])
   if(typeof org_api !== 'undefined' && database !== 'undefined' && typeof table !== 'undefined' && typeof fieldname !== 'undefined') {
+	  console.log("db:",database,"fc:",table,"sc:",fieldname,",coalesce:",boo_coalesce,"<--",tr.get_external_ref(dd_json,"odm.datastreams.FieldName"))
 	  dpc = {
 	    "params": {
 	      "query": {
@@ -186,7 +208,8 @@ function dpc_create_influxdb_from_extref(dd_json,start_date,end_date="") {
 	        "db": database,   //"station_quail_ridge", or "station_ucac_angelo"
 	        "fc": table, 			//"source_tenmin"
 	        "sc": "\"time\", \""+fieldname+"\"",
-	        "utc_offset": -28800
+	        "utc_offset": -28800,
+	        "coalesce": boo_coalesce
 	      }
 	    },
 	    "begins_at": start_date,
@@ -274,13 +297,22 @@ for(var i=0;i<ds_files.length;i++) {
 		// Must exist in sensor database 					
 		} else {
 			if(dpc_bsdb_position != -999) {
-				ds_json = dpc_set_enddate(ds_json,sensordb_end_date,dpc_bsdb_position,"create") 
+				ds_json = dpc_set_enddate(ds_json,influxdb_start_date,dpc_bsdb_position,"create") 
 			} else {
 				console.log("\tNO SensorDB config.",ds_json.name)
 			}
 			
+			// Check which start date to use
+			station_obj = tr.get_station_mongoid(ds_json.station_id)
+			if(typeof station_obj.goes !== 'undefined') { 
+				dpc_start_date = goes_start_date
+			} else {
+				dpc_start_date = influxdb_start_date
+			}
+
 			// FINALLY actually create a datapoints_config
-			dt_json = dpc_create_influxdb_from_extref(ds_json,influxdb_start_date)
+			// note: dt_json was not used when exporting to file. Not sure how anything worked.
+			dt_json = dpc_create_influxdb_from_extref(ds_json,dpc_start_date)
 			if(typeof dt_json === 'undefined') {
 				console.log("\tSKIP. not processed.",ds_json.name)		
 			} else {
@@ -288,9 +320,9 @@ for(var i=0;i<ds_files.length;i++) {
 				influx_dpc_count++
 				skipped_count--
 				// Write JSON file
-				ds_json_string = JSON.stringify(ds_json,null,2)
+				dt_json_string = JSON.stringify(dt_json,null,2)
 				//console.log("\tProcessed! InfluxDB config_points created. Writing file:",ds_filename)
-				fs.writeFileSync(ds_path+ds_filename,ds_json_string,'utf-8')
+				fs.writeFileSync(ds_path+ds_filename,dt_json_string,'utf-8')
 			}
 		}
 	} else {

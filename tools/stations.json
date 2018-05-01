@@ -116,7 +116,7 @@
 		    "station_id" : "339",
 		    "loggernet":"ucca_chickering",
 		    "goes":"BEC0035C",
-		    "table_type":"SatTen"
+		    "table_type":"GOES_TenMin"
 		},
 
 		{
@@ -383,8 +383,7 @@
 		    "loggernet":"ucsr_stuntranch",
 		    "goes":"BEC036C6",
 		    "table_type":"GOES_TenMin",
-		    "core8_startdate":"2018-03-18",
-		    "static_rules": []
+		    "core8_startdate":"2018-03-18"
 		},
 
 		{

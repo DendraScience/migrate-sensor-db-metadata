@@ -1,0 +1,104 @@
+{
+  "_id": "5914ec02aaa1440001f229f2",
+  "datapoints_config": [
+    {
+      "connection": "noaaNWS",
+      "params": {
+        "query": {
+          "interface": "unsummarized",
+          "parameter": {
+            "key_path": "/conditions-icon/forecast-NWS/p3h"
+          },
+          "unit": "m"
+        }
+      },
+      "path": "/series"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "name": "Digital Weather NWS Forecast Unsummarized 3 Hour Conditions Icon",
+  "source": "gov.noaa.nws.ndfd.rest.xml",
+  "source_type": "service",
+  "state": "ready",
+  "tags": [
+    "dw_ConditionsIconType_ForecastNWS",
+    "dw_Interface_Unsummarized",
+    "dw_LayoutPeriod_3Hour",
+    "dw_Parameter_ConditionsIcon"
+  ],
+  "created_at": "2018-05-01T01:18:32.484Z",
+  "updated_at": "2018-05-01T01:18:32.484Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "ForecastNWS",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-conditions-icon-type",
+        "vocabulary_label": "ConditionsIconType"
+      },
+      {
+        "label": "Unsummarized",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-interface",
+        "vocabulary_label": "Interface"
+      },
+      {
+        "label": "3Hour",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-layout-period",
+        "vocabulary_label": "LayoutPeriod"
+      },
+      {
+        "label": "ConditionsIcon",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-parameter",
+        "vocabulary_label": "Parameter"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "dw",
+        "tag_count": 4
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "dw-conditions-icon-type"
+      },
+      {
+        "_id": "dw-interface"
+      },
+      {
+        "_id": "dw-layout-period"
+      },
+      {
+        "_id": "dw-parameter"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "12adce9f4d9b04de98293019f0cf61e2de6c092b"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "42d7c221e824eb38c390c1435081252d8ef8491b",
+      "scheme_id": "dw"
+    }
+  ],
+  "_include": []
+}

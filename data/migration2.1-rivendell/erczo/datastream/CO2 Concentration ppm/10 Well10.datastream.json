@@ -1,0 +1,50 @@
+{
+  "description": "device = Serial number 03049717",
+  "enabled": false,
+  "name": "CO2 Concentration ppm/10 Well10",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "9",
+  "datapoints_config": [
+    {
+      "begins_at": "2012-02-24T23:08:45.000Z",
+      "ends_before": "2012-10-01T06:23:55.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 1679,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "1679",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "9",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "unknown",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "76",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "CO2 Concentration ppm/10",
+      "type": "odm.stations.VariableCode"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_Concentration",
+    "dt_Unit_PartPerMillion"
+  ]
+}

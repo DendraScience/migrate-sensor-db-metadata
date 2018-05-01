@@ -1,0 +1,125 @@
+{
+  "_id": "5914ebe6aaa1440001f229f1",
+  "datapoints_config": [
+    {
+      "connection": "noaaNWS",
+      "params": {
+        "query": {
+          "interface": "unsummarized",
+          "parameter": {
+            "key_path": "/cloud-amount/total/p1h"
+          },
+          "unit": "m"
+        }
+      },
+      "path": "/series"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "name": "Digital Weather Unsummarized Hour Cloud Amount Total Percent",
+  "source": "gov.noaa.nws.ndfd.rest.xml",
+  "source_type": "service",
+  "state": "ready",
+  "tags": [
+    "dt_Unit_Percent",
+    "dw_Interface_Unsummarized",
+    "dw_LayoutPeriod_Hour",
+    "dw_Parameter_CloudAmount",
+    "dw_CloudAmountType_Total"
+  ],
+  "created_at": "2018-05-01T01:18:32.054Z",
+  "updated_at": "2018-05-01T01:18:32.054Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "abbreviation": "%",
+        "label": "Percent",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Unsummarized",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-interface",
+        "vocabulary_label": "Interface"
+      },
+      {
+        "label": "Hour",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-layout-period",
+        "vocabulary_label": "LayoutPeriod"
+      },
+      {
+        "label": "CloudAmount",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-parameter",
+        "vocabulary_label": "Parameter"
+      },
+      {
+        "label": "Total",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-cloud-amount-type",
+        "vocabulary_label": "CloudAmountType"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "dt",
+        "tag_count": 1
+      },
+      {
+        "_id": "dw",
+        "tag_count": 4
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "dw-interface"
+      },
+      {
+        "_id": "dw-layout-period"
+      },
+      {
+        "_id": "dw-parameter"
+      },
+      {
+        "_id": "dw-cloud-amount-type"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "12adce9f4d9b04de98293019f0cf61e2de6c092b"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "2734b26dc0ddea857c1c6f650f5735cc8bb660eb",
+      "scheme_id": "dt"
+    },
+    {
+      "key": "tag",
+      "str": "d9e38e36396a93d24f24e60010a0484105d23eba",
+      "scheme_id": "dw"
+    }
+  ],
+  "_include": []
+}

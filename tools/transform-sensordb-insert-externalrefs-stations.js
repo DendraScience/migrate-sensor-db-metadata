@@ -1,5 +1,5 @@
 /*
-Station ID & External References inserter to Datastreams 
+Station ID & External References inserter to Stations 
 @author: Collin Bode
 @date: 2018-02-28
 @updated: 2018-03-26
@@ -83,6 +83,15 @@ for(var i=0;i<ss_files.length;i++) {
 					continue
 			}
 			*/
+
+			// Update external links, remove empty urls
+			for(var j=0;j<ss_json.external_links.length;j++) {
+				if(typeof ss_json.external_links[j].url === 'undefined') {
+					ss_json.external_links.splice(j)
+					console.log(ss_json.name,"deleted unused URL.")
+				}
+			}
+
 			// Update external references for loggernet name
 			if(typeof station.loggernet !== 'undefined') {
 				//console.log('\texternal_refs:loggernet.station:',station.loggernet)
@@ -120,7 +129,7 @@ for(var i=0;i<ss_files.length;i++) {
 					console.log(ss_filename,"external_refs:loggernet.data_tables: NO tables found.")
 				}			
 			} else if(typeof station.goes !== 'undefined') {
-				ss_json = tr.update_external_ref(ss_json,"loggernet.data_tables","TenMin")
+				ss_json = tr.update_external_ref(ss_json,"loggernet.data_tables","GOES_TenMin")
 				ss_station_count++
 			} else if(station.name.match(/WhiteMt/)) {
 				console.log(ss_filename,"White Mountain is maintained by DRI. No external references.")

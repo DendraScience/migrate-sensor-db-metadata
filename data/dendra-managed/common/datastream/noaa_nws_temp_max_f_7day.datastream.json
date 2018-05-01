@@ -1,0 +1,138 @@
+{
+  "_id": "59155f4f7acd6800017b1b0d",
+  "datapoints_config": [
+    {
+      "connection": "noaaNWS",
+      "params": {
+        "query": {
+          "format": "12 hourly",
+          "interface": "summarized",
+          "numDays": 7,
+          "parameter": {
+            "key_path": "/temperature/maximum/p24h"
+          },
+          "unit": "e"
+        }
+      },
+      "path": "/series"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "name": "Digital Weather Summarized Temperature 7 Day 12 Hourly Maximum Fahrenheit",
+  "source": "gov.noaa.nws.ndfd.rest.xml",
+  "source_type": "service",
+  "state": "ready",
+  "tags": [
+    "dt_Unit_DegreeFahrenheit",
+    "dw_Interface_Summarized",
+    "dw_Parameter_Temperature",
+    "dw_SummarizedDays_7Day",
+    "dw_SummarizedFormat_12Hourly",
+    "dw_TemperatureType_Maximum"
+  ],
+  "created_at": "2018-05-01T01:18:37.504Z",
+  "updated_at": "2018-05-01T01:18:37.504Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "abbreviation": "degF",
+        "label": "DegreeFahrenheit",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Summarized",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-interface",
+        "vocabulary_label": "Interface"
+      },
+      {
+        "label": "Temperature",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-parameter",
+        "vocabulary_label": "Parameter"
+      },
+      {
+        "label": "7Day",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-summarized-days",
+        "vocabulary_label": "SummarizedDays"
+      },
+      {
+        "label": "12Hourly",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-summarized-format",
+        "vocabulary_label": "SummarizedFormat"
+      },
+      {
+        "label": "Maximum",
+        "scheme_id": "dw",
+        "scheme_priority": 10,
+        "vocabulary_id": "dw-temperature-type",
+        "vocabulary_label": "TemperatureType"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "dt",
+        "tag_count": 1
+      },
+      {
+        "_id": "dw",
+        "tag_count": 5
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "dw-interface"
+      },
+      {
+        "_id": "dw-parameter"
+      },
+      {
+        "_id": "dw-summarized-days"
+      },
+      {
+        "_id": "dw-summarized-format"
+      },
+      {
+        "_id": "dw-temperature-type"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "12adce9f4d9b04de98293019f0cf61e2de6c092b"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "e430e728d5b5f5b3521c78269c0c204ee5eeaf13",
+      "scheme_id": "dt"
+    },
+    {
+      "key": "tag",
+      "str": "4a6f1f0c50be9c885322b3cb9258798a93b747c2",
+      "scheme_id": "dw"
+    }
+  ],
+  "_include": []
+}

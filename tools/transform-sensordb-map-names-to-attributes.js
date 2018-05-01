@@ -11,6 +11,7 @@ SOIL MOISTURE UCNRS VWC NEEDS FIXING
 */
 
 fs = require("fs")
+//tr = require("transform_functions.js")
 args = process.argv.slice(2)
 parent_path = args[0] // Requires trailing slash, e.g. "../data/migration2.1-rivendell/" 
 org_slug = args[1]	 // "erczo"
@@ -30,10 +31,16 @@ function parse_tags(ds_json) {
   "dt_Unit_MeterPerSecond"
 	],
   */
-  ds_medium = ""
-  ds_variable = ""
-  ds_unit = ""
+  ds_medium = "unknown"
+  ds_variable = "unknown"
+  ds_unit = "unknown"
   ds_aggregate = ""
+  ds_interval = ""
+  ds_seasonal = ""
+  if(typeof ds_json.tags === 'undefined') {
+  	console.log(ds_json.name,"has no tags.")
+  	return
+  }
 
 	for(var j=0;j<ds_json.tags.length;j++) {
 		tag_parts = ds_json.tags[j].split("_")
@@ -47,6 +54,10 @@ function parse_tags(ds_json) {
 			ds_unit = suf
 		} else if (pref == "Aggregate") {
 			ds_aggregate = suf
+		} else if (pref == "Interval") {
+			ds_interval = suf
+		} else if (pref == "Seasonal") {
+			ds_seasonal = suf
 		} else {
 			console.log(ds_json.name,"pref: ",pref,"has no match",suf)
 		}
@@ -55,7 +66,9 @@ function parse_tags(ds_json) {
 		"medium":ds_medium,
 		"variable":ds_variable,
 		"unit":ds_unit,
-		"aggregate":ds_aggregate
+		"aggregate":ds_aggregate,
+		"seasonal":ds_seasonal,
+		"interval":ds_interval
 	} 
 }
 
