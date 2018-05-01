@@ -1,0 +1,162 @@
+{
+  "_id": "5ae87a6efe27f4fc551030b8",
+  "description": "",
+  "enabled": true,
+  "name": "Total Solar Radiation W m2 Younger Max",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68caddf5ce600012602e0",
+  "datapoints_config": [
+    {
+      "begins_at": "2015-09-02T23:50:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 4127,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-25T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucyl_youngerlagoon",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"RS_kw_m2_Max\"*1000 as \"RS_w_m2_Max\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2018-04-25T00:00:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "4127",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "363",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Max_Solar_Radiation",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "16",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Solar Radiation Max W/m^2",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "ucyl_youngerlagoon",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Solar",
+    "ds_Variable_Radiation",
+    "dt_Unit_WattPerSquareMeter",
+    "ds_Aggregate_Maximum"
+  ],
+  "created_at": "2018-05-01T14:32:14.089Z",
+  "updated_at": "2018-05-01T14:39:29.630Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Solar",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Radiation",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "W/m^2",
+        "label": "WattPerSquareMeter",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Maximum",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "f83159a2a549522d96bfac7dd21cac2e3b58ca41"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "7355e789b87d1c0cd7d98851a6a3e2b41c9506c4",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "4d1ef8d2d372f256104c186984a14d7b6d38ef8f",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

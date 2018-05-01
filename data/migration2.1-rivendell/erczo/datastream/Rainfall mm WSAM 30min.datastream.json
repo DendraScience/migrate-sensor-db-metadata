@@ -1,0 +1,139 @@
+{
+  "_id": "5ae87435fe27f45aa010263b",
+  "derivation_description": "Conversion to 30-minute timesteps",
+  "enabled": true,
+  "name": "Rainfall mm WSAM 30min",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602b2",
+  "datapoints_config": [
+    {
+      "begins_at": "2008-04-29T22:30:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 1620,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "1620",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "11",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "48",
+      "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "71",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Rainfall mm",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "WSAM_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "AR_RWS",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Precipitation",
+    "ds_Variable_Height",
+    "dt_Unit_Millimeter"
+  ],
+  "created_at": "2018-05-01T14:12:10.069Z",
+  "updated_at": "2018-05-01T14:20:54.405Z",
+  "derived_from_datastream_ids": [
+    "5ae87436fe27f477b310263d"
+  ],
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Precipitation",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Height",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "mm",
+        "label": "Millimeter",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "cccad7d9b78b139c0f014fb26123ff51bbf6d991"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "3915b0f6162c78b77c3df999d417f9444f5c407c",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "b0c7386b883ea89804e8613181308a0d15033964",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

@@ -1,0 +1,162 @@
+{
+  "_id": "5ae8796dfe27f46c50102c54",
+  "description": "",
+  "enabled": true,
+  "name": "Barometric Pressure mbar Angelo Avg",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602b3",
+  "datapoints_config": [
+    {
+      "begins_at": "2013-05-07T22:10:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3349,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-25T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucac_angelo",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"BP_mB_Avg\",\"BP_mb_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": true
+        }
+      },
+      "begins_at": "2018-04-25T00:00:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3349",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "335",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Barometric_Pressure",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "79",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Barometric Pressure mb",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "ucac_angelo",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_BarometricPressure",
+    "dt_Unit_Millibar",
+    "ds_Aggregate_Average"
+  ],
+  "created_at": "2018-05-01T14:27:57.824Z",
+  "updated_at": "2018-05-01T14:35:08.501Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Air",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "BarometricPressure",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "mb",
+        "label": "Millibar",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "9ee51d05d216c314371676826908fbe7ad86da94"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "d97826b01ce9e1934f5ed5c1c071d736b1cac5eb",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "f6e143fd7229fe4fb31a03055310db4b5f29e664",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

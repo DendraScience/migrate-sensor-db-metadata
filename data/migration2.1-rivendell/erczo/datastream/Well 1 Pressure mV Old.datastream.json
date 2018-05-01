@@ -1,0 +1,158 @@
+{
+  "_id": "5ae87702fe27f42f58102a8c",
+  "description": "Well 1 transducer was removed and replaced by a new transducer on 11/20/2010 18:45 - see \"Well 1 Pressure psi\" ",
+  "enabled": false,
+  "name": "Well 1 Pressure mV Old",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602c9",
+  "datapoints_config": [
+    {
+      "begins_at": "2008-06-04T22:30:00.000Z",
+      "ends_before": "2010-11-21T02:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 379,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "379",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "5",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Well_1",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "34",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Water Pressure mV",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "RLL1_2_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "Table102",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Water",
+    "ds_Variable_Pressure",
+    "dt_Unit_Millivolt"
+  ],
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Meter",
+      "value": "9.5"
+    },
+    "wellhead_height": {
+      "unit": "dt_Unit_Meter",
+      "value": "0"
+    },
+    "cable_length": {
+      "unit": "dt_Unit_Meter",
+      "value": "7.13"
+    }
+  },
+  "created_at": "2018-05-01T14:17:38.173Z",
+  "updated_at": "2018-05-01T14:25:04.070Z",
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Water",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Pressure",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "mV",
+        "label": "Millivolt",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "f287669f1538e1bb064fc90fe3f8e10948979c6c"
+    },
+    {
+      "key": "att",
+      "str": "4b998b74ecd9e7b07f36d21f5b3f5ad516930f3b"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "5e35e7ca8a9cd343e5febdee3173521bfda9266c",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "c3f3cc3ed0f4887a2f21485ac834d57e1352a99a",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

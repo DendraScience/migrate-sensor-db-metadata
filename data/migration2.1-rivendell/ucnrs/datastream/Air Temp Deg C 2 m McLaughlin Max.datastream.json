@@ -1,0 +1,152 @@
+{
+  "_id": "5ae87938fe27f41c7b102b6f",
+  "description": "Temperature at 2 meters",
+  "enabled": false,
+  "name": "Air Temp Deg C 2 m McLaughlin Max",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602c5",
+  "datapoints_config": [
+    {
+      "begins_at": "2011-12-14T22:20:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3720,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3720",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "350",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Max_T_TC_2m",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "85",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Air Temp C Max",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "ucmc_mclaughlin",
+      "type": "loggernet.station"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius",
+    "ds_Aggregate_Maximum"
+  ],
+  "attributes": {
+    "height": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": "2"
+    }
+  },
+  "created_at": "2018-05-01T14:27:04.022Z",
+  "updated_at": "2018-05-01T14:34:11.476Z",
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Air",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Temperature",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "degC",
+        "label": "DegreeCelsius",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Maximum",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "77499be9a141cd9062b3f1a7a80b2cc3cde56761"
+    },
+    {
+      "key": "att",
+      "str": "e386969d21cc3578408b8315968999bd5fb9d8e8"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "25655b044eddb36b76e5cc3c45e8c1b9d0787a51",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "5795c6e74091f87a34b256903db271fcca161eee",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

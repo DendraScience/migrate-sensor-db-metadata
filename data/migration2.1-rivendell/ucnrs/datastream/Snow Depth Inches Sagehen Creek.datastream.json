@@ -1,0 +1,136 @@
+{
+  "_id": "5ae879e8fe27f46d0e102e7b",
+  "description": "Valid Range for Values unknown - only a guess because method is unknown",
+  "enabled": true,
+  "name": "Snow Depth Inches Sagehen Creek",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602d1",
+  "datapoints_config": [
+    {
+      "begins_at": "1997-04-03T05:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3138,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3138",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "364",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Snow_Depth",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "53",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Snow Depth in.",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "sagh_sagehen",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Snow",
+    "ds_Variable_Depth",
+    "dt_Unit_Inch"
+  ],
+  "created_at": "2018-05-01T14:30:00.019Z",
+  "updated_at": "2018-05-01T14:37:16.880Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Snow",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Depth",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "in",
+        "label": "Inch",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "6cc6f789699747d59f8b41beda379b991365b5da"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "232731769aa0c43c9a4e2b3f2c986878684dcdfb",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "69326d87e5be97ef77d163580a7947cca3e81447",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

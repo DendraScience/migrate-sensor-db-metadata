@@ -1,0 +1,162 @@
+{
+  "_id": "5ae8797efe27f4849c102c9d",
+  "derivation_description": "Seasonal Monthly derived from legacy datastreamid 4173",
+  "description": "",
+  "enabled": true,
+  "name": "Barometric Pressure mbar Sagehen Creek Avg Seasonal Average",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602d1",
+  "datapoints_config": [
+    {
+      "begins_at": "1997-04-03T05:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 24173,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "24173",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "364",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "4173",
+      "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "79",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Barometric Pressure mb",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "sagh_sagehen",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_BarometricPressure",
+    "dt_Unit_Millibar",
+    "ds_Aggregate_Average",
+    "ds_Function_Seasonal"
+  ],
+  "created_at": "2018-05-01T14:28:14.771Z",
+  "updated_at": "2018-05-01T14:35:24.847Z",
+  "derived_from_datastream_ids": [
+    "5ae8797ffe27f4813b102ca0"
+  ],
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Air",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "BarometricPressure",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "mb",
+        "label": "Millibar",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      },
+      {
+        "label": "Seasonal",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-function",
+        "vocabulary_label": "Function"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 4
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      },
+      {
+        "_id": "ds-function"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "6cc6f789699747d59f8b41beda379b991365b5da"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "a143ff5b029daf02294820706bc9e3dceac1f523",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "f6e143fd7229fe4fb31a03055310db4b5f29e664",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

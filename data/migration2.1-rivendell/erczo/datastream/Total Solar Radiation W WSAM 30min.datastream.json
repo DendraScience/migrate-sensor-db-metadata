@@ -1,0 +1,139 @@
+{
+  "_id": "5ae876fdfe27f458d5102a77",
+  "derivation_description": "Conversion to 30-minute timesteps",
+  "enabled": true,
+  "name": "Total Solar Radiation W WSAM 30min",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602b2",
+  "datapoints_config": [
+    {
+      "begins_at": "2010-01-05T20:23:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 1632,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "1632",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "11",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "838",
+      "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "71",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Solar Radiation Total W/m^2",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "WSAM_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "AR_RWS",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Solar",
+    "ds_Variable_Radiation",
+    "dt_Unit_WattPerSquareMeter"
+  ],
+  "created_at": "2018-05-01T14:17:33.624Z",
+  "updated_at": "2018-05-01T14:24:59.353Z",
+  "derived_from_datastream_ids": [
+    "5ae876fefe27f47c57102a78"
+  ],
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Solar",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Radiation",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "W/m^2",
+        "label": "WattPerSquareMeter",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "cccad7d9b78b139c0f014fb26123ff51bbf6d991"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "e3f5c6664ac344e64017855f42af5f173b9625ae",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "4d1ef8d2d372f256104c186984a14d7b6d38ef8f",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

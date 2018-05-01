@@ -1,0 +1,161 @@
+{
+  "_id": "5ae87718fe27f48052102af4",
+  "derivation_description": "Seasonal Monthly derived from legacy datastreamid 49",
+  "enabled": true,
+  "name": "Wind Speed - WSAM Seasonal Average",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602b2",
+  "datapoints_config": [
+    {
+      "begins_at": "2008-04-29T22:30:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 20049,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "20049",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "11",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "49",
+      "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "18",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Wind Speed Avg MS",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "WSAM_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "AR_RWS",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_Speed",
+    "dt_Unit_MeterPerSecond",
+    "ds_Aggregate_Average",
+    "ds_Function_Seasonal"
+  ],
+  "created_at": "2018-05-01T14:18:00.742Z",
+  "updated_at": "2018-05-01T14:25:26.941Z",
+  "derived_from_datastream_ids": [
+    "5ae87719fe27f45536102af7"
+  ],
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Air",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Speed",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "m/s",
+        "label": "MeterPerSecond",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      },
+      {
+        "label": "Seasonal",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-function",
+        "vocabulary_label": "Function"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 4
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      },
+      {
+        "_id": "ds-function"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "cccad7d9b78b139c0f014fb26123ff51bbf6d991"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "3a2f357f618ee7b30e13db89fa279299125a6585",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "ed410d68f80e0ee139fcd18c842f80a8f3dcf437",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

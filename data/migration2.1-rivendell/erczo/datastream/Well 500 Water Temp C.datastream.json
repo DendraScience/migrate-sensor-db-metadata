@@ -1,0 +1,171 @@
+{
+  "_id": "5ae8770ffe27f4d0e7102acc",
+  "enabled": true,
+  "name": "Well 500 Water Temp C",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602d2",
+  "datapoints_config": [
+    {
+      "begins_at": "2016-02-18T19:20:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3052,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-25T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_wssr_cr1000",
+          "fc": "source_table1",
+          "sc": "\"time\", \"WSSR_Temp_C\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2018-04-25T00:00:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3052",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "331",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "WSSR_Temp_C",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "78",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Water Temp C",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "WSSR_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "Table1",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Water",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ],
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Meter",
+      "value": ""
+    },
+    "wellhead_height": {
+      "unit": "dt_Unit_Meter",
+      "value": ""
+    },
+    "cable_length": {
+      "unit": "dt_Unit_Meter",
+      "value": ""
+    }
+  },
+  "created_at": "2018-05-01T14:17:51.168Z",
+  "updated_at": "2018-05-01T14:25:18.372Z",
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Water",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Temperature",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "degC",
+        "label": "DegreeCelsius",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "77b6771c7de3b16647901ef97837d2410ebc6dd3"
+    },
+    {
+      "key": "att",
+      "str": "f979ab74b46618ff6ccc990f58fddc87c0b9e427"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "f6050a15036ffaf91001f318c01631c299124336",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "5795c6e74091f87a34b256903db271fcca161eee",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

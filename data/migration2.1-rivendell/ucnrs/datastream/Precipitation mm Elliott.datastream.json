@@ -1,0 +1,151 @@
+{
+  "_id": "5ae879b5fe27f48316102d98",
+  "description": "",
+  "enabled": true,
+  "name": "Precipitation mm Elliott",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602be",
+  "datapoints_config": [
+    {
+      "begins_at": "2010-09-28T23:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3528,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-25T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucel_elliotchaparral",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"PCPN_intrvl_Tot\",\"PCPN_in_Tot\"",
+          "utc_offset": -28800,
+          "coalesce": true
+        }
+      },
+      "begins_at": "2018-04-25T00:00:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3528",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "341",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Precipitation",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "83",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Rainfall mm",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "ucel_elliotchaparral",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Precipitation",
+    "ds_Variable_Height",
+    "dt_Unit_Millimeter"
+  ],
+  "created_at": "2018-05-01T14:29:09.542Z",
+  "updated_at": "2018-05-01T14:36:23.383Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Precipitation",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Height",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "mm",
+        "label": "Millimeter",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "db741577da4b66aabeaeb5cf44dea6dd040e7e42"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "3915b0f6162c78b77c3df999d417f9444f5c407c",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "b0c7386b883ea89804e8613181308a0d15033964",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

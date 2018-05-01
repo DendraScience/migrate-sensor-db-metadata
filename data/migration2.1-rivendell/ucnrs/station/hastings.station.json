@@ -1,0 +1,733 @@
+{
+  "enabled": true,
+  "is_active": true,
+  "is_stationary": true,
+  "name": "Hastings",
+  "organization_id": "58db17c424dc720001671378",
+  "slug": "hastings",
+  "station_type": "weather",
+  "time_zone": "PST",
+  "utc_offset": -28800,
+  "external_links": [
+    {
+      "title": "Metadata",
+      "url": "http://sensor.berkeley.edu/cgi/sensor_show_tables?Access=4.00&username=Guest+User&MC_Name=UCNRS&table=stations&name=Hastings"
+    },
+    {
+      "title": "Original Site",
+      "url": "https://wrcc.dri.edu/weather/ucha.html"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "333",
+      "type": "odm.station.StationID",
+      "url": "file://ucha_hastings_dri.dat"
+    },
+    {
+      "identifier": "ucha_hastings",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.data_tables"
+    }
+  ],
+  "geo": {
+    "coordinates": [
+      -121.55027,
+      36.38638,
+      546.2016
+    ],
+    "type": "Point"
+  },
+  "media": [
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucha.S2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucha.S2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucha.S2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.S2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.S2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucha.S2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucha.S2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucha.SE1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucha.SE1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucha.SE1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.SE1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.SE1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucha.SE1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucha.SE1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucha.SE2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucha.SE2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucha.SE2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.SE2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.SE2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucha.SE2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucha.SE2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucha.ST3.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucha.ST3.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucha.ST3.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.ST3.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.ST3.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucha.ST3.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucha.ST3.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucha.SW1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucha.SW1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucha.SW1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.SW1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.SW1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucha.SW1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucha.SW1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucha.SW2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucha.SW2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucha.SW2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.SW2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.SW2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucha.SW2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucha.SW2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucha.W1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucha.W1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucha.W1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.W1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.W1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucha.W1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucha.W1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucha.W2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucha.W2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucha.W2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.W2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.W2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucha.W2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucha.W2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucha.E1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucha.E1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucha.E1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.E1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.E1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucha.E1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucha.E1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucha.E2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucha.E2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucha.E2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.E2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.E2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucha.E2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucha.E2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucha.N1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucha.N1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucha.N1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.N1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.N1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucha.N1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucha.N1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucha.N2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucha.N2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucha.N2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.N2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.N2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucha.N2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucha.N2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucha.NE1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucha.NE1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucha.NE1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.NE1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.NE1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucha.NE1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucha.NE1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucha.NE2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucha.NE2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucha.NE2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.NE2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.NE2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucha.NE2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucha.NE2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucha.NW1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucha.NW1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucha.NW1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.NW1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.NW1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucha.NW1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucha.NW1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucha.NW2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucha.NW2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucha.NW2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.NW2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.NW2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucha.NW2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucha.NW2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucha.S1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucha.S1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucha.S1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.S1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucha.S1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucha.S1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucha.S1.jpg"
+        }
+      }
+    }
+  ],
+  "_id": "58e68cabdf5ce600012602c1",
+  "created_at": "2018-05-01T14:26:34.144Z",
+  "updated_at": "2018-05-01T14:26:34.144Z"
+}

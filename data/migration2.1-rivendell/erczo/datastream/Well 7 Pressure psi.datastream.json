@@ -1,0 +1,171 @@
+{
+  "_id": "5ae87713fe27f47abc102add",
+  "enabled": true,
+  "name": "Well 7 Pressure psi",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602cf",
+  "datapoints_config": [
+    {
+      "begins_at": "2014-03-11T19:30:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 1686,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-25T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_rrl4_1_cr1000",
+          "fc": "source_table401",
+          "sc": "\"time\", \"Well7_psi\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2018-04-25T00:00:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "1686",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "10",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Well7_psi",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "65",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Water Pressure psi",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "RRL4_1_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "Table401",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Water",
+    "ds_Variable_Pressure",
+    "dt_Unit_PoundForcePerSquareInch"
+  ],
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Meter",
+      "value": "19.8"
+    },
+    "wellhead_height": {
+      "unit": "dt_Unit_Meter",
+      "value": "0.23"
+    },
+    "cable_length": {
+      "unit": "dt_Unit_Meter",
+      "value": "16.58"
+    }
+  },
+  "created_at": "2018-05-01T14:17:55.166Z",
+  "updated_at": "2018-05-01T14:25:22.004Z",
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Water",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Pressure",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "psi",
+        "label": "PoundForcePerSquareInch",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "cbbdadb611704e1838fee6693882cf07844ab858"
+    },
+    {
+      "key": "att",
+      "str": "a61791410bf4ab12626ee1bbe53358409c478207"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "5e35e7ca8a9cd343e5febdee3173521bfda9266c",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "41be565b37cae6329bda165fbf375c09c4d9a74a",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

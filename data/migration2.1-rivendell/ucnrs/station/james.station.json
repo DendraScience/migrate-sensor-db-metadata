@@ -1,0 +1,693 @@
+{
+  "enabled": true,
+  "is_active": true,
+  "is_stationary": true,
+  "name": "James",
+  "organization_id": "58db17c424dc720001671378",
+  "slug": "james",
+  "station_type": "weather",
+  "time_zone": "PST",
+  "utc_offset": -28800,
+  "external_links": [
+    {
+      "title": "Metadata",
+      "url": "http://sensor.berkeley.edu/cgi/sensor_show_tables?Access=4.00&username=Guest+User&MC_Name=UCNRS&table=stations&name=James"
+    },
+    {
+      "title": "Original Site",
+      "url": "https://wrcc.dri.edu/weather/ucja.html"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "343",
+      "type": "odm.station.StationID",
+      "url": "file://ucja_james_dri.dat"
+    },
+    {
+      "identifier": "ucja_james",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.data_tables"
+    }
+  ],
+  "geo": {
+    "coordinates": [
+      -116.7752,
+      33.80944,
+      1648.968
+    ],
+    "type": "Point"
+  },
+  "media": [
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucja.S2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucja.S2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucja.S2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.S2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.S2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucja.S2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucja.S2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucja.SE1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucja.SE1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucja.SE1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.SE1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.SE1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucja.SE1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucja.SE1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucja.SE2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucja.SE2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucja.SE2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.SE2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.SE2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucja.SE2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucja.SE2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucja.SW1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucja.SW1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucja.SW1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.SW1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.SW1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucja.SW1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucja.SW1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucja.SW2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucja.SW2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucja.SW2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.SW2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.SW2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucja.SW2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucja.SW2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucja.W1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucja.W1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucja.W1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.W1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.W1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucja.W1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucja.W1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucja.W2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucja.W2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucja.W2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.W2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.W2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucja.W2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucja.W2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucja.E1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucja.E1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucja.E1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.E1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.E1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucja.E1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucja.E1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucja.E2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucja.E2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucja.E2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.E2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.E2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucja.E2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucja.E2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucja.N1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucja.N1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucja.N1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.N1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.N1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucja.N1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucja.N1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucja.N2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucja.N2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucja.N2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.N2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.N2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucja.N2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucja.N2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucja.NE1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucja.NE1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucja.NE1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.NE1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.NE1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucja.NE1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucja.NE1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucja.NE2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucja.NE2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucja.NE2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.NE2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.NE2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucja.NE2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucja.NE2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucja.NW1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucja.NW1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucja.NW1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.NW1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.NW1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucja.NW1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucja.NW1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucja.NW2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucja.NW2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucja.NW2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.NW2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.NW2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucja.NW2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucja.NW2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucja.S1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucja.S1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucja.S1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.S1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucja.S1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucja.S1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucja.S1.jpg"
+        }
+      }
+    }
+  ],
+  "_id": "58e68cacdf5ce600012602c3",
+  "created_at": "2018-05-01T14:26:34.988Z",
+  "updated_at": "2018-05-01T14:26:34.988Z"
+}

@@ -1,0 +1,162 @@
+{
+  "_id": "5ae87a91fe27f4616e10315a",
+  "derivation_description": "Seasonal Monthly derived from legacy datastreamid 3686",
+  "description": "",
+  "enabled": true,
+  "name": "Wind Speed m s BigCreek Highlands Avg Seasonal Minimum",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602b6",
+  "datapoints_config": [
+    {
+      "begins_at": "2016-07-09T09:50:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 13686,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "13686",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "347",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "3686",
+      "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "82",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Wind Speed Avg MS",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "hipk_bigcreekhighlands",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_Speed",
+    "dt_Unit_MeterPerSecond",
+    "ds_Aggregate_Minimum",
+    "ds_Function_Seasonal"
+  ],
+  "created_at": "2018-05-01T14:32:49.440Z",
+  "updated_at": "2018-05-01T14:40:06.093Z",
+  "derived_from_datastream_ids": [
+    "5ae87a91fe27f46f3710315b"
+  ],
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Air",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Speed",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "m/s",
+        "label": "MeterPerSecond",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Minimum",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      },
+      {
+        "label": "Seasonal",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-function",
+        "vocabulary_label": "Function"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 4
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      },
+      {
+        "_id": "ds-function"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "753684a7b8cb81030448b5c228e28ebc55c44d14"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "440c31329bc0c3c36fe0294f87d66ca61fe1a895",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "ed410d68f80e0ee139fcd18c842f80a8f3dcf437",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

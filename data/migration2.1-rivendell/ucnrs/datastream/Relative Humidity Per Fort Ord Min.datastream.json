@@ -1,0 +1,161 @@
+{
+  "_id": "5ae879d0fe27f475fe102e19",
+  "enabled": true,
+  "name": "Relative Humidity Per Fort Ord Min",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602bf",
+  "datapoints_config": [
+    {
+      "begins_at": "2016-11-30T20:10:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 4206,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-25T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_fonr_fortord",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"RH_pct_Min\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2018-04-25T00:00:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "4206",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "342",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Min_Relative_Humidity",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "107",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Rel Humidity Per Min",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "fonr_FortOrd",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_RelativeHumidity",
+    "dt_Unit_Percent",
+    "ds_Aggregate_Minimum"
+  ],
+  "created_at": "2018-05-01T14:29:36.705Z",
+  "updated_at": "2018-05-01T14:36:54.627Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Air",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "RelativeHumidity",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "%",
+        "label": "Percent",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Minimum",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "5bf8a74ae6e6bbca66acd58bd0e92b6cbeddd4e1"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "506c71efa84d6efdaeb49e950fa2db4177514ebb",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "2734b26dc0ddea857c1c6f650f5735cc8bb660eb",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

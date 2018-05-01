@@ -1,0 +1,163 @@
+{
+  "_id": "5ae87431fe27f4650e102628",
+  "derivation_description": "Derived from legacy datastreamid 391",
+  "description": "End date is approximate.  Datastream was left active until 2014-03-27.  - cab",
+  "enabled": false,
+  "name": "Rainfall mm RG3 Daily Total",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602cb",
+  "datapoints_config": [
+    {
+      "begins_at": "2008-06-04T19:00:00.000Z",
+      "ends_before": "2011-10-04T19:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 40391,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-day"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "40391",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "7",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "391",
+      "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "27",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Rainfall mm",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "RML2_2_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "Table202",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Precipitation",
+    "ds_Variable_Height",
+    "dt_Unit_Millimeter",
+    "ds_Aggregate_Cumulative",
+    "ds_Interval_Day"
+  ],
+  "created_at": "2018-05-01T14:12:01.254Z",
+  "updated_at": "2018-05-01T14:20:49.775Z",
+  "derived_from_datastream_ids": [
+    "5ae87431fe27f408f8102629"
+  ],
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Precipitation",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Height",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "mm",
+        "label": "Millimeter",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Cumulative",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      },
+      {
+        "label": "Day",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-interval",
+        "vocabulary_label": "Interval"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 4
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      },
+      {
+        "_id": "ds-interval"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "b554b3f45aa618f5f3be7b38fb3aafe654da3097"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "def98e74b48b81de37dc762bd8d814ccf33c3202",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "b0c7386b883ea89804e8613181308a0d15033964",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

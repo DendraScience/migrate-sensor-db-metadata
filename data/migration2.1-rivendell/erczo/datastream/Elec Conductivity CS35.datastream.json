@@ -1,0 +1,164 @@
+{
+  "_id": "5ae873f5fe27f481b210250c",
+  "enabled": true,
+  "name": "Elec Conductivity CS35",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602d0",
+  "datapoints_config": [
+    {
+      "begins_at": "2011-10-06T15:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 1587,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-25T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_rul5_1_cr1000",
+          "fc": "source_table501",
+          "sc": "\"time\", \"EC_CS35\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2018-04-25T00:00:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "1587",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "103",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "EC_CS35",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "70",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Electrical Conductivity dS/m",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "RUL5_1_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "Table501",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Rock",
+    "ds_Variable_Moisture",
+    "dt_Unit_DecisiemenPerMeter"
+  ],
+  "attributes": {
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": "35"
+    },
+    "orientation": "horizontal"
+  },
+  "created_at": "2018-05-01T14:09:59.802Z",
+  "updated_at": "2018-05-01T14:19:43.574Z",
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Rock",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Moisture",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "dS/m",
+        "label": "DecisiemenPerMeter",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "45ea78c1adf277d8846be030d3809b3428b9f97a"
+    },
+    {
+      "key": "att",
+      "str": "48cf54549bd3d0e29d7e8205685d129be56a6137"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "abb89e0bf3da5cee4e0a271d1df9e219f6c4daae",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "2d62a3bb4fd803b3c117e4e9f31b9cab8d6b4d6f",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

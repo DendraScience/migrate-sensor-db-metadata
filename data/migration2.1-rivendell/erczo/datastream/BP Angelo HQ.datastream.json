@@ -1,0 +1,148 @@
+{
+  "_id": "5ae873ecfe27f47f3c1024e2",
+  "description": "2010-08-26  Barometer removed (see incident report 28 )   \r\n2010-12-20 16:00:00 Inserted new barometer in WSHQ.  However, new barometer did not work properly.  Reading is 500mb +- 0.1mb. \r\n2013-06-27 13:30:00 Removed malfunctioning barometer at WSHQ.\r\n2014-01-16 08:00 restarted WSHQ. Added barometer back in.  Failed 6 days later. (see incident report 109)\r\n2014-02-25 removed barometer    (see incident report 109)\r\n",
+  "enabled": false,
+  "name": "BP Angelo HQ",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602b1",
+  "datapoints_config": [
+    {
+      "begins_at": "2008-11-25T19:50:00.000Z",
+      "ends_before": "2013-07-24T14:35:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 40,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "40",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "2",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "HWS_BaroP",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "17",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Barometric Pressure mb",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "WSHQ_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "AR_HWS",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_BarometricPressure",
+    "dt_Unit_Millibar",
+    "ds_Aggregate_Average"
+  ],
+  "created_at": "2018-05-01T14:09:42.225Z",
+  "updated_at": "2018-05-01T14:19:33.868Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Air",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "BarometricPressure",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "mb",
+        "label": "Millibar",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "ec5ff8d8bd8816c1d86d85bb5e3513166cb03f54"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "d97826b01ce9e1934f5ed5c1c071d736b1cac5eb",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "f6e143fd7229fe4fb31a03055310db4b5f29e664",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

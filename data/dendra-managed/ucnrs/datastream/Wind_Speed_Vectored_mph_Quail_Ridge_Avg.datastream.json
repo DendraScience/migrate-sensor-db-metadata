@@ -9,10 +9,12 @@
     {
       "params": {
         "query": {
-          "db": "station_quail_ridge",
+          "db": "station_ucqr_quailridge",
           "sc": "\"time\", \"WS_mph_WV_2_\"",
-          "fc": "ten_minute_data",
-          "utc_offset": -28800
+          "fc": "source_tenmin",
+          "utc_offset": -28800,
+          "api": "ucnrs",
+          "coalesce": false
         }
       },
       "begins_at": "2017-06-07T13:00:00.000Z",
@@ -29,8 +31,8 @@
   "attributes": {
     "text": "vectored"
   },
-  "created_at": "2018-05-01T01:32:30.688Z",
-  "updated_at": "2018-05-01T01:32:44.204Z",
+  "created_at": "2018-05-01T14:26:06.673Z",
+  "updated_at": "2018-05-01T21:32:31.649Z",
   "attributes_info": {
     "sort": {
       "value1": 0,

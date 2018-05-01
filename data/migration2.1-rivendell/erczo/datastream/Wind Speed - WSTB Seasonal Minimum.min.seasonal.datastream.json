@@ -1,0 +1,154 @@
+{
+  "_id": "5ae8771cfe27f460b2102b05",
+  "derivation_description": "Seasonal Monthly derived from legacy datastreamid 459",
+  "enabled": false,
+  "name": "Wind Speed - WSTB Seasonal Minimum",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602da",
+  "datapoints_config": [
+    {
+      "begins_at": "2008-11-13T01:55:00.000Z",
+      "ends_before": "2011-01-25T08:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 10459,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "10459",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "48",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "459",
+      "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "36",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Wind Speed Avg MS",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "WSTB_CR1000",
+      "type": "loggernet.station"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_Speed",
+    "dt_Unit_MeterPerSecond",
+    "ds_Aggregate_Minimum",
+    "ds_Function_Seasonal"
+  ],
+  "created_at": "2018-05-01T14:18:04.806Z",
+  "updated_at": "2018-05-01T14:25:30.642Z",
+  "derived_from_datastream_ids": [
+    "5ae8771dfe27f4e3dd102b06"
+  ],
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Air",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Speed",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "m/s",
+        "label": "MeterPerSecond",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Minimum",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      },
+      {
+        "label": "Seasonal",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-function",
+        "vocabulary_label": "Function"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 4
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      },
+      {
+        "_id": "ds-function"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "b7db56d4fa84bb62a0bc45ed765b5c97f0b4c811"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "440c31329bc0c3c36fe0294f87d66ca61fe1a895",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "ed410d68f80e0ee139fcd18c842f80a8f3dcf437",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

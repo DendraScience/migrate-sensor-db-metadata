@@ -1,0 +1,162 @@
+{
+  "_id": "5ae87995fe27f49d74102d0a",
+  "description": "",
+  "enabled": true,
+  "name": "Battery Voltage volts Younger Min",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68caddf5ce600012602e0",
+  "datapoints_config": [
+    {
+      "begins_at": "2015-09-02T23:50:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 4159,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-25T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucyl_youngerlagoon",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"Batt_volt_Min\",\"batt_volt_Min\"",
+          "utc_offset": -28800,
+          "coalesce": true
+        }
+      },
+      "begins_at": "2018-04-25T00:00:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "4159",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "363",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Min_Battery_Voltage",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "13",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Battery Voltage Min",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "ucyl_youngerlagoon",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Battery",
+    "ds_Variable_Voltage",
+    "dt_Unit_Volt",
+    "ds_Aggregate_Minimum"
+  ],
+  "created_at": "2018-05-01T14:28:37.758Z",
+  "updated_at": "2018-05-01T14:35:48.715Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Battery",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Voltage",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "V",
+        "label": "Volt",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Minimum",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "f83159a2a549522d96bfac7dd21cac2e3b58ca41"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "25651c9b5831cff917156ce2a3b0a18599130653",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "0d253c13e10350db516b0a0d7684f951c8d84985",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

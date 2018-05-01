@@ -1,0 +1,152 @@
+{
+  "_id": "5ae873d3fe27f4aa0010246d",
+  "derivation_description": "Conversion to 30-minute timesteps",
+  "enabled": true,
+  "name": "Air Temp 10 m height C WSSM Avg 30min",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602d8",
+  "attributes": {
+    "height": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": "10"
+    }
+  },
+  "datapoints_config": [
+    {
+      "begins_at": "2012-05-15T07:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 1768,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "1768",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "108",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "1746",
+      "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "71",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Air Temp C",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "WSSM_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ],
+  "created_at": "2018-05-01T14:08:52.375Z",
+  "updated_at": "2018-05-01T14:19:07.782Z",
+  "derived_from_datastream_ids": [
+    "5ae873d3fe27f4e8c110246e"
+  ],
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Air",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Temperature",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "degC",
+        "label": "DegreeCelsius",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "8e65855d88dabaff4fe4f70fa0f3342e9b21ed2e"
+    },
+    {
+      "key": "att",
+      "str": "021646698c177f658c751d5534424564e32a4d50"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "852125373a62569f010f58fe1beab748cf18ef58",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "5795c6e74091f87a34b256903db271fcca161eee",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

@@ -1,0 +1,138 @@
+{
+  "_id": "5ae87426fe27f4741c1025f4",
+  "enabled": false,
+  "name": "Logger Temp Riv 6_1",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "5a9cd13b18af1700013b110e",
+  "datapoints_config": [
+    {
+      "begins_at": "2017-05-24T23:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 4320,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "4320",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "365",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "PTemp_C_Avg",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "13",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Logger Temp c",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "L6_WSSS",
+      "type": "loggernet.station"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Instrument",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius",
+    "ds_Aggregate_Average"
+  ],
+  "created_at": "2018-05-01T14:11:40.131Z",
+  "updated_at": "2018-05-01T14:20:38.435Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Instrument",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Temperature",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "degC",
+        "label": "DegreeCelsius",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "970aa8e2c2fcd9ec6a2183f0256c96856b5a3afa"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "a00cd78ae70ac32f48c827ab8787ce423d25e589",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "5795c6e74091f87a34b256903db271fcca161eee",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

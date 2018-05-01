@@ -1,0 +1,162 @@
+{
+  "_id": "5ae879cbfe27f43c27102dfe",
+  "derivation_description": "Seasonal Monthly derived from legacy datastreamid 3388",
+  "description": "Swapped older HMP50 with newer HMP60 on 11-07-2013, by Grant Susner.",
+  "enabled": true,
+  "name": "Relative Humidity Per Bodega Avg Seasonal Minimum",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602b9",
+  "datapoints_config": [
+    {
+      "begins_at": "2012-06-27T21:50:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 13388,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "13388",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "336",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "3388",
+      "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "79",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Rel Humidity Per Avg",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "ucbm_bodega",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "BEC036C6",
+      "type": "goes.address"
+    },
+    {
+      "identifier": "GOES_TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_RelativeHumidity",
+    "dt_Unit_Percent",
+    "ds_Aggregate_Minimum",
+    "ds_Function_Seasonal"
+  ],
+  "created_at": "2018-05-01T14:29:30.996Z",
+  "updated_at": "2018-05-01T14:36:48.232Z",
+  "derived_from_datastream_ids": [
+    "5ae879cbfe27f4d6ae102dff"
+  ],
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Air",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "RelativeHumidity",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "%",
+        "label": "Percent",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Minimum",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      },
+      {
+        "label": "Seasonal",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-function",
+        "vocabulary_label": "Function"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 4
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      },
+      {
+        "_id": "ds-function"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "074f54e17b521897278ddf711908fe2d63cad5b4"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "f84a589866206d3653fb1a47226df4153d7e5542",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "2734b26dc0ddea857c1c6f650f5735cc8bb660eb",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

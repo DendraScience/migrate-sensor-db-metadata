@@ -9,10 +9,12 @@
     {
       "params": {
         "query": {
-          "db": "station_quail_ridge",
-          "sc": "\"time\", \"PCPN_in_Tot\"",
-          "fc": "ten_minute_data",
-          "utc_offset": -28800
+          "db": "station_ucqr_quailridge",
+          "sc": "\"time\", \"PCPN_in_Tot\", \"PCPN_intrvl_Tot\"",
+          "fc": "source_tenmin",
+          "utc_offset": -28800,
+          "api": "ucnrs",
+          "coalesce": true
         }
       },
       "begins_at": "2017-06-07T13:00:00.000Z",
@@ -26,8 +28,8 @@
     "ds_Variable_Height",
     "dt_Unit_Inch"
   ],
-  "updated_at": "2018-05-01T01:32:35.986Z",
-  "created_at": "2018-05-01T01:32:15.100Z",
+  "updated_at": "2018-05-01T21:15:12.439Z",
+  "created_at": "2018-05-01T14:25:50.325Z",
   "tags_info": {
     "resolved_terms": [
       {

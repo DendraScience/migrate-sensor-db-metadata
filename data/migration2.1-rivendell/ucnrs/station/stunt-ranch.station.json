@@ -1,0 +1,689 @@
+{
+  "enabled": true,
+  "is_active": true,
+  "is_stationary": true,
+  "name": "Stunt Ranch",
+  "organization_id": "58db17c424dc720001671378",
+  "slug": "stunt-ranch",
+  "station_type": "weather",
+  "time_zone": "PST",
+  "utc_offset": -28800,
+  "external_links": [
+    {
+      "title": "Metadata",
+      "url": "http://sensor.berkeley.edu/cgi/sensor_show_tables?Access=4.00&username=Guest+User&MC_Name=UCNRS&table=stations&name=Stunt+Ranch"
+    },
+    {
+      "title": "Original Site",
+      "url": "https://wrcc.dri.edu/weather/ucsr.html"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "358",
+      "type": "odm.station.StationID",
+      "url": "file://ucsr_stunt_ranch_dri.dat"
+    },
+    {
+      "identifier": "ucsr_stuntranch",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "BEC036C6",
+      "type": "goes.address"
+    }
+  ],
+  "geo": {
+    "coordinates": [
+      -118.6566,
+      34.09472,
+      397.764
+    ],
+    "type": "Point"
+  },
+  "media": [
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucsr.S2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucsr.S2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucsr.S2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.S2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.S2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucsr.S2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucsr.S2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucsr.SE1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucsr.SE1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucsr.SE1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.SE1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.SE1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucsr.SE1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucsr.SE1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucsr.SE2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucsr.SE2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucsr.SE2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.SE2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.SE2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucsr.SE2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucsr.SE2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucsr.SW1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucsr.SW1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucsr.SW1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.SW1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.SW1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucsr.SW1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucsr.SW1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucsr.SW2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucsr.SW2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucsr.SW2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.SW2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.SW2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucsr.SW2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucsr.SW2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucsr.W1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucsr.W1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucsr.W1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.W1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.W1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucsr.W1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucsr.W1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucsr.W2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucsr.W2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucsr.W2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.W2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.W2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucsr.W2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucsr.W2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucsr.E1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucsr.E1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucsr.E1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.E1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.E1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucsr.E1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucsr.E1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucsr.E2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucsr.E2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucsr.E2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.E2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.E2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucsr.E2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucsr.E2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucsr.N1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucsr.N1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucsr.N1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.N1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.N1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucsr.N1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucsr.N1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucsr.N2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucsr.N2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucsr.N2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.N2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.N2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucsr.N2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucsr.N2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucsr.NE1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucsr.NE1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucsr.NE1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.NE1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.NE1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucsr.NE1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucsr.NE1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucsr.NE2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucsr.NE2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucsr.NE2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.NE2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.NE2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucsr.NE2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucsr.NE2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucsr.NW1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucsr.NW1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucsr.NW1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.NW1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.NW1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucsr.NW1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucsr.NW1.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucsr.NW2.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucsr.NW2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucsr.NW2.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.NW2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.NW2.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucsr.NW2.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucsr.NW2.jpg"
+        }
+      }
+    },
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucsr.S1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucsr.S1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucsr.S1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.S1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucsr.S1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucsr.S1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucsr.S1.jpg"
+        }
+      }
+    }
+  ],
+  "_id": "58e68cacdf5ce600012602d9",
+  "created_at": "2018-05-01T14:26:42.869Z",
+  "updated_at": "2018-05-01T14:26:42.869Z"
+}

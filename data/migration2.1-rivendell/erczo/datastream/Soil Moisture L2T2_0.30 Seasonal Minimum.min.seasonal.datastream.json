@@ -1,0 +1,175 @@
+{
+  "_id": "5ae8767cfe27f457dd102839",
+  "derivation_description": "Seasonal Monthly derived from legacy datastreamid 1538",
+  "enabled": true,
+  "name": "Soil Moisture L2T2_0.30 Seasonal Minimum",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602ca",
+  "datapoints_config": [
+    {
+      "begins_at": "2008-10-29T16:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 11538,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "11538",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "6",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "1538",
+      "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "69",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Soil Moisture Pct",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "RML2_1_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "Level201",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Soil",
+    "ds_Variable_Moisture",
+    "dt_Unit_Percent",
+    "ds_Aggregate_Minimum",
+    "ds_Function_Seasonal"
+  ],
+  "attributes": {
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": "0.30 Seasonal Minimum"
+    },
+    "orientation": "vertical"
+  },
+  "created_at": "2018-05-01T14:15:24.520Z",
+  "updated_at": "2018-05-01T14:22:48.117Z",
+  "derived_from_datastream_ids": [
+    "5ae8767cfe27f4187410283a"
+  ],
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Soil",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Moisture",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "%",
+        "label": "Percent",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Minimum",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      },
+      {
+        "label": "Seasonal",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-function",
+        "vocabulary_label": "Function"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 4
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      },
+      {
+        "_id": "ds-function"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "f41440a7477ba7347e4c9196543af9bb0d9a23e7"
+    },
+    {
+      "key": "att",
+      "str": "3720cb1e479e2925c999d875fb4db9146ef2f24f"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "4e5250a540291b12e344992a2bb4731c71f2cc2e",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "2734b26dc0ddea857c1c6f650f5735cc8bb660eb",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}
