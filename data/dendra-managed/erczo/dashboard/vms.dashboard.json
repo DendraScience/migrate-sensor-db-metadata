@@ -1,0 +1,589 @@
+{
+  "_id": "5aea269ffe27f45b621031e9",
+  "content": {
+    "rows": [
+      {
+        "columns": [
+          {
+            "classes": [
+              "col-12 pb-4"
+            ],
+            "component": {
+              "name": "HcTimeSeries",
+              "options": {
+                "chart": {
+                  "chart": {
+                    "height": 500,
+                    "zoomType": "x"
+                  },
+                  "title": {
+                    "text": "past week"
+                  },
+                  "xAxis": {
+                    "crosshair": true,
+                    "title": {
+                      "text": "Time"
+                    },
+                    "type": "datetime"
+                  },
+                  "yAxis": [
+                    {
+                      "title": {
+                        "text": "(mb)"
+                      }
+                    }
+                  ]
+                },
+                "colors": [
+                  "WHEEL.GREEN",
+                  "WHEEL.YELLOW_GREEN",
+                  "WHEEL.YELLOW",
+                  "WHEEL.ORANGE",
+                  "WHEEL.RED",
+                  "WHEEL.VIOLET",
+                  "WHEEL.BLUE",
+                  "#999999",
+                  "NAMED.HEMLOCK_APPROX",
+                  "#111111"
+                ],
+                "orderBy": {
+                  "iteratees": [
+                    "attributes_info.sort.value1"
+                  ]
+                }
+              },
+              "topic": "vspWaterPressure"
+            }
+          }
+        ],
+        "title": "VSP Water Pressure"
+      },
+      {
+        "columns": [
+          {
+            "classes": [
+              "col-12 pb-4"
+            ],
+            "component": {
+              "name": "HcTimeSeries",
+              "options": {
+                "chart": {
+                  "chart": {
+                    "height": 500,
+                    "zoomType": "x"
+                  },
+                  "title": {
+                    "text": "past week"
+                  },
+                  "xAxis": {
+                    "crosshair": true,
+                    "title": {
+                      "text": "Time"
+                    },
+                    "type": "datetime"
+                  },
+                  "yAxis": [
+                    {
+                      "title": {
+                        "text": "(mb)"
+                      }
+                    }
+                  ]
+                },
+                "colors": [
+                  "WHEEL.GREEN",
+                  "WHEEL.YELLOW_GREEN",
+                  "WHEEL.YELLOW",
+                  "WHEEL.ORANGE",
+                  "WHEEL.RED",
+                  "WHEEL.VIOLET",
+                  "WHEEL.BLUE",
+                  "#999999",
+                  "NAMED.HEMLOCK_APPROX",
+                  "#111111"
+                ],
+                "orderBy": {
+                  "iteratees": [
+                    "attributes_info.sort.value1"
+                  ]
+                }
+              },
+              "topic": "fnsWaterPressure"
+            }
+          }
+        ],
+        "title": "FNS Water Pressure"
+      },
+      {
+        "columns": [
+          {
+            "classes": [
+              "col-12 pb-4"
+            ],
+            "component": {
+              "name": "HcTimeSeries",
+              "options": {
+                "chart": {
+                  "chart": {
+                    "height": 500,
+                    "zoomType": "x"
+                  },
+                  "title": {
+                    "text": "past week"
+                  },
+                  "xAxis": {
+                    "crosshair": true,
+                    "title": {
+                      "text": "Time"
+                    },
+                    "type": "datetime"
+                  },
+                  "yAxis": [
+                    {
+                      "title": {
+                        "text": "(percent)"
+                      }
+                    }
+                  ]
+                },
+                "colors": [
+                  "WHEEL.GREEN",
+                  "WHEEL.YELLOW_GREEN",
+                  "WHEEL.YELLOW",
+                  "WHEEL.ORANGE",
+                  "WHEEL.RED",
+                  "WHEEL.VIOLET",
+                  "WHEEL.BLUE",
+                  "#999999",
+                  "NAMED.HEMLOCK_APPROX",
+                  "#111111"
+                ],
+                "orderBy": {
+                  "iteratees": [
+                    "attributes_info.sort.value1"
+                  ]
+                }
+              },
+              "topic": "vmsRockMoisture"
+            }
+          }
+        ],
+        "title": "VMS Rock Moisture"
+      },
+      {
+        "columns": [
+          {
+            "classes": [
+              "col-12 pb-4"
+            ],
+            "component": {
+              "name": "HcTimeSeries",
+              "options": {
+                "chart": {
+                  "chart": {
+                    "height": 500,
+                    "zoomType": "x"
+                  },
+                  "title": {
+                    "text": "past week"
+                  },
+                  "xAxis": {
+                    "crosshair": true,
+                    "title": {
+                      "text": "Time"
+                    },
+                    "type": "datetime"
+                  },
+                  "yAxis": [
+                    {
+                      "title": {
+                        "text": "(degC)"
+                      }
+                    }
+                  ]
+                },
+                "colors": [
+                  "WHEEL.GREEN",
+                  "WHEEL.YELLOW_GREEN",
+                  "WHEEL.YELLOW",
+                  "WHEEL.ORANGE",
+                  "WHEEL.RED",
+                  "WHEEL.VIOLET",
+                  "WHEEL.BLUE",
+                  "#999999",
+                  "NAMED.HEMLOCK_APPROX",
+                  "#111111"
+                ],
+                "orderBy": {
+                  "iteratees": [
+                    "attributes_info.sort.value1"
+                  ]
+                }
+              },
+              "topic": "vmsRockTemperature"
+            }
+          }
+        ],
+        "title": "VMS Rock Temperature"
+      },
+      {
+        "columns": [
+          {
+            "classes": [
+              "col-12 pb-4"
+            ],
+            "component": {
+              "name": "HcTimeSeries",
+              "options": {
+                "chart": {
+                  "chart": {
+                    "height": 500,
+                    "zoomType": "x"
+                  },
+                  "title": {
+                    "text": "past week"
+                  },
+                  "xAxis": {
+                    "crosshair": true,
+                    "title": {
+                      "text": "Time"
+                    },
+                    "type": "datetime"
+                  },
+                  "yAxis": [
+                    {
+                      "title": {
+                        "text": "(degC)"
+                      }
+                    }
+                  ]
+                },
+                "colors": [
+                  "WHEEL.YELLOW",
+                  "#DCAC5C",
+                  "#B39153",
+                  "#8A774B",
+                  "#615C42",
+                  "WHEEL.BLUE"
+                ]
+              },
+              "topic": "temperature"
+            }
+          }
+        ],
+        "title": "Temperature"
+      }
+    ]
+  },
+  "created_at": "2018-05-02T20:59:11.221Z",
+  "enabled": true,
+  "name": "VMS Weather Data",
+  "organization_id": "58db17e824dc720001671379",
+  "slug": "vms",
+  "sort_value": 10,
+  "sources": [
+    {
+      "find_actions": [
+        {
+          "path": "/datapoints/lookup",
+          "query": {
+            "_id": [
+              "5ae87428fe27f499201025fe",
+              "5ae87429fe27f45582102600",
+              "5ae87429fe27f4595c102601",
+              "5ae87429fe27f4c254102602",
+              "5ae8742afe27f401f9102603",
+              "5ae8742afe27f4c24e102604",
+              "5ae8742afe27f4f5ed102605",
+              "5ae8742afe27f4dd84102606",
+              "5ae8742afe27f469fa102607",
+              "5ae87429fe27f4834e1025ff"
+            ],
+            "time_local": true
+          }
+        }
+      ],
+      "options": {
+        "cursorDate": [
+          {
+            "m": "add",
+            "p": [
+              4,
+              "d"
+            ]
+          }
+        ],
+        "endDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "add",
+            "p": [
+              1,
+              "d"
+            ]
+          }
+        ],
+        "startDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "subtract",
+            "p": [
+              6,
+              "d"
+            ]
+          }
+        ]
+      },
+      "template": "seriesAsc",
+      "topic": "vspWaterPressure"
+    },
+    {
+      "find_actions": [
+        {
+          "path": "/datapoints/lookup",
+          "query": {
+            "_id": [
+              "5ae8741ffe27f4e36a1025d3",
+              "5ae87420fe27f484d61025d5",
+              "5ae87420fe27f4fdb11025d6",
+              "5ae87420fe27f43dab1025d7",
+              "5ae87420fe27f4914c1025d8",
+              "5ae87421fe27f42ee91025d9",
+              "5ae87421fe27f46ac01025da",
+              "5ae87421fe27f410961025db",
+              "5ae87421fe27f43e6c1025dc",
+              "5ae8741ffe27f455ed1025d4"
+            ],
+            "time_local": true
+          }
+        }
+      ],
+      "options": {
+        "cursorDate": [
+          {
+            "m": "add",
+            "p": [
+              4,
+              "d"
+            ]
+          }
+        ],
+        "endDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "add",
+            "p": [
+              1,
+              "d"
+            ]
+          }
+        ],
+        "startDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "subtract",
+            "p": [
+              6,
+              "d"
+            ]
+          }
+        ]
+      },
+      "template": "seriesAsc",
+      "topic": "fnsWaterPressure"
+    },
+    {
+      "find_actions": [
+        {
+          "path": "/datapoints/lookup",
+          "query": {
+            "_id": [
+              "5ae87440fe27f4155a10266a",
+              "5ae87440fe27f4882110266c",
+              "5ae87440fe27f4ccd110266d",
+              "5ae87441fe27f481cd10266e",
+              "5ae87441fe27f4940c10266f",
+              "5ae87441fe27f4e5be102670",
+              "5ae87441fe27f44c82102671",
+              "5ae87441fe27f4ada4102672",
+              "5ae87442fe27f425b0102673",
+              "5ae87440fe27f4fe5010266b"
+            ],
+            "time_local": true
+          }
+        }
+      ],
+      "options": {
+        "cursorDate": [
+          {
+            "m": "add",
+            "p": [
+              4,
+              "d"
+            ]
+          }
+        ],
+        "endDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "add",
+            "p": [
+              1,
+              "d"
+            ]
+          }
+        ],
+        "startDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "subtract",
+            "p": [
+              6,
+              "d"
+            ]
+          }
+        ]
+      },
+      "template": "seriesAsc",
+      "topic": "vmsRockMoisture"
+    },
+    {
+      "find_actions": [
+        {
+          "path": "/datapoints/lookup",
+          "query": {
+            "_id": [
+              "5ae87444fe27f4fb9a10267e",
+              "5ae87445fe27f4ff7a102680",
+              "5ae87445fe27f4f0f0102681",
+              "5ae87445fe27f46a1b102682",
+              "5ae87445fe27f4555a102683",
+              "5ae87445fe27f4e582102684",
+              "5ae87446fe27f405c2102685",
+              "5ae87446fe27f459c4102686",
+              "5ae87446fe27f4300e102687",
+              "5ae87444fe27f4ccd810267f"
+            ],
+            "time_local": true
+          }
+        }
+      ],
+      "options": {
+        "cursorDate": [
+          {
+            "m": "add",
+            "p": [
+              4,
+              "d"
+            ]
+          }
+        ],
+        "endDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "add",
+            "p": [
+              1,
+              "d"
+            ]
+          }
+        ],
+        "startDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "subtract",
+            "p": [
+              6,
+              "d"
+            ]
+          }
+        ]
+      },
+      "template": "seriesAsc",
+      "topic": "vmsRockTemperature"
+    },
+    {
+      "find_actions": [
+        {
+          "path": "/datapoints/lookup",
+          "query": {
+            "_id": [
+              "5ae873d9fe27f4417f10248a",
+              "5ae876c8fe27f4f1de102991",
+              "5ae87705fe27f4c4fb102a9a",
+              "5ae876cdfe27f4d2b11029a5",
+              "5ae876cffe27f4d7ac1029ad",
+              "5ae876d2fe27f460c21029b9"
+            ],
+            "time_local": true
+          }
+        }
+      ],
+      "options": {
+        "cursorDate": [
+          {
+            "m": "add",
+            "p": [
+              4,
+              "d"
+            ]
+          }
+        ],
+        "endDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "add",
+            "p": [
+              1,
+              "d"
+            ]
+          }
+        ],
+        "startDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "subtract",
+            "p": [
+              6,
+              "d"
+            ]
+          }
+        ]
+      },
+      "template": "seriesAsc",
+      "topic": "temperature"
+    }
+  ],
+  "updated_at": "2018-05-03T17:29:17.136Z",
+  "utc_offset": -28800
+}
