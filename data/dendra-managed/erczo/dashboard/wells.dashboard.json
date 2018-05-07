@@ -179,22 +179,14 @@
                   "yAxis": [
                     {
                       "title": {
-                        "text": "(percent)"
+                        "text": "(fraction)"
                       }
                     }
                   ]
                 },
                 "colors": [
-                  "WHEEL.GREEN",
-                  "WHEEL.YELLOW_GREEN",
-                  "WHEEL.YELLOW",
                   "WHEEL.ORANGE",
-                  "WHEEL.RED",
-                  "WHEEL.VIOLET",
-                  "WHEEL.BLUE",
-                  "#999999",
-                  "NAMED.HEMLOCK_APPROX",
-                  "#111111"
+                  "NAMED.HEMLOCK_APPROX"
                 ],
                 "orderBy": {
                   "iteratees": [
@@ -240,10 +232,10 @@
                   ]
                 },
                 "colors": [
-                  "#DCAC5C",
-                  "#B39153",
-                  "#8A774B",
-                  "#615C42"
+                  "WHEEL.YELLOW",
+                  "WHEEL.ORANGE",
+                  "WHEEL.RED",
+                  "WHEEL.VIOLET"
                 ],
                 "orderBy": {
                   "iteratees": [
@@ -362,7 +354,7 @@
   },
   "created_at": "2018-05-06T21:52:15.024Z",
   "enabled": true,
-  "name": "Current Status of Wells (one week)",
+  "name": "Current Status of Wells (two weeks)",
   "organization_id": "58db17e824dc720001671379",
   "slug": "wells",
   "sort_value": 10,
@@ -415,7 +407,7 @@
           {
             "m": "subtract",
             "p": [
-              6,
+              13,
               "d"
             ]
           }
@@ -472,7 +464,7 @@
           {
             "m": "subtract",
             "p": [
-              6,
+              13,
               "d"
             ]
           }
@@ -526,7 +518,7 @@
           {
             "m": "subtract",
             "p": [
-              6,
+              13,
               "d"
             ]
           }
@@ -582,7 +574,7 @@
           {
             "m": "subtract",
             "p": [
-              6,
+              13,
               "d"
             ]
           }
@@ -637,7 +629,7 @@
           {
             "m": "subtract",
             "p": [
-              6,
+              13,
               "d"
             ]
           }
@@ -693,7 +685,7 @@
           {
             "m": "subtract",
             "p": [
-              6,
+              13,
               "d"
             ]
           }
@@ -749,7 +741,7 @@
           {
             "m": "subtract",
             "p": [
-              6,
+              13,
               "d"
             ]
           }
@@ -759,6 +751,6 @@
       "topic": "loggerVoltage"
     }
   ],
-  "updated_at": "2018-05-07T04:37:24.231Z",
+  "updated_at": "2018-05-07T18:21:00.574Z",
   "utc_offset": -28800
 }

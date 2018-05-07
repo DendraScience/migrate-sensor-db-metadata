@@ -237,7 +237,7 @@
                     "zoomType": "x"
                   },
                   "title": {
-                    "text": "Temperature"
+                    "text": "Air, Soil, Well Temperatures at Level 3"
                   },
                   "xAxis": {
                     "crosshair": true,
@@ -579,6 +579,6 @@
       "topic": "temperature"
     }
   ],
-  "updated_at": "2018-05-06T23:17:55.437Z",
+  "updated_at": "2018-05-07T17:40:17.858Z",
   "utc_offset": -28800
 }
