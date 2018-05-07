@@ -76,17 +76,17 @@
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
-      "value": "0.30"
+      "value": 0.3
     }
   },
   "created_at": "2018-05-01T14:10:25.321Z",
-  "updated_at": "2018-05-01T14:19:58.517Z",
+  "updated_at": "2018-05-06T21:38:23.832Z",
   "attributes_info": {
     "sort": {
-      "value1": 0,
+      "value1": 0.3,
       "value2": 0
     },
-    "text": ""
+    "text": "0.3"
   },
   "tags_info": {
     "resolved_terms": [
@@ -142,7 +142,7 @@
     },
     {
       "key": "att",
-      "str": "c9108f523a8fed1baa1ad481c39a2f59dc453b22"
+      "str": "7e2d473bf29e3d7c253185e8f9e6984c49e250ee"
     },
     {
       "key": "geo",

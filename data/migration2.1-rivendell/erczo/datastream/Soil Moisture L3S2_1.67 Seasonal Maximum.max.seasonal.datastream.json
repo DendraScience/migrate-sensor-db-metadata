@@ -64,21 +64,21 @@
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
-      "value": "1.67 Seasonal Maximum"
+      "value": 1.67
     },
     "orientation": "horizontal"
   },
   "created_at": "2018-05-01T14:15:33.866Z",
-  "updated_at": "2018-05-01T14:22:57.707Z",
+  "updated_at": "2018-05-06T21:41:17.278Z",
   "derived_from_datastream_ids": [
     "5ae87686fe27f4b3f6102866"
   ],
   "attributes_info": {
     "sort": {
-      "value1": 0,
+      "value1": 1.67,
       "value2": 0
     },
-    "text": ""
+    "text": "1.67"
   },
   "tags_info": {
     "resolved_terms": [
@@ -154,7 +154,7 @@
     },
     {
       "key": "att",
-      "str": "1c03a9c52d4e7ac0196689445486cbf469c960ba"
+      "str": "00ab19008502ef420ef8ecb69a778950e4af8530"
     },
     {
       "key": "geo",

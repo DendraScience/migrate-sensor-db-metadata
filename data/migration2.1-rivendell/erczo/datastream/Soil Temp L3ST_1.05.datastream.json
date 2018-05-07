@@ -25,7 +25,7 @@
           "api": "erczo",
           "db": "station_rul3_2_cr1000",
           "fc": "source_table302",
-          "sc": "\"time\", \"SoilTL3_(11)\"",
+          "sc": "\"time\", \"SoilTL3__11_\"",
           "utc_offset": -28800,
           "coalesce": false
         }
@@ -76,17 +76,17 @@
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
-      "value": "1.05"
+      "value": 1.05
     }
   },
   "created_at": "2018-05-01T14:16:50.045Z",
-  "updated_at": "2018-05-01T14:24:17.442Z",
+  "updated_at": "2018-05-06T21:42:33.002Z",
   "attributes_info": {
     "sort": {
-      "value1": 0,
+      "value1": 1.05,
       "value2": 0
     },
-    "text": ""
+    "text": "1.05"
   },
   "tags_info": {
     "resolved_terms": [
@@ -142,7 +142,7 @@
     },
     {
       "key": "att",
-      "str": "c8e62de77f0252413cfc450527433b069b0dfb97"
+      "str": "5c69dec30a471a3d5af4ad1d3b5b7d305ef8d958"
     },
     {
       "key": "geo",

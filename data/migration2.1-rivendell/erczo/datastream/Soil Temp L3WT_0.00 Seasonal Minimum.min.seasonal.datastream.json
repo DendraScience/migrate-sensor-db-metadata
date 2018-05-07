@@ -66,11 +66,11 @@
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
-      "value": "0.00 Seasonal Minimum"
+      "value": 0
     }
   },
   "created_at": "2018-05-01T14:16:59.573Z",
-  "updated_at": "2018-05-01T14:24:26.933Z",
+  "updated_at": "2018-05-06T21:42:42.597Z",
   "derived_from_datastream_ids": [
     "5ae876dbfe27f486ec1029e5"
   ],
@@ -79,7 +79,7 @@
       "value1": 0,
       "value2": 0
     },
-    "text": ""
+    "text": "0"
   },
   "tags_info": {
     "resolved_terms": [
@@ -155,7 +155,7 @@
     },
     {
       "key": "att",
-      "str": "a504dfc2b2b1e89ff54b34098239dd1561a659c6"
+      "str": "74635bf49acf183daeb41dc42c3dd80112694c93"
     },
     {
       "key": "geo",

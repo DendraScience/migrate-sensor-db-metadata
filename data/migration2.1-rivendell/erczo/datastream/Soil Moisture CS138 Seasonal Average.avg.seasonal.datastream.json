@@ -64,21 +64,21 @@
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
-      "value": "138 Seasonal Average"
+      "value": 138
     },
     "orientation": "horizontal"
   },
   "created_at": "2018-05-01T14:13:56.502Z",
-  "updated_at": "2018-05-01T14:21:47.614Z",
+  "updated_at": "2018-05-06T21:40:08.428Z",
   "derived_from_datastream_ids": [
     "5ae8746bfe27f41993102731"
   ],
   "attributes_info": {
     "sort": {
-      "value1": 0,
+      "value1": 138,
       "value2": 0
     },
-    "text": ""
+    "text": "138"
   },
   "tags_info": {
     "resolved_terms": [
@@ -154,7 +154,7 @@
     },
     {
       "key": "att",
-      "str": "3c8461c15cd1fa440ffdf3eedd43d7677cf5925a"
+      "str": "e6910f96080b3ed941ad9c8979983e197c4665f9"
     },
     {
       "key": "geo",

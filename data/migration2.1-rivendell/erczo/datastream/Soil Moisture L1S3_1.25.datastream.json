@@ -63,21 +63,21 @@
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
-      "value": "1.25"
+      "value": 1.25
     },
     "orientation": "horizontal"
   },
   "created_at": "2018-05-01T14:14:20.388Z",
-  "updated_at": "2018-05-01T14:22:00.356Z",
+  "updated_at": "2018-05-06T21:40:21.098Z",
   "derived_from_datastream_ids": [
     "5ae876e1fe27f4cf271029ff"
   ],
   "attributes_info": {
     "sort": {
-      "value1": 0,
+      "value1": 1.25,
       "value2": 0
     },
-    "text": ""
+    "text": "1.25"
   },
   "tags_info": {
     "resolved_terms": [
@@ -143,7 +143,7 @@
     },
     {
       "key": "att",
-      "str": "34d4143dbf19d0790f6a927db609b2c160e09012"
+      "str": "b0ff2ea0045d8db8ea444b2baefe26d036bef12b"
     },
     {
       "key": "geo",

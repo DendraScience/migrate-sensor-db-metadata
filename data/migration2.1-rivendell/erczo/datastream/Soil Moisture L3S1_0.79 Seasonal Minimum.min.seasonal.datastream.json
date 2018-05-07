@@ -64,21 +64,21 @@
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
-      "value": "0.79 Seasonal Minimum"
+      "value": 0.79
     },
     "orientation": "horizontal"
   },
   "created_at": "2018-05-01T14:15:28.819Z",
-  "updated_at": "2018-05-01T14:22:52.583Z",
+  "updated_at": "2018-05-06T21:41:12.141Z",
   "derived_from_datastream_ids": [
     "5ae87681fe27f4a06910284e"
   ],
   "attributes_info": {
     "sort": {
-      "value1": 0,
+      "value1": 0.79,
       "value2": 0
     },
-    "text": ""
+    "text": "0.79"
   },
   "tags_info": {
     "resolved_terms": [
@@ -154,7 +154,7 @@
     },
     {
       "key": "att",
-      "str": "7c4545f23106e6622201ef2ed97d2e57040f2ca8"
+      "str": "923a28e061adbf1160f35c1aaedb88568255cf27"
     },
     {
       "key": "geo",

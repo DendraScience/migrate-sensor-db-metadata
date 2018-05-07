@@ -63,28 +63,28 @@
   "attributes": {
     "depth": {
       "unit": "dt_Unit_Meter",
-      "value": "7.21"
+      "value": 7.21
     },
     "wellhead_height": {
       "unit": "dt_Unit_Meter",
-      "value": "0.744"
+      "value": 0.744
     },
     "cable_length": {
       "unit": "dt_Unit_Meter",
-      "value": "7.04"
+      "value": 7.04
     }
   },
   "created_at": "2018-05-01T14:17:41.860Z",
-  "updated_at": "2018-05-01T14:25:08.203Z",
+  "updated_at": "2018-05-06T21:43:23.424Z",
   "derived_from_datastream_ids": [
     "5ae87705fe27f4db78102a9b"
   ],
   "attributes_info": {
     "sort": {
-      "value1": 0,
+      "value1": 7.21,
       "value2": 0
     },
-    "text": ""
+    "text": "7.21"
   },
   "tags_info": {
     "resolved_terms": [
@@ -140,7 +140,7 @@
     },
     {
       "key": "att",
-      "str": "0eaf7bc893119927b31067d5add333e870aa369b"
+      "str": "a06617b6a5ea97a3a760bf6b8d85dd1437ce0910"
     },
     {
       "key": "geo",

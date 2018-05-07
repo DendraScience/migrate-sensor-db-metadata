@@ -10,7 +10,7 @@
   "attributes": {
     "height": {
       "unit_tag": "dt_Unit_Meter",
-      "value": "10"
+      "value": 10
     }
   },
   "datapoints_config": [
@@ -66,16 +66,16 @@
     "dt_Unit_DegreeCelsius"
   ],
   "created_at": "2018-05-01T14:08:54.015Z",
-  "updated_at": "2018-05-01T14:19:08.665Z",
+  "updated_at": "2018-05-06T21:37:37.118Z",
   "derived_from_datastream_ids": [
     "5ae873d4fe27f458a1102472"
   ],
   "attributes_info": {
     "sort": {
-      "value1": 0,
+      "value1": 10,
       "value2": 0
     },
-    "text": ""
+    "text": "10"
   },
   "tags_info": {
     "resolved_terms": [
@@ -131,7 +131,7 @@
     },
     {
       "key": "att",
-      "str": "021646698c177f658c751d5534424564e32a4d50"
+      "str": "de050f182f5b52eb5a40a177981b5eca40465ee2"
     },
     {
       "key": "geo",

@@ -79,11 +79,11 @@
     "orientation": "vertical",
     "depth": {
       "unit_tag": "dt_Unit_Meter",
-      "value": "0.05"
+      "value": 0.05
     }
   },
   "created_at": "2018-05-01T14:30:06.690Z",
-  "updated_at": "2018-05-01T14:37:23.607Z",
+  "updated_at": "2018-05-06T21:03:37.024Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -155,7 +155,7 @@
     },
     {
       "key": "att",
-      "str": "23a4ed802219ab4b0a649c048cc508f78a6fae57"
+      "str": "84d9b0cea6b926f2085b93a82e56590408c25de4"
     },
     {
       "key": "geo",

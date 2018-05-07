@@ -64,21 +64,21 @@
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
-      "value": "15 Seasonal Maximum"
+      "value": 15
     },
     "orientation": "horizontal"
   },
   "created_at": "2018-05-01T14:13:58.609Z",
-  "updated_at": "2018-05-01T14:21:48.779Z",
+  "updated_at": "2018-05-06T21:40:09.537Z",
   "derived_from_datastream_ids": [
     "5ae8746cfe27f48062102735"
   ],
   "attributes_info": {
     "sort": {
-      "value1": 0,
+      "value1": 15,
       "value2": 0
     },
-    "text": ""
+    "text": "15"
   },
   "tags_info": {
     "resolved_terms": [
@@ -154,7 +154,7 @@
     },
     {
       "key": "att",
-      "str": "ec0dfc264aac8e306bbfab94c274285dcb150f35"
+      "str": "a0ea31ebb9f0c0b1a60564bb049eaa5d75960f69"
     },
     {
       "key": "geo",

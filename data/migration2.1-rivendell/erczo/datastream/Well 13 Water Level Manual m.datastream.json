@@ -18,20 +18,6 @@
       },
       "path": "/legacy/datavalues2",
       "ends_before": "2018-04-25T00:00:00.000Z"
-    },
-    {
-      "params": {
-        "query": {
-          "api": "erczo",
-          "db": "station_rml2_3_cr1000",
-          "fc": "source_table203",
-          "sc": "\"time\", \"manual\"",
-          "utc_offset": -28800,
-          "coalesce": false
-        }
-      },
-      "begins_at": "2018-04-25T00:00:00.000Z",
-      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -76,25 +62,25 @@
   "attributes": {
     "depth": {
       "unit": "dt_Unit_Meter",
-      "value": "18.44"
+      "value": 18.44
     },
     "wellhead_height": {
       "unit": "dt_Unit_Meter",
-      "value": "0.604"
+      "value": 0.604
     },
     "cable_length": {
       "unit": "dt_Unit_Meter",
-      "value": "17.39"
+      "value": 17.39
     }
   },
   "created_at": "2018-05-01T14:17:42.279Z",
-  "updated_at": "2018-05-01T14:25:08.660Z",
+  "updated_at": "2018-05-06T21:43:23.859Z",
   "attributes_info": {
     "sort": {
-      "value1": 0,
+      "value1": 18.44,
       "value2": 0
     },
-    "text": ""
+    "text": "18.44"
   },
   "tags_info": {
     "resolved_terms": [
@@ -150,7 +136,7 @@
     },
     {
       "key": "att",
-      "str": "64ec4570321fa16cc4cf3e8ffa9f512213b3fdba"
+      "str": "78f2c19595780ec9b9a81036d873e806b87511ea"
     },
     {
       "key": "geo",

@@ -64,20 +64,20 @@
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
-      "value": "0.90 Seasonal Maximum"
+      "value": 0.9
     }
   },
   "created_at": "2018-05-01T14:16:48.759Z",
-  "updated_at": "2018-05-01T14:24:16.108Z",
+  "updated_at": "2018-05-06T21:42:31.637Z",
   "derived_from_datastream_ids": [
     "5ae876d1fe27f4533a1029b5"
   ],
   "attributes_info": {
     "sort": {
-      "value1": 0,
+      "value1": 0.9,
       "value2": 0
     },
-    "text": ""
+    "text": "0.9"
   },
   "tags_info": {
     "resolved_terms": [
@@ -153,7 +153,7 @@
     },
     {
       "key": "att",
-      "str": "0edf7847c0303b8897c9a4f91ba16d08997253ad"
+      "str": "b630a1c2bfdf39518f5277d32ec4400e7c2b901e"
     },
     {
       "key": "geo",

@@ -64,21 +64,21 @@
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
-      "value": "0.74 Seasonal Average"
+      "value": 0.74
     },
     "orientation": "horizontal"
   },
   "created_at": "2018-05-01T14:15:31.931Z",
-  "updated_at": "2018-05-01T14:22:55.657Z",
+  "updated_at": "2018-05-06T21:41:15.277Z",
   "derived_from_datastream_ids": [
     "5ae87684fe27f40c7e10285e"
   ],
   "attributes_info": {
     "sort": {
-      "value1": 0,
+      "value1": 0.74,
       "value2": 0
     },
-    "text": ""
+    "text": "0.74"
   },
   "tags_info": {
     "resolved_terms": [
@@ -154,7 +154,7 @@
     },
     {
       "key": "att",
-      "str": "b6fdef62ebc27d843be262e3bfb0848490b6cd91"
+      "str": "39010a5b8637f9c85c0171341a88113056a0c151"
     },
     {
       "key": "geo",

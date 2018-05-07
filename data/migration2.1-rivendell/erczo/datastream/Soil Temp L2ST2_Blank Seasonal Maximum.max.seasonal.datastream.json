@@ -62,14 +62,9 @@
     "ds_Aggregate_Maximum",
     "ds_Function_Seasonal"
   ],
-  "attributes": {
-    "depth": {
-      "unit_tag": "dt_Unit_Meter",
-      "value": "Blank Seasonal Maximum"
-    }
-  },
+  "attributes": {},
   "created_at": "2018-05-01T14:16:39.407Z",
-  "updated_at": "2018-05-01T14:24:07.081Z",
+  "updated_at": "2018-05-06T21:42:22.664Z",
   "derived_from_datastream_ids": [
     "5ae876c7fe27f4a68f10298d"
   ],
@@ -154,7 +149,7 @@
     },
     {
       "key": "att",
-      "str": "5dd0bc4f2512bc474e905233be57dce306720ce5"
+      "str": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
     },
     {
       "key": "geo",

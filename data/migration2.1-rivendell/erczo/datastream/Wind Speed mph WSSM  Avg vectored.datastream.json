@@ -25,7 +25,7 @@
           "api": "erczo",
           "db": "station_wssm_cr1000",
           "fc": "source_tenmin",
-          "sc": "\"time\", \"WS_mph_WVc(2)\"",
+          "sc": "\"time\", \"WS_mph_WVc_2_\"",
           "utc_offset": -28800,
           "coalesce": false
         }
@@ -75,7 +75,7 @@
     "ds_Aggregate_Average"
   ],
   "created_at": "2018-05-01T14:18:08.403Z",
-  "updated_at": "2018-05-01T14:25:35.193Z",
+  "updated_at": "2018-05-06T21:43:52.227Z",
   "tags_info": {
     "resolved_terms": [
       {

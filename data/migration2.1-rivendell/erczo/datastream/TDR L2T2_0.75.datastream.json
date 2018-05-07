@@ -26,7 +26,7 @@
           "api": "erczo",
           "db": "station_rml2_1_cr1000",
           "fc": "source_level201",
-          "sc": "\"time\", \"LaL_(30)\"",
+          "sc": "\"time\", \"LaL__30_\"",
           "utc_offset": -28800,
           "coalesce": false
         }
@@ -77,18 +77,18 @@
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
-      "value": "0.75"
+      "value": 0.75
     },
     "orientation": "vertical"
   },
   "created_at": "2018-05-01T14:17:18.172Z",
-  "updated_at": "2018-05-01T14:24:44.507Z",
+  "updated_at": "2018-05-06T21:42:59.626Z",
   "attributes_info": {
     "sort": {
-      "value1": 0,
+      "value1": 0.75,
       "value2": 0
     },
-    "text": ""
+    "text": "0.75"
   },
   "tags_info": {
     "resolved_terms": [
@@ -143,7 +143,7 @@
     },
     {
       "key": "att",
-      "str": "831fec3b7d513dcb577c4fccdcd863f1c4a1b25b"
+      "str": "87593a3ddc2fa3557a582f7c8078e57850206b41"
     },
     {
       "key": "geo",

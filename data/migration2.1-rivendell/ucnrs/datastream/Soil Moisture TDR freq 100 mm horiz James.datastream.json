@@ -63,11 +63,11 @@
     "orientation": "horizontal",
     "depth": {
       "unit_tag": "dt_Unit_Meter",
-      "value": "0.1"
+      "value": 0.1
     }
   },
   "created_at": "2018-05-01T14:30:04.713Z",
-  "updated_at": "2018-05-01T14:37:21.622Z",
+  "updated_at": "2018-05-06T21:03:35.082Z",
   "attributes_info": {
     "sort": {
       "value1": 0,
@@ -128,7 +128,7 @@
     },
     {
       "key": "att",
-      "str": "182ecf31bbc3b34f20e8ffb7e58d146960b3b3b2"
+      "str": "ac275e29fe2637f9c357743f77b1364eddbdfbe5"
     },
     {
       "key": "geo",

@@ -64,12 +64,12 @@
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
-      "value": "0.00 Seasonal Average"
+      "value": 0
     },
     "orientation": "horizontal"
   },
   "created_at": "2018-05-01T14:15:05.369Z",
-  "updated_at": "2018-05-01T14:22:28.182Z",
+  "updated_at": "2018-05-06T21:40:48.226Z",
   "derived_from_datastream_ids": [
     "5ae8766afe27f42a251027e3"
   ],
@@ -78,7 +78,7 @@
       "value1": 0,
       "value2": 0
     },
-    "text": ""
+    "text": "0"
   },
   "tags_info": {
     "resolved_terms": [
@@ -154,7 +154,7 @@
     },
     {
       "key": "att",
-      "str": "bd148eb636d058d043860b250e1246fcd93eb9ab"
+      "str": "00f942a85ffd14aed1d40f619a4a9aad05c1423c"
     },
     {
       "key": "geo",
