@@ -1,5 +1,5 @@
 {
-  "_id": "5aea269ffe27f45b621031e9",
+  "_id": "5aef790ffe27f405d91031ea",
   "content": {
     "rows": [
       {
@@ -17,7 +17,7 @@
                     "zoomType": "x"
                   },
                   "title": {
-                    "text": "VSP Water Pressure"
+                    "text": "Shallow Well Water Level"
                   },
                   "xAxis": {
                     "crosshair": true,
@@ -29,22 +29,18 @@
                   "yAxis": [
                     {
                       "title": {
-                        "text": "(mb)"
+                        "text": "(m)"
                       }
                     }
                   ]
                 },
                 "colors": [
-                  "WHEEL.GREEN",
-                  "WHEEL.YELLOW_GREEN",
                   "WHEEL.YELLOW",
                   "WHEEL.ORANGE",
                   "WHEEL.RED",
                   "WHEEL.VIOLET",
                   "WHEEL.BLUE",
-                  "#999999",
-                  "NAMED.HEMLOCK_APPROX",
-                  "#111111"
+                  "#999999"
                 ],
                 "orderBy": {
                   "iteratees": [
@@ -52,7 +48,7 @@
                   ]
                 }
               },
-              "topic": "vspWaterPressure"
+              "topic": "shallowWellWaterLevel"
             }
           }
         ]
@@ -72,7 +68,7 @@
                     "zoomType": "x"
                   },
                   "title": {
-                    "text": "FNS Water Pressure"
+                    "text": "Deep Well Water Level"
                   },
                   "xAxis": {
                     "crosshair": true,
@@ -84,22 +80,18 @@
                   "yAxis": [
                     {
                       "title": {
-                        "text": "(mb)"
+                        "text": "(m)"
                       }
                     }
                   ]
                 },
                 "colors": [
-                  "WHEEL.GREEN",
-                  "WHEEL.YELLOW_GREEN",
                   "WHEEL.YELLOW",
                   "WHEEL.ORANGE",
                   "WHEEL.RED",
                   "WHEEL.VIOLET",
                   "WHEEL.BLUE",
-                  "#999999",
-                  "NAMED.HEMLOCK_APPROX",
-                  "#111111"
+                  "#999999"
                 ],
                 "orderBy": {
                   "iteratees": [
@@ -107,7 +99,7 @@
                   ]
                 }
               },
-              "topic": "fnsWaterPressure"
+              "topic": "deepWellWaterLevel"
             }
           }
         ]
@@ -127,7 +119,55 @@
                     "zoomType": "x"
                   },
                   "title": {
-                    "text": "VMS Rock Moisture"
+                    "text": "Precipitation"
+                  },
+                  "xAxis": {
+                    "crosshair": true,
+                    "title": {
+                      "text": "Time"
+                    },
+                    "type": "datetime"
+                  },
+                  "yAxis": [
+                    {
+                      "title": {
+                        "text": "(mm)"
+                      }
+                    }
+                  ]
+                },
+                "colors": [
+                  "#91D2FF",
+                  "#1D73AA",
+                  "WHEEL.BLUE_GREEN"
+                ],
+                "orderBy": {
+                  "iteratees": [
+                    "attributes_info.sort.value1"
+                  ]
+                }
+              },
+              "topic": "precipitation"
+            }
+          }
+        ]
+      },
+      {
+        "columns": [
+          {
+            "classes": [
+              "col-12 pb-4"
+            ],
+            "component": {
+              "name": "HcTimeSeries",
+              "options": {
+                "chart": {
+                  "chart": {
+                    "height": 500,
+                    "zoomType": "x"
+                  },
+                  "title": {
+                    "text": "Soil Moisture at Rivendell Ridge"
                   },
                   "xAxis": {
                     "crosshair": true,
@@ -162,7 +202,7 @@
                   ]
                 }
               },
-              "topic": "vmsRockMoisture"
+              "topic": "rivendellSoilMoisture"
             }
           }
         ]
@@ -182,7 +222,56 @@
                     "zoomType": "x"
                   },
                   "title": {
-                    "text": "VMS Rock Temperature"
+                    "text": "Soil Temperature"
+                  },
+                  "xAxis": {
+                    "crosshair": true,
+                    "title": {
+                      "text": "Time"
+                    },
+                    "type": "datetime"
+                  },
+                  "yAxis": [
+                    {
+                      "title": {
+                        "text": "(degC)"
+                      }
+                    }
+                  ]
+                },
+                "colors": [
+                  "#DCAC5C",
+                  "#B39153",
+                  "#8A774B",
+                  "#615C42"
+                ],
+                "orderBy": {
+                  "iteratees": [
+                    "attributes_info.sort.value1"
+                  ]
+                }
+              },
+              "topic": "soilTemperature"
+            }
+          }
+        ]
+      },
+      {
+        "columns": [
+          {
+            "classes": [
+              "col-12 pb-4"
+            ],
+            "component": {
+              "name": "HcTimeSeries",
+              "options": {
+                "chart": {
+                  "chart": {
+                    "height": 500,
+                    "zoomType": "x"
+                  },
+                  "title": {
+                    "text": "Air Temperature"
                   },
                   "xAxis": {
                     "crosshair": true,
@@ -205,11 +294,7 @@
                   "WHEEL.YELLOW",
                   "WHEEL.ORANGE",
                   "WHEEL.RED",
-                  "WHEEL.VIOLET",
-                  "WHEEL.BLUE",
-                  "#999999",
-                  "NAMED.HEMLOCK_APPROX",
-                  "#111111"
+                  "WHEEL.VIOLET"
                 ],
                 "orderBy": {
                   "iteratees": [
@@ -217,7 +302,7 @@
                   ]
                 }
               },
-              "topic": "vmsRockTemperature"
+              "topic": "airTemperature"
             }
           }
         ]
@@ -237,7 +322,7 @@
                     "zoomType": "x"
                   },
                   "title": {
-                    "text": "Temperature"
+                    "text": "Logger Voltage"
                   },
                   "xAxis": {
                     "crosshair": true,
@@ -249,32 +334,37 @@
                   "yAxis": [
                     {
                       "title": {
-                        "text": "(degC)"
+                        "text": "(volts)"
                       }
                     }
                   ]
                 },
                 "colors": [
+                  "WHEEL.GREEN",
+                  "WHEEL.YELLOW_GREEN",
                   "WHEEL.YELLOW",
-                  "#DCAC5C",
-                  "#B39153",
-                  "#8A774B",
-                  "#615C42",
-                  "WHEEL.BLUE"
-                ]
+                  "WHEEL.ORANGE",
+                  "WHEEL.RED",
+                  "WHEEL.VIOLET"
+                ],
+                "orderBy": {
+                  "iteratees": [
+                    "name"
+                  ]
+                }
               },
-              "topic": "temperature"
+              "topic": "loggerVoltage"
             }
           }
         ]
       }
     ]
   },
-  "created_at": "2018-05-02T20:59:11.221Z",
+  "created_at": "2018-05-06T21:52:15.024Z",
   "enabled": true,
-  "name": "Vadose Monitoring System (one week)",
+  "name": "Current Status of Wells (one week)",
   "organization_id": "58db17e824dc720001671379",
-  "slug": "vms",
+  "slug": "wells",
   "sort_value": 10,
   "sources": [
     {
@@ -283,16 +373,12 @@
           "path": "/datapoints/lookup",
           "query": {
             "_id": [
-              "5ae87428fe27f499201025fe",
-              "5ae87429fe27f45582102600",
-              "5ae87429fe27f4595c102601",
-              "5ae87429fe27f4c254102602",
-              "5ae8742afe27f401f9102603",
-              "5ae8742afe27f4c24e102604",
-              "5ae8742afe27f4f5ed102605",
-              "5ae8742afe27f4dd84102606",
-              "5ae8742afe27f469fa102607",
-              "5ae87429fe27f4834e1025ff"
+              "5ae87703fe27f4c1d7102a93",
+              "5ae8770bfe27f47fe1102ab8",
+              "5ae8770cfe27f4e44a102abf",
+              "5ae87712fe27f4dac7102ad9",
+              "5ae87713fe27f4445c102ae0",
+              "5ae87705fe27f4b750102a9f"
             ],
             "time_local": true
           }
@@ -336,7 +422,7 @@
         ]
       },
       "template": "seriesAsc",
-      "topic": "vspWaterPressure"
+      "topic": "shallowWellWaterLevel"
     },
     {
       "find_actions": [
@@ -344,16 +430,12 @@
           "path": "/datapoints/lookup",
           "query": {
             "_id": [
-              "5ae8741ffe27f4e36a1025d3",
-              "5ae87420fe27f484d61025d5",
-              "5ae87420fe27f4fdb11025d6",
-              "5ae87420fe27f43dab1025d7",
-              "5ae87420fe27f4914c1025d8",
-              "5ae87421fe27f42ee91025d9",
-              "5ae87421fe27f46ac01025da",
-              "5ae87421fe27f410961025db",
-              "5ae87421fe27f43e6c1025dc",
-              "5ae8741ffe27f455ed1025d4"
+              "5ae8770dfe27f486fc102ac6",
+              "5ae87704fe27f429d2102a98",
+              "5ae87706fe27f45d81102aa4",
+              "5ae87707fe27f46339102aa7",
+              "5ae87708fe27f4f0a9102aac",
+              "5ae87709fe27f40708102ab1"
             ],
             "time_local": true
           }
@@ -397,7 +479,7 @@
         ]
       },
       "template": "seriesAsc",
-      "topic": "fnsWaterPressure"
+      "topic": "deepWellWaterLevel"
     },
     {
       "find_actions": [
@@ -405,16 +487,9 @@
           "path": "/datapoints/lookup",
           "query": {
             "_id": [
-              "5ae87440fe27f4155a10266a",
-              "5ae87440fe27f4882110266c",
-              "5ae87440fe27f4ccd110266d",
-              "5ae87441fe27f481cd10266e",
-              "5ae87441fe27f4940c10266f",
-              "5ae87441fe27f4e5be102670",
-              "5ae87441fe27f44c82102671",
-              "5ae87441fe27f4ada4102672",
-              "5ae87442fe27f425b0102673",
-              "5ae87440fe27f4fe5010266b"
+              "5ae8742cfe27f44b9c102610",
+              "5ae8742bfe27f4000610260c",
+              "5ae8742dfe27f4cfac102612"
             ],
             "time_local": true
           }
@@ -458,7 +533,7 @@
         ]
       },
       "template": "seriesAsc",
-      "topic": "vmsRockMoisture"
+      "topic": "precipitation"
     },
     {
       "find_actions": [
@@ -466,16 +541,11 @@
           "path": "/datapoints/lookup",
           "query": {
             "_id": [
-              "5ae87444fe27f4fb9a10267e",
-              "5ae87445fe27f4ff7a102680",
-              "5ae87445fe27f4f0f0102681",
-              "5ae87445fe27f46a1b102682",
-              "5ae87445fe27f4555a102683",
-              "5ae87445fe27f4e582102684",
-              "5ae87446fe27f405c2102685",
-              "5ae87446fe27f459c4102686",
-              "5ae87446fe27f4300e102687",
-              "5ae87444fe27f4ccd810267f"
+              "5ae8746cfe27f48062102735",
+              "5ae8746cfe27f41200102739",
+              "5ae8746dfe27f45ed010273d",
+              "5ae8746afe27f4665210272d",
+              "5ae8746bfe27f41993102731"
             ],
             "time_local": true
           }
@@ -519,7 +589,7 @@
         ]
       },
       "template": "seriesAsc",
-      "topic": "vmsRockTemperature"
+      "topic": "rivendellSoilMoisture"
     },
     {
       "find_actions": [
@@ -527,12 +597,66 @@
           "path": "/datapoints/lookup",
           "query": {
             "_id": [
+              "5ae876b2fe27f4363a10292d",
+              "5ae876b9fe27f42cf110294d",
+              "5ae876cafe27f43ea0102999",
+              "5ae876acfe27f4fb91102915"
+            ],
+            "time_local": true
+          }
+        }
+      ],
+      "options": {
+        "cursorDate": [
+          {
+            "m": "add",
+            "p": [
+              4,
+              "d"
+            ]
+          }
+        ],
+        "endDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "add",
+            "p": [
+              1,
+              "d"
+            ]
+          }
+        ],
+        "startDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "subtract",
+            "p": [
+              6,
+              "d"
+            ]
+          }
+        ]
+      },
+      "template": "seriesAsc",
+      "topic": "soilTemperature"
+    },
+    {
+      "find_actions": [
+        {
+          "path": "/datapoints/lookup",
+          "query": {
+            "_id": [
+              "5ae873d9fe27f460e6102488",
+              "5ae873d6fe27f46ee510247a",
               "5ae873d9fe27f4417f10248a",
-              "5ae876c8fe27f4f1de102991",
-              "5ae87705fe27f4c4fb102a9a",
-              "5ae876cdfe27f4d2b11029a5",
-              "5ae876cffe27f4d7ac1029ad",
-              "5ae876d2fe27f460c21029b9"
+              "5ae873d6fe27f4170710247c",
+              "5ae873d9fe27f49b4510248c"
             ],
             "time_local": true
           }
@@ -576,9 +700,65 @@
         ]
       },
       "template": "seriesAsc",
-      "topic": "temperature"
+      "topic": "airTemperature"
+    },
+    {
+      "find_actions": [
+        {
+          "path": "/datapoints/lookup",
+          "query": {
+            "_id": [
+              "5ae873e1fe27f473651024b1",
+              "5ae873e0fe27f4c4121024a8",
+              "5ae873e4fe27f493921024bb",
+              "5ae873e4fe27f44ada1024bf",
+              "5ae873e0fe27f468871024ac"
+            ],
+            "time_local": true
+          }
+        }
+      ],
+      "options": {
+        "cursorDate": [
+          {
+            "m": "add",
+            "p": [
+              4,
+              "d"
+            ]
+          }
+        ],
+        "endDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "add",
+            "p": [
+              1,
+              "d"
+            ]
+          }
+        ],
+        "startDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "subtract",
+            "p": [
+              6,
+              "d"
+            ]
+          }
+        ]
+      },
+      "template": "seriesAsc",
+      "topic": "loggerVoltage"
     }
   ],
-  "updated_at": "2018-05-06T23:17:55.437Z",
+  "updated_at": "2018-05-07T04:37:24.231Z",
   "utc_offset": -28800
 }

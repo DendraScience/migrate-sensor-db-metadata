@@ -1,0 +1,327 @@
+{
+  "_id": "5aefd7d0fe27f45dd01031eb",
+  "content": {
+    "rows": [
+      {
+        "columns": [
+          {
+            "classes": [
+              "col-12 pb-4"
+            ],
+            "component": {
+              "name": "HcTimeSeries",
+              "options": {
+                "chart": {
+                  "chart": {
+                    "height": 500,
+                    "zoomType": "x"
+                  },
+                  "title": {
+                    "text": "Air & Water Temperature"
+                  },
+                  "xAxis": {
+                    "crosshair": true,
+                    "title": {
+                      "text": "Time"
+                    },
+                    "type": "datetime"
+                  },
+                  "yAxis": [
+                    {
+                      "title": {
+                        "text": "(degC)"
+                      }
+                    }
+                  ]
+                },
+                "colors": [
+                  "WHEEL.GREEN",
+                  "WHEEL.YELLOW_GREEN",
+                  "WHEEL.YELLOW",
+                  "WHEEL.BLUE",
+                  "#999999"
+                ],
+                "orderBy": {
+                  "iteratees": [
+                    "attributes_info.sort.value1"
+                  ]
+                }
+              },
+              "topic": "airWaterTemperature"
+            }
+          }
+        ]
+      },
+      {
+        "columns": [
+          {
+            "classes": [
+              "col-12 pb-4"
+            ],
+            "component": {
+              "name": "HcTimeSeries",
+              "options": {
+                "chart": {
+                  "chart": {
+                    "height": 500,
+                    "zoomType": "x"
+                  },
+                  "title": {
+                    "text": "Total Solar Radiation"
+                  },
+                  "xAxis": {
+                    "crosshair": true,
+                    "title": {
+                      "text": "Time"
+                    },
+                    "type": "datetime"
+                  },
+                  "yAxis": [
+                    {
+                      "title": {
+                        "text": "(W/m^2)"
+                      }
+                    }
+                  ]
+                },
+                "colors": [
+                  "WHEEL.YELLOW",
+                  "WHEEL.ORANGE",
+                  "WHEEL.RED"
+                ],
+                "orderBy": {
+                  "iteratees": [
+                    "attributes_info.sort.value1"
+                  ]
+                }
+              },
+              "topic": "totalSolarRadiation"
+            }
+          }
+        ]
+      },
+      {
+        "columns": [
+          {
+            "classes": [
+              "col-12 pb-4"
+            ],
+            "component": {
+              "name": "HcTimeSeries",
+              "options": {
+                "chart": {
+                  "chart": {
+                    "height": 500,
+                    "zoomType": "x"
+                  },
+                  "title": {
+                    "text": "Barometric Pressure"
+                  },
+                  "xAxis": {
+                    "crosshair": true,
+                    "title": {
+                      "text": "Time"
+                    },
+                    "type": "datetime"
+                  },
+                  "yAxis": [
+                    {
+                      "title": {
+                        "text": "(mb)"
+                      }
+                    }
+                  ]
+                },
+                "colors": [
+                  "WHEEL.RED",
+                  "WHEEL.VIOLET",
+                  "WHEEL.BLUE"
+                ],
+                "orderBy": {
+                  "iteratees": [
+                    "attributes_info.sort.value1"
+                  ]
+                }
+              },
+              "topic": "barometricPressure"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "enabled": true,
+  "name": "Angelo Weather and Streams (one week)",
+  "organization_id": "58db17e824dc720001671379",
+  "slug": "met",
+  "sort_value": 10,
+  "sources": [
+    {
+      "find_actions": [
+        {
+          "path": "/datapoints/lookup",
+          "query": {
+            "_id": [
+              "5ae873dafe27f42487102490",
+              "5ae873dcfe27f427a2102497",
+              "5ae873dafe27f40b2e10248e",
+              "5ae87701fe27f472df102a89",
+              "5ae87701fe27f42e06102a8a"
+            ],
+            "time_local": true
+          }
+        }
+      ],
+      "options": {
+        "cursorDate": [
+          {
+            "m": "add",
+            "p": [
+              4,
+              "d"
+            ]
+          }
+        ],
+        "endDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "add",
+            "p": [
+              1,
+              "d"
+            ]
+          }
+        ],
+        "startDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "subtract",
+            "p": [
+              6,
+              "d"
+            ]
+          }
+        ]
+      },
+      "template": "seriesAsc",
+      "topic": "airWaterTemperature"
+    },
+    {
+      "find_actions": [
+        {
+          "path": "/datapoints/lookup",
+          "query": {
+            "_id": [
+              "5ae876fefe27f48079102a7c",
+              "5ae876fffe27f4dafe102a7d",
+              "5ae876fefe27f45965102a7a"
+            ],
+            "time_local": true
+          }
+        }
+      ],
+      "options": {
+        "cursorDate": [
+          {
+            "m": "add",
+            "p": [
+              4,
+              "d"
+            ]
+          }
+        ],
+        "endDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "add",
+            "p": [
+              1,
+              "d"
+            ]
+          }
+        ],
+        "startDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "subtract",
+            "p": [
+              6,
+              "d"
+            ]
+          }
+        ]
+      },
+      "template": "seriesAsc",
+      "topic": "totalSolarRadiation"
+    },
+    {
+      "find_actions": [
+        {
+          "path": "/datapoints/lookup",
+          "query": {
+            "_id": [
+              "5ae873ecfe27f47f3c1024e2",
+              "5ae873f3fe27f414fd102506",
+              "5ae873eefe27f439071024ec"
+            ],
+            "time_local": true
+          }
+        }
+      ],
+      "options": {
+        "cursorDate": [
+          {
+            "m": "add",
+            "p": [
+              4,
+              "d"
+            ]
+          }
+        ],
+        "endDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "add",
+            "p": [
+              1,
+              "d"
+            ]
+          }
+        ],
+        "startDate": [
+          {
+            "m": "startOf",
+            "p": "d"
+          },
+          {
+            "m": "subtract",
+            "p": [
+              6,
+              "d"
+            ]
+          }
+        ]
+      },
+      "template": "seriesAsc",
+      "topic": "barometricPressure"
+    }
+  ],
+  "utc_offset": -28800,
+  "created_at": "2018-05-07T04:36:32.642Z",
+  "updated_at": "2018-05-07T04:56:45.044Z"
+}
