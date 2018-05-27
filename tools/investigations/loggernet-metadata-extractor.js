@@ -3,7 +3,7 @@ loggernet_metadata_extractor.js
 @author: collin Bode
 @date: 2018-03-27
 Purpose: to parse the LoggerNet XML configuration file
-and extract ifnormation about the stations and their tables
+and extract information about the stations and their tables
 */
 fs = require('fs')
 parseString = require('xml2js').parseString
@@ -38,11 +38,13 @@ Station Object
 */
 
 // For each organization/instance of loggernet, extract stations and tables
-stations = []
+filedate =  "2018-05-26" //"2018-04-11"
+
 org_slugs = ["ucnrs","erczo"]
 for (var o=0;o<org_slugs.length;o++) {
+	stations = []
 	org_slug = org_slugs[o]
-	csi_name = "/Users/collin/dendra_dev/LoggerNetConfigs/"+"CsiLgrNet_"+org_slug+"_2018-04-11.xml"
+	csi_name = "/Users/collin/dendra_dev/LoggerNetConfigs/"+"CsiLgrNet_"+org_slug+"_"+filedate+".xml"
 	xml_data = fs.readFileSync(csi_name)
 	console.log("Parsing ",org_slug,"in",csi_name,"for loggernet stations and tables")
 	parseString(xml_data, function(err,dj) {
@@ -54,7 +56,11 @@ for (var o=0;o<org_slugs.length;o++) {
 		for (var i =0;i<broker_count;i++) {
 			station = {}
 			station.name = brokers[i]['$'].name
-			station.organization_slug = org_slug
+			if(station.name.match(/[Ss]tation/)) {
+				station.organization_slug = 'sagehen'
+			} else {
+				station.organization_slug = org_slug
+			}
 			station.program_name = brokers[i]['$']['program-name']
 			station.data_tables = []
 			//console.log(station.name,station.program_name)
@@ -109,10 +115,14 @@ for (var o=0;o<org_slugs.length;o++) {
 		}
 		//console.log("station json:",stations)
 	})
+
+	// Export organization station list to file
+	stations_str = JSON.stringify(stations,null,4)
+	fs.writeFileSync('stations_loggernet_'+org_slug+'_'+filedate+'.json',stations_str,'utf-8')	
+	console.log(org_slug,"Program start dates. Found:",start_count,", Total Stations:",stations.length)
 }
-console.log("Program start dates. Found:",start_count,", Total Stations:",stations.length)
 
 // Write station list to file
-stations_str = JSON.stringify(stations,null,4)
-fs.writeFileSync('stations_loggernet_2018-04-11.json',stations_str,'utf-8')
+//stations_str = JSON.stringify(stations,null,4)
+//fs.writeFileSync('stations_loggernet_2018-04-11.json',stations_str,'utf-8')
 console.log("DONE!")

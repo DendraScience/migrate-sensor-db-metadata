@@ -9,8 +9,8 @@ stations_loggernet.json file, which was extracted from
 
 fs = require('fs')
 
-man_stations = JSON.parse(fs.readFileSync('stations.json'))
-log_stations = JSON.parse(fs.readFileSync('stations_loggernet.json'))
+man_stations = JSON.parse(fs.readFileSync('../stations.json'))
+log_stations = JSON.parse(fs.readFileSync('../stations_loggernet.json'))
 
 function get_mstation(stations,station_name) {
   for(var i=0;i<stations.list.length;i++) {
@@ -51,7 +51,7 @@ for (var j=0;j<log_stations.length;j++) {
 	}
 	// How many data tables per station?
 	table_count = lstation.data_tables.length
-	if(table_count > 1 && !lstation.name.match("Station")) {
+	if(table_count > 1 && !lstation.name.match(/tation/g)) {
 		multiple_tables_count++
 		if(lstation.organization_slug == "ucnrs") {
 			ucnrs_multiple_count++

@@ -76,6 +76,11 @@ for(var i=0;i<ds_files.length;i++) {
 	if (ds_filename.match(/.json$/) == null) {
 		continue
 	}
+	// Eliminate Seasonal Datastreams, which do not show up on loggers
+	if (ds_filename.match(/seassonal.datastrem.json$/) == null) {
+		console.log("SKIP. Seasonal:",ds_filename)
+		continue
+	}
 	total++
 	ds_json = JSON.parse(fs.readFileSync(ds_path+ds_filename)) 
 	if(ds_json.enabled != true) {
@@ -145,7 +150,7 @@ for(var i=0;i<ds_files.length;i++) {
 					field_same++
 					boo_field_same = true
 					fieldname = influx_fieldname
-					//console.log(l,"Match! Fieldname found influx:",influx_fieldname,"==",lfield)
+					console.log(l,"Match! Fieldname found influx:",influx_fieldname,"==",lfield)
 				} else {
 					//console.log(l,"fieldname miss. influx:",influx_fieldname,"==",lfield)
 				}
@@ -172,7 +177,7 @@ for(var i=0;i<ds_files.length;i++) {
 		}
 	}
 	match++
-
+	/*
 	if(typeof fieldname !== 'undefined' ) {
 		if(fieldname.match(/RS_kw_m2/)) { 
 			//"sc": "\"time\", \"RS_kw_m2_Avg\"*1000 as \"RS_w_m2_Avg\""
@@ -184,6 +189,7 @@ for(var i=0;i<ds_files.length;i++) {
 	} else {
 		console.log("fieldname undefined.",ds_json.name)
 	}
+	*/
 }
 console.log("UCNRS Datastreams total:",total,",table matches:",match,",misses:",nomatch,",disabled:",disabled,", goes:",goes)
 console.log("\t field matches:",field_same,", different:",field_diff,",tenmin found:",field_diff_tenmin,",unmatched:",field_diff-field_diff_tenmin)
