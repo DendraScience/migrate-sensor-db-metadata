@@ -60,8 +60,8 @@
     "ds_Variable_Radiation",
     "dt_Unit_KilojoulePerSquareMeter"
   ],
-  "created_at": "2018-05-01T14:17:30.339Z",
-  "updated_at": "2018-05-06T21:43:11.480Z",
+  "created_at": "2018-07-01T23:18:03.998Z",
+  "updated_at": "2018-07-01T23:38:52.786Z",
   "derived_from_datastream_ids": [
     "5ae876fafe27f42b47102a68"
   ],

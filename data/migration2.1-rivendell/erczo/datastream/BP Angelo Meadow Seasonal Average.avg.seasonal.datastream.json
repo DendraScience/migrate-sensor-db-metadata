@@ -63,8 +63,8 @@
     "ds_Aggregate_Average",
     "ds_Function_Seasonal"
   ],
-  "created_at": "2018-05-01T14:09:43.060Z",
-  "updated_at": "2018-05-06T21:38:02.395Z",
+  "created_at": "2018-07-01T22:53:46.604Z",
+  "updated_at": "2018-07-01T23:23:26.380Z",
   "derived_from_datastream_ids": [
     "5ae873edfe27f433331024e7"
   ],

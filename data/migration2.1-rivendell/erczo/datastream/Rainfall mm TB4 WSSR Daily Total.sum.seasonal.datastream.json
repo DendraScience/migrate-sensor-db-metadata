@@ -61,8 +61,8 @@
     "ds_Aggregate_Cumulative",
     "ds_Interval_Day"
   ],
-  "created_at": "2018-05-01T14:12:09.265Z",
-  "updated_at": "2018-05-06T21:39:16.192Z",
+  "created_at": "2018-07-01T22:57:18.340Z",
+  "updated_at": "2018-07-01T23:25:24.154Z",
   "derived_from_datastream_ids": [
     "5ae87435fe27f4e05e10263a"
   ],

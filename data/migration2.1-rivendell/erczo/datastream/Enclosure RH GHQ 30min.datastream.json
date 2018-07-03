@@ -60,8 +60,8 @@
     "ds_Variable_RelativeHumidity",
     "dt_Unit_Percent"
   ],
-  "created_at": "2018-05-01T14:10:00.637Z",
-  "updated_at": "2018-05-06T21:38:11.684Z",
+  "created_at": "2018-07-01T22:54:02.145Z",
+  "updated_at": "2018-07-01T23:23:37.725Z",
   "derived_from_datastream_ids": [
     "5ae873f6fe27f4095a102512"
   ],

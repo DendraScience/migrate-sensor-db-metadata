@@ -61,8 +61,8 @@
     "ds_Aggregate_Maximum",
     "ds_Function_Seasonal"
   ],
-  "created_at": "2018-05-01T14:16:04.638Z",
-  "updated_at": "2018-05-06T21:41:48.957Z",
+  "created_at": "2018-07-01T23:11:20.767Z",
+  "updated_at": "2018-07-01T23:31:19.114Z",
   "derived_from_datastream_ids": [
     "5ae876a5fe27f429ff1028f5"
   ],

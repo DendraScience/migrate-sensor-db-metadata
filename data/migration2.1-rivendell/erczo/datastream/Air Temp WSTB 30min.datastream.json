@@ -52,8 +52,8 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-05-01T14:09:09.917Z",
-  "updated_at": "2018-05-06T21:37:45.791Z",
+  "created_at": "2018-07-01T22:52:46.303Z",
+  "updated_at": "2018-07-01T23:22:58.929Z",
   "derived_from_datastream_ids": [
     "5ae873dcfe27f48ec8102499"
   ],

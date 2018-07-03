@@ -60,8 +60,8 @@
     "dt_Unit_MeterPerSecond",
     "ds_Aggregate_Maximum"
   ],
-  "created_at": "2018-05-01T14:18:05.238Z",
-  "updated_at": "2018-05-06T21:43:45.800Z",
+  "created_at": "2018-07-01T23:20:36.536Z",
+  "updated_at": "2018-07-01T23:39:48.906Z",
   "derived_from_datastream_ids": [
     "5ae8771efe27f47780102b0b"
   ],

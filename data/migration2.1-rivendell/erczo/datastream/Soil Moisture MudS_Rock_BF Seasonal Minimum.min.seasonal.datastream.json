@@ -61,8 +61,8 @@
     "ds_Aggregate_Minimum",
     "ds_Function_Seasonal"
   ],
-  "created_at": "2018-05-01T14:15:58.837Z",
-  "updated_at": "2018-05-06T21:41:42.895Z",
+  "created_at": "2018-07-01T23:11:00.523Z",
+  "updated_at": "2018-07-01T23:30:46.201Z",
   "derived_from_datastream_ids": [
     "5ae8769ffe27f46d841028d8"
   ],
