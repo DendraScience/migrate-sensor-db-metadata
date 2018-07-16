@@ -1,19 +1,19 @@
 {
-  "_id": "5ae87975fe27f4882e102c74",
+  "_id": "5ae8797cfe27f43c95102c90",
   "description": "",
   "enabled": true,
-  "name": "Barometric Pressure mbar Chickering Avg",
+  "name": "Barometric Pressure mbar Jepson Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "58e68cabdf5ce600012602bc",
+  "station_id": "58e68cacdf5ce600012602c4",
   "datapoints_config": [
     {
-      "begins_at": "2013-08-21T18:10:00.000Z",
+      "begins_at": "2013-04-30T16:50:00.000Z",
       "params": {
         "query": {
           "compact": true,
-          "datastream_id": 3490,
+          "datastream_id": 3604,
           "time_adjust": -28800
         }
       },
@@ -24,11 +24,11 @@
       "params": {
         "query": {
           "api": "ucnrs",
-          "db": "station_ucca_chickering",
+          "db": "station_ucjp_jepson",
           "fc": "source_goes_tenmin",
-          "sc": "\"time\", \"BP_mB_GOES_Avg\",\"BP_satHG_Avg\"",
+          "sc": "\"time\", ((\"BP_mB_GOES_Avg\"/0.59)+903)",
           "utc_offset": -28800,
-          "coalesce": true
+          "coalesce": false
         }
       },
       "begins_at": "2018-04-17T00:00:00.000Z",
@@ -37,11 +37,11 @@
   ],
   "external_refs": [
     {
-      "identifier": "3490",
+      "identifier": "3604",
       "type": "odm.datastreams.DatastreamID"
     },
     {
-      "identifier": "339",
+      "identifier": "344",
       "type": "odm.stations.StationID"
     },
     {
@@ -57,11 +57,11 @@
       "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "ucca_chickering",
+      "identifier": "ucjp_jepson",
       "type": "loggernet.station"
     },
     {
-      "identifier": "BEC0035C",
+      "identifier": "BEC0102A",
       "type": "goes.address"
     },
     {
@@ -75,8 +75,8 @@
     "dt_Unit_Millibar",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-05-01T14:28:05.903Z",
-  "updated_at": "2018-05-06T21:01:41.360Z",
+  "created_at": "2018-07-02T01:06:30.154Z",
+  "updated_at": "2018-07-03T19:06:22.699Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -137,7 +137,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "199a123339023d700ee108a5da2b7f5d90efcffc"
+      "str": "3970be5fa5322e1c194ea44a89dda5ade6b86b1f"
     },
     {
       "key": "att",

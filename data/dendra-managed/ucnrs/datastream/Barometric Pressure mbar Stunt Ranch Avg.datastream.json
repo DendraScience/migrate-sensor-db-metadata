@@ -1,19 +1,19 @@
 {
-  "_id": "5ae87974fe27f4811f102c6c",
+  "_id": "5ae87982fe27f46e91102cb0",
   "description": "",
   "enabled": true,
-  "name": "Barometric Pressure mbar Bodega Avg",
+  "name": "Barometric Pressure mbar Stunt Ranch Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
-  "station_id": "58e68cabdf5ce600012602b9",
+  "station_id": "58e68cacdf5ce600012602d9",
   "datapoints_config": [
     {
-      "begins_at": "2012-06-27T21:50:00.000Z",
+      "begins_at": "2012-06-22T19:30:00.000Z",
       "params": {
         "query": {
           "compact": true,
-          "datastream_id": 3389,
+          "datastream_id": 4021,
           "time_adjust": -28800
         }
       },
@@ -24,11 +24,11 @@
       "params": {
         "query": {
           "api": "ucnrs",
-          "db": "station_ucbm_bodega",
+          "db": "station_ucsr_stuntranch",
           "fc": "source_goes_tenmin",
-          "sc": "\"time\", \"BP_mB_GOES_Avg\",\"BP_satHG_Avg\"",
+          "sc": "\"time\", ((\"BP_mB_GOES_Avg\"/0.59)+903)",
           "utc_offset": -28800,
-          "coalesce": true
+          "coalesce": false
         }
       },
       "begins_at": "2018-04-17T00:00:00.000Z",
@@ -37,11 +37,11 @@
   ],
   "external_refs": [
     {
-      "identifier": "3389",
+      "identifier": "4021",
       "type": "odm.datastreams.DatastreamID"
     },
     {
-      "identifier": "336",
+      "identifier": "358",
       "type": "odm.stations.StationID"
     },
     {
@@ -57,7 +57,7 @@
       "type": "odm.stations.VariableCode"
     },
     {
-      "identifier": "ucbm_bodega",
+      "identifier": "ucsr_stuntranch",
       "type": "loggernet.station"
     },
     {
@@ -75,8 +75,8 @@
     "dt_Unit_Millibar",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-05-01T14:28:04.176Z",
-  "updated_at": "2018-05-06T21:01:39.614Z",
+  "created_at": "2018-07-02T01:06:32.471Z",
+  "updated_at": "2018-07-03T19:06:23.827Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -137,7 +137,7 @@
   "hashes": [
     {
       "key": "src",
-      "str": "074f54e17b521897278ddf711908fe2d63cad5b4"
+      "str": "12f56d704e41ba94204edfeb336a7fea232e1776"
     },
     {
       "key": "att",
