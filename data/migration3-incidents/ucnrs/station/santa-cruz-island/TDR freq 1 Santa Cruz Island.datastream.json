@@ -1,0 +1,170 @@
+{
+  "_id": "5ae87a5afe27f469ac103066",
+  "description": "Value range just a guess, variable unknown",
+  "enabled": true,
+  "name": "TDR freq 1 Santa Cruz Island",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602d3",
+  "datapoints_config": [
+    {
+      "begins_at": "2013-01-01T08:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3849,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-25T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucsc_santacruzisle",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"CS616_V_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2018-04-25T00:00:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3849",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "354",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Misc_Number_1",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "47",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "VWC Period uSec",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "ucsc_santacruzisle",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Soil",
+    "ds_Variable_Moisture",
+    "dt_Unit_Microsecond",
+    "ds_Aggregate_Average"
+  ],
+  "attributes": {},
+  "created_at": "2018-07-02T01:07:50.084Z",
+  "updated_at": "2018-07-03T19:06:56.672Z",
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Soil",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Moisture",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "µsec",
+        "label": "Microsecond",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "2c8f40054c130e48a795978787902424a92da43e"
+    },
+    {
+      "key": "att",
+      "str": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "a419a867eee1eb7b90ff73592001f7d5e75d5420",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "fcfe091619170a6f1fd8ae9a7b901145ff5fbe98",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

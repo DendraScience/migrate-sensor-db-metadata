@@ -1,0 +1,157 @@
+{
+  "_id": "5ae8770efe27f41f8b102ac7",
+  "enabled": true,
+  "name": "Well 5 Water Level Manual m",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602cf",
+  "datapoints_config": [
+    {
+      "begins_at": "2007-10-02T07:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 1319,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-25T00:00:00.000Z"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "1319",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "10",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "manual",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "56",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Water Level Manual m",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "RRL4_1_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "Table401",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_GroundWater",
+    "ds_Variable_Depth",
+    "dt_Unit_Meter"
+  ],
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Meter",
+      "value": 25.3
+    },
+    "wellhead_height": {
+      "unit": "dt_Unit_Meter",
+      "value": 0.06
+    },
+    "cable_length": {
+      "unit": "dt_Unit_Meter",
+      "value": 23.09
+    }
+  },
+  "created_at": "2018-07-01T23:19:45.529Z",
+  "updated_at": "2018-07-03T19:03:43.611Z",
+  "attributes_info": {
+    "sort": {
+      "value1": 25.3,
+      "value2": 0
+    },
+    "text": "25.3"
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "GroundWater",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Depth",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "m",
+        "label": "Meter",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "cbbdadb611704e1838fee6693882cf07844ab858"
+    },
+    {
+      "key": "att",
+      "str": "360f729ba57f68644e700fd79df57b476dac9b59"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "c59aec5c72dc86b58c5b70d83498b4d20f92387d",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "b63be3e347ff3aa52f47812826e6d3621eadba76",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

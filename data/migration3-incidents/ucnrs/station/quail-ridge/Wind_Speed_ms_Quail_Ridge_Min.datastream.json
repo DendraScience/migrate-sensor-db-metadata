@@ -1,0 +1,130 @@
+{
+  "_id": "5a78e902f55c4b0001ed027d",
+  "station_id": "5a37e71ba546db0001547681",
+  "name": "Wind Gust ms Quail Ridge Min",
+  "source_type": "sensor",
+  "state": "ready",
+  "enabled": true,
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "db": "station_ucqr_quailridge",
+          "sc": "\"time\", \"WS_mph_Min\" * 0.44704 AS \"WS_ms_Min\"",
+          "fc": "source_tenmin",
+          "utc_offset": -28800,
+          "api": "ucnrs",
+          "coalesce": true
+        }
+      },
+      "begins_at": "2017-06-07T13:00:00.000Z",
+      "ends_before": "2018-04-21T23:10:00Z",
+      "path": "/influx/select"
+    },
+    {
+      "params": {
+        "query": {
+          "db": "station_ucqr_quailridge",
+          "sc": "\"time\", \"WS_ms_Min\"",
+          "fc": "source_tenmin",
+          "utc_offset": -28800,
+          "api": "ucnrs",
+          "coalesce": true
+        }
+      },
+      "begins_at": "2018-04-21T23:10:00Z",
+      "path": "/influx/select"
+    }
+  ],
+  "description": "TBD",
+  "tags": [
+    "ds_Aggregate_Minimum",
+    "ds_Medium_Air",
+    "ds_Variable_Speed",
+    "dt_Unit_MeterPerSecond"
+  ],
+  "created_at": "2018-07-01T23:40:41.555Z",
+  "updated_at": "2018-07-03T19:03:52.304Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Minimum",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      },
+      {
+        "label": "Air",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Speed",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "mi/hr",
+        "label": "MilePerHour",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-aggregate"
+      },
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "f26094889cb1fcec3ada1bf103d44d6247707986"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "89e4c57c37e8de3646a673d3951ecc6e8d342b63",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "fb5cb5e343b3026658ca95f5a4c87342cb047508",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

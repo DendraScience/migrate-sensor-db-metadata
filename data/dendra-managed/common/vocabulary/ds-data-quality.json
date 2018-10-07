@@ -1,0 +1,22 @@
+{
+  "_id": "ds-data-quality",
+  "label": "DataQuality",
+  "scheme_id": "ds",
+  "terms": [
+    {
+      "label": "Unknown"
+    },
+    {
+      "label": "Invalid"
+    },
+    {
+      "label": "Suspect"
+    },
+  	{
+  		"label": "Valid"
+  	},
+    {
+      "label": "Corrected"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "_id": "5ae873ddfe27f44c0d10249d",
+  "derivation_description": "Seasonal Monthly derived from legacy datastreamid 468",
+  "enabled": true,
+  "name": "Battery Voltage GHQ Seasonal Maximum",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602b0",
+  "datapoints_config": [
+    {
+      "begins_at": "2008-12-12T18:40:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 30468,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "30468",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "3",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "468",
+      "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "26",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Battery Voltage",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "GHQ_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "GHQTable",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Battery",
+    "ds_Variable_Voltage",
+    "dt_Unit_Volt",
+    "ds_Aggregate_Maximum",
+    "ds_Function_Seasonal"
+  ],
+  "created_at": "2018-07-01T22:52:50.959Z",
+  "updated_at": "2018-07-03T19:02:48.272Z",
+  "derived_from_datastream_ids": [
+    "5ae873defe27f4256810249f"
+  ],
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Battery",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Voltage",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "V",
+        "label": "Volt",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Maximum",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      },
+      {
+        "label": "Seasonal",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-function",
+        "vocabulary_label": "Function"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 4
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      },
+      {
+        "_id": "ds-function"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "b2b70040136ab2876d58a6e44fa2a6de751296c5"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "559eaa82d6cdc922fb9f4a37e3de4b9910e50f40",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "0d253c13e10350db516b0a0d7684f951c8d84985",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

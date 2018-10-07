@@ -1,0 +1,158 @@
+[
+   {
+      "station_name":"Quail Ridge",
+      "station_id":"5a37e71ba546db0001547681",
+      "table":"source_tenmin",
+      "change_date":"2018-04-25T23:10:00Z"
+   },
+   {
+      "station_name":"Angelo South Meadow",
+      "station_id":"58e68cabdf5ce600012602b3",
+      "table":"source_tenmin",
+      "change_date":"2018-05-09T19:10:00Z"
+   },
+   {
+      "station_name":"Anza Borrego",
+      "station_id":"58e68cabdf5ce600012602b4",
+      "table":"source_tenmin",
+      "change_date":"2018-02-17T20:20:00Z"
+   },
+   {
+      "station_name":"BigCreek Gatehouse",
+      "station_id":"58e68cabdf5ce600012602b5",
+      "table":"source_tenmin",
+      "change_date":"2018-05-03T01:00:00Z"
+   },
+   {
+      "station_name":"Blue Oak Ranch",
+      "station_id":"58e68cabdf5ce600012602b8",
+      "table":"source_tenmin",
+      "change_date":"2018-04-25T23:40:00Z"
+   },
+   {
+      "station_name":"Bodega",
+      "station_id":"58e68cabdf5ce600012602b9",
+      "table":"source_goes_tenmin",
+      "change_date":"2018-04-16T23:10:00Z"
+   },
+   {
+      "station_name":"Burns",
+      "station_id":"58e68cabdf5ce600012602ba",
+      "table":"source_goes_tenmin",
+      "change_date":"2018-04-16T23:10:00Z"
+   },
+   {
+      "station_name":"Chickering",
+      "station_id":"58e68cabdf5ce600012602bc",
+      "table":"source_goes_tenmin",
+      "change_date":"2018-06-27T18:10:00Z"
+   },
+   {
+      "station_name":"Dawson",
+      "station_id":"5a9cd13b18af1700013b110a",
+      "table":"source_goes_tenmin",
+      "change_date":"2018-06-27T18:10:00Z"
+   },
+   {
+      "station_name":"Deep Canyon",
+      "station_id":"58e68cabdf5ce600012602bd",
+      "table":"source_tenmin",
+      "change_date":"2018-05-17T01:20:00Z"
+   },
+   {
+      "station_name":"Elliott",
+      "station_id":"58e68cabdf5ce600012602be",
+      "table":"source_tenmin",
+      "change_date":"2018-05-18T22:20:00Z"
+   },
+   {
+      "station_name":"Fort Ord",
+      "station_id":"58e68cabdf5ce600012602bf",
+      "table":"source_tenmin",
+      "change_date":"2018-02-09T23:10:00Z"
+   },
+   {
+      "station_name":"Granites",
+      "station_id":"58e68cabdf5ce600012602c0",
+      "table":"source_goes_tenmin",
+      "change_date":"2018-04-16T23:10:00Z"
+   },
+   {
+      "station_name":"Hastings",
+      "station_id":"58e68cabdf5ce600012602c1",
+      "table":"source_tenmin",
+      "change_date":"2018-05-09T18:50:00Z"
+   },
+   {
+      "station_name":"James",
+      "station_id":"58e68cacdf5ce600012602c3",
+      "table":"source_tenmin",
+      "change_date":"2018-07-05T21:10:00Z"
+   },
+   {
+      "station_name":"Jepson",
+      "station_id":"58e68cacdf5ce600012602c4",
+      "table":"source_goes_tenmin",
+      "change_date":"2018-04-16T23:10:00Z"
+   },
+   {
+      "station_name":"Motte",
+      "station_id":"58e68cacdf5ce600012602c6",
+      "table":"source_tenmin",
+      "change_date":"2018-07-10T18:40:00Z"
+   },
+   {
+      "station_name":"Rancho Marino",
+      "station_id":"58e68cacdf5ce600012602c7",
+      "table":"source_tenmin",
+      "change_date":"2018-04-24T17:10:00Z"
+   },
+   {
+      "station_name":"Santa Cruz Island",
+      "station_id":"58e68cacdf5ce600012602d3",
+      "table":"source_tenmin",
+      "change_date":"2018-05-08T21:30:00Z"
+   },
+   {
+      "station_name":"Sedgwick",
+      "station_id":"58e68cacdf5ce600012602d6",
+      "table":"source_tenmin",
+      "change_date":"2018-04-11T16:20:00Z"
+   },
+   {
+      "station_name":"SNARL",
+      "station_id":"58e68cacdf5ce600012602d7",
+      "table":"source_tenmin",
+      "change_date":"2018-05-23T20:30:00Z"
+   },
+   {
+      "station_name":"Stunt Ranch",
+      "station_id":"58e68cacdf5ce600012602d9",
+      "table":"source_goes_tenmin",
+      "change_date":"2018-04-16T23:10:00Z"
+   },
+   {
+      "station_name":"WhiteMt Barcroft",
+      "station_id":"58e68cacdf5ce600012602dc",
+      "table":"source_goes_tenmin",
+      "change_date":"2018-04-16T23:10:00Z"
+   },
+   {
+      "station_name":"WhiteMt Crooked",
+      "station_id":"58e68cacdf5ce600012602dd",
+      "table":"source_goes_tenmin",
+      "change_date":"2018-04-16T23:10:00Z"
+   },
+   {
+      "station_name":"WhiteMt Summit",
+      "station_id":"58e68caddf5ce600012602de",
+      "table":"source_goes_tenmin",
+      "change_date":"2018-04-16T23:10:00Z"
+   },
+   {
+      "station_name":"Younger",
+      "station_id":"58e68caddf5ce600012602e0",
+      "table":"source_tenmin",
+      "change_date":"2018-05-09T19:00:00Z"
+   }
+]

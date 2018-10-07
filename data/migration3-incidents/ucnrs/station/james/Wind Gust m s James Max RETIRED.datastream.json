@@ -1,0 +1,148 @@
+{
+  "_id": "5ae87a84fe27f42469103125",
+  "description": "WindSonic 2D retired on May 2, 2017 and replaced with a RM Young 05103",
+  "enabled": false,
+  "name": "Wind Gust m s James Max RETIRED",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602c3",
+  "datapoints_config": [
+    {
+      "begins_at": "2010-01-01T06:30:00.000Z",
+      "ends_before": "2017-05-02T16:10:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3566,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3566",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "343",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Max_Wind_Gust",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "18",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Wind Gust MS",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "ucja_james",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_Speed",
+    "dt_Unit_MeterPerSecond",
+    "ds_Aggregate_Maximum"
+  ],
+  "created_at": "2018-07-02T01:08:03.008Z",
+  "updated_at": "2018-07-03T19:07:02.970Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Air",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Speed",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "m/s",
+        "label": "MeterPerSecond",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Maximum",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "8da73705956f50baaf01369295bd6db12c0f5c67"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "b7a7a9d8853d352b4fb578ac96fcbe6a9c2a8f43",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "ed410d68f80e0ee139fcd18c842f80a8f3dcf437",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

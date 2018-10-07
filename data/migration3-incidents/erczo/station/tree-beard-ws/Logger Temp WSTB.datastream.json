@@ -1,0 +1,140 @@
+{
+  "_id": "5ae87427fe27f421461025f8",
+  "description": "Wiring panel temperature. Used to make sure logger is within proper operating temperatures. Not valid for research use.",
+  "enabled": false,
+  "name": "Logger Temp WSTB",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602da",
+  "datapoints_config": [
+    {
+      "begins_at": "2008-11-13T01:55:00.000Z",
+      "ends_before": "2011-01-25T08:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 463,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "463",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "48",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "PTemp_Avg",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "28",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Logger Temp c",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "WSTB_CR1000",
+      "type": "loggernet.station"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Instrument",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius",
+    "ds_Aggregate_Average"
+  ],
+  "created_at": "2018-07-01T22:56:20.021Z",
+  "updated_at": "2018-07-03T19:03:00.273Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Instrument",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Temperature",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "degC",
+        "label": "DegreeCelsius",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "b7db56d4fa84bb62a0bc45ed765b5c97f0b4c811"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "a00cd78ae70ac32f48c827ab8787ce423d25e589",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "5795c6e74091f87a34b256903db271fcca161eee",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

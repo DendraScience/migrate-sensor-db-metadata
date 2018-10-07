@@ -1,0 +1,140 @@
+{
+  "_id": "5ae873f4fe27f429d2102507",
+  "derivation_description": "Derived Discharge",
+  "description": "Discharge m3/s calculated from GHQ gageheight DSID 3",
+  "enabled": true,
+  "name": "Discharge cms SF Eel",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602b0",
+  "datapoints_config": [
+    {
+      "begins_at": "2008-12-12T18:40:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 1480,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "1480",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "3",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "3",
+      "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "68",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Discharge",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "GHQ_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "GHQTable",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_SurfaceWater",
+    "ds_Variable_Discharge",
+    "dt_Unit_CubicMeterPerSecond"
+  ],
+  "created_at": "2018-07-01T22:53:58.876Z",
+  "updated_at": "2018-07-03T19:02:52.018Z",
+  "derived_from_datastream_ids": [
+    "5ae87422fe27f421a71025de"
+  ],
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "SurfaceWater",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Discharge",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "m^3/s",
+        "label": "CubicMeterPerSecond",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "b2b70040136ab2876d58a6e44fa2a6de751296c5"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "9a45bd977891367a32c3a35ed03681a63b953295",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "fcbf58707f879b0096decf195919a04d871f0e4b",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

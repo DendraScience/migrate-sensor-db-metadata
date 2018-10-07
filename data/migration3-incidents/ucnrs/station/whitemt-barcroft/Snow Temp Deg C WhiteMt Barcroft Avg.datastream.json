@@ -1,0 +1,135 @@
+{
+  "_id": "5ae879e9fe27f486d9102e84",
+  "description": "Range of values unknown since method type is also unknown, values entered are only a guess",
+  "enabled": true,
+  "name": "Snow Temp Deg C WhiteMt Barcroft Avg",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602dc",
+  "datapoints_config": [
+    {
+      "begins_at": "2003-11-01T23:40:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 4097,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "4097",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "361",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Avg_Snow_Temp",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "53",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Snow Temp Deg C Avg",
+      "type": "odm.stations.VariableCode"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Snow",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius",
+    "ds_Aggregate_Average"
+  ],
+  "created_at": "2018-07-02T01:07:09.956Z",
+  "updated_at": "2018-07-03T19:06:39.518Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Snow",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Temperature",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "degC",
+        "label": "DegreeCelsius",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "6924d9ab3294ab1c98024fe05b062acefb08cecf"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "4d8d635459dd1188acbd95052234644373106a34",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "5795c6e74091f87a34b256903db271fcca161eee",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

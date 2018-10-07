@@ -1,0 +1,162 @@
+{
+  "_id": "5ae879e5fe27f48042102e71",
+  "derivation_description": "Seasonal Monthly derived from legacy datastreamid 4145",
+  "description": "",
+  "enabled": true,
+  "name": "Relative Humidity Per Younger Avg Seasonal Maximum",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58e68caddf5ce600012602e0",
+  "datapoints_config": [
+    {
+      "begins_at": "2015-09-02T23:50:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 34145,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "34145",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "363",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "4145",
+      "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "79",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Rel Humidity Per Avg",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "ucyl_youngerlagoon",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_RelativeHumidity",
+    "dt_Unit_Percent",
+    "ds_Aggregate_Maximum",
+    "ds_Function_Seasonal"
+  ],
+  "created_at": "2018-07-02T01:07:08.488Z",
+  "updated_at": "2018-07-03T19:06:38.874Z",
+  "derived_from_datastream_ids": [
+    "5ae879e5fe27f43410102e73"
+  ],
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Air",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "RelativeHumidity",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "%",
+        "label": "Percent",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Maximum",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      },
+      {
+        "label": "Seasonal",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-function",
+        "vocabulary_label": "Function"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 4
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      },
+      {
+        "_id": "ds-function"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "f83159a2a549522d96bfac7dd21cac2e3b58ca41"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "05b09c937921b038900ca4bb94200760e3a9a020",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "2734b26dc0ddea857c1c6f650f5735cc8bb660eb",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

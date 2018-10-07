@@ -1,0 +1,140 @@
+{
+  "_id": "5ae87437fe27f4f100102641",
+  "derivation_description": "Conversion to 30-minute timesteps",
+  "description": "The WSHQ datalogger was malfunctioning from 2013-07-24 to 2014-02-25, causing timestamps to accelerate into the future, so values have been removed for this period.  See Incident Report 94.",
+  "enabled": true,
+  "name": "Rainfall mm WSHQ 30min",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602b1",
+  "datapoints_config": [
+    {
+      "begins_at": "2008-11-25T19:50:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 1622,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "1622",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "2",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "41",
+      "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "71",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Rainfall mm",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "WSHQ_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "AR_HWS",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Precipitation",
+    "ds_Variable_Height",
+    "dt_Unit_Millimeter"
+  ],
+  "created_at": "2018-07-01T22:57:25.216Z",
+  "updated_at": "2018-07-03T19:03:02.704Z",
+  "derived_from_datastream_ids": [
+    "5ae87438fe27f415ee102643"
+  ],
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Precipitation",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Height",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "mm",
+        "label": "Millimeter",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "ec5ff8d8bd8816c1d86d85bb5e3513166cb03f54"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "3915b0f6162c78b77c3df999d417f9444f5c407c",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "b0c7386b883ea89804e8613181308a0d15033964",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

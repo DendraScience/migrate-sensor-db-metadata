@@ -1,0 +1,138 @@
+{
+  "_id": "5ae87a8afe27f4ab4b10313e",
+  "enabled": false,
+  "name": "Wind Speed Deg McLaughlin Std",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602c5",
+  "datapoints_config": [
+    {
+      "begins_at": "2011-12-14T22:20:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3708,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3708",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "350",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Std_Dev_of_Wind_Speed",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "81",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Wind Speed Stdev MPH",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "ucmc_mclaughlin",
+      "type": "loggernet.station"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_Speed",
+    "dt_Unit_MilePerHour",
+    "ds_Aggregate_StandardDeviation"
+  ],
+  "created_at": "2018-07-02T01:08:04.690Z",
+  "updated_at": "2018-07-03T19:07:03.797Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Air",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Speed",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "mi/hr",
+        "label": "MilePerHour",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "StandardDeviation",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "77499be9a141cd9062b3f1a7a80b2cc3cde56761"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "3766c6f38700defc86ff74a55a9fa1311b27c630",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "fb5cb5e343b3026658ca95f5a4c87342cb047508",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

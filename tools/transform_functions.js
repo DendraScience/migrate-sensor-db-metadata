@@ -10,6 +10,27 @@ Functions for transforming Stations and Datastream JSON files
   "goes":"BEC025B0"
 }
 */
+
+exports.recurse_dir = function(dir,filepath_list,regex) {
+  // example use: tr.recurse_dir(start_path,filepath_list,RegExp(/^Precip((?!seasonal).)*$/i))
+  // regex starts with precip and excludes seasonal.
+  // filepath_list is a paired array of parent path and filename that is the returned values.
+  fs = require("fs")
+  path = require("path")
+  fs.readdirSync(dir).forEach(file => {
+    let full_path = path.join(dir, file)
+    if (fs.lstatSync(full_path).isDirectory()) {
+      exports.recurse_dir(full_path,filepath_list,regex)
+    } else {
+      if(regex == "") {
+        filepath_list.push([dir,file])
+      } else if(regex.test(file)) {
+        filepath_list.push([dir,file])
+      }
+    }  
+  })
+}
+
 exports.get_org_slug = function(organization_id) {
   // assumes specific file structure
   fs = require("fs")

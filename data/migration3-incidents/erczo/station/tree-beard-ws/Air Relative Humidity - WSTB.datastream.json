@@ -1,0 +1,128 @@
+{
+  "_id": "5ae873d2fe27f404c010246a",
+  "enabled": false,
+  "name": "Air Relative Humidity - WSTB",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602da",
+  "datapoints_config": [
+    {
+      "begins_at": "2008-11-13T01:55:00.000Z",
+      "ends_before": "2011-01-25T08:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 461,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "461",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "48",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "relhumidity_Avg",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "36",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Rel Humidity Perc",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "WSTB_CR1000",
+      "type": "loggernet.station"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Air",
+    "ds_Variable_RelativeHumidity",
+    "dt_Unit_Percent"
+  ],
+  "created_at": "2018-07-01T22:52:20.450Z",
+  "updated_at": "2018-07-03T19:02:46.424Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Air",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "RelativeHumidity",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "%",
+        "label": "Percent",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "b7db56d4fa84bb62a0bc45ed765b5c97f0b4c811"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "117d848dbde9ca5cb4c4fcf66be6e85dc2614e99",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "2734b26dc0ddea857c1c6f650f5735cc8bb660eb",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

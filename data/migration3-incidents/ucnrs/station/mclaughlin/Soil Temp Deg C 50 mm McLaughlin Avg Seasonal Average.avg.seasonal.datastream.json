@@ -1,0 +1,167 @@
+{
+  "_id": "5ae87a38fe27f4986e102fca",
+  "derivation_description": "Seasonal Monthly derived from legacy datastreamid 3731",
+  "description": "",
+  "enabled": false,
+  "name": "Soil Temp Deg C 50 mm McLaughlin Avg Seasonal Average",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602c5",
+  "datapoints_config": [
+    {
+      "begins_at": "2011-12-14T22:20:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 23731,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "23731",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "350",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "3731",
+      "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "85",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Soil Temp C Avg",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "ucmc_mclaughlin",
+      "type": "loggernet.station"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Soil",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius",
+    "ds_Aggregate_Average",
+    "ds_Function_Seasonal"
+  ],
+  "attributes": {
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": 0.05
+    }
+  },
+  "created_at": "2018-07-02T01:07:33.637Z",
+  "updated_at": "2018-07-03T19:06:51.025Z",
+  "derived_from_datastream_ids": [
+    "5ae87a38fe27f4b0bb102fcd"
+  ],
+  "attributes_info": {
+    "sort": {
+      "value1": 0.05,
+      "value2": 0
+    },
+    "text": "0.05"
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Soil",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Temperature",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "degC",
+        "label": "DegreeCelsius",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      },
+      {
+        "label": "Seasonal",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-function",
+        "vocabulary_label": "Function"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 4
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      },
+      {
+        "_id": "ds-function"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "77499be9a141cd9062b3f1a7a80b2cc3cde56761"
+    },
+    {
+      "key": "att",
+      "str": "538b5a461e9814aa2ce4c04cb37da50939de4b2c"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "004dcbcc365f7ca2e8d1352adccf6e3e37284d5f",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "5795c6e74091f87a34b256903db271fcca161eee",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

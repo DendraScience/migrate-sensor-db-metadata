@@ -1,0 +1,162 @@
+{
+  "_id": "5ae87a6cfe27f4c7fc1030b2",
+  "description": "",
+  "enabled": true,
+  "name": "Total Solar Radiation W m2 SNARL Std",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602d7",
+  "datapoints_config": [
+    {
+      "begins_at": "2012-07-11T19:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3911,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-25T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucsh_snarl",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"RS_kw_m2_Std\"*1000 as \"RS_w_m2_Std\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2018-04-25T00:00:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3911",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "356",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Std_Dev_Solar_Radiation",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "16",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Solar Radiation Std W/m^2",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "ucsh_snarl",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Solar",
+    "ds_Variable_Radiation",
+    "dt_Unit_WattPerSquareMeter",
+    "ds_Aggregate_StandardDeviation"
+  ],
+  "created_at": "2018-07-02T01:07:55.211Z",
+  "updated_at": "2018-07-03T19:06:59.143Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Solar",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Radiation",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "W/m^2",
+        "label": "WattPerSquareMeter",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "StandardDeviation",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "1cb75f1c94eb897aed3f3e5b0d1fe190794aabf7"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "2471488fbe1a2b117908ea07659e4c09929c00ab",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "4d1ef8d2d372f256104c186984a14d7b6d38ef8f",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

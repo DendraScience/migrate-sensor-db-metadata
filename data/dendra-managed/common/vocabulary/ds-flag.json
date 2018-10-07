@@ -1,0 +1,25 @@
+{
+  "_id": "ds-flag",
+  "label": "Flag",
+  "scheme_id": "ds",
+  "terms": [
+    {
+      "label": "CalibrationEvent",
+      "name": "Calibration Event"
+    },
+    {
+      "label": "Calibration Required",
+      "name": "Calibration Required"
+    },
+    {
+      "label": "Invalid"
+    },
+  	{
+  		"label": "NoData",
+  		"name": "No Data"
+  	},
+    {
+      "label": "Suspect"
+    }
+  ]
+}

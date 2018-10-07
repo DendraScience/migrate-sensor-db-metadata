@@ -1,0 +1,137 @@
+{
+  "_id": "5ae87437fe27f4b973102640",
+  "description": "Old rain bucket is no longer operational. See Incident Report 237",
+  "enabled": false,
+  "name": "Rainfall mm WSCP",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602bb",
+  "datapoints_config": [
+    {
+      "begins_at": "2008-09-18T20:15:00.000Z",
+      "ends_before": "2015-12-06T09:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 64,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "64",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "47",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "CWS_Rain_Tot",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "27",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Rainfall mm",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "WSCP_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "AR_CWS",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Precipitation",
+    "ds_Variable_Height",
+    "dt_Unit_Millimeter"
+  ],
+  "created_at": "2018-07-01T22:57:24.543Z",
+  "updated_at": "2018-07-03T19:03:02.672Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Precipitation",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Height",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "mm",
+        "label": "Millimeter",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 2
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "8551e5c470f60d2395da33c5f1044d3765fbcdc0"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "3915b0f6162c78b77c3df999d417f9444f5c407c",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "b0c7386b883ea89804e8613181308a0d15033964",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}

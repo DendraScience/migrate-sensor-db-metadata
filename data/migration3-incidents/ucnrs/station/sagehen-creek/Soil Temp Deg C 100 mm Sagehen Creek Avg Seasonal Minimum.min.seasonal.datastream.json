@@ -1,0 +1,175 @@
+{
+  "_id": "5ae87a09fe27f4f8e8102f0a",
+  "derivation_description": "Seasonal Monthly derived from legacy datastreamid 4187",
+  "description": "",
+  "enabled": true,
+  "name": "Soil Temp Deg C 100 mm Sagehen Creek Avg Seasonal Minimum",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602d1",
+  "datapoints_config": [
+    {
+      "begins_at": "1997-04-03T05:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 14187,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "14187",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "364",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "4187",
+      "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "85",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Soil Temp C Avg",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "sagh_sagehen",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Soil",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius",
+    "ds_Aggregate_Minimum",
+    "ds_Function_Seasonal"
+  ],
+  "attributes": {
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": 0.1
+    }
+  },
+  "created_at": "2018-07-02T01:07:19.546Z",
+  "updated_at": "2018-07-03T19:06:44.203Z",
+  "derived_from_datastream_ids": [
+    "5ae87a09fe27f4ff78102f0b"
+  ],
+  "attributes_info": {
+    "sort": {
+      "value1": 0.1,
+      "value2": 0
+    },
+    "text": "0.1"
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Soil",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Temperature",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "degC",
+        "label": "DegreeCelsius",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Minimum",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      },
+      {
+        "label": "Seasonal",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-function",
+        "vocabulary_label": "Function"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 4
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      },
+      {
+        "_id": "ds-function"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "6cc6f789699747d59f8b41beda379b991365b5da"
+    },
+    {
+      "key": "att",
+      "str": "6197fce17ba1b8b3470dbd8edddc6ca03b6e3a3a"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "a2dacdecb4c9d2e4766885299ffc1d0eb5c0101f",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "5795c6e74091f87a34b256903db271fcca161eee",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": []
+}
