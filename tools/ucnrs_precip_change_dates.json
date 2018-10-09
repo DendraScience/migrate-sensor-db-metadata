@@ -1,158 +1,288 @@
 [
    {
-      "station_name":"Quail Ridge",
+      "table":"source_tenmin",
+      "precip_old_date_end":"2018-04-21T23:20:00Z",
+      "cumprecip_old_date_start":"2017-06-07T21:00:00Z",
+      "precip_new_date_start":"2018-04-25T23:10:00Z",
       "station_id":"5a37e71ba546db0001547681",
-      "table":"source_tenmin",
-      "change_date":"2018-04-25T23:10:00Z"
+      "station_name":"Quail Ridge",
+      "cumprecip_new_date_start":"2018-04-25T23:10:00Z",
+      "precip_old_date_start":"2017-06-07T21:00:00Z",
+      "cumprecip_old_date_end":"2018-04-21T23:20:00Z"
    },
    {
-      "station_name":"Angelo South Meadow",
+      "table":"source_tenmin",
+      "precip_old_date_end":"2018-05-09T19:00:00Z",
+      "cumprecip_old_date_start":"2016-09-01T02:40:00Z",
+      "precip_new_date_start":"2018-05-09T19:10:00Z",
       "station_id":"58e68cabdf5ce600012602b3",
-      "table":"source_tenmin",
-      "change_date":"2018-05-09T19:10:00Z"
+      "station_name":"Angelo South Meadow",
+      "cumprecip_new_date_start":"2018-05-09T19:10:00Z",
+      "precip_old_date_start":"2016-09-01T02:40:00Z",
+      "cumprecip_old_date_end":"2018-05-09T19:00:00Z"
    },
    {
-      "station_name":"Anza Borrego",
+      "table":"source_tenmin",
+      "precip_old_date_end":"",
+      "cumprecip_old_date_start":"",
+      "precip_new_date_start":"2018-02-17T20:20:00Z",
       "station_id":"58e68cabdf5ce600012602b4",
-      "table":"source_tenmin",
-      "change_date":"2018-02-17T20:20:00Z"
+      "station_name":"Anza Borrego",
+      "cumprecip_new_date_start":"2018-02-17T20:20:00Z",
+      "precip_old_date_start":"",
+      "cumprecip_old_date_end":""
    },
    {
-      "station_name":"BigCreek Gatehouse",
+      "table":"source_tenmin",
+      "precip_old_date_end":"2018-05-03T00:00:00Z",
+      "cumprecip_old_date_start":"2016-09-14T18:10:00Z",
+      "precip_new_date_start":"2018-05-03T01:00:00Z",
       "station_id":"58e68cabdf5ce600012602b5",
-      "table":"source_tenmin",
-      "change_date":"2018-05-03T01:00:00Z"
+      "station_name":"BigCreek Gatehouse",
+      "cumprecip_new_date_start":"2018-05-03T01:00:00Z",
+      "precip_old_date_start":"2016-09-14T18:10:00Z",
+      "cumprecip_old_date_end":"2018-05-03T00:00:00Z"
    },
    {
-      "station_name":"Blue Oak Ranch",
+      "table":"source_tenmin",
+      "precip_old_date_end":"2018-04-22T09:10:00Z",
+      "cumprecip_old_date_start":"2016-08-08T21:20:00Z",
+      "precip_new_date_start":"2018-04-25T23:40:00Z",
       "station_id":"58e68cabdf5ce600012602b8",
-      "table":"source_tenmin",
-      "change_date":"2018-04-25T23:40:00Z"
+      "station_name":"Blue Oak Ranch",
+      "cumprecip_new_date_start":"2018-04-25T23:40:00Z",
+      "precip_old_date_start":"2016-08-08T21:20:00Z",
+      "cumprecip_old_date_end":"2018-04-22T09:10:00Z"
    },
    {
-      "station_name":"Bodega",
+      "table":"source_goes_tenmin",
+      "precip_old_date_end":"",
+      "cumprecip_old_date_start":"",
+      "precip_new_date_start":"2018-04-16T23:10:00Z",
       "station_id":"58e68cabdf5ce600012602b9",
-      "table":"source_goes_tenmin",
-      "change_date":"2018-04-16T23:10:00Z"
+      "station_name":"Bodega",
+      "cumprecip_new_date_start":"2018-04-16T23:10:00Z",
+      "precip_old_date_start":"",
+      "cumprecip_old_date_end":""
    },
    {
-      "station_name":"Burns",
+      "table":"source_goes_tenmin",
+      "precip_old_date_end":"",
+      "cumprecip_old_date_start":"",
+      "precip_new_date_start":"2018-04-16T23:10:00Z",
       "station_id":"58e68cabdf5ce600012602ba",
-      "table":"source_goes_tenmin",
-      "change_date":"2018-04-16T23:10:00Z"
+      "station_name":"Burns",
+      "cumprecip_new_date_start":"2018-04-16T23:10:00Z",
+      "precip_old_date_start":"",
+      "cumprecip_old_date_end":""
    },
    {
-      "station_name":"Chickering",
+      "table":"source_goes_tenmin",
+      "precip_old_date_end":"2018-07-09T23:00:00Z",
+      "cumprecip_old_date_start":"2018-04-16T23:10:00Z",
+      "precip_new_date_start":"2018-06-27T18:10:00Z",
       "station_id":"58e68cabdf5ce600012602bc",
-      "table":"source_goes_tenmin",
-      "change_date":"2018-06-27T18:10:00Z"
+      "station_name":"Chickering",
+      "cumprecip_new_date_start":"2018-06-27T18:10:00Z",
+      "precip_old_date_start":"2018-04-16T23:10:00Z",
+      "cumprecip_old_date_end":"2018-07-09T23:00:00Z"
    },
    {
-      "station_name":"Dawson",
+      "table":"source_goes_tenmin",
+      "precip_old_date_end":"2018-07-09T23:00:00Z",
+      "cumprecip_old_date_start":"2018-04-16T23:10:00Z",
+      "precip_new_date_start":"2018-06-27T18:10:00Z",
       "station_id":"5a9cd13b18af1700013b110a",
-      "table":"source_goes_tenmin",
-      "change_date":"2018-06-27T18:10:00Z"
+      "station_name":"Dawson",
+      "cumprecip_new_date_start":"2018-06-27T18:10:00Z",
+      "precip_old_date_start":"2018-04-16T23:10:00Z",
+      "cumprecip_old_date_end":"2018-07-09T23:00:00Z"
    },
    {
-      "station_name":"Deep Canyon",
+      "table":"source_tenmin",
+      "precip_old_date_end":"2018-05-16T22:10:00Z",
+      "cumprecip_old_date_start":"2016-10-05T16:50:00Z",
+      "precip_new_date_start":"2018-05-17T01:20:00Z",
       "station_id":"58e68cabdf5ce600012602bd",
-      "table":"source_tenmin",
-      "change_date":"2018-05-17T01:20:00Z"
+      "station_name":"Deep Canyon",
+      "cumprecip_new_date_start":"2018-05-17T01:20:00Z",
+      "precip_old_date_start":"2016-10-05T16:50:00Z",
+      "cumprecip_old_date_end":"2018-05-16T22:10:00Z"
    },
    {
-      "station_name":"Elliott",
+      "table":"source_tenmin",
+      "precip_old_date_end":"2018-05-18T17:10:00Z",
+      "cumprecip_old_date_start":"2016-08-25T18:20:00Z",
+      "precip_new_date_start":"2018-05-18T22:20:00Z",
       "station_id":"58e68cabdf5ce600012602be",
-      "table":"source_tenmin",
-      "change_date":"2018-05-18T22:20:00Z"
+      "station_name":"Elliott",
+      "cumprecip_new_date_start":"2018-05-18T22:20:00Z",
+      "precip_old_date_start":"2016-08-25T18:20:00Z",
+      "cumprecip_old_date_end":"2018-05-18T17:10:00Z"
    },
    {
-      "station_name":"Fort Ord",
+      "table":"source_tenmin",
+      "precip_old_date_end":"",
+      "cumprecip_old_date_start":"",
+      "precip_new_date_start":"2018-02-09T23:10:00Z",
       "station_id":"58e68cabdf5ce600012602bf",
-      "table":"source_tenmin",
-      "change_date":"2018-02-09T23:10:00Z"
+      "station_name":"Fort Ord",
+      "cumprecip_new_date_start":"2018-05-02T20:30:00Z",
+      "precip_old_date_start":"",
+      "cumprecip_old_date_end":""
    },
    {
-      "station_name":"Granites",
+      "table":"source_goes_tenmin",
+      "precip_old_date_end":"",
+      "cumprecip_old_date_start":"",
+      "precip_new_date_start":"2018-04-16T23:10:00Z",
       "station_id":"58e68cabdf5ce600012602c0",
-      "table":"source_goes_tenmin",
-      "change_date":"2018-04-16T23:10:00Z"
+      "station_name":"Granites",
+      "cumprecip_new_date_start":"2018-04-16T23:10:00Z",
+      "precip_old_date_start":"",
+      "cumprecip_old_date_end":""
    },
    {
-      "station_name":"Hastings",
+      "table":"source_tenmin",
+      "precip_old_date_end":"2018-05-09T18:40:00Z",
+      "cumprecip_old_date_start":"2016-08-08T21:10:00Z",
+      "precip_new_date_start":"2018-05-09T18:50:00Z",
       "station_id":"58e68cabdf5ce600012602c1",
-      "table":"source_tenmin",
-      "change_date":"2018-05-09T18:50:00Z"
+      "station_name":"Hastings",
+      "cumprecip_new_date_start":"2018-05-09T18:50:00Z",
+      "precip_old_date_start":"2016-08-08T21:10:00Z",
+      "cumprecip_old_date_end":"2018-05-09T18:40:00Z"
    },
    {
-      "station_name":"James",
+      "table":"source_tenmin",
+      "precip_old_date_end":"2018-07-05T20:10:00Z",
+      "cumprecip_old_date_start":"2017-05-05T02:00:00Z",
+      "precip_new_date_start":"2018-07-05T21:10:00Z",
       "station_id":"58e68cacdf5ce600012602c3",
-      "table":"source_tenmin",
-      "change_date":"2018-07-05T21:10:00Z"
+      "station_name":"James",
+      "cumprecip_new_date_start":"2018-07-05T21:10:00Z",
+      "precip_old_date_start":"2017-05-05T02:00:00Z",
+      "cumprecip_old_date_end":"2018-07-05T20:10:00Z"
    },
    {
-      "station_name":"Jepson",
+      "table":"source_goes_tenmin",
+      "precip_old_date_end":"",
+      "cumprecip_old_date_start":"",
+      "precip_new_date_start":"2018-04-16T23:10:00Z",
       "station_id":"58e68cacdf5ce600012602c4",
-      "table":"source_goes_tenmin",
-      "change_date":"2018-04-16T23:10:00Z"
+      "station_name":"Jepson",
+      "cumprecip_new_date_start":"2018-04-16T23:10:00Z",
+      "precip_old_date_start":"",
+      "cumprecip_old_date_end":""
    },
    {
-      "station_name":"Motte",
+      "table":"source_tenmin",
+      "precip_old_date_end":"2018-07-10T15:10:00Z",
+      "cumprecip_old_date_start":"2016-08-08T21:20:00Z",
+      "precip_new_date_start":"2018-07-10T18:40:00Z",
       "station_id":"58e68cacdf5ce600012602c6",
-      "table":"source_tenmin",
-      "change_date":"2018-07-10T18:40:00Z"
+      "station_name":"Motte",
+      "cumprecip_new_date_start":"2018-07-10T18:40:00Z",
+      "precip_old_date_start":"2016-08-08T21:20:00Z",
+      "cumprecip_old_date_end":"2018-07-10T15:10:00Z"
    },
    {
-      "station_name":"Rancho Marino",
+      "table":"source_tenmin",
+      "precip_old_date_end":"2018-04-21T09:40:00Z",
+      "cumprecip_old_date_start":"2017-07-27T19:50:00Z",
+      "precip_new_date_start":"2018-04-24T17:10:00Z",
       "station_id":"58e68cacdf5ce600012602c7",
-      "table":"source_tenmin",
-      "change_date":"2018-04-24T17:10:00Z"
+      "station_name":"Rancho Marino",
+      "cumprecip_new_date_start":"2018-04-24T17:10:00Z",
+      "precip_old_date_start":"2017-07-27T19:50:00Z",
+      "cumprecip_old_date_end":"2018-04-21T09:40:00Z"
    },
    {
-      "station_name":"Santa Cruz Island",
+      "table":"source_tenmin",
+      "precip_old_date_end":"2018-05-08T20:10:00Z",
+      "cumprecip_old_date_start":"2016-08-08T18:40:00Z",
+      "precip_new_date_start":"2018-05-08T21:30:00Z",
       "station_id":"58e68cacdf5ce600012602d3",
-      "table":"source_tenmin",
-      "change_date":"2018-05-08T21:30:00Z"
+      "station_name":"Santa Cruz Island",
+      "cumprecip_new_date_start":"2018-05-08T21:30:00Z",
+      "precip_old_date_start":"2016-08-08T18:40:00Z",
+      "cumprecip_old_date_end":"2018-05-08T20:10:00Z"
    },
    {
-      "station_name":"Sedgwick",
+      "table":"source_tenmin",
+      "precip_old_date_end":"",
+      "cumprecip_old_date_start":"",
+      "precip_new_date_start":"2018-04-11T16:20:00Z",
       "station_id":"58e68cacdf5ce600012602d6",
-      "table":"source_tenmin",
-      "change_date":"2018-04-11T16:20:00Z"
+      "station_name":"Sedgwick",
+      "cumprecip_new_date_start":"2018-04-11T16:20:00Z",
+      "precip_old_date_start":"",
+      "cumprecip_old_date_end":""
    },
    {
-      "station_name":"SNARL",
+      "table":"source_tenmin",
+      "precip_old_date_end":"2018-05-23T15:10:00Z",
+      "cumprecip_old_date_start":"2016-09-19T07:50:00Z",
+      "precip_new_date_start":"2018-05-23T20:30:00Z",
       "station_id":"58e68cacdf5ce600012602d7",
-      "table":"source_tenmin",
-      "change_date":"2018-05-23T20:30:00Z"
+      "station_name":"SNARL",
+      "cumprecip_new_date_start":"2018-05-23T20:30:00Z",
+      "precip_old_date_start":"2016-09-19T07:50:00Z",
+      "cumprecip_old_date_end":"2018-05-23T15:10:00Z"
    },
    {
-      "station_name":"Stunt Ranch",
+      "table":"source_goes_tenmin",
+      "precip_old_date_end":"",
+      "cumprecip_old_date_start":"",
+      "precip_new_date_start":"2018-04-16T23:10:00Z",
       "station_id":"58e68cacdf5ce600012602d9",
-      "table":"source_goes_tenmin",
-      "change_date":"2018-04-16T23:10:00Z"
+      "station_name":"Stunt Ranch",
+      "cumprecip_new_date_start":"2018-04-16T23:10:00Z",
+      "precip_old_date_start":"",
+      "cumprecip_old_date_end":""
    },
    {
-      "station_name":"WhiteMt Barcroft",
+      "table":"source_goes_tenmin",
+      "precip_old_date_end":"",
+      "cumprecip_old_date_start":"",
+      "precip_new_date_start":"2018-04-16T23:10:00Z",
       "station_id":"58e68cacdf5ce600012602dc",
-      "table":"source_goes_tenmin",
-      "change_date":"2018-04-16T23:10:00Z"
+      "station_name":"WhiteMt Barcroft",
+      "cumprecip_new_date_start":"2018-04-16T23:10:00Z",
+      "precip_old_date_start":"",
+      "cumprecip_old_date_end":""
    },
    {
-      "station_name":"WhiteMt Crooked",
+      "table":"source_goes_tenmin",
+      "precip_old_date_end":"",
+      "cumprecip_old_date_start":"",
+      "precip_new_date_start":"2018-04-16T23:10:00Z",
       "station_id":"58e68cacdf5ce600012602dd",
-      "table":"source_goes_tenmin",
-      "change_date":"2018-04-16T23:10:00Z"
+      "station_name":"WhiteMt Crooked",
+      "cumprecip_new_date_start":"2018-04-16T23:10:00Z",
+      "precip_old_date_start":"",
+      "cumprecip_old_date_end":""
    },
    {
-      "station_name":"WhiteMt Summit",
+      "table":"source_goes_tenmin",
+      "precip_old_date_end":"",
+      "cumprecip_old_date_start":"",
+      "precip_new_date_start":"2018-04-16T23:10:00Z",
       "station_id":"58e68caddf5ce600012602de",
-      "table":"source_goes_tenmin",
-      "change_date":"2018-04-16T23:10:00Z"
+      "station_name":"WhiteMt Summit",
+      "cumprecip_new_date_start":"2018-04-16T23:10:00Z",
+      "precip_old_date_start":"",
+      "cumprecip_old_date_end":""
    },
    {
-      "station_name":"Younger",
-      "station_id":"58e68caddf5ce600012602e0",
       "table":"source_tenmin",
-      "change_date":"2018-05-09T19:00:00Z"
+      "precip_old_date_end":"2018-05-09T18:50:00Z",
+      "cumprecip_old_date_start":"2016-09-20T09:00:00Z",
+      "precip_new_date_start":"2018-05-09T19:00:00Z",
+      "station_id":"58e68caddf5ce600012602e0",
+      "station_name":"Younger",
+      "cumprecip_new_date_start":"2018-05-09T19:00:00Z",
+      "precip_old_date_start":"2016-09-20T09:00:00Z",
+      "cumprecip_old_date_end":"2018-05-09T18:50:00Z"
    }
 ]
