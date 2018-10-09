@@ -18,7 +18,7 @@
         }
       },
       "path": "/legacy/datavalues-ucnrs",
-      "ends_before": "2018-04-25T00:00:00.000Z"
+      "ends_before": "2016-09-20T09:00:00Z"
     },
     {
       "params": {
@@ -26,13 +26,26 @@
           "api": "ucnrs",
           "db": "station_ucyl_youngerlagoon",
           "fc": "source_tenmin",
-          "sc": "\"time\", \"PCPN_intrvl_Tot\",\"PCPN_in_Tot\"",
-          "utc_offset": -28800,
-          "coalesce": true
+          "sc": "\"time\", \"PCPN_intrvl_Tot\"",
+          "utc_offset": -28800
         }
       },
-      "begins_at": "2018-04-25T00:00:00.000Z",
+      "begins_at": "2018-05-09T19:00:00Z",
       "path": "/influx/select"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucyl_youngerlagoon",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"PCPN_in_Tot\" * 25.4 AS \"PCPN_intrvl_Tot\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2016-09-20T09:00:00Z",
+      "path": "/influx/select",
+      "ends_before": "2018-05-09T18:50:00Z"
     }
   ],
   "external_refs": [

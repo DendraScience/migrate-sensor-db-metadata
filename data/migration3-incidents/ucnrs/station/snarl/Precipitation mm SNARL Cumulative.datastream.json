@@ -1,6 +1,6 @@
 {
   "_id": "5ae879bcfe27f4058e102dba",
-  "description": "This is a DRI derived datastream, the upper value threshold is unknown but was set at 10,000",
+  "description": "Cumulative precipitation is the total rainfall from October 1 to the timetamp of recording. It is reset every Oct. 1. This is done on logger.",
   "enabled": true,
   "name": "Precipitation mm SNARL Cumulative",
   "organization_id": "58db17c424dc720001671378",
@@ -18,7 +18,7 @@
         }
       },
       "path": "/legacy/datavalues-ucnrs",
-      "ends_before": "2018-04-25T00:00:00.000Z"
+      "ends_before": "2016-09-19T07:50:00Z"
     },
     {
       "params": {
@@ -26,13 +26,26 @@
           "api": "ucnrs",
           "db": "station_ucsh_snarl",
           "fc": "source_tenmin",
-          "sc": "\"time\", \"PCPN_accumulated\",\"PCPN_tot\"",
-          "utc_offset": -28800,
-          "coalesce": true
+          "sc": "\"time\", \"PCPN_accumulated\"",
+          "utc_offset": -28800
         }
       },
-      "begins_at": "2018-04-25T00:00:00.000Z",
+      "begins_at": "2018-05-23T20:30:00Z",
       "path": "/influx/select"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucsh_snarl",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"PCPN_tot\" * 25.4 AS \"PCPN_accumulated\"",
+          "utc_offset": -28800
+        }
+      },
+      "begins_at": "2016-09-19T07:50:00Z",
+      "path": "/influx/select",
+      "ends_before": "2018-05-23T15:10:00Z"
     }
   ],
   "external_refs": [

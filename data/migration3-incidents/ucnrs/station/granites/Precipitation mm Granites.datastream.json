@@ -18,7 +18,7 @@
         }
       },
       "path": "/legacy/datavalues-ucnrs",
-      "ends_before": "2018-04-25T00:00:00.000Z"
+      "ends_before": "2018-04-16T23:10:00Z"
     },
     {
       "params": {
@@ -26,12 +26,11 @@
           "api": "ucnrs",
           "db": "station_ucgr_granites",
           "fc": "source_goes_tenmin",
-          "sc": "\"time\", \"PCPN_intrvl_Tot\",\"PCPN_in_Tot\"",
-          "utc_offset": -28800,
-          "coalesce": true
+          "sc": "\"time\", \"PCPN_intrvl_Tot\"",
+          "utc_offset": -28800
         }
       },
-      "begins_at": "2018-04-17T00:00:00.000Z",
+      "begins_at": "2018-04-16T23:10:00Z",
       "path": "/influx/select"
     }
   ],
