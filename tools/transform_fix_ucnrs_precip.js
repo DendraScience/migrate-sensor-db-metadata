@@ -3,16 +3,13 @@
  @author: Collin Bode
  @date: 2018-10-06
  Purpose: precipitation mixes inches with millimeters. Goes through all the datastreams and fixes this by creating two influx configs. one converts inches to millimeters.
- Requires: 
- 	File: ucnrs_precip_change_dates.json 
-	Directions: must manually update metadata.
-		cd ~/git/migrate-sensor-db-metadata/data/migration3-incidents/ucnrs/station
-	 den meta update-datastreams --filespec=*Precip*datastream.json
+ Requires: ucnrs_precip_change_dates.json file 
  Exceptions:  too many variables to engineer in short time period. The following require manual adjustment.
-	 Fort Ord: Change the start date for cumulative and for legacy
-		pnew_start: 2018-02-09T23:10:00Z
-	  cpnew_start: 2018-05-02T20:30:00Z
-	 SNARL: GEONAR requires attribute change to distinguish between gages
+ Fort Ord: Change the start date for cumulative and for legacy
+	pnew_start: 2018-02-09T23:10:00Z
+  cpnew_start: 2018-05-02T20:30:00Z
+
+
 */
 
 fs = require("fs")
@@ -49,7 +46,6 @@ for (var l=0;l<filepath_list.length;l++) {
 	console.log("FILE:",file)
 
 	// Backup JSON file in case of fuckups
-	ds_json_string = JSON.stringify(ds,null,2)
 	fs.writeFileSync("../compost/temp_backup_precip/"+file,ds_json_string,'utf-8')
 
 	// Get the InfluxDB dates for pre-core fields and core fields
@@ -176,10 +172,10 @@ for (var l=0;l<filepath_list.length;l++) {
 
 	// If changes have been made to file, export
 	if(boo_write_to_file == true) {
-		console.log("\t Processed! InfluxDB config_points changed. Writing FILE:",file)
 		ds_json_string = JSON.stringify(ds,null,2)
-		fs.writeFileSync(full_path,ds_json_string,'utf-8')
+		console.log("\t Processed! InfluxDB config_points changed. Writing FILE:",file)
 		//fs.writeFileSync("../compost/temp_precip/"+file,ds_json_string,'utf-8')
+		fs.writeFileSync(full_path,ds_json_string,'utf-8')
 	}
 	//console.log(ds.name,ds.datapoints_config)
 }

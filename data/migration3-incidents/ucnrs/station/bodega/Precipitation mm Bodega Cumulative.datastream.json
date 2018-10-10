@@ -1,6 +1,6 @@
 {
   "_id": "5ae879b2fe27f4af6d102d8a",
-  "description": "Cumulative precipitation is the total rainfall from October 1 to the timetamp of recording. It is reset every Oct. 1. This is done on logger.",
+  "description": "This is a DRI derived datastream, the upper value threshold is unknown but was set at 10,000",
   "enabled": true,
   "name": "Precipitation mm Bodega Cumulative",
   "organization_id": "58db17c424dc720001671378",
@@ -18,7 +18,7 @@
         }
       },
       "path": "/legacy/datavalues-ucnrs",
-      "ends_before": "2018-04-16T23:10:00Z"
+      "ends_before": "2018-04-25T00:00:00.000Z"
     },
     {
       "params": {
@@ -26,11 +26,12 @@
           "api": "ucnrs",
           "db": "station_ucbm_bodega",
           "fc": "source_goes_tenmin",
-          "sc": "\"time\", \"PCPN_accumulated\"",
-          "utc_offset": -28800
+          "sc": "\"time\", \"PCPN_accumulated\",\"PCPN_tot\"",
+          "utc_offset": -28800,
+          "coalesce": true
         }
       },
-      "begins_at": "2018-04-16T23:10:00Z",
+      "begins_at": "2018-04-17T00:00:00.000Z",
       "path": "/influx/select"
     }
   ],

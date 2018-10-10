@@ -1,6 +1,6 @@
 {
   "_id": "5ae879b5fe27f4282d102d99",
-  "description": "Cumulative precipitation is the total rainfall from October 1 to the timetamp of recording. It is reset every Oct. 1. This is done on logger.",
+  "description": "Upper valid value range is only a guess - this is a derived DRI variable",
   "enabled": true,
   "name": "Precipitation mm Fort Ord Cumulative",
   "organization_id": "58db17c424dc720001671378",
@@ -18,7 +18,7 @@
         }
       },
       "path": "/legacy/datavalues-ucnrs",
-      "ends_before": "2018-05-02T20:30:00Z"
+      "ends_before": "2018-04-25T00:00:00.000Z"
     },
     {
       "params": {
@@ -26,11 +26,12 @@
           "api": "ucnrs",
           "db": "station_fonr_fortord",
           "fc": "source_tenmin",
-          "sc": "\"time\", \"PCPN_accumulated\"",
-          "utc_offset": -28800
+          "sc": "\"time\", \"PCPN_accumulated\",\"PCPN_tot\"",
+          "utc_offset": -28800,
+          "coalesce": true
         }
       },
-      "begins_at": "2018-05-02T20:30:00Z",
+      "begins_at": "2018-04-25T00:00:00.000Z",
       "path": "/influx/select"
     }
   ],

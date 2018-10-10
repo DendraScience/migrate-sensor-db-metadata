@@ -18,7 +18,7 @@
         }
       },
       "path": "/legacy/datavalues-ucnrs",
-      "ends_before": "2016-08-08T18:40:00Z"
+      "ends_before": "2018-04-25T00:00:00.000Z"
     },
     {
       "params": {
@@ -26,26 +26,13 @@
           "api": "ucnrs",
           "db": "station_ucsc_santacruzisle",
           "fc": "source_tenmin",
-          "sc": "\"time\", \"PCPN_intrvl_Tot\"",
-          "utc_offset": -28800
+          "sc": "\"time\", \"PCPN_intrvl_Tot\",\"PCPN_in_Tot\"",
+          "utc_offset": -28800,
+          "coalesce": true
         }
       },
-      "begins_at": "2018-05-08T21:30:00Z",
+      "begins_at": "2018-04-25T00:00:00.000Z",
       "path": "/influx/select"
-    },
-    {
-      "params": {
-        "query": {
-          "api": "ucnrs",
-          "db": "station_ucsc_santacruzisle",
-          "fc": "source_tenmin",
-          "sc": "\"time\", \"PCPN_in_Tot\" * 25.4 AS \"PCPN_intrvl_Tot\"",
-          "utc_offset": -28800
-        }
-      },
-      "begins_at": "2016-08-08T18:40:00Z",
-      "path": "/influx/select",
-      "ends_before": "2018-05-08T20:10:00Z"
     }
   ],
   "external_refs": [
