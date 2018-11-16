@@ -1,0 +1,49 @@
+{
+  "begins_at": "2009-12-09T00:45:00.000Z",
+  "ends_before": "2010-01-08T22:30:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Changed delay time on logger",
+  "description": "Weather station Cahto Peak had incorrect delay time after powering up sensors for measuring barometric pressure.  Delay time was too short at 150 milliseconds.  It is now 1 second.   Period affected:  12/8/2009 16:45 to 1/8/2010 14:30 Comments:[1/11/2010 Ginger] Flagged 38,558 datavalues where station is Cahto Peak and LocalDateTime > '2009-12-08 16:45' and LocalDateTime < '2010-01-08 14:30:00'",
+  "created_by": "Collin Bode",
+  "created_at": "2010-01-08T08:00:00.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "P"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cabdf5ce600012602bb"
+  ],
+  "datastream_ids": [],
+  "external_refs": [
+    {
+      "identifier": 7,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Cahto Peak WS",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 18,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "P IR_7",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Passed sanity check; see incident report IR_7",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

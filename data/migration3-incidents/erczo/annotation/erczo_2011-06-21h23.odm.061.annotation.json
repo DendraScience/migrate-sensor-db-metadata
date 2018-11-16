@@ -1,0 +1,52 @@
+{
+  "begins_at": "2011-06-17T07:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Well 2 is dry",
+  "description": "Well 2 is dry so Pressure mV is coming in as negative. Comments:undefined",
+  "created_by": "Ginger Ogle",
+  "created_at": "2011-06-21T23:16:31.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602cb"
+  ],
+  "datastream_ids": [
+    "5ae8770afe27f4ceac102ab4",
+    "5ae8770afe27f4b53c102ab7"
+  ],
+  "external_refs": [
+    {
+      "identifier": 61,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 2_2",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "382,1329",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 84,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_61",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Invalid Data - dry well; see incident report IR_61",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "begins_at": "2010-01-19T23:18:54.000Z",
+  "ends_before": "2010-01-19T23:18:54.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Water Damage to Multiplexer",
+  "description": "The multiplexer labelled 'L3-1' was sitting in a pool of water. We drained the bag and tried to position the multiplexer in a way that would minimize exposure to rain. Comments:undefined",
+  "created_by": "Kevin Simonin",
+  "created_at": "2010-01-19T23:18:54.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "U"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602cd",
+    "58e68cacdf5ce600012602ce"
+  ],
+  "datastream_ids": [],
+  "external_refs": [
+    {
+      "identifier": 14,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 3_1,Riv Level 3_2",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 29,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "U IR_14",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Unchecked value; see incident report IR_14",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

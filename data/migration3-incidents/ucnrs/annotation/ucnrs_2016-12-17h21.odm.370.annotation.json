@@ -1,0 +1,55 @@
+{
+  "begins_at": "2016-10-19T21:20:00.000Z",
+  "ends_before": "2016-10-20T23:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "SNARL GeoNor service",
+  "description": "GeoNor sensor service requires removing accumulated precipitation from catchment,  cleaning and partial refilling of the catchment with antifreeze and light oil (as an  evaporation control). Mass after the service is the new precipitation baseline.",
+  "created_by": "Jim Norris",
+  "created_at": "2016-12-17T21:26:28.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602d7"
+  ],
+  "datastream_ids": [
+    "5ae879acfe27f49de7102d6f",
+    "5ae879acfe27f47f90102d71",
+    "5ae879adfe27f4e744102d73",
+    "5ae879aefe27f41596102d77"
+  ],
+  "external_refs": [
+    {
+      "identifier": 370,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "SNARL",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "3143, 3142, 3144, 3146",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 322,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_370",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "SNARL GeoNor service; see incident report IR_370",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

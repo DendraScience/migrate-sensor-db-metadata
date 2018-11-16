@@ -1,0 +1,33 @@
+{
+  "begins_at": "2018-01-10 13:20:00",
+  "ends_before": "2018-01-10 15:30:00",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "Tipping bucket audit tests",
+  "description": "Performed tipping bucket test with known amount of water Comments:undefined",
+  "created_by": "Wendy Baxter",
+  "created_at": "2018-01-10 13:20:00",
+  "actions": [
+    {
+      "method": "exclude"
+    }
+  ],
+  "station_ids": [
+    "58e68cabdf5ce600012602b9"
+  ],
+  "datastream_ids": [
+    "5ae879b2fe27f4e632102d8c",
+    "5ae879b2fe27f4af6d102d8a",
+    "5ae879c0fe27f43700102dcd"
+  ],
+  "external_refs": [
+    {
+      "identifier": "Bodega",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "rain",
+      "type": "odm.incidents.Datastream_Names"
+    }
+  ]
+}

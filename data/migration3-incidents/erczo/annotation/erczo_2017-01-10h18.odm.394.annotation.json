@@ -1,0 +1,57 @@
+{
+  "begins_at": "2017-01-06T17:00:00.000Z",
+  "ends_before": "2017-01-07T02:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Pressure Transducer Removed",
+  "description": "Profiling and sampling",
+  "created_by": "Samantha Cargill",
+  "created_at": "2017-01-10T18:34:55.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602cb"
+  ],
+  "datastream_ids": [
+    "5ae8770bfe27f4f724102abb",
+    "5ae8770cfe27f42e28102abe",
+    "5ae8770cfe27f41f2c102abd",
+    "5ae8770bfe27f42446102abc",
+    "5ae8770cfe27f415ea102ac1",
+    "5ae8770cfe27f4e44a102abf"
+  ],
+  "external_refs": [
+    {
+      "identifier": 394,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 2_2",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "all Well 3 datastreams",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 346,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_394",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Pressure Transducer Removed; see incident report IR_394",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "begins_at": "2009-09-11T19:00:51.000Z",
+  "ends_before": "2009-09-11T19:00:51.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "RH sensor moved",
+  "description": "The relative humidity sensor at level one was located under a blue tarp.  It is now covered by a radiation shield and mounted ~3.5 feet from the forest floor, ~10 feet east of the datalogger boxes.  The relative humidity sensor at level 2 was located in a pvc pipe next to the ground.  It is now covered by a radiation sensor and mounted ~3.5 feet from the forest floor, ~ 10 feet west of the datalogger boxes.  The relative humidity sensor at level 3 was located under the wood enclosure. It is now covered by a radiation shield and mounted ~3.5 feet from the forest floor next to the data logger boxes.   Comments:[1/25/2010 Ginger] Flagged 48 datavalues where (LocalDateTime >= '2009-09-11 08:00:51' and LocalDateTime <= '2009-09-11 16:00:51') and (DatastreamID=376 or DatastreamID=378 or DatastreamID=388)",
+  "created_by": "Kevin Simonin",
+  "created_at": "2010-01-19T23:11:51.000Z",
+  "actions": [],
+  "station_ids": [
+    "58e68cacdf5ce600012602c9",
+    "58e68cacdf5ce600012602cb",
+    "58e68cacdf5ce600012602ce"
+  ],
+  "datastream_ids": [
+    "5ae873cffe27f4512010245b",
+    "5ae873d0fe27f4e5d6102460",
+    "5ae873d1fe27f40bb7102465"
+  ],
+  "external_refs": [
+    {
+      "identifier": 13,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 1_2,Riv Level 2_2,Riv Level 3_2",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "376, 378, 388",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "begins_at": "2015-10-01T07:00:00.000Z",
+  "ends_before": "2016-09-30T07:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "L5 cumulative rainfall invalid for 2016 water year",
+  "description": "Cumulative rainfall is missing data from 2015-10-01 to 2016-01-08.  As a result, it will under-record cumulative rainfall for the rest of the water year. ",
+  "created_by": "Collin Bode",
+  "created_at": "2016-01-11T16:52:35.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602d0"
+  ],
+  "datastream_ids": [
+    "5ae8742cfe27f4a61810260f"
+  ],
+  "external_refs": [
+    {
+      "identifier": 245,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 5_1",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "DSID 1792 Rainfall Cumulative mm TB4 Level 5",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 203,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_245",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "L5 cumulative rainfall invalid for 2016 water year; see incident report IR_245",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

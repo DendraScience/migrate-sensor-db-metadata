@@ -1,0 +1,46 @@
+{
+  "begins_at": "2016-02-14T01:28:00.000Z",
+  "ends_before": "2016-02-14T01:28:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Well Water Level Measurement Taken",
+  "description": "press sensor depth may have shifted check results Comments:value for this timestamp was flagged",
+  "created_by": "Jim Bishop",
+  "created_at": "2016-04-05T07:00:00.000Z",
+  "actions": [],
+  "station_ids": [
+    "58e68cacdf5ce600012602c9"
+  ],
+  "datastream_ids": [
+    "5ae87702fe27f42f58102a8c",
+    "5ae87702fe27f4a733102a8f",
+    "5ae87702fe27f4409a102a8d",
+    "5ae87703fe27f4423c102a91",
+    "5ae87703fe27f4c1d7102a93",
+    "5ae87702fe27f4866e102a8e",
+    "5ae87703fe27f43474102a92"
+  ],
+  "external_refs": [
+    {
+      "identifier": 265,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 1_2",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "Well 1 Water Level m Manual",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

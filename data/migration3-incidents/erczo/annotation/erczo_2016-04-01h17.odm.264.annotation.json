@@ -1,0 +1,49 @@
+{
+  "begins_at": "2015-06-25T07:00:00.000Z",
+  "ends_before": "2016-04-01T18:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "WSSR rain gage code correction",
+  "description": "TB4 rain gage is 0.1 inches model, not metric mm model.  Code on logger assumed metric incorrectly.  New code was uploaded to fix this error. Multiplier 0.254 replaced incorrect 0.2.     CRBasic code PulseCount(WSSR_Rain_mm,1,1,2,0,0.254,0)  All prior values needed to be shifted as follows:   Precip_new = Precip_old / 0.7874015748 ",
+  "created_by": "Collin Bode",
+  "created_at": "2016-04-01T17:31:59.000Z",
+  "actions": [
+    {
+      "flags": [
+        "P"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602d2"
+  ],
+  "datastream_ids": [
+    "5ae87435fe27f4e05e10263a"
+  ],
+  "external_refs": [
+    {
+      "identifier": 264,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Sagehorn Ranch WS",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "DSID 2959 Rainfall mm TB4 WSSR, DSID 3048 Rainfall Cumulative mm Sagehorn",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 222,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "P IR_264",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Passed sanity check; see incident report IR_264",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

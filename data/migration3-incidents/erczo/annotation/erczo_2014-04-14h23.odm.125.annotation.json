@@ -1,0 +1,53 @@
+{
+  "begins_at": "2014-04-10T20:45:00.000Z",
+  "ends_before": "2014-04-10T20:47:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Level 1 Rain Gauge",
+  "description": "Toggled the level 1 rain gauge to see if a response would register. There was no rain today. The wiring in the logger is correct.",
+  "created_by": "Chris Wong",
+  "created_at": "2014-04-14T23:42:24.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602c9"
+  ],
+  "datastream_ids": [
+    "5ae87430fe27f472da102623",
+    "5ae87430fe27f46d62102621"
+  ],
+  "external_refs": [
+    {
+      "identifier": 125,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 1_2",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "389,1616",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 139,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_125",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Level 1 Rain Gauge; see incident report IR_125",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

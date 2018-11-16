@@ -1,0 +1,51 @@
+{
+  "begins_at": "2013-02-27T00:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Barometer has failed",
+  "description": "Barometer crapped out.  No other instruments seem to be affected.  All data from this point on should be flagged as bad.  Barometer datastream should be given an end date and no longer parsed.  47 = BP Angelo Meadow 1608 = BP Angelo Meadow 30min ",
+  "created_by": "Collin Bode",
+  "created_at": "2013-03-02T08:00:00.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cabdf5ce600012602b2"
+  ],
+  "datastream_ids": [
+    "5ae873edfe27f433331024e7"
+  ],
+  "external_refs": [
+    {
+      "identifier": 90,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Angelo Meadow WS",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "47 ",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 113,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_90",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Invalid Data; see incident report IR_90",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

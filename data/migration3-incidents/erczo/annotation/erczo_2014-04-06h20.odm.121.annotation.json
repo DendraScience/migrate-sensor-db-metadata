@@ -1,0 +1,63 @@
+{
+  "begins_at": "2014-04-05T17:00:00.000Z",
+  "ends_before": "2014-04-06T01:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Neutron Probe- pressure transducer cable removed",
+  "description": "pressure transducer removed from well. ",
+  "created_by": "Daniella Rempe",
+  "created_at": "2014-04-06T20:53:44.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602c8",
+    "58e68cacdf5ce600012602c9",
+    "58e68cacdf5ce600012602ca",
+    "58e68cacdf5ce600012602cb",
+    "58e68cacdf5ce600012602cc",
+    "58e68cacdf5ce600012602cd",
+    "58e68cacdf5ce600012602ce",
+    "58e68cacdf5ce600012602cf",
+    "58e68cacdf5ce600012602d0"
+  ],
+  "datastream_ids": [
+    "5ae87705fe27f4db78102a9b",
+    "5ae87705fe27f444a3102a9d",
+    "5ae87705fe27f4b750102a9f",
+    "5ae87705fe27f4826f102a9e"
+  ],
+  "external_refs": [
+    {
+      "identifier": 121,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 1_1,Riv Level 1_2,Riv Level 2_1,Riv Level 2_2,Riv Level 2_3,Riv Level 3_1,Riv Level 3_2,Riv Level 4_1,Riv Level 5_1",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "well 12, well 2, well 13, well 14, well 5, well 6, well 7, well 15, well 16",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 135,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_121",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Neutron Probe- pressure transducer cable removed; see incident report IR_121",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

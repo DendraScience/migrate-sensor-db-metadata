@@ -1,0 +1,54 @@
+{
+  "begins_at": "2017-10-25T19:50:00.000Z",
+  "ends_before": "2017-10-25T21:20:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "Quantum and RAD sensor replacement",
+  "description": "Quantum exchanged due to age, was Q46278, now Q35352. Note calibration factor in  program was wrong for old sensor by factor of 1/0.604. This is a significant absolute error  in all data to this point! New sensor has correct cal factor.  PAR exchanged due to age, was PY75003, now PY82823. Standardized cal factor (0.2) is  unchanged.",
+  "created_by": "Jim Norris",
+  "created_at": "2017-10-26T15:07:51.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602d7"
+  ],
+  "datastream_ids": [
+    "5ae879aafe27f41a90102d66",
+    "5ae879aafe27f4c67e102d67",
+    "5ae879aafe27f4a49f102d68"
+  ],
+  "external_refs": [
+    {
+      "identifier": 519,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "SNARL",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "3912,3913,3914",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 457,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_519",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Quantum and RAD sensor replacement; see incident report IR_519",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

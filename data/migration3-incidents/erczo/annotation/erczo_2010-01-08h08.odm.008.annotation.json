@@ -1,0 +1,50 @@
+{
+  "begins_at": "2010-01-05T21:20:00.000Z",
+  "ends_before": "2010-01-08T22:30:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Changed delay time on logger",
+  "description": "Weather stations Angelo Meadow & Headquarters had incorrect delay time after powering up sensors for measuring barometric pressure. Delay time was too short at 150 milliseconds.  It is now 1 second. Period affected:  1/5/2010 13:20 to 1/8/2010 14:30 Comments:[1/11/2010 Ginger] Flagged 12,133 datavalues where station is WSAM or WSHQ and LocalDateTime > '2010-01-05 13:20' and LocalDateTime <= '2010-01-08 14:30'",
+  "created_by": "Collin Bode",
+  "created_at": "2010-01-08T08:00:00.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "P"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cabdf5ce600012602b1",
+    "58e68cabdf5ce600012602b2"
+  ],
+  "datastream_ids": [],
+  "external_refs": [
+    {
+      "identifier": 8,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Angelo HQ WS,Angelo Meadow WS",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 19,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "P IR_8",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Passed sanity check; see incident report IR_8",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "begins_at": "2017-01-23T09:00:00.000Z",
+  "ends_before": "0000-00-00 00:00:00",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "SNARL GeoNor out of service",
+  "description": "GeoNor over filled on Jan23. The device output sits on the upper limit when full,  therefore all measurements from Jan23@1am to Feb 4@10:37am are meaningless.  Accumulated precipitation should be reset to take into account the changed depth of the  instruments reservoir from 91.2cm to 46.03cm, i.e. the new baseline for accumulation is  46.03cm. Sadly the unit filled during a very heavy snowfall, and likely missed a significant  part of that event. Accumulations of snow in the following days were light according to  the Reserve Director. If need be we could get an estimate of the total snowfall during the  incedent period, but it would only be a guess.",
+  "created_by": "Jim Norris",
+  "created_at": "2017-02-05T02:14:29.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602d7"
+  ],
+  "datastream_ids": [
+    "5ae879acfe27f47f90102d71",
+    "5ae879acfe27f49de7102d6f",
+    "5ae879adfe27f4e744102d73",
+    "5ae879aefe27f41596102d77"
+  ],
+  "external_refs": [
+    {
+      "identifier": 424,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "SNARL",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "3142, 3143, 3144, 3146",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 376,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_424",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "SNARL GeoNor out of service; see incident report IR_424",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

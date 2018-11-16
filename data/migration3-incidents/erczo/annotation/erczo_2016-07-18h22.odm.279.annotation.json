@@ -1,0 +1,57 @@
+{
+  "begins_at": "2016-07-11T18:45:00.000Z",
+  "ends_before": "2016-07-12T07:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Well Water Sampling",
+  "description": "Sampling with bailer attempted; not enough water",
+  "created_by": "Samantha Cargill",
+  "created_at": "2016-07-18T22:49:01.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602cb"
+  ],
+  "datastream_ids": [
+    "5ae8770afe27f4ceac102ab4",
+    "5ae8770afe27f4b53c102ab7",
+    "5ae8770afe27f43d2a102ab6",
+    "5ae8770afe27f4439c102ab5",
+    "5ae8770bfe27f47fe1102ab8",
+    "5ae8770bfe27f4ea6e102aba"
+  ],
+  "external_refs": [
+    {
+      "identifier": 279,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 2_2",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "all Well 2 datastreams",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 231,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_279",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Well Water Sampling; see incident report IR_279",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

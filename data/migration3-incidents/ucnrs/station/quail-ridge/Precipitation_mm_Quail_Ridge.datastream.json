@@ -18,7 +18,7 @@
         }
       },
       "begins_at": "2017-06-07T13:00:00.000Z",
-      "ends_before": "2018-04-21T23:10:00Z",
+      "ends_before": "2018-04-21T23:10:00.000Z",
       "path": "/influx/select"
     },
     {
@@ -32,7 +32,7 @@
           "coalesce": true
         }
       },
-      "begins_at": "2018-04-21T23:10:00Z",
+      "begins_at": "2018-04-21T23:10:00.000Z",
       "path": "/influx/select"
     }
   ],
@@ -42,17 +42,10 @@
     "ds_Variable_Height",
     "dt_Unit_Millimeter"
   ],
-  "created_at": "2018-07-01T23:40:18.175Z",
-  "updated_at": "2018-07-03T19:03:51.058Z",
+  "created_at": "2018-05-01T14:25:50.735Z",
+  "updated_at": "2018-10-10T01:36:40.979Z",
   "tags_info": {
     "resolved_terms": [
-      {
-        "label": "Cumulative",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      },
       {
         "label": "Precipitation",
         "scheme_id": "ds",
@@ -79,7 +72,7 @@
     "scheme_refs": [
       {
         "_id": "ds",
-        "tag_count": 3
+        "tag_count": 2
       },
       {
         "_id": "dt",
@@ -87,9 +80,6 @@
       }
     ],
     "vocabulary_refs": [
-      {
-        "_id": "ds-aggregate"
-      },
       {
         "_id": "ds-medium"
       },
@@ -116,7 +106,7 @@
     },
     {
       "key": "tag",
-      "str": "04f5587b5d2fd49636f4ef115a40c0d02bfa4a78",
+      "str": "3915b0f6162c78b77c3df999d417f9444f5c407c",
       "scheme_id": "ds"
     },
     {

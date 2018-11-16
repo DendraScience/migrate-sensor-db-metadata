@@ -1,0 +1,61 @@
+{
+  "begins_at": "2017-12-11T19:00:00.000Z",
+  "ends_before": "2017-12-13T01:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "Sedgwick Audit",
+  "description": "Station audit performed Monday 11am to Tuesday 5pm. Rainfall simulator added 1.34  inches between 2:20pm and 4:00pm Dec 12, this number should be removed from  accumulated rainfall.  Anemometer was removed from the tower at 2:00pm and returned to service at 5pm  Tuesday Dec 12",
+  "created_by": "Jim Norris",
+  "created_at": "2017-12-14T18:31:19.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602d6"
+  ],
+  "datastream_ids": [
+    "5ae879bcfe27f43e3e102db9",
+    "5ae879bbfe27f48122102db7",
+    "5ae879c2fe27f41cd3102dd9",
+    "5ae87a7efe27f4e9b9103109",
+    "5ae87a7ffe27f41c5910310a",
+    "5ae87a86fe27f4180c10312d",
+    "5ae87a8bfe27f4ee99103142",
+    "5ae87aa6fe27f435891031b1",
+    "5ae87aa6fe27f478e71031b2",
+    "5ae87ab0fe27f4c82e1031dd"
+  ],
+  "external_refs": [
+    {
+      "identifier": 523,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Sedgwick",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "3876,3877,3878,3864,3865,3866,3867,3862,3868,3863",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 461,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_523",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Sedgwick Audit; see incident report IR_523",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

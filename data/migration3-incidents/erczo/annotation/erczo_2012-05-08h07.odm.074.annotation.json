@@ -1,0 +1,49 @@
+{
+  "begins_at": "2012-05-07T22:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Ingrid Canopy weatherstation disabled",
+  "description": "I removed the Vaisala all-in-one weather station from Ingrid.    It malfunctioned.   All datastreams related to it should be ended.   Comments:undefined",
+  "created_by": "Collin Bode",
+  "created_at": "2012-05-08T07:00:00.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cabdf5ce600012602c2"
+  ],
+  "datastream_ids": [],
+  "external_refs": [
+    {
+      "identifier": 74,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Ingrid Canopy WS",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "all datastreams",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 101,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_74",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Invalid Data - device removed; see incident report IR_74",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

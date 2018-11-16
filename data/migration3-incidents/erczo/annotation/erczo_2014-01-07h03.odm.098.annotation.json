@@ -1,0 +1,61 @@
+{
+  "begins_at": "2014-01-06T18:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Excavation of TDR L2S3",
+  "description": "L2S3 sensors at 0, 0.25 and 0.7 m depth were removed and placed in a bucket of soil.  Several SM200 sensors were also moved around but we intend on permanently  removing them from the site.",
+  "created_by": "Daniella Rempe",
+  "created_at": "2014-01-07T03:35:02.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602cb"
+  ],
+  "datastream_ids": [
+    "5ae8766ffe27f4659f1027fc",
+    "5ae87670fe27f438411027ff",
+    "5ae87670fe27f42bb0102800",
+    "5ae87670fe27f47de1102801",
+    "5ae87670fe27f4f052102802",
+    "5ae87670fe27f491ae102803",
+    "5ae87671fe27f44714102804",
+    "5ae87671fe27f470e4102805",
+    "5ae87671fe27f438d1102806",
+    "5ae8766ffe27f459561027fd",
+    "5ae8766ffe27f466091027fe"
+  ],
+  "external_refs": [
+    {
+      "identifier": 98,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 2_2",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "404,405,406,407,408,409,410,411,412,413,414",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 117,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_98",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "TDRs Removed; see incident report IR_98",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

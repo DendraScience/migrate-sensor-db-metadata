@@ -1,0 +1,55 @@
+{
+  "begins_at": "2014-05-04T21:20:00.000Z",
+  "ends_before": "2015-02-14T18:45:51.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "L1_2 Temp-humidity sensor dead",
+  "description": "Instrument cut out and never came back online.  Equipment dead.",
+  "created_by": "Collin Bode",
+  "created_at": "2015-02-14T18:45:51.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602c9"
+  ],
+  "datastream_ids": [
+    "5ae873cffe27f4512010245b",
+    "5ae873cefe27f408ce102457",
+    "5ae873d8fe27f4dc91102486",
+    "5ae873d8fe27f4e1de102485"
+  ],
+  "external_refs": [
+    {
+      "identifier": 164,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 1_2",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "376,1638,375,1599",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 177,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_164",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "L1_2 Temp-humidity sensor dead; see incident report IR_164",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

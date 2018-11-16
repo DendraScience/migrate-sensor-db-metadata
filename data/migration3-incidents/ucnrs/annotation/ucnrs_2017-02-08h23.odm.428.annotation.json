@@ -1,0 +1,53 @@
+{
+  "begins_at": "2017-01-07T00:50:00.000Z",
+  "ends_before": "2017-01-07T01:20:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "Precipitation gauge - cleaned",
+  "description": "Mark Readdie cleaned out the rain gauge and there were some accidental tips  during this process. This data should not be used. ",
+  "created_by": "Wendy Baxter",
+  "created_at": "2017-02-08T23:31:39.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cabdf5ce600012602b5"
+  ],
+  "datastream_ids": [
+    "5ae879affe27f405a3102d80",
+    "5ae879affe27f47df0102d7e"
+  ],
+  "external_refs": [
+    {
+      "identifier": 428,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "BigCreek Gatehouse",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "4244, 4245",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 380,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_428",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Precipitation gauge - cleaned; see incident report IR_428",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "begins_at": "2016-03-15T22:45:00.000Z",
+  "ends_before": "2016-03-15T23:30:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Rain Bucket Testing",
+  "description": "TB4 rain gage was tested by Collin Bode and Chris Wong.  314 ml of water was poured over 15 minutes onto the gage tipping bucket, with the funnel removed.  41 tips were counted.  0.37 inches (9.4 mm) cumulative rainfall were measured by the logger. 10 ml was expected.    All datastreams derived from this sensor should be flagged invalid for this time-period.",
+  "created_by": "Collin Bode",
+  "created_at": "2016-03-16T06:27:21.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602d8"
+  ],
+  "datastream_ids": [
+    "5ae8742ffe27f4240210261e",
+    "5ae8742ffe27f4515b10261d",
+    "5ae87438fe27f404a3102646",
+    "5ae8742efe27f4143610261a",
+    "5ae87438fe27f44320102644",
+    "5ae8742efe27f4452f102619"
+  ],
+  "external_refs": [
+    {
+      "identifier": 261,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "South Meadow WS",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "1728,1729,1776,1777,1778,1779",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 219,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_261",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Rain Bucket Testing; see incident report IR_261",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

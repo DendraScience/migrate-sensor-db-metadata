@@ -1,0 +1,50 @@
+{
+  "begins_at": "2018-07-10T17:30:00.000Z",
+  "ends_before": "2018-07-10T17:40:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "Motte program update",
+  "description": "New program is based on the NRS Core 8 program. Units have changed for rainfall (now  mm) and wind velocity (now m/s) TenMin table layout conforms to the new core  configuration.",
+  "created_by": "Jim Norris",
+  "created_at": "2018-07-10T19:14:32.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602c6"
+  ],
+  "datastream_ids": [],
+  "external_refs": [
+    {
+      "identifier": 548,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Motte",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "all datastreams",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 487,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_548",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Motte program update; see incident report IR_548",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

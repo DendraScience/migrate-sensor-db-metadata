@@ -1,0 +1,53 @@
+{
+  "begins_at": "2012-12-02T10:45:00.000Z",
+  "ends_before": "2012-12-21T18:16:53.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Failed Elder Creek level",
+  "description": "Elder Creek level sensor failed - doesnt track well level or history.",
+  "created_by": "Jim Bishop",
+  "created_at": "2012-12-21T18:16:53.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602c9"
+  ],
+  "datastream_ids": [
+    "5ae8743ffe27f4624b102669",
+    "5ae873f4fe27f42b54102508"
+  ],
+  "external_refs": [
+    {
+      "identifier": 88,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 1_2",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "380, 1680",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 111,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_88",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Invalid Data; see incident report IR_88",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

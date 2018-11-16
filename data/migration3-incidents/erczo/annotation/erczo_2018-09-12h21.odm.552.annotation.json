@@ -1,0 +1,54 @@
+{
+  "begins_at": "2017-05-10T19:00:00.000Z",
+  "ends_before": "2018-05-09T17:30:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Soil Temp at 2 and 8 inches switched",
+  "description": "soil temperature thermocouple wires were switched for the 50mm (2 inch) and 200mm (8inch) depths, resulting in reversed values for the time period.  ",
+  "created_by": "Collin Bode",
+  "created_at": "2018-09-12T21:40:11.000Z",
+  "actions": [
+    {
+      "flags": [
+        "P"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602d8"
+  ],
+  "datastream_ids": [
+    "5ae876a8fe27f4f9a1102902",
+    "5ae876a8fe27f4725f102903",
+    "5ae876a8fe27f46ffe102901",
+    "5ae876a7fe27f4da721028fc",
+    "5ae876a7fe27f4eab91028fd",
+    "5ae876a6fe27f463931028fb"
+  ],
+  "external_refs": [
+    {
+      "identifier": 552,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "South Meadow WS",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "1750,1751,1752,1756,1757,1758",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 491,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "P IR_552",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Soil Temp at 2 and 8 inches switched; see incident report IR_552",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "begins_at": "2015-06-05T19:50:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Barometer Failed",
+  "description": "Barometer failed. Unclear why.  Requires replacement.  ",
+  "created_by": "Collin Bode",
+  "created_at": "2015-06-23T15:12:59.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602cb"
+  ],
+  "datastream_ids": [
+    "5ae873effe27f484ff1024f3",
+    "5ae873effe27f48a4a1024ef"
+  ],
+  "external_refs": [
+    {
+      "identifier": 190,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 2_2",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "393, 1611",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 191,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_190",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Barometer Failed; see incident report IR_190",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

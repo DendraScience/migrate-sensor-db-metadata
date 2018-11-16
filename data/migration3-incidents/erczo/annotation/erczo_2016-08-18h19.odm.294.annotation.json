@@ -1,0 +1,55 @@
+{
+  "begins_at": "2016-08-08T01:33:00.000Z",
+  "ends_before": "2016-08-08T07:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Well Water Sampling",
+  "description": "Sampled water using the bailer",
+  "created_by": "Samantha Cargill",
+  "created_at": "2016-08-18T19:51:47.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602c9"
+  ],
+  "datastream_ids": [
+    "5ae87705fe27f4db78102a9b",
+    "5ae87705fe27f444a3102a9d",
+    "5ae87705fe27f4b750102a9f",
+    "5ae87705fe27f4826f102a9e"
+  ],
+  "external_refs": [
+    {
+      "identifier": 294,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 1_2",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "all Well 12 datastreams",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 246,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_294",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Well Water Sampling; see incident report IR_294",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

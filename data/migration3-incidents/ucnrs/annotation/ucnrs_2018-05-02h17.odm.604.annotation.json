@@ -1,0 +1,29 @@
+{
+  "begins_at": "2018-05-02 17:20:00",
+  "ends_before": "",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "Sent Core 8 program onsite  and updated operating system",
+  "description": "PAR multiplier updated Comments:undefined",
+  "created_by": "Wendy Baxter",
+  "created_at": "2018-05-02 17:20:00",
+  "actions": [],
+  "station_ids": [
+    "58e68cabdf5ce600012602b5"
+  ],
+  "datastream_ids": [
+    "5ae879a0fe27f4692c102d3b",
+    "5ae879a1fe27f4f792102d3c",
+    "5ae879a1fe27f4aba5102d3d"
+  ],
+  "external_refs": [
+    {
+      "identifier": "Big Creek",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "PAR",
+      "type": "odm.incidents.Datastream_Names"
+    }
+  ]
+}

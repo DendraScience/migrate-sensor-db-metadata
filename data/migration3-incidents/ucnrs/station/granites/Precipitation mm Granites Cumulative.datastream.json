@@ -1,7 +1,7 @@
 {
   "_id": "5ae879b6fe27f4ae44102d9c",
-  "description": "This is a DRI derived datastream, the upper value threshold is unknown but was set at 10,000",
-  "enabled": true,
+  "description": "Cumulative precipitation is the total rainfall from October 1 to the timetamp of recording. It is reset every Oct. 1. This is done on logger.",
+  "enabled": false,
   "name": "Precipitation mm Granites Cumulative",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -26,7 +26,7 @@
           "api": "ucnrs",
           "db": "station_ucgr_granites",
           "fc": "source_goes_tenmin",
-          "sc": "\"time\", \"PCPN_accumulated\",\"PCPN_tot\"",
+          "sc": "\"time\", \"PCPN_accumulated\", \"PCPN_tot\" * 25.4",
           "utc_offset": -28800,
           "coalesce": true
         }
@@ -75,8 +75,8 @@
     "dt_Unit_Millimeter",
     "ds_Aggregate_Cumulative"
   ],
-  "created_at": "2018-07-02T01:06:53.680Z",
-  "updated_at": "2018-07-03T19:06:31.625Z",
+  "created_at": "2018-05-01T14:29:10.414Z",
+  "updated_at": "2018-10-10T01:36:32.290Z",
   "tags_info": {
     "resolved_terms": [
       {

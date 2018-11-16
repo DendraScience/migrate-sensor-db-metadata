@@ -1,0 +1,55 @@
+{
+  "begins_at": "2014-03-10T22:30:00.000Z",
+  "ends_before": "2014-03-11T00:15:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Well 15 Pressure Transducer Replaced",
+  "description": "At 1532 the transducer was removed to measure it's current cable length. The old pressure transducer had a cable length of 28.384m and the transducer measured 28.6cm from the base of the cable to the tip of the transducer. The transducer cable rests on the well pipe 25cm above the ground. At 1607 power was removed from the datalogger. The brand new 125' pressure transducer (SN 72010049) was installed. The new transducer has a cable length of 28.334. The new transducer measures 17.2cm from the base of the cable to the tip of the transducer. At 1631 the datalogger was powered back on.",
+  "created_by": "Chris Wong",
+  "created_at": "2014-03-13T22:41:37.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602d0"
+  ],
+  "datastream_ids": [
+    "5ae87708fe27f4bb5f102aaa",
+    "5ae87708fe27f47df2102aae",
+    "5ae87708fe27f4f0a9102aac",
+    "5ae87708fe27f4184a102aab"
+  ],
+  "external_refs": [
+    {
+      "identifier": 113,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 5_1",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "Well 15",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 127,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_113",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Well 15 Pressure Transducer Replaced; see incident report IR_113",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

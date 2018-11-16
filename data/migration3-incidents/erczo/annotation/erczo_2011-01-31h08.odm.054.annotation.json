@@ -1,0 +1,51 @@
+{
+  "begins_at": "2010-12-26T08:00:00.000Z",
+  "ends_before": "2011-01-29T07:55:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Power Outage",
+  "description": "Incorrect wiring combined with severe power drop caused power system to go offline. Comments:undefined",
+  "created_by": "Collin Bode",
+  "created_at": "2011-01-31T08:00:00.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "VB"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602ca",
+    "58e68cacdf5ce600012602cb",
+    "58e68cacdf5ce600012602cc"
+  ],
+  "datastream_ids": [],
+  "external_refs": [
+    {
+      "identifier": 54,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 2_1,Riv Level 2_2,Riv Level 2_3",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 78,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "VB IR_54",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Value below range; see incident report IR_54",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

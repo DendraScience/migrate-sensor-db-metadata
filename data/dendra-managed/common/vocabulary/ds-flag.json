@@ -4,22 +4,40 @@
   "scheme_id": "ds",
   "terms": [
     {
-      "label": "CalibrationEvent",
-      "name": "Calibration Event"
+      "label": "AuditEvent",
+      "name": "Audit Event"
     },
     {
-      "label": "Calibration Required",
+      "label": "CalibrationRequired",
       "name": "Calibration Required"
     },
     {
-      "label": "Invalid"
+      "label": "Invalid",
+      "description": "Data is invalid. Do not use."
     },
   	{
-  		"label": "NoData",
-  		"name": "No Data"
+  		"label": "Gap",
+  		"description": "Gap. No data for this time period."
   	},
     {
-      "label": "Suspect"
+      "label": "Suspect",
+      "description": "Suspect data may be useable, but users should check it carefully. May have uncaught errors. May require modification. Read annotations."
+    },
+    {
+    	"label": "Curated",
+    	"description": "Curated data has been modified and cleaned. Curated equipment are audited and calibrated at regular intervals."
+    },
+    {
+    	"label": "Modified",
+    	"description": "Modified data has been cleaned or corrected.  Does not include gap filling."
+    },
+    {
+    	"label": "Unmanaged",
+    	"description": "Data is not vetted. Equipment may not be audited. Use at your own risk."
+    },
+    {
+    	"label": "Derived",
+    	"description": "Derived data is calculated from one or more source datasets. Datastream should have a reference to the source and the calculation used."
     }
   ]
 }

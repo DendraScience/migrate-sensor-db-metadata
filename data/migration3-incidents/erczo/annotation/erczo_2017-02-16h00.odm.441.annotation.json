@@ -1,0 +1,55 @@
+{
+  "begins_at": "2017-02-04T17:20:00.000Z",
+  "ends_before": "2017-02-05T01:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Well Water Sampling and Neutron Probe",
+  "description": "Sampled water with DIS, removed transducer to neutron probe",
+  "created_by": "Samantha Cargill",
+  "created_at": "2017-02-16T00:28:58.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602cc"
+  ],
+  "datastream_ids": [
+    "5ae87707fe27f409fc102aa5",
+    "5ae87707fe27f4c499102aa9",
+    "5ae87707fe27f46339102aa7",
+    "5ae87707fe27f4371c102aa6"
+  ],
+  "external_refs": [
+    {
+      "identifier": 441,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 2_3",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "all Well 14 datastreams",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 393,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_441",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Well Water Sampling and Neutron Probe; see incident report IR_441",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

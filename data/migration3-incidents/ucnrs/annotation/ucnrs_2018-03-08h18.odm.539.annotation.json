@@ -1,0 +1,52 @@
+{
+  "begins_at": "2018-02-09T23:10:00.000Z",
+  "ends_before": "2018-02-28T19:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "Fort Ord RAD multiplier incorrect",
+  "description": "When the new program was sent to the Fort Ord logger, the multiplier (0.2) for  the LI200x was left as 1.0 rather than 0.2. The data during this time period is  incorrect and should be corrected with the 0.2 multiplier. ",
+  "created_by": "Wendy Baxter",
+  "created_at": "2018-03-08T18:58:26.000Z",
+  "actions": [
+    {
+      "flags": [
+        "P"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cabdf5ce600012602bf"
+  ],
+  "datastream_ids": [
+    "5ae87a63fe27f40e3e103088",
+    "5ae87a63fe27f43a2e103089",
+    "5ae87a63fe27f4a9b210308a",
+    "5ae87a63fe27f4113810308b"
+  ],
+  "external_refs": [
+    {
+      "identifier": 539,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Fort Ord",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "4212, 4213, 4214, 4215",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 477,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "P IR_539",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Fort Ord RAD multiplier incorrect; see incident report IR_539",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

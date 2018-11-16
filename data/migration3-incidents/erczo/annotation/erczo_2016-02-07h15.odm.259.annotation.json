@@ -1,0 +1,55 @@
+{
+  "begins_at": "2016-02-07T21:00:00.000Z",
+  "ends_before": "2016-02-08T01:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "removed transducer",
+  "description": "We removed the transducer to perform neutron probe surveys. ",
+  "created_by": "Daniella Rempe",
+  "created_at": "2016-02-07T15:43:20.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602cc"
+  ],
+  "datastream_ids": [
+    "5ae87706fe27f49192102aa0",
+    "5ae87706fe27f473cd102aa2",
+    "5ae87706fe27f45d81102aa4",
+    "5ae87706fe27f4fc4c102aa3"
+  ],
+  "external_refs": [
+    {
+      "identifier": 259,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 2_3",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "all Well 13 datastreams",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 217,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_259",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "removed transducer; see incident report IR_259",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "begins_at": "2009-09-24T07:00:00.000Z",
+  "ends_before": "2009-10-24T07:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Bear damage",
+  "description": "Daniella, Jasper and I visited the site this past weekend. Unfortunately a bear did some damage recently. It systematically knocked over and chewed on everyone of the plastic bag covered resistance probes. They were each snapped at the soil boundary. I haven't had a chance to check to see when this might have happened according to the online record. The bear also knocked over the rainfall collector (James says he has found teeth marks in it before). It broke the extended plastic tube on well 7 and the wooden stake holding up the plastic tarp. and it knocked off the cap of well 6. We didn't detect other damage-- but there could be some. I encourage you all to check your favorite on line device. We put the cap back on 6, propped up well 7 tube and put back a stake. and reset up the rain collector. Comments:[12/1/09 Ginger] Flagged the following values between 2009-08-24 00:00:00 and 2009-10-26 00:00:00: **ERPs** (all Rivendell stations): Flagged 290304 values. **Well 6** : Flagged 3024 values **Well 7** : Flagged 3024 values",
+  "created_by": "Bill Dietrich",
+  "created_at": "2009-10-26T07:00:00.000Z",
+  "actions": [
+    {
+      "flags": [
+        "U"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602c8",
+    "58e68cacdf5ce600012602c9",
+    "58e68cacdf5ce600012602ca",
+    "58e68cacdf5ce600012602cb",
+    "58e68cacdf5ce600012602cd",
+    "58e68cacdf5ce600012602ce",
+    "58e68cacdf5ce600012602cf"
+  ],
+  "datastream_ids": [
+    "5ae87711fe27f42915102ad5",
+    "5ae87711fe27f40f3b102ad8",
+    "5ae87711fe27f46b13102ad7",
+    "5ae87711fe27f4fab0102ad6",
+    "5ae87712fe27f4dac7102ad9",
+    "5ae87712fe27f4a5ed102adb",
+    "5ae87430fe27f472da102623",
+    "5ae87431fe27f482ac102626",
+    "5ae87431fe27f408f8102629",
+    "5ae87432fe27f49c1210262c"
+  ],
+  "external_refs": [
+    {
+      "identifier": 1,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 1_1, Riv Level 1_2, Riv Level 2_1, Riv Level 2_2, Riv Level 3_1, Riv Level 3_2, Riv Level 4_1",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "Well 6, Well 7, ERP, 389, 390, 391, 392",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 22,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "U IR_1",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Unchecked value; see incident report IR_1",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

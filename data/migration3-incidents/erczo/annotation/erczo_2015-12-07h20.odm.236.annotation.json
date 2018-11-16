@@ -1,0 +1,60 @@
+{
+  "begins_at": "2015-10-25T00:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "VMS Sleeve Electrical Conductivity",
+  "description": "Sleeve Elec Conductivity VMS_A1 - A10. Electrical conductivity assumes contact with water.  The VMS TDT's are embedded in a plastic sleeve.  As such, EC of a plastic sleeve has little meaning, other than as a warning that a leak or break has occurred.  While the instrument is not broken, this data should not normally be used.  Flag: X.  ",
+  "created_by": "Collin Bode",
+  "created_at": "2015-12-07T20:08:30.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602db"
+  ],
+  "datastream_ids": [
+    "5ae87466fe27f41b89102719",
+    "5ae87466fe27f425a210271b",
+    "5ae87466fe27f4449010271c",
+    "5ae87466fe27f40a1c10271d",
+    "5ae87467fe27f4fc5810271e",
+    "5ae87467fe27f441a010271f",
+    "5ae87467fe27f4179b102720",
+    "5ae87467fe27f4812a102721",
+    "5ae87467fe27f4fd17102722",
+    "5ae87466fe27f443e610271a"
+  ],
+  "external_refs": [
+    {
+      "identifier": 236,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "VMS",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "DSID: 3035, 3036, 3037, 3038, 3039, 3040,\r\n3041, 3042, 3043, 3044",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 198,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_236",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "VMS Sleeve Electrical Conductivity ; see incident report IR_236",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

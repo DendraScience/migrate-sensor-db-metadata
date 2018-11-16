@@ -1,0 +1,64 @@
+{
+  "begins_at": "2018-05-08T19:00:00.000Z",
+  "ends_before": "2018-05-10T16:30:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "SCI station audit and sensor swap",
+  "description": "Station audit performed, logger OS updated, logger program update to  UC_SantaCruzIsland_VP.8.1.cr1, removed and replaced Anemometer with calibrated unit,  aligned anemometer with true north (was ~ aimed at mag north), swapped PAR and RAD  sensors, they both had been installed more than 6 years ago. Replacement sensors have  recent calibrations. Updated calibration settings in the program.",
+  "created_by": "Jim Norris",
+  "created_at": "2018-05-11T16:30:51.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602d3"
+  ],
+  "datastream_ids": [
+    "5ae879a8fe27f4dba2102d60",
+    "5ae879a8fe27f4d42c102d61",
+    "5ae879a9fe27f4eee9102d62",
+    "5ae87a6afe27f422771030a7",
+    "5ae87a6afe27f41df61030a8",
+    "5ae87a6afe27f44fe31030a9",
+    "5ae87a6afe27f44ad31030aa",
+    "5ae87a7efe27f43099103107",
+    "5ae87a7efe27f4e3e3103108",
+    "5ae87a86fe27f4cf0710312c",
+    "5ae87a8bfe27f4d0b8103141",
+    "5ae87aa4fe27f474d41031ac",
+    "5ae87aa4fe27f47e541031ad"
+  ],
+  "external_refs": [
+    {
+      "identifier": 541,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Santa Cruz Island",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "3806,3807,3808,3802,3803,3804,3805,3811,3812,3813,3814,3809,3815",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 480,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_541",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "SCI station audit and sensor swap; see incident report IR_541",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

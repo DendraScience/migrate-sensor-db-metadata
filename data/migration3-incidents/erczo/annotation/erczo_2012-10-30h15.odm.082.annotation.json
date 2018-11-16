@@ -1,0 +1,55 @@
+{
+  "begins_at": "2012-10-25T15:26:02.000Z",
+  "ends_before": "2012-10-27T19:26:02.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Tree fall on Well 16",
+  "description": "A dead Madrone tree fell on W16, damaging the side of the casing sticking out of the ground. The tree slid downslope, pulling W16's cable out of the Level 5_1 data logger. I reconnected the cable and dessicant tube, and all data appear to be fine as of 10/28.  Comments:undefined",
+  "created_by": "Jasper Oshun",
+  "created_at": "2012-10-30T15:26:02.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602d0"
+  ],
+  "datastream_ids": [
+    "5ae87709fe27f48855102aaf",
+    "5ae8770afe27f4c835102ab3",
+    "5ae87709fe27f40708102ab1",
+    "5ae87709fe27f41e30102ab0"
+  ],
+  "external_refs": [
+    {
+      "identifier": 82,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 5_1",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "1471, 1472, 1479, 1669",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 109,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_82",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Well 16 damaged; see incident report IR_82",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

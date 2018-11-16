@@ -1,0 +1,37 @@
+{
+  "begins_at": "2018-04-27 10:30:00",
+  "ends_before": "2018-04-27 11:50:00",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "Anemometer audit tests",
+  "description": "Removed anemometer for audit tests Comments:undefined",
+  "created_by": "Wendy Baxter",
+  "created_at": "2018-04-27 10:30:00",
+  "actions": [
+    {
+      "method": "exclude"
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602c4"
+  ],
+  "datastream_ids": [
+    "5ae87a7cfe27f413bc1030fd",
+    "5ae87a7cfe27f40d971030fe",
+    "5ae87a85fe27f43c6b103127",
+    "5ae87a9dfe27f473f7103193",
+    "5ae87a9dfe27f4eb38103194",
+    "5ae87a9dfe27f40f6c103195",
+    "5ae87aaffe27f469e91031d7"
+  ],
+  "external_refs": [
+    {
+      "identifier": "Jepson",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "wind",
+      "type": "odm.incidents.Datastream_Names"
+    }
+  ]
+}

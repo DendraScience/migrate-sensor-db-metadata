@@ -1,0 +1,50 @@
+{
+  "begins_at": "2017-05-02T19:42:00.000Z",
+  "ends_before": "2017-05-05T00:30:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "James Reserve station migration",
+  "description": "James wx station logger moved to new enclosure on the tower, temp/rh, anemometer,  RAD, PAR, soil moisture probes are new sensors. Anemometer is now a 05103 turbine  unit, mounted at top of the tower. A thermocouple was added in a gill shield at 9.5  meters. PAR sensor replaced with like, RAD sensor replaced with Li200. Soil moisture  probed replaced with CS616's. Temp/humidity sensor replaced with HMP60. Logger  power now has battery backup, communications now via NL116",
+  "created_by": "Jim Norris",
+  "created_at": "2017-05-12T15:59:20.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602c3"
+  ],
+  "datastream_ids": [],
+  "external_refs": [
+    {
+      "identifier": 467,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "James",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "all datastreams",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 419,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_467",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "James Reserve station migration; see incident report IR_467",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

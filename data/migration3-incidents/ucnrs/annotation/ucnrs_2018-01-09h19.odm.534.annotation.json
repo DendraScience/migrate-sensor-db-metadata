@@ -1,0 +1,48 @@
+{
+  "begins_at": "2017-07-12T18:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "PAR multiplier correction",
+  "description": "The multiplier for the LI190SB was incorrect (0.16447) and was corrected to  be 0.272307",
+  "created_by": "Wendy Baxter",
+  "created_at": "2018-01-09T19:06:22.000Z",
+  "actions": [
+    {
+      "flags": [
+        "P"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602c4"
+  ],
+  "datastream_ids": [
+    "5ae879a6fe27f4d7f1102d54"
+  ],
+  "external_refs": [
+    {
+      "identifier": 534,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Jepson",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "3598",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 472,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "P IR_534",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "PAR multiplier correction; see incident report IR_534",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

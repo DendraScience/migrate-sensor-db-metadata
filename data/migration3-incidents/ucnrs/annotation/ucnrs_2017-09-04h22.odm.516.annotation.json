@@ -1,0 +1,52 @@
+{
+  "begins_at": "2017-08-15T12:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "Santa Cruz Island temp /rh sensor failure",
+  "description": "Became intermittent Aug 15, sensor to be replaced 9/5/17",
+  "created_by": "Jim Norris",
+  "created_at": "2017-09-04T22:07:55.000Z",
+  "actions": [
+    {
+      "flags": [
+        "P"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602d3"
+  ],
+  "datastream_ids": [
+    "5ae87957fe27f442d2102bf3",
+    "5ae87957fe27f41004102bf4",
+    "5ae87958fe27f435af102bf5",
+    "5ae879dcfe27f43374102e4c",
+    "5ae879dcfe27f40629102e4d"
+  ],
+  "external_refs": [
+    {
+      "identifier": 516,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Santa Cruz Island",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "3818,3816,3817,3819,3820",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 454,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "P IR_516",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Santa Cruz Island temp /rh sensor failure; see incident report IR_516",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

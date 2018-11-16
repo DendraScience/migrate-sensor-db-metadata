@@ -1,0 +1,47 @@
+{
+  "begins_at": "2018-05-18T21:10:00.000Z",
+  "ends_before": "2018-05-18T21:20:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "Elliott logger program update",
+  "description": "Logger program updated to v8.1 (NRS core 8) Units changed for rainfall(mm) and wind speed(m/s) Clock reset , about 35 seconds fast",
+  "created_by": "Jim Norris",
+  "created_at": "2018-05-18T22:50:28.000Z",
+  "actions": [
+    {
+      "flags": [
+        "P"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cabdf5ce600012602be"
+  ],
+  "datastream_ids": [],
+  "external_refs": [
+    {
+      "identifier": 543,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Elliott",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "all datastreams",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 482,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "P IR_543",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Elliott logger program update; see incident report IR_543",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

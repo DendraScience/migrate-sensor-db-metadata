@@ -1,0 +1,63 @@
+{
+  "begins_at": "2014-01-06T18:31:50.000Z",
+  "ends_before": "2014-01-07T03:31:50.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "cleaning rain gauges",
+  "description": "we cleaned out the rain gauges. no precipitation occurred today so all precip data should be flagged.  ",
+  "created_by": "Daniella Rempe",
+  "created_at": "2014-01-07T03:31:50.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602c8",
+    "58e68cacdf5ce600012602c9",
+    "58e68cacdf5ce600012602ca",
+    "58e68cacdf5ce600012602cb",
+    "58e68cacdf5ce600012602cc"
+  ],
+  "datastream_ids": [
+    "5ae87430fe27f472da102623",
+    "5ae87431fe27f482ac102626",
+    "5ae87431fe27f408f8102629",
+    "5ae87432fe27f49c1210262c",
+    "5ae87430fe27f46d62102621",
+    "5ae87430fe27f472e1102624",
+    "5ae87431fe27f423e4102627",
+    "5ae87432fe27f464aa10262a"
+  ],
+  "external_refs": [
+    {
+      "identifier": 97,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 1_1,Riv Level 1_2,Riv Level 2_1,Riv Level 2_2,Riv Level 2_3",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "389, 390, 391, 392, 1616, 1617, 1618, 1619",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 116,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_97",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Invalid Data; see incident report IR_97",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

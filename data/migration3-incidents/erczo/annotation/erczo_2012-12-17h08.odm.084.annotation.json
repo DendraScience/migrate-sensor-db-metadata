@@ -1,0 +1,45 @@
+{
+  "begins_at": "2012-12-14T19:05:00.000Z",
+  "ends_before": "2012-12-14T19:05:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Well Water Level Measurement Taken",
+  "description": "measured relative to ground surface pipe Comments:value for this timestamp was flagged",
+  "created_by": "Jim Bishop",
+  "created_at": "2012-12-17T08:00:00.000Z",
+  "actions": [],
+  "station_ids": [
+    "58e68cacdf5ce600012602cf"
+  ],
+  "datastream_ids": [
+    "5ae87712fe27f4c364102adc",
+    "5ae87713fe27f42615102adf",
+    "5ae87713fe27f467e9102ade",
+    "5ae87713fe27f47abc102add",
+    "5ae87713fe27f4445c102ae0",
+    "5ae87714fe27f46c4d102ae2"
+  ],
+  "external_refs": [
+    {
+      "identifier": 84,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 4_1",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "Well 7 Water Level m Manual",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

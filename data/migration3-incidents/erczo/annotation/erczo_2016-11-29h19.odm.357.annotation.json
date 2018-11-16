@@ -1,0 +1,56 @@
+{
+  "begins_at": "2016-10-01T07:00:00.000Z",
+  "ends_before": "2016-11-17T22:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Rain gauge cleaning",
+  "description": "TB4 tipping buckets at Level 1 and 5 were ponded with water due to detritus blocking the funnel.   Data is invalid, since it represents a constant drip instead of actual rain fall.  Accumulated will now be off significantly for the rest of the water year. End date is when I poured out the water and cleaned the funnel. ",
+  "created_by": "Collin Bode",
+  "created_at": "2016-11-29T19:04:32.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602cb",
+    "58e68cacdf5ce600012602d0"
+  ],
+  "datastream_ids": [
+    "5ae87433fe27f4900210262e",
+    "5ae87434fe27f4372d102632",
+    "5ae8742cfe27f4c10f10260d",
+    "5ae8742cfe27f4a61810260f"
+  ],
+  "external_refs": [
+    {
+      "identifier": 357,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 2_2,Riv Level 5_1",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "1787,1789,1790,1792",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 309,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_357",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Rain gauge cleaning; see incident report IR_357",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

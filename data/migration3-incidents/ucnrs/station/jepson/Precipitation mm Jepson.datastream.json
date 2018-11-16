@@ -26,7 +26,7 @@
           "api": "ucnrs",
           "db": "station_ucjp_jepson",
           "fc": "source_goes_tenmin",
-          "sc": "\"time\", \"PCPN_intrvl_Tot\",\"PCPN_in_Tot\"",
+          "sc": "\"time\", \"PCPN_intrvl_Tot\", \"PCPN_in_Tot\" * 25.4",
           "utc_offset": -28800,
           "coalesce": true
         }
@@ -74,8 +74,8 @@
     "ds_Variable_Height",
     "dt_Unit_Millimeter"
   ],
-  "created_at": "2018-07-02T01:06:54.515Z",
-  "updated_at": "2018-07-03T19:06:32.009Z",
+  "created_at": "2018-05-01T14:29:12.199Z",
+  "updated_at": "2018-10-10T01:36:36.819Z",
   "tags_info": {
     "resolved_terms": [
       {

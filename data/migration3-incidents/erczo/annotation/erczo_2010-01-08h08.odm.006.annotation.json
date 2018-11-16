@@ -1,0 +1,53 @@
+{
+  "begins_at": "2010-01-05T20:20:00.000Z",
+  "ends_before": "2010-01-05T21:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Logger re-code - units change + new value",
+  "description": "1/5/2010 13:20 Recoded weather station loggers for WS Angelo Meadow and Headquarters. Changed Total Solar Radiation Power from kiloWatts to Watts per square meter and Total Solar Radiation Energy from MJ to kJ and the energy is now properly totaled for the time period. Wind speed max was added as a new value to the loggers.  Comments:[1/11/2010 Ginger] Flagged 24 datavalues for these two stations where VariableCode like \"Total Solar Radiation%\" and (LocalDateTime > '2010-01-05 12:20' and LocalDateTime < '2010-01-05 13:00').",
+  "created_by": "Collin Bode",
+  "created_at": "2010-01-08T08:00:00.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "VE"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cabdf5ce600012602b1",
+    "58e68cabdf5ce600012602b2"
+  ],
+  "datastream_ids": [
+    "5ae876fafe27f42b47102a68"
+  ],
+  "external_refs": [
+    {
+      "identifier": 6,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Angelo HQ WS,Angelo Meadow WS",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "Total Solar Radiation kW WSHQ,Total Solar Radiation W WSHQ,Total Solar Radiation kJ WSHQ,Total Solar Radiation MJ WSHG,Wind Speed max - WSHQ",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 26,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "VE IR_6",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Value exceeds range; see incident report IR_6",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "begins_at": "2014-10-01T07:00:00.000Z",
+  "ends_before": "2014-10-24T00:35:22.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "South Meadow WS cumulative rainfall reset",
+  "description": "Data logger code does not reset cumulative rainfall at water year beginning (Oct. 1).  So cumulative rainfall included previous years.  Manually reset to current total for this water year. ",
+  "created_by": "Collin Bode",
+  "created_at": "2014-10-24T00:35:22.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602d8"
+  ],
+  "datastream_ids": [
+    "5ae8742ffe27f4515b10261d"
+  ],
+  "external_refs": [
+    {
+      "identifier": 160,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "South Meadow WS",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "Rainfall inches WSSM Cumulative",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 173,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_160",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "South Meadow Weather Station cumulative rainfall reset; see incident report IR_160",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

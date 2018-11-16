@@ -1,0 +1,49 @@
+{
+  "begins_at": "2009-11-12T23:00:00.000Z",
+  "ends_before": "2009-11-13T17:05:42.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Data Gap: Wrong Logger Code",
+  "description": "Wrote new logger code for Cahto Peak weather station, Campbell CR1000 logger (CRBasic).  However, when the code was compiled on the logger, it automatically changed variable names.  This caused the table definitions to fail.   Data Gap: So during this time period NO data was recorded.  Code has been corrected. Comments:[12/4/09 Ginger] Flagged the timestamps on either side of the gap (22 values).  SQL: update datavalues set QualifierCode = concat(QualifierCode,\" IR_5\") where stationname=\"Cahto Peak WS\" and (LocalDateTime = '2009-11-12 14:45:00' or LocalDateTime = '2009-11-13 09:15:00')",
+  "created_by": "Collin Bode",
+  "created_at": "2009-11-13T17:05:42.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "P"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cabdf5ce600012602bb"
+  ],
+  "datastream_ids": [],
+  "external_refs": [
+    {
+      "identifier": 5,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Cahto Peak WS",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 16,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "P IR_5",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Passed sanity check; see incident report IR_5",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "begins_at": "2014-01-15T23:00:00.000Z",
+  "ends_before": "2014-01-16T01:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Rain gauges - levels 2 and 3",
+  "description": "I used a bubble to level the rain gauges at level 2 and 3. I repositioned the mounting  poles and pounded them in with a hammer. There was no rain that day.",
+  "created_by": "Chris Wong",
+  "created_at": "2014-01-21T21:22:23.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602cb",
+    "58e68cacdf5ce600012602ce"
+  ],
+  "datastream_ids": [
+    "5ae87431fe27f482ac102626",
+    "5ae87431fe27f408f8102629",
+    "5ae87432fe27f49c1210262c",
+    "5ae87430fe27f472e1102624",
+    "5ae87431fe27f423e4102627",
+    "5ae87432fe27f464aa10262a"
+  ],
+  "external_refs": [
+    {
+      "identifier": 104,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 2_2,Riv Level 3_2",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "390,391,392,1617,1618,1619",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 119,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_104",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Rain gauges repositioned; see incident report IR_104",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

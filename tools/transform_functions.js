@@ -60,6 +60,22 @@ exports.get_station = function(station_odm_id) {
   }
 }
 
+exports.get_station_odmid = function(station_odm_id) {
+  stations = JSON.parse(fs.readFileSync("stations.json"))
+  boofound = false
+  for(var i=0;i<stations.list.length;i++) {
+    station = stations.list[i]
+    if(station.station_id == station_odm_id) {
+      //console.log("FOUND! ",station.name, station.station_id,station._id)
+      boofound = true
+      return station
+    }
+  }
+  if(boofound == false) {
+    return 'STATION_NOT_FOUND'
+  } 
+}
+
 exports.get_station_mongoid = function(station_mongo_id) {
   stations = JSON.parse(fs.readFileSync("stations.json"))
   for(var i=0;i<stations.list.length;i++) {

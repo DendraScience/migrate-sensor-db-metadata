@@ -1,0 +1,60 @@
+{
+  "begins_at": "2015-10-25T00:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "VMS Rock Moisture no calibration",
+  "description": "Rock Moisture no calib VMS_A1 - A10.  These values use the original manufacturer's calibration for the rigid metal loop, not Ofer Dahan's calibration for the flexible loop he installed.  As such, they are not accurate. Rock Moisture VMS A1 - 10 are derived from these values using the proper calibration.  While the device is not broken, these values should not normally be used.  Flag: X",
+  "created_by": "Collin Bode",
+  "created_at": "2015-12-07T19:48:02.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602db"
+  ],
+  "datastream_ids": [
+    "5ae87440fe27f4155a10266a",
+    "5ae87440fe27f4882110266c",
+    "5ae87440fe27f4ccd110266d",
+    "5ae87441fe27f481cd10266e",
+    "5ae87441fe27f4940c10266f",
+    "5ae87441fe27f4e5be102670",
+    "5ae87441fe27f44c82102671",
+    "5ae87441fe27f4ada4102672",
+    "5ae87442fe27f425b0102673",
+    "5ae87440fe27f4fe5010266b"
+  ],
+  "external_refs": [
+    {
+      "identifier": 234,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "VMS",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "2995, 2996, 2997, 2998, 2999, 3000, 3001, 3002, 3003, 3004",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 196,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_234",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "VMS Rock Moisture no calibration; see incident report IR_234",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "begins_at": "2014-01-16T01:00:00.000Z",
+  "ends_before": "2014-01-22T21:24:51.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Level 3 Power Outage",
+  "description": "I caused power outage to Level 3 data loggers while testing electrical load at the solar power system on Ursula Tree.   Peter Steel fixed the problem: \"Level 3 should be back on line. There was a neg. wire detached. Easy to miss at first glance as it curled around and appeared to be attached. Traced it back to the logger on the uphill side of the level three wood shelter where the antenna is that points to Ingrid and the uplink. Checked power across all positive (fused) loads and all were good.\"",
+  "created_by": "Collin Bode",
+  "created_at": "2014-01-22T21:24:51.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602cd",
+    "58e68cacdf5ce600012602ce"
+  ],
+  "datastream_ids": [],
+  "external_refs": [
+    {
+      "identifier": 105,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 3_1,Riv Level 3_2",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "all datastreams",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 120,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_105",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Power Outage; see incident report IR_105",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "begins_at": "2009-02-25T05:40:00.000Z",
+  "ends_before": "2009-02-27T20:35:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "HQ Rainfall gauge malfunctioning",
+  "description": "Rainfall was recorded only sporadically during this 3-day period in Feb 2009 (should  have been every 5 minutes.) The rainfall reading at 2/25/09 11:55 was 698.2 and two  timestamps in this period show a value of 7999.  Flagging all values in this period as  bad data.",
+  "created_by": "Ginger Ogle",
+  "created_at": "2014-11-08T22:41:55.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cabdf5ce600012602b1"
+  ],
+  "datastream_ids": [
+    "5ae87438fe27f415ee102643",
+    "5ae87437fe27f4f100102641",
+    "5ae8742efe27f41288102618"
+  ],
+  "external_refs": [
+    {
+      "identifier": 161,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Angelo HQ WS",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "41,1622,1781",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 174,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_161",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "HQ Rainfall gauge malfunctioning; see incident report IR_161",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

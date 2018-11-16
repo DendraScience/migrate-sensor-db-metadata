@@ -1,0 +1,50 @@
+{
+  "begins_at": "2017-10-25T18:37:00.000Z",
+  "ends_before": "2017-10-25T18:37:01.000Z",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "Clock Adjust",
+  "description": "Logger clock drift correction, clock set back (earlier) by 00:01:17",
+  "created_by": "Jim Norris",
+  "created_at": "2017-10-26T15:07:51.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602d7"
+  ],
+  "datastream_ids": [],
+  "external_refs": [
+    {
+      "identifier": 520,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "SNARL",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "all datastreams",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 458,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_520",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Clock Adjust; see incident report IR_520",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

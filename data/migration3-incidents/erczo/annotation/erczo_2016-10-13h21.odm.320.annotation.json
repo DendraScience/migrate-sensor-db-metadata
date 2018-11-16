@@ -1,0 +1,55 @@
+{
+  "begins_at": "2016-10-08T22:00:00.000Z",
+  "ends_before": "2016-10-09T00:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Measured DO",
+  "description": "Measured downhole DO using YSI ProODO",
+  "created_by": "Samantha Cargill",
+  "created_at": "2016-10-13T21:35:18.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602d0"
+  ],
+  "datastream_ids": [
+    "5ae87708fe27f4bb5f102aaa",
+    "5ae87708fe27f47df2102aae",
+    "5ae87708fe27f4f0a9102aac",
+    "5ae87708fe27f4184a102aab"
+  ],
+  "external_refs": [
+    {
+      "identifier": 320,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 5_1",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "all Well 15 datastreams",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 272,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_320",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Measured DO; see incident report IR_320",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

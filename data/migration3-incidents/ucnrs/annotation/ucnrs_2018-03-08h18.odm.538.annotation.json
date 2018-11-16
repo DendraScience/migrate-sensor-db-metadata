@@ -1,0 +1,58 @@
+{
+  "begins_at": "2018-02-09T17:40:00.000Z",
+  "ends_before": "2018-02-09T18:30:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "Fort Ord wind sensor orientation corrected",
+  "description": "The wind sensor was oriented 23 degrees off of north, so at 337 degrees  rather than 0. The data for all wind sensor datastreams should not be used  during the time period the sensor was being reoriented. The data prior to this  point for wind direction datastreams (4216, 4217) should be corrected if  possible. ",
+  "created_by": "Wendy Baxter",
+  "created_at": "2018-03-08T18:58:26.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cabdf5ce600012602bf"
+  ],
+  "datastream_ids": [
+    "5ae87a7afe27f4fd151030f4",
+    "5ae87a7afe27f43e2a1030f5",
+    "5ae87a84fe27f49eb2103122",
+    "5ae87a98fe27f4219910317e",
+    "5ae87a99fe27f4119410317f",
+    "5ae87a89fe27f4154310313a",
+    "5ae87aadfe27f485331031d3"
+  ],
+  "external_refs": [
+    {
+      "identifier": 538,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Fort Ord",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "4216, 4217, 4218, 4219, 4220, 4221, 4222",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 476,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_538",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Fort Ord wind sensor orientation corrected; see incident report IR_538",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

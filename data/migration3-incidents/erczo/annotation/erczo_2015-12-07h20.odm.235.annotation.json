@@ -1,0 +1,59 @@
+{
+  "begins_at": "2015-10-25T00:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "VMS Permitivity no calibration",
+  "description": "Permitivity no calib VMS_A1 - A10. These datastreams use the original manufacturer's calibration for the rigid metal loop, not Ofer Dahan's calibration for the flexible loop he installed. As such, they are not accurate.  While the device is not broken, these values should not normally be used. Flag: X",
+  "created_by": "Collin Bode",
+  "created_at": "2015-12-07T20:03:13.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602db"
+  ],
+  "datastream_ids": [
+    "5ae87428fe27f499201025fe",
+    "5ae87429fe27f45582102600",
+    "5ae87429fe27f4595c102601",
+    "5ae87429fe27f4c254102602",
+    "5ae8742afe27f401f9102603",
+    "5ae8742afe27f4c24e102604",
+    "5ae8742afe27f4dd84102606",
+    "5ae8742afe27f469fa102607",
+    "5ae87429fe27f4834e1025ff"
+  ],
+  "external_refs": [
+    {
+      "identifier": 235,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "VMS",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "DSID: 3025, 3026, 3027, 3028, 3029, 3030,\r\n30331, 3032, 3033, 3034",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 197,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_235",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "VMS Permitivity no calibration; see incident report IR_235",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

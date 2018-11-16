@@ -26,7 +26,7 @@
           "api": "ucnrs",
           "db": "station_ucyl_youngerlagoon",
           "fc": "source_tenmin",
-          "sc": "\"time\", \"PCPN_intrvl_Tot\",\"PCPN_in_Tot\"",
+          "sc": "\"time\", \"PCPN_intrvl_Tot\", \"PCPN_in_Tot\" * 25.4",
           "utc_offset": -28800,
           "coalesce": true
         }
@@ -74,8 +74,8 @@
     "ds_Variable_Height",
     "dt_Unit_Millimeter"
   ],
-  "created_at": "2018-07-02T01:06:56.818Z",
-  "updated_at": "2018-07-03T19:06:33.187Z",
+  "created_at": "2018-05-01T14:29:19.125Z",
+  "updated_at": "2018-10-10T01:36:57.137Z",
   "tags_info": {
     "resolved_terms": [
       {

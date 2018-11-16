@@ -1,0 +1,55 @@
+{
+  "begins_at": "2010-11-18T23:15:00.000Z",
+  "ends_before": "2010-12-18T04:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Malfunctioning Air Temp/RH sensor",
+  "description": "Air Temperature (C) and Relative Humidity sensor at Level 1_2 logger malfunctioned.  Cause:  misplacement of input wires on logger while adding new equipment.   During the malfunction Temperature sensor read -40 degrees celsius constant.  Status: fixed, operating normally. Comments:undefined",
+  "created_by": "Collin Bode",
+  "created_at": "2010-12-21T08:00:00.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602c9"
+  ],
+  "datastream_ids": [
+    "5ae873cffe27f4512010245b",
+    "5ae873cefe27f408ce102457",
+    "5ae873d8fe27f4dc91102486",
+    "5ae873d8fe27f4e1de102485"
+  ],
+  "external_refs": [
+    {
+      "identifier": 51,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 1_2",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "376, 1638, 375, 1599",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 71,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_51",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Invalid Data - Malfunctioning Equipment; see incident report IR_51",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "begins_at": "2018-07-12T17:30:00.000Z",
+  "ends_before": "2018-07-12T20:10:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "SCI rainfall test",
+  "description": "Two rainfall simulations were run. The logger was reprogrammed about noon also which  reset the accumulated value to zero. New accumulated value should be zero at the end of  the incident period.",
+  "created_by": "Jim Norris",
+  "created_at": "2018-07-14T00:36:14.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602d3"
+  ],
+  "datastream_ids": [
+    "5ae879bbfe27f43aa1102db6",
+    "5ae879bafe27f457d4102db4",
+    "5ae879c2fe27f47736102dd8"
+  ],
+  "external_refs": [
+    {
+      "identifier": 549,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Santa Cruz Island",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "3823,3824,3825",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 488,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_549",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "SCI rainfall test; see incident report IR_549",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

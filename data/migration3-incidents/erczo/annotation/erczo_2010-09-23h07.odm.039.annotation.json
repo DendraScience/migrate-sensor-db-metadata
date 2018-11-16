@@ -1,0 +1,52 @@
+{
+  "begins_at": "2010-09-23T19:00:00.000Z",
+  "ends_before": "2010-09-23T22:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Cleaned Rain Gauges Riv & HQ",
+  "description": "I cleaned out all of the rain gauges on site today (Riv level 1, 2, and 3) and the weather station at headquarters so if any precip registered, it was from me bumping the gauges around * rain gauge at level 1 had a little bit of debris but seemed ok for the most part * rain gauges at level 2 were clogged completely, so data from recent storm should be flagged. * rain gauges at level 3 and HQ were totally clear. Comments:[2010-09-24 Ginger] Flagged Rainfall mm for the two gauges at Rivendell Level 2_2 2010-09-18 19:20 thru 2010-09-19 19:20 (96 values).  Flagged Rainfall mm for  Riv Level 1_2 for 2010-09-23 16:00 (1 value) since this measurement is probably due to cleaning out the gauges.",
+  "created_by": "Daniella Rempe",
+  "created_at": "2010-09-23T07:00:00.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "P"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cabdf5ce600012602b1",
+    "58e68cacdf5ce600012602c9",
+    "58e68cacdf5ce600012602cb",
+    "58e68cacdf5ce600012602ce"
+  ],
+  "datastream_ids": [],
+  "external_refs": [
+    {
+      "identifier": 39,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Angelo HQ WS,Riv Level 1_2,Riv Level 2_2,Riv Level 3_2",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 59,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "P IR_39",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Passed sanity check; see incident report IR_39",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

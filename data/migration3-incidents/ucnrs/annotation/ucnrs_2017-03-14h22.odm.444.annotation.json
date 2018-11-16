@@ -1,0 +1,50 @@
+{
+  "begins_at": "2017-03-10T23:37:26.000Z",
+  "ends_before": "2017-03-10T23:37:26.000Z",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "Boyd, Replace Baro sensor",
+  "description": "Installed new sensor, replacing damaged sensor. Sensor failed October 5, 2016. All baro  sensor data from that date to March 10, 2017 at 3:00pm should be excluded.",
+  "created_by": "Jim Norris",
+  "created_at": "2017-03-14T22:37:26.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cabdf5ce600012602bd"
+  ],
+  "datastream_ids": [],
+  "external_refs": [
+    {
+      "identifier": 444,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Deep Canyon",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "3426",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 396,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_444",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Boyd, Replace Baro sensor; see incident report IR_444",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

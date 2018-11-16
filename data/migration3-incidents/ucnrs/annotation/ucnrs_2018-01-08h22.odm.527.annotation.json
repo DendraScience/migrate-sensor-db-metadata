@@ -1,0 +1,46 @@
+{
+  "begins_at": "2017-05-09T18:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "CR1000 clock corrected",
+  "description": "The CR1000 clock was an hour ahead. There is a gap in the data from 11:00 to   12:10 as a result",
+  "created_by": "Wendy Baxter",
+  "created_at": "2018-01-08T22:52:15.000Z",
+  "actions": [
+    {
+      "flags": [
+        "P"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cabdf5ce600012602b9"
+  ],
+  "datastream_ids": [],
+  "external_refs": [
+    {
+      "identifier": 527,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Bodega",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "all datastreams",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 466,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "P IR_527",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "CR1000 clock corrected; see incident report IR_527",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

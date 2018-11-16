@@ -1,0 +1,60 @@
+{
+  "begins_at": "2012-08-20T20:00:00.000Z",
+  "ends_before": "2012-08-21T19:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Removal of water level sensors W 15 W1",
+  "description": "Sammy Kayed removed transducers at W1 and W15 to run the neutron probe in order to determine whether or not there existed significant moisture change on a diurnal cycle.  Comments:undefined",
+  "created_by": "Jasper Oshun",
+  "created_at": "2012-08-29T16:31:11.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602c9",
+    "58e68cacdf5ce600012602d0"
+  ],
+  "datastream_ids": [
+    "5ae87702fe27f4409a102a8d",
+    "5ae87703fe27f4423c102a91",
+    "5ae87703fe27f4c1d7102a93",
+    "5ae87703fe27f43474102a92",
+    "5ae87708fe27f4bb5f102aaa",
+    "5ae87708fe27f4f0a9102aac",
+    "5ae87708fe27f47df2102aae",
+    "5ae87708fe27f4184a102aab"
+  ],
+  "external_refs": [
+    {
+      "identifier": 76,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 1_2,Riv Level 5_1",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "1335, 1337, 1474, 1664, 1469, 1478, 1470, 1668",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 103,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_76",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Invalid data; see incident report IR_76",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

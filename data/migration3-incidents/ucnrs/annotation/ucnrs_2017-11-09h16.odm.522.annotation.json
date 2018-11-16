@@ -1,0 +1,54 @@
+{
+  "begins_at": "2011-05-18T07:00:00.000Z",
+  "ends_before": "2017-11-08T18:50:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "Sedgwick PAR calibration error",
+  "description": "The PAR sensor calibration multiplier was corrected from 0.14085 to 0.2332. This error  has been in place since the system was deployed (May 2011). The error is caused by not  taking into account the 0.604 k ohm shunt resistor in determining the calibration  correction. This problem may be widespread in NRS systems. This sensor has not been  calibrated since it was installed in 2011.",
+  "created_by": "Jim Norris",
+  "created_at": "2017-11-09T16:43:21.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602d6"
+  ],
+  "datastream_ids": [
+    "5ae879a9fe27f48122102d63",
+    "5ae879a9fe27f44266102d64",
+    "5ae879a9fe27f46172102d65"
+  ],
+  "external_refs": [
+    {
+      "identifier": 522,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Sedgwick",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "3859,3860,3861",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 460,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_522",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Sedgwick PAR calibration error; see incident report IR_522",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

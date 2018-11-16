@@ -1,0 +1,51 @@
+{
+  "begins_at": "2012-03-01T17:27:00.000Z",
+  "ends_before": "2012-05-10T16:22:31.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "clogged rain gauge",
+  "description": "Angelo HQ rain gauge was clogged with dried mud on May 10 2012.  I cleaned out the clog.  I checked the data record, and it looks like the rain measurements were funky starting in March, so I am applying the incident report for March 1 - May 10. Comments:undefined",
+  "created_by": "Percy Link",
+  "created_at": "2012-05-10T16:22:31.000Z",
+  "actions": [
+    {
+      "flags": [
+        "P"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cabdf5ce600012602b1"
+  ],
+  "datastream_ids": [
+    "5ae87438fe27f415ee102643",
+    "5ae87437fe27f4f100102641",
+    "5ae8742efe27f41288102618"
+  ],
+  "external_refs": [
+    {
+      "identifier": 75,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Angelo HQ WS",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "41, 1622, 1781",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 102,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "P IR_75",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Passed sanity check; see incident report IR_75",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

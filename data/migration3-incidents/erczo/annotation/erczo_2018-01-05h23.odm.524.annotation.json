@@ -1,0 +1,46 @@
+{
+  "begins_at": "2017-05-10T22:40:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "PAR multiplier correction",
+  "description": "The multiplier was incorrect. Multiplier in program was 0.15432 but was  incorrect (wasn’t converted in millivolts). The multiplier was corrected to  0.25549 using the following formula: 1/(C x 0.604); C = 6.48, 1/(6.84 x 0.604)  = 0.25549 ",
+  "created_by": "Wendy Baxter",
+  "created_at": "2018-01-05T23:27:09.000Z",
+  "actions": [
+    {
+      "flags": [
+        "P"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cabdf5ce600012602b2"
+  ],
+  "datastream_ids": [],
+  "external_refs": [
+    {
+      "identifier": 524,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Angelo Meadow WS",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "3333,3334,3335",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 462,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "P IR_524",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "PAR multiplier correction; see incident report IR_524",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

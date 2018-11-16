@@ -1,0 +1,55 @@
+{
+  "begins_at": "2009-03-24T20:00:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Disconnected devices",
+  "description": "A set of psychrometers on a cable was pulled out of Well 10 and left on the ground.  These 'Soil Temperature' sensors have been recording open air, not soil or water. They need to be marked invalid data: L3WT_0.00, L3WT_2.50, L3WT_5.50, L3WT_8.50, L3WT_11.50 Comments:undefined",
+  "created_by": "Collin Bode",
+  "created_at": "2012-07-13T00:50:00.000Z",
+  "actions": [
+    {
+      "method": "exclude"
+    },
+    {
+      "flags": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602ce"
+  ],
+  "datastream_ids": [
+    "5ae876dbfe27f486ec1029e5",
+    "5ae876ddfe27f4be921029ed",
+    "5ae876defe27f454da1029f1",
+    "5ae876dffe27f472a61029f5",
+    "5ae876dcfe27f4f7421029e9"
+  ],
+  "external_refs": [
+    {
+      "identifier": 77,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 3_2",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "452, 453, 454, 455, 456",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 104,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "X IR_77",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Invalid Data; see incident report IR_77",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}

@@ -25,7 +25,7 @@
           "api": "ucnrs",
           "db": "station_ucbo_blueoak",
           "fc": "source_tenmin",
-          "sc": "\"time\", \"PCPN_intrvl_Tot\",\"PCPN_in_Tot\"",
+          "sc": "\"time\", \"PCPN_intrvl_Tot\", \"PCPN_in_Tot\" * 25.4",
           "utc_offset": -28800,
           "coalesce": true
         }
@@ -73,8 +73,8 @@
     "ds_Variable_Height",
     "dt_Unit_Millimeter"
   ],
-  "created_at": "2018-07-02T01:06:52.519Z",
-  "updated_at": "2018-07-03T19:06:31.071Z",
+  "created_at": "2018-05-01T14:29:05.833Z",
+  "updated_at": "2018-10-10T01:36:27.250Z",
   "tags_info": {
     "resolved_terms": [
       {

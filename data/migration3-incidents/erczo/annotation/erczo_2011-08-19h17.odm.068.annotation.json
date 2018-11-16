@@ -1,0 +1,50 @@
+{
+  "begins_at": "2011-07-08T13:00:00.000Z",
+  "ends_before": "2011-08-19T17:14:36.000Z",
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Well 3 Tracer Injection",
+  "description": "I pumped W3 (approximately 1200 mL of water), added 5.5 mL of 99% enriched dD through a PVC tube that extended to the top of the water table.  Comments:undefined",
+  "created_by": "Jasper Oshun",
+  "created_at": "2011-08-19T17:14:36.000Z",
+  "actions": [
+    {
+      "flags": [
+        "P"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602cb"
+  ],
+  "datastream_ids": [
+    "5ae8770bfe27f4f724102abb",
+    "5ae8770cfe27f42e28102abe"
+  ],
+  "external_refs": [
+    {
+      "identifier": 68,
+      "type": "odm.incidents.IncidentID"
+    },
+    {
+      "identifier": "Riv Level 2_2",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "381,1330",
+      "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": 92,
+      "type": "odm.qualifiers.QualifierID"
+    },
+    {
+      "identifier": "P IR_68",
+      "type": "odm.qualifiers.QualifierCode"
+    },
+    {
+      "identifier": "Passed sanity check; see incident report IR_68",
+      "type": "odm.qualifiers.QualifierDescription"
+    }
+  ]
+}
