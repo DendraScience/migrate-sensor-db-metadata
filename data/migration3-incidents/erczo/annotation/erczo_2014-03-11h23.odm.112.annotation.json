@@ -4,18 +4,17 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Pressure Transducer Swap, Level 5_1",
-  "description": "At level 5_1, Wells 15 & 16 had their pressure transducers swapped out for newer upgraded models (CS450 to CS451).  Old transducers are working fine and are redeployed at Level 4_1. ^M Well 15 --> Well 7, Well 16 --> Well 5.    ^M ^M The new transducers are almost identical to the old ones and will output the same values. There should be little change.",
+  "description": "At level 5_1, Wells 15 & 16 had their pressure transducers swapped out for newer upgraded models (CS450 to CS451).  Old transducers are working fine and are redeployed at Level 4_1. ^M Well 15 --> Well 7, Well 16 --> Well 5.    ^M ^M The new transducers are almost identical to the old ones and will output the same values. There should be little change. incident report migrated from SensorDB.",
   "created_by": "Collin Bode",
   "created_at": "2014-03-11T23:57:29.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.745Z",
   "actions": [
     {
-      "flags": [
+      "flag": [
         "P"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602d0"
   ],
   "datastream_ids": [
     "5ae87708fe27f4bb5f102aaa",

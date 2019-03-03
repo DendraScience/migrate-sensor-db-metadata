@@ -4,13 +4,11 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Well Water Level Measurement Taken",
-  "description": "press sensor depth may have shifted check results Comments:value for this timestamp was flagged",
+  "description": "press sensor depth may have shifted check results Comments:value for this timestamp was flagged incident report migrated from SensorDB.",
   "created_by": "Jim Bishop",
   "created_at": "2016-04-05T07:00:00.000Z",
-  "actions": [],
-  "station_ids": [
-    "58e68cacdf5ce600012602c9"
-  ],
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.852Z",
   "datastream_ids": [
     "5ae87702fe27f42f58102a8c",
     "5ae87702fe27f4a733102a8f",

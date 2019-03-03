@@ -1,8 +1,11 @@
 # Export script for views from MySQL
+# Note: export goes into compost.  These are intermediate files.
+# After this is run, the following is required: transform-sensordb-incident2annotation.js
+# 
 host=$1
 user=$2
 pass=$3
-#exportdir="../data/migration3-incidents/"
+
 exportdir="../compost/migration3-incidents/"
 
 echo "extract-sensordb-export-incidents: output directory $exportdir"
@@ -15,3 +18,4 @@ then
 else
 	echo "$exportdir not a directory."
 fi
+ 

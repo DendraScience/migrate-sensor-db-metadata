@@ -4,15 +4,17 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Solar Panel Branch Trimming, Ursula, Level 3",
-  "description": "Solar panels in Ursula have become shaded during summer due to grow of branches above them.  This is only a problem near solstice due to the high solar position. Peter & Collin trimmed and cut 3 large branches to provide full sunlight during the late afternoon.  There are two trees that block morning sunlight. Result is a sharp increase in midday to afternoon voltage.  Note: Tree psychrometer (Todd Dawson) was deployed on a branch within 3 meters of the branches we cut. We were careful to not disturb it.  There may be an effect due to circulation changing having lost the neighboring branches as well as the increased light coming into the canopy.   ",
+  "description": "Solar panels in Ursula have become shaded during summer due to grow of branches above them.  This is only a problem near solstice due to the high solar position. Peter & Collin trimmed and cut 3 large branches to provide full sunlight during the late afternoon.  There are two trees that block morning sunlight. Result is a sharp increase in midday to afternoon voltage.  Note: Tree psychrometer (Todd Dawson) was deployed on a branch within 3 meters of the branches we cut. We were careful to not disturb it.  There may be an effect due to circulation changing having lost the neighboring branches as well as the increased light coming into the canopy.    incident report migrated from SensorDB.",
   "created_by": "Collin Bode",
   "created_at": "2014-07-30T19:16:03.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.759Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
@@ -20,9 +22,6 @@
   "station_ids": [
     "58e68cacdf5ce600012602cd",
     "58e68cacdf5ce600012602ce"
-  ],
-  "datastream_ids": [
-    "5ae873e3fe27f424fc1024ba"
   ],
   "external_refs": [
     {

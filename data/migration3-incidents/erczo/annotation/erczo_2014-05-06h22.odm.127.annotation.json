@@ -4,21 +4,20 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Replaced transducer in well 3",
-  "description": "Replaced the pressure transducer in well 3 with Todd Wood. Current transducer depth 12.458m, manual well measurement 6.854m with eline 003. Installed new 75' CS451-L pressure transducer (SN 72010048).",
+  "description": "Replaced the pressure transducer in well 3 with Todd Wood. Current transducer depth 12.458m, manual well measurement 6.854m with eline 003. Installed new 75' CS451-L pressure transducer (SN 72010048). incident report migrated from SensorDB.",
   "created_by": "Chris Wong",
   "created_at": "2014-05-06T22:08:03.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.754Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602cb"
   ],
   "datastream_ids": [
     "5ae8770bfe27f4f724102abb",

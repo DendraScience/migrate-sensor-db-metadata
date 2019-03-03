@@ -3,18 +3,17 @@
   "enabled": true,
   "organization_id": "58db17c424dc720001671378",
   "title": "LI190SB replaced",
-  "description": "The LI190SB (serial # Q46275) was drifting and was replaced with another  LI190SB (serial # Q46277). However the multiplier was not updated for the  new sensor or corrected (the old multiplier was not calculated correctly) due  to computer problems (crashed while sending new program). The multiplier  was corrected on 2017-05-09 once I had a new field laptop.",
+  "description": "The LI190SB (serial # Q46275) was drifting and was replaced with another  LI190SB (serial # Q46277). However the multiplier was not updated for the  new sensor or corrected (the old multiplier was not calculated correctly) due  to computer problems (crashed while sending new program). The multiplier  was corrected on 2017-05-09 once I had a new field laptop. incident report migrated from SensorDB.",
   "created_by": "Wendy Baxter",
   "created_at": "2018-01-08T22:44:04.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:34.541Z",
   "actions": [
     {
-      "flags": [
+      "flag": [
         "P"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cabdf5ce600012602b9"
   ],
   "datastream_ids": [
     "5ae879a2fe27f49c30102d41"

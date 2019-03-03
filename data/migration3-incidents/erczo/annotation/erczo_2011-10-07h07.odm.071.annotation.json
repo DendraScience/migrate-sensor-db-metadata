@@ -4,18 +4,17 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Transducer removed from well 7",
-  "description": "The transducer was briefly removed from well 7 in order to run the neutron probe.  Comments:undefined",
+  "description": "The transducer was briefly removed from well 7 in order to run the neutron probe.  Comments:undefined incident report migrated from SensorDB.",
   "created_by": "Jasper Oshun",
   "created_at": "2011-10-07T07:00:00.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:36.031Z",
   "actions": [
     {
-      "flags": [
+      "flag": [
         "P"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602cf"
   ],
   "datastream_ids": [
     "5ae87712fe27f4c364102adc",

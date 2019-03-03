@@ -4,21 +4,20 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Well 10 sampled for water",
-  "description": "A water sample was collected from well 10 using a vial attached to the e-line. No equipment was removed from the well. Manual well depth measured 17.297m",
+  "description": "A water sample was collected from well 10 using a vial attached to the e-line. No equipment was removed from the well. Manual well depth measured 17.297m incident report migrated from SensorDB.",
   "created_by": "Chris Wong",
   "created_at": "2014-08-21T21:44:45.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.767Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602ce"
   ],
   "datastream_ids": [
     "5ae87703fe27f4ad0d102a94",

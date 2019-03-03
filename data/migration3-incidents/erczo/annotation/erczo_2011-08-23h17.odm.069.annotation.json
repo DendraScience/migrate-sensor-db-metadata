@@ -4,18 +4,17 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Well 14 Water Level m. Re-Computed",
-  "description": "Well 14's transducer was lowered on April 15 to get it into the water (see manual measurements taken on April 15 by Jim Bishop.)  Old transducer distance = 23.6, new transducer distance = 30.857, a difference of 7.257.  The psi to meters conversion on the data logger was not updated to reflect this change until May 26.  Therefore, values between April 15 and May 26 have been adjusted by 7.257 Comments:undefined",
+  "description": "Well 14's transducer was lowered on April 15 to get it into the water (see manual measurements taken on April 15 by Jim Bishop.)  Old transducer distance = 23.6, new transducer distance = 30.857, a difference of 7.257.  The psi to meters conversion on the data logger was not updated to reflect this change until May 26.  Therefore, values between April 15 and May 26 have been adjusted by 7.257 Comments:undefined incident report migrated from SensorDB.",
   "created_by": "Ginger Ogle",
   "created_at": "2011-08-23T17:24:23.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:36.030Z",
   "actions": [
     {
-      "flags": [
+      "flag": [
         "P"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602cc"
   ],
   "datastream_ids": [
     "5ae87707fe27f46339102aa7"

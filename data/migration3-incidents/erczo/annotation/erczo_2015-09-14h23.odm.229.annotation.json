@@ -4,13 +4,11 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Secured Loose Pressure Transducer cable with elect",
-  "description": "Discovered that the well 1 pressure transducer cable was no logger secured to anything, this explains the odd change of depth seen in Early June 2015. slack in the cable must have caused the sensor to sink at that time => a false level rise. The data can be offset using manual depth measurements. ",
+  "description": "Discovered that the well 1 pressure transducer cable was no logger secured to anything, this explains the odd change of depth seen in Early June 2015. slack in the cable must have caused the sensor to sink at that time => a false level rise. The data can be offset using manual depth measurements.  incident report migrated from SensorDB.",
   "created_by": "Jim Bishop",
   "created_at": "2015-09-14T23:23:47.000Z",
-  "actions": [],
-  "station_ids": [
-    "58e68cacdf5ce600012602c9"
-  ],
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.833Z",
   "datastream_ids": [
     "5ae87702fe27f42f58102a8c",
     "5ae87702fe27f4a733102a8f",

@@ -4,15 +4,17 @@
   "enabled": true,
   "organization_id": "58db17c424dc720001671378",
   "title": "network connection failure",
-  "description": "Sinervo added network switch failed due to power supply (external) failure. Connected  network cable direct to WX station NL100 device. External network access confirmed.",
+  "description": "Sinervo added network switch failed due to power supply (external) failure. Connected  network cable direct to WX station NL100 device. External network access confirmed. incident report migrated from SensorDB.",
   "created_by": "Jim Norris",
   "created_at": "2016-10-13T21:44:46.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:34.526Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
@@ -20,7 +22,6 @@
   "station_ids": [
     "58e68cabdf5ce600012602bd"
   ],
-  "datastream_ids": [],
   "external_refs": [
     {
       "identifier": 324,

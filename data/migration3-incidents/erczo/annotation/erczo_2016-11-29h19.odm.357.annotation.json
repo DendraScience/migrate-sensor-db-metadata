@@ -4,22 +4,20 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Rain gauge cleaning",
-  "description": "TB4 tipping buckets at Level 1 and 5 were ponded with water due to detritus blocking the funnel.   Data is invalid, since it represents a constant drip instead of actual rain fall.  Accumulated will now be off significantly for the rest of the water year. End date is when I poured out the water and cleaned the funnel. ",
+  "description": "TB4 tipping buckets at Level 1 and 5 were ponded with water due to detritus blocking the funnel.   Data is invalid, since it represents a constant drip instead of actual rain fall.  Accumulated will now be off significantly for the rest of the water year. End date is when I poured out the water and cleaned the funnel.  incident report migrated from SensorDB.",
   "created_by": "Collin Bode",
   "created_at": "2016-11-29T19:04:32.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.911Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602cb",
-    "58e68cacdf5ce600012602d0"
   ],
   "datastream_ids": [
     "5ae87433fe27f4900210262e",

@@ -3,21 +3,20 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "WSHQ barometer removed",
-  "description": "Reinstalled barometer while getting station back online.  Worked for 6 days, but with sudden drops to 500mb on the following timestamps:  1/16/2014 8:55 1/19/2014 13:45 to 1/19/2014 14:20 1/20/2014 11:50 1/21/2014 11:55 to 1/21/2014 12:00 Then it cut-out, flatlining at 500mb again.  Update 2/25/2014 by Chris Wong: After installing the new CR1000 the barometer was not giving good values. After running for a day it was still not giving good values. It was removed from the HQ weather station at 3:12 on 2/25/2014. (SN H4460016)",
+  "description": "Reinstalled barometer while getting station back online.  Worked for 6 days, but with sudden drops to 500mb on the following timestamps:  1/16/2014 8:55 1/19/2014 13:45 to 1/19/2014 14:20 1/20/2014 11:50 1/21/2014 11:55 to 1/21/2014 12:00 Then it cut-out, flatlining at 500mb again.  Update 2/25/2014 by Chris Wong: After installing the new CR1000 the barometer was not giving good values. After running for a day it was still not giving good values. It was removed from the HQ weather station at 3:12 on 2/25/2014. (SN H4460016) incident report migrated from SensorDB.",
   "created_by": "Collin Bode",
   "created_at": "2014-01-29T22:43:56.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.743Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cabdf5ce600012602b1"
   ],
   "datastream_ids": [
     "5ae873ecfe27f47f3c1024e2"

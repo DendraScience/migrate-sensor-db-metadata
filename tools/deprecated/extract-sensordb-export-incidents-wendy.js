@@ -1,16 +1,20 @@
 /* 
 Annotation Export and Modify Incidents from SensorDB
 @author: Collin Bode
- @date: 2018-11-10
- Purpose: Takes the SQL to JSON export of vw_export_incident and transforms it into proper
+@date: 2018-11-10
+Purpose: Takes the SQL to JSON export of vw_export_incident and transforms it into proper
  annotation JSON for Dendra.
  This variant of the original script handles JSON created from an excel sheet where Wendy Baxter
  was keeping her records of incidents. 15 incidents were exported into the odm 600 range.
+Dependencies: Must run the following scripts first:
+ 	vw_export_incidents.sql
+ 	extract-sensordb-export-incidentsh
+
 */
-
-
+ 
 fs = require("fs")
 tr = require("./transform_functions.js")
+
 path = require("path")
 org = 'ucnrs'
 orgid = "58db17c424dc720001671378" // ucnrs = "58db17c424dc720001671378", erczo = "58db17e824dc720001671379"

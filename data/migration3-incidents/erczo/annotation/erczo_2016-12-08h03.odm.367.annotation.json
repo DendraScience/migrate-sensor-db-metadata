@@ -4,21 +4,20 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Neutron Probe - Removed Transducer",
-  "description": "Removed transducer to neutron probe",
+  "description": "Removed transducer to neutron probe incident report migrated from SensorDB.",
   "created_by": "Samantha Cargill",
   "created_at": "2016-12-08T03:48:07.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.916Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602d0"
   ],
   "datastream_ids": [
     "5ae87708fe27f4bb5f102aaa",

@@ -4,21 +4,20 @@
   "enabled": true,
   "organization_id": "58db17c424dc720001671378",
   "title": "Rain gauge testing",
-  "description": "A test was performed on the rain gauge, during which 988 mL of water was  released into the gauge. It recorded a total of 1.28 inches during the incident.",
+  "description": "A test was performed on the rain gauge, during which 988 mL of water was  released into the gauge. It recorded a total of 1.28 inches during the incident. incident report migrated from SensorDB.",
   "created_by": "Wendy Baxter",
   "created_at": "2018-01-16T23:40:59.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:34.546Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cabdf5ce600012602b9"
   ],
   "datastream_ids": [
     "5ae879b2fe27f4af6d102d8a",

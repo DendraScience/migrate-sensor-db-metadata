@@ -4,21 +4,20 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Level 5 rain gage repaired",
-  "description": "Rain gage was mis-wired when originally installed.  ground wire was placed in 5v slot on logger.  Hence no precipitation was recorded during this time-period.  All values should be labelled as invalid and excluded.  There is one positive recording at the end the listed time-period, which was a manual test of the gage to confirm it was working.  1 mm in 5 minutes.  ",
+  "description": "Rain gage was mis-wired when originally installed.  ground wire was placed in 5v slot on logger.  Hence no precipitation was recorded during this time-period.  All values should be labelled as invalid and excluded.  There is one positive recording at the end the listed time-period, which was a manual test of the gage to confirm it was working.  1 mm in 5 minutes.   incident report migrated from SensorDB.",
   "created_by": "Collin Bode",
   "created_at": "2016-01-11T16:45:52.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.842Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602d0"
   ],
   "datastream_ids": [
     "5ae87434fe27f4372d102632"

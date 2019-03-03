@@ -4,18 +4,17 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Loose fuse causes daily outage",
-  "description": "Level 2_3 logger had a fuse which was loosely fitted in the copper clips that provide contact.  The clips became too loose and apparently disconnected completely in the night time.  During the day, they would reconnect.  This caused all datastreams on Level 2_3 to cut out during the night.  Values recorded are valid and can be used.",
+  "description": "Level 2_3 logger had a fuse which was loosely fitted in the copper clips that provide contact.  The clips became too loose and apparently disconnected completely in the night time.  During the day, they would reconnect.  This caused all datastreams on Level 2_3 to cut out during the night.  Values recorded are valid and can be used. incident report migrated from SensorDB.",
   "created_by": "Collin Bode",
   "created_at": "2016-08-24T01:56:26.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.878Z",
   "actions": [
     {
-      "flags": [
+      "flag": [
         "P"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602cc"
   ],
   "datastream_ids": [
     "5ae873d6fe27f46ee510247a",

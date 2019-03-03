@@ -3,21 +3,20 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Well 2 is dry",
-  "description": "Well 2 is dry so Pressure mV is coming in as negative. Comments:undefined",
+  "description": "Well 2 is dry so Pressure mV is coming in as negative. Comments:undefined incident report migrated from SensorDB.",
   "created_by": "Ginger Ogle",
   "created_at": "2011-06-21T23:16:31.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:36.026Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602cb"
   ],
   "datastream_ids": [
     "5ae8770afe27f4ceac102ab4",

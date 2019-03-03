@@ -4,21 +4,20 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Rain Bucket Testing",
-  "description": "TB4 rain gage was tested by Collin Bode and Chris Wong.  314 ml of water was poured over 15 minutes onto the gage tipping bucket, with the funnel removed.  41 tips were counted.  0.37 inches (9.4 mm) cumulative rainfall were measured by the logger. 10 ml was expected.    All datastreams derived from this sensor should be flagged invalid for this time-period.",
+  "description": "TB4 rain gage was tested by Collin Bode and Chris Wong.  314 ml of water was poured over 15 minutes onto the gage tipping bucket, with the funnel removed.  41 tips were counted.  0.37 inches (9.4 mm) cumulative rainfall were measured by the logger. 10 ml was expected.    All datastreams derived from this sensor should be flagged invalid for this time-period. incident report migrated from SensorDB.",
   "created_by": "Collin Bode",
   "created_at": "2016-03-16T06:27:21.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.850Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602d8"
   ],
   "datastream_ids": [
     "5ae8742ffe27f4240210261e",

@@ -4,20 +4,17 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Pump tests-transducer offset",
-  "description": "I conducted pump tests with an undergraduate, Sammy Kayed, at wells 5, 6, 7, 16, and  12. This may have offset the pressure transducers.  Comments:undefined",
+  "description": "I conducted pump tests with an undergraduate, Sammy Kayed, at wells 5, 6, 7, 16, and  12. This may have offset the pressure transducers.  Comments:undefined incident report migrated from SensorDB.",
   "created_by": "Jasper Oshun",
   "created_at": "2011-11-16T15:52:31.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:36.032Z",
   "actions": [
     {
-      "flags": [
+      "flag": [
         "P"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602c9",
-    "58e68cacdf5ce600012602cf",
-    "58e68cacdf5ce600012602d0"
   ],
   "datastream_ids": [
     "5ae8770dfe27f41002102ac2",

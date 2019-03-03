@@ -3,21 +3,20 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Well 13 is dry",
-  "description": "Well 13 is dry so psi is coming in as negative. Comments:undefined",
+  "description": "Well 13 is dry so psi is coming in as negative. Comments:undefined incident report migrated from SensorDB.",
   "created_by": "Ginger Ogle",
   "created_at": "2011-06-21T23:16:31.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:36.025Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602cc"
   ],
   "datastream_ids": [
     "5ae87706fe27f49192102aa0",

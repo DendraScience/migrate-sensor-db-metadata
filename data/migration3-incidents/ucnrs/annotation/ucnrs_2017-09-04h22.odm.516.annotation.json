@@ -3,18 +3,17 @@
   "enabled": true,
   "organization_id": "58db17c424dc720001671378",
   "title": "Santa Cruz Island temp /rh sensor failure",
-  "description": "Became intermittent Aug 15, sensor to be replaced 9/5/17",
+  "description": "Became intermittent Aug 15, sensor to be replaced 9/5/17 incident report migrated from SensorDB.",
   "created_by": "Jim Norris",
   "created_at": "2017-09-04T22:07:55.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:34.534Z",
   "actions": [
     {
-      "flags": [
+      "flag": [
         "P"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602d3"
   ],
   "datastream_ids": [
     "5ae87957fe27f442d2102bf3",

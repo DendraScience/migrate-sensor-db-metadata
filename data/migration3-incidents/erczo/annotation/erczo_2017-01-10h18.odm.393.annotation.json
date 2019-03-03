@@ -4,21 +4,20 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Pressure Transducer Removed",
-  "description": "Profiling and sampling",
+  "description": "Profiling and sampling incident report migrated from SensorDB.",
   "created_by": "Samantha Cargill",
   "created_at": "2017-01-10T18:34:55.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.928Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602cb"
   ],
   "datastream_ids": [
     "5ae8770afe27f4ceac102ab4",

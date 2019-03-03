@@ -4,21 +4,20 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Rain Gage Cleaning L3",
-  "description": "Cleaned out rain gage.  Removed about 1 pea's worth of mud from each tipping bucket.  Tested action of bucket for rust. ",
+  "description": "Cleaned out rain gage.  Removed about 1 pea's worth of mud from each tipping bucket.  Tested action of bucket for rust.  incident report migrated from SensorDB.",
   "created_by": "Collin Bode",
   "created_at": "2014-04-02T14:58:56.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.749Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602ce"
   ],
   "datastream_ids": [
     "5ae87432fe27f49c1210262c"

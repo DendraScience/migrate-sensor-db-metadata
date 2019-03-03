@@ -4,21 +4,20 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Measured DO",
-  "description": "Measured downhole DO using YSI ProODO",
+  "description": "Measured downhole DO using YSI ProODO incident report migrated from SensorDB.",
   "created_by": "Samantha Cargill",
   "created_at": "2016-10-13T21:35:18.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.893Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602d0"
   ],
   "datastream_ids": [
     "5ae87709fe27f48855102aaf",

@@ -4,15 +4,17 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Power Outage",
-  "description": "Incorrect wiring combined with severe power drop caused power system to go offline. Comments:undefined",
+  "description": "Incorrect wiring combined with severe power drop caused power system to go offline. Comments:undefined incident report migrated from SensorDB.",
   "created_by": "Collin Bode",
   "created_at": "2011-01-31T08:00:00.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:36.015Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "VB"
       ]
     }
@@ -22,7 +24,6 @@
     "58e68cacdf5ce600012602cb",
     "58e68cacdf5ce600012602cc"
   ],
-  "datastream_ids": [],
   "external_refs": [
     {
       "identifier": 54,

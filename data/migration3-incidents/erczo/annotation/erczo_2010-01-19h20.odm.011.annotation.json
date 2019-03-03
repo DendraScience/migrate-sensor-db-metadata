@@ -4,13 +4,11 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Rain gauge clogged",
-  "description": "Rain gauge at level three was clogged by leaf litter.  We removed the leaf litter with minimal loss of water.  After the leaf litter was removed the water that accumulated since was recorded and thus gave an erroneous rain intensity.  I have no way of knowing when the clog occurred.  Comments:undefined",
+  "description": "Rain gauge at level three was clogged by leaf litter.  We removed the leaf litter with minimal loss of water.  After the leaf litter was removed the water that accumulated since was recorded and thus gave an erroneous rain intensity.  I have no way of knowing when the clog occurred.  Comments:undefined incident report migrated from SensorDB.",
   "created_by": "Kevin Simonin",
   "created_at": "2010-01-19T20:10:56.000Z",
-  "actions": [],
-  "station_ids": [
-    "58e68cacdf5ce600012602cb"
-  ],
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.743Z",
   "datastream_ids": [
     "5ae87431fe27f408f8102629",
     "5ae87431fe27f423e4102627"

@@ -4,15 +4,17 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Logger interval changed to 5 minutes",
-  "description": "On November 15, 2010, all dataloggers at Angelo Reserve were set to record measurements at 5 minute intervals. Prior to this we had the following intervals in minutes:  Weather Stations: HQ: 5 TreeBeard: 5 Angelo Meadow: 15 HQ: 15 StillingWell: 15  Rivendell: level 1_1: 60 level 1_2: 30 level 2_1: 60 level 2_2: 30 level 3_1: 60 level 3_2: 30 level 4_1: 30  Comments:undefined",
+  "description": "On November 15, 2010, all dataloggers at Angelo Reserve were set to record measurements at 5 minute intervals. Prior to this we had the following intervals in minutes:  Weather Stations: HQ: 5 TreeBeard: 5 Angelo Meadow: 15 HQ: 15 StillingWell: 15  Rivendell: level 1_1: 60 level 1_2: 30 level 2_1: 60 level 2_2: 30 level 3_1: 60 level 3_2: 30 level 4_1: 30  Comments:undefined incident report migrated from SensorDB.",
   "created_by": "Collin Bode",
   "created_at": "2010-11-15T08:00:00.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.996Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "P"
       ]
     }
@@ -31,7 +33,6 @@
     "58e68cacdf5ce600012602ce",
     "58e68cacdf5ce600012602cf"
   ],
-  "datastream_ids": [],
   "external_refs": [
     {
       "identifier": 50,

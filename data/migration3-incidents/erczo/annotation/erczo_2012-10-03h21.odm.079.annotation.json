@@ -2,22 +2,20 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Well CO2 invalid data",
-  "description": "On Well 3 or 10, the microcontroller that interfaces to the CO2 sensor via an i2c link reported invalid data, code '0x20'. Comments:undefined",
+  "description": "On Well 3 or 10, the microcontroller that interfaces to the CO2 sensor via an i2c link reported invalid data, code '0x20'. Comments:undefined incident report migrated from SensorDB.",
   "created_by": "Ginger Ogle",
   "created_at": "2012-10-03T21:15:01.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:36.036Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602cb",
-    "58e68cacdf5ce600012602ce"
   ],
   "datastream_ids": [
     "5ae8770bfe27f4f724102abb",

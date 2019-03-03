@@ -3,21 +3,20 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Barometer removed",
-  "description": "I have removed the barometer (Vaisala PBT110) in WSHQ. It will be one month before we put in a replacement barometer.  I am moving the barometer to WSCP,  because the one up there is bad.  It is being returned to Campbell for replacement. Comments:undefined",
+  "description": "I have removed the barometer (Vaisala PBT110) in WSHQ. It will be one month before we put in a replacement barometer.  I am moving the barometer to WSCP,  because the one up there is bad.  It is being returned to Campbell for replacement. Comments:undefined incident report migrated from SensorDB.",
   "created_by": "Collin Bode",
   "created_at": "2010-08-26T07:00:00.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.861Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cabdf5ce600012602b1"
   ],
   "datastream_ids": [
     "5ae873ecfe27f47f3c1024e2"

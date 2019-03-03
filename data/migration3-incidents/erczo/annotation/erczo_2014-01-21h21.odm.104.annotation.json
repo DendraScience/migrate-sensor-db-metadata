@@ -4,22 +4,20 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Rain gauges - levels 2 and 3",
-  "description": "I used a bubble to level the rain gauges at level 2 and 3. I repositioned the mounting  poles and pounded them in with a hammer. There was no rain that day.",
+  "description": "I used a bubble to level the rain gauges at level 2 and 3. I repositioned the mounting  poles and pounded them in with a hammer. There was no rain that day. incident report migrated from SensorDB.",
   "created_by": "Chris Wong",
   "created_at": "2014-01-21T21:22:23.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.740Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602cb",
-    "58e68cacdf5ce600012602ce"
   ],
   "datastream_ids": [
     "5ae87431fe27f482ac102626",

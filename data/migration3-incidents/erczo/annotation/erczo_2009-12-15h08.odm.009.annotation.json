@@ -4,21 +4,20 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Rain gage was knocked askew",
-  "description": "On Dec 14, 2009, at 8:13 PM, Peter Steel wrote: Just an FYI I noticed on Friday that the rain gage for the Angelo meadow weather station was askew, enough so that it would not have recorded any rainfall. It looked like a bear had knocked it out of whack. I don't know how long it had been that way. Whenever I drive by I take a look over there but I might not have noticed the problem from the road. It was only when I was walking by that I noticed. So check the data. We had a couple of rain events since Friday afternoon but the last event before then would have been the Friday or Saturday after Thanksgiving. I am presently waiting to catch a flight out of Santa Rosa for Seattle so if there is anything you need me to check on site it'll have to wait till I return on Friday. Looks like a fair amount of rain is on the way beginning tonight so I hope the gage is functioning properly. I had to disconnect it from the mounting pole to straighten the mount but it did not look like there was any damage to the tipping mechanism inside the gage well itself. Comments:[1/11/2010 Ginger] Flagged 2,845 datavalues where station is Angelo Meadow (WSAM) and datastreamid=4 (Rainfall) and LocalDateTime >= '2009-11-12' and LocalDateTime <= '2009-12-11 12:00'",
+  "description": "On Dec 14, 2009, at 8:13 PM, Peter Steel wrote: Just an FYI I noticed on Friday that the rain gage for the Angelo meadow weather station was askew, enough so that it would not have recorded any rainfall. It looked like a bear had knocked it out of whack. I don't know how long it had been that way. Whenever I drive by I take a look over there but I might not have noticed the problem from the road. It was only when I was walking by that I noticed. So check the data. We had a couple of rain events since Friday afternoon but the last event before then would have been the Friday or Saturday after Thanksgiving. I am presently waiting to catch a flight out of Santa Rosa for Seattle so if there is anything you need me to check on site it'll have to wait till I return on Friday. Looks like a fair amount of rain is on the way beginning tonight so I hope the gage is functioning properly. I had to disconnect it from the mounting pole to straighten the mount but it did not look like there was any damage to the tipping mechanism inside the gage well itself. Comments:[1/11/2010 Ginger] Flagged 2,845 datavalues where station is Angelo Meadow (WSAM) and datastreamid=4 (Rainfall) and LocalDateTime >= '2009-11-12' and LocalDateTime <= '2009-12-11 12:00' incident report migrated from SensorDB.",
   "created_by": "Collin Bode",
   "created_at": "2009-12-15T08:00:00.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:36.043Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "P"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cabdf5ce600012602b2"
   ],
   "datastream_ids": [
     "5ae873ddfe27f40d0410249b"

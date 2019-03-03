@@ -4,21 +4,20 @@
   "enabled": true,
   "organization_id": "58db17c424dc720001671378",
   "title": "Quantum and RAD sensor replacement",
-  "description": "Quantum exchanged due to age, was Q46278, now Q35352. Note calibration factor in  program was wrong for old sensor by factor of 1/0.604. This is a significant absolute error  in all data to this point! New sensor has correct cal factor.  PAR exchanged due to age, was PY75003, now PY82823. Standardized cal factor (0.2) is  unchanged.",
+  "description": "Quantum exchanged due to age, was Q46278, now Q35352. Note calibration factor in  program was wrong for old sensor by factor of 1/0.604. This is a significant absolute error  in all data to this point! New sensor has correct cal factor.  PAR exchanged due to age, was PY75003, now PY82823. Standardized cal factor (0.2) is  unchanged. incident report migrated from SensorDB.",
   "created_by": "Jim Norris",
   "created_at": "2017-10-26T15:07:51.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:34.537Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602d7"
   ],
   "datastream_ids": [
     "5ae879aafe27f41a90102d66",

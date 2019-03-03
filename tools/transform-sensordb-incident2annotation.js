@@ -1,19 +1,24 @@
 /* 
-Annotation Export and Modify Incidents from SensorDB
+Transform Incidents from SensorDB into Dendra Annotations
 @author: Collin Bode
- @date: 2018-11-10
- Purpose: Takes the SQL to JSON export of vw_export_incident and transforms it into proper
+@date: 2018-11-10
+Purpose: Takes the SQL to JSON export of vw_export_incident and transforms it into proper
  annotation JSON for Dendra.
+Dependencies: Must run the following scripts first:
+ 	../sql/vw_export_incidents.sql
+ 	extract-sensordb-export-incident.sh
 */
-
-
+ 
 fs = require("fs")
 tr = require("./transform_functions.js")
 path = require("path")
-//org = 'ucnrs'
-//orgid = "58db17c424dc720001671378" // ucnrs = "58db17c424dc720001671378", erczo = "58db17e824dc720001671379"
 
 function string2array(str_array) {
+	//console.log("\t\t",str_array)
+	if(Array.isArray(str_array)) {
+		//console.log("\t\t already array, returning ",str_array)
+		return str_array
+	}
 	stripped = str_array.replace("[","").replace("]","").trim()
 	only_array = stripped.split(",")
 	return only_array
@@ -36,13 +41,15 @@ orgs = [
 for(var o=0;o<orgs.length;o++) {
 	org = orgs[o][0]
 	orgid = orgs[o][1]
-
-	// Path to Annotations
+	
+	// Path to Annotationss
 	mig3_path = '../data/migration3-incidents/'+org+'/'
 	ann_path = mig3_path+'annotation/'
 
-	// Run through migration3 annotation directory gather list of path & files
+	// Path to Incidents
 	ir_path = '../compost/migration3-incidents/'+org+'/'
+
+	// Run through migration3 annotation directory gather list of path & files	
 	ir_filepath_list = []
 	tr.recurse_dir(ir_path,ir_filepath_list,RegExp(/annotation.json$/i)) // Note: RegEx is not really used
 	console.log("Annotation Traverse complete. list length:",ir_filepath_list.length)
@@ -102,11 +109,10 @@ for(var o=0;o<orgs.length;o++) {
 			
 		// Quail Ridge and a few newer stations do not have external references	
 		if(typeof ds.external_refs === 'undefined') {
-			console.log(ds.name,"doesn't have external refs")
+			//console.log(ds.name,"doesn't have external refs")
 			continue
 		}
 		
-
 		// datastream_id_list parts
 		dsname = ds.name
 		mongoid = ds._id
@@ -131,9 +137,10 @@ for(var o=0;o<orgs.length;o++) {
 	//-------------------------------------------------
 	// Loop through all Annotations / Incident Reports
 	//-------------------------------------------------
+	warn_count = 0
 	for (var l=0;l<ir_filepath_list.length;l++) {
-		//if(l>10) {break} // just do one
-
+		//if(l>10) {break} // just do one test
+		check = false
 		dir = ir_filepath_list[l][0]
 		file = ir_filepath_list[l][1]
 		full_path = path.join(dir, file)
@@ -150,19 +157,25 @@ for(var o=0;o<orgs.length;o++) {
 		if(ir.Comments != "") {
 			ann.description = ann.description + " Comments:" + ir.Comments
 		}
+		ann.description = ann.description + " incident report migrated from SensorDB."
 		ann.created_by = ir.Reported_By
 		ann.created_at = ir.Date_Reported
+		ann.updated_by = "Collin Bode"
+		updated_date = new Date(Date.now())
+		ann.updated_at = updated_date.toISOString()
 		ann.actions = []
 		ann.station_ids = []
 		ann.datastream_ids = []
 		ann.external_refs = []
+		//console.log("created_at:",ann.created_at)
+		//console.log("updated_at:",ann.updated_at)
 
 		// Station ODM IDs --> MongoIDs
 		ir_stations = string2array(ir.StationIDs)
-		console.log("\t",ir.StationIDs,"-->",ir_stations)
+		//console.log("\t",ir.StationIDs,"-->",ir_stations)
 		for (var s=0;s<ir_stations.length;s++) {
-			sod = ir_stations[s].trim()
-			console.log("\t\t",s,sod)
+			sod = ir_stations[s].toString().trim()
+			//console.log("\t\t",s,sod)
 			for (var j=0;j<station_id_list.length;j++) {
 				if(sod == station_id_list[j][1]) {
 					ann.station_ids.push(station_id_list[j][2])
@@ -172,7 +185,7 @@ for(var o=0;o<orgs.length;o++) {
 		}
 
 
-		// Dataastream ODM IDs --> MongoIDs
+		// Datastream ODM IDs --> MongoIDs
 		ir_datastreams = string2array(ir.DatastreamIDs)
 		for (var d=0;d<ir_datastreams.length;d++) {
 			dsid = ir_datastreams[d]
@@ -206,16 +219,76 @@ for(var o=0;o<orgs.length;o++) {
 	  ann.external_refs.push({"identifier":ir.QualifierCode,"type":"odm.qualifiers.QualifierCode"})
 	  ann.external_refs.push({"identifier":ir.QualifierDescription,"type":"odm.qualifiers.QualifierDescription"})
 
-	  // Actions
+	  /* Actions
+			"actions":
+            "exclude": true
+            "flag": [“X”]
+            "calc": {}
+            "patch": {}
+	  */
 	  // Exclude Invalid Data
 	  if(ir.valid == 0) {
-	  	ann.actions.push({ "method": "exclude" })  	
+	  	ann.actions.push({ "exclude" : true })  	
 	  }
 	  // Flags
 	  if(typeof ir.flag !== 'undefined') {
-	  	ann.actions.push({"flags":[ir.flag.trim()]})
+	  	ann.actions.push({"flag":[ir.flag.trim()]})
 	  }
 
+	  /* Clean Annotation to make it schema compliant
+	   	Rules:
+	   	- If datastreams exist and there is only one station, remove stations
+	   	- If multiple stations and no datastreams, remove datastreams
+			- If there are multiple stations and datastreams, throw error to console and handle manually
+	   	- If an object is empty, remove object
+		*/
+		
+		// Check station & datastream counts
+		ds_count = ann.datastream_ids.length
+		st_count = ann.station_ids.length
+		console.log("\t station count:"+st_count+", datastream count: "+ds_count)
+		if(st_count == 1 && ds_count > 0) {
+			//console.log(ir.IncidentID,") "+"Removing station id, datastreams sufficient")
+			delete(ann.station_ids)
+		} else if( st_count > 1 & ds_count == 0) {
+			console.log(ir.IncidentID,") stations only. No action.")
+		} else if(st_count > 1 && ds_count > 0) {
+			console.log(ir.IncidentID,") WARNING! too many stations and datastreams in one incident.")
+			/* Three ways to fix:
+			1. edit sensordb
+			2. remove all stations from annoation and leave the Datastreams.
+			3. remove al datastreams from annotation and leave the Stations
+			*/
+			remove_stations = [6,13,27,44,48,72,76,78,79,80,81,97,99,104,119,121,126,262,357]
+			remove_datastreams = [1,133]
+			if(remove_stations.includes(ir.IncidentID)) {
+				delete(ann.station_ids)
+				console.log(ir.IncidentID,") ann.station_ids removed.")
+			} else if(remove_datastreams.includes(ir.IncidentID)) {
+				delete(ann.datastream_ids)
+				console.log(ir.IncidentID,") ann.datastream_ids removed.")
+			} else {
+				warn_count += 1
+				check = true
+			}
+		}
+
+		// If object is empty, remove it
+		for(var obj in ann){
+		    //console.log(ir.IncidentID,") "+obj+": "+ann[obj]);
+		    if(typeof ann[obj] == 'undefined') {
+		    	console.log(ir.IncidentID,") "+obj+": is undefined. Ignoring...")
+		    	continue
+		    } else if(ann[obj] == 'undefined') {
+		    	console.log(ir.IncidentID,") "+obj+": labelled undefined. usually end date. Removing...")
+		    	delete ann[obj]
+		    } else if(ann[obj].length == 0) {
+		    	console.log(ir.IncidentID,") "+obj+": exists, but is empty. Removing...")
+		    	delete ann[obj]
+		    } 
+		}
+
+	  // Annotation complete!
 		//console.log("Anotation JSON:",ann)
 
 		// Export JSON to file
@@ -223,7 +296,13 @@ for(var o=0;o<orgs.length;o++) {
 		irpadded = pad(ir.IncidentID,3)
 		ann_file = org+"_"+ann.created_at.substring(0,13).replace("T","h")+".odm."+irpadded+".annotation.json"
 		ann_string = JSON.stringify(ann,null,2)
-		fs.writeFileSync(ann_path+ann_file,ann_string,'utf-8')
-		console.log("\t exporting:",ann_file)
+		if(check == true) { 
+			ann_file_path = ann_path+"check/"+ann_file 
+		} else {
+			ann_file_path = ann_path+ann_file
+		}
+		fs.writeFileSync(ann_file_path,ann_string,'utf-8')
+		console.log("\t exporting:",ann_file_path)
 	}
+	console.log(org,": annotations that need attention = ",warn_count)
 }

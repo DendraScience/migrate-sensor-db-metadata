@@ -4,21 +4,20 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Rain gauge malfunction",
-  "description": "The tipping bucket rain gauge at level 2 was clogged by leaf litter.  We removed the leaf litter at ~11:12am with minimal loss of the water.  After removing the leaf litter the water that had accumulated was recorded and thus gave an erroneous rain intensity.  I have no way of knowing when the clog occurred and thus do not know how long the rain intensity data is suspect. Comments:undefined",
+  "description": "The tipping bucket rain gauge at level 2 was clogged by leaf litter.  We removed the leaf litter at ~11:12am with minimal loss of the water.  After removing the leaf litter the water that had accumulated was recorded and thus gave an erroneous rain intensity.  I have no way of knowing when the clog occurred and thus do not know how long the rain intensity data is suspect. Comments:undefined incident report migrated from SensorDB.",
   "created_by": "Kevin Simonin",
   "created_at": "2010-01-19T20:02:17.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.730Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "P"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602cb"
   ],
   "datastream_ids": [
     "5ae87431fe27f482ac102626",

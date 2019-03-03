@@ -3,21 +3,20 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Old Cahto Peak rain bucket kicks bucket",
-  "description": "Old tipping bucket rain gage is reporting constant 0.25 mm rain every sample interval.  The new rain gauge is responding normally.  This may be a function of a light snow preventing the old instrument from functioning.  The newer one has a heating element.  ",
+  "description": "Old tipping bucket rain gage is reporting constant 0.25 mm rain every sample interval.  The new rain gauge is responding normally.  This may be a function of a light snow preventing the old instrument from functioning.  The newer one has a heating element.   incident report migrated from SensorDB.",
   "created_by": "Collin Bode",
   "created_at": "2015-12-10T18:03:55.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.838Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cabdf5ce600012602bb"
   ],
   "datastream_ids": [
     "5ae87437fe27f4b973102640"

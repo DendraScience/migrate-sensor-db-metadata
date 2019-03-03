@@ -4,21 +4,20 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Well 14 inoperable transducer",
-  "description": "Data flatlined during this period, apparently due to an inoperable transducer. The datavalue held steady at -23.64. Comments:undefined",
+  "description": "Data flatlined during this period, apparently due to an inoperable transducer. The datavalue held steady at -23.64. Comments:undefined incident report migrated from SensorDB.",
   "created_by": "Ginger Ogle",
   "created_at": "2011-08-18T17:27:04.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:36.027Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602cc"
   ],
   "datastream_ids": [
     "5ae87707fe27f409fc102aa5",

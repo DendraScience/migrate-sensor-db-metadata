@@ -3,18 +3,17 @@
   "enabled": true,
   "organization_id": "58db17c424dc720001671378",
   "title": "PAR multiplier correction",
-  "description": "The multiplier (0.132100) was incorrect for the previous LI190SB. The  multiplier in the program was changed to 0.218709",
+  "description": "The multiplier (0.132100) was incorrect for the previous LI190SB. The  multiplier in the program was changed to 0.218709 incident report migrated from SensorDB.",
   "created_by": "Wendy Baxter",
   "created_at": "2018-01-08T23:39:29.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:34.542Z",
   "actions": [
     {
-      "flags": [
+      "flag": [
         "P"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cabdf5ce600012602bc"
   ],
   "datastream_ids": [
     "5ae879a2fe27f449e1102d43"

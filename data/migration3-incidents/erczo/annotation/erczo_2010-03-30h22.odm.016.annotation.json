@@ -4,14 +4,14 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Missing Data",
-  "description": "Short in the system - no data recorded. Comments:[2010-03-30 Ginger] Flagged 1,078 values between Start and End times for Sap Station3",
+  "description": "Short in the system - no data recorded. Comments:[2010-03-30 Ginger] Flagged 1,078 values between Start and End times for Sap Station3 incident report migrated from SensorDB.",
   "created_by": "Ginger Ogle",
   "created_at": "2010-03-30T22:47:19.000Z",
-  "actions": [],
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.775Z",
   "station_ids": [
     "58e68cacdf5ce600012602d5"
   ],
-  "datastream_ids": [],
   "external_refs": [
     {
       "identifier": 16,

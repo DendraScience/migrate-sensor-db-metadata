@@ -4,15 +4,17 @@
   "enabled": true,
   "organization_id": "58db17c424dc720001671378",
   "title": "Sedgwick program update",
-  "description": "Loaded new program to logger, it rearranges the TenMin table slightly, and provides more  descriptive names for the Wind Vector array elements. ",
+  "description": "Loaded new program to logger, it rearranges the TenMin table slightly, and provides more  descriptive names for the Wind Vector array elements.  incident report migrated from SensorDB.",
   "created_by": "Jim Norris",
   "created_at": "2017-11-09T16:23:28.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:34.538Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
@@ -20,7 +22,6 @@
   "station_ids": [
     "58e68cacdf5ce600012602d6"
   ],
-  "datastream_ids": [],
   "external_refs": [
     {
       "identifier": 521,

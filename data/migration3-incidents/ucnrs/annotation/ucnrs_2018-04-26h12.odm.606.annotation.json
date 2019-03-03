@@ -1,0 +1,26 @@
+{
+  "begins_at": "2018-04-26T19:10:00.000Z",
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "Sent Core 8 program onsite",
+  "description": "PAR multiplier updated",
+  "created_by": "Wendy Baxter",
+  "created_at": "2018-04-26 12:10:00",
+  "datastream_ids": [
+    "5ae879a6fe27f4d7f1102d54",
+    "5ae879a6fe27f41268102d55",
+    "5ae879a6fe27f46ac2102d56"
+  ],
+  "external_refs": [
+    {
+      "identifier": "Jepson",
+      "type": "odm.incidents.StationNames"
+    },
+    {
+      "identifier": "PAR",
+      "type": "odm.incidents.Datastream_Names"
+    }
+  ],
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:30:51.157Z"
+}

@@ -4,21 +4,20 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Well 7 Removed Pressure Transducer",
-  "description": "Removed pressure transducer from the well to take a manual measurement and collect  a water sample.",
+  "description": "Removed pressure transducer from the well to take a manual measurement and collect  a water sample. incident report migrated from SensorDB.",
   "created_by": "Chris Wong",
   "created_at": "2015-11-25T00:46:38.000Z",
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.835Z",
   "actions": [
     {
-      "method": "exclude"
+      "exclude": true
     },
     {
-      "flags": [
+      "flag": [
         "X"
       ]
     }
-  ],
-  "station_ids": [
-    "58e68cacdf5ce600012602cf"
   ],
   "datastream_ids": [
     "5ae87712fe27f4c364102adc",

@@ -4,13 +4,11 @@
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Well Water Level Measurement Taken",
-  "description": "water level logger may not have been working properly- low volume constant beeping Comments:value for this timestamp was flagged",
+  "description": "water level logger may not have been working properly- low volume constant beeping Comments:value for this timestamp was flagged incident report migrated from SensorDB.",
   "created_by": "Daniella Rempe",
   "created_at": "2010-11-08T08:00:00.000Z",
-  "actions": [],
-  "station_ids": [
-    "58e68cacdf5ce600012602cc"
-  ],
+  "updated_by": "Collin Bode",
+  "updated_at": "2019-03-03T22:29:35.954Z",
   "datastream_ids": [
     "5ae87707fe27f409fc102aa5",
     "5ae87707fe27f4c499102aa9",
