@@ -1,14 +1,16 @@
 {
-  "begins_at": "2010-01-19T23:18:54.000Z",
-  "ends_before": "2010-01-19T23:18:54.000Z",
+  "intervals": [
+    {
+      "begins_at": "2010-01-19T23:18:54.000Z",
+      "ends_before": "2010-01-19T23:18:54.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Water Damage to Multiplexer",
   "description": "The multiplexer labelled 'L3-1' was sitting in a pool of water. We drained the bag and tried to position the multiplexer in a way that would minimize exposure to rain. Comments:undefined incident report migrated from SensorDB.",
-  "created_by": "Kevin Simonin",
   "created_at": "2010-01-19T23:18:54.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:35.763Z",
+  "updated_at": "2019-03-08T02:05:28.989Z",
   "actions": [
     {
       "exclude": true
@@ -24,6 +26,14 @@
     "58e68cacdf5ce600012602ce"
   ],
   "external_refs": [
+    {
+      "identifier": "Kevin Simonin",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 14,
       "type": "odm.incidents.IncidentID"

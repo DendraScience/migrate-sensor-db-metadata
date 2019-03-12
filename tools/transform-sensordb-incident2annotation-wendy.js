@@ -67,22 +67,35 @@ for (var l=0;l<ir_filepath_list.length;l++) {
 	
 	// Remove  Comments:undefined
 	ann.description = ann.description.replace(" Comments:undefined","")
-	console.log("\t ann:",ann.description)
+	//console.log("\t ann:",ann.description)
 	
-		// Set Dates correctly and who updated
-	ann.updated_by = "Collin Bode"
+	// People should be MongoID's but we have names for the moment
+	// Place them in external_references
+  ann.external_refs.push({"identifier":ann.created_by,"type":"created_by_name"})
+  ann.external_refs.push({"identifier":"Collin Bode","type":"updated_by_name"})
+	delete(ann.created_by)
+
+	// Set Dates correctly to UTC in ISO format
+	// Move Dates to an array called "interval"
+	created_at = new Date(ann.created_at)
+	ann.created_at = created_at.toISOString()
+
 	updated_date = new Date(Date.now())
 	ann.updated_at = updated_date.toISOString()
 
+	ann.intervals = []
 	begins_at = new Date(ann.begins_at)
 	ann.begins_at = begins_at.toISOString()
 
 	if(ann.ends_before == "") {
-		delete(ann.ends_before)
-	}	else {
+		ann.intervals.push({"begins_at": ann.begins_at})
+	} else {
 		ends_before = new Date(ann.ends_before)
 		ann.ends_before = ends_before.toISOString()
+		ann.intervals.push({"begins_at": ann.begins_at,"ends_before": ann.ends_before})
 	}
+	delete(ann.begins_at)
+	delete(ann.ends_before)
 
   /* Actions
 		"actions":
@@ -93,11 +106,24 @@ for (var l=0;l<ir_filepath_list.length;l++) {
   */
   // Exclude Invalid Data
   // old version: "method": "exclude"
-  if(ir.actions.method == "exclude") {
-  	delete(ann.actions.method)
-  	ann.actions.push({ "exclude" : true })  	
-  }
-
+  /*
+  "actions": [
+    {
+      "method": "exclude"
+    }
+  ],
+  */
+  console.log("\tactions: ",ir.actions)
+  if(ir.actions.length > 0) {  
+	  console.log("\tmethod["+ir.actions.length+"]: ",ir.actions[0].method)
+	  if(ir.actions[0].method == "exclude") {
+	  	delete(ann.actions)
+	  	ann.actions = []
+	  	ann.actions.push({ "exclude" : true })  	
+	  }
+	} else {
+		console.log("\tmethod is undefined.")
+	}
   /* Clean Annotation to make it schema compliant
    	Rules:
    	- If datastreams exist and there is only one station, remove stations

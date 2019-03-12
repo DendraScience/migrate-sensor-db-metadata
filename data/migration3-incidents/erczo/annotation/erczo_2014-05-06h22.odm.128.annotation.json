@@ -1,14 +1,16 @@
 {
-  "begins_at": "2014-05-04T20:30:00.000Z",
-  "ends_before": "2014-05-04T20:40:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2014-05-04T20:30:00.000Z",
+      "ends_before": "2014-05-04T20:40:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Removed SM200's from Level 2",
   "description": "Removed the SM200 wires from the multiplexer at level 2. incident report migrated from SensorDB.",
-  "created_by": "Chris Wong",
   "created_at": "2014-05-06T22:34:51.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:35.755Z",
+  "updated_at": "2019-03-08T02:05:28.980Z",
   "actions": [
     {
       "exclude": true
@@ -23,6 +25,14 @@
     "58e68cacdf5ce600012602cb"
   ],
   "external_refs": [
+    {
+      "identifier": "Chris Wong",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 128,
       "type": "odm.incidents.IncidentID"

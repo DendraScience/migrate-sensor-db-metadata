@@ -1,12 +1,9 @@
 {
-  "begins_at": "2018-08-14T21:53:00.000Z",
-  "ends_before": "2018-08-14T23:30:00.000Z",
   "enabled": true,
   "organization_id": "58db17c424dc720001671378",
   "title": "Unwired and removed anemometer from tower",
   "description": "Unwired and removed anemometer for testing during this time period",
-  "created_by": "Wendy Baxter",
-  "created_at": "2018-08-14 14:53:00",
+  "created_at": "2018-08-14T21:53:00.000Z",
   "datastream_ids": [
     "5ae87aadfe27f482da1031d0",
     "5ae87a78fe27f412f61030eb",
@@ -24,8 +21,21 @@
     {
       "identifier": "anemometer",
       "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": "Wendy Baxter",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
     }
   ],
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:30:51.181Z"
+  "updated_at": "2019-03-08T02:05:35.148Z",
+  "intervals": [
+    {
+      "begins_at": "2018-08-14T21:53:00.000Z",
+      "ends_before": "2018-08-14T23:30:00.000Z"
+    }
+  ]
 }

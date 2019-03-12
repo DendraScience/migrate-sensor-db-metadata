@@ -1,14 +1,16 @@
 {
-  "begins_at": "2011-10-04T14:30:00.000Z",
-  "ends_before": "2011-10-04T15:10:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2011-10-04T14:30:00.000Z",
+      "ends_before": "2011-10-04T15:10:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Transducer removed from well 7",
   "description": "The transducer was briefly removed from well 7 in order to run the neutron probe.  Comments:undefined incident report migrated from SensorDB.",
-  "created_by": "Jasper Oshun",
   "created_at": "2011-10-07T07:00:00.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:36.031Z",
+  "updated_at": "2019-03-08T02:05:29.294Z",
   "actions": [
     {
       "flag": [
@@ -21,6 +23,14 @@
     "5ae87713fe27f42615102adf"
   ],
   "external_refs": [
+    {
+      "identifier": "Jasper Oshun",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 71,
       "type": "odm.incidents.IncidentID"

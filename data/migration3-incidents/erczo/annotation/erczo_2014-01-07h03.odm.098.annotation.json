@@ -1,13 +1,15 @@
 {
-  "begins_at": "2014-01-06T18:00:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2014-01-06T18:00:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Excavation of TDR L2S3",
   "description": "L2S3 sensors at 0, 0.25 and 0.7 m depth were removed and placed in a bucket of soil.  Several SM200 sensors were also moved around but we intend on permanently  removing them from the site. incident report migrated from SensorDB.",
-  "created_by": "Daniella Rempe",
   "created_at": "2014-01-07T03:35:02.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:36.047Z",
+  "updated_at": "2019-03-08T02:05:29.317Z",
   "actions": [
     {
       "exclude": true
@@ -32,6 +34,14 @@
     "5ae8766ffe27f466091027fe"
   ],
   "external_refs": [
+    {
+      "identifier": "Daniella Rempe",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 98,
       "type": "odm.incidents.IncidentID"

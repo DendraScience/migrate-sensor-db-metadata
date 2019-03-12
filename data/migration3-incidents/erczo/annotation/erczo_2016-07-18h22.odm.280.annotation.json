@@ -1,14 +1,16 @@
 {
-  "begins_at": "2016-07-11T18:54:00.000Z",
-  "ends_before": "2016-07-12T07:00:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2016-07-11T18:54:00.000Z",
+      "ends_before": "2016-07-12T07:00:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Well Water Sampling",
   "description": "Sampled using the bailer incident report migrated from SensorDB.",
-  "created_by": "Samantha Cargill",
   "created_at": "2016-07-18T22:51:05.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:35.862Z",
+  "updated_at": "2019-03-08T02:05:29.099Z",
   "actions": [
     {
       "exclude": true
@@ -26,6 +28,14 @@
     "5ae87705fe27f4826f102a9e"
   ],
   "external_refs": [
+    {
+      "identifier": "Samantha Cargill",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 280,
       "type": "odm.incidents.IncidentID"

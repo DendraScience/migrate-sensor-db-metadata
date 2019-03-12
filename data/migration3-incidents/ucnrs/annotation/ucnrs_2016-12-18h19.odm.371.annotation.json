@@ -1,13 +1,15 @@
 {
-  "begins_at": "2016-08-15T10:40:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2016-08-15T10:40:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17c424dc720001671378",
   "title": "Barometric sensor failure",
   "description": "Barometric sensor failed due to unknown reasons.  incident report migrated from SensorDB.",
-  "created_by": "Jim Norris",
   "created_at": "2016-12-18T19:58:27.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:34.528Z",
+  "updated_at": "2019-03-08T02:05:27.695Z",
   "actions": [
     {
       "exclude": true
@@ -22,6 +24,14 @@
     "58e68cabdf5ce600012602bd"
   ],
   "external_refs": [
+    {
+      "identifier": "Jim Norris",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 371,
       "type": "odm.incidents.IncidentID"

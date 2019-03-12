@@ -148,8 +148,8 @@ for(var o=0;o<orgs.length;o++) {
 		console.log("FILE:",full_path)
 
 		ann = {} // new annotation json
-		ann.begins_at = ir.StartTime
-		ann.ends_before = ir.EndTime
+		ann.intervals = [] 
+		ann.intervals.push({"begins_at": ir.StartTime,"ends_before": ir.EndTime})
 		ann.enabled = true
 		ann.organization_id = orgid
 		ann.title = ir.Title
@@ -158,9 +158,7 @@ for(var o=0;o<orgs.length;o++) {
 			ann.description = ann.description + " Comments:" + ir.Comments
 		}
 		ann.description = ann.description + " incident report migrated from SensorDB."
-		ann.created_by = ir.Reported_By
 		ann.created_at = ir.Date_Reported
-		ann.updated_by = "Collin Bode"
 		updated_date = new Date(Date.now())
 		ann.updated_at = updated_date.toISOString()
 		ann.actions = []
@@ -212,6 +210,8 @@ for(var o=0;o<orgs.length;o++) {
 		// External References
 		//    "identifier": "422",
 	  //		"type": "odm.datastreams.DatastreamID"
+	  ann.external_refs.push({"identifier":ir.Reported_By,"type":"created_by_name"})
+	  ann.external_refs.push({"identifier":"Collin Bode","type":"updated_by_name"})
 	  ann.external_refs.push({"identifier":ir.IncidentID,"type":"odm.incidents.IncidentID"})
 	  ann.external_refs.push({"identifier":ir.StationNames,"type":"odm.incidents.StationNames"})
 	  ann.external_refs.push({"identifier":ir.Datastream_Names,"type":"odm.incidents.Datastream_Names"})

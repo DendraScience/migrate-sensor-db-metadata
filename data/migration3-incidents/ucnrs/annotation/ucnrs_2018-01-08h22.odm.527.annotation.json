@@ -1,13 +1,15 @@
 {
-  "begins_at": "2017-05-09T18:00:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2017-05-09T18:00:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17c424dc720001671378",
   "title": "CR1000 clock corrected",
   "description": "The CR1000 clock was an hour ahead. There is a gap in the data from 11:00 to   12:10 as a result incident report migrated from SensorDB.",
-  "created_by": "Wendy Baxter",
   "created_at": "2018-01-08T22:52:15.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:34.542Z",
+  "updated_at": "2019-03-08T02:05:27.717Z",
   "actions": [
     {
       "flag": [
@@ -19,6 +21,14 @@
     "58e68cabdf5ce600012602b9"
   ],
   "external_refs": [
+    {
+      "identifier": "Wendy Baxter",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 527,
       "type": "odm.incidents.IncidentID"

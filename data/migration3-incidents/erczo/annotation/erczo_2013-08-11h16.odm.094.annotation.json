@@ -1,14 +1,16 @@
 {
-  "begins_at": "2013-07-24T14:35:00.000Z",
-  "ends_before": "2014-02-25T08:00:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2013-07-24T14:35:00.000Z",
+      "ends_before": "2014-02-25T08:00:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Logger Memory Errors - accelerated clock",
   "description": "We have a bad data logger at WSHQ.  Memory errors are being reported in its status table and its clock suddenly accelerates.   This is despite the internal clock being synced regularly with the server and the logger system clock reporting correct time.   I have reinstalled its operating program and moved the .dat file.  However, I suspect this will require replacement of the logger itself.   Update 8/12/2013: I had hoped reinstalling the operating program would fix WSHQ, but it looks like the clock on it is permanently running too fast. All datastreams on the logger should be flagged as bad until I can replace the logger.  Update 2/19/2014: Datalogger failure - memory errors.  Requires replacement. All values on the logger will have to be flagged as bad, even though some look reasonable.  Update 2/26/2014: Chris Wong replaced the datalogger on Feb 24, 2014 and valid values commenced at 2014-02-25 00:05:00. The barometer is still not functioning however (see Incident Report 109.) Comments:undefined incident report migrated from SensorDB.",
-  "created_by": "Collin Bode",
   "created_at": "2013-08-11T16:23:00.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:36.045Z",
+  "updated_at": "2019-03-08T02:05:29.314Z",
   "actions": [
     {
       "exclude": true
@@ -23,6 +25,14 @@
     "58e68cabdf5ce600012602b1"
   ],
   "external_refs": [
+    {
+      "identifier": "Collin Bode",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 94,
       "type": "odm.incidents.IncidentID"

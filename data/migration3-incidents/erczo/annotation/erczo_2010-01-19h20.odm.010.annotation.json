@@ -1,14 +1,16 @@
 {
-  "begins_at": "2010-01-18T19:12:17.000Z",
-  "ends_before": "2010-01-18T19:12:17.000Z",
+  "intervals": [
+    {
+      "begins_at": "2010-01-18T19:12:17.000Z",
+      "ends_before": "2010-01-18T19:12:17.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Rain gauge malfunction",
   "description": "The tipping bucket rain gauge at level 2 was clogged by leaf litter.  We removed the leaf litter at ~11:12am with minimal loss of the water.  After removing the leaf litter the water that had accumulated was recorded and thus gave an erroneous rain intensity.  I have no way of knowing when the clog occurred and thus do not know how long the rain intensity data is suspect. Comments:undefined incident report migrated from SensorDB.",
-  "created_by": "Kevin Simonin",
   "created_at": "2010-01-19T20:02:17.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:35.730Z",
+  "updated_at": "2019-03-08T02:05:28.958Z",
   "actions": [
     {
       "exclude": true
@@ -24,6 +26,14 @@
     "5ae87430fe27f472e1102624"
   ],
   "external_refs": [
+    {
+      "identifier": "Kevin Simonin",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 10,
       "type": "odm.incidents.IncidentID"

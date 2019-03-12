@@ -1,14 +1,16 @@
 {
-  "begins_at": "2017-05-10T16:49:00.000Z",
-  "ends_before": "2017-05-10T16:49:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2017-05-10T16:49:00.000Z",
+      "ends_before": "2017-05-10T16:49:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Well Water Level Measurement Taken",
   "description": "Clamp is useless. Needs new clamp. E-line hit bottom, then pinged. Dry or mud? Added new tape tag (black) where clamp should be. Corrosion and mud make serial # illegible. Old blue tape removed Comments:value for this timestamp was flagged incident report migrated from SensorDB.",
-  "created_by": "Collin Bode",
   "created_at": "2017-05-14T07:00:00.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:35.984Z",
+  "updated_at": "2019-03-08T02:05:29.237Z",
   "datastream_ids": [
     "5ae87706fe27f49192102aa0",
     "5ae87706fe27f473cd102aa2",
@@ -16,6 +18,14 @@
     "5ae87706fe27f4fc4c102aa3"
   ],
   "external_refs": [
+    {
+      "identifier": "Collin Bode",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 476,
       "type": "odm.incidents.IncidentID"

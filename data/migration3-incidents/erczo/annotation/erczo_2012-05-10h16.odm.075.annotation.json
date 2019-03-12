@@ -1,14 +1,16 @@
 {
-  "begins_at": "2012-03-01T17:27:00.000Z",
-  "ends_before": "2012-05-10T16:22:31.000Z",
+  "intervals": [
+    {
+      "begins_at": "2012-03-01T17:27:00.000Z",
+      "ends_before": "2012-05-10T16:22:31.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "clogged rain gauge",
   "description": "Angelo HQ rain gauge was clogged with dried mud on May 10 2012.  I cleaned out the clog.  I checked the data record, and it looks like the rain measurements were funky starting in March, so I am applying the incident report for March 1 - May 10. Comments:undefined incident report migrated from SensorDB.",
-  "created_by": "Percy Link",
   "created_at": "2012-05-10T16:22:31.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:36.033Z",
+  "updated_at": "2019-03-08T02:05:29.298Z",
   "actions": [
     {
       "flag": [
@@ -22,6 +24,14 @@
     "5ae8742efe27f41288102618"
   ],
   "external_refs": [
+    {
+      "identifier": "Percy Link",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 75,
       "type": "odm.incidents.IncidentID"

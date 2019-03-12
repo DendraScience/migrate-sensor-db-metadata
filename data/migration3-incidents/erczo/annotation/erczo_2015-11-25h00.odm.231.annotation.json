@@ -1,14 +1,16 @@
 {
-  "begins_at": "2015-11-20T17:20:00.000Z",
-  "ends_before": "2015-11-20T17:50:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2015-11-20T17:20:00.000Z",
+      "ends_before": "2015-11-20T17:50:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Well 7 Removed Pressure Transducer",
   "description": "Removed pressure transducer from the well to take a manual measurement and collect  a water sample. incident report migrated from SensorDB.",
-  "created_by": "Chris Wong",
   "created_at": "2015-11-25T00:46:38.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:35.835Z",
+  "updated_at": "2019-03-08T02:05:29.062Z",
   "actions": [
     {
       "exclude": true
@@ -28,6 +30,14 @@
     "5ae87714fe27f46c4d102ae2"
   ],
   "external_refs": [
+    {
+      "identifier": "Chris Wong",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 231,
       "type": "odm.incidents.IncidentID"

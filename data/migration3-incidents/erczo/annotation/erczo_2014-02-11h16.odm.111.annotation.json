@@ -1,14 +1,16 @@
 {
-  "begins_at": "2014-02-10T20:50:00.000Z",
-  "ends_before": "2014-02-11T16:43:28.000Z",
+  "intervals": [
+    {
+      "begins_at": "2014-02-10T20:50:00.000Z",
+      "ends_before": "2014-02-11T16:43:28.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Well 15 changed transducer elevation",
   "description": "The transducer was muddy so the elevation was changed back to previous transducer elevation (before January 26 2014)  incident report migrated from SensorDB.",
-  "created_by": "Daniella Rempe",
   "created_at": "2014-02-11T16:41:20.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:35.744Z",
+  "updated_at": "2019-03-08T02:05:28.967Z",
   "actions": [
     {
       "exclude": true
@@ -26,6 +28,14 @@
     "5ae87708fe27f4184a102aab"
   ],
   "external_refs": [
+    {
+      "identifier": "Daniella Rempe",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 111,
       "type": "odm.incidents.IncidentID"

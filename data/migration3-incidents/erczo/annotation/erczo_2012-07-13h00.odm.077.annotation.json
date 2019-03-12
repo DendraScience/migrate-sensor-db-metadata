@@ -1,13 +1,15 @@
 {
-  "begins_at": "2009-03-24T20:00:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2009-03-24T20:00:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Disconnected devices",
   "description": "A set of psychrometers on a cable was pulled out of Well 10 and left on the ground.  These 'Soil Temperature' sensors have been recording open air, not soil or water. They need to be marked invalid data: L3WT_0.00, L3WT_2.50, L3WT_5.50, L3WT_8.50, L3WT_11.50 Comments:undefined incident report migrated from SensorDB.",
-  "created_by": "Collin Bode",
   "created_at": "2012-07-13T00:50:00.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:36.035Z",
+  "updated_at": "2019-03-08T02:05:29.299Z",
   "actions": [
     {
       "exclude": true
@@ -26,6 +28,14 @@
     "5ae876dcfe27f4f7421029e9"
   ],
   "external_refs": [
+    {
+      "identifier": "Collin Bode",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 77,
       "type": "odm.incidents.IncidentID"

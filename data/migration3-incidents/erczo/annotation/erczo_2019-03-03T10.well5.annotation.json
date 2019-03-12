@@ -1,0 +1,40 @@
+{
+  "_id": "5c86c7d2f191e02336c27c7a",
+  "intervals": [
+    {
+      "begins_at": "2019-03-03T18:30:00.000Z",
+      "ends_before": "2019-03-03T18:50:00.000Z"
+    }
+  ],
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Removed Pressure Transducer Well 5",
+  "description": "NMR and Neutron Probe Surveys, Water Chemistry.",
+  "created_at": "2019-03-11T20:40:50.876Z",
+  "actions": [
+    {
+      "exclude": true
+    },
+    {
+      "flag": [
+        "X"
+      ]
+    }
+  ],
+  "datastream_ids": [
+    "5ae8770dfe27f40c92102ac3",
+    "5ae8770dfe27f486fc102ac6",
+    "5ae8770efe27f418bf102ac8"
+  ],
+  "external_refs": [
+    {
+      "identifier": "Collin Bode",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    }
+  ],
+  "updated_at": "2019-03-11T20:56:27.897Z"
+}

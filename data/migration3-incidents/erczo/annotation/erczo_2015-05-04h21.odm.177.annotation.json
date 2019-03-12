@@ -1,14 +1,16 @@
 {
-  "begins_at": "2015-05-03T23:40:00.000Z",
-  "ends_before": "2015-05-03T23:55:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2015-05-03T23:40:00.000Z",
+      "ends_before": "2015-05-03T23:55:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Reinstall pCO2 O2 and thermister at 1.5 and 3.0 m.",
   "description": "Reinstall pCO2 O2 and thermister at 1.5 and 3.0 m. Depth / well temp bad incident report migrated from SensorDB.",
-  "created_by": "Jim Bishop",
   "created_at": "2015-05-04T21:19:53.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:35.786Z",
+  "updated_at": "2019-03-08T02:05:29.017Z",
   "actions": [
     {
       "exclude": true
@@ -28,6 +30,14 @@
     "5ae8770cfe27f4e44a102abf"
   ],
   "external_refs": [
+    {
+      "identifier": "Jim Bishop",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 177,
       "type": "odm.incidents.IncidentID"

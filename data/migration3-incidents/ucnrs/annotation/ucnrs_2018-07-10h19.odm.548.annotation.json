@@ -1,14 +1,16 @@
 {
-  "begins_at": "2018-07-10T17:30:00.000Z",
-  "ends_before": "2018-07-10T17:40:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2018-07-10T17:30:00.000Z",
+      "ends_before": "2018-07-10T17:40:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17c424dc720001671378",
   "title": "Motte program update",
   "description": "New program is based on the NRS Core 8 program. Units have changed for rainfall (now  mm) and wind velocity (now m/s) TenMin table layout conforms to the new core  configuration. incident report migrated from SensorDB.",
-  "created_by": "Jim Norris",
   "created_at": "2018-07-10T19:14:32.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:34.550Z",
+  "updated_at": "2019-03-08T02:05:27.730Z",
   "actions": [
     {
       "exclude": true
@@ -23,6 +25,14 @@
     "58e68cacdf5ce600012602c6"
   ],
   "external_refs": [
+    {
+      "identifier": "Jim Norris",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 548,
       "type": "odm.incidents.IncidentID"

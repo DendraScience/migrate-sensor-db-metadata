@@ -1,14 +1,16 @@
 {
-  "begins_at": "2018-05-17T01:10:18.000Z",
-  "ends_before": "2018-05-17T01:20:18.000Z",
+  "intervals": [
+    {
+      "begins_at": "2018-05-17T01:10:18.000Z",
+      "ends_before": "2018-05-17T01:20:18.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17c424dc720001671378",
   "title": "Deep Canyon logger program update to NRS Core v8",
   "description": "Uploaded new NRS Core program to logger.  incident report migrated from SensorDB.",
-  "created_by": "Jim Norris",
   "created_at": "2018-05-17T01:42:18.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:34.549Z",
+  "updated_at": "2019-03-08T02:05:27.729Z",
   "actions": [
     {
       "exclude": true
@@ -23,6 +25,14 @@
     "58e68cabdf5ce600012602bd"
   ],
   "external_refs": [
+    {
+      "identifier": "Jim Norris",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 542,
       "type": "odm.incidents.IncidentID"

@@ -1,14 +1,16 @@
 {
-  "begins_at": "2016-10-09T22:00:00.000Z",
-  "ends_before": "2016-10-09T22:50:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2016-10-09T22:00:00.000Z",
+      "ends_before": "2016-10-09T22:50:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Neutron Probe - Removed Transducer",
   "description": "Removed pressure transducer to neutron probe well incident report migrated from SensorDB.",
-  "created_by": "Samantha Cargill",
   "created_at": "2016-10-13T21:35:18.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:35.893Z",
+  "updated_at": "2019-03-08T02:05:29.125Z",
   "actions": [
     {
       "exclude": true
@@ -26,6 +28,14 @@
     "5ae87706fe27f4fc4c102aa3"
   ],
   "external_refs": [
+    {
+      "identifier": "Samantha Cargill",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 318,
       "type": "odm.incidents.IncidentID"

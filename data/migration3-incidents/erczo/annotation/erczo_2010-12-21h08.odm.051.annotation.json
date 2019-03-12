@@ -1,14 +1,16 @@
 {
-  "begins_at": "2010-11-18T23:15:00.000Z",
-  "ends_before": "2010-12-18T04:00:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2010-11-18T23:15:00.000Z",
+      "ends_before": "2010-12-18T04:00:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Malfunctioning Air Temp/RH sensor",
   "description": "Air Temperature (C) and Relative Humidity sensor at Level 1_2 logger malfunctioned.  Cause:  misplacement of input wires on logger while adding new equipment.   During the malfunction Temperature sensor read -40 degrees celsius constant.  Status: fixed, operating normally. Comments:undefined incident report migrated from SensorDB.",
-  "created_by": "Collin Bode",
   "created_at": "2010-12-21T08:00:00.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:36.010Z",
+  "updated_at": "2019-03-08T02:05:29.265Z",
   "actions": [
     {
       "exclude": true
@@ -26,6 +28,14 @@
     "5ae873d8fe27f4e1de102485"
   ],
   "external_refs": [
+    {
+      "identifier": "Collin Bode",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 51,
       "type": "odm.incidents.IncidentID"

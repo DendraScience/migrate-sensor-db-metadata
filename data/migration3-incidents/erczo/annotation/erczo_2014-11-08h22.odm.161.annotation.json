@@ -1,14 +1,16 @@
 {
-  "begins_at": "2009-02-25T05:40:00.000Z",
-  "ends_before": "2009-02-27T20:35:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2009-02-25T05:40:00.000Z",
+      "ends_before": "2009-02-27T20:35:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "HQ Rainfall gauge malfunctioning",
   "description": "Rainfall was recorded only sporadically during this 3-day period in Feb 2009 (should  have been every 5 minutes.) The rainfall reading at 2/25/09 11:55 was 698.2 and two  timestamps in this period show a value of 7999.  Flagging all values in this period as  bad data. incident report migrated from SensorDB.",
-  "created_by": "Ginger Ogle",
   "created_at": "2014-11-08T22:41:55.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:35.776Z",
+  "updated_at": "2019-03-08T02:05:29.004Z",
   "actions": [
     {
       "exclude": true
@@ -25,6 +27,14 @@
     "5ae8742efe27f41288102618"
   ],
   "external_refs": [
+    {
+      "identifier": "Ginger Ogle",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 161,
       "type": "odm.incidents.IncidentID"

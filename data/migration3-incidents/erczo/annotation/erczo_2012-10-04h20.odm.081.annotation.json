@@ -1,12 +1,13 @@
 {
+  "intervals": [
+    {}
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Well CO2 Pump Status = Off",
   "description": "This flag indicates whether the pump on the CO2 sensor was on or off for a particular data point. A sample is taken by pumping air through the sensor and logging it for x seconds. The pump is turned off for the last x seconds of a sample.  IR 80 = Pump is ON  (QualifierID=107) IR 81 = Pump is OFF (QualifierID=108) Comments:undefined incident report migrated from SensorDB.",
-  "created_by": "Ginger Ogle",
   "created_at": "2012-10-04T20:53:58.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:36.038Z",
+  "updated_at": "2019-03-08T02:05:29.303Z",
   "actions": [
     {
       "flag": [
@@ -23,6 +24,14 @@
     "5ae8770cfe27f4e44a102abf"
   ],
   "external_refs": [
+    {
+      "identifier": "Ginger Ogle",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 81,
       "type": "odm.incidents.IncidentID"

@@ -1,14 +1,16 @@
 {
-  "begins_at": "2009-09-24T07:00:00.000Z",
-  "ends_before": "2009-10-24T07:00:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2009-09-24T07:00:00.000Z",
+      "ends_before": "2009-10-24T07:00:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Bear damage",
   "description": "Daniella, Jasper and I visited the site this past weekend. Unfortunately a bear did some damage recently. It systematically knocked over and chewed on everyone of the plastic bag covered resistance probes. They were each snapped at the soil boundary. I haven't had a chance to check to see when this might have happened according to the online record. The bear also knocked over the rainfall collector (James says he has found teeth marks in it before). It broke the extended plastic tube on well 7 and the wooden stake holding up the plastic tarp. and it knocked off the cap of well 6. We didn't detect other damage-- but there could be some. I encourage you all to check your favorite on line device. We put the cap back on 6, propped up well 7 tube and put back a stake. and reset up the rain collector. Comments:[12/1/09 Ginger] Flagged the following values between 2009-08-24 00:00:00 and 2009-10-26 00:00:00: **ERPs** (all Rivendell stations): Flagged 290304 values. **Well 6** : Flagged 3024 values **Well 7** : Flagged 3024 values incident report migrated from SensorDB.",
-  "created_by": "Bill Dietrich",
   "created_at": "2009-10-26T07:00:00.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:35.730Z",
+  "updated_at": "2019-03-08T02:05:28.956Z",
   "actions": [
     {
       "flag": [
@@ -26,6 +28,14 @@
     "58e68cacdf5ce600012602cf"
   ],
   "external_refs": [
+    {
+      "identifier": "Bill Dietrich",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 1,
       "type": "odm.incidents.IncidentID"

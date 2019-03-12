@@ -1,14 +1,16 @@
 {
-  "begins_at": "2014-01-26T18:30:00.000Z",
-  "ends_before": "2014-01-26T19:30:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2014-01-26T18:30:00.000Z",
+      "ends_before": "2014-01-26T19:30:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Well 7 - replaced pipe",
   "description": "I pulled the pressure transducer out of well 7 so I could replace the broken PVC pipe.  The top of the well pipe now sits 3/4\" taller than the old pipe. The sensor cable lies in a  cut out, 1\" below the top of the pipe. The transducer should now be hanging 1/4\" lower  than it previously was.  From the data, Daniella approximates that the sensor is now 1.57\" higher than before. incident report migrated from SensorDB.",
-  "created_by": "Chris Wong",
   "created_at": "2014-01-30T18:10:19.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:35.742Z",
+  "updated_at": "2019-03-08T02:05:28.964Z",
   "actions": [
     {
       "exclude": true
@@ -28,6 +30,14 @@
     "5ae87714fe27f46c4d102ae2"
   ],
   "external_refs": [
+    {
+      "identifier": "Chris Wong",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 108,
       "type": "odm.incidents.IncidentID"

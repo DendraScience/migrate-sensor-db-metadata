@@ -1,14 +1,16 @@
 {
-  "begins_at": "2018-01-10T21:20:00.000Z",
-  "ends_before": "2018-01-10T23:20:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2018-01-10T21:20:00.000Z",
+      "ends_before": "2018-01-10T23:20:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17c424dc720001671378",
   "title": "Rain gauge testing",
   "description": "A test was performed on the rain gauge, during which 988 mL of water was  released into the gauge. It recorded a total of 1.28 inches during the incident. incident report migrated from SensorDB.",
-  "created_by": "Wendy Baxter",
   "created_at": "2018-01-16T23:40:59.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:34.546Z",
+  "updated_at": "2019-03-08T02:05:27.723Z",
   "actions": [
     {
       "exclude": true
@@ -24,6 +26,14 @@
     "5ae879c0fe27f43700102dcd"
   ],
   "external_refs": [
+    {
+      "identifier": "Wendy Baxter",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 536,
       "type": "odm.incidents.IncidentID"

@@ -1,17 +1,9 @@
 {
-  "begins_at": "2018-05-02T19:30:00.000Z",
-  "ends_before": "2018-05-02T20:40:00.000Z",
   "enabled": true,
   "organization_id": "58db17c424dc720001671378",
   "title": "Added hawk deterrant to anemometer",
   "description": "Gap in wind data",
-  "created_by": "Wendy Baxter",
-  "created_at": "2018-05-02 12:30:00",
-  "actions": [
-    {
-      "method": "exclude"
-    }
-  ],
+  "created_at": "2018-05-02T19:30:00.000Z",
   "datastream_ids": [
     "5ae87a7afe27f4fd151030f4",
     "5ae87a7afe27f43e2a1030f5",
@@ -29,8 +21,26 @@
     {
       "identifier": "wind",
       "type": "odm.incidents.Datastream_Names"
+    },
+    {
+      "identifier": "Wendy Baxter",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
     }
   ],
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:30:51.171Z"
+  "updated_at": "2019-03-08T02:05:35.138Z",
+  "intervals": [
+    {
+      "begins_at": "2018-05-02T19:30:00.000Z",
+      "ends_before": "2018-05-02T20:40:00.000Z"
+    }
+  ],
+  "actions": [
+    {
+      "exclude": true
+    }
+  ]
 }

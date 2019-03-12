@@ -1,14 +1,16 @@
 {
-  "begins_at": "2013-08-30T18:49:00.000Z",
-  "ends_before": "2013-08-30T18:49:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2013-08-30T18:49:00.000Z",
+      "ends_before": "2013-08-30T18:49:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Well Water Level Measurement Taken",
   "description": "PST time (12;49 PDT) Comments:value for this timestamp was flagged incident report migrated from SensorDB.",
-  "created_by": "Jim Bishop",
   "created_at": "2013-09-17T07:00:00.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:36.044Z",
+  "updated_at": "2019-03-08T02:05:29.311Z",
   "datastream_ids": [
     "5ae87705fe27f4db78102a9b",
     "5ae87705fe27f444a3102a9d",
@@ -16,6 +18,14 @@
     "5ae87705fe27f4826f102a9e"
   ],
   "external_refs": [
+    {
+      "identifier": "Jim Bishop",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 91,
       "type": "odm.incidents.IncidentID"

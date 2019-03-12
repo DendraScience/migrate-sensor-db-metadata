@@ -1,14 +1,16 @@
 {
-  "begins_at": "2017-10-25T17:15:00.000Z",
-  "ends_before": "2017-10-25T18:35:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2017-10-25T17:15:00.000Z",
+      "ends_before": "2017-10-25T18:35:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17c424dc720001671378",
   "title": "GeoNor Service",
   "description": "Winter service of device, remove accumulated antifreeze and water mixture, recharged  with antifreeze. Accumulated precipitation was 78.13mm, new zero accumulated precipitation value is  45.31 mm incident report migrated from SensorDB.",
-  "created_by": "Jim Norris",
   "created_at": "2017-10-26T15:07:51.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:34.536Z",
+  "updated_at": "2019-03-08T02:05:27.709Z",
   "actions": [
     {
       "exclude": true
@@ -26,6 +28,14 @@
     "5ae879aefe27f41596102d77"
   ],
   "external_refs": [
+    {
+      "identifier": "Jim Norris",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 518,
       "type": "odm.incidents.IncidentID"

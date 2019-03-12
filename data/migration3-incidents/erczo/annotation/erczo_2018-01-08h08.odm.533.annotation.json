@@ -1,14 +1,16 @@
 {
-  "begins_at": "2018-01-06T21:05:00.000Z",
-  "ends_before": "2018-01-06T21:05:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2018-01-06T21:05:00.000Z",
+      "ends_before": "2018-01-06T21:05:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Well Water Level Measurement Taken",
   "description": "Dry Comments:value for this timestamp was flagged incident report migrated from SensorDB.",
-  "created_by": "Marshall Wolf",
   "created_at": "2018-01-08T08:00:00.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:36.015Z",
+  "updated_at": "2019-03-08T02:05:29.272Z",
   "datastream_ids": [
     "5ae87706fe27f49192102aa0",
     "5ae87706fe27f473cd102aa2",
@@ -16,6 +18,14 @@
     "5ae87706fe27f4fc4c102aa3"
   ],
   "external_refs": [
+    {
+      "identifier": "Marshall Wolf",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 533,
       "type": "odm.incidents.IncidentID"

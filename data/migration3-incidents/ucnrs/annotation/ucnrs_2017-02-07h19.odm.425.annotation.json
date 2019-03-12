@@ -1,14 +1,16 @@
 {
-  "begins_at": "2017-02-07T02:00:00.000Z",
-  "ends_before": "2017-02-14T18:30:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2017-02-07T02:00:00.000Z",
+      "ends_before": "2017-02-14T18:30:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17c424dc720001671378",
   "title": "Elliott Temp/RH sensor failure",
   "description": "HPM50 Temp/RH failed at 6pm Feb 6 2017. Replaced at 10am Feb 14 Comments:value for this timestamp was flagged incident report migrated from SensorDB.",
-  "created_by": "Jim Norris",
   "created_at": "2017-02-07T19:09:30.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:34.530Z",
+  "updated_at": "2019-03-08T02:05:27.697Z",
   "actions": [
     {
       "exclude": true
@@ -28,6 +30,14 @@
     "5ae879cffe27f42423102e11"
   ],
   "external_refs": [
+    {
+      "identifier": "Jim Norris",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 425,
       "type": "odm.incidents.IncidentID"

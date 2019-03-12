@@ -1,0 +1,44 @@
+{
+  "intervals": [
+    {
+      "begins_at": "2019-03-03T13:40:00.000Z",
+      "ends_before": "2019-03-04T17:15:00.000Z"
+    },
+    {
+      "begins_at": "2019-03-07T21:00:00.000Z",
+      "ends_before": "2019-03-08T16:50:00.000Z"
+    }
+  ],
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Power outage SSSS",
+  "description": "South Side Solar System (SSSS) had a power failure due to heavy rain, clouds, and high load. Two outage events occured.  System recovered without battery swap.",
+  "created_at": "2019-03-11T20:56:28.247Z",
+  "actions": [
+    {
+      "exclude": true
+    },
+    {
+      "flag": [
+        "X"
+      ]
+    }
+  ],
+  "station_ids": [
+    "58e68cacdf5ce600012602d0",
+    "5a9cd13b18af1700013b110d",
+    "5a9cd13b18af1700013b110e"
+  ],
+  "external_refs": [
+    {
+      "identifier": "Collin Bode",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    }
+  ],
+  "updated_at": "2019-03-11T20:56:28.247Z",
+  "_id": "5c86cb7cf191e0f47fc27c7b"
+}

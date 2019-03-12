@@ -1,14 +1,16 @@
 {
-  "begins_at": "1998-01-01T08:00:00.000Z",
-  "ends_before": "2018-07-18T15:31:30.000Z",
+  "intervals": [
+    {
+      "begins_at": "1998-01-01T08:00:00.000Z",
+      "ends_before": "2018-07-18T15:31:30.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17c424dc720001671378",
   "title": "DRI Invalid data",
   "description": "Data pulled from the Western Regional Climate Center WRCC, Desert Research Institute DRI, has been cleaned according to methods we do not know.  The output is -9999 for bad data.  This has been changed in the sensor database to NULL and this flag applied.  incident report migrated from SensorDB.",
-  "created_by": "Collin Bode",
   "created_at": "2018-07-18T15:28:53.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:34.551Z",
+  "updated_at": "2019-03-08T02:05:27.732Z",
   "actions": [
     {
       "exclude": true
@@ -44,6 +46,14 @@
     "58e68cacdf5ce600012602d1"
   ],
   "external_refs": [
+    {
+      "identifier": "Collin Bode",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 550,
       "type": "odm.incidents.IncidentID"

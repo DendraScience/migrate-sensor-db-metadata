@@ -1,14 +1,16 @@
 {
-  "begins_at": "2014-09-23T21:45:00.000Z",
-  "ends_before": "2014-09-23T22:26:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2014-09-23T21:45:00.000Z",
+      "ends_before": "2014-09-23T22:26:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Removed Pressure Transducer Well 7",
   "description": "Removed pressure transducer for neutron probe measurements. incident report migrated from SensorDB.",
-  "created_by": "Chris Wong",
   "created_at": "2014-09-30T18:29:28.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:35.771Z",
+  "updated_at": "2019-03-08T02:05:28.998Z",
   "actions": [
     {
       "exclude": true
@@ -28,6 +30,14 @@
     "5ae87714fe27f46c4d102ae2"
   ],
   "external_refs": [
+    {
+      "identifier": "Chris Wong",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 152,
       "type": "odm.incidents.IncidentID"

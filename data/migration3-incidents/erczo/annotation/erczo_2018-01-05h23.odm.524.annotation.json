@@ -1,13 +1,15 @@
 {
-  "begins_at": "2017-05-10T22:40:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2017-05-10T22:40:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "PAR multiplier correction",
   "description": "The multiplier was incorrect. Multiplier in program was 0.15432 but was  incorrect (wasn’t converted in millivolts). The multiplier was corrected to  0.25549 using the following formula: 1/(C x 0.604); C = 6.48, 1/(6.84 x 0.604)  = 0.25549  incident report migrated from SensorDB.",
-  "created_by": "Wendy Baxter",
   "created_at": "2018-01-05T23:27:09.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:36.013Z",
+  "updated_at": "2019-03-08T02:05:29.270Z",
   "actions": [
     {
       "flag": [
@@ -19,6 +21,14 @@
     "58e68cabdf5ce600012602b2"
   ],
   "external_refs": [
+    {
+      "identifier": "Wendy Baxter",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 524,
       "type": "odm.incidents.IncidentID"

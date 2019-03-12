@@ -1,13 +1,15 @@
 {
-  "begins_at": "2013-02-27T00:00:00.000Z",
+  "intervals": [
+    {
+      "begins_at": "2013-02-27T00:00:00.000Z"
+    }
+  ],
   "enabled": true,
   "organization_id": "58db17e824dc720001671379",
   "title": "Barometer has failed",
   "description": "Barometer crapped out.  No other instruments seem to be affected.  All data from this point on should be flagged as bad.  Barometer datastream should be given an end date and no longer parsed.  47 = BP Angelo Meadow 1608 = BP Angelo Meadow 30min  incident report migrated from SensorDB.",
-  "created_by": "Collin Bode",
   "created_at": "2013-03-02T08:00:00.000Z",
-  "updated_by": "Collin Bode",
-  "updated_at": "2019-03-03T22:29:36.043Z",
+  "updated_at": "2019-03-08T02:05:29.310Z",
   "actions": [
     {
       "exclude": true
@@ -22,6 +24,14 @@
     "5ae873edfe27f433331024e7"
   ],
   "external_refs": [
+    {
+      "identifier": "Collin Bode",
+      "type": "created_by_name"
+    },
+    {
+      "identifier": "Collin Bode",
+      "type": "updated_by_name"
+    },
     {
       "identifier": 90,
       "type": "odm.incidents.IncidentID"
