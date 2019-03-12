@@ -8,8 +8,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Humidity values abnormally low, and values >100%",
   "description": "Air Relative Humidity only device affected. This device shows readings  slightly above 100% dating back to 1/12/2012 6:50, but most values  seem to be normal up until around 1/13/2013, when the humidity values  seem to get abnormally low (compared to past trends, and relative  humidity values from other sites). These values progressively continue to  get abnormally lower and lower until 6/28/13 when daytime relative  humidity values get as low as .54%. All data after this time seems to be  entirely off, and this is an ongoing problem. incident report migrated from SensorDB.",
-  "created_at": "2015-02-19T21:28:38.000Z",
-  "updated_at": "2019-03-08T02:05:29.008Z",
+  "created_at": "2019-03-12T03:38:18.576Z",
+  "updated_at": "2019-03-12T03:38:18.576Z",
   "actions": [
     {
       "exclude": true
@@ -34,7 +34,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 165,
+      "identifier": "165",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -46,7 +46,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 178,
+      "identifier": "178",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -57,5 +57,6 @@
       "identifier": "Humidity values abnormally low, and values >100%; see incident report IR_165",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729aaf191e04bbbc27d1c"
 }

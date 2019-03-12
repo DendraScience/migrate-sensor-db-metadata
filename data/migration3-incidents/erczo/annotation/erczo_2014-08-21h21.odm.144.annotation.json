@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Removed Pressure Transducer Well 16",
   "description": "Well 16 pressure transducer removed for water sampling. Manual well measurement 23.934m incident report migrated from SensorDB.",
-  "created_at": "2014-08-21T21:34:28.000Z",
-  "updated_at": "2019-03-08T02:05:28.992Z",
+  "created_at": "2019-03-12T03:38:13.887Z",
+  "updated_at": "2019-03-12T03:38:13.887Z",
   "actions": [
     {
       "exclude": true
@@ -37,7 +37,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 144,
+      "identifier": "144",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -49,7 +49,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 158,
+      "identifier": "158",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -60,5 +60,6 @@
       "identifier": "Removed Pressure Transducer Well 16; see incident report IR_144",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729a5f191e07211c27d07"
 }

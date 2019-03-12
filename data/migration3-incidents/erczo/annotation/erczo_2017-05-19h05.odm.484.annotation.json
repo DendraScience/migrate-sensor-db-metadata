@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Well Water Sampling and Neutron Probe",
   "description": "Measured water level with e-line; sampled water with DIS;  removed transducer to neutron probe incident report migrated from SensorDB.",
-  "created_at": "2017-05-19T05:48:52.000Z",
-  "updated_at": "2019-03-08T02:05:29.243Z",
+  "created_at": "2019-03-12T03:39:04.304Z",
+  "updated_at": "2019-03-12T03:39:04.304Z",
   "actions": [
     {
       "exclude": true
@@ -39,7 +39,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 484,
+      "identifier": "484",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -51,7 +51,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 424,
+      "identifier": "424",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -62,5 +62,6 @@
       "identifier": "Well Water Sampling and Neutron Probe; see incident report IR_484",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729d8f191e0357ec27e4c"
 }

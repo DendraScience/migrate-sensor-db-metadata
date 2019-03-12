@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Isco sampler pumped for 1 hour, well 3 level lower",
   "description": "The Isco sampler at Well 3 was misconfigured - instead of sampling for 1 minute, it  sampled for 1 hour.  Result pulled the well 3 level down 4 meters and took a while to  recover.   incident report migrated from SensorDB.",
-  "created_at": "2014-12-15T17:36:00.000Z",
-  "updated_at": "2019-03-08T02:05:29.005Z",
+  "created_at": "2019-03-12T03:38:18.184Z",
+  "updated_at": "2019-03-12T03:38:18.184Z",
   "actions": [
     {
       "exclude": true
@@ -39,7 +39,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 162,
+      "identifier": "162",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -51,7 +51,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 175,
+      "identifier": "175",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -62,5 +62,6 @@
       "identifier": "Isco sampler pumped for 1 hour, well 3 level lowered; see incident report IR_162",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729aaf191e0dfc7c27d19"
 }

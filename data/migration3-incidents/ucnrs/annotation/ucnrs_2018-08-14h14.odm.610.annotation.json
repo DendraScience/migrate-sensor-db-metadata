@@ -3,7 +3,7 @@
   "organization_id": "58db17c424dc720001671378",
   "title": "Tipping bucket audit tests",
   "description": "Performed tipping bucket test with known amount of water",
-  "created_at": "2018-08-14T21:10:00.000Z",
+  "created_at": "2019-03-12T03:42:09.449Z",
   "datastream_ids": [
     "5ae879b1fe27f4379f102d89",
     "5ae879b1fe27f4d31a102d87",
@@ -27,7 +27,7 @@
       "type": "updated_by_name"
     }
   ],
-  "updated_at": "2019-03-08T02:05:35.149Z",
+  "updated_at": "2019-03-12T03:42:09.449Z",
   "intervals": [
     {
       "begins_at": "2018-08-14T21:10:00.000Z",
@@ -38,5 +38,6 @@
     {
       "exclude": true
     }
-  ]
+  ],
+  "_id": "5c872a91f191e09ea6c27eba"
 }

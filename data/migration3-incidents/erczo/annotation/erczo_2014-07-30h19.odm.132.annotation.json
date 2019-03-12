@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Solar Panel Branch Trimming, Ingrid, Level 4",
   "description": "Solar panels in Ingrid have become shaded during summer due to grow of branches above them.  This is only a problem near solstice due to the high solar position.  Peter & Collin trimmed and cut a several branches to provide full sunlight during the afternoon. Result is a sharp increase in midday to afternoon voltage.   incident report migrated from SensorDB.",
-  "created_at": "2014-07-30T19:08:14.000Z",
-  "updated_at": "2019-03-08T02:05:28.983Z",
+  "created_at": "2019-03-12T03:38:12.459Z",
+  "updated_at": "2019-03-12T03:38:12.459Z",
   "actions": [
     {
       "flag": [
@@ -31,7 +31,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 132,
+      "identifier": "132",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -43,7 +43,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 146,
+      "identifier": "146",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -54,5 +54,6 @@
       "identifier": "Passed sanity check; see incident report IR_132",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729a4f191e07218c27cfc"
 }

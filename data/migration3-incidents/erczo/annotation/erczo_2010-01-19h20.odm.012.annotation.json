@@ -1,4 +1,5 @@
 {
+  "_id": "5c8716bff191e08315c27c87",
   "intervals": [
     {
       "begins_at": "2010-01-19T19:07:57.000Z",
@@ -9,8 +10,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Rain gauge clogged",
   "description": "Rain gauge at level one was clogged by leaf litter.  We removed the leaf litter with minimal loss of water.  After the leaf litter was removed the water that accumulated was recorded and thus gave an erroneous rain intensity.  I have no way of knowing when the clog occurred. Comments:undefined incident report migrated from SensorDB.",
-  "created_at": "2010-01-19T20:14:57.000Z",
-  "updated_at": "2019-03-08T02:05:28.973Z",
+  "created_at": "2019-03-12T02:17:35.704Z",
+  "updated_at": "2019-03-12T03:37:58.260Z",
   "datastream_ids": [
     "5ae87430fe27f472da102623",
     "5ae87430fe27f46d62102621"
@@ -25,7 +26,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 12,
+      "identifier": "12",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -35,12 +36,6 @@
     {
       "identifier": "389, 1616",
       "type": "odm.incidents.Datastream_Names"
-    },
-    {
-      "type": "odm.qualifiers.QualifierID"
-    },
-    {
-      "type": "odm.qualifiers.QualifierCode"
     },
     {
       "type": "odm.qualifiers.QualifierDescription"

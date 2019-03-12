@@ -8,8 +8,8 @@
   "organization_id": "58db17c424dc720001671378",
   "title": "PAR multiplier correction",
   "description": "The multiplier (0.17212) was incorrect for the previous LI190SB (Q46275). The  LI190SB was replaced on a prior date (2017-05-09) with a new LI190SB  (Q46277) - calibration constant 6.31. The multiplier in the program was  changed to 0.26238. incident report migrated from SensorDB.",
-  "created_at": "2018-01-08T23:39:29.000Z",
-  "updated_at": "2019-03-08T02:05:27.718Z",
+  "created_at": "2019-03-12T03:42:02.324Z",
+  "updated_at": "2019-03-12T03:42:02.324Z",
   "actions": [
     {
       "flag": [
@@ -30,7 +30,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 528,
+      "identifier": "528",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -42,7 +42,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 467,
+      "identifier": "467",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -53,5 +53,6 @@
       "identifier": "PAR multiplier correction; see incident report IR_528",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c872a8af191e0493ec27e8f"
 }

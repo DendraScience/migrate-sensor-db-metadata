@@ -9,8 +9,8 @@
   "organization_id": "58db17c424dc720001671378",
   "title": "Fort Ord RAD multiplier incorrect",
   "description": "When the new program was sent to the Fort Ord logger, the multiplier (0.2) for  the LI200x was left as 1.0 rather than 0.2. The data during this time period is  incorrect and should be corrected with the 0.2 multiplier.  incident report migrated from SensorDB.",
-  "created_at": "2018-03-08T18:58:26.000Z",
-  "updated_at": "2019-03-08T02:05:27.726Z",
+  "created_at": "2019-03-12T03:42:04.719Z",
+  "updated_at": "2019-03-12T03:42:04.719Z",
   "actions": [
     {
       "flag": [
@@ -34,7 +34,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 539,
+      "identifier": "539",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -46,7 +46,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 477,
+      "identifier": "477",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -57,5 +57,6 @@
       "identifier": "Fort Ord RAD multiplier incorrect; see incident report IR_539",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c872a8cf191e015a1c27e9b"
 }

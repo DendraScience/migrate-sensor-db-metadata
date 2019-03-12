@@ -1,4 +1,5 @@
 {
+  "_id": "5c86cb7cf191e0f47fc27c7b",
   "intervals": [
     {
       "begins_at": "2019-03-03T13:40:00.000Z",
@@ -39,6 +40,5 @@
       "type": "updated_by_name"
     }
   ],
-  "updated_at": "2019-03-11T20:56:28.247Z",
-  "_id": "5c86cb7cf191e0f47fc27c7b"
+  "updated_at": "2019-03-12T03:39:13.571Z"
 }

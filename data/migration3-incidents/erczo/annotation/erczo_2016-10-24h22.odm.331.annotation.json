@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Water Level Measured",
   "description": "Measured with E-line (dry) incident report migrated from SensorDB.",
-  "created_at": "2016-10-24T22:56:18.000Z",
-  "updated_at": "2019-03-08T02:05:29.132Z",
+  "created_at": "2019-03-12T03:38:43.299Z",
+  "updated_at": "2019-03-12T03:38:43.299Z",
   "actions": [
     {
       "exclude": true
@@ -39,7 +39,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 331,
+      "identifier": "331",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -51,7 +51,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 283,
+      "identifier": "283",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -62,5 +62,6 @@
       "identifier": "Water Level Measured; see incident report IR_331",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729c3f191e00786c27dc1"
 }

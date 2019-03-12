@@ -9,8 +9,8 @@
   "organization_id": "58db17c424dc720001671378",
   "title": "Fort Ord wind sensor orientation corrected",
   "description": "The wind sensor was oriented 23 degrees off of north, so at 337 degrees  rather than 0. The data for all wind sensor datastreams should not be used  during the time period the sensor was being reoriented. The data prior to this  point for wind direction datastreams (4216, 4217) should be corrected if  possible.  incident report migrated from SensorDB.",
-  "created_at": "2018-03-08T18:58:26.000Z",
-  "updated_at": "2019-03-08T02:05:27.725Z",
+  "created_at": "2019-03-12T03:42:04.599Z",
+  "updated_at": "2019-03-12T03:42:04.599Z",
   "actions": [
     {
       "exclude": true
@@ -40,7 +40,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 538,
+      "identifier": "538",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -52,7 +52,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 476,
+      "identifier": "476",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -63,5 +63,6 @@
       "identifier": "Fort Ord wind sensor orientation corrected; see incident report IR_538",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c872a8cf191e0c290c27e9a"
 }

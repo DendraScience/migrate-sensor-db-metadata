@@ -8,8 +8,8 @@
   "organization_id": "58db17c424dc720001671378",
   "title": "Santa Cruz Island temp /rh sensor failure",
   "description": "Became intermittent Aug 15, sensor to be replaced 9/5/17 incident report migrated from SensorDB.",
-  "created_at": "2017-09-04T22:07:55.000Z",
-  "updated_at": "2019-03-08T02:05:27.706Z",
+  "created_at": "2019-03-12T03:41:59.871Z",
+  "updated_at": "2019-03-12T03:41:59.871Z",
   "actions": [
     {
       "flag": [
@@ -34,7 +34,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 516,
+      "identifier": "516",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -46,7 +46,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 454,
+      "identifier": "454",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -57,5 +57,6 @@
       "identifier": "Santa Cruz Island temp /rh sensor failure; see incident report IR_516",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c872a87f191e01fddc27e84"
 }

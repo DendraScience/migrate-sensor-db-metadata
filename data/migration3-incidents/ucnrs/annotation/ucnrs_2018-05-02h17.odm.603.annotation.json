@@ -3,7 +3,7 @@
   "organization_id": "58db17c424dc720001671378",
   "title": "Sent Core 8 program onsite  and updated operating system",
   "description": "PAR multiplier updated",
-  "created_at": "2018-05-03T00:20:00.000Z",
+  "created_at": "2019-03-12T03:42:06.259Z",
   "datastream_ids": [
     "5ae879a0fe27f4692c102d3b",
     "5ae879a1fe27f4f792102d3c",
@@ -27,10 +27,11 @@
       "type": "updated_by_name"
     }
   ],
-  "updated_at": "2019-03-08T02:05:35.139Z",
+  "updated_at": "2019-03-12T03:42:06.259Z",
   "intervals": [
     {
       "begins_at": "2018-05-03T00:20:00.000Z"
     }
-  ]
+  ],
+  "_id": "5c872a8ef191e0e357c27ea8"
 }

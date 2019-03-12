@@ -1,4 +1,5 @@
 {
+  "_id": "5c8716c3f191e020b5c27c9f",
   "intervals": [
     {
       "begins_at": "2010-07-28T23:00:00.000Z",
@@ -9,8 +10,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Malfunctioning Transducer",
   "description": "Some of the data for July 2010 and later matches the internal gauge, but there is no way to verify it is valid, since the pressure transducer is wrong the rest of the time.  Update Jan 31, 2011 (Collin): The failed Druck transducer was replaced by a CS 450 Pressure Transducer in October, 2010.  However, the new instrument was never attached to the data logger, nor was the datalogger code updated.  Wired the new transducer to the datalogger on Jan. 24th and uploaded the logger code.  Now fully functional. Note: new instrument records temperature as well.  Should update code to allow that. Comments:undefined incident report migrated from SensorDB.",
-  "created_at": "2010-11-29T08:00:00.000Z",
-  "updated_at": "2019-03-08T02:05:29.231Z",
+  "created_at": "2019-03-12T02:17:39.098Z",
+  "updated_at": "2019-03-12T03:38:01.292Z",
   "actions": [
     {
       "exclude": true
@@ -34,7 +35,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 47,
+      "identifier": "47",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -46,7 +47,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 67,
+      "identifier": "67",
       "type": "odm.qualifiers.QualifierID"
     },
     {

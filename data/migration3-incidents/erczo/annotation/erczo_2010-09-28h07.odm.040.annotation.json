@@ -1,4 +1,5 @@
 {
+  "_id": "5c8716c2f191e04da5c27c97",
   "intervals": [
     {
       "begins_at": "2010-08-25T17:30:00.000Z",
@@ -9,8 +10,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Well Depth Measurement Taken",
   "description": "muddy Comments:value for this timestamp was flagged incident report migrated from SensorDB.",
-  "created_at": "2010-09-28T07:00:00.000Z",
-  "updated_at": "2019-03-08T02:05:29.182Z",
+  "created_at": "2019-03-12T02:17:38.263Z",
+  "updated_at": "2019-03-12T03:38:00.271Z",
   "datastream_ids": [
     "5ae8770afe27f4ceac102ab4",
     "5ae8770afe27f4b53c102ab7",
@@ -29,7 +30,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 40,
+      "identifier": "40",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -39,12 +40,6 @@
     {
       "identifier": "Well 2 Depth m Manual",
       "type": "odm.incidents.Datastream_Names"
-    },
-    {
-      "type": "odm.qualifiers.QualifierID"
-    },
-    {
-      "type": "odm.qualifiers.QualifierCode"
     },
     {
       "type": "odm.qualifiers.QualifierDescription"

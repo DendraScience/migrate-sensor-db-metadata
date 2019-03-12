@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Well Water Sampling",
   "description": "Sampled well water with the DIS incident report migrated from SensorDB.",
-  "created_at": "2016-11-20T21:14:15.000Z",
-  "updated_at": "2019-03-08T02:05:29.143Z",
+  "created_at": "2019-03-12T03:38:45.932Z",
+  "updated_at": "2019-03-12T03:38:45.932Z",
   "actions": [
     {
       "exclude": true
@@ -39,7 +39,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 348,
+      "identifier": "348",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -51,7 +51,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 300,
+      "identifier": "300",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -62,5 +62,6 @@
       "identifier": "Well Water Sampling; see incident report IR_348",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729c5f191e0ab58c27dd2"
 }

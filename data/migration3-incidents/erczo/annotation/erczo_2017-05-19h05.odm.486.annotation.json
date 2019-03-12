@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Well Water Sampling",
   "description": "Measured water level with e-line; sampled water with DIS incident report migrated from SensorDB.",
-  "created_at": "2017-05-19T05:48:52.000Z",
-  "updated_at": "2019-03-08T02:05:29.245Z",
+  "created_at": "2019-03-12T03:39:04.600Z",
+  "updated_at": "2019-03-12T03:39:04.600Z",
   "actions": [
     {
       "exclude": true
@@ -39,7 +39,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 486,
+      "identifier": "486",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -51,7 +51,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 426,
+      "identifier": "426",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -62,5 +62,6 @@
       "identifier": "Well Water Sampling; see incident report IR_486",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729d8f191e08c83c27e4e"
 }

@@ -1,4 +1,5 @@
 {
+  "_id": "5c8716c3f191e00470c27ca6",
   "intervals": [
     {
       "begins_at": "2011-01-03T08:00:00.000Z",
@@ -9,8 +10,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Mice damage on Air Temp wire",
   "description": "Data invalid. Equipment error. Air Temperature wire was chewed on right next to the Stillingwell door.  Spliced the wires back together.  Reading looks normal now. Comments:undefined incident report migrated from SensorDB.",
-  "created_at": "2011-01-31T08:00:00.000Z",
-  "updated_at": "2019-03-08T02:05:29.277Z",
+  "created_at": "2019-03-12T02:17:39.785Z",
+  "updated_at": "2019-03-12T03:38:02.277Z",
   "actions": [
     {
       "exclude": true
@@ -34,7 +35,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 55,
+      "identifier": "55",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -46,7 +47,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 79,
+      "identifier": "79",
       "type": "odm.qualifiers.QualifierID"
     },
     {

@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Well 1 water temperature anomaly",
   "description": "There is a gap beginning on 8/20/12 13:00 to 8/21/12 12:00. Then the sensor appears to report air temperature from 8/21/12 12:05 to 9/5/12 14:00. Either the sensor was out of the well or the wrong sensor was connected. The data are either from another sensor or this one was out of the well.  See Also: <a href=http://sensor.berkeley.edu/cgi/sensor_show_tables?table=incidents&id=76&Access=4.00&username=Guest+User>Incident Report 76</a> regarding a neutron probe run at Well 1 on Aug 20, 2012. incident report migrated from SensorDB.",
-  "created_at": "2013-10-11T05:00:00.000Z",
-  "updated_at": "2019-03-08T02:05:29.315Z",
+  "created_at": "2019-03-12T03:38:08.223Z",
+  "updated_at": "2019-03-12T03:38:08.223Z",
   "actions": [
     {
       "exclude": true
@@ -36,7 +36,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 95,
+      "identifier": "95",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -48,7 +48,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 115,
+      "identifier": "115",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -59,5 +59,6 @@
       "identifier": "Well 1 Anomaly; see incident report IR_95",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729a0f191e00261c27cd6"
 }

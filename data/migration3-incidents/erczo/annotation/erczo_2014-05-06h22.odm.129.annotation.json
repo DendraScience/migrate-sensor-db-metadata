@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Removed Setra transducer from Elder Creek",
   "description": "Removed the old setra pressure transducer from Elder creek and the level 1 datalogger. incident report migrated from SensorDB.",
-  "created_at": "2014-05-06T22:53:55.000Z",
-  "updated_at": "2019-03-08T02:05:28.980Z",
+  "created_at": "2019-03-12T03:38:12.004Z",
+  "updated_at": "2019-03-12T03:38:12.004Z",
   "actions": [
     {
       "exclude": true
@@ -35,7 +35,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 129,
+      "identifier": "129",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -47,7 +47,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 143,
+      "identifier": "143",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -58,5 +58,6 @@
       "identifier": "Removed Setra transducer from Elder Creek; see incident report IR_129",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729a4f191e05ee3c27cf8"
 }

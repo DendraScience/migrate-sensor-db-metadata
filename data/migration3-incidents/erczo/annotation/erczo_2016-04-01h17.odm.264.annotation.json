@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "WSSR rain gage code correction",
   "description": "TB4 rain gage is 0.1 inches model, not metric mm model.  Code on logger assumed metric incorrectly.  New code was uploaded to fix this error. Multiplier 0.254 replaced incorrect 0.2.     CRBasic code PulseCount(WSSR_Rain_mm,1,1,2,0,0.254,0)  All prior values needed to be shifted as follows:   Precip_new = Precip_old / 0.7874015748  incident report migrated from SensorDB.",
-  "created_at": "2016-04-01T17:31:59.000Z",
-  "updated_at": "2019-03-08T02:05:29.087Z",
+  "created_at": "2019-03-12T03:38:35.387Z",
+  "updated_at": "2019-03-12T03:38:35.387Z",
   "actions": [
     {
       "flag": [
@@ -31,7 +31,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 264,
+      "identifier": "264",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -43,7 +43,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 222,
+      "identifier": "222",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -54,5 +54,6 @@
       "identifier": "Passed sanity check; see incident report IR_264",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729bbf191e09384c27d7f"
 }

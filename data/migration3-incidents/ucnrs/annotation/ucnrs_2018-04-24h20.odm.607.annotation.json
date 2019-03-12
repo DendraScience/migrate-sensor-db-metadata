@@ -3,7 +3,7 @@
   "organization_id": "58db17c424dc720001671378",
   "title": "Remotely sent Core 8 program",
   "description": "PAR multiplier updated",
-  "created_at": "2018-04-25T03:00:00.000Z",
+  "created_at": "2019-03-12T03:42:04.847Z",
   "datastream_ids": [
     "5ae879a8fe27f430e7102d5d",
     "5ae879a8fe27f46236102d5e",
@@ -27,10 +27,11 @@
       "type": "updated_by_name"
     }
   ],
-  "updated_at": "2019-03-08T02:05:35.128Z",
+  "updated_at": "2019-03-12T03:42:04.847Z",
   "intervals": [
     {
       "begins_at": "2018-04-25T03:00:00.000Z"
     }
-  ]
+  ],
+  "_id": "5c872a8cf191e0f169c27e9c"
 }

@@ -212,11 +212,17 @@ for(var o=0;o<orgs.length;o++) {
 	  //		"type": "odm.datastreams.DatastreamID"
 	  ann.external_refs.push({"identifier":ir.Reported_By,"type":"created_by_name"})
 	  ann.external_refs.push({"identifier":"Collin Bode","type":"updated_by_name"})
-	  ann.external_refs.push({"identifier":ir.IncidentID,"type":"odm.incidents.IncidentID"})
+	  ann.external_refs.push({"identifier":ir.IncidentID.toString(),"type":"odm.incidents.IncidentID"})
 	  ann.external_refs.push({"identifier":ir.StationNames,"type":"odm.incidents.StationNames"})
 	  ann.external_refs.push({"identifier":ir.Datastream_Names,"type":"odm.incidents.Datastream_Names"})
-	  ann.external_refs.push({"identifier":ir.qid,"type":"odm.qualifiers.QualifierID"})
-	  ann.external_refs.push({"identifier":ir.QualifierCode,"type":"odm.qualifiers.QualifierCode"})
+	  if(typeof ir.qid !== 'undefined') {	  	
+		  ann.external_refs.push({"identifier":ir.qid.toString(),"type":"odm.qualifiers.QualifierID"})
+		} else {
+			console.log("\t gid is UNDEFINED!")
+	  }
+	  if(typeof ir.QualifierCode !== 'undefined') {
+	  	ann.external_refs.push({"identifier":ir.QualifierCode.toString(),"type":"odm.qualifiers.QualifierCode"})
+		}
 	  ann.external_refs.push({"identifier":ir.QualifierDescription,"type":"odm.qualifiers.QualifierDescription"})
 
 	  /* Actions

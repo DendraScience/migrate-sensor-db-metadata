@@ -9,8 +9,8 @@
   "organization_id": "58db17c424dc720001671378",
   "title": "SNARL GeoNor service",
   "description": "GeoNor sensor service requires removing accumulated precipitation from catchment,  cleaning and partial refilling of the catchment with antifreeze and light oil (as an  evaporation control). Mass after the service is the new precipitation baseline. incident report migrated from SensorDB.",
-  "created_at": "2016-12-17T21:26:28.000Z",
-  "updated_at": "2019-03-08T02:05:27.694Z",
+  "created_at": "2019-03-12T03:41:56.978Z",
+  "updated_at": "2019-03-12T03:41:56.978Z",
   "actions": [
     {
       "exclude": true
@@ -37,7 +37,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 370,
+      "identifier": "370",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -49,7 +49,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 322,
+      "identifier": "322",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -60,5 +60,6 @@
       "identifier": "SNARL GeoNor service; see incident report IR_370",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c872a84f191e029a8c27e77"
 }

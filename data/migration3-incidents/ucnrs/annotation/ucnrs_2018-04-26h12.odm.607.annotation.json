@@ -3,7 +3,7 @@
   "organization_id": "58db17c424dc720001671378",
   "title": "Sent Core 8 program onsite",
   "description": "PAR multiplier updated",
-  "created_at": "2018-04-26T19:10:00.000Z",
+  "created_at": "2019-03-12T03:42:05.593Z",
   "datastream_ids": [
     "5ae879a6fe27f4d7f1102d54",
     "5ae879a6fe27f41268102d55",
@@ -27,10 +27,11 @@
       "type": "updated_by_name"
     }
   ],
-  "updated_at": "2019-03-08T02:05:35.133Z",
+  "updated_at": "2019-03-12T03:42:05.593Z",
   "intervals": [
     {
       "begins_at": "2018-04-26T19:10:00.000Z"
     }
-  ]
+  ],
+  "_id": "5c872a8df191e04000c27ea1"
 }

@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Removed Pressure Transducer Well 1",
   "description": "NMR and Neutron Probe Surveys, Water Chemistry incident report migrated from SensorDB.",
-  "created_at": "2017-07-16T00:39:11.000Z",
-  "updated_at": "2019-03-08T02:05:29.254Z",
+  "created_at": "2019-03-12T03:39:06.088Z",
+  "updated_at": "2019-03-12T03:39:06.088Z",
   "actions": [
     {
       "exclude": true
@@ -40,7 +40,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 495,
+      "identifier": "495",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -52,7 +52,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 435,
+      "identifier": "435",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -63,5 +63,6 @@
       "identifier": "Removed Pressure Transducer Well 1; see incident report IR_495",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729daf191e0040ac27e58"
 }

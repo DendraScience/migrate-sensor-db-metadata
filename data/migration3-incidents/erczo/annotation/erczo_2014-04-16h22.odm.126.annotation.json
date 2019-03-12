@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Neutron Probe- pressure transducer cable removed",
   "description": "pressure transducer cables were removed from wells 6, 15, and 16 so that neutron probe measurements could be made.  incident report migrated from SensorDB.",
-  "created_at": "2014-04-16T22:47:30.000Z",
-  "updated_at": "2019-03-08T02:05:28.978Z",
+  "created_at": "2019-03-12T03:38:11.653Z",
+  "updated_at": "2019-03-12T03:38:11.653Z",
   "actions": [
     {
       "exclude": true
@@ -39,7 +39,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 126,
+      "identifier": "126",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -51,7 +51,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 140,
+      "identifier": "140",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -62,5 +62,6 @@
       "identifier": "Neutron Probe- pressure transducer cable removed; see incident report IR_126",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729a3f191e023a3c27cf5"
 }

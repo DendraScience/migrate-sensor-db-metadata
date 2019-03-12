@@ -1,4 +1,5 @@
 {
+  "_id": "5c8716bff191e00652c27c8a",
   "intervals": [
     {
       "begins_at": "2008-09-12T07:00:00.000Z",
@@ -9,8 +10,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Missing Data",
   "description": "Short in the system - no data recorded. Comments:Flagged 1091 records for Sap Station3 between Start and End dates incident report migrated from SensorDB.",
-  "created_at": "2010-03-24T22:14:51.000Z",
-  "updated_at": "2019-03-08T02:05:28.996Z",
+  "created_at": "2019-03-12T02:17:35.974Z",
+  "updated_at": "2019-03-12T03:37:58.599Z",
   "station_ids": [
     "58e68cacdf5ce600012602d5"
   ],
@@ -24,7 +25,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 15,
+      "identifier": "15",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -33,12 +34,6 @@
     },
     {
       "type": "odm.incidents.Datastream_Names"
-    },
-    {
-      "type": "odm.qualifiers.QualifierID"
-    },
-    {
-      "type": "odm.qualifiers.QualifierCode"
     },
     {
       "type": "odm.qualifiers.QualifierDescription"

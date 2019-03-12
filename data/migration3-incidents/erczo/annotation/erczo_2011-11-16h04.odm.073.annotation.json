@@ -1,4 +1,5 @@
 {
+  "_id": "5c8716c6f191e067a5c27cb7",
   "intervals": [
     {
       "begins_at": "2011-11-15T19:00:00.000Z",
@@ -9,8 +10,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Power Off Level 5",
   "description": "We had the power off from 11:00am to 3:00pm, so no data was recorded.    We were upgrading southside solar.  We placed brand new 3 Solartec SunXtender batteries in the solar system. We have placed a load center between wells 15 & 16, with thick wires going back to the solar system to reduce line loss. So its ready for isco samplers.  Level 5 data logger is back online. The antenna is now attached to a tree, so hopefully we will not have any more interruptions of data due to a bad radio connection.  Comments:undefined incident report migrated from SensorDB.",
-  "created_at": "2011-11-16T04:29:00.000Z",
-  "updated_at": "2019-03-08T02:05:29.296Z",
+  "created_at": "2019-03-12T02:17:42.668Z",
+  "updated_at": "2019-03-12T03:38:05.015Z",
   "actions": [
     {
       "exclude": true
@@ -34,7 +35,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 73,
+      "identifier": "73",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -46,7 +47,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 97,
+      "identifier": "97",
       "type": "odm.qualifiers.QualifierID"
     },
     {

@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Measured DO",
   "description": "Measured downhole DO using YSI ProODO incident report migrated from SensorDB.",
-  "created_at": "2016-10-13T21:35:18.000Z",
-  "updated_at": "2019-03-08T02:05:29.126Z",
+  "created_at": "2019-03-12T03:38:42.231Z",
+  "updated_at": "2019-03-12T03:38:42.231Z",
   "actions": [
     {
       "exclude": true
@@ -37,7 +37,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 320,
+      "identifier": "320",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -49,7 +49,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 272,
+      "identifier": "272",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -60,5 +60,6 @@
       "identifier": "Measured DO; see incident report IR_320",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729c2f191e044aec27db7"
 }

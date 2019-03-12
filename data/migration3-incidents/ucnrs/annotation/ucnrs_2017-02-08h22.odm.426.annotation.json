@@ -9,8 +9,8 @@
   "organization_id": "58db17c424dc720001671378",
   "title": "Rain gauge - accidental tips",
   "description": "During a routine cleaning of the rain gauge and replacement of the mount for  the gauge which was broken, there were accidental tips.  incident report migrated from SensorDB.",
-  "created_at": "2017-02-08T22:20:58.000Z",
-  "updated_at": "2019-03-08T02:05:27.699Z",
+  "created_at": "2019-03-12T03:41:57.920Z",
+  "updated_at": "2019-03-12T03:41:57.920Z",
   "actions": [
     {
       "exclude": true
@@ -36,7 +36,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 426,
+      "identifier": "426",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -48,7 +48,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 378,
+      "identifier": "378",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -59,5 +59,6 @@
       "identifier": "Rain gauge - accidental tips ; see incident report IR_426",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c872a85f191e0e312c27e7b"
 }

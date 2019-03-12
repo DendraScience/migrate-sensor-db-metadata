@@ -9,8 +9,8 @@
   "organization_id": "58db17c424dc720001671378",
   "title": "Replaced temp rh sensor",
   "description": "Sensor became intermittent in mid August, some data is ok (which can be  confirmed with the 2m thermocouple readings. incident report migrated from SensorDB.",
-  "created_at": "2017-09-07T00:43:22.000Z",
-  "updated_at": "2019-03-08T02:05:27.707Z",
+  "created_at": "2019-03-12T03:42:00.971Z",
+  "updated_at": "2019-03-12T03:42:00.971Z",
   "actions": [
     {
       "exclude": true
@@ -38,7 +38,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 517,
+      "identifier": "517",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -50,7 +50,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 455,
+      "identifier": "455",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -61,5 +61,6 @@
       "identifier": "Replaced temp rh sensor; see incident report IR_517",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c872a88f191e00abcc27e85"
 }

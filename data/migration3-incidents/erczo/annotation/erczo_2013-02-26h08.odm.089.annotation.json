@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Power outage for Level 5_1 data logger",
   "description": "South side solar system battery box filled with water.  We forgot to place weep (drainage) holes in tupperware tub holding batteries.   Rain filled the tub and the connectors slowly corroded.  Peter repaired.   Batteries are okay, despite corosion.  incident report migrated from SensorDB.",
-  "created_at": "2013-02-26T08:00:00.000Z",
-  "updated_at": "2019-03-08T02:05:29.309Z",
+  "created_at": "2019-03-12T03:38:07.445Z",
+  "updated_at": "2019-03-12T03:38:07.445Z",
   "actions": [
     {
       "exclude": true
@@ -34,7 +34,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 89,
+      "identifier": "89",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -46,7 +46,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 112,
+      "identifier": "112",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -57,5 +57,6 @@
       "identifier": "Invalid Data; see incident report IR_89",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c87299ff191e00722c27cd0"
 }

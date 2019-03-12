@@ -1,0 +1,36 @@
+{
+  "intervals": [
+    {
+      "begins_at": "2018-11-16T17:30:00.000Z",
+      "ends_before": "2018-11-16T19:30:00.000Z"
+    }
+  ],
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "False tips of tipping bucket",
+  "description": "On 11/16 there were 4 false tips of the rain gage when Jim was here working on the weather station installing the new TBRG heater.",
+  "created_at": "2019-03-12T17:07:08.456Z",
+  "actions": [
+    {
+      "exclude": true
+    },
+    {
+      "flag": [
+        "X"
+      ]
+    }
+  ],
+  "datastream_ids": [
+    "5ae879b7fe27f48a76102da2",
+    "5ae879b7fe27f4c183102da3",
+    "5ae879b7fe27f47293102da4"
+  ],
+  "external_refs": [
+    {
+      "identifier": "Collin Bode",
+      "type": "created_by_name"
+    }
+  ],
+  "updated_at": "2019-03-12T17:07:08.456Z",
+  "_id": "5c87e345f191e0c786c27ebf"
+}

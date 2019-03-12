@@ -9,8 +9,8 @@
   "organization_id": "58db17c424dc720001671378",
   "title": "Boyd, Replace Baro sensor",
   "description": "Installed new sensor, replacing damaged sensor. Sensor failed October 5, 2016. All baro  sensor data from that date to March 10, 2017 at 3:00pm should be excluded. incident report migrated from SensorDB.",
-  "created_at": "2017-03-14T22:37:26.000Z",
-  "updated_at": "2019-03-08T02:05:27.704Z",
+  "created_at": "2019-03-12T03:41:58.583Z",
+  "updated_at": "2019-03-12T03:41:58.583Z",
   "actions": [
     {
       "exclude": true
@@ -34,7 +34,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 444,
+      "identifier": "444",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -46,7 +46,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 396,
+      "identifier": "396",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -57,5 +57,6 @@
       "identifier": "Boyd, Replace Baro sensor; see incident report IR_444",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c872a86f191e01f0dc27e81"
 }

@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Well Water Sampling and Neutron Probe",
   "description": "Sampled using the DIS; NP at 12:22 incident report migrated from SensorDB.",
-  "created_at": "2016-11-06T03:12:33.000Z",
-  "updated_at": "2019-03-08T02:05:29.136Z",
+  "created_at": "2019-03-12T03:38:44.425Z",
+  "updated_at": "2019-03-12T03:38:44.425Z",
   "actions": [
     {
       "exclude": true
@@ -39,7 +39,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 337,
+      "identifier": "337",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -51,7 +51,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 289,
+      "identifier": "289",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -62,5 +62,6 @@
       "identifier": "Well Water Sampling and Neutron Probe; see incident report IR_337",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729c4f191e00b9cc27dc7"
 }

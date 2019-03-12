@@ -8,8 +8,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Rainwater collector at W7 needs replacement",
   "description": "The rainwater collector at W7 is needed to be replaced. The mesh at the neck of the rainwater collector was missing and the inside of the tubing that connects the funnel and the sample bottle was full of leaves and was molded. This affects the water chemistry of throughfall. This may affect the stable isotope chemistry of throughfall as well.  incident report migrated from SensorDB.",
-  "created_at": "2013-10-21T23:14:46.000Z",
-  "updated_at": "2019-03-08T02:05:29.316Z",
+  "created_at": "2019-03-12T03:38:08.353Z",
+  "updated_at": "2019-03-12T03:38:08.353Z",
   "station_ids": [
     "58e68cacdf5ce600012602cf"
   ],
@@ -23,7 +23,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 96,
+      "identifier": "96",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -35,13 +35,8 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "type": "odm.qualifiers.QualifierID"
-    },
-    {
-      "type": "odm.qualifiers.QualifierCode"
-    },
-    {
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729a0f191e0dd7ac27cd7"
 }

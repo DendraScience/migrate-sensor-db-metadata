@@ -9,8 +9,8 @@
   "organization_id": "58db17c424dc720001671378",
   "title": "SCI station audit and sensor swap",
   "description": "Station audit performed, logger OS updated, logger program update to  UC_SantaCruzIsland_VP.8.1.cr1, removed and replaced Anemometer with calibrated unit,  aligned anemometer with true north (was ~ aimed at mag north), swapped PAR and RAD  sensors, they both had been installed more than 6 years ago. Replacement sensors have  recent calibrations. Updated calibration settings in the program. incident report migrated from SensorDB.",
-  "created_at": "2018-05-11T16:30:51.000Z",
-  "updated_at": "2019-03-08T02:05:27.727Z",
+  "created_at": "2019-03-12T03:42:06.780Z",
+  "updated_at": "2019-03-12T03:42:06.780Z",
   "actions": [
     {
       "exclude": true
@@ -46,7 +46,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 541,
+      "identifier": "541",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -58,7 +58,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 480,
+      "identifier": "480",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -69,5 +69,6 @@
       "identifier": "SCI station audit and sensor swap; see incident report IR_541",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c872a8ef191e0dfcbc27eae"
 }

@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Well Water Sampling and Neutron Probe",
   "description": "Water sampled using DIS; transducer removed to neutron probe incident report migrated from SensorDB.",
-  "created_at": "2016-12-28T04:51:31.000Z",
-  "updated_at": "2019-03-08T02:05:29.163Z",
+  "created_at": "2019-03-12T03:38:51.722Z",
+  "updated_at": "2019-03-12T03:38:51.722Z",
   "actions": [
     {
       "exclude": true
@@ -39,7 +39,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 379,
+      "identifier": "379",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -51,7 +51,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 331,
+      "identifier": "331",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -62,5 +62,6 @@
       "identifier": "Well Water Sampling and Neutron Probe; see incident report IR_379",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729cbf191e0ce7ac27dee"
 }

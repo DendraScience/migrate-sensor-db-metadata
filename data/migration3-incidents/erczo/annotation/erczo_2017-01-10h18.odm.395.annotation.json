@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Pressure Transducer Removed",
   "description": "Profiling and sampling incident report migrated from SensorDB.",
-  "created_at": "2017-01-10T18:34:55.000Z",
-  "updated_at": "2019-03-08T02:05:29.176Z",
+  "created_at": "2019-03-12T03:38:53.258Z",
+  "updated_at": "2019-03-12T03:38:53.258Z",
   "actions": [
     {
       "exclude": true
@@ -39,7 +39,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 395,
+      "identifier": "395",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -51,7 +51,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 347,
+      "identifier": "347",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -62,5 +62,6 @@
       "identifier": "Pressure Transducer Removed; see incident report IR_395",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729cdf191e078fdc27dfe"
 }

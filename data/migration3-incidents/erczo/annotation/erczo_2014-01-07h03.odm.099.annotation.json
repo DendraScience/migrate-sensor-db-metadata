@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Neutron Probe Survey",
   "description": "pressure transducers were removed from the wells temporarily so that we could perform neutron probe surveys.  incident report migrated from SensorDB.",
-  "created_at": "2014-01-07T03:38:42.000Z",
-  "updated_at": "2019-03-08T02:05:29.318Z",
+  "created_at": "2019-03-12T03:38:08.751Z",
+  "updated_at": "2019-03-12T03:38:08.751Z",
   "actions": [
     {
       "exclude": true
@@ -40,7 +40,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 99,
+      "identifier": "99",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -52,7 +52,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 118,
+      "identifier": "118",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -63,5 +63,6 @@
       "identifier": "Neutron Probe Survey; see incident report IR_99",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729a0f191e079e4c27cda"
 }

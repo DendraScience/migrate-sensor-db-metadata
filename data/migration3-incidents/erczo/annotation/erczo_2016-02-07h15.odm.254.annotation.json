@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "removed transducer, pumped well",
   "description": "We removed the transducer to perform neutron probe surveys and then we  pumped the well  to extract a water sample.  incident report migrated from SensorDB.",
-  "created_at": "2016-02-07T15:43:20.000Z",
-  "updated_at": "2019-03-08T02:05:29.079Z",
+  "created_at": "2019-03-12T03:38:31.833Z",
+  "updated_at": "2019-03-12T03:38:31.833Z",
   "actions": [
     {
       "exclude": true
@@ -39,7 +39,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 254,
+      "identifier": "254",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -51,7 +51,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 212,
+      "identifier": "212",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -62,5 +62,6 @@
       "identifier": "removed transducer, pumped well; see incident report IR_254",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729b7f191e00117c27d75"
 }

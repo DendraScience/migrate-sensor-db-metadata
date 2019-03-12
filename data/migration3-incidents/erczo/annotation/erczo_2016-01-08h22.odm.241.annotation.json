@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Lost Plastic Cap from well head",
   "description": "We lost the cap to the well down hill in the darkness.  We used electrical tape to cover the well opening.  incident report migrated from SensorDB.",
-  "created_at": "2016-01-08T22:51:27.000Z",
-  "updated_at": "2019-03-08T02:05:29.070Z",
+  "created_at": "2019-03-12T03:38:30.640Z",
+  "updated_at": "2019-03-12T03:38:30.640Z",
   "datastream_ids": [
     "5ae87711fe27f42915102ad5",
     "5ae87711fe27f40f3b102ad8",
@@ -29,7 +29,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 241,
+      "identifier": "241",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -41,13 +41,8 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "type": "odm.qualifiers.QualifierID"
-    },
-    {
-      "type": "odm.qualifiers.QualifierCode"
-    },
-    {
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729b6f191e025cdc27d6a"
 }

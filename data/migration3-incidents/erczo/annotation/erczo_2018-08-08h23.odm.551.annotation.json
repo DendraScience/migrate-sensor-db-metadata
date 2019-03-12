@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Removed Pressure Transducer Well 14",
   "description": "Removed Pressure Transducer Well 14 incident report migrated from SensorDB.",
-  "created_at": "2018-08-08T23:30:45.000Z",
-  "updated_at": "2019-03-08T02:05:29.278Z",
+  "created_at": "2019-03-12T03:39:11.615Z",
+  "updated_at": "2019-03-12T03:39:11.615Z",
   "actions": [
     {
       "exclude": true
@@ -37,7 +37,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 551,
+      "identifier": "551",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -49,7 +49,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 490,
+      "identifier": "490",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -60,5 +60,6 @@
       "identifier": "Removed Pressure Transducer Well 14; see incident report IR_551",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729dff191e05e40c27e72"
 }

@@ -9,8 +9,8 @@
   "organization_id": "58db17c424dc720001671378",
   "title": "SNARL GeoNor service",
   "description": "Serviced the GeoNor with a fresh charge of methanol/antifreeze. The new measured  depth is the baseline (zero accumulated) amount i.e. Geo_PCPin = 17.94 is equivalent to zero accumulated precipitation. incident report migrated from SensorDB.",
-  "created_at": "2018-11-01T22:29:11.000Z",
-  "updated_at": "2019-03-08T02:05:27.735Z",
+  "created_at": "2019-03-12T03:42:09.846Z",
+  "updated_at": "2019-03-12T03:42:09.846Z",
   "actions": [
     {
       "exclude": true
@@ -37,7 +37,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 554,
+      "identifier": "554",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -49,7 +49,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 493,
+      "identifier": "493",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -60,5 +60,6 @@
       "identifier": "SNARL GeoNor service; see incident report IR_554",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c872a91f191e028c2c27ebe"
 }

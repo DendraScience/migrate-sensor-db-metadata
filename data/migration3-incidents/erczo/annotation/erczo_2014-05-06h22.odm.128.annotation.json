@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Removed SM200's from Level 2",
   "description": "Removed the SM200 wires from the multiplexer at level 2. incident report migrated from SensorDB.",
-  "created_at": "2014-05-06T22:34:51.000Z",
-  "updated_at": "2019-03-08T02:05:28.980Z",
+  "created_at": "2019-03-12T03:38:11.907Z",
+  "updated_at": "2019-03-12T03:38:11.907Z",
   "actions": [
     {
       "exclude": true
@@ -34,7 +34,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 128,
+      "identifier": "128",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -46,7 +46,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 142,
+      "identifier": "142",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -57,5 +57,6 @@
       "identifier": "Removed SM200's from Level 2; see incident report IR_128",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729a3f191e04712c27cf7"
 }

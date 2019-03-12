@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": " unplugged power and then (likely) barometer at SH",
   "description": "When installing the new pressure transducers, I   1) unplugged a wire out of a 12 v power supply, to add new wires. I wasn't sure which one it was, but after looking at the status page it looks like it was the barometric pressure gauge  2) I also accidentally unplugged the power for the data logger, then plugged it back in. incident report migrated from SensorDB.",
-  "created_at": "2016-02-07T15:28:16.000Z",
-  "updated_at": "2019-03-08T02:05:29.077Z",
+  "created_at": "2019-03-12T03:38:31.516Z",
+  "updated_at": "2019-03-12T03:38:31.516Z",
   "actions": [
     {
       "exclude": true
@@ -34,7 +34,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 251,
+      "identifier": "251",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -46,7 +46,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 209,
+      "identifier": "209",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -57,5 +57,6 @@
       "identifier": " unplugged power and then (likely) barometer at SH; see incident report IR_251",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729b7f191e0c2ffc27d72"
 }

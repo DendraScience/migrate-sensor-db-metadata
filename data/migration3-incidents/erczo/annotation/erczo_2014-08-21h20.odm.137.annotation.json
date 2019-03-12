@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Removed Pressure Transducer Well 16",
   "description": "Well 16 pressure transducer was removed for neutron probe measurements. incident report migrated from SensorDB.",
-  "created_at": "2014-08-21T20:52:11.000Z",
-  "updated_at": "2019-03-08T02:05:28.987Z",
+  "created_at": "2019-03-12T03:38:12.929Z",
+  "updated_at": "2019-03-12T03:38:12.929Z",
   "actions": [
     {
       "exclude": true
@@ -37,7 +37,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 137,
+      "identifier": "137",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -49,7 +49,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 151,
+      "identifier": "151",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -60,5 +60,6 @@
       "identifier": "Removed Pressure Transducer Well 16; see incident report IR_137",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729a4f191e08093c27d00"
 }

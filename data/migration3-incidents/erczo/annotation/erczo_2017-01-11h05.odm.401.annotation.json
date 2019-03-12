@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Removed well transducer",
   "description": "NMR incident report migrated from SensorDB.",
-  "created_at": "2017-01-11T05:43:42.000Z",
-  "updated_at": "2019-03-08T02:05:29.185Z",
+  "created_at": "2019-03-12T03:38:54.048Z",
+  "updated_at": "2019-03-12T03:38:54.048Z",
   "actions": [
     {
       "exclude": true
@@ -39,7 +39,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 401,
+      "identifier": "401",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -51,7 +51,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 353,
+      "identifier": "353",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -62,5 +62,6 @@
       "identifier": "Removed well transducer; see incident report IR_401",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729cef191e01bddc27e04"
 }

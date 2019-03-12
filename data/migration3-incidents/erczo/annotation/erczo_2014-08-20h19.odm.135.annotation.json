@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "L2_3 power outage",
   "description": "Level 2_3 wiring came loose on the campbell charge controller that sits between the Ilean power and the L2_3 logger.  Result is power outages to logger during early morning.  Chris Wong fixed by cleaning and reinserting wires.  Consider removing the Campbell charge controller and battery in the future. Data has gaps in it, but existing data is good. incident report migrated from SensorDB.",
-  "created_at": "2014-08-20T19:55:31.000Z",
-  "updated_at": "2019-03-08T02:05:28.985Z",
+  "created_at": "2019-03-12T03:38:12.692Z",
+  "updated_at": "2019-03-12T03:38:12.692Z",
   "actions": [
     {
       "flag": [
@@ -31,7 +31,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 135,
+      "identifier": "135",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -43,7 +43,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 149,
+      "identifier": "149",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -54,5 +54,6 @@
       "identifier": "Level 2_3 power outage; see incident report IR_135",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729a4f191e05554c27cfe"
 }

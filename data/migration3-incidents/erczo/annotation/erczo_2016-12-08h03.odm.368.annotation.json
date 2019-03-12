@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Neutron Probe - Removed Transducer",
   "description": "Removed transducer to neutron probe incident report migrated from SensorDB.",
-  "created_at": "2016-12-08T03:48:07.000Z",
-  "updated_at": "2019-03-08T02:05:29.157Z",
+  "created_at": "2019-03-12T03:38:48.973Z",
+  "updated_at": "2019-03-12T03:38:48.973Z",
   "actions": [
     {
       "exclude": true
@@ -37,7 +37,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 368,
+      "identifier": "368",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -49,7 +49,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 320,
+      "identifier": "320",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -60,5 +60,6 @@
       "identifier": "Neutron Probe - Removed Transducer; see incident report IR_368",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729c8f191e0d7c7c27de6"
 }

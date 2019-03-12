@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Well Water Sampling",
   "description": "Sampled water using the bailer incident report migrated from SensorDB.",
-  "created_at": "2016-09-20T22:10:01.000Z",
-  "updated_at": "2019-03-08T02:05:29.116Z",
+  "created_at": "2019-03-12T03:38:40.820Z",
+  "updated_at": "2019-03-12T03:38:40.820Z",
   "actions": [
     {
       "exclude": true
@@ -37,7 +37,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 306,
+      "identifier": "306",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -49,7 +49,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 258,
+      "identifier": "258",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -60,5 +60,6 @@
       "identifier": "Well Water Sampling; see incident report IR_306",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729c0f191e018b1c27da9"
 }

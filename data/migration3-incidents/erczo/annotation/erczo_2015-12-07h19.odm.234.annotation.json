@@ -8,8 +8,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "VMS Rock Moisture no calibration",
   "description": "Rock Moisture no calib VMS_A1 - A10.  These values use the original manufacturer's calibration for the rigid metal loop, not Ofer Dahan's calibration for the flexible loop he installed.  As such, they are not accurate. Rock Moisture VMS A1 - 10 are derived from these values using the proper calibration.  While the device is not broken, these values should not normally be used.  Flag: X incident report migrated from SensorDB.",
-  "created_at": "2015-12-07T19:48:02.000Z",
-  "updated_at": "2019-03-08T02:05:29.064Z",
+  "created_at": "2019-03-12T03:38:28.576Z",
+  "updated_at": "2019-03-12T03:38:28.576Z",
   "actions": [
     {
       "exclude": true
@@ -42,7 +42,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 234,
+      "identifier": "234",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -54,7 +54,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 196,
+      "identifier": "196",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -65,5 +65,6 @@
       "identifier": "VMS Rock Moisture no calibration; see incident report IR_234",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729b4f191e07facc27d61"
 }

@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Level 3 Power Outage",
   "description": "I caused power outage to Level 3 data loggers while testing electrical load at the solar power system on Ursula Tree.   Peter Steel fixed the problem: \"Level 3 should be back on line. There was a neg. wire detached. Easy to miss at first glance as it curled around and appeared to be attached. Traced it back to the logger on the uphill side of the level three wood shelter where the antenna is that points to Ingrid and the uplink. Checked power across all positive (fused) loads and all were good.\" incident report migrated from SensorDB.",
-  "created_at": "2014-01-22T21:24:51.000Z",
-  "updated_at": "2019-03-08T02:05:28.962Z",
+  "created_at": "2019-03-12T03:38:09.063Z",
+  "updated_at": "2019-03-12T03:38:09.063Z",
   "actions": [
     {
       "exclude": true
@@ -35,7 +35,7 @@
       "type": "updated_by_name"
     },
     {
-      "identifier": 105,
+      "identifier": "105",
       "type": "odm.incidents.IncidentID"
     },
     {
@@ -47,7 +47,7 @@
       "type": "odm.incidents.Datastream_Names"
     },
     {
-      "identifier": 120,
+      "identifier": "120",
       "type": "odm.qualifiers.QualifierID"
     },
     {
@@ -58,5 +58,6 @@
       "identifier": "Power Outage; see incident report IR_105",
       "type": "odm.qualifiers.QualifierDescription"
     }
-  ]
+  ],
+  "_id": "5c8729a1f191e03e29c27cdd"
 }
