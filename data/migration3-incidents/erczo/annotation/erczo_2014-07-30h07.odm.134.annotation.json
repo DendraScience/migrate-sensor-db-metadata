@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Battery replaced; missing values, dup. timestamps",
   "description": "All CR1000 loggers have a small non-rechargeable lithium battery inside them to maintain the clock when the power is out. They are supposed to be replaced every 3 years or so, or when their voltage drops below 2.7 volts (3.5 volts is normal). WSHQ's battery got down to 0.67 volts. Replacement took an hour from 10:50am - 11:50am.  When I replaced the logger's battery, I lost all the records from 3:55am to 11:50am. There was a power outage at Angelo HQ Monday night - Tuesday morning. Power line broke near Laytonville and PG&E had to cut power to the entire area to fix it. Lasted from 9pm to 3:30am. Apparently the outage messed up the communication between the logger and the server and it hadn't uploaded properly.  When I started the logger up again after replacing the battery, I had to reset the time using my laptop. This set the time to Pacific Daylight Time (UTC-7), instead of Pacific Standard Time (UTC-8). As a result, from 12:50pm - 13:40pm there are duplicate values. Sometimes triplicate values. Probably the simplest thing to do is just mark them as bad. The other option would be to delete them and rerun the loader. I manually fixed the .dat file. incident report migrated from SensorDB.",
-  "created_at": "2019-03-12T03:38:12.367Z",
-  "updated_at": "2019-03-12T03:38:12.367Z",
+  "created_at": "2019-03-18T01:11:05.152Z",
+  "updated_at": "2019-03-18T01:11:05.152Z",
   "actions": [
     {
       "exclude": true

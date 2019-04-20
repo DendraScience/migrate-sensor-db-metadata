@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Well 15 Pressure Transducer Replaced",
   "description": "At 1532 the transducer was removed to measure it's current cable length. The old pressure transducer had a cable length of 28.384m and the transducer measured 28.6cm from the base of the cable to the tip of the transducer. The transducer cable rests on the well pipe 25cm above the ground. At 1607 power was removed from the datalogger. The brand new 125' pressure transducer (SN 72010049) was installed. The new transducer has a cable length of 28.334. The new transducer measures 17.2cm from the base of the cable to the tip of the transducer. At 1631 the datalogger was powered back on. incident report migrated from SensorDB.",
-  "created_at": "2019-03-12T03:38:10.283Z",
-  "updated_at": "2019-03-12T03:38:10.283Z",
+  "created_at": "2019-03-18T01:10:55.059Z",
+  "updated_at": "2019-03-18T01:10:55.059Z",
   "actions": [
     {
       "exclude": true

@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "South Meadow WS cumulative rainfall reset",
   "description": "South Meadow Weather Station has cumulative rainfall calculated on the datalogger, in inches.  It does not reset at the new water year (Oct. 1).    I reset it manually today to the level it should be if it had been accumulating properly since Oct 1.    All values from Oct 1 until Dec 30 need 57.76 inches subtracted to get accurate values.  This then needs to be converted to metric for the other two datastreams.  incident report migrated from SensorDB.",
-  "created_at": "2019-03-12T03:38:29.220Z",
-  "updated_at": "2019-03-12T03:38:29.220Z",
+  "created_at": "2019-03-18T01:12:01.854Z",
+  "updated_at": "2019-03-18T01:12:01.854Z",
   "actions": [
     {
       "exclude": true

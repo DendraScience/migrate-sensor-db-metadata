@@ -20,7 +20,7 @@ exports.recurse_dir = function(dir,filepath_list,regex) {
   fs.readdirSync(dir).forEach(file => {
     let full_path = path.join(dir, file)
     if (fs.lstatSync(full_path).isDirectory()) {
-      exports.recurse_dir(full_path,filepath_list,regex)
+      exports.recurse_dir(full_path+path.sep,filepath_list,regex)
     } else {
       if(regex == "") {
         filepath_list.push([dir,file])
@@ -99,6 +99,9 @@ exports.get_loggernet_station = function(station_name) {
 }
 
 exports.get_external_ref = function(de_json,ref_type) {
+  if(typeof de_json.external_refs === 'undefined') {
+    return ""
+  }
   for(var k=0;k<de_json.external_refs.length;k++) {
   	//console.log("external_refs[",k,"]:",de_json.external_refs[k])
   	if(de_json.external_refs[k].type == ref_type) {

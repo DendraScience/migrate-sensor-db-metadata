@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Soil Temp at 2 and 8 inches switched",
   "description": "soil temperature thermocouple wires were switched for the 50mm (2 inch) and 200mm (8inch) depths, resulting in reversed values for the time period.   incident report migrated from SensorDB.",
-  "created_at": "2019-03-12T03:39:11.703Z",
-  "updated_at": "2019-03-12T03:39:11.703Z",
+  "created_at": "2019-03-18T01:14:22.894Z",
+  "updated_at": "2019-03-18T01:14:22.894Z",
   "actions": [
     {
       "flag": [

@@ -8,8 +8,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "VMS Sleeve Electrical Conductivity",
   "description": "Sleeve Elec Conductivity VMS_A1 - A10. Electrical conductivity assumes contact with water.  The VMS TDT's are embedded in a plastic sleeve.  As such, EC of a plastic sleeve has little meaning, other than as a warning that a leak or break has occurred.  While the instrument is not broken, this data should not normally be used.  Flag: X.   incident report migrated from SensorDB.",
-  "created_at": "2019-03-12T03:38:28.766Z",
-  "updated_at": "2019-03-12T03:38:28.766Z",
+  "created_at": "2019-03-18T01:11:59.732Z",
+  "updated_at": "2019-03-18T01:11:59.732Z",
   "actions": [
     {
       "exclude": true

@@ -10,8 +10,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Station Logger Code Rewrite",
   "description": "Campbell CR1000 code modified. Many small changes to match equipment specifications: Temp & Relative Humidity: changed mV5000 to mV2500 Total Solar kW & MJ: changed mV25 to mV7.5 Total Solar MJ: changed from sample to totalize.  was notaccumulating.   Barometric Pressure: added elevation compensation to offset.  Wind Direction: Negative values are now subtracted from 360 Snow Depth: added SignalQuality command, returns NaN if bad signal  Note: values during time specified are suspect, since multiple uploads of code occurred.  Comments:[12/1/09 Ginger] Flagged 66 values.  SQL: update datavalues set QualifierCode = concat(QualifierCode,\" IR_4\") where stationname=\"Cahto Peak WS\" and LocalDateTime >= '2009-11-12 12:30:00' and LocalDateTime <= '2009-11-12 15:00:00' incident report migrated from SensorDB.",
-  "created_at": "2019-03-12T02:17:33.922Z",
-  "updated_at": "2019-03-12T03:37:55.892Z",
+  "created_at": "2019-03-18T01:10:06.530Z",
+  "updated_at": "2019-03-18T01:10:06.530Z",
   "actions": [
     {
       "exclude": true

@@ -9,8 +9,8 @@
   "organization_id": "58db17c424dc720001671378",
   "title": "network connection failure",
   "description": "Sinervo added network switch failed due to power supply (external) failure. Connected  network cable direct to WX station NL100 device. External network access confirmed. incident report migrated from SensorDB.",
-  "created_at": "2019-03-12T03:41:56.723Z",
-  "updated_at": "2019-03-12T03:41:56.723Z",
+  "created_at": "2019-03-18T00:54:44.139Z",
+  "updated_at": "2019-03-18T00:54:44.139Z",
   "actions": [
     {
       "exclude": true

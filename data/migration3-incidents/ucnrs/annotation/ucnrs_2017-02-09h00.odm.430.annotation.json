@@ -8,8 +8,8 @@
   "organization_id": "58db17c424dc720001671378",
   "title": "Soil temperature sensors - Bear damage",
   "description": "A bear visited the station for a second time and really pulled on and chewed  sensors this time. It completely severed these temperature thermocouple  sensors. They will be replaced on the next visit, until then, there will be no  data for these two sensors. incident report migrated from SensorDB.",
-  "created_at": "2019-03-12T03:41:58.380Z",
-  "updated_at": "2019-03-12T03:41:58.380Z",
+  "created_at": "2019-03-18T00:54:49.519Z",
+  "updated_at": "2019-03-18T00:54:49.519Z",
   "actions": [
     {
       "exclude": true

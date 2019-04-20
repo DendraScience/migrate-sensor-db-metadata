@@ -9,8 +9,8 @@
   "organization_id": "58db17c424dc720001671378",
   "title": "DRI Invalid data",
   "description": "Data pulled from the Western Regional Climate Center WRCC, Desert Research Institute DRI, has been cleaned according to methods we do not know.  The output is -9999 for bad data.  This has been changed in the sensor database to NULL and this flag applied.  incident report migrated from SensorDB.",
-  "created_at": "2019-03-12T03:42:07.910Z",
-  "updated_at": "2019-03-12T03:42:07.910Z",
+  "created_at": "2019-03-18T00:55:18.652Z",
+  "updated_at": "2019-03-18T00:55:18.652Z",
   "actions": [
     {
       "exclude": true

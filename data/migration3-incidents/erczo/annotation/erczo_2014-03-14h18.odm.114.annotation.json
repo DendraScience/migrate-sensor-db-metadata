@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Well 16 Pressure Transducer Replaced",
   "description": "At 0958 the water depth of Well 16 was 22.646m. The top of the well pipe is 22cm above the soil. The old transducer had a cable length of 26.465m from the beginning of the cable to the the bottom of the slot in the well pipe. The old transducer measured 28.6cm long.  A brand new 250' transducer (SN 72010053) was installed into well 16. The new cable length is 26.479. The transducer measured 17.2cm long.  The datalogger was unpowered at 1109 and repowered at 1124. The SDI-12 addresses were checked and the pressure transducer of well 16  was reconnected to the C7 port at 1325.  incident report migrated from SensorDB.",
-  "created_at": "2019-03-12T03:38:10.390Z",
-  "updated_at": "2019-03-12T03:38:10.390Z",
+  "created_at": "2019-03-18T01:10:55.573Z",
+  "updated_at": "2019-03-18T01:10:55.573Z",
   "actions": [
     {
       "exclude": true

@@ -8,8 +8,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Barometer has failed",
   "description": "Barometer crapped out.  No other instruments seem to be affected.  All data from this point on should be flagged as bad.  Barometer datastream should be given an end date and no longer parsed.  47 = BP Angelo Meadow 1608 = BP Angelo Meadow 30min  incident report migrated from SensorDB.",
-  "created_at": "2019-03-12T03:38:07.583Z",
-  "updated_at": "2019-03-12T03:38:07.583Z",
+  "created_at": "2019-03-18T01:10:42.985Z",
+  "updated_at": "2019-03-18T01:10:42.985Z",
   "actions": [
     {
       "exclude": true

@@ -9,8 +9,8 @@
   "organization_id": "58db17c424dc720001671378",
   "title": "Soil temperature sensor - Bear damage",
   "description": "A bear visited the station and presumably chewed / pulled on cables. When I  visited the station on 2016-10-18 I discovered that two of the soil temperature  thermocouples were severed completely (2 and 20 inches in depth) and two  had been pulled out of their ports in the logger (4 and 8 inches). The other  sensors were disturbed in a later event (2016-06-03), this was just the first  casualty of bear vs weather station warfare.  incident report migrated from SensorDB.",
-  "created_at": "2019-03-12T03:41:58.286Z",
-  "updated_at": "2019-03-12T03:41:58.286Z",
+  "created_at": "2019-03-18T00:54:48.996Z",
+  "updated_at": "2019-03-18T00:54:48.996Z",
   "actions": [
     {
       "exclude": true

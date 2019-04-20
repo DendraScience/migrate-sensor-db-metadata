@@ -9,8 +9,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Neutron Probe - Removed Transducer",
   "description": "Removed transducer to neutron probe incident report migrated from SensorDB.",
-  "created_at": "2019-03-12T03:38:48.973Z",
-  "updated_at": "2019-03-12T03:38:48.973Z",
+  "created_at": "2019-03-18T01:13:08.177Z",
+  "updated_at": "2019-03-18T01:13:08.177Z",
   "actions": [
     {
       "exclude": true

@@ -10,8 +10,8 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Changed delay time on logger",
   "description": "Weather station Cahto Peak had incorrect delay time after powering up sensors for measuring barometric pressure.  Delay time was too short at 150 milliseconds.  It is now 1 second.   Period affected:  12/8/2009 16:45 to 1/8/2010 14:30 Comments:[1/11/2010 Ginger] Flagged 38,558 datavalues where station is Cahto Peak and LocalDateTime > '2009-12-08 16:45' and LocalDateTime < '2010-01-08 14:30:00' incident report migrated from SensorDB.",
-  "created_at": "2019-03-12T02:17:34.297Z",
-  "updated_at": "2019-03-12T03:37:57.622Z",
+  "created_at": "2019-03-18T01:10:08.658Z",
+  "updated_at": "2019-03-18T01:10:08.658Z",
   "actions": [
     {
       "exclude": true

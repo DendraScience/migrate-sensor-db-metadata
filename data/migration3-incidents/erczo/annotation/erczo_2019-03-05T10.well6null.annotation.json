@@ -14,7 +14,7 @@
   "organization_id": "58db17e824dc720001671379",
   "title": "Well 6 sending NULL values",
   "description": "Pressure Transducer at Well 6 sent patches of NULL values. No apparent reason for this.",
-  "created_at": "2019-03-11T20:06:33.424Z",
+  "created_at": "2019-03-18T00:46:30.333Z",
   "actions": [
     {
       "exclude": true
@@ -40,5 +40,5 @@
       "type": "updated_by_name"
     }
   ],
-  "updated_at": "2019-03-12T03:39:13.723Z"
+  "updated_at": "2019-03-18T01:14:25.570Z"
 }

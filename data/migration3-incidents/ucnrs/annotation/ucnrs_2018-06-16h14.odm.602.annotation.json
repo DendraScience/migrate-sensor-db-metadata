@@ -3,7 +3,7 @@
   "organization_id": "58db17c424dc720001671378",
   "title": "Researchers adding equipment on Younger Lagoon tower",
   "description": "Tower was tipped while researchers added equipment, data for some sensors no good during this period",
-  "created_at": "2019-03-12T03:42:07.076Z",
+  "created_at": "2019-03-18T00:55:15.540Z",
   "datastream_ids": [
     "5ae87aacfe27f493861031cb",
     "5ae87ab1fe27f4227f1031e2",
@@ -41,7 +41,7 @@
       "type": "updated_by_name"
     }
   ],
-  "updated_at": "2019-03-12T03:42:07.076Z",
+  "updated_at": "2019-03-18T00:55:15.540Z",
   "intervals": [
     {
       "begins_at": "2018-06-16T21:38:00.000Z",

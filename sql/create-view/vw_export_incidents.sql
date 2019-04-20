@@ -1,5 +1,5 @@
 -- SQL to create export view of incident reports
--- See dendra_dev/annoation/incident investigation.sql for cleaning
+-- See sql/cleaning_incidents.sql for cleaning
 -- that went on before this could be exported.
 -- Subsequent scipts to run:  
 -- 	extract-sensordb-export-incidents.sh
