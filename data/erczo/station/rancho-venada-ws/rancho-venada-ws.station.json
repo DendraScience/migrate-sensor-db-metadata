@@ -1,0 +1,32 @@
+{
+  "_id": "5ca6ac9196f0c41fa0f7e7d5",
+  "enabled": true,
+  "external_links": [
+    {
+      "title": "David's Wx Dashboard",
+      "url": "https://hydroeco.github.io/rancho_venada/wx_dash.html"
+    },
+    {
+      "title": "David's Webmap",
+      "url": "https://hydroeco.github.io/rancho_venada/mymap.html"
+    }
+  ],
+  "geo": {
+    "coordinates": [
+      -122.347558,
+      39.153023,
+      300
+    ],
+    "type": "Point"
+  },
+  "is_active": true,
+  "is_stationary": true,
+  "name": "Rancho Venada WS",
+  "organization_id": "58db17e824dc720001671379",
+  "slug": "rancho-venada-ws",
+  "station_type": "weather",
+  "time_zone": "PST",
+  "utc_offset": -28800,
+  "created_at": "2019-04-12T19:32:33.503Z",
+  "updated_at": "2019-04-12T19:32:33.503Z"
+}

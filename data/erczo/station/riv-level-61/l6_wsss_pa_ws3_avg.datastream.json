@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "name": "l6_wsss PA_WS3_Avg",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "5c5b0a1cdf9d94fd2923d1f2",
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_l6_wsss",
+          "fc": "source_weatherstationss",
+          "sc": "\"time\", \"PA_WS3_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2017-09-27T23:55:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "tags": [
+    "dt_Unit_Microsecond",
+    "dt_Aggregate_Average",
+    "dt_Medium_Unknown",
+    "dt_Variable_Unknown"
+  ]
+}

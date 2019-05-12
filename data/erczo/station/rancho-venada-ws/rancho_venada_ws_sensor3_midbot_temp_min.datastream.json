@@ -1,0 +1,133 @@
+{
+  "_id": "5cc7193f662fc2456ee83b14",
+  "enabled": true,
+  "name": "rancho venada ws sapflow3 mid bottom temp min",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "5ca6ac9196f0c41fa0f7e7d5",
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_rancho_venada_ws",
+          "fc": "source_saptemperaturetable",
+          "sc": "\"time\", \"Sensor3_MidBot_Temp_Min\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2019-04-28T06:35:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "tags": [
+    "dt_Unit_DegreeCelsius",
+    "ds_Aggregate_Minimum",
+    "ds_Medium_Sap",
+    "ds_Variable_Temperature"
+  ],
+  "created_at": "2019-04-29T15:33:19.662Z",
+  "updated_at": "2019-04-29T15:43:32.102Z",
+  "version_id": "5cc71ba42a422085f0cbf718",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "abbreviation": "degC",
+        "label": "DegreeCelsius",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Minimum",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      },
+      {
+        "label": "Sap",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Temperature",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "dt",
+        "tag_count": 1
+      },
+      {
+        "_id": "ds",
+        "tag_count": 3
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      },
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "7acbf7c93f005e04ccfe4abf0e1926cf0426de21"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "5795c6e74091f87a34b256903db271fcca161eee",
+      "scheme_id": "dt"
+    },
+    {
+      "key": "tag",
+      "str": "0c95add76ae48c6954ec4ff364cba1d050acae0c",
+      "scheme_id": "ds"
+    }
+  ],
+  "datapoints_config_built": [
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_rancho_venada_ws",
+          "fc": "source_saptemperaturetable",
+          "sc": "\"time\", \"Sensor3_MidBot_Temp_Min\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2019-04-28T06:35:00.000Z",
+      "path": "/influx/select",
+      "ends_before": "2200-02-02T00:00:00.000Z"
+    }
+  ],
+  "_include": []
+}
