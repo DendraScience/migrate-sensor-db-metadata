@@ -1,6 +1,7 @@
 {
+  "_id": "5cdccdec662fc25169e83b94",
   "enabled": true,
-  "name": "l6_wsss PAR_Tot_Tot",
+  "name": "l6_wsss PAR Total Flux",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -22,9 +23,111 @@
     }
   ],
   "tags": [
-    "NOT FOUND",
-    "dt_Aggregate_Cumulative",
-    "dt_Medium_Solar",
-    "dt_Variable_PhotosyntheticallyActiveRadiation"
-  ]
+    "dt_Unit_MicromolePerSquareMeter",
+    "ds_Aggregate_Cumulative",
+    "ds_Medium_Solar",
+    "ds_Variable_PhotosyntheticallyActiveRadiation"
+  ],
+  "created_at": "2019-05-16T02:41:48.877Z",
+  "updated_at": "2019-05-16T02:46:53.071Z",
+  "version_id": "5cdccf1d2a42205891cbf77d",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "abbreviation": "µmol/m^2",
+        "label": "MicromolePerSquareMeter",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Cumulative",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      },
+      {
+        "label": "Solar",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "PhotosyntheticallyActiveRadiation",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "dt",
+        "tag_count": 1
+      },
+      {
+        "_id": "ds",
+        "tag_count": 3
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      },
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "3ee37f65f7025a6f3f6b4ddcc970955c9475c88a"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "a777bdf54dddf01d46e4c59d1c340afee26c3b57",
+      "scheme_id": "dt"
+    },
+    {
+      "key": "tag",
+      "str": "c2d45e9c531a3b4b9e8507162896ff06e7cb60c7",
+      "scheme_id": "ds"
+    }
+  ],
+  "datapoints_config_built": [
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_l6_wsss",
+          "fc": "source_weatherstationss",
+          "sc": "\"time\", \"PAR_Tot_Tot\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2017-09-27T23:55:00.000Z",
+      "path": "/influx/select",
+      "ends_before": "2200-02-02T00:00:00.000Z"
+    }
+  ],
+  "_include": []
 }

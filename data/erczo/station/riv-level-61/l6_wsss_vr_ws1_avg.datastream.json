@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "name": "l6_wsss VR_WS1_Avg",
+  "name": "l6_wsss WS1 Soil Moisture Voltage Ratio Avg",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -22,9 +22,84 @@
     }
   ],
   "tags": [
-    "dt_Unit_Dimensionless",
-    "dt_Aggregate_Average",
-    "dt_Medium_Unknown",
-    "dt_Variable_Unknown"
-  ]
+    "ds_Aggregate_Average",
+    "ds_Medium_Soil",
+    "ds_Variable_Moisture"
+  ],
+  "attributes": {
+    "label": "Voltage Ratio"
+  },
+  "created_at": "2019-05-16T02:46:55.072Z",
+  "updated_at": "2019-05-16T02:46:55.072Z",
+  "attributes_info": {
+    "sort": {
+      "value1": 0,
+      "value2": 0
+    },
+    "text": ""
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      },
+      {
+        "label": "Soil",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Moisture",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-aggregate"
+      },
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "3ee37f65f7025a6f3f6b4ddcc970955c9475c88a"
+    },
+    {
+      "key": "att",
+      "str": "0a7334e38f7aac650492353c6056d888a4ebf89e"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "a419a867eee1eb7b90ff73592001f7d5e75d5420",
+      "scheme_id": "ds"
+    }
+  ],
+  "version_id": "5cdccf1f662fc2db13e83bbb",
+  "_id": "5cdccf1f662fc227ffe83bbc",
+  "_include": []
 }
