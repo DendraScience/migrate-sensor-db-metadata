@@ -23,16 +23,41 @@
     }
   ],
   "tags": [
-    "NOT FOUND",
+    "dt_Unit_DegreeCelsius",
     "ds_Aggregate_Maximum",
     "ds_Medium_Sap",
     "ds_Variable_Temperature"
   ],
   "created_at": "2019-04-29T15:33:21.897Z",
-  "updated_at": "2019-04-29T15:43:33.848Z",
-  "version_id": "5cc71ba52a422016c1cbf71b",
+  "updated_at": "2019-05-16T03:59:01.797Z",
+  "version_id": "5cdce005662fc25309e83be4",
+  "datapoints_config_built": [
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_rancho_venada_ws",
+          "fc": "source_saptemperaturetable",
+          "sc": "\"time\", \"Sensor4_MidBot_Temp_Max\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2019-04-28T06:35:00.000Z",
+      "path": "/influx/select",
+      "ends_before": "2200-02-02T00:00:00.000Z"
+    }
+  ],
   "tags_info": {
     "resolved_terms": [
+      {
+        "abbreviation": "degC",
+        "label": "DegreeCelsius",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
       {
         "label": "Maximum",
         "scheme_id": "ds",
@@ -57,11 +82,18 @@
     ],
     "scheme_refs": [
       {
+        "_id": "dt",
+        "tag_count": 1
+      },
+      {
         "_id": "ds",
         "tag_count": 3
       }
     ],
     "vocabulary_refs": [
+      {
+        "_id": "dt-unit"
+      },
       {
         "_id": "ds-aggregate"
       },
@@ -88,25 +120,13 @@
     },
     {
       "key": "tag",
+      "str": "5795c6e74091f87a34b256903db271fcca161eee",
+      "scheme_id": "dt"
+    },
+    {
+      "key": "tag",
       "str": "25288b17a956eeafc694fcf1e533930857d89e2a",
       "scheme_id": "ds"
-    }
-  ],
-  "datapoints_config_built": [
-    {
-      "params": {
-        "query": {
-          "api": "erczo",
-          "db": "station_rancho_venada_ws",
-          "fc": "source_saptemperaturetable",
-          "sc": "\"time\", \"Sensor4_MidBot_Temp_Max\"",
-          "utc_offset": -28800,
-          "coalesce": false
-        }
-      },
-      "begins_at": "2019-04-28T06:35:00.000Z",
-      "path": "/influx/select",
-      "ends_before": "2200-02-02T00:00:00.000Z"
     }
   ],
   "_include": []

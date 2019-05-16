@@ -29,8 +29,25 @@
     "ds_Variable_Temperature"
   ],
   "created_at": "2019-04-29T15:33:20.273Z",
-  "updated_at": "2019-04-29T15:43:32.696Z",
-  "version_id": "5cc71ba42a42207b50cbf719",
+  "updated_at": "2019-05-16T03:59:00.040Z",
+  "version_id": "5cdce004662fc2bfaee83be1",
+  "datapoints_config_built": [
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_rancho_venada_ws",
+          "fc": "source_saptemperaturetable",
+          "sc": "\"time\", \"Sensor3_MidTop_Temp_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2019-04-28T06:35:00.000Z",
+      "path": "/influx/select",
+      "ends_before": "2200-02-02T00:00:00.000Z"
+    }
+  ],
   "tags_info": {
     "resolved_terms": [
       {
@@ -110,23 +127,6 @@
       "key": "tag",
       "str": "5b29ddd4db0bbaadf29b596f7f1c718e6b04794b",
       "scheme_id": "ds"
-    }
-  ],
-  "datapoints_config_built": [
-    {
-      "params": {
-        "query": {
-          "api": "erczo",
-          "db": "station_rancho_venada_ws",
-          "fc": "source_saptemperaturetable",
-          "sc": "\"time\", \"Sensor3_MidTop_Temp_Avg\"",
-          "utc_offset": -28800,
-          "coalesce": false
-        }
-      },
-      "begins_at": "2019-04-28T06:35:00.000Z",
-      "path": "/influx/select",
-      "ends_before": "2200-02-02T00:00:00.000Z"
     }
   ],
   "_include": []

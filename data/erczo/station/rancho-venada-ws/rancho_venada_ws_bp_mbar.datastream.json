@@ -1,4 +1,5 @@
 {
+  "_id": "5ca6b3742a422015f5cbf6c1",
   "enabled": true,
   "name": "rancho venada ws barometric pressure mbar",
   "organization_id": "58db17e824dc720001671379",
@@ -27,7 +28,8 @@
     "ds_Variable_BarometricPressure"
   ],
   "created_at": "2019-04-05T01:46:28.857Z",
-  "updated_at": "2019-04-05T01:46:28.857Z",
+  "updated_at": "2019-05-16T03:58:52.821Z",
+  "version_id": "5cdcdffc2a4220a42ccbf793",
   "tags_info": {
     "resolved_terms": [
       {
@@ -99,7 +101,22 @@
       "scheme_id": "ds"
     }
   ],
-  "version_id": "5ca6b3742a422021c4cbf6c0",
-  "_id": "5ca6b3742a422015f5cbf6c1",
+  "datapoints_config_built": [
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_rancho_venada_ws",
+          "fc": "source_tablerv",
+          "sc": "\"time\", \"BP_mbar\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2019-02-07T10:45:00.000Z",
+      "path": "/influx/select",
+      "ends_before": "2200-02-02T00:00:00.000Z"
+    }
+  ],
   "_include": []
 }

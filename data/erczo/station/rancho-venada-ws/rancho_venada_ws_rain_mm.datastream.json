@@ -1,4 +1,5 @@
 {
+  "_id": "5ca6b3752a422002efcbf6c3",
   "enabled": true,
   "name": "rancho venada ws precipiation mm",
   "organization_id": "58db17e824dc720001671379",
@@ -28,7 +29,8 @@
     "ds_Variable_Precipitation"
   ],
   "created_at": "2019-04-05T01:46:29.448Z",
-  "updated_at": "2019-04-05T01:46:29.448Z",
+  "updated_at": "2019-05-16T03:58:53.387Z",
+  "version_id": "5cdcdffd2a42200915cbf794",
   "tags_info": {
     "resolved_terms": [
       {
@@ -110,7 +112,22 @@
       "scheme_id": "ds"
     }
   ],
-  "version_id": "5ca6b3752a4220bc0acbf6c2",
-  "_id": "5ca6b3752a422002efcbf6c3",
+  "datapoints_config_built": [
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_rancho_venada_ws",
+          "fc": "source_tablerv",
+          "sc": "\"time\", \"Rain_mm\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2019-02-07T10:45:00.000Z",
+      "path": "/influx/select",
+      "ends_before": "2200-02-02T00:00:00.000Z"
+    }
+  ],
   "_include": []
 }
