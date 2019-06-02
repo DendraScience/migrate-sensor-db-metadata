@@ -1,7 +1,7 @@
 {
   "_id": "5ae87430fe27f492b8102620",
   "enabled": false,
-  "name": "Rainfall intensity mm_h WSTB",
+  "name": "Rainfall intensity mm_h",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -124,5 +124,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Rainfall intensity mm_h WSTB"
 }

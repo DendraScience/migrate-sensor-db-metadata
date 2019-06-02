@@ -1,7 +1,7 @@
 {
   "_id": "5cc7193a2a4220b87bcbf6ef",
   "enabled": true,
-  "name": "rancho venada ws sapflow1 mid bottom temp max",
+  "name": "sapflow1 mid bottom temp max",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -129,5 +129,6 @@
       "scheme_id": "ds"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was rancho venada ws sapflow1 mid bottom temp max"
 }

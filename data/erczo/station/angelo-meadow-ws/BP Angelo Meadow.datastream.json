@@ -1,8 +1,8 @@
 {
   "_id": "5ae873edfe27f433331024e7",
-  "description": "Barometer failed 2013-02-26 16:00 - see incident report 90. \r\n2013-06-27 13:30:00 Removed malfunctioning barometer.",
+  "description": "Barometer failed 2013-02-26 16:00 - see incident report 90. \r\n2013-06-27 13:30:00 Removed malfunctioning barometer.original datastream name was BP Angelo Meadow",
   "enabled": false,
-  "name": "BP Angelo Meadow",
+  "name": "BP Meadow",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

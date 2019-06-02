@@ -1,7 +1,7 @@
 {
   "_id": "5ae87469fe27f426e6102729",
   "enabled": true,
-  "name": "Soil Moisture 4 Period ms WSSM Avg",
+  "name": "Soil Moisture 4 Period ms Avg",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -145,5 +145,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Soil Moisture 4 Period ms WSSM Avg"
 }

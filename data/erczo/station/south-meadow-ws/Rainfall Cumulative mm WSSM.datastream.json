@@ -1,9 +1,9 @@
 {
   "_id": "5ae8742efe27f4143610261a",
   "derivation_description": "Derived Cumulative Rainfall",
-  "description": "Originally this datastream was converted from cumulative rain inches, which is computed on the datalogger. In Oct 2014 I changed it because the datalogger is not rolling over on the new water year. It is now accumulated from rainfall mm, which is in turn derived from rainfall inches. - G.O. 10/29/2014",
+  "description": "Originally this datastream was converted from cumulative rain inches, which is computed on the datalogger. In Oct 2014 I changed it because the datalogger is not rolling over on the new water year. It is now accumulated from rainfall mm, which is in turn derived from rainfall inches. - G.O. 10/29/2014original datastream name was Rainfall Cumulative mm WSSM",
   "enabled": true,
-  "name": "Rainfall Cumulative mm WSSM",
+  "name": "Rainfall Cumulative mm",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

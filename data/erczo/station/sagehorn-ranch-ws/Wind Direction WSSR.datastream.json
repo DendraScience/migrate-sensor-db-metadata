@@ -1,7 +1,7 @@
 {
   "_id": "5ae87717fe27f469b8102af0",
   "enabled": true,
-  "name": "Wind Direction WSSR",
+  "name": "Wind Direction",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -157,5 +157,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Wind Direction WSSR"
 }

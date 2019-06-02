@@ -1,8 +1,8 @@
 {
   "_id": "5ae87701fe27f472df102a89",
-  "description": "Water temperature inside the stilling well, Angelo Reserve.",
+  "description": "Water temperature inside the stilling well, Angelo Reserve.original datastream name was Water Temp inside GHQ",
   "enabled": true,
-  "name": "Water Temp inside GHQ",
+  "name": "Water Temp inside",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

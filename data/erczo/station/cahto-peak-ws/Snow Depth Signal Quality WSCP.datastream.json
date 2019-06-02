@@ -1,8 +1,8 @@
 {
   "_id": "5ae87468fe27f454de102723",
-  "description": "Sonic Ranging Sensor for snow depth, uses a signal quality measurement to evaluate the accuracy of the depth measurement.\r\n0 Not able to read distance\r\n152-210 Good measurement\r\n210-300 Reduced echo signal strength\r\n300-600 High uncertainty in measurement\r\n",
+  "description": "Sonic Ranging Sensor for snow depth, uses a signal quality measurement to evaluate the accuracy of the depth measurement.\r\n0 Not able to read distance\r\n152-210 Good measurement\r\n210-300 Reduced echo signal strength\r\n300-600 High uncertainty in measurement\r\noriginal datastream name was Snow Depth Signal Quality WSCP",
   "enabled": true,
-  "name": "Snow Depth Signal Quality WSCP",
+  "name": "Snow Depth Signal Quality",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

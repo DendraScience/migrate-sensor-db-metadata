@@ -1,7 +1,7 @@
 {
   "_id": "5ca6b376662fc2b2b1e83adc",
   "enabled": true,
-  "name": "rancho venada ws solar radiation kjoule/m2 tot",
+  "name": "solar radiation kjoule/m2 tot",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -129,5 +129,6 @@
       "ends_before": "2200-02-02T00:00:00.000Z"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was rancho venada ws solar radiation kjoule/m2 tot"
 }

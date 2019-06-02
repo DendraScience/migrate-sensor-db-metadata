@@ -1,9 +1,9 @@
 {
   "_id": "5ae8742dfe27f406c4102616",
   "derivation_description": "Derived Cumulative Rainfall",
-  "description": "New datastream added Oct 2014 by G.O.\r\nDec 2015: Old rain bucket is no longer operational. See Incident Report 237",
+  "description": "New datastream added Oct 2014 by G.O.\r\nDec 2015: Old rain bucket is no longer operational. See Incident Report 237original datastream name was Rainfall Cumulative mm WSCP",
   "enabled": false,
-  "name": "Rainfall Cumulative mm WSCP",
+  "name": "Rainfall Cumulative mm",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

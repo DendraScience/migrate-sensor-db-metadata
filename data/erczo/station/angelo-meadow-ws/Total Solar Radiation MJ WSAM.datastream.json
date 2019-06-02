@@ -1,8 +1,8 @@
 {
   "_id": "5ae876fbfe27f4470b102a6e",
-  "description": "changed units to kJ. \"Total Solar Radiation kJ WSAM\"",
+  "description": "changed units to kJ. \"Total Solar Radiation kJ WSAM\"original datastream name was Total Solar Radiation MJ WSAM",
   "enabled": false,
-  "name": "Total Solar Radiation MJ WSAM",
+  "name": "Total Solar Radiation MJ",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

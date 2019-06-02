@@ -1,8 +1,8 @@
 {
   "_id": "5ae87422fe27f413c91025e0",
-  "description": "Gage Height measured outside the Angelo Reserve Stilling Well.",
+  "description": "Gage Height measured outside the Angelo Reserve Stilling Well.original datastream name was GageHeight Outside GHQ",
   "enabled": true,
-  "name": "GageHeight Outside GHQ",
+  "name": "GageHeight Outside",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

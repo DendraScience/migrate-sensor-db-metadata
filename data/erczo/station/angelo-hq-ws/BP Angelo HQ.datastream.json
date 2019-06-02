@@ -1,8 +1,8 @@
 {
   "_id": "5ae873ecfe27f47f3c1024e2",
-  "description": "2010-08-26  Barometer removed (see incident report 28 )   \r\n2010-12-20 16:00:00 Inserted new barometer in WSHQ.  However, new barometer did not work properly.  Reading is 500mb +- 0.1mb. \r\n2013-06-27 13:30:00 Removed malfunctioning barometer at WSHQ.\r\n2014-01-16 08:00 restarted WSHQ. Added barometer back in.  Failed 6 days later. (see incident report 109)\r\n2014-02-25 removed barometer    (see incident report 109)\r\n",
+  "description": "2010-08-26  Barometer removed (see incident report 28 )   \r\n2010-12-20 16:00:00 Inserted new barometer in WSHQ.  However, new barometer did not work properly.  Reading is 500mb +- 0.1mb. \r\n2013-06-27 13:30:00 Removed malfunctioning barometer at WSHQ.\r\n2014-01-16 08:00 restarted WSHQ. Added barometer back in.  Failed 6 days later. (see incident report 109)\r\n2014-02-25 removed barometer    (see incident report 109)\r\noriginal datastream name was BP Angelo HQ",
   "enabled": false,
-  "name": "BP Angelo HQ",
+  "name": "BP HQ",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

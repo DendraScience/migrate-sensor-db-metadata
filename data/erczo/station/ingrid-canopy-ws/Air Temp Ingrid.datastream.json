@@ -1,7 +1,7 @@
 {
   "_id": "5ae873d8fe27f401ae102484",
   "enabled": false,
-  "name": "Air Temp Ingrid",
+  "name": "Air Temp",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -132,5 +132,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Air Temp Ingrid"
 }

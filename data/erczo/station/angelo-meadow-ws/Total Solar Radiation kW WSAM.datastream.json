@@ -1,8 +1,8 @@
 {
   "_id": "5ae876f9fe27f402a1102a64",
-  "description": "changed units to watts, \"Total Solar Radiation W WSAM\"",
+  "description": "changed units to watts, \"Total Solar Radiation W WSAM\"original datastream name was Total Solar Radiation kW WSAM",
   "enabled": false,
-  "name": "Total Solar Radiation kW WSAM",
+  "name": "Total Solar Radiation kW",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

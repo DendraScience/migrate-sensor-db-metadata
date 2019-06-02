@@ -1,8 +1,8 @@
 {
   "_id": "5ae87440fe27f4fe5010266b",
-  "description": "Values are suspect because the instrument has been modified.  See Method.",
+  "description": "Values are suspect because the instrument has been modified.  See Method.original datastream name was Rock Moisture no calib VMS_A10",
   "enabled": true,
-  "name": "Rock Moisture no calib VMS_A10",
+  "name": "Rock Moisture no calib A10",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

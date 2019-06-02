@@ -1,7 +1,7 @@
 {
   "_id": "5cc7193c2a4220cfefcbf6f1",
   "enabled": true,
-  "name": "rancho venada ws sapflow1 mid top temp avg",
+  "name": "sapflow1 mid top temp avg",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -129,5 +129,6 @@
       "scheme_id": "ds"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was rancho venada ws sapflow1 mid top temp avg"
 }

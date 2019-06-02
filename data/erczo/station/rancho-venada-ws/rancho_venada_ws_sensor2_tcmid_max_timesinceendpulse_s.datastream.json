@@ -1,7 +1,7 @@
 {
   "_id": "5cc7184b662fc29841e83aef",
   "enabled": true,
-  "name": "rancho venada ws sensor2 mid maxtime since endpulse sec",
+  "name": "sensor2 mid maxtime since endpulse sec",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -86,5 +86,6 @@
       "scheme_id": "ds"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was rancho venada ws sensor2 mid maxtime since endpulse sec"
 }

@@ -1,7 +1,7 @@
 {
   "_id": "5ae87427fe27f4910a1025f9",
   "enabled": true,
-  "name": "PAR mmol Tot WSSR",
+  "name": "PAR mmol Tot",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -146,5 +146,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was PAR mmol Tot WSSR"
 }

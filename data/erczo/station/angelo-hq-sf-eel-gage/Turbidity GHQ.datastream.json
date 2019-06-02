@@ -1,7 +1,7 @@
 {
   "_id": "5ae876fffe27f4381e102a7e",
   "enabled": true,
-  "name": "Turbidity GHQ",
+  "name": "Turbidity",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -146,5 +146,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Turbidity GHQ"
 }

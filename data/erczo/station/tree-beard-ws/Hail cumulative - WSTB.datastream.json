@@ -1,8 +1,8 @@
 {
   "_id": "5ae87422fe27f47c591025e2",
-  "description": "Cumulative hail for the season.  The WXT510 does not automatically reset, so it must be manually set to 0 at end/beginning of season.  \r\n\r\nHail is considered kinetic impacts too large to be rain.",
+  "description": "Cumulative hail for the season.  The WXT510 does not automatically reset, so it must be manually set to 0 at end/beginning of season.  \r\n\r\nHail is considered kinetic impacts too large to be rain.original datastream name was Hail cumulative - WSTB",
   "enabled": false,
-  "name": "Hail cumulative - WSTB",
+  "name": "Hail cumulative",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

@@ -1,8 +1,8 @@
 {
   "_id": "5ae873d5fe27f49be5102476",
-  "description": "Air Temperature Sensor. Contacted Greg McCurdy, DRI, Greg.McCurdy@dri.edu, for details.",
+  "description": "Air Temperature Sensor. Contacted Greg McCurdy, DRI, Greg.McCurdy@dri.edu, for details.original datastream name was Air Temp 2 m height C WSSM Max",
   "enabled": true,
-  "name": "Air Temp 2 m height C WSSM Max",
+  "name": "Air Temp 2 m height C Max",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

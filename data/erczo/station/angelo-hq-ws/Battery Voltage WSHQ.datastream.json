@@ -1,8 +1,8 @@
 {
   "_id": "5ae873e8fe27f426901024cf",
-  "description": "The WSHQ datalogger was malfunctioning from 2013-07-24 to 2014-02-25, causing timestamps to accelerate into the future, so values have been removed for this period.  See Incident Report 94.",
+  "description": "The WSHQ datalogger was malfunctioning from 2013-07-24 to 2014-02-25, causing timestamps to accelerate into the future, so values have been removed for this period.  See Incident Report 94.original datastream name was Battery Voltage WSHQ",
   "enabled": true,
-  "name": "Battery Voltage WSHQ",
+  "name": "Battery Voltage",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

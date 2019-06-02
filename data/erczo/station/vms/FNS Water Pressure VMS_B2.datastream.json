@@ -1,7 +1,7 @@
 {
   "_id": "5ae87420fe27f484d61025d5",
   "enabled": true,
-  "name": "FNS Water Pressure VMS_B2",
+  "name": "FNS Water Pressure B2",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -162,5 +162,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was FNS Water Pressure VMS_B2"
 }

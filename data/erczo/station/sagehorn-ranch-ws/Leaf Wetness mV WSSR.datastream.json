@@ -1,7 +1,7 @@
 {
   "_id": "5ae87424fe27f416561025e8",
   "enabled": true,
-  "name": "Leaf Wetness mV WSSR",
+  "name": "Leaf Wetness mV",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -145,5 +145,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Leaf Wetness mV WSSR"
 }

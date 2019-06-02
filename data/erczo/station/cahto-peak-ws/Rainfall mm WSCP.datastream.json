@@ -1,8 +1,8 @@
 {
   "_id": "5ae87437fe27f4b973102640",
-  "description": "Old rain bucket is no longer operational. See Incident Report 237",
+  "description": "Old rain bucket is no longer operational. See Incident Report 237original datastream name was Rainfall mm WSCP",
   "enabled": false,
-  "name": "Rainfall mm WSCP",
+  "name": "Rainfall mm",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

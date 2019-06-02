@@ -1,8 +1,8 @@
 {
   "_id": "5ae87426fe27f461a61025f3",
-  "description": "Wiring panel temperature. Used to make sure logger is within proper operating temperatures. Not valid for research use.",
+  "description": "Wiring panel temperature. Used to make sure logger is within proper operating temperatures. Not valid for research use.original datastream name was Logger Temp Ingrid",
   "enabled": false,
-  "name": "Logger Temp Ingrid",
+  "name": "Logger Temp",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

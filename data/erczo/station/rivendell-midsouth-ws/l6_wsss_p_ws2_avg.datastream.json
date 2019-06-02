@@ -1,0 +1,113 @@
+{
+  "_id": "5cdccd732a42205c33cbf74c",
+  "enabled": true,
+  "name": "WS2 Soil Moisture Permittivity Avg",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "5c5b0a1cdf9d94fd2923d1f2",
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_l6_wsss",
+          "fc": "source_weatherstationss",
+          "sc": "\"time\", \"P_WS2_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2017-09-27T23:55:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Soil",
+    "ds_Variable_Permittivity"
+  ],
+  "created_at": "2019-05-16T02:39:47.049Z",
+  "updated_at": "2019-05-16T02:46:51.334Z",
+  "version_id": "5cdccf1b2a4220b4c1cbf776",
+  "datapoints_config_built": [
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_l6_wsss",
+          "fc": "source_weatherstationss",
+          "sc": "\"time\", \"P_WS2_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2017-09-27T23:55:00.000Z",
+      "path": "/influx/select",
+      "ends_before": "2200-02-02T00:00:00.000Z"
+    }
+  ],
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      },
+      {
+        "label": "Soil",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Permittivity",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-aggregate"
+      },
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "3ee37f65f7025a6f3f6b4ddcc970955c9475c88a"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "36dd9b7c529fad881ab7377172fd5d9a57b5e4df",
+      "scheme_id": "ds"
+    }
+  ],
+  "_include": [],
+  "description": "undefinedoriginal datastream name was l6_wsss WS2 Soil Moisture Permittivity Avg"
+}

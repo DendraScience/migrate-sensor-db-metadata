@@ -1,7 +1,7 @@
 {
   "_id": "5ae876a4fe27f4e7e71028f0",
   "enabled": true,
-  "name": "Soil Moisture V Pct WSSM Avg",
+  "name": "Soil Moisture V Pct Avg",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -157,5 +157,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Soil Moisture V Pct WSSM Avg"
 }

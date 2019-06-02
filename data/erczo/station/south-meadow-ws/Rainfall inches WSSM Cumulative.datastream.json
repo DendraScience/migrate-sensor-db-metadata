@@ -1,8 +1,8 @@
 {
   "_id": "5ae8742ffe27f4515b10261d",
-  "description": "Auto conversion to mm DSID 1777",
+  "description": "Auto conversion to mm DSID 1777original datastream name was Rainfall inches WSSM Cumulative",
   "enabled": true,
-  "name": "Rainfall inches WSSM Cumulative",
+  "name": "Rainfall inches Cumulative",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

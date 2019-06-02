@@ -1,8 +1,8 @@
 {
   "_id": "5ae876f8fe27f43888102a5f",
-  "description": "replacement for datastream \"Total Solar Radiation MJ WSCP\".  Unit change from MegaJoules to kilJoules.  Also change from sample to totalize on data logger.",
+  "description": "replacement for datastream \"Total Solar Radiation MJ WSCP\".  Unit change from MegaJoules to kilJoules.  Also change from sample to totalize on data logger.original datastream name was Total Solar Radiation kJ WSCP",
   "enabled": true,
-  "name": "Total Solar Radiation kJ WSCP",
+  "name": "Total Solar Radiation kJ",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

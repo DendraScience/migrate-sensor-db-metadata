@@ -1,7 +1,7 @@
 {
   "_id": "5cc7184c2a42205d9bcbf6e2",
   "enabled": true,
-  "name": "rancho venada ws sapflow4 deltatemp c mid",
+  "name": "sapflow4 deltatemp c mid",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -128,5 +128,6 @@
       "scheme_id": "ds"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was rancho venada ws sapflow4 deltatemp c mid"
 }

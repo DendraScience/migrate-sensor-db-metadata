@@ -1,7 +1,7 @@
 {
   "_id": "5ae876fafe27f4b6b5102a69",
   "enabled": true,
-  "name": "Total Solar Radiation kW WSSM Avg",
+  "name": "Total Solar Radiation kW Avg",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -146,5 +146,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Total Solar Radiation kW WSSM Avg"
 }

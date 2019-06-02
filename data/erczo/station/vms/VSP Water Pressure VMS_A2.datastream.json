@@ -1,7 +1,7 @@
 {
   "_id": "5ae876fffe27f41473102a81",
   "enabled": true,
-  "name": "VSP Water Pressure VMS_A2",
+  "name": "VSP Water Pressure A2",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -162,5 +162,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was VSP Water Pressure VMS_A2"
 }

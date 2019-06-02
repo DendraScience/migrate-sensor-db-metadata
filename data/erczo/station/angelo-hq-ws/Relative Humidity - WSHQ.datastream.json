@@ -1,8 +1,8 @@
 {
   "_id": "5ae8743bfe27f4f6e0102655",
-  "description": "The WSHQ datalogger was malfunctioning from 2013-07-24 to 2014-02-25, causing timestamps to accelerate into the future, so values have been removed for this period.  See Incident Report 94.",
+  "description": "The WSHQ datalogger was malfunctioning from 2013-07-24 to 2014-02-25, causing timestamps to accelerate into the future, so values have been removed for this period.  See Incident Report 94.original datastream name was Relative Humidity - WSHQ",
   "enabled": true,
-  "name": "Relative Humidity - WSHQ",
+  "name": "Relative Humidity",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

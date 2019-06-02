@@ -1,7 +1,7 @@
 {
   "_id": "5ae876a5fe27f429ff1028f5",
   "enabled": true,
-  "name": "Soil Temp 100 mm depth C WSSM Avg",
+  "name": "Soil Temp 100 mm depth C Avg",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -146,5 +146,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Soil Temp 100 mm depth C WSSM Avg"
 }

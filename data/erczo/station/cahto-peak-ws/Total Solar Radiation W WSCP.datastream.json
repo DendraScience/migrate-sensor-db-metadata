@@ -1,8 +1,8 @@
 {
   "_id": "5ae876fefe27f45965102a7a",
-  "description": "Device has been in place since weather station started.  This datastream changes recorded units from kiloWatts/meter^2 to Watts/meter^2.  ",
+  "description": "Device has been in place since weather station started.  This datastream changes recorded units from kiloWatts/meter^2 to Watts/meter^2.  original datastream name was Total Solar Radiation W WSCP",
   "enabled": true,
-  "name": "Total Solar Radiation W WSCP",
+  "name": "Total Solar Radiation W",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

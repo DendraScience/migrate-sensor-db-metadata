@@ -1,7 +1,7 @@
 {
   "_id": "5ae876f8fe27f430ce102a62",
   "enabled": true,
-  "name": "Total Solar Radiation kJ WSSR",
+  "name": "Total Solar Radiation kJ",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -146,5 +146,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Total Solar Radiation kJ WSSR"
 }

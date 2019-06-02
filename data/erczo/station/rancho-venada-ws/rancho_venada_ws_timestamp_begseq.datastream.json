@@ -1,7 +1,7 @@
 {
   "_id": "5cc718c2662fc22560e83afe",
   "enabled": true,
-  "name": "rancho venada ws sapflow timestamp begin sequence",
+  "name": "sapflow timestamp begin sequence",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -86,5 +86,6 @@
       "scheme_id": "ds"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was rancho venada ws sapflow timestamp begin sequence"
 }

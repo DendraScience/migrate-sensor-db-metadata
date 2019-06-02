@@ -1,7 +1,7 @@
 {
   "_id": "5ae87423fe27f4eec61025e3",
   "enabled": false,
-  "name": "Hail intensity - Ingrid",
+  "name": "Hail intensity",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -132,5 +132,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Hail intensity - Ingrid"
 }

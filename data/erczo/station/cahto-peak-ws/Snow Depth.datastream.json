@@ -1,6 +1,6 @@
 {
   "_id": "5ae87468fe27f470af102724",
-  "description": "This device is not functioning, and data is not valid (per Percy Link Jan 2012.)",
+  "description": "This device is not functioning, and data is not valid (per Percy Link Jan 2012.)original datastream name was Snow Depth",
   "enabled": false,
   "name": "Snow Depth",
   "organization_id": "58db17e824dc720001671379",

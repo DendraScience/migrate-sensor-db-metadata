@@ -1,6 +1,6 @@
 {
   "_id": "5ae8742bfe27f45183102609",
-  "description": "All these sensors are thermocouple (Type T).  The RGTemp sensor is placed near to the gage tipper (inside the gage) to help evaluate when any precipitation that gets in the gage would likely be frozen or could freeze in the tipper.  The surface of the gage and the tipper can easily be above freezing even if the air temp is a bit below or visa versa.   Thus the interest to know the temp of the tipper area.  The sensor is positioned to not influence the movement of water through the gage. -- Greg.McCurdy@dri.edu",
+  "description": "All these sensors are thermocouple (Type T).  The RGTemp sensor is placed near to the gage tipper (inside the gage) to help evaluate when any precipitation that gets in the gage would likely be frozen or could freeze in the tipper.  The surface of the gage and the tipper can easily be above freezing even if the air temp is a bit below or visa versa.   Thus the interest to know the temp of the tipper area.  The sensor is positioned to not influence the movement of water through the gage. -- Greg.McCurdy@dri.eduoriginal datastream name was Rain Gage Temperature C Avg",
   "enabled": true,
   "name": "Rain Gage Temperature C Avg",
   "organization_id": "58db17e824dc720001671379",

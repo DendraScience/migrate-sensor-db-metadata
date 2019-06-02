@@ -1,7 +1,7 @@
 {
   "_id": "5ae873d4fe27f42437102474",
   "enabled": true,
-  "name": "Air Temp 2 m height C WSSM Avg",
+  "name": "Air Temp 2 m height C Avg",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -159,5 +159,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Air Temp 2 m height C WSSM Avg"
 }

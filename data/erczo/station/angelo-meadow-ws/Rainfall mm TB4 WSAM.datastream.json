@@ -1,8 +1,8 @@
 {
   "_id": "5ae87434fe27f47745102634",
-  "description": "Added in parallel with older TE525 Tipping Bucket Rain Gage.",
+  "description": "Added in parallel with older TE525 Tipping Bucket Rain Gage.original datastream name was Rainfall mm TB4 WSAM",
   "enabled": true,
-  "name": "Rainfall mm TB4 WSAM",
+  "name": "Rainfall mm TB4",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

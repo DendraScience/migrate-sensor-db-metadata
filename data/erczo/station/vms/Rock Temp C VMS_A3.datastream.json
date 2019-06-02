@@ -1,7 +1,7 @@
 {
   "_id": "5ae87445fe27f4f0f0102681",
   "enabled": true,
-  "name": "Rock Temp C VMS_A3",
+  "name": "Rock Temp C A3",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -162,5 +162,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Rock Temp C VMS_A3"
 }

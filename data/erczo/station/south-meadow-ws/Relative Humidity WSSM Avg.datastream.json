@@ -1,7 +1,7 @@
 {
   "_id": "5ae8743cfe27f481a710265a",
   "enabled": true,
-  "name": "Relative Humidity WSSM Avg",
+  "name": "Relative Humidity Avg",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -146,5 +146,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Relative Humidity WSSM Avg"
 }

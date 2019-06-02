@@ -1,7 +1,7 @@
 {
   "_id": "5ca6b373662fc2b551e83ad6",
   "enabled": true,
-  "name": "rancho venada ws battery voltage avg",
+  "name": "battery voltage avg",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -129,5 +129,6 @@
       "ends_before": "2200-02-02T00:00:00.000Z"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was rancho venada ws battery voltage avg"
 }

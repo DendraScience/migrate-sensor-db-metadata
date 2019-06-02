@@ -1,0 +1,162 @@
+{
+  "_id": "5ae87465fe27f41930102716",
+  "enabled": true,
+  "name": "Sap Flow TDP80 5b diff Temp C Avg",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602d0",
+  "datapoints_config": [
+    {
+      "begins_at": "2018-04-25T16:40:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 4356,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2",
+      "ends_before": "2018-04-25T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_rul5_1_cr1000",
+          "fc": "source_table501",
+          "sc": "\"time\", \"TDP80_5b_dTemp_C_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2018-04-25T00:00:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "4356",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "103",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "TDP80_5b_dTemp_C_Avg",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "117",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Sap Heat Diffusion Difference C",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "RUL5_1_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "Table501",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Sap",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius",
+    "ds_Aggregate_Average"
+  ],
+  "created_at": "2018-07-01T23:02:05.269Z",
+  "updated_at": "2018-07-03T19:03:09.937Z",
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Sap",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Temperature",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "degC",
+        "label": "DegreeCelsius",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "45ea78c1adf277d8846be030d3809b3428b9f97a"
+    },
+    {
+      "key": "att",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "5b29ddd4db0bbaadf29b596f7f1c718e6b04794b",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "5795c6e74091f87a34b256903db271fcca161eee",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Sap Flow TDP-80 5b L5-1 diff Temp C Avg"
+}

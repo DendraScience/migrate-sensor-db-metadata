@@ -1,7 +1,7 @@
 {
   "_id": "5ae87429fe27f45582102600",
   "enabled": true,
-  "name": "Permitivity no calib VMS_A2",
+  "name": "Permitivity no calib A2",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -161,5 +161,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Permitivity no calib VMS_A2"
 }

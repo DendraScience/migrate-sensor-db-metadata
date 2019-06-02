@@ -1,7 +1,7 @@
 {
   "_id": "5ae873defe27f4256810249f",
   "enabled": true,
-  "name": "Battery Voltage GHQ",
+  "name": "Battery Voltage",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -146,5 +146,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Battery Voltage GHQ"
 }

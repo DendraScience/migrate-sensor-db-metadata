@@ -1,7 +1,7 @@
 {
   "_id": "5ae873d9fe27f49b4510248c",
   "enabled": true,
-  "name": "Air Temp WSAM",
+  "name": "Air Temp",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -146,5 +146,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Air Temp WSAM"
 }

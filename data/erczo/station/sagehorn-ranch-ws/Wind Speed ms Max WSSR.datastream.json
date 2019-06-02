@@ -1,7 +1,7 @@
 {
   "_id": "5ae87722fe27f42dfa102b22",
   "enabled": true,
-  "name": "Wind Speed ms Max WSSR",
+  "name": "Wind Speed ms Max",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -157,5 +157,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Wind Speed ms Max WSSR"
 }

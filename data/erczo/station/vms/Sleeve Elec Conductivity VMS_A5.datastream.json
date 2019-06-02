@@ -1,7 +1,7 @@
 {
   "_id": "5ae87467fe27f4fc5810271e",
   "enabled": true,
-  "name": "Sleeve Elec Conductivity VMS_A5",
+  "name": "Sleeve Elec Conductivity A5",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -162,5 +162,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Sleeve Elec Conductivity VMS_A5"
 }

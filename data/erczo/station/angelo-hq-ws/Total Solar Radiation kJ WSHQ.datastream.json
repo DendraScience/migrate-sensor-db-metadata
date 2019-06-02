@@ -1,8 +1,8 @@
 {
   "_id": "5ae876f8fe27f4d01e102a61",
-  "description": "unit change from \"Total Solar Radiation MJ WSHQ\"\nThe WSHQ datalogger was malfunctioning from 2013-07-24 to 2014-02-25, causing timestamps to accelerate into the future, so values have been removed for this period.  See Incident Report 94.",
+  "description": "unit change from \"Total Solar Radiation MJ WSHQ\"\nThe WSHQ datalogger was malfunctioning from 2013-07-24 to 2014-02-25, causing timestamps to accelerate into the future, so values have been removed for this period.  See Incident Report 94.original datastream name was Total Solar Radiation kJ WSHQ",
   "enabled": true,
-  "name": "Total Solar Radiation kJ WSHQ",
+  "name": "Total Solar Radiation kJ",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

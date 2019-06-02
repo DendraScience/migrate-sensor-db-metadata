@@ -1,8 +1,8 @@
 {
   "_id": "5ae87717fe27f4eb5f102aec",
-  "description": "The WSHQ datalogger was malfunctioning from 2013-07-24 to 2014-02-25, causing timestamps to accelerate into the future, so values have been removed for this period.  See Incident Report 94.",
+  "description": "The WSHQ datalogger was malfunctioning from 2013-07-24 to 2014-02-25, causing timestamps to accelerate into the future, so values have been removed for this period.  See Incident Report 94.original datastream name was Wind Direction - WSHQ",
   "enabled": true,
-  "name": "Wind Direction - WSHQ",
+  "name": "Wind Direction",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

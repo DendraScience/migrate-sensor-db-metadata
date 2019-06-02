@@ -1,0 +1,165 @@
+{
+  "_id": "5ae87477fe27f44931102765",
+  "derivation_description": "Derived Soil Moisture",
+  "enabled": true,
+  "name": "Soil Moisture L1S3_1.25",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cacdf5ce600012602c8",
+  "datapoints_config": [
+    {
+      "begins_at": "2008-10-29T18:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 1490,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "1490",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "4",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "79",
+      "type": "odm.datastreams.DerivedID"
+    },
+    {
+      "identifier": "69",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Soil Moisture Pct",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "RLL1_1_CR1000",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "208.186.56.6:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "Level101",
+      "type": "loggernet.table"
+    }
+  ],
+  "tags": [
+    "ds_Medium_Soil",
+    "ds_Variable_Moisture",
+    "dt_Unit_Percent",
+    "ds_Aggregate_Average"
+  ],
+  "attributes": {
+    "depth": {
+      "unit_tag": "dt_Unit_Meter",
+      "value": 1.25
+    },
+    "orientation": "horizontal"
+  },
+  "created_at": "2018-07-01T23:03:18.954Z",
+  "updated_at": "2018-07-03T19:03:12.833Z",
+  "derived_from_datastream_ids": [
+    "5ae876e1fe27f4cf271029ff"
+  ],
+  "attributes_info": {
+    "sort": {
+      "value1": 1.25,
+      "value2": 0
+    },
+    "text": "1.25"
+  },
+  "tags_info": {
+    "resolved_terms": [
+      {
+        "label": "Soil",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-medium",
+        "vocabulary_label": "Medium"
+      },
+      {
+        "label": "Moisture",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-variable",
+        "vocabulary_label": "Variable"
+      },
+      {
+        "abbreviation": "%",
+        "label": "Percent",
+        "scheme_id": "dt",
+        "scheme_priority": 10,
+        "vocabulary_id": "dt-unit",
+        "vocabulary_label": "Unit"
+      },
+      {
+        "label": "Average",
+        "scheme_id": "ds",
+        "scheme_priority": 10,
+        "vocabulary_id": "ds-aggregate",
+        "vocabulary_label": "Aggregate"
+      }
+    ],
+    "scheme_refs": [
+      {
+        "_id": "ds",
+        "tag_count": 3
+      },
+      {
+        "_id": "dt",
+        "tag_count": 1
+      }
+    ],
+    "vocabulary_refs": [
+      {
+        "_id": "ds-medium"
+      },
+      {
+        "_id": "ds-variable"
+      },
+      {
+        "_id": "dt-unit"
+      },
+      {
+        "_id": "ds-aggregate"
+      }
+    ]
+  },
+  "hashes": [
+    {
+      "key": "src",
+      "str": "d7a87b6769f78e630a71fc7b9d6d78f57b2a42ff"
+    },
+    {
+      "key": "att",
+      "str": "b0ff2ea0045d8db8ea444b2baefe26d036bef12b"
+    },
+    {
+      "key": "geo",
+      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "key": "tag",
+      "str": "a419a867eee1eb7b90ff73592001f7d5e75d5420",
+      "scheme_id": "ds"
+    },
+    {
+      "key": "tag",
+      "str": "2734b26dc0ddea857c1c6f650f5735cc8bb660eb",
+      "scheme_id": "dt"
+    }
+  ],
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Rivendell ElderCreek-1 Soil Moisture L1S3_1.25"
+}

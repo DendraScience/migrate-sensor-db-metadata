@@ -1,7 +1,7 @@
 {
   "_id": "5ae8743efe27f4411c102664",
   "enabled": true,
-  "name": "Relative Humidity WSSM Min",
+  "name": "Relative Humidity Min",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -146,5 +146,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Relative Humidity WSSM Min"
 }

@@ -2,7 +2,7 @@
   "_id": "5ae87438fe27f404a3102646",
   "derivation_description": "Convert inches to millimeters",
   "enabled": true,
-  "name": "Rainfall mm WSSM",
+  "name": "Rainfall mm",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -135,5 +135,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Rainfall mm WSSM"
 }

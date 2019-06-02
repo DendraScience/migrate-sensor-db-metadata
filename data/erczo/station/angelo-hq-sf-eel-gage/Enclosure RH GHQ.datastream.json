@@ -1,8 +1,8 @@
 {
   "_id": "5ae873f6fe27f4095a102512",
-  "description": "Used to monitor dangerous levels of humidity inside the logger box.  Druck Pressure transducers cannot allow moisture inside their equalization tubes.\r\nNot for research measurements.",
+  "description": "Used to monitor dangerous levels of humidity inside the logger box.  Druck Pressure transducers cannot allow moisture inside their equalization tubes.\r\nNot for research measurements.original datastream name was Enclosure RH GHQ",
   "enabled": true,
-  "name": "Enclosure RH GHQ",
+  "name": "Enclosure RH",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

@@ -1,6 +1,6 @@
 {
   "_id": "5ae876fcfe27f4b474102a72",
-  "description": "The WSHQ datalogger was malfunctioning from 2013-07-24 to 2014-02-25, causing timestamps to accelerate into the future, so values have been removed for this period.  See Incident Report 94.",
+  "description": "The WSHQ datalogger was malfunctioning from 2013-07-24 to 2014-02-25, causing timestamps to accelerate into the future, so values have been removed for this period.  See Incident Report 94.original datastream name was Total Solar Radiation MJ WSHG",
   "enabled": true,
   "name": "Total Solar Radiation MJ WSHG",
   "organization_id": "58db17e824dc720001671379",

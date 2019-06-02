@@ -1,8 +1,8 @@
 {
   "_id": "5ae87715fe27f402be102ae6",
-  "description": "average direction, not instantaneous.",
+  "description": "average direction, not instantaneous.original datastream name was Wind Direction -  WSTB",
   "enabled": false,
-  "name": "Wind Direction -  WSTB",
+  "name": "Wind Direction",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

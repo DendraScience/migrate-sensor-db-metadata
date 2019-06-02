@@ -1,8 +1,8 @@
 {
   "_id": "5ae873d7fe27f4eecd102480",
-  "description": "Difference between the air temperature at the top of the tower (10m) and at 2m.  ",
+  "description": "Difference between the air temperature at the top of the tower (10m) and at 2m.  original datastream name was Air Temp Delta 10m-2m C WSSM Max",
   "enabled": true,
-  "name": "Air Temp Delta 10m-2m C WSSM Max",
+  "name": "Air Temp Delta 10m2m C Max",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

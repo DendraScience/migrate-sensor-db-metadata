@@ -1,7 +1,7 @@
 {
   "_id": "5ae87426fe27f4f49d1025f1",
   "enabled": true,
-  "name": "Logger Temp  WSCP",
+  "name": "Logger Temp",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -157,5 +157,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Logger Temp  WSCP"
 }

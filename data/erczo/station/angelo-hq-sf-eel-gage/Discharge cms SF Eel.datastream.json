@@ -1,7 +1,7 @@
 {
   "_id": "5ae873f4fe27f429d2102507",
   "derivation_description": "Derived Discharge",
-  "description": "Discharge m3/s calculated from GHQ gageheight DSID 3",
+  "description": "Discharge m3/s calculated from GHQ gageheight DSID 3original datastream name was Discharge cms SF Eel",
   "enabled": true,
   "name": "Discharge cms SF Eel",
   "organization_id": "58db17e824dc720001671379",

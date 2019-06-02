@@ -1,7 +1,7 @@
 {
   "_id": "5ae87716fe27f41adf102ae8",
   "enabled": true,
-  "name": "Wind Direction - WSAM",
+  "name": "Wind Direction",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -157,5 +157,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Wind Direction - WSAM"
 }

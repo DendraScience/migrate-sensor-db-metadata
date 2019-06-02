@@ -2,7 +2,7 @@
   "_id": "5ae8742dfe27f406ed102614",
   "derivation_description": "Derived Cumulative Rainfall",
   "enabled": true,
-  "name": "Rainfall Cumulative mm WSAM",
+  "name": "Rainfall Cumulative mm",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -146,5 +146,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Rainfall Cumulative mm WSAM"
 }

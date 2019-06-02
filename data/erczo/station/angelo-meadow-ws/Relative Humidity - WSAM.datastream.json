@@ -1,7 +1,7 @@
 {
   "_id": "5ae87439fe27f44c3b10264b",
   "enabled": true,
-  "name": "Relative Humidity - WSAM",
+  "name": "Relative Humidity",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -146,5 +146,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Relative Humidity - WSAM"
 }

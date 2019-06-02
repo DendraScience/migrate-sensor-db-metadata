@@ -1,7 +1,7 @@
 {
   "_id": "5ae87442fe27f47c63102675",
   "enabled": true,
-  "name": "Rock Moisture VMS_A10",
+  "name": "Rock Moisture A10",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -162,5 +162,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Rock Moisture VMS_A10"
 }

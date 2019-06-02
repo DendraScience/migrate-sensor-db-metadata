@@ -1,7 +1,7 @@
 {
   "_id": "5ae873dbfe27f4b232102492",
   "enabled": true,
-  "name": "Air Temp WSSM Avg",
+  "name": "Air Temp Avg",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -146,5 +146,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Air Temp WSSM Avg"
 }

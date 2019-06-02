@@ -1,8 +1,8 @@
 {
   "_id": "5ae8742ffe27f4240210261e",
-  "description": "Auto conversion to millimeters DSID 1776",
+  "description": "Auto conversion to millimeters DSID 1776original datastream name was Rainfall inches WSSM",
   "enabled": true,
-  "name": "Rainfall inches WSSM",
+  "name": "Rainfall inches",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

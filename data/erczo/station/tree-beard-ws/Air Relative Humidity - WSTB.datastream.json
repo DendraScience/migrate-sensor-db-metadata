@@ -1,7 +1,7 @@
 {
   "_id": "5ae873d2fe27f404c010246a",
   "enabled": false,
-  "name": "Air Relative Humidity - WSTB",
+  "name": "Air Relative Humidity",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -124,5 +124,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Air Relative Humidity - WSTB"
 }

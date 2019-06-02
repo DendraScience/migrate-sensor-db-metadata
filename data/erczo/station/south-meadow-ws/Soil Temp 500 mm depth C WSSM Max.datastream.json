@@ -1,7 +1,7 @@
 {
   "_id": "5ae876a9fe27f44864102908",
   "enabled": true,
-  "name": "Soil Temp 500 mm depth C WSSM Max",
+  "name": "Soil Temp 500 mm depth C Max",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -146,5 +146,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Soil Temp 500 mm depth C WSSM Max"
 }

@@ -1,8 +1,8 @@
 {
   "_id": "5ae87422fe27f421a71025de",
-  "description": "Pressure transducer placed inside the Angelo Reserve Stilling Well to measure gage height.",
+  "description": "Pressure transducer placed inside the Angelo Reserve Stilling Well to measure gage height.original datastream name was GageHeight Inside GHQ",
   "enabled": true,
-  "name": "GageHeight Inside GHQ",
+  "name": "GageHeight Inside",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

@@ -1,7 +1,7 @@
 {
   "_id": "5ae8742ffe27f49ea910261c",
   "enabled": false,
-  "name": "Rainfall cumulative mm WSTB",
+  "name": "Rainfall cumulative mm",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -135,5 +135,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Rainfall cumulative mm WSTB"
 }

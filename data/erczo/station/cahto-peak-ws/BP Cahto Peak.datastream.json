@@ -1,7 +1,7 @@
 {
   "_id": "5ae873eefe27f439071024ec",
   "enabled": true,
-  "name": "BP Cahto Peak",
+  "name": "BP",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -157,5 +157,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was BP Cahto Peak"
 }

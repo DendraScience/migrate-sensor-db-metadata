@@ -1,8 +1,8 @@
 {
   "_id": "5ae873ddfe27f40d0410249b",
-  "description": "Air temp outside stilling well. Damaged during flood. ",
+  "description": "Air temp outside stilling well. Damaged during flood. original datastream name was AirTemp Outside GHQ",
   "enabled": false,
-  "name": "AirTemp Outside GHQ",
+  "name": "AirTemp Outside",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

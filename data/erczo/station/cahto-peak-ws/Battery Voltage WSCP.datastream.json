@@ -1,7 +1,7 @@
 {
   "_id": "5ae873e7fe27f46e271024cb",
   "enabled": true,
-  "name": "Battery Voltage WSCP",
+  "name": "Battery Voltage",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -146,5 +146,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Battery Voltage WSCP"
 }

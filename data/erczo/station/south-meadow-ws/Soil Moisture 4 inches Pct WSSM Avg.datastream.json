@@ -1,7 +1,7 @@
 {
   "_id": "5ae87469fe27f4d6aa102728",
   "enabled": true,
-  "name": "Soil Moisture 4 inches Pct WSSM Avg",
+  "name": "Soil Moisture 4 inches Pct Avg",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -157,5 +157,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": []
+  "_include": [],
+  "description": "undefinedoriginal datastream name was Soil Moisture 4 inches Pct WSSM Avg"
 }
