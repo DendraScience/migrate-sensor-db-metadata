@@ -4,6 +4,7 @@
   "is_active": true,
   "is_stationary": true,
   "name": "Angelo HQ SF Eel Gage",
+  "description": "Angelo headquarters stilling well on the South Fork Eel River. Originally part of USGS monitoring (USGS 11475500 SF EEL R NR BRANSCOMB CA). Within Hydrologic Unit 18010106",
   "organization_id": "58db17e824dc720001671379",
   "slug": "angelo-hq-sf-eel-gage",
   "station_type": "weather",
@@ -13,6 +14,10 @@
     {
       "title": "Metadata",
       "url": "http://sensor.berkeley.edu/cgi/sensor_show_tables?Access=4.00&username=Guest+User&MC_Name=Angelo+Reserve&table=stations&name=Angelo+HQ+SF+Eel+Gage"
+    },
+    {
+      "title": "USGS Data 1946-1970",
+      "url": "https://waterdata.usgs.gov/ca/nwis/inventory/?site_no=11475500"
     }
   ],
   "external_refs": [
@@ -32,6 +37,10 @@
     {
       "identifier": "GHQTable",
       "type": "loggernet.data_tables"
+    },
+    {
+      "identifier": "11475500",
+      "type": "usgs.nwis.site_no"
     }
   ],
   "geo": {

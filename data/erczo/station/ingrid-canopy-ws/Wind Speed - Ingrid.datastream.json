@@ -1,6 +1,6 @@
 {
   "_id": "5ae87718fe27f41e8e102af2",
-  "enabled": false,
+  "enabled": true,
   "name": "Wind Speed",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -60,8 +60,9 @@
     "dt_Unit_MeterPerSecond",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-07-01T23:20:25.546Z",
-  "updated_at": "2018-07-03T19:03:45.059Z",
+  "created_at": "2018-05-01T14:18:00.319Z",
+  "updated_at": "2019-07-03T02:14:07.178Z",
+  "description": "undefinedoriginal datastream name was Wind Speed - Ingrid",
   "tags_info": {
     "resolved_terms": [
       {
@@ -143,6 +144,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was Wind Speed - Ingrid"
+  "version_id": "5d1c0f6fdf6f2b720de2e45b",
+  "_include": []
 }

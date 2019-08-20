@@ -1,0 +1,15 @@
+{
+  "email": "ifung@berkeley.edu",
+  "full_name": "Inez Fung",
+  "is_enabled": true,
+  "name": "Inez",
+  "person_id": "5d20be912ab41736432b9f5a",
+  "roles": [
+    "user"
+  ],
+  "created_at": "2019-07-06T15:42:01.155Z",
+  "updated_at": "2019-07-06T15:42:01.155Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "_id": "5d20c1492ab41772882b9f5e"
+}

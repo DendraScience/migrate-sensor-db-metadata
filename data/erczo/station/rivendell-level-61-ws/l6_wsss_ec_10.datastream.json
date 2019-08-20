@@ -1,0 +1,51 @@
+{
+  "is_enabled": true,
+  "name": "Soil ElectricalConductivity ec10",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "5c5b0a1cdf9d94fd2923d1f2",
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_l6_wsss",
+          "fc": "source_cs650s",
+          "sc": "\"time\", \"EC_10\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2017-09-28T00:00:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "terms": {
+    "dt": {
+      "Unit": "DecisiemenPerMeter"
+    },
+    "ds": {
+      "Medium": "Soil",
+      "Variable": "ElectricalConductivity"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "created_at": "2019-08-05T20:21:36.646Z",
+  "updated_at": "2019-08-05T20:21:36.646Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "version_id": "5d488fd03883cb21e1af551b",
+  "terms_info": {
+    "class_keys": [
+      "ds__Medium_Soil__Variable_ElectricalConductivity"
+    ],
+    "class_tags": [
+      "ds_Medium_Soil",
+      "ds_Variable_ElectricalConductivity"
+    ],
+    "unit_tag": "dt_Unit_DecisiemenPerMeter"
+  },
+  "_id": "5d488fd03883cb6095af551c"
+}

@@ -1,6 +1,6 @@
 {
   "_id": "5ae879d6fe27f454cc102e34",
-  "enabled": false,
+  "enabled": true,
   "name": "Relative Humidity Per McLaughlin Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -16,7 +16,22 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2017-02-01T11:10:00Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucmc_mclaughlin",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"RH_pct_Max\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2017-02-01T11:10:00Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [

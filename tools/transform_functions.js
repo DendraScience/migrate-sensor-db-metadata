@@ -34,7 +34,7 @@ exports.recurse_dir = function(dir,filepath_list,regex) {
 exports.get_org_slug = function(organization_id) {
   // assumes specific file structure
   fs = require("fs")
-  opath = "../data/dendra-managed/common/organization/"
+  opath = "../data/common/organization/"
   o_files = fs.readdirSync(opath)
   for(var o=0;o<o_files.length;o++) {
     o_file = o_files[o]

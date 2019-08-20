@@ -1,0 +1,86 @@
+{
+  "is_active": true,
+  "is_stationary": true,
+  "name": "Santa Cruz Island Christy Ranch Bridge",
+  "organization_id": "5b032fe439e58256b546331c",
+  "slug": "sci-christy-ranch-bridge",
+  "station_type": "weather",
+  "time_zone": "PST",
+  "utc_offset": -28800,
+  "external_links": [
+    {
+      "title": "Stilltek Website",
+      "url": "https://stilltek.com/ucbchi/chrstyrnchbrdg/"
+    },
+    {
+      "title": "Stilltek data download (CSV)",
+      "url": "https://stilltek.com/cgi-bin/qrySBD.php?user=300234067146560&format=csv&num=40000"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "300234067146560",
+      "type": "iridium_id"
+    }
+  ],
+  "geo": {
+    "coordinates": [
+      -119.84162,
+      34.00144,
+      100
+    ],
+    "type": "Point"
+  },
+  "media": [
+    {
+      "type": "photo",
+      "sizes": {
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "https://stilltek.com/images/ChristyRanchBridge_1.jpg"
+        },
+        "thumb2x": {
+          "h": 120,
+          "w": 120,
+          "url": "https://stilltek.com/images/ChristyRanchBridge_1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "https://stilltek.com/images/ChristyRanchBridge_1.jpg"
+        },
+        "small2x": {
+          "h": 480,
+          "w": 480,
+          "url": "https://stilltek.com/images/ChristyRanchBridge_1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 240,
+          "url": "https://stilltek.com/images/ChristyRanchBridge_1.jpg"
+        },
+        "medium2x": {
+          "h": 960,
+          "w": 960,
+          "url": "https://stilltek.com/images/ChristyRanchBridge_1.jpg"
+        },
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "https://stilltek.com/images/ChristyRanchBridge_1.jpg"
+        }
+      }
+    }
+  ],
+  "is_enabled": true,
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "state": "ready",
+  "created_at": "2019-08-07T00:34:46.356Z",
+  "updated_at": "2019-08-07T00:34:46.356Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "version_id": "5d4a1ca6bc55f17bda1e4302",
+  "_id": "5d4a1ca6bc55f135521e4303"
+}

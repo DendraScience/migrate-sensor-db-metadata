@@ -1,7 +1,7 @@
 {
   "_id": "5ae87426fe27f461a61025f3",
   "description": "Wiring panel temperature. Used to make sure logger is within proper operating temperatures. Not valid for research use.original datastream name was Logger Temp Ingrid",
-  "enabled": false,
+  "enabled": true,
   "name": "Logger Temp",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -19,6 +19,20 @@
         }
       },
       "path": "/legacy/datavalues2"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_wsic_cr1000",
+          "fc": "source_wsic_table",
+          "sc": "\"time\", \"PTemp_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2016-03-24T19:15:00.000Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [
@@ -61,8 +75,8 @@
     "dt_Unit_DegreeCelsius",
     "ds_Aggregate_Average"
   ],
-  "created_at": "2018-07-01T22:56:17.156Z",
-  "updated_at": "2018-07-03T19:03:00.106Z",
+  "created_at": "2018-05-01T14:11:39.717Z",
+  "updated_at": "2019-07-03T02:14:06.039Z",
   "tags_info": {
     "resolved_terms": [
       {
@@ -144,5 +158,6 @@
       "scheme_id": "dt"
     }
   ],
+  "version_id": "5d1c0f6edf6f2b9132e2e459",
   "_include": []
 }

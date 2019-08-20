@@ -1,0 +1,53 @@
+{
+  "is_enabled": true,
+  "name": "Sap Temperature Difference TDP80 4a C avg",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "5d2b8b2cb824c668c02f8dac",
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_l6_2",
+          "fc": "source_tdp_table",
+          "sc": "\"time\", \"TDP80_4a_dTemp_C_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2018-05-31T04:05:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "terms": {
+    "dt": {
+      "Unit": "DegreeCelsius"
+    },
+    "ds": {
+      "Aggregate": "Average",
+      "Medium": "Sap",
+      "Variable": "Flux"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "created_at": "2019-08-05T20:20:40.404Z",
+  "updated_at": "2019-08-05T20:20:40.404Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "version_id": "5d488f983883cbdeb8af54e2",
+  "terms_info": {
+    "class_keys": [
+      "ds__Aggregate_Average__Medium_Sap__Variable_Flux"
+    ],
+    "class_tags": [
+      "ds_Aggregate_Average",
+      "ds_Medium_Sap",
+      "ds_Variable_Flux"
+    ],
+    "unit_tag": "dt_Unit_DegreeCelsius"
+  },
+  "_id": "5d488f983883cb0927af54e3"
+}

@@ -1,7 +1,7 @@
 {
   "_id": "5ae8797cfe27f4801b102c94",
   "description": "",
-  "enabled": false,
+  "enabled": true,
   "name": "Barometric Pressure mbar McLaughlin Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -17,7 +17,22 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2017-02-01T11:10:00Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucmc_mclaughlin",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"BP_mb_Avg\",\"BP_mB_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": true
+        }
+      },
+      "begins_at": "2017-02-01T11:10:00Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Power outage while swapping power supplies",
+  "description": "Brief power outage at HQ weather station while replacing the AC/DC inverter.",
+  "station_ids": [
+    "58e68cabdf5ce600012602b1"
+  ],
+  "external_refs": [
+    {
+      "identifier": "Peter Steel",
+      "type": "created_by_name"
+    }
+  ],
+  "intervals": [
+    {
+      "begins_at":   "2019-06-18T08:45:00.000PST"
+    },
+    {
+      "ends_before": "2019-06-18T09:20:00.000PST"
+    }
+  ]
+}

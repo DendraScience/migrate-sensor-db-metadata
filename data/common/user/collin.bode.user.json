@@ -1,0 +1,15 @@
+{
+  "_id": "5ceb8979b30920354eb66cde",
+  "email": "collin@berkeley.edu",
+  "full_name": "Collin Bode",
+  "is_enabled": true,
+  "name": "Collin",
+  "person_id": "5ceb87d8b30920286fb66cdd",
+  "roles": [
+    "user"
+  ],
+  "updated_at": "2019-05-28T14:57:20.255Z",
+  "updated_by": "5ceb8979b30920354eb66cde",
+  "created_at": "2019-05-27T06:53:45.715Z",
+  "created_by": "5cdd9abda6fa68f95479675b"
+}

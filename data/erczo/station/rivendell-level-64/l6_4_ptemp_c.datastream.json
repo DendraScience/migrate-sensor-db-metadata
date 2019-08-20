@@ -1,0 +1,51 @@
+{
+  "is_enabled": true,
+  "name": "Logger Temp C",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "5d476fa1799d4f1bee218907",
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_l6_4",
+          "fc": "source_tdp_table",
+          "sc": "\"time\", \"PTemp_C\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2018-09-24T12:45:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "terms": {
+    "dt": {
+      "Unit": "DegreeCelsius"
+    },
+    "ds": {
+      "Medium": "Instrument",
+      "Variable": "Temperature"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "created_at": "2019-08-05T20:21:08.920Z",
+  "updated_at": "2019-08-05T20:21:08.920Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "version_id": "5d488fb402e4cdf9769c2b7d",
+  "terms_info": {
+    "class_keys": [
+      "ds__Medium_Instrument__Variable_Temperature"
+    ],
+    "class_tags": [
+      "ds_Medium_Instrument",
+      "ds_Variable_Temperature"
+    ],
+    "unit_tag": "dt_Unit_DegreeCelsius"
+  },
+  "_id": "5d488fb402e4cd41959c2b7e"
+}

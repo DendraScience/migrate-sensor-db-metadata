@@ -1,6 +1,6 @@
 {
   "_id": "5ae873d8fe27f401ae102484",
-  "enabled": false,
+  "enabled": true,
   "name": "Air Temp",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -59,8 +59,9 @@
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "created_at": "2018-07-01T22:52:36.313Z",
-  "updated_at": "2018-07-03T19:02:47.417Z",
+  "created_at": "2018-05-01T14:09:01.767Z",
+  "updated_at": "2019-07-03T02:14:04.615Z",
+  "description": "undefinedoriginal datastream name was Air Temp Ingrid",
   "tags_info": {
     "resolved_terms": [
       {
@@ -132,6 +133,6 @@
       "scheme_id": "dt"
     }
   ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was Air Temp Ingrid"
+  "version_id": "5d1c0f6c4412b445e678412c",
+  "_include": []
 }

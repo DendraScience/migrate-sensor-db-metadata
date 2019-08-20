@@ -1,7 +1,7 @@
 {
   "_id": "5ae87a21fe27f47422102f64",
   "description": "",
-  "enabled": false,
+  "enabled": true,
   "name": "Soil Temp Deg C 200 mm McLaughlin Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -17,7 +17,22 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2017-02-01T11:10:00Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucmc_mclaughlin",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"Soil_T8_C_Avg\",\"Soil_T200_C_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": true
+        }
+      },
+      "begins_at": "2017-02-01T11:10:00Z",
+      "path": "/influx/select"
     }
   ],
   "external_refs": [

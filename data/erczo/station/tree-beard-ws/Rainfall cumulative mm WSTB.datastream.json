@@ -47,8 +47,8 @@
     }
   ],
   "tags": [
-    "ds_Medium_Precipitation",
-    "ds_Variable_Height",
+    "ds_Medium_Water",
+    "ds_Variable_Precipitation",
     "dt_Unit_Millimeter",
     "ds_Aggregate_Cumulative"
   ],

@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "organization_id": "58db17c424dc720001671378",
+  "title": "Precipitation tipping bucket error",
+  "description": "Precipitation locked at maximum rainfall for several days.",
+  "datastream_ids": [
+    "5ae879aefe27f45250102d7a",
+    "5ae879aefe27f47d31102d78"
+  ],
+  "external_refs": [
+    {
+      "identifier": "Collin Bode",
+      "type": "created_by_name"
+    }
+  ],
+  "intervals": [
+    {
+      "begins_at": "2019-02-05T02:00:00.000Z"
+    },
+    {
+      "ends_before": "2019-02-10T10:00:00.000Z"
+    }
+  ],
+  "created_at": "2019-06-03T14:50:00.135Z",
+  "updated_at": "2019-06-03T14:50:00.135Z",
+  "_id": "5cf5339834a03f3b616568ea"
+}

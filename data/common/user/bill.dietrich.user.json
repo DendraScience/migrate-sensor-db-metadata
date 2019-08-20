@@ -1,0 +1,11 @@
+{
+  "email": "bill@eps.berkeley.edu",
+  "full_name": "Bill Dietrich",
+  "is_enabled": true,
+  "name": "Bill",
+  "person_id": "5d0198a5b309201940b66ce8",
+  "roles": [
+    "user"
+  ],
+  "password":"rivendell2013"
+}

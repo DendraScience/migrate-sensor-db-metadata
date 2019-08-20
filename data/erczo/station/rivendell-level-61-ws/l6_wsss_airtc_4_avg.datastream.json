@@ -1,0 +1,53 @@
+{
+  "is_enabled": true,
+  "name": "Air Temperature airtc4avg",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "5c5b0a1cdf9d94fd2923d1f2",
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_l6_wsss",
+          "fc": "source_cs215s",
+          "sc": "\"time\", \"AirTC_4_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2017-09-27T23:54:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "terms": {
+    "dt": {
+      "Unit": "DegreeCelsius"
+    },
+    "ds": {
+      "Aggregate": "Average",
+      "Medium": "Air",
+      "Variable": "Temperature"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "created_at": "2019-08-05T20:21:32.356Z",
+  "updated_at": "2019-08-05T20:21:32.356Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "version_id": "5d488fcc3883cb8b3daf550d",
+  "terms_info": {
+    "class_keys": [
+      "ds__Aggregate_Average__Medium_Air__Variable_Temperature"
+    ],
+    "class_tags": [
+      "ds_Aggregate_Average",
+      "ds_Medium_Air",
+      "ds_Variable_Temperature"
+    ],
+    "unit_tag": "dt_Unit_DegreeCelsius"
+  },
+  "_id": "5d488fcc3883cbee7caf550e"
+}

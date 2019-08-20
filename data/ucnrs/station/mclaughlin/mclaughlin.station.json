@@ -1,6 +1,6 @@
 {
   "_id": "58e68cacdf5ce600012602c5",
-  "enabled": false,
+  "enabled": true,
   "is_active": true,
   "is_stationary": true,
   "name": "McLaughlin",
@@ -32,6 +32,10 @@
     {
       "identifier": "wanda.berkeley.edu:1024",
       "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.data_tables"
     }
   ],
   "geo": {

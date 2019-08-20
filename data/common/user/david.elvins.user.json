@@ -1,0 +1,15 @@
+{
+  "email": "elvins@berkeley.edu",
+  "full_name": "David Elvins",
+  "is_enabled": true,
+  "name": "David",
+  "person_id": "5d20be96476bbb5533686500",
+  "roles": [
+    "user"
+  ],
+  "created_at": "2019-07-06T15:41:39.911Z",
+  "updated_at": "2019-07-06T15:41:39.911Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "_id": "5d20c1332ab417c0512b9f5d"
+}

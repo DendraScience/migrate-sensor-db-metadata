@@ -1,8 +1,8 @@
 {
   "_id": "5ae873ddfe27f40d0410249b",
-  "description": "Air temp outside stilling well. Damaged during flood. original datastream name was AirTemp Outside GHQ",
+  "description": "Air temperature outside headquarters stilling well (GHQ) for the South Fork Eel River. Damaged during flood.",
   "enabled": false,
-  "name": "AirTemp Outside",
+  "name": "Air Temp Outside Stilling Well",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",

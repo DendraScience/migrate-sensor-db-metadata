@@ -1,0 +1,53 @@
+{
+  "is_enabled": true,
+  "name": "Soil Permittivity p6avg",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "5c5b0a1cdf9d94fd2923d1f2",
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_l6_wsss",
+          "fc": "source_cs650s",
+          "sc": "\"time\", \"P_6_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2017-09-28T00:00:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "terms": {
+    "dt": {
+      "Unit": "Dimensionless"
+    },
+    "ds": {
+      "Aggregate": "Average",
+      "Medium": "Soil",
+      "Variable": "Permittivity"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "created_at": "2019-08-05T20:21:52.972Z",
+  "updated_at": "2019-08-05T20:21:52.972Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "version_id": "5d488fe002e4cd876b9c2bd5",
+  "terms_info": {
+    "class_keys": [
+      "ds__Aggregate_Average__Medium_Soil__Variable_Permittivity"
+    ],
+    "class_tags": [
+      "ds_Aggregate_Average",
+      "ds_Medium_Soil",
+      "ds_Variable_Permittivity"
+    ],
+    "unit_tag": "dt_Unit_Dimensionless"
+  },
+  "_id": "5d488fe002e4cd2a5f9c2bd6"
+}
