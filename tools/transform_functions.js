@@ -113,13 +113,41 @@ exports.get_external_ref = function(de_json,ref_type) {
 
 exports.get_tag = function(dt_json,tag_prefix) {
   regex_prefix = new RegExp(tag_prefix+'*')
-  for(var k=0;k<dt_json.tags.length;k++) {
-    //console.log("tag test:",tag_prefix,"=?=",dt_json.tags[k])
-    if(regex_prefix.test(dt_json.tags[k])) {
-      //console.log("Tag Match!",tag_prefix,"===",dt_json.tags[k])
-      return dt_json.tags[k]
+  // bug in den causing tag to be removed from json
+  // if this is the case, it means the json has been processed and "terms" can be used instead
+  if(typeof dt_json.tags === 'undefined') {
+    if(regex_prefix.test("Unit")) {
+      return dt_json.terms.dt.Unit
+    } else if(regex_prefix.test("Aggregate")) {
+      return dt_json.terms.ds.Aggregate
+    } else if(regex_prefix.test("Medium")) {
+      return dt_json.terms.ds.Medium
+    } else if(regex_prefix.test("Variable")) {
+      return dt_json.terms.ds.Variable
+    } else if(regex_prefix.test("Measurement")) {
+      return dt_json.terms.dq.Measurement
+    } 
+  } else {
+    for(var k=0;k<dt_json.tags.length;k++) {
+      //console.log("tag test:",tag_prefix,"=?=",dt_json.tags[k])
+      if(regex_prefix.test(dt_json.tags[k])) {
+        //console.log("Tag Match!",tag_prefix,"===",dt_json.tags[k])
+        return dt_json.tags[k]
+      }
     }
-  }   
+  }
+  /*
+  "terms": {
+    "dt": {
+      "Unit": "Volt"
+    },
+    "ds": {
+      "Aggregate": "Minimum",
+      "Medium": "Battery",
+      "Variable": "Voltage"
+    }
+  },
+  */   
 }
 
 exports.is_objects_equivalent = function(a,b) {

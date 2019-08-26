@@ -1,0 +1,7640 @@
+[
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp Outside Stilling Well"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage"
+  ],
+  [
+    "SurfaceWater",
+    "Discharge",
+    "CubicMeterPerSecond",
+    "Discharge cms SF Eel"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Enclosure RH"
+  ],
+  [
+    "SurfaceWater",
+    "Depth",
+    "Meter",
+    "GageHeight Inside"
+  ],
+  [
+    "SurfaceWater",
+    "Depth",
+    "Meter",
+    "GageHeight Outside"
+  ],
+  [
+    "SurfaceWater",
+    "Turbidity",
+    "NephelometricTurbidityUnit",
+    "Turbidity"
+  ],
+  [
+    "Water",
+    "Temperature",
+    "DegreeCelsius",
+    "Water Temp inside"
+  ],
+  [
+    "Water",
+    "Temperature",
+    "DegreeCelsius",
+    "Water Temp outside"
+  ],
+  [
+    "Water",
+    "Temperature",
+    "DegreeCelsius",
+    "Water Temp outside cs450"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp"
+  ],
+  [
+    "Air",
+    "BarometricPressure",
+    "Millibar",
+    "BP HQ"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage"
+  ],
+  [
+    "Instrument",
+    "Temperature",
+    "DegreeCelsius",
+    "Logger Temp"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall Cumulative mm TB4"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall Cumulative mm"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall mm TB4"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall mm"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Relative Humidity"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "MegajoulePerSquareMeter",
+    "Total Solar Radiation MJ WSHG"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "WattPerSquareMeter",
+    "Total Solar Radiation W"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "KilojoulePerSquareMeter",
+    "Total Solar Radiation kJ"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "KilojoulePerSquareMeter",
+    "Total Solar Radiation kW"
+  ],
+  [
+    "Air",
+    "Direction",
+    "DegreeAngle",
+    "Wind Direction"
+  ],
+  [
+    "Air",
+    "Speed",
+    "MeterPerSecond",
+    "Wind Speed"
+  ],
+  [
+    "Air",
+    "Speed",
+    "MeterPerSecond",
+    "Wind Speed max"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp"
+  ],
+  [
+    "Air",
+    "BarometricPressure",
+    "Millibar",
+    "BP Meadow"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage"
+  ],
+  [
+    "Instrument",
+    "Temperature",
+    "DegreeCelsius",
+    "Logger Temp"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall Cumulative mm TB4"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall Cumulative mm"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall mm TB4"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall mm"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Relative Humidity"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "MegajoulePerSquareMeter",
+    "Total Solar Radiation MJ"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "WattPerSquareMeter",
+    "Total Solar Radiation W"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "KilojoulePerSquareMeter",
+    "Total Solar Radiation kJ"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "KilojoulePerSquareMeter",
+    "Total Solar Radiation kW"
+  ],
+  [
+    "Air",
+    "Direction",
+    "DegreeAngle",
+    "Wind Direction"
+  ],
+  [
+    "Air",
+    "Speed",
+    "MeterPerSecond",
+    "Wind Speed"
+  ],
+  [
+    "Air",
+    "Speed",
+    "MeterPerSecond",
+    "Wind Speed max"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp"
+  ],
+  [
+    "Air",
+    "BarometricPressure",
+    "Millibar",
+    "BP"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage"
+  ],
+  [
+    "Instrument",
+    "Temperature",
+    "DegreeCelsius",
+    "Logger Temp"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall Cumulative mm TB4"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall Cumulative mm"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall mm TB4"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall mm"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Relative Humidity"
+  ],
+  [
+    "Snow",
+    "Depth",
+    "Dimensionless",
+    "Snow Depth Signal Quality"
+  ],
+  [
+    "Snow",
+    "Depth",
+    "Meter",
+    "Snow Depth"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "MegajoulePerSquareMeter",
+    "Total Solar Radiation MJ"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "WattPerSquareMeter",
+    "Total Solar Radiation W"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "KilojoulePerSquareMeter",
+    "Total Solar Radiation kJ"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "KilojoulePerSquareMeter",
+    "Total Solar Radiation kW"
+  ],
+  [
+    "Air",
+    "Direction",
+    "DegreeAngle",
+    "Wind Direction"
+  ],
+  [
+    "Air",
+    "Speed",
+    "MeterPerSecond",
+    "Wind Speed"
+  ],
+  [
+    "Air",
+    "Speed",
+    "MeterPerSecond",
+    "Wind Speed max"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air RH"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp"
+  ],
+  [
+    "Air",
+    "BarometricPressure",
+    "Millibar",
+    "BP"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage"
+  ],
+  [
+    "Snow",
+    "Height",
+    "Millimeter",
+    "Hail cumulative"
+  ],
+  [
+    "Snow",
+    "Height",
+    "MillimeterPerHour",
+    "Hail intensity"
+  ],
+  [
+    "Instrument",
+    "Temperature",
+    "DegreeCelsius",
+    "Logger Temp"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall cumulative mm"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "MillimeterPerHour",
+    "Rainfall intensity mm_h"
+  ],
+  [
+    "Air",
+    "Direction",
+    "DegreeAngle",
+    "Wind Direction"
+  ],
+  [
+    "Air",
+    "Speed",
+    "MeterPerSecond",
+    "Wind Speed"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "air temp c avg"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "air temp c max"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "air temp c min"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "battery voltage avg"
+  ],
+  [
+    "Air",
+    "BarometricPressure",
+    "Millibar",
+    "barometric pressure mbar"
+  ],
+  [
+    "Instrument",
+    "Temperature",
+    "DegreeCelsius",
+    "logger temp c avg"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "precipiation mm"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "relative humidity max"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "relative humidity min"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow1 deltatemp c mid"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow1 mid bottom temp avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow1 mid bottom temp max"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow1 mid bottom temp min"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow1 mid top temp avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow1 mid top temp max"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow1 mid top temp min"
+  ],
+  [
+    "Sap",
+    "Period",
+    "Second",
+    "sensor1 mid maxtime since endpulse sec"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow2 deltatemp c mid"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow2 mid bottom temp avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow2 mid bottom temp max"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow2 mid bottom temp min"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow2 mid top temp avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow2 mid top temp max"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow2 mid top temp min"
+  ],
+  [
+    "Sap",
+    "Period",
+    "Second",
+    "sensor2 mid maxtime since endpulse sec"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow3 deltatemp c mid"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow3 mid bottom temp avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow3 mid bottom temp max"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow3 mid bottom temp min"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow3 mid top temp avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow3 mid top temp max"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow3 mid top temp min"
+  ],
+  [
+    "Sap",
+    "Period",
+    "Second",
+    "sensor3 mid maxtime since endpulse sec"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow4 deltatemp c mid"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow4 mid bottom temp avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow4 mid bottom temp max"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow4 mid bottom temp min"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow4 mid top temp avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow4 mid top temp max"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "sapflow4 mid top temp min"
+  ],
+  [
+    "Sap",
+    "Period",
+    "Second",
+    "sensor4 mid maxtime since endpulse sec"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "KilojoulePerSquareMeter",
+    "solar radiation kjoule/m2 tot"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "WattPerSquareMeter",
+    "solar radiation w/m2 avg"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "WattPerSquareMeter",
+    "solar radiation w/m2 max"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "WattPerSquareMeter",
+    "solar radiation w/m2 min"
+  ],
+  [
+    "Sap",
+    "Period",
+    "Second",
+    "sapflow timestamp begin sequence"
+  ],
+  [
+    "Air",
+    "Direction",
+    "DegreeAngle",
+    "wind direction deg"
+  ],
+  [
+    "Air",
+    "Speed",
+    "MeterPerSecond",
+    "wind speed ms avg"
+  ],
+  [
+    "Air",
+    "Speed",
+    "MeterPerSecond",
+    "wind speed ms max"
+  ],
+  [
+    "Air",
+    "Speed",
+    "MeterPerSecond",
+    "wind speed ms min"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S10.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S10.10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S10.20"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S10.30"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S10.40"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S10.50"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S10.60"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S10.70"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S10.80"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S10.90"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S11.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S11.10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S11.20"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S11.30"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S11.40"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S11.50"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S11.60"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S11.70"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S11.80"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S11.90"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S12.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S1RR_1"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S1RR_2"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S1RR_3"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S20.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S20.10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S20.20"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S20.30"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S20.40"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S20.50"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S20.60"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S20.70"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S20.80"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S20.90"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S21.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S21.10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S21.20"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S21.30"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S21.40"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S21.50"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S21.60"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S21.70"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S21.80"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S21.90"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S22.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S2RR_1"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S2RR_2"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L1S2RR_3"
+  ],
+  [
+    "Instrument",
+    "Temperature",
+    "DegreeCelsius",
+    "Logger Temp"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1S1_0.29"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1S1_0.84"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1S1_1.30"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1S1_1.84"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1S2_0.15"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1S2_0.65"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1S2_1.18"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1S3_0.25"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1S3_0.72"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1S3_1.25"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1S3_1.84"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1S4_0.25"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1S4_0.85"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1S4_1.35"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1S4_1.85"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1T1_0.05"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1T1_0.10"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1T1_0.15"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1T1_0.20"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1T1_0.25"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1T1_0.30"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1T1_0.40"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1T1_0.50"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1T2_0.05"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1T2_0.10"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1T2_0.15"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1T2_0.20"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1T2_0.30"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1T2_0.40"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1T2_0.50"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L1T2_0.60"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1S1_0.29"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1S1_0.84"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1S1_1.30"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1S1_1.84"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1S2_0.15"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1S2_0.65"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1S2_1.18"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1S3_0.25"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1S3_0.72"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1S3_1.25"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1S3_1.84"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1S4_0.25"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1S4_0.85"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1S4_1.35"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1S4_1.85"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1T1_0.05"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1T1_0.10"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1T1_0.15"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1T1_0.20"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1T1_0.25"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1T1_0.30"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1T1_0.40"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1T1_0.50"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1T2_0.05"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1T2_0.10"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1T2_0.15"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1T2_0.20"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1T2_0.30"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1T2_0.40"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1T2_0.50"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L1T2_0.60"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air Relative Humidity"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Elder Gage Height L1_2 m"
+  ],
+  [
+    "Instrument",
+    "Temperature",
+    "DegreeCelsius",
+    "Logger Temp"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall mm RG1"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millivolt",
+    "River Height"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP100 1a Flatop Tree"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP100 1b FlatTop Tree"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP100 1c FlatTop Tree"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP100 2a Flatop Tree"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP100 2b FlatTop Tree"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP100 2c FlatTop Tree"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP100 3a Flatop Tree"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP100 3b FlatTop Tree"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP100 3c FlatTop Tree"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP100 4a Flatop Tree"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP100 4b FlatTop Tree"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP100 4c FlatTop Tree"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L1SM_1"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L1SM_2"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L1SM_3"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L1SM_4"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L1SM_5"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L1SM_6"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L1SM_7"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L1SM_8"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L1SM_9"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L1ST_0.00"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L1ST_0.05"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L1ST_0.10"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L1ST_0.15"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L1ST_0.20"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L1ST_0.30"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L1ST_0.40"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L1ST_0.50"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millivolt",
+    "Well 1 Pressure mV Old"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "PoundForcePerSquareInch",
+    "Well 1 Pressure psi"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 1 Water Level Manual m"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 1 Water Level m Old"
+  ],
+  [
+    "Water",
+    "Temperature",
+    "DegreeCelsius",
+    "Well 1 Water Temp C"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 1 WaterLevel m"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "PoundForcePerSquareInch",
+    "Well 12 Pressure psi"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 12 Water Level Manual m"
+  ],
+  [
+    "Water",
+    "Temperature",
+    "DegreeCelsius",
+    "Well 12 Water Temp C"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 12 WaterLevel m"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S10.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S10.10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S10.20"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S10.30"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S10.40"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S10.50"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S10.60"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S10.70"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S10.80"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S10.90"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S11.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S11.10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S11.20"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S1RR_1"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S1RR_2"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S1RR_3"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S1b0.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S1b0.10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S1b0.20"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S1b0.30"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S1b0.40"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S1b0.50"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S1b0.60"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S1b0.70"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S20.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S20.10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S20.20"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S20.30"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S20.40"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S20.50"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S20.60"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S20.70"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S20.80"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S20.90"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S21.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S21.10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S21.20"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S2RR_1"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S2RR_2"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S2RR_3"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S2b0.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S2b0.10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S2b0.20"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S2b0.30"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S2b0.40"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S2b0.50"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S2b0.60"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S2b0.70"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S30.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S30.10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S30.20"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S30.30"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S30.40"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S30.50"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S30.60"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S30.70"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S30.80"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S30.90"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S31.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S31.10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S31.20"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S31.30"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S31.40"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S31.50"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S3RR_1"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S3RR_2"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S3RR_3"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S3b0.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S3b0.10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S3b0.20"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S3b0.30"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L2S3b0.40"
+  ],
+  [
+    "Instrument",
+    "Temperature",
+    "DegreeCelsius",
+    "Logger Temp"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2S1_0.33"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2S1_0.81"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2S1_1.32"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2S1_1.84"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2S2_0.29"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2S2_0.84"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2S2_1.34"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2S3_0.00"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2S3_0.25"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2S3_0.70"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2S3_1.18"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2S3_1.70"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2S4_0.25"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2S4_0.85"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2T1_0.05"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2T1_0.10"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2T1_0.15"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2T1_0.20"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2T1_0.30"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2T1_0.40"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2T1_0.55"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2T1_0.70"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2T2_0.05"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2T2_0.10"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2T2_0.15"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2T2_0.20"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2T2_0.30"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2T2_0.45"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2T2_0.60"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L2T2_0.75"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2S1_0.33"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2S1_0.81"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2S1_1.32"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2S1_1.84"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2S2_0.29"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2S2_0.84"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2S2_1.34"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2S3_0.00"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2S3_0.25"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2S3_0.70"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2S3_1.18"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2S3_1.70"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2S4_0.25"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2S4_0.85"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2T1_0.05"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2T1_0.10"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2T1_0.15"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2T1_0.20"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2T1_0.30"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2T1_0.40"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2T1_0.55"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2T1_0.70"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2T2_0.05"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2T2_0.10"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2T2_0.15"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2T2_0.20"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2T2_0.30"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2T2_0.45"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2T2_0.60"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L2T2_0.75"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air Relative Humidity"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp"
+  ],
+  [
+    "Air",
+    "BarometricPressure",
+    "Millibar",
+    "BP Riv 2_2"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage"
+  ],
+  [
+    "Instrument",
+    "Temperature",
+    "DegreeCelsius",
+    "Logger Temp"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall Cumulative mm TB4"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall mm RG2"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall mm RG3"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall mm TB4"
+  ],
+  [
+    "Instrument",
+    "Voltage",
+    "Volt",
+    "Sap Flow Heater Voltage Regulator 1 Min"
+  ],
+  [
+    "Instrument",
+    "Voltage",
+    "Volt",
+    "Sap Flow Heater Voltage Regulator 2 Min"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L2SM_1"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L2SM_10"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L2SM_11"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L2SM_2"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L2SM_3"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L2SM_4"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L2SM_5"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L2SM_6"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L2SM_7"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L2SM_8"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L2SM_9"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L2ST2_0.00"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L2ST2_0.15"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L2ST2_0.30"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L2ST2_0.60"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L2ST2_0.90"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L2ST2_1.20"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L2ST2_1.50"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L2ST2_1.80"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L2ST2_2.10"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L2ST2_2.40"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L2ST2_2.70"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L2ST2_Blank"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L2ST_0.00"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L2ST_0.05"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L2ST_0.10"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L2ST_0.15"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L2ST_0.20"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L2ST_0.30"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L2ST_0.40"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L2ST_0.50"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millivolt",
+    "Well 2 Pressure mV Old"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "PoundForcePerSquareInch",
+    "Well 2 Pressure psi"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 2 Water Level Manual m"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 2 Water Level m Old"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 2 Water Level m"
+  ],
+  [
+    "Water",
+    "Temperature",
+    "DegreeCelsius",
+    "Well 2 Water Temp C"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millivolt",
+    "Well 3 Pressure mV Old"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "PoundForcePerSquareInch",
+    "Well 3 Pressure psi"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 3 Water Level Manual m"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 3 Water Level m Old"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 3 Water Level m"
+  ],
+  [
+    "Water",
+    "Temperature",
+    "DegreeCelsius",
+    "Well 3 Water Temp C"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp C"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage Riv2_3"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 1a diff Temp C Avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 1b diff Temp C Avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 2a diff Temp C Avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 2b diff Temp C Avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 3a diff Temp C Avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 3b diff Temp C Avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 4a diff Temp C Avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 4b diff Temp C Avg"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "PoundForcePerSquareInch",
+    "Well 13 Pressure psi"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 13 Water Level Manual m"
+  ],
+  [
+    "Water",
+    "Temperature",
+    "DegreeCelsius",
+    "Well 13 Water Temp C"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 13 WaterLevel m"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "PoundForcePerSquareInch",
+    "Well 14 Pressure psi"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 14 Water Level Manual m"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 14 Water Level m"
+  ],
+  [
+    "Water",
+    "Temperature",
+    "DegreeCelsius",
+    "Well 14 Water Temp C"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S10.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S10.10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S10.20"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S10.30"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S10.40"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S10.50"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S10.60"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S10.70"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S10.80"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S10.90"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S11.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S11.10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S11.20"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S11.30"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S11.40"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S11.50"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S11.60"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S11.70"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S11.80"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S1RR_00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S1RR_01"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S1RR_1"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S1RR_2"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S1RR_3"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S20.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S20.10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S20.20"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S20.30"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S20.40"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S20.50"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S20.60"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S20.70"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S20.80"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S20.90"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S21.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S21.10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S21.20"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S21.30"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S21.40"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S21.50"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S21.60"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S21.70"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S21.80"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S21.90"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S22.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S2RR_1"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S2RR_2"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S2RR_3"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S30.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S30.10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S30.20"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S30.30"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S30.40"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S30.50"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S30.60"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S30.70"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S30.80"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S30.90"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S31.00"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S31.10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S31.20"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S31.30"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S31.40"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S31.50"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S31.60"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S31.70"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S3RR_1"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S3RR_2"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S3RR_3"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S3b0.10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S3b0.20"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Kiloohm",
+    "ERP L3S3b0.30"
+  ],
+  [
+    "Instrument",
+    "Temperature",
+    "DegreeCelsius",
+    "Logger Temp"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3S1_0.33"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3S1_0.79"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3S1_1.30"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3S1_1.82"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3S2_0.27"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3S2_0.74"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3S2_1.20"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3S2_1.67"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3S2_2.29"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3S3_0.30"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3S3_0.88"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3S3_1.37"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3S3_1.85"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3S4_0.70"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3S4_1.30"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3T1_0.05"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3T1_0.10"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3T1_0.15"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3T1_0.20"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3T1_0.30"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3T1_0.40"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3T1_0.55"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3T1_0.70"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3T2_0.05"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3T2_0.10"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3T2_0.15"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3T2_0.20"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3T2_0.30"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3T2_0.40"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3T2_0.50"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture L3T2_0.65"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3S1_0.33"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3S1_0.79"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3S1_1.30"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3S1_1.82"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3S2_0.27"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3S2_0.74"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3S2_1.20"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3S2_1.67"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3S2_2.29"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3S3_0.30"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3S3_0.88"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3S3_1.37"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3S3_1.85"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3S4_0.70"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3S4_1.30"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3T1_0.05"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3T1_0.10"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3T1_0.15"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3T1_0.20"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3T1_0.30"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3T1_0.40"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3T1_0.55"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3T1_0.70"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3T2_0.05"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3T2_0.10"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3T2_0.15"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3T2_0.20"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3T2_0.30"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3T2_0.40"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3T2_0.50"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR L3T2_0.65"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air Relative Humidity"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage"
+  ],
+  [
+    "Instrument",
+    "Temperature",
+    "DegreeCelsius",
+    "Logger Temp"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall Cumulative mm TB4"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall mm RG4"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall mm TB4"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 1a L3-2 diff Temp C Avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 1b L3-2 diff Temp C Avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 2a L3-2 diff Temp C Avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 2b L3-2 diff Temp C Avg"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L3SM_1"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L3SM_10"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L3SM_2"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L3SM_3"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L3SM_4"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L3SM_5"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L3SM_6"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L3SM_7"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L3SM_8"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Millivolt",
+    "Soil Moisture L3SM_9"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3ST2_0.0"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3ST2_0.15"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3ST2_0.30"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3ST2_0.60"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3ST2_0.90"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3ST2_1.20"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3ST2_1.50"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3ST2_1.80"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3ST2_2.10"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3ST2_2.38"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3ST_0.05"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3ST_0.10"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3ST_0.15"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3ST_0.20"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3ST_0.25"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3ST_0.30"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3ST_0.45"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3ST_0.60"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3ST_0.75"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3ST_0.90"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3ST_1.05"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3WT_0.00"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3WT_11.50"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3WT_2.50"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3WT_5.50"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp L3WT_8.50"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millivolt",
+    "Well 10 Pressure mV Old"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "PoundForcePerSquareInch",
+    "Well 10 Pressure psi"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 10 Water Level Manual m"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 10 Water Level m Old"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 10 Water Level m"
+  ],
+  [
+    "Water",
+    "Temperature",
+    "DegreeCelsius",
+    "Well 10 Water Temp C"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage Min"
+  ],
+  [
+    "Instrument",
+    "Temperature",
+    "DegreeCelsius",
+    "Logger Temp C"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 1a C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 1b C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 2a C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 2b C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 3a C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 3b C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 4a C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 4b C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 5a C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 5b C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 6a C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 6b C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 7a C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 7b C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 8a C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 8b C avg"
+  ],
+  [
+    "Sap",
+    "Voltage",
+    "Millivolt",
+    "Sap Flow TDP Heater Voltage 1 min"
+  ],
+  [
+    "Sap",
+    "Voltage",
+    "Millivolt",
+    "Sap Flow TDP Heater Voltage 2 min"
+  ],
+  [
+    "Air",
+    "BarometricPressure",
+    "Millibar",
+    "BP Riv 4_1"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage"
+  ],
+  [
+    "Instrument",
+    "Temperature",
+    "DegreeCelsius",
+    "Logger Temp"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture MudS_Drilled"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture MudS_Horizontal"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture MudS_Rock_BF"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture MudS_Silica_BF"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture SandS_Drilled"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture SandS_Pushed"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture SandS_Rock_BF"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture SandS_Silica"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR MudS_Drilled"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR MudS_Horizontal"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR MudS_Rock_BF"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR MudS_Silica_BF"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR SandS_Drilled"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR SandS_Pushed"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR SandS_Rock_BF"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "TDR SandS_Silica"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millivolt",
+    "Well 5 Pressure mV Old"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "PoundForcePerSquareInch",
+    "Well 5 Pressure psi"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 5 Water Level Manual m"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 5 Water Level m Old"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 5 Water Level m"
+  ],
+  [
+    "Water",
+    "Temperature",
+    "DegreeCelsius",
+    "Well 5 Water Temp C"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millivolt",
+    "Well 6 Pressure mV Old"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "PoundForcePerSquareInch",
+    "Well 6 Pressure psi"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 6 Water Level Manual m"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 6 Water Level m old"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 6 Water Level m"
+  ],
+  [
+    "Water",
+    "Temperature",
+    "DegreeCelsius",
+    "Well 6 Water Temp C"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millivolt",
+    "Well 7 Pressure mV Old"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "PoundForcePerSquareInch",
+    "Well 7 Pressure psi"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 7 Water Level Manual m"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 7 Water Level m old"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 7 Water Level m"
+  ],
+  [
+    "Water",
+    "Temperature",
+    "DegreeCelsius",
+    "Well 7 Water Temp C"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp C"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage Riv5_1"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "DecisiemenPerMeter",
+    "Elec Conductivity CS100"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "DecisiemenPerMeter",
+    "Elec Conductivity CS138"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "DecisiemenPerMeter",
+    "Elec Conductivity CS15"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "DecisiemenPerMeter",
+    "Elec Conductivity CS35"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "DecisiemenPerMeter",
+    "Elec Conductivity CS70"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall Cumulative mm TB4"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall mm TB4"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 1a diff Temp C Avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 1b diff Temp C Avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 2a diff Temp C Avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 2b diff Temp C Avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 3a diff Temp C Avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 3b diff Temp C Avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 4a diff Temp C Avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 4b diff Temp C Avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 5a diff Temp C Avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 5b diff Temp C Avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 6a diff Temp C Avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Flow TDP80 6b diff Temp C Avg"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture CS100"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture CS138"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture CS15"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture CS35"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture CS70"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp CS100"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp CS138"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp CS15"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp CS35"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp CS70"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "WattPerSquareMeter",
+    "Total Solar Radiation W Max"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "WattPerSquareMeter",
+    "Total Solar Radiation W Mean"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "KilojoulePerSquareMeter",
+    "Total Solar Radiation kJ"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "PoundForcePerSquareInch",
+    "Well 15 Pressure psi"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 15 Water Level Manual m"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 15 Water Level m"
+  ],
+  [
+    "Water",
+    "Temperature",
+    "DegreeCelsius",
+    "Well 15 Water Temp C"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "PoundForcePerSquareInch",
+    "Well 16 Pressure psi"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 16 Water Level Manual m"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 16 Water Level m"
+  ],
+  [
+    "Water",
+    "Temperature",
+    "DegreeCelsius",
+    "Well 16 Water Temp C"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temperature airtc1"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temperature airtc10"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temperature airtc10avg"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temperature airtc1avg"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temperature airtc2"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temperature airtc2avg"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temperature airtc3"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temperature airtc3avg"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temperature airtc4"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temperature airtc4avg"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temperature airtc5"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temperature airtc5avg"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temperature airtc6"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temperature airtc6avg"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temperature airtc7"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temperature airtc7avg"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temperature airtc8"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temperature airtc8avg"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temperature airtc9"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temperature airtc9avg"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temperature C Avg"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage battvmin"
+  ],
+  [
+    "Air",
+    "BarometricPressure",
+    "MillimeterOfMercury",
+    "Barometric Pressure mmHg Avg"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec10"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec10avg"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec11"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec11avg"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec12"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec12avg"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec13"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec13avg"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec14"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec14avg"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec15"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec15avg"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec16"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec16avg"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec2"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec2avg"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec3"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec3avg"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec4"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec4avg"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec5"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec5avg"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec6"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec6avg"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec7"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec7avg"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec8"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec8avg"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec9"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ec9avg"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "Soil ElectricalConductivity ecavg"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "WS1 Soil Moisture Electrical Conductivity Avg"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "WS2 Soil Moisture Electrical Conductivity Avg"
+  ],
+  [
+    "Soil",
+    "ElectricalConductivity",
+    "DecisiemenPerMeter",
+    "WS3 Soil Moisture Electrical Conductivity Avg"
+  ],
+  [
+    "Leaf",
+    "Moisture",
+    "MinuteTime",
+    "Leaf Wetness Wet or Contaminated Minutes"
+  ],
+  [
+    "Leaf",
+    "Moisture",
+    "MinuteTime",
+    "Leaf Wetness Minutes Dry"
+  ],
+  [
+    "Leaf",
+    "Moisture",
+    "Millivolt",
+    "Leaf Wetness mV"
+  ],
+  [
+    "Leaf",
+    "Moisture",
+    "MinuteTime",
+    "Leaf Wetness Minutes Wet"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p10"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p10avg"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p11"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p11avg"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p12"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p12avg"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p13"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p13avg"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p14"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p14avg"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p15"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p15avg"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p16"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p16avg"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p2"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p2avg"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p3"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p3avg"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p4"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p4avg"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p5"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p5avg"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p6"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p6avg"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p7"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p7avg"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p8"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p8avg"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p9"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity p9avg"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "Soil Permittivity pavg"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "WS1 Soil Moisture Permittivity Avg"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "WS2 Soil Moisture Permittivity Avg"
+  ],
+  [
+    "Soil",
+    "Permittivity",
+    "Dimensionless",
+    "WS3 Soil Moisture Permittivity Avg"
+  ],
+  [
+    "Soil",
+    "Period",
+    "Microsecond",
+    "WS1 Soil Moisture Period Average"
+  ],
+  [
+    "Soil",
+    "Period",
+    "Microsecond",
+    "WS2 Soil Moisture Period Average"
+  ],
+  [
+    "Soil",
+    "Period",
+    "Microsecond",
+    "WS3 Soil Moisture Period Average"
+  ],
+  [
+    "Solar",
+    "PhotosyntheticallyActiveRadiation",
+    "MicromolePerSquareMeter",
+    "PAR Fux Density Avg"
+  ],
+  [
+    "Solar",
+    "PhotosyntheticallyActiveRadiation",
+    "MicromolePerSquareMeter",
+    "PAR Total Flux"
+  ],
+  [
+    "Instrument",
+    "Temperature",
+    "DegreeCelsius",
+    "Panel Temperature C Avg"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Precipitation mm"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air RelativeHumidity rh1"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air RelativeHumidity rh10"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air RelativeHumidity rh10avg"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air RelativeHumidity rh1avg"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air RelativeHumidity rh2"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air RelativeHumidity rh2avg"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air RelativeHumidity rh3"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air RelativeHumidity rh3avg"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air RelativeHumidity rh4"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air RelativeHumidity rh4avg"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air RelativeHumidity rh5"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air RelativeHumidity rh5avg"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air RelativeHumidity rh6"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air RelativeHumidity rh6avg"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air RelativeHumidity rh7"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air RelativeHumidity rh7avg"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air RelativeHumidity rh8"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air RelativeHumidity rh8avg"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air RelativeHumidity rh9"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air RelativeHumidity rh9avg"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Relative Humidity Perc"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t10"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t10avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t11"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t11avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t12"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t12avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t13"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t13avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t14"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t14avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t15"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t15avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t16"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t16avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t2"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t2avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t3"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t3avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t4"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t4avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t5"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t5avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t6"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t6avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t7"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t7avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t8"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t8avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t9"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature t9avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temperature tavg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "WS1 Soil Temp Avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "WS2 Soil Temp Avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "WS3 Soil Temp Avg"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Dimensionless",
+    "WS1 Soil Moisture Voltage Ratio Avg"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Dimensionless",
+    "WS2 Soil Moisture Voltage Ratio Avg"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Dimensionless",
+    "WS2 Soil Moisture Voltage Ratio Avg"
+  ],
+  [
+    "Soil",
+    "VolumetricWaterContent",
+    "Percent",
+    "WS1 Soil Moisture VWC Avg"
+  ],
+  [
+    "Soil",
+    "VolumetricWaterContent",
+    "Percent",
+    "WS2 Soil Moisture VWC Avg"
+  ],
+  [
+    "Soil",
+    "VolumetricWaterContent",
+    "Percent",
+    "WS3 Soil Moisture VWC Avg"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage Min"
+  ],
+  [
+    "Instrument",
+    "Temperature",
+    "DegreeCelsius",
+    "Logger Temp C"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 1a C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 1b C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 2a C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 2b C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 3a C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 3b C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 4a C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 4b C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 5a C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 5b C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 6a C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 6b C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 7a C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 7b C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 8a C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 8b C avg"
+  ],
+  [
+    "Sap",
+    "Voltage",
+    "Millivolt",
+    "Sap Flow TDP Heater Voltage 1 avg"
+  ],
+  [
+    "Sap",
+    "Voltage",
+    "Millivolt",
+    "Sap Flow TDP Heater Voltage 1 min"
+  ],
+  [
+    "Sap",
+    "Voltage",
+    "Millivolt",
+    "Sap Flow TDP Heater Voltage 2 avg"
+  ],
+  [
+    "Sap",
+    "Voltage",
+    "Millivolt",
+    "Sap Flow TDP Heater Voltage 2 min"
+  ],
+  [
+    "Instrument",
+    "Temperature",
+    "DegreeCelsius",
+    "Logger Temp C"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP100 1a C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP100 1b C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP100 1c C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP100 2a C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP100 2b C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP100 2c C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP100 3a C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP100 3b C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP100 3c C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP100 4a C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP100 4b C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP100 4c C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 5a C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 5b C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 6a C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 6b C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 7a C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 7b C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 8a C avg"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 8b C avg"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage Min"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage min"
+  ],
+  [
+    "Instrument",
+    "Temperature",
+    "DegreeCelsius",
+    "Logger Temp C"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 1a C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 1b C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 2a C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 2b C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 3a C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 3b C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 4a C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 4b C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 5a C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 5b C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 6a C avg"
+  ],
+  [
+    "Sap",
+    "Temperature",
+    "DegreeCelsius",
+    "Sap Temperature Difference TDP80 6b C avg"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp"
+  ],
+  [
+    "Air",
+    "BarometricPressure",
+    "Millibar",
+    "BP"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage"
+  ],
+  [
+    "Leaf",
+    "Moisture",
+    "MinuteTime",
+    "Leaf Wetness LWMCon"
+  ],
+  [
+    "Leaf",
+    "Moisture",
+    "MinuteTime",
+    "Leaf Wetness LWMDry"
+  ],
+  [
+    "Leaf",
+    "Moisture",
+    "MinuteTime",
+    "Leaf Wetness LWMWet"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "Leaf Wetness mV"
+  ],
+  [
+    "Instrument",
+    "Temperature",
+    "DegreeCelsius",
+    "Logger Temp"
+  ],
+  [
+    "Solar",
+    "PhotosyntheticallyActiveRadiation",
+    "MicromolePerSquareMeter",
+    "PAR mmol Tot"
+  ],
+  [
+    "Solar",
+    "PhotosyntheticallyActiveRadiation",
+    "MicromolePerSquareMeter",
+    "PAR umol Avg"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall Cumulative mm"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall mm TB4"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Relative Humidity"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "WattPerSquareMeter",
+    "Total Solar Radiation W"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "KilojoulePerSquareMeter",
+    "Total Solar Radiation kJ"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "PoundForcePerSquareInch",
+    "Well 500 Pressure psi"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 500 Water Level Manual m"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 500 Water Level m"
+  ],
+  [
+    "Water",
+    "Temperature",
+    "DegreeCelsius",
+    "Well 500 Water Temp C"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "PoundForcePerSquareInch",
+    "Well 501 Pressure psi"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 501 Water Level Manual m"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 501 Water Level m"
+  ],
+  [
+    "Water",
+    "Temperature",
+    "DegreeCelsius",
+    "Well 501 Water Temp C"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "PoundForcePerSquareInch",
+    "Well 502 Pressure psi"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 502 Water Level Manual m"
+  ],
+  [
+    "GroundWater",
+    "Depth",
+    "Meter",
+    "Well 502 Water Level m"
+  ],
+  [
+    "Water",
+    "Temperature",
+    "DegreeCelsius",
+    "Well 502 Water Temp C"
+  ],
+  [
+    "Air",
+    "Direction",
+    "DegreeAngle",
+    "Wind Direction"
+  ],
+  [
+    "Air",
+    "Speed",
+    "MeterPerSecond",
+    "Wind Speed ms Avg"
+  ],
+  [
+    "Air",
+    "Speed",
+    "MeterPerSecond",
+    "Wind Speed ms Max"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP84006_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP84006_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP85005_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP85005_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP85006_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP85006_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP85008_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP85008_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP85010_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP85010_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86003_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86003_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86005_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86005_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86006_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86006_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86007_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86007_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86010_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86010_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86011_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86011_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86012_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86012_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86014_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86014_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86015_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86015_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86018_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86018_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86019_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86019_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86023_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86023_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86025_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86025_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86031_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86031_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87001_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87001_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87002_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87002_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87008_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87008_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87018 Deep"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87018_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87018_two Raw"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87040_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87040_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87048_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87048_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP84004_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP84004_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP84005_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP84005_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP84012_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP84012_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP85003_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP85003_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86004_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86004_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86020_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP86020_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87004_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87004_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87010_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87010_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87011_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87011_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87013_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87013_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87014_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87014_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87016_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87016_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87017_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87017_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87019_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87019_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87020_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87020_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87021_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87021_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87022_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87022_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87023_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87023_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87024_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87024_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87025_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87025_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87026_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87026_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87027_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87027_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87028_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87028_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87029_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87029_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87030_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87030_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87031_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87031_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87032_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87032_two"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87041_one"
+  ],
+  [
+    "Sap",
+    "Flux",
+    "CentimeterPerHour",
+    "Sap Flow SVP87041_two"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp 10 m height C Avg"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp 10 m height C Max"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp 10 m height C Min"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp 2 m height C Avg"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp 2 m height C Max"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp 2 m height C Min"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp Delta 10m2m C Avg"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp Delta 10m2m C Max"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp Delta 10m2m C Min"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp Avg"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp Max"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp Min"
+  ],
+  [
+    "Air",
+    "BarometricPressure",
+    "Millibar",
+    "BP Avg"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage Avg"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage Max"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage Min"
+  ],
+  [
+    "Instrument",
+    "Temperature",
+    "DegreeCelsius",
+    "Logger Temp Avg"
+  ],
+  [
+    "Solar",
+    "PhotosyntheticallyActiveRadiation",
+    "MicromolePerSquareMeter",
+    "PAR umole Avg"
+  ],
+  [
+    "Solar",
+    "PhotosyntheticallyActiveRadiation",
+    "MicromolePerSquareMeter",
+    "PAR umole Max"
+  ],
+  [
+    "Solar",
+    "PhotosyntheticallyActiveRadiation",
+    "MicromolePerSquareMeter",
+    "PAR umole Min"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Rain Gage Temperature C Avg"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall Cumulative mm"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Inch",
+    "Rainfall inches Cumulative"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Inch",
+    "Rainfall inches"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall mm"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Relative Humidity Avg"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Relative Humidity Max"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Relative Humidity Min"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "Soil Moisture 4 Period ms Avg"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture 4 inches Pct Avg"
+  ],
+  [
+    "Soil",
+    "Moisture",
+    "Percent",
+    "Soil Moisture V Pct Avg"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "Soil Moisture V Period ms Avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp 100 mm depth C Avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp 100 mm depth C Max"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp 100 mm depth C Min"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp 200 mm depth C Avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp 200 mm depth C Max"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp 200 mm depth C Min"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp 50 mm depth C Avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp 50 mm depth C Max"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp 50 mm depth C Min"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp 500 mm depth C Avg"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp 500 mm depth C Max"
+  ],
+  [
+    "Soil",
+    "Temperature",
+    "DegreeCelsius",
+    "Soil Temp 500 mm depth C Min"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "KilojoulePerSquareMeter",
+    "Total Solar Radiation kW Avg"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "KilojoulePerSquareMeter",
+    "Total Solar Radiation kW Max"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "KilojoulePerSquareMeter",
+    "Total Solar Radiation kW Min"
+  ],
+  [
+    "Solar",
+    "Radiation",
+    "KilojoulePerSquareMeter",
+    "Total Solar Radiation kW Std"
+  ],
+  [
+    "Air",
+    "Direction",
+    "DegreeAngle",
+    "Wind Direction Avg"
+  ],
+  [
+    "Air",
+    "Direction",
+    "DegreeAngle",
+    "Wind Direction Stdev"
+  ],
+  [
+    "Air",
+    "Speed",
+    "MilePerHour",
+    "Wind Speed mph Avg vectored"
+  ],
+  [
+    "Air",
+    "Speed",
+    "MilePerHour",
+    "Wind Speed mph Avg"
+  ],
+  [
+    "Air",
+    "Speed",
+    "MilePerHour",
+    "Wind Speed mph Max"
+  ],
+  [
+    "Air",
+    "Speed",
+    "MilePerHour",
+    "Wind Speed mph Min"
+  ],
+  [
+    "Air",
+    "Speed",
+    "MilePerHour",
+    "Wind Speed mph Stdev"
+  ],
+  [
+    "Air",
+    "RelativeHumidity",
+    "Percent",
+    "Air Relative Humidity"
+  ],
+  [
+    "Air",
+    "Temperature",
+    "DegreeCelsius",
+    "Air Temp"
+  ],
+  [
+    "Air",
+    "BarometricPressure",
+    "Millibar",
+    "BP Treebeard"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage"
+  ],
+  [
+    "Snow",
+    "Height",
+    "Millimeter",
+    "Hail cumulative"
+  ],
+  [
+    "Snow",
+    "Height",
+    "MillimeterPerHour",
+    "Hail intensity"
+  ],
+  [
+    "Instrument",
+    "Temperature",
+    "DegreeCelsius",
+    "Logger Temp"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "Millimeter",
+    "Rainfall cumulative mm"
+  ],
+  [
+    "Water",
+    "Precipitation",
+    "MillimeterPerHour",
+    "Rainfall intensity mm_h"
+  ],
+  [
+    "Air",
+    "Direction",
+    "DegreeAngle",
+    "Wind Direction"
+  ],
+  [
+    "Air",
+    "Speed",
+    "MeterPerSecond",
+    "Wind Speed"
+  ],
+  [
+    "Battery",
+    "Voltage",
+    "Volt",
+    "Battery Voltage VMS min"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millibar",
+    "FNS Water Pressure B1"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millibar",
+    "FNS Water Pressure B10"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millibar",
+    "FNS Water Pressure B2"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millibar",
+    "FNS Water Pressure B3"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millibar",
+    "FNS Water Pressure B4"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millibar",
+    "FNS Water Pressure B5"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millibar",
+    "FNS Water Pressure B6"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millibar",
+    "FNS Water Pressure B7"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millibar",
+    "FNS Water Pressure B8"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millibar",
+    "FNS Water Pressure B9"
+  ],
+  [
+    "Instrument",
+    "Temperature",
+    "DegreeCelsius",
+    "Logger Temp VMS"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "Permitivity no calib A1"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "Permitivity no calib A10"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "Permitivity no calib A2"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "Permitivity no calib A3"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "Permitivity no calib A4"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "Permitivity no calib A5"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "Permitivity no calib A6"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "Permitivity no calib A7"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "Permitivity no calib A8"
+  ],
+  [
+    "Rock",
+    "DielectricStrength",
+    "Dimensionless",
+    "Permitivity no calib A9"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Percent",
+    "Rock Moisture A1"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Percent",
+    "Rock Moisture A10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Percent",
+    "Rock Moisture A2"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Percent",
+    "Rock Moisture A3"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Percent",
+    "Rock Moisture A4"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Percent",
+    "Rock Moisture A5"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Percent",
+    "Rock Moisture A6"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Percent",
+    "Rock Moisture A7"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Percent",
+    "Rock Moisture A8"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Percent",
+    "Rock Moisture A9"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Percent",
+    "Rock Moisture no calib A1"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Percent",
+    "Rock Moisture no calib A10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Percent",
+    "Rock Moisture no calib A2"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Percent",
+    "Rock Moisture no calib A3"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Percent",
+    "Rock Moisture no calib A4"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Percent",
+    "Rock Moisture no calib A5"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Percent",
+    "Rock Moisture no calib A6"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Percent",
+    "Rock Moisture no calib A7"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Percent",
+    "Rock Moisture no calib A8"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "Percent",
+    "Rock Moisture no calib A9"
+  ],
+  [
+    "Rock",
+    "Temperature",
+    "DegreeCelsius",
+    "Rock Temp C A1"
+  ],
+  [
+    "Rock",
+    "Temperature",
+    "DegreeCelsius",
+    "Rock Temp C A10"
+  ],
+  [
+    "Rock",
+    "Temperature",
+    "DegreeCelsius",
+    "Rock Temp C A2"
+  ],
+  [
+    "Rock",
+    "Temperature",
+    "DegreeCelsius",
+    "Rock Temp C A3"
+  ],
+  [
+    "Rock",
+    "Temperature",
+    "DegreeCelsius",
+    "Rock Temp C A4"
+  ],
+  [
+    "Rock",
+    "Temperature",
+    "DegreeCelsius",
+    "Rock Temp C A5"
+  ],
+  [
+    "Rock",
+    "Temperature",
+    "DegreeCelsius",
+    "Rock Temp C A6"
+  ],
+  [
+    "Rock",
+    "Temperature",
+    "DegreeCelsius",
+    "Rock Temp C A7"
+  ],
+  [
+    "Rock",
+    "Temperature",
+    "DegreeCelsius",
+    "Rock Temp C A8"
+  ],
+  [
+    "Rock",
+    "Temperature",
+    "DegreeCelsius",
+    "Rock Temp C A9"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "DecisiemenPerMeter",
+    "Sleeve Elec Conductivity A1"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "DecisiemenPerMeter",
+    "Sleeve Elec Conductivity A10"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "DecisiemenPerMeter",
+    "Sleeve Elec Conductivity A2"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "DecisiemenPerMeter",
+    "Sleeve Elec Conductivity A3"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "DecisiemenPerMeter",
+    "Sleeve Elec Conductivity A4"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "DecisiemenPerMeter",
+    "Sleeve Elec Conductivity A5"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "DecisiemenPerMeter",
+    "Sleeve Elec Conductivity A6"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "DecisiemenPerMeter",
+    "Sleeve Elec Conductivity A7"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "DecisiemenPerMeter",
+    "Sleeve Elec Conductivity A8"
+  ],
+  [
+    "Rock",
+    "Moisture",
+    "DecisiemenPerMeter",
+    "Sleeve Elec Conductivity A9"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millibar",
+    "VSP Water Pressure A1"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millibar",
+    "VSP Water Pressure A10"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millibar",
+    "VSP Water Pressure A2"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millibar",
+    "VSP Water Pressure A3"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millibar",
+    "VSP Water Pressure A4"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millibar",
+    "VSP Water Pressure A5"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millibar",
+    "VSP Water Pressure A6"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millibar",
+    "VSP Water Pressure A7"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millibar",
+    "VSP Water Pressure A8"
+  ],
+  [
+    "Water",
+    "Pressure",
+    "Millibar",
+    "VSP Water Pressure A9"
+  ]
+]

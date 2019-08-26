@@ -21,6 +21,12 @@
       "path": "/influx/select"
     }
   ],
+  "tags": [
+      "ds_Aggregate_Average",
+      "ds_Medium_Sap",
+      "ds_Variable_Temperature",
+      "dt_Unit_DegreeCelsius"
+  ],
   "terms": {
     "dt": {
       "Unit": "DegreeCelsius"

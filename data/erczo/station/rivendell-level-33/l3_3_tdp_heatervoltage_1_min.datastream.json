@@ -22,6 +22,12 @@
       "path": "/influx/select"
     }
   ],
+  "tags": [
+    "ds_Aggregate_Minimum",
+    "ds_Medium_Sap",
+    "ds_Variable_Voltage",
+    "dt_Unit_Millivolt"
+  ],
   "terms": {
     "dt": {
       "Unit": "Millivolt"

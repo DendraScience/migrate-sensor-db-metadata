@@ -224,6 +224,10 @@
       "name": "Siemen Per Meter"
     },
     {
+      "abbreviation": "s",
+      "label": "Second"
+    },
+    {
       "abbreviation": "V",
       "label": "Volt"
     },

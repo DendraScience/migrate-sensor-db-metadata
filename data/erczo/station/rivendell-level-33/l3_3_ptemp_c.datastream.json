@@ -21,6 +21,11 @@
       "path": "/influx/select"
     }
   ],
+  "tags": [
+    "ds_Medium_Instrument",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ],
   "terms": {
     "dt": {
       "Unit": "DegreeCelsius"

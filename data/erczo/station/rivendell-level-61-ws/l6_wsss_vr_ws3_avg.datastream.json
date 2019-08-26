@@ -24,7 +24,8 @@
   "tags": [
     "ds_Aggregate_Average",
     "ds_Medium_Soil",
-    "ds_Variable_Moisture"
+    "ds_Variable_Moisture",
+    "dt_Unit_Dimensionless"
   ],
   "attributes": {
     "label": "Voltage Ratio"
