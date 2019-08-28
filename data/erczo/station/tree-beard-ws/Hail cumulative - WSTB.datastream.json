@@ -1,7 +1,6 @@
 {
   "_id": "5ae87422fe27f47c591025e2",
   "description": "Cumulative hail for the season.  The WXT510 does not automatically reset, so it must be manually set to 0 at end/beginning of season.  \r\n\r\nHail is considered kinetic impacts too large to be rain.original datastream name was Hail cumulative - WSTB",
-  "enabled": false,
   "name": "Hail cumulative",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -47,94 +46,33 @@
       "type": "loggernet.station"
     }
   ],
-  "tags": [
-    "ds_Medium_Snow",
-    "ds_Variable_Height",
-    "dt_Unit_Millimeter",
-    "ds_Aggregate_Cumulative"
-  ],
-  "created_at": "2018-07-01T22:56:04.514Z",
-  "updated_at": "2018-07-03T19:02:59.550Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Snow",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Height",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "mm",
-        "label": "Millimeter",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Cumulative",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 3
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "b7db56d4fa84bb62a0bc45ed765b5c97f0b4c811"
+  "is_enabled": false,
+  "terms": {
+    "ds": {
+      "Medium": "Hail",
+      "Variable": "Height",
+      "Aggregate": "Cumulative"
     },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "3a9a1f018c8da7de52fc8458c3720eff2605d628",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "b0c7386b883ea89804e8613181308a0d15033964",
-      "scheme_id": "dt"
+    "dt": {
+      "Unit": "Millimeter"
     }
-  ],
-  "_include": []
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d66b2110322c616b44e74fe",
+  "updated_at": "2019-08-28T16:55:45.493Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:32:25.818Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "ds__Aggregate_Cumulative__Medium_Hail__Variable_Height"
+    ],
+    "class_tags": [
+      "ds_Aggregate_Cumulative",
+      "ds_Medium_Hail",
+      "ds_Variable_Height"
+    ],
+    "unit_tag": "dt_Unit_Millimeter"
+  }
 }

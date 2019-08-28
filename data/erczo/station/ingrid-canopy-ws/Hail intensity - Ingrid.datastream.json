@@ -1,6 +1,5 @@
 {
   "_id": "5ae87423fe27f4eec61025e3",
-  "enabled": false,
   "name": "Hail intensity",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -54,85 +53,32 @@
       "type": "loggernet.table"
     }
   ],
-  "tags": [
-    "ds_Medium_Snow",
-    "ds_Variable_Height",
-    "dt_Unit_MillimeterPerHour"
-  ],
-  "created_at": "2018-05-01T14:11:33.036Z",
-  "updated_at": "2019-07-03T02:14:05.759Z",
   "description": "undefinedoriginal datastream name was Hail intensity - Ingrid",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Snow",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Height",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "mm/hr",
-        "label": "MillimeterPerHour",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "dca4244aeef39e073ed53a063853a34ca68b06b6"
+  "is_enabled": false,
+  "terms": {
+    "ds": {
+      "Medium": "Hail",
+      "Variable": "Height"
     },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "49f5e07eec5a3398b7571dada3df9240af8297fc",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "f6fc7d25fab85709ba88467c96ea1e8cb321a827",
-      "scheme_id": "dt"
+    "dt": {
+      "Unit": "MillimeterPerHour"
     }
-  ],
-  "version_id": "5d1c0f6d4412b4c92f78412e",
-  "_include": []
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d66b1f91c1d9fc5d2b9f107",
+  "updated_at": "2019-08-28T16:55:21.589Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:23:45.526Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "ds__Medium_Hail__Variable_Height"
+    ],
+    "class_tags": [
+      "ds_Medium_Hail",
+      "ds_Variable_Height"
+    ],
+    "unit_tag": "dt_Unit_MillimeterPerHour"
+  }
 }

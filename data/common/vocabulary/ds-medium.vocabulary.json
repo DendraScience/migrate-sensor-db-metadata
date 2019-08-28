@@ -14,6 +14,9 @@
       "name": "Ground Water"
     },
     {
+      "label": "Hail"
+    },
+    {
       "label": "Instrument"
     },
     {
@@ -64,8 +67,8 @@
   "is_enabled": true,
   "vocabulary_type": "class",
   "is_hidden": false,
-  "version_id": "5d5ded4c1c1d9f7d57b9f0e6",
-  "updated_at": "2019-08-22T01:18:04.197Z",
+  "version_id": "5d66b1ae1c1d9f7878b9f105",
+  "updated_at": "2019-08-28T16:54:06.599Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:22:11.483Z",
   "created_by": "5cdd9abda6fa68f95479675b"

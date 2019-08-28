@@ -1,0 +1,143 @@
+{
+  "_id": "dq-measurement",
+  "label": "Measurement",
+  "scheme_id": "dq",
+  "terms": [
+    {
+      "label": "BarometricPressure",
+      "name": "Barometric Pressure"
+    },
+    {
+      "label": "WindDirection",
+      "name": "Wind Direction"
+    },
+    {
+      "label": "RelativeHumidity",
+      "name": "Relative Humidity"
+    },
+    {
+      "label": "WindSpeed",
+      "name": "Wind Speed"
+    },
+    {
+      "label": "AirTemperature",
+      "name": "Air Temperature"
+    },
+    {
+      "label": "BatteryVoltage",
+      "name": "Battery Voltage"
+    },
+    {
+      "label": "WellDepth",
+      "name": "Well Depth"
+    },
+    {
+      "label": "InstrumentTemperature",
+      "name": "Instrument Temperature"
+    },
+    {
+      "label": "InstrumentVoltage",
+      "name": "Instrument Voltage"
+    },
+    {
+      "label": "LeafWetness",
+      "name": "Leaf Wetness"
+    },
+    {
+      "label": "Permittivity",
+      "name": "Permittivity"
+    },
+    {
+      "label": "RockMoisture",
+      "name": "Rock Moisture"
+    },
+    {
+      "label": "RockTemperature",
+      "name": "Rock Temperature"
+    },
+    {
+      "label": "SapFlow",
+      "name": "Sap Flow"
+    },
+    {
+      "label": "SapFlowPeriod",
+      "name": "Sap Flow Period"
+    },
+    {
+      "label": "SapFlowTemperature",
+      "name": "Sap Flow Temperature"
+    },
+    {
+      "label": "SapFlowHeaterVoltage",
+      "name": "Sap Flow Heater Voltage"
+    },
+    {
+      "label": "Snowfall",
+      "name": "Snowfall"
+    },
+    {
+      "label": "ElectricalConductivity",
+      "name": "Electrical Conductivity"
+    },
+    {
+      "label": "SoilMoisture",
+      "name": "Soil Moisture"
+    },
+    {
+      "label": "SoilMoisturePeriod",
+      "name": "Soil Moisture Period"
+    },
+    {
+      "label": "Permittivity",
+      "name": "Permittivity"
+    },
+    {
+      "label": "SoilTemperature",
+      "name": "Soil Temperature"
+    },
+    {
+      "label": "VolumetricWaterContent",
+      "name": "Volumetric Water Content"
+    },
+    {
+      "label": "PhotosyntheticallyActiveRadiation",
+      "name": "Photosynthetically Active Radiation"
+    },
+    {
+      "label": "SolarRadiation",
+      "name": "Solar Radiation"
+    },
+    {
+      "label": "StreamStage",
+      "name": "Stream Stage"
+    },
+    {
+      "label": "Discharge",
+      "name": "Discharge"
+    },
+    {
+      "label": "Turbidity",
+      "name": "Turbidity"
+    },
+    {
+      "label": "Rainfall",
+      "name": "Rainfall"
+    },
+    {
+      "label": "WellLevel",
+      "name": "Well Level"
+    },
+    {
+      "label": "WaterTemperature",
+      "name": "Water Temperature"
+    }
+  ],
+  "is_enabled": true,
+  "vocabulary_type": "class",
+  "is_hidden": false,
+  "version_id": "5d65b2231c1d9f7f38b9f102",
+  "created_at": "2019-08-27T22:43:47.677Z",
+  "updated_at": "2019-08-27T22:43:47.677Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "updated_by": "5cdd9abda6fa68f95479675b"
+}

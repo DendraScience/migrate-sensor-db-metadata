@@ -1,0 +1,498 @@
+{
+  "_id": "dq-measurement",
+  "label": "Measurement",
+  "scheme_id": "dq",
+  "terms": [
+    {
+      "label": "AirTemperature",
+      "name": "Air Temperature",
+      "medium": "Air",
+      "variable": "Temperature"
+    },
+    {
+      "label": "BarometricPressure",
+      "name": "Barometric Pressure",
+      "medium": "Air",
+      "variable": "BarometricPressure"
+    },
+    {
+      "label": "BatteryVoltage",
+      "name": "Battery Voltage",
+      "medium": "Battery",
+      "variable": "Voltage",
+      "related_terms": {
+        "more_general": [
+          "Instrument Voltage",
+          "Status"
+        ]
+      }
+    },
+    {
+      "label": "Discharge",
+      "name": "Discharge",
+      "medium": "SurfaceWater",
+      "variable": "Discharge",
+      "related_terms": {
+        "more_specific": [
+          "Stream Flow",
+          "Base Flow",
+          "Peak Flow",
+          "Flood"
+        ]
+      }
+    },
+    {
+      "label": "ElectricalConductivity",
+      "name": "Electrical Conductivity",
+      "medium": "Soil",
+      "variable": "ElectricalConductivity",
+      "related_terms": {
+        "more_general": [
+          "Soil Moisture"
+        ],
+        "more_specific": [
+          "Permittivity",
+          "Volumetric Water Content",
+          "Period",
+          "Bulk Electrical Conductivity"
+        ]
+      }
+    },
+    {
+      "label": "Hail",
+      "name": "Hail",
+      "medium": "Hail",
+      "variable": "Height",
+      "related_terms": {
+        "more_general": [
+          "Precipitation"
+        ],
+        "more_specific": [
+          "Snow Pillow",
+          "Rainfall",
+          "Snow Depth"
+        ]
+      }
+    },
+    {
+      "label": "HailCumulative",
+      "name": "Hail Cumulative",
+      "medium": "Hail",
+      "variable": "Height",
+      "related_terms": {
+        "more_general": [
+          "Precipitation"
+        ],
+        "more_specific": [
+          "Snow Pillow",
+          "Rainfall",
+          "Snow Depth"
+        ]
+      }
+    },
+    {
+      "label": "InstrumentTemperature",
+      "name": "Instrument Temperature",
+      "medium": "Instrument",
+      "variable": "Temperature",
+      "related_terms": {
+        "more_general": [
+          "Status"
+        ],
+        "more_specific": [
+          "Panel Temperature"
+        ]
+      }
+    },
+    {
+      "label": "InstrumentVoltage",
+      "name": "Instrument Voltage",
+      "medium": "Instrument",
+      "variable": "Voltage",
+      "related_terms": {
+        "more_specific": [
+          "Battery Voltage"
+        ]
+      }
+    },
+    {
+      "label": "LeafWetness",
+      "name": "Leaf Wetness",
+      "medium": "Leaf",
+      "variable": "Moisture",
+      "related_terms": {
+        "more_specific": [
+          "Dew Point"
+        ]
+      }
+    },
+    {
+      "label": "Permittivity",
+      "name": "Permittivity",
+      "medium": "Soil",
+      "variable": "Permittivity",
+      "related_terms": {
+        "more_general": [
+          "Soil Moisture"
+        ],
+        "more_specific": [
+          "Electrical Conductivity",
+          "Volumetric Water Content",
+          "Period",
+          "Bulk Electrical Conductivity",
+          "Dielectric Strength"
+        ]
+      }
+    },
+    {
+      "label": "Permittivity",
+      "name": "Permittivity",
+      "medium": "Rock",
+      "variable": "DielectricStrength",
+      "related_terms": {
+        "more_general": [
+          "Soil Moisture"
+        ],
+        "more_specific": [
+          "Electrical Conductivity",
+          "Permittivity",
+          "Volumetric Water Content",
+          "Period"
+        ]
+      }
+    },
+    {
+      "label": "PhotosyntheticallyActiveRadiation",
+      "name": "Photosynthetically Active Radiation",
+      "medium": "Solar",
+      "variable": "PhotosyntheticallyActiveRadiation",
+      "related_terms": {
+        "more_general": [
+          "Solar Radiation"
+        ],
+        "more_specific": [
+          "PAR",
+          "Shortwave Radiation"
+        ]
+      }
+    },
+    {
+      "label": "Rainfall",
+      "name": "Rainfall",
+      "medium": "Water",
+      "variable": "Precipitation",
+      "related_terms": {
+        "more_general": [
+          "Precipitation"
+        ],
+        "more_specific": [
+          "Rain",
+          "Throughfall",
+          "TB4",
+          "Rainfall Intensity"
+        ]
+      }
+    },
+    {
+      "label": "RelativeHumidity",
+      "name": "Relative Humidity",
+      "medium": "Air",
+      "variable": "RelativeHumidity",
+      "related_terms": {
+        "more_specific": [
+          "Absolute Humidity"
+        ]
+      }
+    },
+    {
+      "label": "RockMoisture",
+      "name": "Rock Moisture",
+      "medium": "Rock",
+      "variable": "Moisture",
+      "related_terms": {
+        "more_general": [
+          "Soil Moisture"
+        ],
+        "more_specific": [
+          "Electrical Conductivity",
+          "Permittivity",
+          "Volumetric Water Content",
+          "Dielectric Strength"
+        ]
+      }
+    },
+    {
+      "label": "RockTemperature",
+      "name": "Rock Temperature",
+      "medium": "Rock",
+      "variable": "Temperature",
+      "related_terms": {
+        "more_general": [
+          "Soil Temperature"
+        ],
+        "more_specific": [
+          "Saprolite Temperature"
+        ]
+      }
+    },
+    {
+      "label": "SapFlow",
+      "name": "Sap Flow",
+      "medium": "Sap",
+      "variable": "Flux",
+      "related_terms": {
+        "more_specific": [
+          "Sap Flux",
+          "Sap Flow Period",
+          "Sap Flow Temperature",
+          "Diff",
+          "Difference",
+          "Heater Voltage"
+        ]
+      }
+    },
+    {
+      "label": "SapFlowHeaterVoltage",
+      "name": "Sap Flow Heater Voltage",
+      "medium": "Sap",
+      "variable": "Voltage",
+      "related_terms": {
+        "more_general": [
+          "Sap Flow",
+          "Status"
+        ],
+        "more_specific": [
+          "Sap Flow",
+          "Sap Flux",
+          "Sap Flow Period",
+          "Sap Flow Temperature",
+          "Diff",
+          "Differential"
+        ]
+      }
+    },
+    {
+      "label": "SapFlowPeriod",
+      "name": "Sap Flow Period",
+      "medium": "Sap",
+      "variable": "Period",
+      "related_terms": {
+        "more_general": [
+          "Sap Flow"
+        ],
+        "more_specific": [
+          "Sap Flow",
+          "Sap Flux",
+          "Sap Flow Temperature",
+          "Diff",
+          "Difference",
+          "Heater Voltage"
+        ]
+      }
+    },
+    {
+      "label": "SapFlowTemperature",
+      "name": "Sap Flow Temperature",
+      "medium": "Sap",
+      "variable": "Temperature",
+      "related_terms": {
+        "more_general": [
+          "Sap Flow"
+        ],
+        "more_specific": [
+          "Sap Flow",
+          "Sap Flux",
+          "Sap Flow Period",
+          "Diff",
+          "Difference",
+          "Heater Voltage"
+        ]
+      }
+    },
+    {
+      "label": "Snowfall",
+      "name": "Snowfall",
+      "medium": "Snow",
+      "variable": "Height",
+      "related_terms": {
+        "more_general": [
+          "Precipitation"
+        ],
+        "more_specific": [
+          "Snow Pillow",
+          "Rainfall",
+          "Snow Depth"
+        ]
+      }
+    },
+    {
+      "label": "Snowfall",
+      "name": "Snowfall",
+      "medium": "Snow",
+      "variable": "Depth",
+      "related_terms": {
+        "more_general": [
+          "Precipitation"
+        ],
+        "more_specific": [
+          "Snow Pillow",
+          "Rainfall",
+          "Snow Height"
+        ]
+      }
+    },
+    {
+      "label": "SoilMoisture",
+      "name": "Soil Moisture",
+      "medium": "Soil",
+      "variable": "Moisture",
+      "related_terms": {
+        "more_general": [
+          "Moisture"
+        ],
+        "more_specific": [
+          "Electrical Conductivity",
+          "Permittivity",
+          "Volumetric Water Content",
+          "Period",
+          "Bulk Electrical Conductivity",
+          "Dielectric Strength"
+        ]
+      }
+    },
+    {
+      "label": "SoilMoisturePeriod",
+      "name": "Soil Moisture Period",
+      "medium": "Soil",
+      "variable": "Period",
+      "related_terms": {
+        "more_general": [
+          "Soil Moisture"
+        ],
+        "more_specific": [
+          "Electrical Conductivity",
+          "Permittivity",
+          "Volumetric Water Content",
+          "Bulk Electrical Conductivity",
+          "Dielectric Strength"
+        ]
+      }
+    },
+    {
+      "label": "SoilTemperature",
+      "name": "Soil Temperature",
+      "medium": "Soil",
+      "variable": "Temperature",
+      "related_terms": {
+        "more_specific": [
+          "Rock Temperature"
+        ]
+      }
+    },
+    {
+      "label": "SolarRadiation",
+      "name": "Solar Radiation",
+      "medium": "Solar",
+      "variable": "Radiation",
+      "related_terms": {
+        "more_specific": [
+          "PAR",
+          "Shortwave",
+          "Photosynthetically Active Radiation",
+          "Net Radiation"
+        ]
+      }
+    },
+    {
+      "label": "StreamStage",
+      "name": "Stream Stage",
+      "medium": "SurfaceWater",
+      "variable": "Depth",
+      "related_terms": {
+        "more_general": [
+          "Water Level"
+        ],
+        "more_specific": [
+          "Gage Height",
+          "River Stage"
+        ]
+      }
+    },
+    {
+      "label": "Turbidity",
+      "name": "Turbidity",
+      "medium": "SurfaceWater",
+      "variable": "Turbidity"
+    },
+    {
+      "label": "VolumetricWaterContent",
+      "name": "Volumetric Water Content",
+      "medium": "Soil",
+      "variable": "VolumetricWaterContent",
+      "related_terms": {
+        "more_general": [
+          "Soil Moisture"
+        ],
+        "more_specific": [
+          "Electrical Conductivity",
+          "Permittivity",
+          "Period",
+          "Bulk Electrical Conductivity",
+          "Dielectric Strength"
+        ]
+      }
+    },
+    {
+      "label": "WaterTemperature",
+      "name": "Water Temperature",
+      "medium": "Water",
+      "variable": "Temperature",
+      "related_terms": {
+        "more_specific": [
+          "Well Temperature",
+          "Stream Temperature"
+        ]
+      }
+    },
+    {
+      "label": "WellDepth",
+      "name": "Well Depth",
+      "medium": "GroundWater",
+      "variable": "Depth",
+      "related_terms": {
+        "more_general": [
+          "Water Depth"
+        ]
+      }
+    },
+    {
+      "label": "WellLevel",
+      "name": "Well Level",
+      "medium": "Water",
+      "variable": "Pressure"
+    },
+    {
+      "label": "WindDirection",
+      "name": "Wind Direction",
+      "medium": "Air",
+      "variable": "Direction",
+      "related_terms": {
+        "more_specific": [
+          "Wind Vector"
+        ]
+      }
+    },
+    {
+      "label": "WindSpeed",
+      "name": "Wind Speed",
+      "medium": "Air",
+      "variable": "Speed",
+      "related_terms": {
+        "more_specific": [
+          "Wind Velocity",
+          "Wind Gust"
+        ]
+      }
+    }
+  ]
+}

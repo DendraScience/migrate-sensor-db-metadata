@@ -7,11 +7,11 @@ tr = require("./transform_functions.js")
 path = require("path")
 
 // parameters
-orgs = ["erczo"]  // ["erczo","ucnrs","chi"]
+orgs = ["erczo","ucnrs","chi"]
 path_root = "../data/"
 
 // store list as an array
-medium_variable_list = []
+medium_variable_unit_list = []
 
 for (var i=0; i<orgs.length;i++) {
 	org = orgs[i]
@@ -49,13 +49,13 @@ for (var i=0; i<orgs.length;i++) {
 			units = tr.get_tag(ds_json,"Unit").replace("dt_Unit_","")
 			//console.log(k,ds_filename,":",medium,variable,units)
 			console.log(ds_json.name,medium,variable,units)
-			medium_variable_list.push([medium,variable,units,ds_json.name])
+			medium_variable_unit_list.push([medium,variable,units,ds_json.name])
 		}
 	}
 }
 
-console.log(medium_variable_list)
+console.log(medium_variable_unit_list)
 console.log("DONE")
 // Temporary: write station names to json file
-medium_variable_list_string = JSON.stringify(medium_variable_list,null,2)
-fs.writeFileSync('medium_variable_list.json',medium_variable_list_string,'utf-8')
+medium_variable_unit_list_string = JSON.stringify(medium_variable_unit_list,null,2)
+fs.writeFileSync('medium_variable_unit_list.json',medium_variable_unit_list_string,'utf-8')

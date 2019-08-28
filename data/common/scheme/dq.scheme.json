@@ -1,0 +1,5 @@
+{
+  "_id": "dq",
+  "description": "A collection of controlled vocabularies for user queries to find datastreams in the Dendro system.",
+  "name": "Dendro Query Controlled Vocabularies"
+}
