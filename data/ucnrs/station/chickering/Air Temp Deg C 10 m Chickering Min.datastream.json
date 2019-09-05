@@ -2,7 +2,7 @@
   "_id": "5ae87929fe27f4bdb3102b2e",
   "description": "Temperature at 10 meters",
   "enabled": true,
-  "name": "Air Temp Deg C 10 m Chickering Min",
+  "name": "Air Temp Deg C 10 m Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Air Temp Deg C 10 m Chickering Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

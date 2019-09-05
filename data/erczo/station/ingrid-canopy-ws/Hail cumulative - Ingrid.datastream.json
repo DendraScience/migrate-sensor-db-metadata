@@ -1,6 +1,6 @@
 {
   "_id": "5ae87422fe27f41f881025e1",
-  "description": "Cumulative hail for the season.  The WXT510 does not automatically reset, so it must be manually set to 0 at end/beginning of season.  \r\n\r\nHail is considered kinetic impacts too large to be rain.original datastream name was Hail cumulative - Ingrid",
+  "description": "Cumulative hail for the season.  The WXT510 does not automatically reset, so it must be manually set to 0 at end/beginning of season.  \r\n\r\nHail is considered kinetic impacts too large to be rain.",
   "name": "Hail cumulative",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -52,6 +52,10 @@
     {
       "identifier": "WSIC_Table",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": " Hail cumulative - Ingrid",
+      "type": "name_previous"
     }
   ],
   "is_enabled": false,
@@ -63,20 +67,25 @@
     },
     "dt": {
       "Unit": "Millimeter"
+    },
+    "dq": {
+      "Measurement": "Hail"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d66b1de0322c650eb4e74fd",
-  "updated_at": "2019-08-28T16:54:54.232Z",
+  "version_id": "5d6888945a3a94aed1901447",
+  "updated_at": "2019-08-30T02:23:16.025Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:23:45.142Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
+      "dq__Measurement_Hail",
       "ds__Aggregate_Cumulative__Medium_Hail__Variable_Height"
     ],
     "class_tags": [
+      "dq_Measurement_Hail",
       "ds_Aggregate_Cumulative",
       "ds_Medium_Hail",
       "ds_Variable_Height"

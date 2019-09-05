@@ -1,7 +1,7 @@
 {
   "_id": "5ae87a6ffe27f47cf11030bd",
   "enabled": true,
-  "name": "TX FORWARD POWER Chickering",
+  "name": "TX FORWARD POWER",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -66,6 +66,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "TX FORWARD POWER Chickering",
+      "type": "name_previous"
     }
   ],
   "tags": [

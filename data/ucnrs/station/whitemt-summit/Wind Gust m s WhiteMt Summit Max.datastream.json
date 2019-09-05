@@ -2,7 +2,7 @@
   "_id": "5ae87a87fe27f45bc8103132",
   "description": "",
   "enabled": true,
-  "name": "Wind Gust m s WhiteMt Summit Max",
+  "name": "Wind Gust m s Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -40,6 +40,10 @@
     {
       "identifier": "Wind Gust MS",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Wind Gust m s WhiteMt Summit Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

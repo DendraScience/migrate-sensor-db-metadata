@@ -1,6 +1,5 @@
 {
   "_id": "5ae8740efe27f4d538102584",
-  "enabled": true,
   "name": "ERP L2S3RR_2",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -66,94 +65,43 @@
     {
       "identifier": "Level201",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": " ERP L2S3-RR_2",
+      "type": "name_previous"
     }
-  ],
-  "tags": [
-    "ds_Medium_Rock",
-    "ds_Variable_Moisture",
-    "dt_Unit_Kiloohm"
   ],
   "attributes": {},
-  "created_at": "2018-07-01T22:55:23.504Z",
-  "updated_at": "2018-07-03T19:02:56.344Z",
-  "attributes_info": {
-    "sort": {
-      "value1": 0,
-      "value2": 0
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Rock",
+      "Variable": "Moisture"
     },
-    "text": ""
-  },
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Rock",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Moisture",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "kΩ",
-        "label": "Kiloohm",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "f41440a7477ba7347e4c9196543af9bb0d9a23e7"
+    "dt": {
+      "Unit": "Kiloohm"
     },
-    {
-      "key": "att",
-      "str": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "abb89e0bf3da5cee4e0a271d1df9e219f6c4daae",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "65f1595df3265eb622e0512aae79ee69c2112c65",
-      "scheme_id": "dt"
+    "dq": {
+      "Measurement": "RockMoisture"
     }
-  ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was ERP L2S3-RR_2"
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d6888e46f13dbfedd113449",
+  "updated_at": "2019-08-30T02:24:36.146Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:25:34.950Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_RockMoisture",
+      "ds__Medium_Rock__Variable_Moisture"
+    ],
+    "class_tags": [
+      "dq_Measurement_RockMoisture",
+      "ds_Medium_Rock",
+      "ds_Variable_Moisture"
+    ],
+    "unit_tag": "dt_Unit_Kiloohm"
+  }
 }

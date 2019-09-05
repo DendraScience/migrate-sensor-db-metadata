@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Air Temp Deg C Blue Oak Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

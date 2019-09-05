@@ -1,6 +1,5 @@
 {
   "_id": "5ae8745efe27f48afd1026f5",
-  "enabled": true,
   "name": "Sap Flow TDP100 1a Flatop Tree",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -66,97 +65,44 @@
     {
       "identifier": "Table102",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": " Sap Flow TDP-100 1a Flatop Tree",
+      "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Sap",
-    "ds_Variable_Temperature",
-    "dt_Unit_DegreeCelsius",
-    "ds_Aggregate_Average"
-  ],
-  "created_at": "2018-07-01T23:01:31.847Z",
-  "updated_at": "2018-07-03T19:03:08.781Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Sap",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Temperature",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "degC",
-        "label": "DegreeCelsius",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Average",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 3
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      }
-    ]
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Sap",
+      "Variable": "Temperature",
+      "Aggregate": "Average"
+    },
+    "dt": {
+      "Unit": "DegreeCelsius"
+    },
+    "dq": {
+      "Measurement": "SapFlowTemperature"
+    }
   },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "f287669f1538e1bb064fc90fe3f8e10948979c6c"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "5b29ddd4db0bbaadf29b596f7f1c718e6b04794b",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "5795c6e74091f87a34b256903db271fcca161eee",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was Sap Flow TDP-100 1a Flatop Tree"
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d6888c65a3a94886690150e",
+  "updated_at": "2019-08-30T02:24:06.285Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:24:54.147Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_SapFlowTemperature",
+      "ds__Aggregate_Average__Medium_Sap__Variable_Temperature"
+    ],
+    "class_tags": [
+      "dq_Measurement_SapFlowTemperature",
+      "ds_Aggregate_Average",
+      "ds_Medium_Sap",
+      "ds_Variable_Temperature"
+    ],
+    "unit_tag": "dt_Unit_DegreeCelsius"
+  }
 }

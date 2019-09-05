@@ -1,6 +1,5 @@
 {
   "_id": "5ca6b372662fc2acefe83ad4",
-  "enabled": true,
   "name": "air temp c max",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -22,96 +21,6 @@
       "path": "/influx/select"
     }
   ],
-  "tags": [
-    "dt_Unit_DegreeCelsius",
-    "ds_Aggregate_Maximum",
-    "ds_Medium_Air",
-    "ds_Variable_Temperature"
-  ],
-  "created_at": "2019-04-05T01:46:26.476Z",
-  "updated_at": "2019-05-16T03:58:51.938Z",
-  "version_id": "5cdcdffb662fc22b5be83bcb",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "abbreviation": "degC",
-        "label": "DegreeCelsius",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Maximum",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      },
-      {
-        "label": "Air",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Temperature",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "dt",
-        "tag_count": 1
-      },
-      {
-        "_id": "ds",
-        "tag_count": 3
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      },
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "7acbf7c93f005e04ccfe4abf0e1926cf0426de21"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "5795c6e74091f87a34b256903db271fcca161eee",
-      "scheme_id": "dt"
-    },
-    {
-      "key": "tag",
-      "str": "25655b044eddb36b76e5cc3c45e8c1b9d0787a51",
-      "scheme_id": "ds"
-    }
-  ],
   "datapoints_config_built": [
     {
       "params": {
@@ -129,6 +38,44 @@
       "ends_before": "2200-02-02T00:00:00.000Z"
     }
   ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was rancho venada ws air temp c max"
+  "is_enabled": true,
+  "terms": {
+    "dt": {
+      "Unit": "DegreeCelsius"
+    },
+    "ds": {
+      "Aggregate": "Maximum",
+      "Medium": "Air",
+      "Variable": "Temperature"
+    },
+    "dq": {
+      "Measurement": "AirTemperature"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "external_refs": [
+    {
+      "identifier": " rancho venada ws air temp c max",
+      "type": "name_previous"
+    }
+  ],
+  "version_id": "5d6888965a3a94f8e390144b",
+  "updated_at": "2019-08-30T02:23:18.308Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:23:48.208Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_AirTemperature",
+      "ds__Aggregate_Maximum__Medium_Air__Variable_Temperature"
+    ],
+    "class_tags": [
+      "dq_Measurement_AirTemperature",
+      "ds_Aggregate_Maximum",
+      "ds_Medium_Air",
+      "ds_Variable_Temperature"
+    ],
+    "unit_tag": "dt_Unit_DegreeCelsius"
+  }
 }

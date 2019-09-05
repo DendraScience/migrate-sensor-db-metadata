@@ -2,7 +2,7 @@
   "_id": "5ae87a2ffe27f4b8df102fa3",
   "description": "",
   "enabled": true,
-  "name": "Soil Temp Deg C 50 mm Chickering Avg",
+  "name": "Soil Temp Deg C 50 mm Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Soil Temp Deg C 50 mm Chickering Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

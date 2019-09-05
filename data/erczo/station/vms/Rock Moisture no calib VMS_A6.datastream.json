@@ -1,7 +1,6 @@
 {
   "_id": "5ae87441fe27f4e5be102670",
-  "description": "Values are suspect because the instrument has been modified.  See Method.original datastream name was Rock Moisture no calib VMS_A6",
-  "enabled": true,
+  "description": "Values are suspect because the instrument has been modified.  See Method.",
   "name": "Rock Moisture no calib A6",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -67,12 +66,11 @@
     {
       "identifier": "VMS",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": " Rock Moisture no calib VMS_A6",
+      "type": "name_previous"
     }
-  ],
-  "tags": [
-    "ds_Medium_Rock",
-    "ds_Variable_Moisture",
-    "dt_Unit_Percent"
   ],
   "attributes": {
     "depth": {
@@ -83,85 +81,36 @@
       ]
     }
   },
-  "created_at": "2018-07-01T22:59:06.539Z",
-  "updated_at": "2018-07-03T19:03:04.421Z",
-  "attributes_info": {
-    "sort": {
-      "value1": 10.1,
-      "value2": 0.20000000000000107
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Rock",
+      "Variable": "Moisture"
     },
-    "text": "10.1...10.3"
-  },
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Rock",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Moisture",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "%",
-        "label": "Percent",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "10b86d74fd75403e350e747a02115ec7510bc857"
+    "dt": {
+      "Unit": "Percent"
     },
-    {
-      "key": "att",
-      "str": "60a02dc6a392aae5f9562a333a8d1dad729272c2"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "abb89e0bf3da5cee4e0a271d1df9e219f6c4daae",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "2734b26dc0ddea857c1c6f650f5735cc8bb660eb",
-      "scheme_id": "dt"
+    "dq": {
+      "Measurement": "RockMoisture"
     }
-  ],
-  "_include": []
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d6889de6f13db40601137ac",
+  "updated_at": "2019-08-30T02:28:46.313Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:32:44.232Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_RockMoisture",
+      "ds__Medium_Rock__Variable_Moisture"
+    ],
+    "class_tags": [
+      "dq_Measurement_RockMoisture",
+      "ds_Medium_Rock",
+      "ds_Variable_Moisture"
+    ],
+    "unit_tag": "dt_Unit_Percent"
+  }
 }

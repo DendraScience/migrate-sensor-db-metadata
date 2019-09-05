@@ -2,7 +2,7 @@
   "_id": "5ae8798ffe27f41093102cea",
   "description": "",
   "enabled": true,
-  "name": "Battery Voltage volts McLaughlin Max",
+  "name": "Battery Voltage volts Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -59,6 +59,10 @@
     {
       "identifier": "ucmc_mclaughlin",
       "type": "loggernet.station"
+    },
+    {
+      "identifier": "Battery Voltage volts McLaughlin Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

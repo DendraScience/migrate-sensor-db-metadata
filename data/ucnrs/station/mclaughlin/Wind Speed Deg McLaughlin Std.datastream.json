@@ -1,7 +1,7 @@
 {
   "_id": "5ae87a8afe27f4ab4b10313e",
   "enabled": true,
-  "name": "Wind Speed Deg McLaughlin Std",
+  "name": "Wind Speed Deg Std",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -58,6 +58,10 @@
     {
       "identifier": "ucmc_mclaughlin",
       "type": "loggernet.station"
+    },
+    {
+      "identifier": "Wind Speed Deg McLaughlin Std",
+      "type": "name_previous"
     }
   ],
   "tags": [

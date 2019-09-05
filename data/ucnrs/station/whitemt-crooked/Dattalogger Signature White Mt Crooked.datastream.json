@@ -40,6 +40,10 @@
     {
       "identifier": "Unknown",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Dattalogger Signature White Mt Crooked",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -1,7 +1,7 @@
 {
   "_id": "5ae87a66fe27f47061103097",
   "enabled": false,
-  "name": "Total Solar Radiation W m2 Jepson Max",
+  "name": "Total Solar Radiation W m2 Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -52,6 +52,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Total Solar Radiation W m2 Jepson Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

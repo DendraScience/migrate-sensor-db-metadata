@@ -1,6 +1,5 @@
 {
   "_id": "5ae87716fe27f41adf102ae8",
-  "enabled": true,
   "name": "Wind Direction",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -66,97 +65,44 @@
     {
       "identifier": "AR_RWS",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": " Wind Direction - WSAM",
+      "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Air",
-    "ds_Variable_Direction",
-    "dt_Unit_DegreeAngle",
-    "ds_Aggregate_Average"
-  ],
-  "created_at": "2018-07-01T23:20:04.908Z",
-  "updated_at": "2018-07-03T19:03:44.706Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Air",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Direction",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "°",
-        "label": "DegreeAngle",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Average",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 3
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      }
-    ]
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Air",
+      "Variable": "Direction",
+      "Aggregate": "Average"
+    },
+    "dt": {
+      "Unit": "DegreeAngle"
+    },
+    "dq": {
+      "Measurement": "WindDirection"
+    }
   },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "cccad7d9b78b139c0f014fb26123ff51bbf6d991"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "2d5bfbf999168396e72ece05e849bc74dab11d9c",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "e242a0f75953a903a48de15d8ca3771d8378e501",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was Wind Direction - WSAM"
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d68888c6f13dbd6ff11332e",
+  "updated_at": "2019-08-30T02:23:08.826Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:23:35.442Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_WindDirection",
+      "ds__Aggregate_Average__Medium_Air__Variable_Direction"
+    ],
+    "class_tags": [
+      "dq_Measurement_WindDirection",
+      "ds_Aggregate_Average",
+      "ds_Medium_Air",
+      "ds_Variable_Direction"
+    ],
+    "unit_tag": "dt_Unit_DegreeAngle"
+  }
 }

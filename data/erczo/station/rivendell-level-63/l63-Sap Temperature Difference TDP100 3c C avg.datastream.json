@@ -30,20 +30,31 @@
       "Aggregate": "Average",
       "Medium": "Sap",
       "Variable": "Flux"
+    },
+    "dq": {
+      "Measurement": "SapFlow"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "updated_at": "2019-08-05T20:20:54.681Z",
+  "external_refs": [
+    {
+      "identifier": "Sap Temperature Difference TDP100 3c C avg",
+      "type": "name_previous"
+    }
+  ],
+  "version_id": "5d6889955a3a9412e39017f0",
+  "updated_at": "2019-08-30T02:27:33.749Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
-  "version_id": "5d488fa63883cb731faf54f1",
   "created_at": "2019-07-20T17:00:37.373Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
+      "dq__Measurement_SapFlow",
       "ds__Aggregate_Average__Medium_Sap__Variable_Flux"
     ],
     "class_tags": [
+      "dq_Measurement_SapFlow",
       "ds_Aggregate_Average",
       "ds_Medium_Sap",
       "ds_Variable_Flux"

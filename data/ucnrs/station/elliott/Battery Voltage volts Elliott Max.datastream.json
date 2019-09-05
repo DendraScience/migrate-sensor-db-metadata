@@ -2,7 +2,7 @@
   "_id": "5ae8798bfe27f4c1cf102cda",
   "description": "",
   "enabled": true,
-  "name": "Battery Voltage volts Elliott Max",
+  "name": "Battery Voltage volts Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Battery Voltage volts Elliott Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

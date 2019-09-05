@@ -43,9 +43,12 @@
     {
       "identifier": "WSTB_CR1000",
       "type": "loggernet.station"
+    },
+    {
+      "identifier": " Hail intensity - WSTB",
+      "type": "name_previous"
     }
   ],
-  "description": "undefinedoriginal datastream name was Hail intensity - WSTB",
   "is_enabled": false,
   "terms": {
     "ds": {
@@ -54,20 +57,25 @@
     },
     "dt": {
       "Unit": "MillimeterPerHour"
+    },
+    "dq": {
+      "Measurement": "Hail"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d66b21c1c1d9f6b0fb9f109",
-  "updated_at": "2019-08-28T16:55:56.770Z",
+  "version_id": "5d6889d46f13dbb058113790",
+  "updated_at": "2019-08-30T02:28:36.624Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T18:32:26.395Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
+      "dq__Measurement_Hail",
       "ds__Medium_Hail__Variable_Height"
     ],
     "class_tags": [
+      "dq_Measurement_Hail",
       "ds_Medium_Hail",
       "ds_Variable_Height"
     ],

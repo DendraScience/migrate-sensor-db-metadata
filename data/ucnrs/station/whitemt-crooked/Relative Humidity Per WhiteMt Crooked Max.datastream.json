@@ -2,7 +2,7 @@
   "_id": "5ae879e2fe27f40fab102e68",
   "description": "",
   "enabled": true,
-  "name": "Relative Humidity Per WhiteMt Crooked Max",
+  "name": "Relative Humidity Per Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -40,6 +40,10 @@
     {
       "identifier": "Rel Humidity Per Max",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Relative Humidity Per WhiteMt Crooked Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

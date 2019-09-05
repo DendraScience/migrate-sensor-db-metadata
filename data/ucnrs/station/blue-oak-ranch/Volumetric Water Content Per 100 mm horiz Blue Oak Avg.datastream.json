@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Volumetric Water Content Per 100 mm horiz Blue Oak Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

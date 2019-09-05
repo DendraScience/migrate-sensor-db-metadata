@@ -2,7 +2,7 @@
   "_id": "5ae87a67fe27f49deb10309c",
   "description": "",
   "enabled": true,
-  "name": "Total Solar Radiation W m2 McLaughlin Min",
+  "name": "Total Solar Radiation W m2 Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -59,6 +59,10 @@
     {
       "identifier": "ucmc_mclaughlin",
       "type": "loggernet.station"
+    },
+    {
+      "identifier": "Total Solar Radiation W m2 McLaughlin Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -2,7 +2,7 @@
   "_id": "5ae87a5dfe27f4fcfc10306f",
   "description": "",
   "enabled": true,
-  "name": "Total Solar Radiation W m2 Angelo Std",
+  "name": "Total Solar Radiation W m2 Std",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Total Solar Radiation W m2 Angelo Std",
+      "type": "name_previous"
     }
   ],
   "tags": [

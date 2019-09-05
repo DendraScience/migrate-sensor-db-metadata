@@ -1,7 +1,7 @@
 {
   "_id": "5ae87951fe27f4ce79102bd6",
   "enabled": false,
-  "name": "Air Temp Deg C Jepson Max",
+  "name": "Air Temp Deg C Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -52,6 +52,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Air Temp Deg C Jepson Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

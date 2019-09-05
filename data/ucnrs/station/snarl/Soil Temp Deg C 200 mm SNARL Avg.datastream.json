@@ -2,7 +2,7 @@
   "_id": "5ae87a28fe27f455b5102f82",
   "description": "",
   "enabled": true,
-  "name": "Soil Temp Deg C 200 mm SNARL Avg",
+  "name": "Soil Temp Deg C 200 mm Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Soil Temp Deg C 200 mm SNARL Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

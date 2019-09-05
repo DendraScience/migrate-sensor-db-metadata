@@ -1,7 +1,7 @@
 {
   "_id": "5ae87966fe27f43b26102c34",
   "enabled": true,
-  "name": "Air Temp Delta Deg C 10m-2m James Avg",
+  "name": "Air Temp Delta Deg C 10m2m Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Air Temp Delta Deg C 10m-2m James Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

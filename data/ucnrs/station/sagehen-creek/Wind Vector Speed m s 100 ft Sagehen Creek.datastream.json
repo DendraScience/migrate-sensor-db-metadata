@@ -1,7 +1,7 @@
 {
   "_id": "5ae87ab1fe27f4d2e11031e3",
   "enabled": true,
-  "name": "Wind Vector Speed m s 100 ft Sagehen Creek",
+  "name": "Wind Vector Speed m s 100 ft",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -51,6 +51,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Wind Vector Speed m s 100 ft Sagehen Creek",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -1,7 +1,7 @@
 {
   "_id": "5ae879a4fe27f46f20102d4c",
   "enabled": true,
-  "name": "PAR um m2 Fort Ord Min",
+  "name": "PAR um m2 Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "PAR um m2 Fort Ord Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

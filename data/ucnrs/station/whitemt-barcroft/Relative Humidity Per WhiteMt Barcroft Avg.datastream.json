@@ -2,7 +2,7 @@
   "_id": "5ae879e1fe27f4e354102e61",
   "description": "",
   "enabled": true,
-  "name": "Relative Humidity Per WhiteMt Barcroft Avg",
+  "name": "Relative Humidity Per Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -40,6 +40,10 @@
     {
       "identifier": "Rel Humidity Per Avg",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Relative Humidity Per WhiteMt Barcroft Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

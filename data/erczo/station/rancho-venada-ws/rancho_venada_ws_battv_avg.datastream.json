@@ -1,6 +1,5 @@
 {
   "_id": "5ca6b373662fc2b551e83ad6",
-  "enabled": true,
   "name": "battery voltage avg",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -22,96 +21,6 @@
       "path": "/influx/select"
     }
   ],
-  "tags": [
-    "dt_Unit_Volt",
-    "ds_Aggregate_Average",
-    "ds_Medium_Battery",
-    "ds_Variable_Voltage"
-  ],
-  "created_at": "2019-04-05T01:46:27.554Z",
-  "updated_at": "2019-05-16T03:58:52.531Z",
-  "version_id": "5cdcdffc662fc26ff1e83bcc",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "abbreviation": "V",
-        "label": "Volt",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Average",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      },
-      {
-        "label": "Battery",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Voltage",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "dt",
-        "tag_count": 1
-      },
-      {
-        "_id": "ds",
-        "tag_count": 3
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      },
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "7acbf7c93f005e04ccfe4abf0e1926cf0426de21"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "0d253c13e10350db516b0a0d7684f951c8d84985",
-      "scheme_id": "dt"
-    },
-    {
-      "key": "tag",
-      "str": "88cb7b4abb9a9dc087156ae48d8195e06f631350",
-      "scheme_id": "ds"
-    }
-  ],
   "datapoints_config_built": [
     {
       "params": {
@@ -129,6 +38,44 @@
       "ends_before": "2200-02-02T00:00:00.000Z"
     }
   ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was rancho venada ws battery voltage avg"
+  "is_enabled": true,
+  "terms": {
+    "dt": {
+      "Unit": "Volt"
+    },
+    "ds": {
+      "Aggregate": "Average",
+      "Medium": "Battery",
+      "Variable": "Voltage"
+    },
+    "dq": {
+      "Measurement": "BatteryVoltage"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "external_refs": [
+    {
+      "identifier": " rancho venada ws battery voltage avg",
+      "type": "name_previous"
+    }
+  ],
+  "version_id": "5d6888965a3a944b0590144c",
+  "updated_at": "2019-08-30T02:23:18.867Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:23:49.313Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_BatteryVoltage",
+      "ds__Aggregate_Average__Medium_Battery__Variable_Voltage"
+    ],
+    "class_tags": [
+      "dq_Measurement_BatteryVoltage",
+      "ds_Aggregate_Average",
+      "ds_Medium_Battery",
+      "ds_Variable_Voltage"
+    ],
+    "unit_tag": "dt_Unit_Volt"
+  }
 }

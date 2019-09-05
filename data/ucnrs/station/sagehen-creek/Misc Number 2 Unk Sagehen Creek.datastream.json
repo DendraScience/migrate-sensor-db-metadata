@@ -2,7 +2,7 @@
   "_id": "5ae8799ffe27f46f53102d33",
   "description": "Valid Range for Values unknown - only a guess because method is unknown",
   "enabled": false,
-  "name": "Misc Number 2 Unk Sagehen Creek",
+  "name": "Misc Number 2 Unk",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -52,6 +52,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Misc Number 2 Unk Sagehen Creek",
+      "type": "name_previous"
     }
   ],
   "tags": [

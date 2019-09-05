@@ -1,7 +1,7 @@
 {
   "_id": "5ae879d0fe27f475fe102e19",
   "enabled": true,
-  "name": "Relative Humidity Per Fort Ord Min",
+  "name": "Relative Humidity Per Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Relative Humidity Per Fort Ord Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

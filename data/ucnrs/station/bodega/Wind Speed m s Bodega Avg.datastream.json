@@ -2,7 +2,7 @@
   "_id": "5ae87a94fe27f44c63103168",
   "description": "",
   "enabled": true,
-  "name": "Wind Speed m s Bodega Avg",
+  "name": "Wind Speed m s Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Wind Speed m s Bodega Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -2,7 +2,7 @@
   "_id": "5ae8798afe27f4815b102cd3",
   "description": "",
   "enabled": true,
-  "name": "Battery Voltage volts Bodega Avg",
+  "name": "Battery Voltage volts Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Battery Voltage volts Bodega Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

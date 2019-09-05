@@ -2,7 +2,7 @@
   "_id": "5ae87a42fe27f42250102ff7",
   "description": "",
   "enabled": true,
-  "name": "Soil Temp Deg C 500 mm Angelo Min",
+  "name": "Soil Temp Deg C 500 mm Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Soil Temp Deg C 500 mm Angelo Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

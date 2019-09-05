@@ -1,4 +1,5 @@
 {
+  "_id": "5d488fec3883cb1729af5576",
   "is_enabled": true,
   "name": "Soil Temperature t13",
   "organization_id": "58db17e824dc720001671379",
@@ -28,24 +29,34 @@
     "ds": {
       "Medium": "Soil",
       "Variable": "Temperature"
+    },
+    "dq": {
+      "Measurement": "SoilTemperature"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "created_at": "2019-08-05T20:22:04.179Z",
-  "updated_at": "2019-08-05T20:22:04.179Z",
-  "created_by": "5cdd9abda6fa68f95479675b",
+  "external_refs": [
+    {
+      "identifier": "Soil Temperature t13",
+      "type": "name_previous"
+    }
+  ],
+  "version_id": "5d6889835a3a94ac669017b7",
+  "updated_at": "2019-08-30T02:27:15.056Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
-  "version_id": "5d488fec3883cb9a76af5575",
+  "created_at": "2019-08-05T20:22:04.179Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
+      "dq__Measurement_SoilTemperature",
       "ds__Medium_Soil__Variable_Temperature"
     ],
     "class_tags": [
+      "dq_Measurement_SoilTemperature",
       "ds_Medium_Soil",
       "ds_Variable_Temperature"
     ],
     "unit_tag": "dt_Unit_DegreeCelsius"
-  },
-  "_id": "5d488fec3883cb1729af5576"
+  }
 }

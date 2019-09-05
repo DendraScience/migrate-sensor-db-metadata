@@ -1,7 +1,7 @@
 {
   "_id": "5ae8798cfe27f4305d102cdc",
   "enabled": true,
-  "name": "Battery Voltage volts Fort Ord Avg",
+  "name": "Battery Voltage volts Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Battery Voltage volts Fort Ord Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

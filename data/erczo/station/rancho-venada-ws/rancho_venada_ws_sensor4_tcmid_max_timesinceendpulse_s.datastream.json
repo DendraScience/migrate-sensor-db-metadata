@@ -1,6 +1,5 @@
 {
   "_id": "5cc7184c662fc23096e83af3",
-  "enabled": true,
   "name": "sensor4 mid maxtime since endpulse sec",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -22,14 +21,6 @@
       "path": "/influx/select"
     }
   ],
-  "tags": [
-    "ds_Medium_Sap",
-    "ds_Variable_Period",
-    "dt_Unit_Second"
-  ],
-  "created_at": "2019-04-29T15:29:16.852Z",
-  "updated_at": "2019-05-16T03:59:03.213Z",
-  "version_id": "5cdce0072a4220d9f3cbf7b1",
   "datapoints_config_built": [
     {
       "params": {
@@ -47,47 +38,42 @@
       "ends_before": "2200-02-02T00:00:00.000Z"
     }
   ],
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Sap",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      }
-    ]
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Sap",
+      "Variable": "Period"
+    },
+    "dt": {
+      "Unit": "Second"
+    },
+    "dq": {
+      "Measurement": "SapFlowPeriod"
+    }
   },
-  "hashes": [
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "external_refs": [
     {
-      "key": "src",
-      "str": "7acbf7c93f005e04ccfe4abf0e1926cf0426de21"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "5a3f423297408a1ab1369ba0ccfd858843c63b6c",
-      "scheme_id": "ds"
+      "identifier": " rancho venada ws sensor4 mid maxtime since endpulse sec",
+      "type": "name_previous"
     }
   ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was rancho venada ws sensor4 mid maxtime since endpulse sec"
+  "version_id": "5d6888a16f13db243211336c",
+  "updated_at": "2019-08-30T02:23:29.391Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:24:03.465Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_SapFlowPeriod",
+      "ds__Medium_Sap__Variable_Period"
+    ],
+    "class_tags": [
+      "dq_Measurement_SapFlowPeriod",
+      "ds_Medium_Sap",
+      "ds_Variable_Period"
+    ],
+    "unit_tag": "dt_Unit_Second"
+  }
 }

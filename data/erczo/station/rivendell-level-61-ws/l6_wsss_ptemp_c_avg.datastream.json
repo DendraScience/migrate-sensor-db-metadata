@@ -1,6 +1,5 @@
 {
   "_id": "5cdccded2a4220760bcbf762",
-  "enabled": true,
   "name": "Panel Temperature C Avg",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -22,96 +21,6 @@
       "path": "/influx/select"
     }
   ],
-  "tags": [
-    "dt_Unit_DegreeCelsius",
-    "ds_Aggregate_Average",
-    "ds_Medium_Instrument",
-    "ds_Variable_Temperature"
-  ],
-  "created_at": "2019-05-16T02:41:49.163Z",
-  "updated_at": "2019-05-16T02:46:53.355Z",
-  "version_id": "5cdccf1d662fc2b2f0e83bb8",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "abbreviation": "degC",
-        "label": "DegreeCelsius",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Average",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      },
-      {
-        "label": "Instrument",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Temperature",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "dt",
-        "tag_count": 1
-      },
-      {
-        "_id": "ds",
-        "tag_count": 3
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      },
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "3ee37f65f7025a6f3f6b4ddcc970955c9475c88a"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "5795c6e74091f87a34b256903db271fcca161eee",
-      "scheme_id": "dt"
-    },
-    {
-      "key": "tag",
-      "str": "a00cd78ae70ac32f48c827ab8787ce423d25e589",
-      "scheme_id": "ds"
-    }
-  ],
   "datapoints_config_built": [
     {
       "params": {
@@ -129,6 +38,44 @@
       "ends_before": "2200-02-02T00:00:00.000Z"
     }
   ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was l6_wsss Panel Temperature C Avg"
+  "is_enabled": true,
+  "terms": {
+    "dt": {
+      "Unit": "DegreeCelsius"
+    },
+    "ds": {
+      "Aggregate": "Average",
+      "Medium": "Instrument",
+      "Variable": "Temperature"
+    },
+    "dq": {
+      "Measurement": "InstrumentTemperature"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "external_refs": [
+    {
+      "identifier": " l6_wsss Panel Temperature C Avg",
+      "type": "name_previous"
+    }
+  ],
+  "version_id": "5d68897a5a3a946200901788",
+  "updated_at": "2019-08-30T02:27:06.584Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:28:31.443Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_InstrumentTemperature",
+      "ds__Aggregate_Average__Medium_Instrument__Variable_Temperature"
+    ],
+    "class_tags": [
+      "dq_Measurement_InstrumentTemperature",
+      "ds_Aggregate_Average",
+      "ds_Medium_Instrument",
+      "ds_Variable_Temperature"
+    ],
+    "unit_tag": "dt_Unit_DegreeCelsius"
+  }
 }

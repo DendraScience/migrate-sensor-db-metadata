@@ -1,6 +1,6 @@
 {
   "_id": "5a78e901f55c4b0001ed0254",
-  "name": "Battery Voltage volts Quail Ridge Max",
+  "name": "Battery Voltage volts Max",
   "station_id": "5a37e71ba546db0001547681",
   "description": "TBD",
   "tags": [
@@ -112,5 +112,11 @@
     }
   ],
   "_include": [],
-  "organization_id": "58db17c424dc720001671378"
+  "organization_id": "58db17c424dc720001671378",
+  "external_refs": [
+    {
+      "identifier": "Battery Voltage volts Quail Ridge Max",
+      "type": "name_previous"
+    }
+  ]
 }

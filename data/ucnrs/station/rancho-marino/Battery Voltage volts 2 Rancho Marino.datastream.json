@@ -1,7 +1,7 @@
 {
   "_id": "5ae87986fe27f4fb60102cc3",
   "enabled": true,
-  "name": "Battery Voltage volts 2 Rancho Marino",
+  "name": "Battery Voltage volts 2",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -51,6 +51,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Battery Voltage volts 2 Rancho Marino",
+      "type": "name_previous"
     }
   ],
   "tags": [

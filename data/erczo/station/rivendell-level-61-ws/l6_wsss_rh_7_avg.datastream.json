@@ -1,4 +1,5 @@
 {
+  "_id": "5d488fe802e4cd85fa9c2bee",
   "is_enabled": true,
   "name": "Air RelativeHumidity rh7avg",
   "organization_id": "58db17e824dc720001671379",
@@ -29,25 +30,35 @@
       "Aggregate": "Average",
       "Medium": "Air",
       "Variable": "RelativeHumidity"
+    },
+    "dq": {
+      "Measurement": "RelativeHumidity"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "created_at": "2019-08-05T20:22:00.228Z",
-  "updated_at": "2019-08-05T20:22:00.228Z",
-  "created_by": "5cdd9abda6fa68f95479675b",
+  "external_refs": [
+    {
+      "identifier": "Air RelativeHumidity rh7avg",
+      "type": "name_previous"
+    }
+  ],
+  "version_id": "5d68897f5a3a94102a9017b0",
+  "updated_at": "2019-08-30T02:27:11.128Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
-  "version_id": "5d488fe802e4cd76c39c2bed",
+  "created_at": "2019-08-05T20:22:00.228Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
+      "dq__Measurement_RelativeHumidity",
       "ds__Aggregate_Average__Medium_Air__Variable_RelativeHumidity"
     ],
     "class_tags": [
+      "dq_Measurement_RelativeHumidity",
       "ds_Aggregate_Average",
       "ds_Medium_Air",
       "ds_Variable_RelativeHumidity"
     ],
     "unit_tag": "dt_Unit_Percent"
-  },
-  "_id": "5d488fe802e4cd85fa9c2bee"
+  }
 }

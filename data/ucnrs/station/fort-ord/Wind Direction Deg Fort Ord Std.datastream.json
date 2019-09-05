@@ -1,7 +1,7 @@
 {
   "_id": "5ae87a7afe27f43e2a1030f5",
   "enabled": true,
-  "name": "Wind Direction Deg Fort Ord Std",
+  "name": "Wind Direction Deg Std",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Wind Direction Deg Fort Ord Std",
+      "type": "name_previous"
     }
   ],
   "tags": [

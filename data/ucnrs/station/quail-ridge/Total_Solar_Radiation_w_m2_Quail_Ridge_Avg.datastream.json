@@ -1,7 +1,7 @@
 {
   "_id": "5a78e902f55c4b0001ed0278",
   "station_id": "5a37e71ba546db0001547681",
-  "name": "Total Solar Radiation w m2 Quail Ridge Avg",
+  "name": "Total Solar Radiation w m2 Avg",
   "source_type": "procedure",
   "state": "ready",
   "enabled": true,
@@ -116,5 +116,11 @@
     }
   ],
   "_include": [],
-  "organization_id": "58db17c424dc720001671378"
+  "organization_id": "58db17c424dc720001671378",
+  "external_refs": [
+    {
+      "identifier": "Total Solar Radiation w m2 Quail Ridge Avg",
+      "type": "name_previous"
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "_id": "5ae87a74fe27f45fc11030d9",
   "description": "",
   "enabled": true,
-  "name": "Volumetric Water Content Per 100 mm horiz McLaughlin Avg",
+  "name": "Volumetric Water Content Per 100 mm horiz Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -59,6 +59,10 @@
     {
       "identifier": "ucmc_mclaughlin",
       "type": "loggernet.station"
+    },
+    {
+      "identifier": "Volumetric Water Content Per 100 mm horiz McLaughlin Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

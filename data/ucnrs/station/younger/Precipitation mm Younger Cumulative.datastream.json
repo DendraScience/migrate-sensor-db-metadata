@@ -2,7 +2,7 @@
   "_id": "5ae879befe27f45f5d102dc6",
   "description": "Cumulative precipitation is the total rainfall from October 1 to the timetamp of recording. It is reset every Oct. 1. This is done on logger.",
   "enabled": false,
-  "name": "Precipitation mm Younger Cumulative",
+  "name": "Precipitation mm Cumulative",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,11 +67,15 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Precipitation mm Younger Cumulative",
+      "type": "name_previous"
     }
   ],
   "tags": [
-    "ds_Medium_Precipitation",
-    "ds_Variable_Height",
+    "ds_Medium_Water",
+    "ds_Variable_Precipitation",
     "dt_Unit_Millimeter",
     "ds_Aggregate_Cumulative"
   ],

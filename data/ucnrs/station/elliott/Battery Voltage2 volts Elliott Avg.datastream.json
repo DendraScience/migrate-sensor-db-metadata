@@ -1,7 +1,7 @@
 {
   "_id": "5ae87995fe27f46fb1102d0b",
   "enabled": true,
-  "name": "Battery Voltage2 volts Elliott Avg",
+  "name": "Battery Voltage2 volts Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -51,6 +51,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Battery Voltage2 volts Elliott Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

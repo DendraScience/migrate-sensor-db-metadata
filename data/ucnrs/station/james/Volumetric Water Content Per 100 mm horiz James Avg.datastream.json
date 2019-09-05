@@ -1,7 +1,7 @@
 {
   "_id": "5ae87a74fe27f467651030d7",
   "enabled": true,
-  "name": "Volumetric Water Content Per 100 mm horiz James Avg",
+  "name": "Volumetric Water Content Per 100 mm horiz Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Volumetric Water Content Per 100 mm horiz James Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

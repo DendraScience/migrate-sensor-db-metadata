@@ -1,6 +1,5 @@
 {
   "_id": "5cdccc692a42200e8fcbf739",
-  "enabled": true,
   "name": "Leaf Wetness Minutes Dry",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -22,15 +21,6 @@
       "path": "/influx/select"
     }
   ],
-  "tags": [
-    "dt_Unit_MinuteTime",
-    "ds_Aggregate_Cumulative",
-    "ds_Medium_Leaf",
-    "ds_Variable_Moisture"
-  ],
-  "created_at": "2019-05-16T02:35:21.524Z",
-  "updated_at": "2019-05-16T02:46:50.172Z",
-  "version_id": "5cdccf1a2a42204570cbf773",
   "datapoints_config_built": [
     {
       "params": {
@@ -48,87 +38,44 @@
       "ends_before": "2200-02-02T00:00:00.000Z"
     }
   ],
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "abbreviation": "min",
-        "label": "MinuteTime",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Cumulative",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      },
-      {
-        "label": "Leaf",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Moisture",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "dt",
-        "tag_count": 1
-      },
-      {
-        "_id": "ds",
-        "tag_count": 3
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      },
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      }
-    ]
+  "is_enabled": true,
+  "terms": {
+    "dt": {
+      "Unit": "MinuteTime"
+    },
+    "ds": {
+      "Aggregate": "Cumulative",
+      "Medium": "Leaf",
+      "Variable": "Moisture"
+    },
+    "dq": {
+      "Measurement": "LeafWetness"
+    }
   },
-  "hashes": [
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "external_refs": [
     {
-      "key": "src",
-      "str": "3ee37f65f7025a6f3f6b4ddcc970955c9475c88a"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "7ccd07edd6afc8541a0ac3273972e3e1b52b9d5f",
-      "scheme_id": "dt"
-    },
-    {
-      "key": "tag",
-      "str": "92f3f15c0c156dfea6bca3d1a54dfb514b7dba23",
-      "scheme_id": "ds"
+      "identifier": " l6_wsss Leaf Wetness Minutes Dry",
+      "type": "name_previous"
     }
   ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was l6_wsss Leaf Wetness Minutes Dry"
+  "version_id": "5d68896e6f13db888f113623",
+  "updated_at": "2019-08-30T02:26:54.632Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:28:27.273Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_LeafWetness",
+      "ds__Aggregate_Cumulative__Medium_Leaf__Variable_Moisture"
+    ],
+    "class_tags": [
+      "dq_Measurement_LeafWetness",
+      "ds_Aggregate_Cumulative",
+      "ds_Medium_Leaf",
+      "ds_Variable_Moisture"
+    ],
+    "unit_tag": "dt_Unit_MinuteTime"
+  }
 }

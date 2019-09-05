@@ -1,6 +1,5 @@
 {
   "_id": "5cdccdec662fc25169e83b94",
-  "enabled": true,
   "name": "PAR Total Flux",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -22,96 +21,6 @@
       "path": "/influx/select"
     }
   ],
-  "tags": [
-    "dt_Unit_MicromolePerSquareMeter",
-    "ds_Aggregate_Cumulative",
-    "ds_Medium_Solar",
-    "ds_Variable_PhotosyntheticallyActiveRadiation"
-  ],
-  "created_at": "2019-05-16T02:41:48.877Z",
-  "updated_at": "2019-05-16T02:46:53.071Z",
-  "version_id": "5cdccf1d2a42205891cbf77d",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "abbreviation": "µmol/m^2",
-        "label": "MicromolePerSquareMeter",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Cumulative",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      },
-      {
-        "label": "Solar",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "PhotosyntheticallyActiveRadiation",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "dt",
-        "tag_count": 1
-      },
-      {
-        "_id": "ds",
-        "tag_count": 3
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      },
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "3ee37f65f7025a6f3f6b4ddcc970955c9475c88a"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "a777bdf54dddf01d46e4c59d1c340afee26c3b57",
-      "scheme_id": "dt"
-    },
-    {
-      "key": "tag",
-      "str": "c2d45e9c531a3b4b9e8507162896ff06e7cb60c7",
-      "scheme_id": "ds"
-    }
-  ],
   "datapoints_config_built": [
     {
       "params": {
@@ -129,6 +38,44 @@
       "ends_before": "2200-02-02T00:00:00.000Z"
     }
   ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was l6_wsss PAR Total Flux"
+  "is_enabled": true,
+  "terms": {
+    "dt": {
+      "Unit": "MicromolePerSquareMeter"
+    },
+    "ds": {
+      "Aggregate": "Cumulative",
+      "Medium": "Solar",
+      "Variable": "PhotosyntheticallyActiveRadiation"
+    },
+    "dq": {
+      "Measurement": "PhotosyntheticallyActiveRadiation"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "external_refs": [
+    {
+      "identifier": " l6_wsss PAR Total Flux",
+      "type": "name_previous"
+    }
+  ],
+  "version_id": "5d68897a6f13dbadc6113640",
+  "updated_at": "2019-08-30T02:27:06.307Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:28:31.060Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_PhotosyntheticallyActiveRadiation",
+      "ds__Aggregate_Cumulative__Medium_Solar__Variable_PhotosyntheticallyActiveRadiation"
+    ],
+    "class_tags": [
+      "dq_Measurement_PhotosyntheticallyActiveRadiation",
+      "ds_Aggregate_Cumulative",
+      "ds_Medium_Solar",
+      "ds_Variable_PhotosyntheticallyActiveRadiation"
+    ],
+    "unit_tag": "dt_Unit_MicromolePerSquareMeter"
+  }
 }

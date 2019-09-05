@@ -1,7 +1,7 @@
 {
   "_id": "5ae87a4ffe27f4438c103031",
   "enabled": false,
-  "name": "Soil Temp Deg C 500 mm Jepson Min",
+  "name": "Soil Temp Deg C 500 mm Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -52,6 +52,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Soil Temp Deg C 500 mm Jepson Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -2,7 +2,7 @@
   "_id": "5ae879abfe27f47b6c102d6d",
   "description": "Data is always -9999 and is not associated with an actual instrument.  ",
   "enabled": false,
-  "name": "Precipitation 2nd gage unkown SNARL",
+  "name": "Precipitation 2nd gage unkown",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -52,6 +52,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Precipitation 2nd gage unkown SNARL",
+      "type": "name_previous"
     }
   ],
   "tags": [

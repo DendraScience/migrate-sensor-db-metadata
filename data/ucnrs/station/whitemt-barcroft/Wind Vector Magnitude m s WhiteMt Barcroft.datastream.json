@@ -2,7 +2,7 @@
   "_id": "5ae87ab0fe27f414931031df",
   "description": "",
   "enabled": true,
-  "name": "Wind Vector Magnitude m s WhiteMt Barcroft",
+  "name": "Wind Vector Magnitude m s",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -40,6 +40,10 @@
     {
       "identifier": "Wind Vector Magnitude MS",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Wind Vector Magnitude m s WhiteMt Barcroft",
+      "type": "name_previous"
     }
   ],
   "tags": [

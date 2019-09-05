@@ -2,7 +2,7 @@
   "_id": "5ae87a75fe27f479fb1030da",
   "description": "",
   "enabled": true,
-  "name": "Volumetric Water Content Per 100 mm horiz Motte Avg",
+  "name": "Volumetric Water Content Per 100 mm horiz Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Volumetric Water Content Per 100 mm horiz Motte Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

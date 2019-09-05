@@ -1,7 +1,7 @@
 {
   "_id": "5ae670d1199e4041cbcbc6d4",
   "enabled": true,
-  "name": "Soil Temp Deg C 50 mm Angelo Avg",
+  "name": "Soil Temp Deg C 50 mm Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Soil Temp Deg C 50 mm Angelo Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

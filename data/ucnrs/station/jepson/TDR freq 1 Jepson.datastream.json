@@ -1,7 +1,7 @@
 {
   "_id": "5ae87a59fe27f47840103061",
   "enabled": false,
-  "name": "TDR freq 1 Jepson",
+  "name": "TDR freq 1",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -52,6 +52,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "TDR freq 1 Jepson",
+      "type": "name_previous"
     }
   ],
   "tags": [

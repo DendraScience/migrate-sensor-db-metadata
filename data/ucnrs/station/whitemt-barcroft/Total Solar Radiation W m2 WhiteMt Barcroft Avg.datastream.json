@@ -2,7 +2,7 @@
   "_id": "5ae87a6dfe27f4004c1030b4",
   "description": "",
   "enabled": true,
-  "name": "Total Solar Radiation W m2 WhiteMt Barcroft Avg",
+  "name": "Total Solar Radiation W m2 Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -40,6 +40,10 @@
     {
       "identifier": "Solar Radiation Avg W/m^2",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Total Solar Radiation W m2 WhiteMt Barcroft Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

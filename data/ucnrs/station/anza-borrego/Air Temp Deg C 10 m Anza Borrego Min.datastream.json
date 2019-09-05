@@ -2,7 +2,7 @@
   "_id": "5ae87928fe27f44df8102b28",
   "description": "Temperature at 10 meters",
   "enabled": true,
-  "name": "Air Temp Deg C 10 m Anza Borrego Min",
+  "name": "Air Temp Deg C 10 m Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Air Temp Deg C 10 m Anza Borrego Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -1,6 +1,5 @@
 {
   "_id": "5ae87670fe27f491ae102803",
-  "enabled": false,
   "name": "Soil Moisture L2SM_6",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -52,86 +51,42 @@
     {
       "identifier": "Table202",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": " Soil Moisture L2SM_6",
+      "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Soil",
-    "ds_Variable_Moisture",
-    "dt_Unit_Millivolt"
-  ],
-  "created_at": "2018-07-01T23:05:39.734Z",
-  "updated_at": "2018-07-03T19:03:18.619Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Soil",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Moisture",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "mV",
-        "label": "Millivolt",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
+  "is_enabled": false,
+  "terms": {
+    "ds": {
+      "Medium": "Soil",
+      "Variable": "Moisture"
+    },
+    "dt": {
+      "Unit": "Millivolt"
+    },
+    "dq": {
+      "Measurement": "SoilMoisture"
+    }
   },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "b554b3f45aa618f5f3be7b38fb3aafe654da3097"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "2ceeaf76cac23ed4d1f78af864db7fb15a54c676",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "c3f3cc3ed0f4887a2f21485ac834d57e1352a99a",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was Soil Moisture L2SM_6"
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d6888fc6f13db70031134a3",
+  "updated_at": "2019-08-30T02:25:00.509Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:26:08.482Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_SoilMoisture",
+      "ds__Medium_Soil__Variable_Moisture"
+    ],
+    "class_tags": [
+      "dq_Measurement_SoilMoisture",
+      "ds_Medium_Soil",
+      "ds_Variable_Moisture"
+    ],
+    "unit_tag": "dt_Unit_Millivolt"
+  }
 }

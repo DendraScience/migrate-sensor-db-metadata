@@ -2,7 +2,7 @@
   "_id": "5ae87a33fe27f49ce6102fb3",
   "description": "Sensor is buried at 2 inches in horizontal position.  DRI field name at 4 inches is incorrect.",
   "enabled": true,
-  "name": "Soil Temp Deg C 50 mm Fort Ord Avg",
+  "name": "Soil Temp Deg C 50 mm Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Soil Temp Deg C 50 mm Fort Ord Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

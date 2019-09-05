@@ -2,7 +2,7 @@
   "_id": "5ae87a81fe27f42e83103114",
   "description": "",
   "enabled": true,
-  "name": "Wind Direction Deg Younger Avg",
+  "name": "Wind Direction Deg Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Wind Direction Deg Younger Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

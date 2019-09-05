@@ -2,7 +2,7 @@
   "_id": "5ae879dcfe27f40629102e4d",
   "description": "",
   "enabled": true,
-  "name": "Relative Humidity Per Santa Cruz Island Min",
+  "name": "Relative Humidity Per Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Relative Humidity Per Santa Cruz Island Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

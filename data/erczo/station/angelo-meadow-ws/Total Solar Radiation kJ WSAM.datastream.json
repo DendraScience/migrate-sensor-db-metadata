@@ -1,7 +1,6 @@
 {
   "_id": "5ae876f7fe27f40a73102a5d",
-  "description": "replaces \"Total Solar Radiation MJ WSAM\". unit change.original datastream name was Total Solar Radiation kJ WSAM",
-  "enabled": true,
+  "description": "replaces \"Total Solar Radiation MJ WSAM\". unit change.",
   "name": "Total Solar Radiation kJ",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -67,85 +66,42 @@
     {
       "identifier": "AR_RWS",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": " Total Solar Radiation kJ WSAM",
+      "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Solar",
-    "ds_Variable_Radiation",
-    "dt_Unit_KilojoulePerSquareMeter"
-  ],
-  "created_at": "2018-07-01T23:17:53.889Z",
-  "updated_at": "2018-07-03T19:03:40.203Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Solar",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Radiation",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "kJ/m^2",
-        "label": "KilojoulePerSquareMeter",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Solar",
+      "Variable": "Radiation"
+    },
+    "dt": {
+      "Unit": "KilojoulePerSquareMeter"
+    },
+    "dq": {
+      "Measurement": "SolarRadiation"
+    }
   },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "cccad7d9b78b139c0f014fb26123ff51bbf6d991"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "e3f5c6664ac344e64017855f42af5f173b9625ae",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "5dfd91f347c3f53f9dacf0ea0e59097e0dc2cf51",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d68888b6f13db638811331b",
+  "updated_at": "2019-08-30T02:23:07.677Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:23:33.904Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_SolarRadiation",
+      "ds__Medium_Solar__Variable_Radiation"
+    ],
+    "class_tags": [
+      "dq_Measurement_SolarRadiation",
+      "ds_Medium_Solar",
+      "ds_Variable_Radiation"
+    ],
+    "unit_tag": "dt_Unit_KilojoulePerSquareMeter"
+  }
 }

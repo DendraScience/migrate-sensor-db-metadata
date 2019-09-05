@@ -1,6 +1,5 @@
 {
   "_id": "5ae8743dfe27f4222410265f",
-  "enabled": true,
   "name": "Relative Humidity Max",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -66,86 +65,42 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": " Relative Humidity WSSM Max",
+      "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Air",
-    "ds_Variable_RelativeHumidity",
-    "dt_Unit_Percent"
-  ],
-  "created_at": "2018-07-01T22:58:33.510Z",
-  "updated_at": "2018-07-03T19:03:03.769Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Air",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "RelativeHumidity",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "%",
-        "label": "Percent",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Air",
+      "Variable": "RelativeHumidity"
+    },
+    "dt": {
+      "Unit": "Percent"
+    },
+    "dq": {
+      "Measurement": "RelativeHumidity"
+    }
   },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "8e65855d88dabaff4fe4f70fa0f3342e9b21ed2e"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "117d848dbde9ca5cb4c4fcf66be6e85dc2614e99",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "2734b26dc0ddea857c1c6f650f5735cc8bb660eb",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was Relative Humidity WSSM Max"
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d6889cb6f13db4c7d113763",
+  "updated_at": "2019-08-30T02:28:27.008Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:32:08.344Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_RelativeHumidity",
+      "ds__Medium_Air__Variable_RelativeHumidity"
+    ],
+    "class_tags": [
+      "dq_Measurement_RelativeHumidity",
+      "ds_Medium_Air",
+      "ds_Variable_RelativeHumidity"
+    ],
+    "unit_tag": "dt_Unit_Percent"
+  }
 }

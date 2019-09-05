@@ -65,6 +65,10 @@
     {
       "identifier": "Table1",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Leaf Wetness mV",
+      "type": "name_previous"
     }
   ],
   "description": "",
@@ -76,20 +80,25 @@
     "ds": {
       "Medium": "Leaf",
       "Variable": "Moisture"
+    },
+    "dq": {
+      "Measurement": "LeafWetness"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d64541d0322c642474e74e4",
-  "updated_at": "2019-08-26T21:50:21.812Z",
+  "version_id": "5d68899e5a3a94796990181c",
+  "updated_at": "2019-08-30T02:27:42.854Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:28:38.314Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
+      "dq__Measurement_LeafWetness",
       "ds__Medium_Leaf__Variable_Moisture"
     ],
     "class_tags": [
+      "dq_Measurement_LeafWetness",
       "ds_Medium_Leaf",
       "ds_Variable_Moisture"
     ],

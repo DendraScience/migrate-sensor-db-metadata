@@ -2,7 +2,7 @@
   "_id": "5ae87993fe27f477dd102d00",
   "description": "",
   "enabled": true,
-  "name": "Battery Voltage volts WhiteMt Barcroft Max",
+  "name": "Battery Voltage volts Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -40,6 +40,10 @@
     {
       "identifier": "Battery Voltage Max",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Battery Voltage volts WhiteMt Barcroft Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

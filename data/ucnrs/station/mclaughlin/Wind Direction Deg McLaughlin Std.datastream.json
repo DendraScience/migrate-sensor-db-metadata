@@ -1,7 +1,7 @@
 {
   "_id": "5ae87a7dfe27f494ad103100",
   "enabled": true,
-  "name": "Wind Direction Deg McLaughlin Std",
+  "name": "Wind Direction Deg Std",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -58,6 +58,10 @@
     {
       "identifier": "ucmc_mclaughlin",
       "type": "loggernet.station"
+    },
+    {
+      "identifier": "Wind Direction Deg McLaughlin Std",
+      "type": "name_previous"
     }
   ],
   "tags": [

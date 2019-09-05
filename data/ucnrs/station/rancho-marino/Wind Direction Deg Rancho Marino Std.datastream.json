@@ -2,7 +2,7 @@
   "_id": "5ae87a7dfe27f4df69103104",
   "description": "",
   "enabled": true,
-  "name": "Wind Direction Deg Rancho Marino Std",
+  "name": "Wind Direction Deg Std",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Wind Direction Deg Rancho Marino Std",
+      "type": "name_previous"
     }
   ],
   "tags": [

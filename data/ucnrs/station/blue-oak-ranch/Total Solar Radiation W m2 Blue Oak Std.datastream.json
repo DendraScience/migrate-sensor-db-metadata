@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Total Solar Radiation W m2 Blue Oak Std",
+      "type": "name_previous"
     }
   ],
   "tags": [

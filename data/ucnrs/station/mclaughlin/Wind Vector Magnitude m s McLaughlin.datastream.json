@@ -1,7 +1,7 @@
 {
   "_id": "5ae87aaffe27f4353f1031d8",
   "enabled": true,
-  "name": "Wind Vector Magnitude m s McLaughlin",
+  "name": "Wind Vector Magnitude m s",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -58,6 +58,10 @@
     {
       "identifier": "ucmc_mclaughlin",
       "type": "loggernet.station"
+    },
+    {
+      "identifier": "Wind Vector Magnitude m s McLaughlin",
+      "type": "name_previous"
     }
   ],
   "tags": [

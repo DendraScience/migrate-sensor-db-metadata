@@ -1,7 +1,7 @@
 {
   "_id": "5a78e901f55c4b0001ed025a",
   "station_id": "5a37e71ba546db0001547681",
-  "name": "Logger Panel Temp Deg C Quail Ridge Avg",
+  "name": "Logger Panel Temp Deg C Avg",
   "source_type": "sensor",
   "state": "ready",
   "enabled": true,
@@ -122,5 +122,11 @@
     }
   ],
   "_include": [],
-  "organization_id": "58db17c424dc720001671378"
+  "organization_id": "58db17c424dc720001671378",
+  "external_refs": [
+    {
+      "identifier": "Logger Panel Temp Deg C Quail Ridge Avg",
+      "type": "name_previous"
+    }
+  ]
 }

@@ -1,8 +1,7 @@
 {
   "_id": "5ae8742efe27f4143610261a",
   "derivation_description": "Derived Cumulative Rainfall",
-  "description": "Originally this datastream was converted from cumulative rain inches, which is computed on the datalogger. In Oct 2014 I changed it because the datalogger is not rolling over on the new water year. It is now accumulated from rainfall mm, which is in turn derived from rainfall inches. - G.O. 10/29/2014original datastream name was Rainfall Cumulative mm WSSM",
-  "enabled": true,
+  "description": "Originally this datastream was converted from cumulative rain inches, which is computed on the datalogger. In Oct 2014 I changed it because the datalogger is not rolling over on the new water year. It is now accumulated from rainfall mm, which is in turn derived from rainfall inches. - G.O. 10/29/2014",
   "name": "Rainfall Cumulative mm",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -53,99 +52,47 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": " Rainfall Cumulative mm WSSM",
+      "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Water",
-    "ds_Variable_Precipitation",
-    "dt_Unit_Millimeter",
-    "ds_Aggregate_Cumulative"
-  ],
-  "created_at": "2018-07-01T22:56:41.250Z",
-  "updated_at": "2018-07-03T19:03:01.398Z",
   "derived_from_datastream_ids": [
     "5ae87438fe27f404a3102646"
   ],
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Precipitation",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Height",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "mm",
-        "label": "Millimeter",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Cumulative",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 3
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "8e65855d88dabaff4fe4f70fa0f3342e9b21ed2e"
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Water",
+      "Variable": "Precipitation",
+      "Aggregate": "Cumulative"
     },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "dt": {
+      "Unit": "Millimeter"
     },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "04f5587b5d2fd49636f4ef115a40c0d02bfa4a78",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "b0c7386b883ea89804e8613181308a0d15033964",
-      "scheme_id": "dt"
+    "dq": {
+      "Measurement": "Rainfall"
     }
-  ],
-  "_include": []
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d6889c95a3a94958d9018ad",
+  "updated_at": "2019-08-30T02:28:25.563Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:32:05.744Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_Rainfall",
+      "ds__Aggregate_Cumulative__Medium_Water__Variable_Precipitation"
+    ],
+    "class_tags": [
+      "dq_Measurement_Rainfall",
+      "ds_Aggregate_Cumulative",
+      "ds_Medium_Water",
+      "ds_Variable_Precipitation"
+    ],
+    "unit_tag": "dt_Unit_Millimeter"
+  }
 }

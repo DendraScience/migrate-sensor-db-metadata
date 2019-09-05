@@ -2,7 +2,7 @@
   "_id": "5ae8792ffe27f4800f102b48",
   "description": "Temperature at 10 meters",
   "enabled": true,
-  "name": "Air Temp Deg C 10 m Santa Cruz Island Avg",
+  "name": "Air Temp Deg C 10 m Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Air Temp Deg C 10 m Santa Cruz Island Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

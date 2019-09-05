@@ -2,7 +2,7 @@
   "_id": "5ae87a0ffe27f4632c102f1f",
   "description": "",
   "enabled": true,
-  "name": "Soil Temp Deg C 100 mm SNARL Min",
+  "name": "Soil Temp Deg C 100 mm Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Soil Temp Deg C 100 mm SNARL Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

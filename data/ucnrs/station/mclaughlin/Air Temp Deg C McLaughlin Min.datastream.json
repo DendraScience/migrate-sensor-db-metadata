@@ -1,7 +1,7 @@
 {
   "_id": "5ae87952fe27f4e4d2102bdd",
   "enabled": true,
-  "name": "Air Temp Deg C McLaughlin Min",
+  "name": "Air Temp Deg C Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -58,6 +58,10 @@
     {
       "identifier": "ucmc_mclaughlin",
       "type": "loggernet.station"
+    },
+    {
+      "identifier": "Air Temp Deg C McLaughlin Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

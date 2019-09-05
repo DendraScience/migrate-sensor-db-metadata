@@ -1,7 +1,7 @@
 {
   "_id": "5ae87a81fe27f43f1b103116",
   "enabled": true,
-  "name": "Wind Gust m s 100 ft Sagehen Creek Max",
+  "name": "Wind Gust m s 100 ft Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -51,6 +51,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Wind Gust m s 100 ft Sagehen Creek Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

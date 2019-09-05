@@ -1,4 +1,5 @@
 {
+  "_id": "5d488fcb3883cb0158af550a",
   "is_enabled": true,
   "name": "Air Temperature airtc2avg",
   "organization_id": "58db17e824dc720001671379",
@@ -29,25 +30,35 @@
       "Aggregate": "Average",
       "Medium": "Air",
       "Variable": "Temperature"
+    },
+    "dq": {
+      "Measurement": "AirTemperature"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "created_at": "2019-08-05T20:21:31.134Z",
-  "updated_at": "2019-08-05T20:21:31.134Z",
-  "created_by": "5cdd9abda6fa68f95479675b",
+  "external_refs": [
+    {
+      "identifier": "Air Temperature airtc2avg",
+      "type": "name_previous"
+    }
+  ],
+  "version_id": "5d68895e6f13db61d21135e5",
+  "updated_at": "2019-08-30T02:26:38.908Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
-  "version_id": "5d488fcb3883cb93c3af5509",
+  "created_at": "2019-08-05T20:21:31.134Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
+      "dq__Measurement_AirTemperature",
       "ds__Aggregate_Average__Medium_Air__Variable_Temperature"
     ],
     "class_tags": [
+      "dq_Measurement_AirTemperature",
       "ds_Aggregate_Average",
       "ds_Medium_Air",
       "ds_Variable_Temperature"
     ],
     "unit_tag": "dt_Unit_DegreeCelsius"
-  },
-  "_id": "5d488fcb3883cb0158af550a"
+  }
 }

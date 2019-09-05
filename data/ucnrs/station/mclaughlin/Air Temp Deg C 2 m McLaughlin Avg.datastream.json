@@ -2,7 +2,7 @@
   "_id": "5ae87937fe27f44b60102b6e",
   "description": "Temperature at 2 meters",
   "enabled": true,
-  "name": "Air Temp Deg C 2 m McLaughlin Avg",
+  "name": "Air Temp Deg C 2 m Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -59,6 +59,10 @@
     {
       "identifier": "ucmc_mclaughlin",
       "type": "loggernet.station"
+    },
+    {
+      "identifier": "Air Temp Deg C 2 m McLaughlin Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

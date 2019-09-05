@@ -1,7 +1,7 @@
 {
   "_id": "5a78e901f55c4b0001ed0250",
   "station_id": "5a37e71ba546db0001547681",
-  "name": "Air Temp Deg C Quail Ridge Max",
+  "name": "Air Temp Deg C Max",
   "source_type": "sensor",
   "state": "ready",
   "enabled": true,
@@ -112,5 +112,11 @@
     }
   ],
   "_include": [],
-  "organization_id": "58db17c424dc720001671378"
+  "organization_id": "58db17c424dc720001671378",
+  "external_refs": [
+    {
+      "identifier": "Air Temp Deg C Quail Ridge Max",
+      "type": "name_previous"
+    }
+  ]
 }

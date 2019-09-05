@@ -1,7 +1,7 @@
 {
   "_id": "5ae8799dfe27f414d8102d29",
   "enabled": true,
-  "name": "Enclosure RH Per Younger",
+  "name": "Enclosure RH Per",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -51,6 +51,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Enclosure RH Per Younger",
+      "type": "name_previous"
     }
   ],
   "tags": [

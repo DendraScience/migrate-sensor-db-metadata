@@ -1,7 +1,7 @@
 {
   "_id": "5ae87a98fe27f4219910317e",
   "enabled": true,
-  "name": "Wind Speed m s Fort Ord Avg",
+  "name": "Wind Speed m s Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Wind Speed m s Fort Ord Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

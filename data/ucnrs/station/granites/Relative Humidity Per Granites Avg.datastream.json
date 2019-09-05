@@ -2,7 +2,7 @@
   "_id": "5ae879d1fe27f46189102e1d",
   "description": "",
   "enabled": true,
-  "name": "Relative Humidity Per Granites Avg",
+  "name": "Relative Humidity Per Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Relative Humidity Per Granites Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -2,7 +2,7 @@
   "_id": "5ae87a59fe27f46b2a103060",
   "description": "Echo retired on May 2, 2017 and replaced with a CS616",
   "enabled": false,
-  "name": "TDR freq 1 James RETIRED",
+  "name": "TDR freq 1 RETIRED",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -53,6 +53,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "TDR freq 1 James RETIRED",
+      "type": "name_previous"
     }
   ],
   "tags": [

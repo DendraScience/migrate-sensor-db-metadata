@@ -1,7 +1,7 @@
 {
   "_id": "5ae879c2fe27f41cd3102dd9",
   "enabled": true,
-  "name": "Rain Gage Temp Deg C Sedgwick",
+  "name": "Rain Gage Temp Deg C",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Rain Gage Temp Deg C Sedgwick",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -2,7 +2,7 @@
   "_id": "5ae8792afe27f4450f102b33",
   "description": "Temperature at 10 meters",
   "enabled": true,
-  "name": "Air Temp Deg C 10 m Elliott Max",
+  "name": "Air Temp Deg C 10 m Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Air Temp Deg C 10 m Elliott Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

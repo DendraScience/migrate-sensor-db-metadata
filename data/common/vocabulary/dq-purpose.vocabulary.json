@@ -1,0 +1,26 @@
+{
+  "_id": "dq-purpose",
+  "label": "Purpose",
+  "scheme_id": "dq",
+  "terms": [
+    {
+      "label": "Raw"
+    },
+    {
+      "label": "ReadytoUse",
+      "name": "Ready to Use"
+    },
+    {
+      "label": "StatusInformation",
+      "name": "Status Information"
+    }
+  ],
+  "is_enabled": true,
+  "vocabulary_type": "class",
+  "is_hidden": false,
+  "version_id": "5d6fd7e95a3a948b61901932",
+  "updated_at": "2019-09-04T15:27:37.325Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-09-03T23:17:36.379Z",
+  "created_by": "5cdd9abda6fa68f95479675b"
+}

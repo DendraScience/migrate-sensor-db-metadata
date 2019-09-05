@@ -1,7 +1,7 @@
 {
   "_id": "5ae8799dfe27f427a9102d2a",
   "enabled": true,
-  "name": "Fuel Moisture Per James Avg",
+  "name": "Fuel Moisture Per Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Fuel Moisture Per James Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

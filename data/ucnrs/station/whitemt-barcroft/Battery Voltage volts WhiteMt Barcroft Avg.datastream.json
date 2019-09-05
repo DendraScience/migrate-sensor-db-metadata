@@ -2,7 +2,7 @@
   "_id": "5ae87993fe27f46321102cff",
   "description": "",
   "enabled": true,
-  "name": "Battery Voltage volts WhiteMt Barcroft Avg",
+  "name": "Battery Voltage volts Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -40,6 +40,10 @@
     {
       "identifier": "Battery Voltage Avg",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Battery Voltage volts WhiteMt Barcroft Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

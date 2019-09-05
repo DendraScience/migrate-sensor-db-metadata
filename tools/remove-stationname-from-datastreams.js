@@ -12,9 +12,9 @@ tr = require("./transform_functions.js")
 path = require("path")
 
 // parameters
-orgs = ["erczo"]  // ["erczo","ucnrs"]
+orgs = ["erczo","ucnrs"]
 path_root = "../data/"
-test_root = "../compost/data/"
+//path_root = "../compost/data/" // test_root
 
 // Station Names list: ways the station is named in datastreams
 sname_list = JSON.parse(fs.readFileSync("remove-stationname-from-datastreams.json"))
@@ -82,13 +82,22 @@ for (var i=0; i<orgs.length;i++) {
 				if(regex_part.test(ds_json.description)) {
 					descript = ds_json.description.split("original datastream name was")[0]
 					oldname = ds_json.description.split("original datastream name was")[1]
-					ds_json.description = descript
+					if(typeof descript === 'undefined') {
+						delete ds_json.description
+					} else {
+						ds_json.description = descript
+					}
 					console.log("\t\t fixed description. oldname:",oldname)
 				} else {
 					console.log("\t\t description clean. continuing...")
 				}
 			} else {
 				console.log("\t\t no description. continuing...")
+			}
+
+			// Remove Description if it only has "undefined" in it.
+			if(ds_json.description == "undefined") {
+				delete ds_json.description
 			}
 
 			// Archive Old Name in external references
@@ -100,8 +109,8 @@ for (var i=0; i<orgs.length;i++) {
 
 			// Write back to file
 			ds_json_string = JSON.stringify(ds_json,null,2)
-			//fs.writeFileSync(ds_path+ds_filename,ds_json_string,'utf-8')
-			//console.log(ds_path+ds_filename)
+			fs.writeFileSync(ds_path+ds_filename,ds_json_string,'utf-8')
+			console.log(ds_path+ds_filename)
 		}
 	}
 }

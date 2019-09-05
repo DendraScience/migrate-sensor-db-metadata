@@ -2,7 +2,7 @@
   "_id": "5ae8799ffe27f4cc4a102d36",
   "description": "",
   "enabled": true,
-  "name": "PAR um m2 Angelo Max",
+  "name": "PAR um m2 Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "PAR um m2 Angelo Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

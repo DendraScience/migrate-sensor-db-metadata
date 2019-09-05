@@ -1,7 +1,7 @@
 {
   "_id": "5ae87a84fe27f49eb2103122",
   "enabled": true,
-  "name": "Wind Gust m s Fort Ord Max",
+  "name": "Wind Gust m s Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Wind Gust m s Fort Ord Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

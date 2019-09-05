@@ -1,6 +1,6 @@
 {
   "_id": "5ae87ab2fe27f42fd11031e7",
-  "enabled": true,
+  "enabled": false,
   "name": "YEAR White Mt Crooked",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -39,6 +39,10 @@
     {
       "identifier": "Unknown",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "YEAR White Mt Crooked",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -126,7 +126,9 @@ exports.get_tag = function(dt_json,tag_prefix) {
       return dt_json.terms.ds.Variable
     } else if(regex_prefix.test("Measurement")) {
       return dt_json.terms.dq.Measurement
-    } 
+    } else if(regex_prefix.test("DataPurpose")) {
+      return dt_json.terms.dq.DataPurpose
+    }  
   } else {
     for(var k=0;k<dt_json.tags.length;k++) {
       //console.log("tag test:",tag_prefix,"=?=",dt_json.tags[k])

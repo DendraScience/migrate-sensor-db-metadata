@@ -1,6 +1,5 @@
 {
   "_id": "5ae87721fe27f4051d102b1a",
-  "enabled": true,
   "name": "Wind Speed mph Stdev",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -66,97 +65,44 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": " Wind Speed mph WSSM  Stdev",
+      "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Air",
-    "ds_Variable_Speed",
-    "dt_Unit_MilePerHour",
-    "ds_Aggregate_StandardDeviation"
-  ],
-  "created_at": "2018-07-01T23:20:50.395Z",
-  "updated_at": "2018-07-03T19:03:46.383Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Air",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Speed",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "mi/hr",
-        "label": "MilePerHour",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "StandardDeviation",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 3
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      }
-    ]
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Air",
+      "Variable": "Speed",
+      "Aggregate": "StandardDeviation"
+    },
+    "dt": {
+      "Unit": "MilePerHour"
+    },
+    "dq": {
+      "Measurement": "WindSpeed"
+    }
   },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "8e65855d88dabaff4fe4f70fa0f3342e9b21ed2e"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "3766c6f38700defc86ff74a55a9fa1311b27c630",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "fb5cb5e343b3026658ca95f5a4c87342cb047508",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was Wind Speed mph WSSM  Stdev"
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d6889d26f13db5ad9113779",
+  "updated_at": "2019-08-30T02:28:34.940Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:32:23.237Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_WindSpeed",
+      "ds__Aggregate_StandardDeviation__Medium_Air__Variable_Speed"
+    ],
+    "class_tags": [
+      "dq_Measurement_WindSpeed",
+      "ds_Aggregate_StandardDeviation",
+      "ds_Medium_Air",
+      "ds_Variable_Speed"
+    ],
+    "unit_tag": "dt_Unit_MilePerHour"
+  }
 }

@@ -2,7 +2,7 @@
   "_id": "5ae8796bfe27f4d8ed102c4a",
   "description": "",
   "enabled": true,
-  "name": "Air Temp Delta Deg C 10m-2m SNARL Max",
+  "name": "Air Temp Delta Deg C 10m2m Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -76,6 +76,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Air Temp Delta Deg C 10m-2m SNARL Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

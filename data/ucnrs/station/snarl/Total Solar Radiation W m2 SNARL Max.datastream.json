@@ -2,7 +2,7 @@
   "_id": "5ae87a6cfe27f4ec4e1030b0",
   "description": "",
   "enabled": true,
-  "name": "Total Solar Radiation W m2 SNARL Max",
+  "name": "Total Solar Radiation W m2 Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Total Solar Radiation W m2 SNARL Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

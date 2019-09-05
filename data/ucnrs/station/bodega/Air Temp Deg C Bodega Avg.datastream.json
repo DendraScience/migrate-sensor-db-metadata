@@ -2,7 +2,7 @@
   "_id": "5ae87946fe27f410dd102ba7",
   "description": "Swapped older HMP50 with newer HMP60 on 11-07-2013, by Grant Susner.",
   "enabled": true,
-  "name": "Air Temp Deg C Bodega Avg",
+  "name": "Air Temp Deg C Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Air Temp Deg C Bodega Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

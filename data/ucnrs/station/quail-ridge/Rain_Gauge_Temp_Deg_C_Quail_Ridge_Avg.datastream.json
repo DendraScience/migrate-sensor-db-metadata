@@ -1,7 +1,7 @@
 {
   "_id": "5a78e901f55c4b0001ed0260",
   "station_id": "5a37e71ba546db0001547681",
-  "name": "Rain Gage Temp Deg C Quail Ridge Avg",
+  "name": "Rain Gage Temp Deg C Avg",
   "source_type": "sensor",
   "state": "ready",
   "enabled": true,
@@ -9,6 +9,10 @@
     {
       "identifier": "5a37e71ba546db0001547681",
       "type": "dendra.datastreams"
+    },
+    {
+      "identifier": "Rain Gage Temp Deg C Quail Ridge Avg",
+      "type": "name_previous"
     }
   ],
   "datapoints_config": [

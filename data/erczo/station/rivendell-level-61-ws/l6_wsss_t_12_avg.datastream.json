@@ -1,4 +1,5 @@
 {
+  "_id": "5d488feb02e4cd9d8f9c2bf8",
   "is_enabled": true,
   "name": "Soil Temperature t12avg",
   "organization_id": "58db17e824dc720001671379",
@@ -29,25 +30,35 @@
       "Aggregate": "Average",
       "Medium": "Soil",
       "Variable": "Temperature"
+    },
+    "dq": {
+      "Measurement": "SoilTemperature"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "created_at": "2019-08-05T20:22:03.274Z",
-  "updated_at": "2019-08-05T20:22:03.274Z",
-  "created_by": "5cdd9abda6fa68f95479675b",
+  "external_refs": [
+    {
+      "identifier": "Soil Temperature t12avg",
+      "type": "name_previous"
+    }
+  ],
+  "version_id": "5d6889826f13db2015113664",
+  "updated_at": "2019-08-30T02:27:14.224Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
-  "version_id": "5d488feb02e4cd82689c2bf7",
+  "created_at": "2019-08-05T20:22:03.274Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
+      "dq__Measurement_SoilTemperature",
       "ds__Aggregate_Average__Medium_Soil__Variable_Temperature"
     ],
     "class_tags": [
+      "dq_Measurement_SoilTemperature",
       "ds_Aggregate_Average",
       "ds_Medium_Soil",
       "ds_Variable_Temperature"
     ],
     "unit_tag": "dt_Unit_DegreeCelsius"
-  },
-  "_id": "5d488feb02e4cd9d8f9c2bf8"
+  }
 }

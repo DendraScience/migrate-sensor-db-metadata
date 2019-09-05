@@ -2,7 +2,7 @@
   "_id": "5ae87a5efe27f48cb5103076",
   "description": "",
   "enabled": true,
-  "name": "Total Solar Radiation W m2 BigCreek Gatehouse Min",
+  "name": "Total Solar Radiation W m2 Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Total Solar Radiation W m2 BigCreek Gatehouse Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

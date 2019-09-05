@@ -2,7 +2,7 @@
   "_id": "5ae87a76fe27f47d181030e0",
   "description": "Derived value from cs616 frequency.",
   "enabled": true,
-  "name": "Volumetric Water Content Per 50 mm vertical Fort Ord",
+  "name": "Volumetric Water Content Per 50 mm vertical",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Volumetric Water Content Per 50 mm vertical Fort Ord",
+      "type": "name_previous"
     }
   ],
   "tags": [

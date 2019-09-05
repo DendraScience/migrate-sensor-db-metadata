@@ -1,6 +1,5 @@
 {
   "_id": "5ae87466fe27f4449010271c",
-  "enabled": true,
   "name": "Sleeve Elec Conductivity A3",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -66,12 +65,11 @@
     {
       "identifier": "VMS",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": " Sleeve Elec Conductivity VMS_A3",
+      "type": "name_previous"
     }
-  ],
-  "tags": [
-    "ds_Medium_Rock",
-    "ds_Variable_Moisture",
-    "dt_Unit_DecisiemenPerMeter"
   ],
   "attributes": {
     "depth": {
@@ -82,86 +80,36 @@
       ]
     }
   },
-  "created_at": "2018-07-01T23:02:10.727Z",
-  "updated_at": "2018-07-03T19:03:10.150Z",
-  "attributes_info": {
-    "sort": {
-      "value1": 5.1,
-      "value2": 0.20000000000000018
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Rock",
+      "Variable": "Moisture"
     },
-    "text": "5.1...5.3"
-  },
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Rock",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Moisture",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "dS/m",
-        "label": "DecisiemenPerMeter",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "10b86d74fd75403e350e747a02115ec7510bc857"
+    "dt": {
+      "Unit": "DecisiemenPerMeter"
     },
-    {
-      "key": "att",
-      "str": "c3744b6e344a913197f8c5b12740dc217454c608"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "abb89e0bf3da5cee4e0a271d1df9e219f6c4daae",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "2d62a3bb4fd803b3c117e4e9f31b9cab8d6b4d6f",
-      "scheme_id": "dt"
+    "dq": {
+      "Measurement": "RockMoisture"
     }
-  ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was Sleeve Elec Conductivity VMS_A3"
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d6889e65a3a9479b490190d",
+  "updated_at": "2019-08-30T02:28:54.088Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:32:58.739Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_RockMoisture",
+      "ds__Medium_Rock__Variable_Moisture"
+    ],
+    "class_tags": [
+      "dq_Measurement_RockMoisture",
+      "ds_Medium_Rock",
+      "ds_Variable_Moisture"
+    ],
+    "unit_tag": "dt_Unit_DecisiemenPerMeter"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "_id": "5a78e903f55c4b0001ed027f",
   "station_id": "5a37e71ba546db0001547681",
-  "name": "Wind Speed Vectored ms Quail Ridge Avg",
+  "name": "Wind Speed Vectored ms Avg",
   "source_type": "sensor",
   "state": "ready",
   "enabled": true,
@@ -137,5 +137,11 @@
     }
   ],
   "_include": [],
-  "organization_id": "58db17c424dc720001671378"
+  "organization_id": "58db17c424dc720001671378",
+  "external_refs": [
+    {
+      "identifier": "Wind Speed Vectored ms Quail Ridge Avg",
+      "type": "name_previous"
+    }
+  ]
 }

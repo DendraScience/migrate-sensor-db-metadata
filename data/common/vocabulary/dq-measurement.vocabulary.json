@@ -1,0 +1,179 @@
+{
+  "_id": "dq-measurement",
+  "label": "Measurement",
+  "scheme_id": "dq",
+  "terms": [
+    {
+      "label": "AirTemperature",
+      "name": "Air Temperature"
+    },
+    {
+      "label": "BarometricPressure",
+      "name": "Barometric Pressure"
+    },
+    {
+      "label": "BatteryVoltage",
+      "name": "Battery Voltage"
+    },
+    {
+      "label": "Discharge",
+      "name": "Discharge"
+    },
+    {
+      "label": "ElectricalConductivity",
+      "name": "Electrical Conductivity"
+    },
+    {
+      "label": "EnclosureRelativeHumidity",
+      "name": "Enclosure Relative Humidity"
+    },
+    {
+      "label": "FuelMoisture",
+      "name": "Fuel Moisture"
+    },
+    {
+      "label": "Hail",
+      "name": "Hail"
+    },
+    {
+      "label": "InstrumentTemperature",
+      "name": "Instrument Temperature"
+    },
+    {
+      "label": "InstrumentVoltage",
+      "name": "Instrument Voltage"
+    },
+    {
+      "label": "LeafWetness",
+      "name": "Leaf Wetness"
+    },
+    {
+      "label": "LightningStrikes",
+      "name": "Lightning Strikes"
+    },
+    {
+      "label": "LightningStrikeDistance",
+      "name": "Lightning Strike Distance"
+    },
+    {
+      "label": "Permittivity",
+      "name": "Permittivity"
+    },
+    {
+      "label": "PhotosyntheticallyActiveRadiation",
+      "name": "Photosynthetically Active Radiation"
+    },
+    {
+      "label": "RadioSignalStrength",
+      "name": "Radio Signal Strength"
+    },
+    {
+      "label": "Rainfall",
+      "name": "Rainfall"
+    },
+    {
+      "label": "RelativeHumidity",
+      "name": "Relative Humidity"
+    },
+    {
+      "label": "Resistance",
+      "name": "Resistance"
+    },
+    {
+      "label": "RockMoisture",
+      "name": "Rock Moisture"
+    },
+    {
+      "label": "RockTemperature",
+      "name": "Rock Temperature"
+    },
+    {
+      "label": "SapFlow",
+      "name": "Sap Flow"
+    },
+    {
+      "label": "SapFlowHeaterVoltage",
+      "name": "Sap Flow Heater Voltage"
+    },
+    {
+      "label": "SapFlowPeriod",
+      "name": "Sap Flow Period"
+    },
+    {
+      "label": "SapFlowTemperature",
+      "name": "Sap Flow Temperature"
+    },
+    {
+      "label": "SkyQuality",
+      "name": "Sky Quality"
+    },
+    {
+      "label": "SnowDepth",
+      "name": "Snow Depth"
+    },
+    {
+      "label": "SnowTemperature",
+      "name": "Snow Temperature"
+    },
+    {
+      "label": "SoilMoisture",
+      "name": "Soil Moisture"
+    },
+    {
+      "label": "SoilMoisturePeriod",
+      "name": "Soil Moisture Period"
+    },
+    {
+      "label": "SoilTemperature",
+      "name": "Soil Temperature"
+    },
+    {
+      "label": "SolarRadiation",
+      "name": "Solar Radiation"
+    },
+    {
+      "label": "StreamStage",
+      "name": "Stream Stage"
+    },
+    {
+      "label": "Turbidity",
+      "name": "Turbidity"
+    },
+    {
+      "label": "VolumetricWaterContent",
+      "name": "Volumetric Water Content"
+    },
+    {
+      "label": "WaterPressure",
+      "name": "Water Pressure"
+    },
+    {
+      "label": "WaterTemperature",
+      "name": "Water Temperature"
+    },
+    {
+      "label": "WellDepth",
+      "name": "Well Depth"
+    },
+    {
+      "label": "WellLevel",
+      "name": "Well Level"
+    },
+    {
+      "label": "WindDirection",
+      "name": "Wind Direction"
+    },
+    {
+      "label": "WindSpeed",
+      "name": "Wind Speed"
+    }
+  ],
+  "is_enabled": true,
+  "vocabulary_type": "class",
+  "is_hidden": false,
+  "version_id": "5d6ffb996f13dbc1511137e6",
+  "updated_at": "2019-09-04T17:59:53.633Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-08-27T22:43:47.677Z",
+  "created_by": "5cdd9abda6fa68f95479675b"
+}

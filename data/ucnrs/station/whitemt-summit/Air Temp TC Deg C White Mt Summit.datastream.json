@@ -39,6 +39,10 @@
     {
       "identifier": "Air Temp C",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Air Temp TC Deg C White Mt Summit",
+      "type": "name_previous"
     }
   ],
   "tags": [

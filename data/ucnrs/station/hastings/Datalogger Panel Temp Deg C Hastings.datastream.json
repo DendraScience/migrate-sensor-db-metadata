@@ -2,7 +2,7 @@
   "_id": "5ae87999fe27f43cf1102d19",
   "description": "",
   "enabled": true,
-  "name": "Datalogger Panel Temp Deg C Hastings",
+  "name": "Datalogger Panel Temp Deg C",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Datalogger Panel Temp Deg C Hastings",
+      "type": "name_previous"
     }
   ],
   "tags": [

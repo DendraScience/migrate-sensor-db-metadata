@@ -2,7 +2,7 @@
   "_id": "5ae87995fe27f49d74102d0a",
   "description": "",
   "enabled": true,
-  "name": "Battery Voltage volts Younger Min",
+  "name": "Battery Voltage volts Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Battery Voltage volts Younger Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

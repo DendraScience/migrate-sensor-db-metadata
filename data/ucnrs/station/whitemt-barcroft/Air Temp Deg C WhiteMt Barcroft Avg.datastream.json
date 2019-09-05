@@ -2,7 +2,7 @@
   "_id": "5ae8795cfe27f4c5ab102c09",
   "description": "",
   "enabled": true,
-  "name": "Air Temp Deg C WhiteMt Barcroft Avg",
+  "name": "Air Temp Deg C Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -40,6 +40,10 @@
     {
       "identifier": "Air Temp C Avg",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Air Temp Deg C WhiteMt Barcroft Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

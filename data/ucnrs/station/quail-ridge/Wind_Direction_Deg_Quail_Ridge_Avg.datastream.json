@@ -1,7 +1,7 @@
 {
   "_id": "5a78e902f55c4b0001ed0279",
   "station_id": "5a37e71ba546db0001547681",
-  "name": "Wind Direction Deg Quail Ridge Avg",
+  "name": "Wind Direction Deg Avg",
   "source_type": "sensor",
   "state": "ready",
   "enabled": true,
@@ -112,5 +112,11 @@
     }
   ],
   "_include": [],
-  "organization_id": "58db17c424dc720001671378"
+  "organization_id": "58db17c424dc720001671378",
+  "external_refs": [
+    {
+      "identifier": "Wind Direction Deg Quail Ridge Avg",
+      "type": "name_previous"
+    }
+  ]
 }

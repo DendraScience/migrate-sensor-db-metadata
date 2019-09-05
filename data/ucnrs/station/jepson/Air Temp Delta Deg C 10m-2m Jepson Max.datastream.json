@@ -1,7 +1,7 @@
 {
   "_id": "5ae87967fe27f413f7102c38",
   "enabled": false,
-  "name": "Air Temp Delta Deg C 10m-2m Jepson Max",
+  "name": "Air Temp Delta Deg C 10m2m Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -61,6 +61,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Air Temp Delta Deg C 10m-2m Jepson Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

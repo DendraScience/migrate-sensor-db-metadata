@@ -1,4 +1,5 @@
 {
+  "_id": "5d488fd03883cb6095af551c",
   "is_enabled": true,
   "name": "Soil ElectricalConductivity ec10",
   "organization_id": "58db17e824dc720001671379",
@@ -28,24 +29,34 @@
     "ds": {
       "Medium": "Soil",
       "Variable": "ElectricalConductivity"
+    },
+    "dq": {
+      "Measurement": "ElectricalConductivity"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "created_at": "2019-08-05T20:21:36.646Z",
-  "updated_at": "2019-08-05T20:21:36.646Z",
-  "created_by": "5cdd9abda6fa68f95479675b",
+  "external_refs": [
+    {
+      "identifier": "Soil ElectricalConductivity ec10",
+      "type": "name_previous"
+    }
+  ],
+  "version_id": "5d6889645a3a94be45901748",
+  "updated_at": "2019-08-30T02:26:44.832Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
-  "version_id": "5d488fd03883cb21e1af551b",
+  "created_at": "2019-08-05T20:21:36.646Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
+      "dq__Measurement_ElectricalConductivity",
       "ds__Medium_Soil__Variable_ElectricalConductivity"
     ],
     "class_tags": [
+      "dq_Measurement_ElectricalConductivity",
       "ds_Medium_Soil",
       "ds_Variable_ElectricalConductivity"
     ],
     "unit_tag": "dt_Unit_DecisiemenPerMeter"
-  },
-  "_id": "5d488fd03883cb6095af551c"
+  }
 }

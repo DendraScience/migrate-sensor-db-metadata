@@ -2,7 +2,7 @@
   "_id": "5ae87a67fe27f4a45210309a",
   "description": "",
   "enabled": true,
-  "name": "Total Solar Radiation W m2 McLaughlin Avg",
+  "name": "Total Solar Radiation W m2 Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -59,6 +59,10 @@
     {
       "identifier": "ucmc_mclaughlin",
       "type": "loggernet.station"
+    },
+    {
+      "identifier": "Total Solar Radiation W m2 McLaughlin Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

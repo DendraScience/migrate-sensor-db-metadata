@@ -1,7 +1,7 @@
 {
   "_id": "5a78e901f55c4b0001ed025e",
   "station_id": "5a37e71ba546db0001547681",
-  "name": "Precipitation mm Quail Ridge Cumulative Test",
+  "name": "Precipitation mm Cumulative Test",
   "source_type": "sensor",
   "state": "ready",
   "enabled": false,
@@ -9,6 +9,10 @@
     {
       "identifier": "5a37e71ba546db0001547681",
       "type": "dendra.datastreams"
+    },
+    {
+      "identifier": "Precipitation mm Quail Ridge Cumulative Test",
+      "type": "name_previous"
     }
   ],
   "datapoints_config": [
@@ -42,11 +46,11 @@
       "path": "/influx/select"
     }
   ],
-  "description": "Continuously accumulating precipiation. Troubleshooting purposes only.",
+  "description": "Continuously accumulating precipitation. Troubleshooting purposes only.",
   "tags": [
     "ds_Aggregate_Cumulative",
-    "ds_Medium_Instrument",
-    "ds_Variable_Height",
+    "ds_Medium_Water",
+    "ds_Variable_Precipitation",
     "dt_Unit_Millimeter"
   ],
   "created_at": "2018-05-01T14:25:49.922Z",

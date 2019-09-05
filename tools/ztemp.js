@@ -1,5 +1,5 @@
 fs = require("fs")
-dq_path = "../data/common/vocabulary/dq-measurement.json"
+dq_path = "../data/common/vocabulary/dq-measurement-simple.json"
 dq_json = JSON.parse(fs.readFileSync(dq_path))
 
 

@@ -2,7 +2,7 @@
   "_id": "5ae87a2efe27f407a7102f9b",
   "description": "",
   "enabled": true,
-  "name": "Soil Temp Deg C 50 mm Bodega Avg",
+  "name": "Soil Temp Deg C 50 mm Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Soil Temp Deg C 50 mm Bodega Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

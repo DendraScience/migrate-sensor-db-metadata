@@ -2,7 +2,7 @@
   "_id": "5ae87987fe27f46432102cc4",
   "description": "",
   "enabled": true,
-  "name": "Battery Voltage volts 2 WhiteMt Summit",
+  "name": "Battery Voltage volts 2",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -40,6 +40,10 @@
     {
       "identifier": "Battery Voltage",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Battery Voltage volts 2 WhiteMt Summit",
+      "type": "name_previous"
     }
   ],
   "tags": [

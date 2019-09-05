@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Relative Humidity Per Blue Oak Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Soil Temp Deg C 100 mm Blue Oak Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

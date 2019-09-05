@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Barometric Pressure mbar Blue Oak Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

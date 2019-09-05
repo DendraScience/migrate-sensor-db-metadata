@@ -2,7 +2,7 @@
   "_id": "5ae87994fe27f43ba2102d05",
   "description": "",
   "enabled": true,
-  "name": "Battery Voltage volts WhiteMt Summit Avg",
+  "name": "Battery Voltage volts Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -40,6 +40,10 @@
     {
       "identifier": "Battery Voltage Avg",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Battery Voltage volts WhiteMt Summit Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

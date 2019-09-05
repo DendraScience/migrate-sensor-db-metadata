@@ -2,7 +2,7 @@
   "_id": "5ae8799ffe27f46284102d34",
   "description": "Valid Range for Values unknown - only a guess because method is unknown",
   "enabled": false,
-  "name": "Misc Number 2 Unk WhiteMt Summit",
+  "name": "Misc Number 2 Unk",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -40,6 +40,10 @@
     {
       "identifier": "Unknown",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Misc Number 2 Unk WhiteMt Summit",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -1,7 +1,7 @@
 {
   "_id": "5ae87a9dfe27f40f6c103195",
   "enabled": false,
-  "name": "Wind Speed m s Jepson Std",
+  "name": "Wind Speed m s Std",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -52,6 +52,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Wind Speed m s Jepson Std",
+      "type": "name_previous"
     }
   ],
   "tags": [

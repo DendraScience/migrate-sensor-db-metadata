@@ -1,7 +1,7 @@
 {
   "_id": "5a78e901f55c4b0001ed025d",
   "station_id": "5a37e71ba546db0001547681",
-  "name": "PAR um m2 Quail Ridge Min",
+  "name": "PAR um m2 Min",
   "source_type": "sensor",
   "state": "ready",
   "enabled": true,
@@ -112,5 +112,11 @@
     }
   ],
   "_include": [],
-  "organization_id": "58db17c424dc720001671378"
+  "organization_id": "58db17c424dc720001671378",
+  "external_refs": [
+    {
+      "identifier": "PAR um m2 Quail Ridge Min",
+      "type": "name_previous"
+    }
+  ]
 }

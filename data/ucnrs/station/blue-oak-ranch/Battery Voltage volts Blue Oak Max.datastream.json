@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Battery Voltage volts Blue Oak Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

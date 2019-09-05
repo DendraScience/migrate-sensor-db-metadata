@@ -7,13 +7,15 @@
       "label": "AirTemperature",
       "name": "Air Temperature",
       "medium": "Air",
-      "variable": "Temperature"
+      "variable": "Temperature",
+      "data_purpose":"ReadytoUse"
     },
     {
       "label": "BarometricPressure",
       "name": "Barometric Pressure",
       "medium": "Air",
-      "variable": "BarometricPressure"
+      "variable": "BarometricPressure",
+      "data_purpose": "ReadytoUse"
     },
     {
       "label": "BatteryVoltage",
@@ -25,7 +27,8 @@
           "Instrument Voltage",
           "Status"
         ]
-      }
+      },
+      "data_purpose": "StatusInformation"
     },
     {
       "label": "Discharge",
@@ -39,7 +42,26 @@
           "Peak Flow",
           "Flood"
         ]
-      }
+      },
+      "data_purpose": "ReadytoUse"
+    },
+    {
+      "label": "DielectricConstant",
+      "name": "Dielectric Constant",
+      "medium": "Rock",
+      "variable": "DielectricStrength",
+      "related_terms": {
+        "more_general": [
+          "Soil Moisture"
+        ],
+        "more_specific": [
+          "Electrical Conductivity",
+          "Permittivity",
+          "Volumetric Water Content",
+          "Bulk Electrical Conductivity"
+        ]
+      },
+      "data_purpose": "Raw"
     },
     {
       "label": "ElectricalConductivity",
@@ -54,9 +76,45 @@
           "Permittivity",
           "Volumetric Water Content",
           "Period",
-          "Bulk Electrical Conductivity"
+          "Bulk Electrical Conductivity",
+          "Dielectric Constant"
         ]
-      }
+      },
+      "data_purpose": "Raw"
+    },
+    {
+      "label": "EnclosureRelativeHumidity",
+      "name": "Enclosure Relative Humidity",
+      "medium": "Instrument",
+      "variable": "Humidity",
+      "related_terms": {
+        "more_general": [
+          "Humidity"
+        ],
+        "more_specific": [
+          "Relative Humidity",
+          "Absolute Humidity"
+        ]
+      },
+      "data_purpose": "StatusInformation"
+    },
+    {
+      "label": "FuelMoisture",
+      "name": "Fuel Moisture",
+      "medium": "Instrument",
+      "variable": "Moisture",
+      "related_terms": {
+        "more_general": [
+          "Fire"
+        ],
+        "more_specific": [
+          "Dew Point", 
+          "Leaf Wetness",
+          "Fuel Load",
+          "Fuel Temperature"
+        ]
+      },
+      "data_purpose": "ReadytoUse"
     },
     {
       "label": "Hail",
@@ -72,7 +130,8 @@
           "Rainfall",
           "Snow Depth"
         ]
-      }
+      },
+      "data_purpose": "ReadytoUse"
     },
     {
       "label": "HailCumulative",
@@ -88,7 +147,8 @@
           "Rainfall",
           "Snow Depth"
         ]
-      }
+      },
+      "data_purpose": "ReadytoUse"
     },
     {
       "label": "InstrumentTemperature",
@@ -102,7 +162,8 @@
         "more_specific": [
           "Panel Temperature"
         ]
-      }
+      },
+      "data_purpose": "StatusInformation"
     },
     {
       "label": "InstrumentVoltage",
@@ -113,7 +174,8 @@
         "more_specific": [
           "Battery Voltage"
         ]
-      }
+      },
+      "data_purpose": "StatusInformation"
     },
     {
       "label": "LeafWetness",
@@ -122,9 +184,41 @@
       "variable": "Moisture",
       "related_terms": {
         "more_specific": [
-          "Dew Point"
+          "Dew Point", 
+          "Fuel Moisture"
         ]
-      }
+      },
+      "data_purpose": "ReadytoUse"
+    },
+    {
+      "label": "LightningStrikes",
+      "name": "Lightning Strikes",
+      "medium": "Lightning",
+      "variable": "Strikes",
+      "related_terms": {
+        "more_general": [
+          "Storm", "Fire"
+        ],
+        "more_specific": [
+          "Lightning Strikes Distance"
+        ]
+      },
+      "data_purpose": "ReadytoUse"
+    },
+    {
+      "label": "LightningStrikeDistance",
+      "name": "Lightning Strike Distance",
+      "medium": "Lightning",
+      "variable": "Strikes",
+      "related_terms": {
+        "more_general": [
+          "Storm", "Fire"
+        ],
+        "more_specific": [
+          "Lightning Strikes"
+        ]
+      },
+      "data_purpose": "ReadytoUse"
     },
     {
       "label": "Permittivity",
@@ -142,24 +236,8 @@
           "Bulk Electrical Conductivity",
           "Dielectric Strength"
         ]
-      }
-    },
-    {
-      "label": "Permittivity",
-      "name": "Permittivity",
-      "medium": "Rock",
-      "variable": "DielectricStrength",
-      "related_terms": {
-        "more_general": [
-          "Soil Moisture"
-        ],
-        "more_specific": [
-          "Electrical Conductivity",
-          "Permittivity",
-          "Volumetric Water Content",
-          "Period"
-        ]
-      }
+      },
+      "data_purpose": "Raw"
     },
     {
       "label": "PhotosyntheticallyActiveRadiation",
@@ -174,7 +252,26 @@
           "PAR",
           "Shortwave Radiation"
         ]
-      }
+      },
+      "data_purpose": "ReadytoUse"
+    },
+    {
+      "label": "RadioSignalStrength",
+      "name": "Radio Signal Strength",
+      "medium": "Instrument",
+      "variable": "RadioTransmission",
+      "related_terms": {
+        "more_general": [
+          "Status"
+        ],
+        "more_specific": [
+          "Rx",
+          "Tx",
+          "Forward Transmit",
+          "Reflect Transmit"
+        ]
+      },
+      "data_purpose": "StatusInformation"      
     },
     {
       "label": "Rainfall",
@@ -191,7 +288,26 @@
           "TB4",
           "Rainfall Intensity"
         ]
-      }
+      },
+      "data_purpose": "ReadytoUse"
+    },
+    {
+      "label": "RainfallCumulative",
+      "name": "Rainfall Cumulative",
+      "medium": "Water",
+      "variable": "Precipitation",
+      "related_terms": {
+        "more_general": [
+          "Precipitation"
+        ],
+        "more_specific": [
+          "Rain",
+          "Throughfall",
+          "TB4",
+          "Rainfall Intensity"
+        ]
+      },
+      "data_purpose": "ReadytoUse"
     },
     {
       "label": "RelativeHumidity",
@@ -202,7 +318,27 @@
         "more_specific": [
           "Absolute Humidity"
         ]
-      }
+      },
+      "data_purpose": "ReadytoUse"
+    },
+    {
+      "label": "Resistance",
+      "name": "Resistance",
+      "medium": "Rock",
+      "variable": "ElectricalResistance",
+      "related_terms": {
+        "more_general": [
+          "Soil Moisture"
+        ],
+        "more_specific": [
+          "Electrical Conductivity",
+          "Permittivity",
+          "Volumetric Water Content",
+          "Dielectric Strength",
+          "Dielectric Constant"
+        ]
+      },
+      "data_purpose": "Raw"
     },
     {
       "label": "RockMoisture",
@@ -217,9 +353,11 @@
           "Electrical Conductivity",
           "Permittivity",
           "Volumetric Water Content",
-          "Dielectric Strength"
+          "Dielectric Strength",
+          "Dielectric Constant"
         ]
-      }
+      },
+      "data_purpose": "ReadytoUse"
     },
     {
       "label": "RockTemperature",
@@ -233,7 +371,8 @@
         "more_specific": [
           "Saprolite Temperature"
         ]
-      }
+      },
+      "data_purpose": "ReadytoUse"
     },
     {
       "label": "SapFlow",
@@ -249,7 +388,8 @@
           "Difference",
           "Heater Voltage"
         ]
-      }
+      },
+      "data_purpose": "ReadytoUse"
     },
     {
       "label": "SapFlowHeaterVoltage",
@@ -269,7 +409,8 @@
           "Diff",
           "Differential"
         ]
-      }
+      },
+      "data_purpose": "StatusInformation"
     },
     {
       "label": "SapFlowPeriod",
@@ -288,7 +429,8 @@
           "Difference",
           "Heater Voltage"
         ]
-      }
+      },
+      "data_purpose": "Raw"
     },
     {
       "label": "SapFlowTemperature",
@@ -307,11 +449,27 @@
           "Difference",
           "Heater Voltage"
         ]
-      }
+      },
+      "data_purpose": "Raw"
     },
     {
-      "label": "Snowfall",
-      "name": "Snowfall",
+      "label": "SkyQuality",
+      "name": "Sky Quality",
+      "medium": "Sky",
+      "variable": "Visibility",
+      "related_terms": {
+        "more_general": [
+          "Light"
+        ],
+        "more_specific": [
+          "Night Sky"
+        ]
+      },
+      "data_purpose": "ReadytoUse"
+    },
+    {
+      "label": "SnowDepth",
+      "name": "Snow Depth",
       "medium": "Snow",
       "variable": "Height",
       "related_terms": {
@@ -321,13 +479,15 @@
         "more_specific": [
           "Snow Pillow",
           "Rainfall",
+          "Snowfall",
           "Snow Depth"
         ]
-      }
+      },
+      "data_purpose": "ReadytoUse"
     },
     {
-      "label": "Snowfall",
-      "name": "Snowfall",
+      "label": "SnowDepth",
+      "name": "Snow Depth",
       "medium": "Snow",
       "variable": "Depth",
       "related_terms": {
@@ -337,9 +497,32 @@
         "more_specific": [
           "Snow Pillow",
           "Rainfall",
+          "Snowfall",
           "Snow Height"
         ]
-      }
+      },
+      "data_purpose": "ReadytoUse"
+    },
+    {
+      "label": "SnowTemperature",
+      "name": "Snow Temperature",
+      "medium": "Snow",
+      "variable": "Temperature",
+       "related_terms": {
+        "more_general": [
+          "Temperature",
+          "Precipitation"
+        ],
+        "more_specific": [
+          "Water Temperature",
+          "Air Temperature",
+          "Soil Temperature",
+          "Rock Temperature",
+          "Rainfall",
+          "Snow Depth"
+        ]
+      },
+      "data_purpose": "ReadytoUse"     
     },
     {
       "label": "SoilMoisture",
@@ -358,7 +541,8 @@
           "Bulk Electrical Conductivity",
           "Dielectric Strength"
         ]
-      }
+      },
+      "data_purpose": "ReadytoUse"
     },
     {
       "label": "SoilMoisturePeriod",
@@ -376,7 +560,8 @@
           "Bulk Electrical Conductivity",
           "Dielectric Strength"
         ]
-      }
+      },
+      "data_purpose": "Raw"
     },
     {
       "label": "SoilTemperature",
@@ -387,7 +572,8 @@
         "more_specific": [
           "Rock Temperature"
         ]
-      }
+      },
+      "data_purpose": "ReadytoUse"
     },
     {
       "label": "SolarRadiation",
@@ -401,7 +587,8 @@
           "Photosynthetically Active Radiation",
           "Net Radiation"
         ]
-      }
+      },
+      "data_purpose": "ReadytoUse"
     },
     {
       "label": "StreamStage",
@@ -416,13 +603,15 @@
           "Gage Height",
           "River Stage"
         ]
-      }
+      },
+      "data_purpose": "ReadytoUse"
     },
     {
       "label": "Turbidity",
       "name": "Turbidity",
       "medium": "SurfaceWater",
-      "variable": "Turbidity"
+      "variable": "Turbidity",
+      "data_purpose": "ReadytoUse"
     },
     {
       "label": "VolumetricWaterContent",
@@ -440,7 +629,20 @@
           "Bulk Electrical Conductivity",
           "Dielectric Strength"
         ]
-      }
+      },
+      "data_purpose": "ReadytoUse"
+    },
+    {
+      "label": "WaterPressure",
+      "name": "Water Pressure",
+      "medium": "Water",
+      "variable": "Pressure",
+      "related_terms": {
+        "more_specific": [
+          "Well Level", "Stream Stage"
+        ]
+      },
+      "data_purpose": "ReadytoUse"
     },
     {
       "label": "WaterTemperature",
@@ -452,7 +654,8 @@
           "Well Temperature",
           "Stream Temperature"
         ]
-      }
+      },
+      "data_purpose": "ReadytoUse"
     },
     {
       "label": "WellDepth",
@@ -463,13 +666,15 @@
         "more_general": [
           "Water Depth"
         ]
-      }
+      },
+      "data_purpose": "ReadytoUse"
     },
     {
       "label": "WellLevel",
       "name": "Well Level",
       "medium": "Water",
-      "variable": "Pressure"
+      "variable": "Pressure",
+      "data_purpose": "ReadytoUse"
     },
     {
       "label": "WindDirection",
@@ -480,7 +685,8 @@
         "more_specific": [
           "Wind Vector"
         ]
-      }
+      },
+      "data_purpose": "ReadytoUse"
     },
     {
       "label": "WindSpeed",
@@ -492,7 +698,8 @@
           "Wind Velocity",
           "Wind Gust"
         ]
-      }
+      },
+      "data_purpose": "ReadytoUse"
     }
   ]
 }

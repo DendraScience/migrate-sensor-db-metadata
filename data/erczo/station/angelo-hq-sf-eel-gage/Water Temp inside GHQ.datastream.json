@@ -1,7 +1,6 @@
 {
   "_id": "5ae87701fe27f472df102a89",
-  "description": "Water temperature inside the stilling well, Angelo Reserve.original datastream name was Water Temp inside GHQ",
-  "enabled": true,
+  "description": "Water temperature inside the stilling well, Angelo Reserve.",
   "name": "Water Temp inside",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -67,85 +66,42 @@
     {
       "identifier": "GHQTable",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": " Water Temp inside GHQ",
+      "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Water",
-    "ds_Variable_Temperature",
-    "dt_Unit_DegreeCelsius"
-  ],
-  "created_at": "2018-07-01T23:18:47.332Z",
-  "updated_at": "2018-07-03T19:03:41.616Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Water",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Temperature",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "degC",
-        "label": "DegreeCelsius",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Water",
+      "Variable": "Temperature"
+    },
+    "dt": {
+      "Unit": "DegreeCelsius"
+    },
+    "dq": {
+      "Measurement": "WaterTemperature"
+    }
   },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "b2b70040136ab2876d58a6e44fa2a6de751296c5"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "f6050a15036ffaf91001f318c01631c299124336",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "5795c6e74091f87a34b256903db271fcca161eee",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d6888836f13db3f2f113307",
+  "updated_at": "2019-08-30T02:22:59.626Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:23:22.928Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_WaterTemperature",
+      "ds__Medium_Water__Variable_Temperature"
+    ],
+    "class_tags": [
+      "dq_Measurement_WaterTemperature",
+      "ds_Medium_Water",
+      "ds_Variable_Temperature"
+    ],
+    "unit_tag": "dt_Unit_DegreeCelsius"
+  }
 }

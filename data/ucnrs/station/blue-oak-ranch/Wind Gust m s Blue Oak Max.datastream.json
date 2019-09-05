@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Wind Gust m s Blue Oak Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

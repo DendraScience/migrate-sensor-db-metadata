@@ -1,4 +1,5 @@
 {
+  "_id": "5d488fdc3883cbcc8aaf5542",
   "is_enabled": true,
   "name": "Soil Permittivity p13",
   "organization_id": "58db17e824dc720001671379",
@@ -28,24 +29,34 @@
     "ds": {
       "Medium": "Soil",
       "Variable": "Permittivity"
+    },
+    "dq": {
+      "Measurement": "Permittivity"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "created_at": "2019-08-05T20:21:48.304Z",
-  "updated_at": "2019-08-05T20:21:48.304Z",
-  "created_by": "5cdd9abda6fa68f95479675b",
+  "external_refs": [
+    {
+      "identifier": "Soil Permittivity p13",
+      "type": "name_previous"
+    }
+  ],
+  "version_id": "5d6889716f13db6594113630",
+  "updated_at": "2019-08-30T02:26:57.401Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
-  "version_id": "5d488fdc3883cb2d69af5541",
+  "created_at": "2019-08-05T20:21:48.304Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
+      "dq__Measurement_Permittivity",
       "ds__Medium_Soil__Variable_Permittivity"
     ],
     "class_tags": [
+      "dq_Measurement_Permittivity",
       "ds_Medium_Soil",
       "ds_Variable_Permittivity"
     ],
     "unit_tag": "dt_Unit_Dimensionless"
-  },
-  "_id": "5d488fdc3883cbcc8aaf5542"
+  }
 }

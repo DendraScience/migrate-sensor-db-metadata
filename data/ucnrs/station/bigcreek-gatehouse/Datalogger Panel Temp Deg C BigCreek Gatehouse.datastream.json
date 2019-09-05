@@ -2,7 +2,7 @@
   "_id": "5ae87997fe27f45f62102d10",
   "description": "",
   "enabled": true,
-  "name": "Datalogger Panel Temp Deg C BigCreek Gatehouse",
+  "name": "Datalogger Panel Temp Deg C",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Datalogger Panel Temp Deg C BigCreek Gatehouse",
+      "type": "name_previous"
     }
   ],
   "tags": [

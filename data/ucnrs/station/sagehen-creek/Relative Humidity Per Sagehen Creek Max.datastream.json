@@ -2,7 +2,7 @@
   "_id": "5ae879dafe27f414a1102e46",
   "description": "",
   "enabled": true,
-  "name": "Relative Humidity Per Sagehen Creek Max",
+  "name": "Relative Humidity Per Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Relative Humidity Per Sagehen Creek Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

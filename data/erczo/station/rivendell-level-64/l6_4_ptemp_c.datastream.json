@@ -1,4 +1,5 @@
 {
+  "_id": "5d488fb402e4cd41959c2b7e",
   "is_enabled": true,
   "name": "Logger Temp C",
   "organization_id": "58db17e824dc720001671379",
@@ -28,24 +29,34 @@
     "ds": {
       "Medium": "Instrument",
       "Variable": "Temperature"
+    },
+    "dq": {
+      "Measurement": "InstrumentTemperature"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "created_at": "2019-08-05T20:21:08.920Z",
-  "updated_at": "2019-08-05T20:21:08.920Z",
-  "created_by": "5cdd9abda6fa68f95479675b",
+  "external_refs": [
+    {
+      "identifier": "Logger Temp C",
+      "type": "name_previous"
+    }
+  ],
+  "version_id": "5d6889996f13dbdddf1136b5",
+  "updated_at": "2019-08-30T02:27:37.451Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
-  "version_id": "5d488fb402e4cdf9769c2b7d",
+  "created_at": "2019-08-05T20:21:08.920Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
+      "dq__Measurement_InstrumentTemperature",
       "ds__Medium_Instrument__Variable_Temperature"
     ],
     "class_tags": [
+      "dq_Measurement_InstrumentTemperature",
       "ds_Medium_Instrument",
       "ds_Variable_Temperature"
     ],
     "unit_tag": "dt_Unit_DegreeCelsius"
-  },
-  "_id": "5d488fb402e4cd41959c2b7e"
+  }
 }

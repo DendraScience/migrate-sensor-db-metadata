@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Wind Direction Deg Blue Oak Std Dev",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -2,7 +2,7 @@
   "_id": "5ae879a0fe27f46313102d39",
   "description": "",
   "enabled": true,
-  "name": "PAR um m2 Anza Borrego Max",
+  "name": "PAR um m2 Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "PAR um m2 Anza Borrego Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

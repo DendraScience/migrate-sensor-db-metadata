@@ -2,7 +2,7 @@
   "_id": "5ae87988fe27f4527e102cca",
   "description": "",
   "enabled": true,
-  "name": "Battery Voltage volts Anza Borrego Min",
+  "name": "Battery Voltage volts Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Battery Voltage volts Anza Borrego Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

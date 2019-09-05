@@ -2,7 +2,7 @@
   "_id": "5ae879e6fe27f4832b102e75",
   "description": "",
   "enabled": true,
-  "name": "Relative Humidity Per Younger Min",
+  "name": "Relative Humidity Per Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Relative Humidity Per Younger Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -1,7 +1,7 @@
 {
   "_id": "5ae879adfe27f4e744102d73",
   "enabled": true,
-  "name": "Precipitation Geonor Freq SNARL Std",
+  "name": "Precipitation Geonor Freq Std",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -51,11 +51,15 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Precipitation Geonor Freq SNARL Std",
+      "type": "name_previous"
     }
   ],
   "tags": [
-    "ds_Medium_Precipitation",
-    "ds_Variable_Height",
+    "ds_Medium_Water",
+    "ds_Variable_Precipitation",
     "dt_Unit_Hertz"
   ],
   "created_at": "2018-05-01T14:29:01.176Z",

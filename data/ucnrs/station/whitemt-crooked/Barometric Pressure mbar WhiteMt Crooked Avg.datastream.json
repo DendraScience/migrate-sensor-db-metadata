@@ -2,7 +2,7 @@
   "_id": "5ae87984fe27f412f2102cb8",
   "description": "",
   "enabled": true,
-  "name": "Barometric Pressure mbar WhiteMt Crooked Avg",
+  "name": "Barometric Pressure mbar Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -40,6 +40,10 @@
     {
       "identifier": "Barometric Pressure mb",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Barometric Pressure mbar WhiteMt Crooked Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Wind Speed Deg Blue Oak Std",
+      "type": "name_previous"
     }
   ],
   "tags": [

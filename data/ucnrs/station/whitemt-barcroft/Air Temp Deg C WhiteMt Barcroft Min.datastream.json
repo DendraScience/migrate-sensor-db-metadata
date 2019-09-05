@@ -2,7 +2,7 @@
   "_id": "5ae8795cfe27f4ba95102c0b",
   "description": "",
   "enabled": true,
-  "name": "Air Temp Deg C WhiteMt Barcroft Min",
+  "name": "Air Temp Deg C Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -40,6 +40,10 @@
     {
       "identifier": "Air Temp C Min",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Air Temp Deg C WhiteMt Barcroft Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

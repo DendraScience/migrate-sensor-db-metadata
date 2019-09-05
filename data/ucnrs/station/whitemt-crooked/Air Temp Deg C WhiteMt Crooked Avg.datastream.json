@@ -2,7 +2,7 @@
   "_id": "5ae8795dfe27f4848e102c0f",
   "description": "",
   "enabled": true,
-  "name": "Air Temp Deg C WhiteMt Crooked Avg",
+  "name": "Air Temp Deg C Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -40,6 +40,10 @@
     {
       "identifier": "Air Temp C Avg",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Air Temp Deg C WhiteMt Crooked Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

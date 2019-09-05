@@ -1,6 +1,5 @@
 {
   "_id": "5ae873defe27f4256810249f",
-  "enabled": true,
   "name": "Battery Voltage",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -66,86 +65,42 @@
     {
       "identifier": "GHQTable",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": " Battery Voltage GHQ",
+      "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Battery",
-    "ds_Variable_Voltage",
-    "dt_Unit_Volt"
-  ],
-  "created_at": "2018-07-01T22:52:54.202Z",
-  "updated_at": "2018-07-03T19:02:48.347Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Battery",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Voltage",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "V",
-        "label": "Volt",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Battery",
+      "Variable": "Voltage"
+    },
+    "dt": {
+      "Unit": "Volt"
+    },
+    "dq": {
+      "Measurement": "BatteryVoltage"
+    }
   },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "b2b70040136ab2876d58a6e44fa2a6de751296c5"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "6a1663d5ea14d8da947ee7cc17068a89ea8b607f",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "0d253c13e10350db516b0a0d7684f951c8d84985",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was Battery Voltage GHQ"
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d6888816f13db2adf113304",
+  "updated_at": "2019-08-30T02:22:57.898Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:23:20.580Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_BatteryVoltage",
+      "ds__Medium_Battery__Variable_Voltage"
+    ],
+    "class_tags": [
+      "dq_Measurement_BatteryVoltage",
+      "ds_Medium_Battery",
+      "ds_Variable_Voltage"
+    ],
+    "unit_tag": "dt_Unit_Volt"
+  }
 }

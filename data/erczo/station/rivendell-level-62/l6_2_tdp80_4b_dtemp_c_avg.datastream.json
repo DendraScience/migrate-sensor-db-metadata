@@ -1,4 +1,5 @@
 {
+  "_id": "5d488f9802e4cd00409c2b69",
   "is_enabled": true,
   "name": "Sap Temperature Difference TDP80 4b C avg",
   "organization_id": "58db17e824dc720001671379",
@@ -29,25 +30,35 @@
       "Aggregate": "Average",
       "Medium": "Sap",
       "Variable": "Flux"
+    },
+    "dq": {
+      "Measurement": "SapFlow"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "created_at": "2019-08-05T20:20:40.712Z",
-  "updated_at": "2019-08-05T20:20:40.712Z",
-  "created_by": "5cdd9abda6fa68f95479675b",
+  "external_refs": [
+    {
+      "identifier": "Sap Temperature Difference TDP80 4b C avg",
+      "type": "name_previous"
+    }
+  ],
+  "version_id": "5d6889906f13db1710113698",
+  "updated_at": "2019-08-30T02:27:28.243Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
-  "version_id": "5d488f9802e4cd714d9c2b68",
+  "created_at": "2019-08-05T20:20:40.712Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
+      "dq__Measurement_SapFlow",
       "ds__Aggregate_Average__Medium_Sap__Variable_Flux"
     ],
     "class_tags": [
+      "dq_Measurement_SapFlow",
       "ds_Aggregate_Average",
       "ds_Medium_Sap",
       "ds_Variable_Flux"
     ],
     "unit_tag": "dt_Unit_DegreeCelsius"
-  },
-  "_id": "5d488f9802e4cd00409c2b69"
+  }
 }

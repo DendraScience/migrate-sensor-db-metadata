@@ -2,7 +2,7 @@
   "_id": "5ae879d5fe27f4804f102e2d",
   "description": "",
   "enabled": true,
-  "name": "Relative Humidity Per Jepson Avg",
+  "name": "Relative Humidity Per Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Relative Humidity Per Jepson Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

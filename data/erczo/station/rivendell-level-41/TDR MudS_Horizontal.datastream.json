@@ -1,7 +1,6 @@
 {
   "_id": "5ae876f5fe27f43743102a53",
-  "description": "TDR-probe30cm original datastream name was TDR MudS_Horizontal",
-  "enabled": true,
+  "description": "TDR-probe30cm ",
   "name": "TDR MudS_Horizontal",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -67,84 +66,42 @@
     {
       "identifier": "Table401",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": " TDR MudS_Horizontal",
+      "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Rock",
-    "ds_Variable_DielectricStrength",
-    "dt_Unit_Dimensionless"
-  ],
-  "created_at": "2018-07-01T23:17:48.032Z",
-  "updated_at": "2018-07-03T19:03:39.886Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Rock",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "DielectricStrength",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "label": "Dimensionless",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Rock",
+      "Variable": "DielectricStrength"
+    },
+    "dt": {
+      "Unit": "Dimensionless"
+    },
+    "dq": {
+      "Measurement": "Permittivity"
+    }
   },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "cbbdadb611704e1838fee6693882cf07844ab858"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "0f1da05bf282c3f64a50e810606bedb776afad6a",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "bc6194f65d6298e5bbbc77877d576f7d7eb0a93e",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": []
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d68894a5a3a941e009016dd",
+  "updated_at": "2019-08-30T02:26:18.981Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:27:52.865Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_Permittivity",
+      "ds__Medium_Rock__Variable_DielectricStrength"
+    ],
+    "class_tags": [
+      "dq_Measurement_Permittivity",
+      "ds_Medium_Rock",
+      "ds_Variable_DielectricStrength"
+    ],
+    "unit_tag": "dt_Unit_Dimensionless"
+  }
 }

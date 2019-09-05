@@ -2,7 +2,7 @@
   "_id": "5ae87a98fe27f465b510317a",
   "description": "",
   "enabled": true,
-  "name": "Wind Speed m s Elliott Min",
+  "name": "Wind Speed m s Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Wind Speed m s Elliott Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

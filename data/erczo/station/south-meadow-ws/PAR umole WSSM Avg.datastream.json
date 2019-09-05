@@ -1,6 +1,5 @@
 {
   "_id": "5ae87428fe27f47ee01025fb",
-  "enabled": true,
   "name": "PAR umole Avg",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -66,86 +65,42 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": " PAR umole WSSM Avg",
+      "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Solar",
-    "ds_Variable_PhotosyntheticallyActiveRadiation",
-    "dt_Unit_MicromolePerSquareMeter"
-  ],
-  "created_at": "2018-07-01T22:56:21.849Z",
-  "updated_at": "2018-07-03T19:03:00.368Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Solar",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "PhotosyntheticallyActiveRadiation",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "µmol/m^2",
-        "label": "MicromolePerSquareMeter",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Solar",
+      "Variable": "PhotosyntheticallyActiveRadiation"
+    },
+    "dt": {
+      "Unit": "MicromolePerSquareMeter"
+    },
+    "dq": {
+      "Measurement": "PhotosyntheticallyActiveRadiation"
+    }
   },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "8e65855d88dabaff4fe4f70fa0f3342e9b21ed2e"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "ca6af6a82971ee7be50eae1da8e34f4a126651f9",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "a777bdf54dddf01d46e4c59d1c340afee26c3b57",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was PAR umole WSSM Avg"
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d6889c85a3a9413159018ab",
+  "updated_at": "2019-08-30T02:28:24.431Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:32:03.644Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_PhotosyntheticallyActiveRadiation",
+      "ds__Medium_Solar__Variable_PhotosyntheticallyActiveRadiation"
+    ],
+    "class_tags": [
+      "dq_Measurement_PhotosyntheticallyActiveRadiation",
+      "ds_Medium_Solar",
+      "ds_Variable_PhotosyntheticallyActiveRadiation"
+    ],
+    "unit_tag": "dt_Unit_MicromolePerSquareMeter"
+  }
 }

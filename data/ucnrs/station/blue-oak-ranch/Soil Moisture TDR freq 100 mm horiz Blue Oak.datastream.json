@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Soil Moisture TDR freq 100 mm horiz Blue Oak",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -1,7 +1,7 @@
 {
   "_id": "5ae87a20fe27f4b34e102f5f",
   "enabled": false,
-  "name": "Soil Temp Deg C 200 mm Jepson Max",
+  "name": "Soil Temp Deg C 200 mm Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -52,6 +52,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Soil Temp Deg C 200 mm Jepson Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -2,7 +2,7 @@
   "_id": "5ae87a50fe27f423d1103036",
   "description": "",
   "enabled": true,
-  "name": "Soil Temp Deg C 500 mm McLaughlin Max",
+  "name": "Soil Temp Deg C 500 mm Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -59,6 +59,10 @@
     {
       "identifier": "ucmc_mclaughlin",
       "type": "loggernet.station"
+    },
+    {
+      "identifier": "Soil Temp Deg C 500 mm McLaughlin Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

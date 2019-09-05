@@ -1,7 +1,7 @@
 {
   "_id": "5ae87a63fe27f40e3e103088",
   "enabled": true,
-  "name": "Total Solar Radiation W m2 Fort Ord Avg",
+  "name": "Total Solar Radiation W m2 Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Total Solar Radiation W m2 Fort Ord Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

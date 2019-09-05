@@ -2,7 +2,7 @@
   "_id": "5ae879ebfe27f4f306102e89",
   "description": "Echo retired on May 2, 2017 and replaced with a CS616",
   "enabled": false,
-  "name": "Soil Moisture Per James RETIRED",
+  "name": "Soil Moisture Per RETIRED",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -53,6 +53,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Soil Moisture Per James RETIRED",
+      "type": "name_previous"
     }
   ],
   "tags": [

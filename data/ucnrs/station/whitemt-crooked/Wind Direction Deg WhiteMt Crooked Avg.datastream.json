@@ -2,7 +2,7 @@
   "_id": "5ae87a80fe27f41578103110",
   "description": "",
   "enabled": true,
-  "name": "Wind Direction Deg WhiteMt Crooked Avg",
+  "name": "Wind Direction Deg Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -40,6 +40,10 @@
     {
       "identifier": "Wind Direction Degrees",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Wind Direction Deg WhiteMt Crooked Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

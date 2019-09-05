@@ -1,4 +1,5 @@
 {
+  "_id": "5d488fb43883cbded1af54f8",
   "is_enabled": true,
   "name": "Battery Voltage min",
   "organization_id": "58db17e824dc720001671379",
@@ -29,25 +30,35 @@
       "Aggregate": "Minimum",
       "Medium": "Battery",
       "Variable": "Voltage"
+    },
+    "dq": {
+      "Measurement": "BatteryVoltage"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "created_at": "2019-08-05T20:21:08.604Z",
-  "updated_at": "2019-08-05T20:21:08.604Z",
-  "created_by": "5cdd9abda6fa68f95479675b",
+  "external_refs": [
+    {
+      "identifier": "Battery Voltage min",
+      "type": "name_previous"
+    }
+  ],
+  "version_id": "5d6889995a3a943262901805",
+  "updated_at": "2019-08-30T02:27:37.172Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
-  "version_id": "5d488fb43883cbf5dbaf54f7",
+  "created_at": "2019-08-05T20:21:08.604Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
+      "dq__Measurement_BatteryVoltage",
       "ds__Aggregate_Minimum__Medium_Battery__Variable_Voltage"
     ],
     "class_tags": [
+      "dq_Measurement_BatteryVoltage",
       "ds_Aggregate_Minimum",
       "ds_Medium_Battery",
       "ds_Variable_Voltage"
     ],
     "unit_tag": "dt_Unit_Volt"
-  },
-  "_id": "5d488fb43883cbded1af54f8"
+  }
 }

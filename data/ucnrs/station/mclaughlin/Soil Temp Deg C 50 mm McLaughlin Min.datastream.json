@@ -2,7 +2,7 @@
   "_id": "5ae87a39fe27f49b21102fcf",
   "description": "",
   "enabled": true,
-  "name": "Soil Temp Deg C 50 mm McLaughlin Min",
+  "name": "Soil Temp Deg C 50 mm Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -59,6 +59,10 @@
     {
       "identifier": "ucmc_mclaughlin",
       "type": "loggernet.station"
+    },
+    {
+      "identifier": "Soil Temp Deg C 50 mm McLaughlin Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

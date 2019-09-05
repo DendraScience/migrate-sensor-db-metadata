@@ -1,7 +1,7 @@
 {
   "_id": "5ae8798efe27f4d9a8102ce8",
   "enabled": false,
-  "name": "Battery Voltage volts Jepson Min",
+  "name": "Battery Voltage volts Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -52,6 +52,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Battery Voltage volts Jepson Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

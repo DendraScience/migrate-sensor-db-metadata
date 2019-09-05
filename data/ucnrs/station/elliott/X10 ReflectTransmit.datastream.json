@@ -53,12 +53,16 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "X10 ReflectTransmit",
+      "type": "name_previous"
     }
   ],
   "tags": [
-    "ds_Medium_Unknown",
-    "ds_Variable_Unknown",
-    "dt_Unit_Dimensionless"
+    "ds_Medium_Instrument",
+    "ds_Variable_RadioTransmission",
+    "dt_Unit_DecibelMilliwatt"
   ],
   "created_at": "2018-07-02T01:08:16.253Z",
   "updated_at": "2018-07-03T19:07:09.431Z",

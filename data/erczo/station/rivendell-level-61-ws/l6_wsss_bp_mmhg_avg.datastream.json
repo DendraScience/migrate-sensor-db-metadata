@@ -1,6 +1,5 @@
 {
   "_id": "5cdccc68662fc20ac3e83b5b",
-  "enabled": true,
   "name": "Barometric Pressure mmHg Avg",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -22,15 +21,6 @@
       "path": "/influx/select"
     }
   ],
-  "tags": [
-    "dt_Unit_MillimeterOfMercury",
-    "ds_Aggregate_Average",
-    "ds_Medium_Air",
-    "ds_Variable_BarometricPressure"
-  ],
-  "created_at": "2019-05-16T02:35:20.053Z",
-  "updated_at": "2019-05-16T02:46:48.743Z",
-  "version_id": "5cdccf18662fc24801e83bab",
   "datapoints_config_built": [
     {
       "params": {
@@ -48,87 +38,44 @@
       "ends_before": "2200-02-02T00:00:00.000Z"
     }
   ],
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "abbreviation": "mmHg",
-        "label": "MillimeterOfMercury",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Average",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      },
-      {
-        "label": "Air",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "BarometricPressure",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "dt",
-        "tag_count": 1
-      },
-      {
-        "_id": "ds",
-        "tag_count": 3
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      },
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      }
-    ]
+  "is_enabled": true,
+  "terms": {
+    "dt": {
+      "Unit": "MillimeterOfMercury"
+    },
+    "ds": {
+      "Aggregate": "Average",
+      "Medium": "Air",
+      "Variable": "BarometricPressure"
+    },
+    "dq": {
+      "Measurement": "BarometricPressure"
+    }
   },
-  "hashes": [
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "external_refs": [
     {
-      "key": "src",
-      "str": "3ee37f65f7025a6f3f6b4ddcc970955c9475c88a"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "73ddea876f6d32b98b7cea47d7e506e8d7c0faa1",
-      "scheme_id": "dt"
-    },
-    {
-      "key": "tag",
-      "str": "d97826b01ce9e1934f5ed5c1c071d736b1cac5eb",
-      "scheme_id": "ds"
+      "identifier": " l6_wsss Barometric Pressure mmHg Avg",
+      "type": "name_previous"
     }
   ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was l6_wsss Barometric Pressure mmHg Avg"
+  "version_id": "5d6889645a3a941061901747",
+  "updated_at": "2019-08-30T02:26:44.272Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:28:25.389Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_BarometricPressure",
+      "ds__Aggregate_Average__Medium_Air__Variable_BarometricPressure"
+    ],
+    "class_tags": [
+      "dq_Measurement_BarometricPressure",
+      "ds_Aggregate_Average",
+      "ds_Medium_Air",
+      "ds_Variable_BarometricPressure"
+    ],
+    "unit_tag": "dt_Unit_MillimeterOfMercury"
+  }
 }

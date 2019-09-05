@@ -2,7 +2,7 @@
   "_id": "5ae87967fe27f473fe102c3a",
   "description": "",
   "enabled": true,
-  "name": "Air Temp Delta Deg C 10m-2m McLaughlin Avg",
+  "name": "Air Temp Delta Deg C 10m2m Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -68,6 +68,10 @@
     {
       "identifier": "ucmc_mclaughlin",
       "type": "loggernet.station"
+    },
+    {
+      "identifier": "Air Temp Delta Deg C 10m-2m McLaughlin Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

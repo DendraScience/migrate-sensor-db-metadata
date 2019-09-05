@@ -2,7 +2,7 @@
   "_id": "5ae879dffe27f46d57102e58",
   "description": "",
   "enabled": true,
-  "name": "Relative Humidity Per SNARL Max",
+  "name": "Relative Humidity Per Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Relative Humidity Per SNARL Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

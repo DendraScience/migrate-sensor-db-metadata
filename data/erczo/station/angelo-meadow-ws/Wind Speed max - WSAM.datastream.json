@@ -1,6 +1,5 @@
 {
   "_id": "5ae8771efe27f47780102b0b",
-  "enabled": true,
   "name": "Wind Speed max",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -66,97 +65,44 @@
     {
       "identifier": "AR_RWS",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": " Wind Speed max - WSAM",
+      "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Air",
-    "ds_Variable_Speed",
-    "dt_Unit_MeterPerSecond",
-    "ds_Aggregate_Maximum"
-  ],
-  "created_at": "2018-07-01T23:20:39.452Z",
-  "updated_at": "2018-07-03T19:03:45.890Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Air",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Speed",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "m/s",
-        "label": "MeterPerSecond",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Maximum",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 3
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      }
-    ]
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Air",
+      "Variable": "Speed",
+      "Aggregate": "Maximum"
+    },
+    "dt": {
+      "Unit": "MeterPerSecond"
+    },
+    "dq": {
+      "Measurement": "WindSpeed"
+    }
   },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "cccad7d9b78b139c0f014fb26123ff51bbf6d991"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "b7a7a9d8853d352b4fb578ac96fcbe6a9c2a8f43",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "ed410d68f80e0ee139fcd18c842f80a8f3dcf437",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was Wind Speed max - WSAM"
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d68888d6f13dbb32011332f",
+  "updated_at": "2019-08-30T02:23:09.403Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:23:36.219Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_WindSpeed",
+      "ds__Aggregate_Maximum__Medium_Air__Variable_Speed"
+    ],
+    "class_tags": [
+      "dq_Measurement_WindSpeed",
+      "ds_Aggregate_Maximum",
+      "ds_Medium_Air",
+      "ds_Variable_Speed"
+    ],
+    "unit_tag": "dt_Unit_MeterPerSecond"
+  }
 }

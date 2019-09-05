@@ -2,7 +2,7 @@
   "_id": "5ae8799cfe27f463fe102d25",
   "description": "",
   "enabled": true,
-  "name": "Datalogger Panel Temp Deg C WhiteMt Summit",
+  "name": "Datalogger Panel Temp Deg C",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -40,6 +40,10 @@
     {
       "identifier": "Logger Temp c",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Datalogger Panel Temp Deg C WhiteMt Summit",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -1,7 +1,7 @@
 {
   "_id": "5ae879d6fe27f454cc102e34",
   "enabled": true,
-  "name": "Relative Humidity Per McLaughlin Max",
+  "name": "Relative Humidity Per Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -58,6 +58,10 @@
     {
       "identifier": "ucmc_mclaughlin",
       "type": "loggernet.station"
+    },
+    {
+      "identifier": "Relative Humidity Per McLaughlin Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

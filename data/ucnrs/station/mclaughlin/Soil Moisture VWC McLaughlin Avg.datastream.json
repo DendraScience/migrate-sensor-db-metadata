@@ -2,7 +2,7 @@
   "_id": "5ae879f2fe27f4306b102ea7",
   "description": "",
   "enabled": true,
-  "name": "Soil Moisture VWC McLaughlin Avg",
+  "name": "Soil Moisture VWC Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -59,6 +59,10 @@
     {
       "identifier": "ucmc_mclaughlin",
       "type": "loggernet.station"
+    },
+    {
+      "identifier": "Soil Moisture VWC McLaughlin Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

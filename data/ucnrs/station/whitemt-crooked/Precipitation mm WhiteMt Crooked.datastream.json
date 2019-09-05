@@ -2,7 +2,7 @@
   "_id": "5ae879befe27f46fb1102dc5",
   "description": "",
   "enabled": true,
-  "name": "Precipitation mm WhiteMt Crooked",
+  "name": "Precipitation mm",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -40,11 +40,15 @@
     {
       "identifier": "Rainfall mm",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Precipitation mm WhiteMt Crooked",
+      "type": "name_previous"
     }
   ],
   "tags": [
-    "ds_Medium_Precipitation",
-    "ds_Variable_Height",
+    "ds_Medium_Water",
+    "ds_Variable_Precipitation",
     "dt_Unit_Millimeter"
   ],
   "created_at": "2018-05-01T14:29:18.507Z",

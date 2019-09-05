@@ -1,6 +1,5 @@
 {
   "_id": "5ae8770ffe27f48b3c102acd",
-  "enabled": true,
   "name": "Well 501 Pressure psi",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -66,94 +65,43 @@
     {
       "identifier": "Table1",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": " Well 501 Pressure psi",
+      "type": "name_previous"
     }
-  ],
-  "tags": [
-    "ds_Medium_Water",
-    "ds_Variable_Pressure",
-    "dt_Unit_PoundForcePerSquareInch"
   ],
   "attributes": {},
-  "created_at": "2018-07-01T23:19:49.450Z",
-  "updated_at": "2018-07-03T19:03:43.814Z",
-  "attributes_info": {
-    "sort": {
-      "value1": 0,
-      "value2": 0
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Water",
+      "Variable": "Pressure"
     },
-    "text": ""
-  },
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Water",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Pressure",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "psi",
-        "label": "PoundForcePerSquareInch",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "77b6771c7de3b16647901ef97837d2410ebc6dd3"
+    "dt": {
+      "Unit": "PoundForcePerSquareInch"
     },
-    {
-      "key": "att",
-      "str": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "5e35e7ca8a9cd343e5febdee3173521bfda9266c",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "41be565b37cae6329bda165fbf375c09c4d9a74a",
-      "scheme_id": "dt"
+    "dq": {
+      "Measurement": "WellLevel"
     }
-  ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was Well 501 Pressure psi"
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d6889a26f13db173b1136cb",
+  "updated_at": "2019-08-30T02:27:46.473Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:28:43.351Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_WellLevel",
+      "ds__Medium_Water__Variable_Pressure"
+    ],
+    "class_tags": [
+      "dq_Measurement_WellLevel",
+      "ds_Medium_Water",
+      "ds_Variable_Pressure"
+    ],
+    "unit_tag": "dt_Unit_PoundForcePerSquareInch"
+  }
 }

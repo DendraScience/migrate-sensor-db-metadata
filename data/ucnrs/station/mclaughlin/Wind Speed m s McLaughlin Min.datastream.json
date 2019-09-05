@@ -1,7 +1,7 @@
 {
   "_id": "5ae87a9ffe27f400a210319a",
   "enabled": true,
-  "name": "Wind Speed m s McLaughlin Min",
+  "name": "Wind Speed m s Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -58,6 +58,10 @@
     {
       "identifier": "ucmc_mclaughlin",
       "type": "loggernet.station"
+    },
+    {
+      "identifier": "Wind Speed m s McLaughlin Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

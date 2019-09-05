@@ -2,7 +2,7 @@
   "_id": "5ae87a7bfe27f4ada51030f6",
   "description": "",
   "enabled": true,
-  "name": "Wind Direction Deg Granites Avg",
+  "name": "Wind Direction Deg Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Wind Direction Deg Granites Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

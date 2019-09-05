@@ -2,7 +2,7 @@
   "_id": "5ae87971fe27f4722b102c60",
   "description": "",
   "enabled": true,
-  "name": "Barometric Pressure mbar BigCreek Highlands Avg",
+  "name": "Barometric Pressure mbar Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Barometric Pressure mbar BigCreek Highlands Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -2,7 +2,7 @@
   "_id": "5ae879bffe27f42612102dcb",
   "description": "",
   "enabled": true,
-  "name": "Rain Gage Temp Deg C BigCreek Gatehouse",
+  "name": "Rain Gage Temp Deg C",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Rain Gage Temp Deg C BigCreek Gatehouse",
+      "type": "name_previous"
     }
   ],
   "tags": [

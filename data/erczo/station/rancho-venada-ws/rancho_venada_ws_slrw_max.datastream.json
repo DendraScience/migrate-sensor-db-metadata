@@ -1,6 +1,5 @@
 {
   "_id": "5ca6b376662fc28b52e83ade",
-  "enabled": true,
   "name": "solar radiation w/m2 max",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -22,96 +21,6 @@
       "path": "/influx/select"
     }
   ],
-  "tags": [
-    "dt_Unit_WattPerSquareMeter",
-    "ds_Aggregate_Maximum",
-    "ds_Medium_Solar",
-    "ds_Variable_Radiation"
-  ],
-  "created_at": "2019-04-05T01:46:30.957Z",
-  "updated_at": "2019-05-16T03:59:04.062Z",
-  "version_id": "5cdce008662fc2955ae83be8",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "abbreviation": "W/m^2",
-        "label": "WattPerSquareMeter",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Maximum",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      },
-      {
-        "label": "Solar",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Radiation",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "dt",
-        "tag_count": 1
-      },
-      {
-        "_id": "ds",
-        "tag_count": 3
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      },
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "7acbf7c93f005e04ccfe4abf0e1926cf0426de21"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "4d1ef8d2d372f256104c186984a14d7b6d38ef8f",
-      "scheme_id": "dt"
-    },
-    {
-      "key": "tag",
-      "str": "7355e789b87d1c0cd7d98851a6a3e2b41c9506c4",
-      "scheme_id": "ds"
-    }
-  ],
   "datapoints_config_built": [
     {
       "params": {
@@ -129,6 +38,44 @@
       "ends_before": "2200-02-02T00:00:00.000Z"
     }
   ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was rancho venada ws solar radiation w/m2 max"
+  "is_enabled": true,
+  "terms": {
+    "dt": {
+      "Unit": "WattPerSquareMeter"
+    },
+    "ds": {
+      "Aggregate": "Maximum",
+      "Medium": "Solar",
+      "Variable": "Radiation"
+    },
+    "dq": {
+      "Measurement": "SolarRadiation"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "external_refs": [
+    {
+      "identifier": " rancho venada ws solar radiation w/m2 max",
+      "type": "name_previous"
+    }
+  ],
+  "version_id": "5d6888a25a3a946fca90147d",
+  "updated_at": "2019-08-30T02:23:30.236Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:24:04.597Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_SolarRadiation",
+      "ds__Aggregate_Maximum__Medium_Solar__Variable_Radiation"
+    ],
+    "class_tags": [
+      "dq_Measurement_SolarRadiation",
+      "ds_Aggregate_Maximum",
+      "ds_Medium_Solar",
+      "ds_Variable_Radiation"
+    ],
+    "unit_tag": "dt_Unit_WattPerSquareMeter"
+  }
 }

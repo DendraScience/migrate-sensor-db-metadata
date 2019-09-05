@@ -51,9 +51,12 @@
     {
       "identifier": "WSIC_Table",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": " Hail intensity - Ingrid",
+      "type": "name_previous"
     }
   ],
-  "description": "undefinedoriginal datastream name was Hail intensity - Ingrid",
   "is_enabled": false,
   "terms": {
     "ds": {
@@ -62,20 +65,25 @@
     },
     "dt": {
       "Unit": "MillimeterPerHour"
+    },
+    "dq": {
+      "Measurement": "Hail"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d66b1f91c1d9fc5d2b9f107",
-  "updated_at": "2019-08-28T16:55:21.589Z",
+  "version_id": "5d6888946f13dbb7d211333b",
+  "updated_at": "2019-08-30T02:23:16.310Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:23:45.526Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
+      "dq__Measurement_Hail",
       "ds__Medium_Hail__Variable_Height"
     ],
     "class_tags": [
+      "dq_Measurement_Hail",
       "ds_Medium_Hail",
       "ds_Variable_Height"
     ],

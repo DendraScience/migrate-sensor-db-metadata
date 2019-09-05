@@ -2,7 +2,7 @@
   "_id": "5ae879ddfe27f48ba2102e52",
   "description": "",
   "enabled": true,
-  "name": "Relative Humidity Per Sedgwick Max",
+  "name": "Relative Humidity Per Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Relative Humidity Per Sedgwick Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -1,7 +1,7 @@
 {
   "_id": "5ae8799efe27f46209102d31",
   "enabled": false,
-  "name": "Misc Number 1 Unk James",
+  "name": "Misc Number 1 Unk",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -51,6 +51,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Misc Number 1 Unk James",
+      "type": "name_previous"
     }
   ],
   "tags": [

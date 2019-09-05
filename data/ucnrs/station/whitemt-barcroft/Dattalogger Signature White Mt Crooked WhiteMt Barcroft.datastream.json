@@ -2,7 +2,7 @@
   "_id": "5ae8799cfe27f4494c102d27",
   "description": "Nothing is known about this misspelled datastream - DRI created",
   "enabled": false,
-  "name": "Dattalogger Signature White Mt Crooked WhiteMt Barcroft",
+  "name": "Dattalogger Signature White Mt Crooked",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -40,6 +40,10 @@
     {
       "identifier": "Unknown",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Dattalogger Signature White Mt Crooked WhiteMt Barcroft",
+      "type": "name_previous"
     }
   ],
   "tags": [

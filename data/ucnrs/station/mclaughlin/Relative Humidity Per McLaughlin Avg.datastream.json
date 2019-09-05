@@ -1,7 +1,7 @@
 {
   "_id": "5ae879d6fe27f4a7c7102e33",
   "enabled": true,
-  "name": "Relative Humidity Per McLaughlin Avg",
+  "name": "Relative Humidity Per Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -58,6 +58,10 @@
     {
       "identifier": "ucmc_mclaughlin",
       "type": "loggernet.station"
+    },
+    {
+      "identifier": "Relative Humidity Per McLaughlin Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

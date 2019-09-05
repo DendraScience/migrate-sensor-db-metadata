@@ -2,7 +2,7 @@
   "_id": "5ae879c4fe27f4883c102de1",
   "description": "",
   "enabled": true,
-  "name": "Relative Humidity Per Angelo Min",
+  "name": "Relative Humidity Per Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Relative Humidity Per Angelo Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -1,7 +1,7 @@
 {
   "_id": "5ae879d5fe27f46249102e2e",
   "enabled": false,
-  "name": "Relative Humidity Per Jepson Max",
+  "name": "Relative Humidity Per Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -52,6 +52,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Relative Humidity Per Jepson Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

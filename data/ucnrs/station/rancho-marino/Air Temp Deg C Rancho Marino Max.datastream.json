@@ -2,7 +2,7 @@
   "_id": "5ae87955fe27f4d3ed102be8",
   "description": "",
   "enabled": true,
-  "name": "Air Temp Deg C Rancho Marino Max",
+  "name": "Air Temp Deg C Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Air Temp Deg C Rancho Marino Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

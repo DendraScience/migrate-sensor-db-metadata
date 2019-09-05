@@ -30,20 +30,31 @@
       "Aggregate": "Average",
       "Medium": "Sap",
       "Variable": "Voltage"
+    },
+    "dq": {
+      "Measurement": "SapFlowHeaterVoltage"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "updated_at": "2019-08-05T22:10:06.237Z",
+  "external_refs": [
+    {
+      "identifier": "Sap Flow TDP Heater Voltage 2 avg",
+      "type": "name_previous"
+    }
+  ],
+  "version_id": "5d68898d5a3a9467439017e2",
+  "updated_at": "2019-08-30T02:27:25.695Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
-  "version_id": "5d48a93e3883cbf989af5599",
   "created_at": "2019-08-05T20:20:37.945Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
+      "dq__Measurement_SapFlowHeaterVoltage",
       "ds__Aggregate_Average__Medium_Sap__Variable_Voltage"
     ],
     "class_tags": [
+      "dq_Measurement_SapFlowHeaterVoltage",
       "ds_Aggregate_Average",
       "ds_Medium_Sap",
       "ds_Variable_Voltage"

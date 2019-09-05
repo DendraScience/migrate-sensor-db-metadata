@@ -2,7 +2,7 @@
   "_id": "5ae879e9fe27f475b8102e82",
   "description": "Valid Range for Values unknown - only a guess because method is unknown",
   "enabled": true,
-  "name": "Snow Temp Deg C Sagehen Creek Max",
+  "name": "Snow Temp Deg C Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -52,6 +52,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Snow Temp Deg C Sagehen Creek Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

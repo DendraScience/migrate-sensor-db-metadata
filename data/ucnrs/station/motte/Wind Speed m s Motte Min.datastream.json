@@ -2,7 +2,7 @@
   "_id": "5ae87aa0fe27f46b7710319f",
   "description": "",
   "enabled": true,
-  "name": "Wind Speed m s Motte Min",
+  "name": "Wind Speed m s Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Wind Speed m s Motte Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

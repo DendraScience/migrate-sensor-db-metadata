@@ -2,7 +2,7 @@
   "_id": "5ae87966fe27f45e7a102c33",
   "description": "",
   "enabled": true,
-  "name": "Air Temp Delta Deg C 10m-2m Hastings Min",
+  "name": "Air Temp Delta Deg C 10m2m Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -76,6 +76,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Air Temp Delta Deg C 10m-2m Hastings Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

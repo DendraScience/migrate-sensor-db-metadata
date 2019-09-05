@@ -2,7 +2,7 @@
   "_id": "5ae87a58fe27f4003010305b",
   "description": "Value range just a guess, variable unknown",
   "enabled": true,
-  "name": "TDR freq 1 Anza Borrego",
+  "name": "TDR freq 1",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "TDR freq 1 Anza Borrego",
+      "type": "name_previous"
     }
   ],
   "tags": [

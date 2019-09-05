@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "PAR um m2 Blue Oak Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

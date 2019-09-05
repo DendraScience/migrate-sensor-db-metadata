@@ -1,7 +1,7 @@
 {
   "_id": "5ae879ebfe27f4768f102e8a",
   "enabled": true,
-  "name": "Soil Moisture Per James",
+  "name": "Soil Moisture Per",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -51,6 +51,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Soil Moisture Per James",
+      "type": "name_previous"
     }
   ],
   "tags": [

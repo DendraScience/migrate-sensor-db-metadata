@@ -2,7 +2,7 @@
   "_id": "5ae87a80fe27f4bb1110310f",
   "description": "",
   "enabled": true,
-  "name": "Wind Direction Deg WhiteMt Barcroft Std",
+  "name": "Wind Direction Deg Std",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -40,6 +40,10 @@
     {
       "identifier": "Wind Direction Standard Deviation",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Wind Direction Deg WhiteMt Barcroft Std",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -2,7 +2,7 @@
   "_id": "5ae879aafe27f45900102d69",
   "description": "",
   "enabled": true,
-  "name": "PAR um m2 Stunt Ranch Avg",
+  "name": "PAR um m2 Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "PAR um m2 Stunt Ranch Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

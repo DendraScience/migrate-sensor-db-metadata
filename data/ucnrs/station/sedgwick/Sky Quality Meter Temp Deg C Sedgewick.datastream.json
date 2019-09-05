@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Sky Quality Meter Temp Deg C Sedgewick",
+      "type": "name_previous"
     }
   ],
   "tags": [

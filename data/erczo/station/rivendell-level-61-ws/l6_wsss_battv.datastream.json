@@ -1,6 +1,5 @@
 {
   "_id": "5cdccc672a422059f2cbf733",
-  "enabled": true,
   "name": "Battery Voltage",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -22,14 +21,6 @@
       "path": "/influx/select"
     }
   ],
-  "tags": [
-    "dt_Unit_Volt",
-    "ds_Medium_Battery",
-    "ds_Variable_Voltage"
-  ],
-  "created_at": "2019-05-16T02:35:19.763Z",
-  "updated_at": "2019-05-16T02:46:48.454Z",
-  "version_id": "5cdccf182a422006fccbf770",
   "datapoints_config_built": [
     {
       "params": {
@@ -47,77 +38,42 @@
       "ends_before": "2200-02-02T00:00:00.000Z"
     }
   ],
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "abbreviation": "V",
-        "label": "Volt",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Battery",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Voltage",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "dt",
-        "tag_count": 1
-      },
-      {
-        "_id": "ds",
-        "tag_count": 2
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      }
-    ]
+  "is_enabled": true,
+  "terms": {
+    "dt": {
+      "Unit": "Volt"
+    },
+    "ds": {
+      "Medium": "Battery",
+      "Variable": "Voltage"
+    },
+    "dq": {
+      "Measurement": "BatteryVoltage"
+    }
   },
-  "hashes": [
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "external_refs": [
     {
-      "key": "src",
-      "str": "3ee37f65f7025a6f3f6b4ddcc970955c9475c88a"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "0d253c13e10350db516b0a0d7684f951c8d84985",
-      "scheme_id": "dt"
-    },
-    {
-      "key": "tag",
-      "str": "6a1663d5ea14d8da947ee7cc17068a89ea8b607f",
-      "scheme_id": "ds"
+      "identifier": " l6_wsss Battery Voltage",
+      "type": "name_previous"
     }
   ],
-  "_include": [],
-  "description": "undefinedoriginal datastream name was l6_wsss Battery Voltage"
+  "version_id": "5d6889636f13dbc4a7113602",
+  "updated_at": "2019-08-30T02:26:43.994Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:28:25.007Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_BatteryVoltage",
+      "ds__Medium_Battery__Variable_Voltage"
+    ],
+    "class_tags": [
+      "dq_Measurement_BatteryVoltage",
+      "ds_Medium_Battery",
+      "ds_Variable_Voltage"
+    ],
+    "unit_tag": "dt_Unit_Volt"
+  }
 }

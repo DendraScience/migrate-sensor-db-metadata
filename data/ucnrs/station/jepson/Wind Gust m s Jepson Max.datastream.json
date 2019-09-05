@@ -2,7 +2,7 @@
   "_id": "5ae87a85fe27f43c6b103127",
   "description": "",
   "enabled": true,
-  "name": "Wind Gust m s Jepson Max",
+  "name": "Wind Gust m s Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Wind Gust m s Jepson Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

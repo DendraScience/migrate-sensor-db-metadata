@@ -2,7 +2,7 @@
   "_id": "5ae87a52fe27f44267103042",
   "description": "",
   "enabled": true,
-  "name": "Soil Temp Deg C 500 mm Rancho Marino Max",
+  "name": "Soil Temp Deg C 500 mm Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Soil Temp Deg C 500 mm Rancho Marino Max",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Air Temp Deg C 10 m Blue Oak Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

@@ -2,7 +2,7 @@
   "_id": "5ae879e9fe27f41bbd102e81",
   "description": "Range of values unknown since method type is also unknown, values entered are only a guess",
   "enabled": true,
-  "name": "Snow Temp Deg C Sagehen Creek Avg",
+  "name": "Snow Temp Deg C Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -52,6 +52,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Snow Temp Deg C Sagehen Creek Avg",
+      "type": "name_previous"
     }
   ],
   "tags": [

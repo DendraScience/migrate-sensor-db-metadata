@@ -1,7 +1,7 @@
 {
   "_id": "5ae8799efe27f4711e102d30",
   "enabled": true,
-  "name": "Leaf Wetness Rancho Marino Fraction",
+  "name": "Leaf Wetness Fraction",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -66,6 +66,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Leaf Wetness Rancho Marino Fraction",
+      "type": "name_previous"
     }
   ],
   "tags": [

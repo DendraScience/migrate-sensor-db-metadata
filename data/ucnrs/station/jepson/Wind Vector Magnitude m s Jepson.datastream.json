@@ -1,7 +1,7 @@
 {
   "_id": "5ae87aaffe27f469e91031d7",
   "enabled": false,
-  "name": "Wind Vector Magnitude m s Jepson",
+  "name": "Wind Vector Magnitude m s",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -52,6 +52,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Wind Vector Magnitude m s Jepson",
+      "type": "name_previous"
     }
   ],
   "tags": [

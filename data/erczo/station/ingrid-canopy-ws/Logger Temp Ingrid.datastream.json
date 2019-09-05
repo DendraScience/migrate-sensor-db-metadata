@@ -1,7 +1,6 @@
 {
   "_id": "5ae87426fe27f461a61025f3",
-  "description": "Wiring panel temperature. Used to make sure logger is within proper operating temperatures. Not valid for research use.original datastream name was Logger Temp Ingrid",
-  "enabled": true,
+  "description": "Wiring panel temperature. Used to make sure logger is within proper operating temperatures. Not valid for research use.",
   "name": "Logger Temp",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -67,97 +66,44 @@
     {
       "identifier": "WSIC_Table",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": " Logger Temp Ingrid",
+      "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Instrument",
-    "ds_Variable_Temperature",
-    "dt_Unit_DegreeCelsius",
-    "ds_Aggregate_Average"
-  ],
-  "created_at": "2018-05-01T14:11:39.717Z",
-  "updated_at": "2019-07-03T02:14:06.039Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Instrument",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Temperature",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "degC",
-        "label": "DegreeCelsius",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Average",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 3
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      }
-    ]
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Instrument",
+      "Variable": "Temperature",
+      "Aggregate": "Average"
+    },
+    "dt": {
+      "Unit": "DegreeCelsius"
+    },
+    "dq": {
+      "Measurement": "InstrumentTemperature"
+    }
   },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "dca4244aeef39e073ed53a063853a34ca68b06b6"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "a00cd78ae70ac32f48c827ab8787ce423d25e589",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "5795c6e74091f87a34b256903db271fcca161eee",
-      "scheme_id": "dt"
-    }
-  ],
-  "version_id": "5d1c0f6edf6f2b9132e2e459",
-  "_include": []
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d6888945a3a94e24b901448",
+  "updated_at": "2019-08-30T02:23:16.597Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:23:45.911Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_InstrumentTemperature",
+      "ds__Aggregate_Average__Medium_Instrument__Variable_Temperature"
+    ],
+    "class_tags": [
+      "dq_Measurement_InstrumentTemperature",
+      "ds_Aggregate_Average",
+      "ds_Medium_Instrument",
+      "ds_Variable_Temperature"
+    ],
+    "unit_tag": "dt_Unit_DegreeCelsius"
+  }
 }

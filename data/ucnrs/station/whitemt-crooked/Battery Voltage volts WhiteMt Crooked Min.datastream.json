@@ -2,7 +2,7 @@
   "_id": "5ae87994fe27f42fe2102d04",
   "description": "",
   "enabled": true,
-  "name": "Battery Voltage volts WhiteMt Crooked Min",
+  "name": "Battery Voltage volts Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -40,6 +40,10 @@
     {
       "identifier": "Battery Voltage Min",
       "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "Battery Voltage volts WhiteMt Crooked Min",
+      "type": "name_previous"
     }
   ],
   "tags": [

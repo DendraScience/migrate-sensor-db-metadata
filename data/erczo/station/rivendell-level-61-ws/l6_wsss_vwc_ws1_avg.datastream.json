@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "_id": "5cdccf1f2a4220bc70cbf784",
   "name": "WS1 Soil Moisture VWC Avg",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
@@ -21,97 +21,44 @@
       "path": "/influx/select"
     }
   ],
-  "tags": [
-    "dt_Unit_Percent",
-    "ds_Aggregate_Average",
-    "ds_Medium_Soil",
-    "ds_Variable_VolumetricWaterContent"
-  ],
-  "created_at": "2019-05-16T02:46:55.902Z",
-  "updated_at": "2019-05-16T02:46:55.902Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "abbreviation": "%",
-        "label": "Percent",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Average",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      },
-      {
-        "label": "Soil",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "VolumetricWaterContent",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "dt",
-        "tag_count": 1
-      },
-      {
-        "_id": "ds",
-        "tag_count": 3
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      },
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      }
-    ]
+  "is_enabled": true,
+  "terms": {
+    "dt": {
+      "Unit": "Percent"
+    },
+    "ds": {
+      "Aggregate": "Average",
+      "Medium": "Soil",
+      "Variable": "VolumetricWaterContent"
+    },
+    "dq": {
+      "Measurement": "VolumetricWaterContent"
+    }
   },
-  "hashes": [
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "external_refs": [
     {
-      "key": "src",
-      "str": "3ee37f65f7025a6f3f6b4ddcc970955c9475c88a"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "2734b26dc0ddea857c1c6f650f5735cc8bb660eb",
-      "scheme_id": "dt"
-    },
-    {
-      "key": "tag",
-      "str": "d3dc7302cd30a971591e9ca6ff19093e42faaeff",
-      "scheme_id": "ds"
+      "identifier": " l6_wsss WS1 Soil Moisture VWC Avg",
+      "type": "name_previous"
     }
   ],
-  "version_id": "5cdccf1f2a4220a67bcbf783",
-  "_id": "5cdccf1f2a4220bc70cbf784",
-  "_include": [],
-  "description": "undefinedoriginal datastream name was l6_wsss WS1 Soil Moisture VWC Avg"
+  "version_id": "5d68898b6f13db10bd11367a",
+  "updated_at": "2019-08-30T02:27:23.748Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:28:34.883Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_VolumetricWaterContent",
+      "ds__Aggregate_Average__Medium_Soil__Variable_VolumetricWaterContent"
+    ],
+    "class_tags": [
+      "dq_Measurement_VolumetricWaterContent",
+      "ds_Aggregate_Average",
+      "ds_Medium_Soil",
+      "ds_Variable_VolumetricWaterContent"
+    ],
+    "unit_tag": "dt_Unit_Percent"
+  }
 }

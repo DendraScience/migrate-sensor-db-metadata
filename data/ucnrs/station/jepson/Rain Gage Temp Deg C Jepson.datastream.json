@@ -1,7 +1,7 @@
 {
   "_id": "5ae879c1fe27f40ebc102dd4",
   "enabled": true,
-  "name": "Rain Gage Temp Deg C Jepson",
+  "name": "Rain Gage Temp Deg C",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -66,6 +66,10 @@
     {
       "identifier": "GOES_TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Rain Gage Temp Deg C Jepson",
+      "type": "name_previous"
     }
   ],
   "tags": [

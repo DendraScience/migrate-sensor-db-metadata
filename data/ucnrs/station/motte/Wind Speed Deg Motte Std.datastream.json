@@ -2,7 +2,7 @@
   "_id": "5ae87a8afe27f4cd1b10313f",
   "description": "",
   "enabled": true,
-  "name": "Wind Speed Deg Motte Std",
+  "name": "Wind Speed Deg Std",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
   "state": "ready",
@@ -67,6 +67,10 @@
     {
       "identifier": "TenMin",
       "type": "loggernet.table"
+    },
+    {
+      "identifier": "Wind Speed Deg Motte Std",
+      "type": "name_previous"
     }
   ],
   "tags": [
