@@ -8,9 +8,11 @@ tr = require("./transform_functions.js")
 path = require("path")
 
 // parameters
-orgs = ["erczo","ucnrs","chi"]
+boo_save = true
+orgs = ["chi"] //["erczo","ucnrs","chi"]
 path_root = "../data/"
 //path_root = "../compost/data/" // test path
+path_root = "/Users/collin/dendra_dev/dat2datastream/station/"
 
 // dq-measurement load as list
 dq_path = "../data/common/vocabulary/dq-measurement-full.vocabulary.json"
@@ -24,6 +26,7 @@ medium_variable_unit_list = []
 for (var i=0; i<orgs.length;i++) {
 	org = orgs[i]
 	org_path = path_root+org+"/station/"
+	org_path = path_root
 	console.log("----------------------------")
 	console.log(org_path)
 	console.log("----------------------------")
@@ -58,7 +61,7 @@ for (var i=0; i<orgs.length;i++) {
 			}
 
 			// Get tags
-			//console.log("\n",k,ds_filename,ds_json.name)
+			console.log("\n",k,ds_filename,ds_json.name)
 			medium = tr.get_tag(ds_json,"Medium").replace("ds_Medium_","")
 			variable = tr.get_tag(ds_json,"Variable").replace("ds_Variable_","")
 			units = tr.get_tag(ds_json,"Unit").replace("dt_Unit_","")
@@ -80,6 +83,7 @@ for (var i=0; i<orgs.length;i++) {
 			for (var q=0; q<dq.length;q++) {
 				boo_medium = false
 				boo_variable = false
+				boo_update_units = false
 				measurement = ""
 
 				dqlabel = dq[q].label
@@ -117,7 +121,7 @@ for (var i=0; i<orgs.length;i++) {
 			// Exceptions
 			// Fix Cumulative Rainfall
 			if(measurement == "Rainfall" && aggregate == "Cumulative") {
-				measurement = "RainfallTotal"
+				measurement = "RainfallCumulative"
 				console.log("\t",k,"EXCEPTION: Total Rainfall.",ds_json.name)
 			}
 
@@ -168,6 +172,13 @@ for (var i=0; i<orgs.length;i++) {
 				console.log("\t",k,"EXCEPTION: Sap Temperature.",ds_json.name)
 			}
 			
+			// Fix Voumetric Water Content Units
+			if(units == "Percent" && variable == "VolumetricWaterContent") {
+				boo_update_units = true
+				units = "VolumetricWaterContent" // tr.get_tag(ds_json,"Unit").replace("dt_Unit_","")
+				console.log("\t",k,"EXCEPTION: Volumetric Water Content Units",ds_json.name)
+			}
+
 			//console.log(ds_json.name,measurement,medium,variable,units)
 			medium_variable_unit_list.push([medium,variable,units,measurement,ds_json.name])
 
@@ -179,19 +190,27 @@ for (var i=0; i<orgs.length;i++) {
 				ds_json.terms.dq.Measurement = measurement
 				ds_json.terms.dq.Purpose = purpose
 				ds_json.terms.ds.Variable = variable
+				if(boo_update_units == true) {
+					ds_json.terms.dt.Unit = units
+				}
 				//console.log("\t ds_json.terms:"+ds_json.terms)
 			} else {
 				ds_json.tags.push("dq_Measurement_"+measurement)
 				ds_json.tags.push("dq_Purpose_"+purpose)
+				if(boo_update_units == true) {
+					ds_json.tags.push("dt_Unit_"+units)
+				}
 				//console.log("\t ds_json.tags:"+ds_json.tags)
 			}
 
+			//console.log("\t",k,ds_filename,medium,variable,"-->",measurement,"purpose:",purpose)
 			// Write datastream back to file
-			ds_json_string = JSON.stringify(ds_json,null,2)
-			//fs.writeFileSync(ds_path+ds_filename,ds_json_string,'utf-8')
-			console.log("\t",k,ds_filename,medium,variable,"-->",measurement,"purpose:",purpose)
-			//console.log(ds_path+ds_filename)
-
+			if(boo_save == true) {
+				ds_json_string = JSON.stringify(ds_json,null,2)
+				fs.writeFileSync(ds_path+ds_filename,ds_json_string,'utf-8')
+				console.log("\t",k,ds_filename,medium,variable,"-->",measurement,"purpose:",purpose)
+				//console.log(ds_path+ds_filename)
+			}
 		} // datastream
 	} // station
 } // org

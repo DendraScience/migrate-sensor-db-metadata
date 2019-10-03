@@ -60,23 +60,25 @@
       "Unit": "MeterPerSecond"
     },
     "dq": {
-      "Measurement": "WindSpeed"
+      "Measurement": "WindSpeed",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d6889d65a3a946cc49018e0",
-  "updated_at": "2019-08-30T02:28:38.022Z",
+  "version_id": "5d8131d22da5c31642f651b3",
+  "updated_at": "2019-09-17T19:19:46.720Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T18:32:28.982Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_WindSpeed",
+      "dq__Measurement_WindSpeed__Purpose_ReadytoUse",
       "ds__Aggregate_Average__Medium_Air__Variable_Speed"
     ],
     "class_tags": [
       "dq_Measurement_WindSpeed",
+      "dq_Purpose_ReadytoUse",
       "ds_Aggregate_Average",
       "ds_Medium_Air",
       "ds_Variable_Speed"

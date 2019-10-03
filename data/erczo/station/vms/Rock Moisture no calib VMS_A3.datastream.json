@@ -88,29 +88,31 @@
       "Variable": "Moisture"
     },
     "dt": {
-      "Unit": "Percent"
+      "Unit": "VolumetricWaterContent"
     },
     "dq": {
-      "Measurement": "RockMoisture"
+      "Measurement": "RockMoisture",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d6889dd5a3a9431969018ee",
-  "updated_at": "2019-08-30T02:28:45.465Z",
+  "version_id": "5d8131da2da5c346d4f651cd",
+  "updated_at": "2019-09-17T19:19:54.216Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T18:32:42.661Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_RockMoisture",
+      "dq__Measurement_RockMoisture__Purpose_ReadytoUse",
       "ds__Medium_Rock__Variable_Moisture"
     ],
     "class_tags": [
       "dq_Measurement_RockMoisture",
+      "dq_Purpose_ReadytoUse",
       "ds_Medium_Rock",
       "ds_Variable_Moisture"
     ],
-    "unit_tag": "dt_Unit_Percent"
+    "unit_tag": "dt_Unit_VolumetricWaterContent"
   }
 }

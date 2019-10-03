@@ -32,7 +32,8 @@
       "Variable": "Temperature"
     },
     "dq": {
-      "Measurement": "SoilTemperature"
+      "Measurement": "SoilTemperature",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
@@ -43,18 +44,19 @@
       "type": "name_previous"
     }
   ],
-  "version_id": "5d6889866f13dbe36511366c",
-  "updated_at": "2019-08-30T02:27:18.712Z",
+  "version_id": "5d8131792da5c336cef6506c",
+  "updated_at": "2019-09-17T19:18:17.246Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-08-05T20:22:08.119Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_SoilTemperature",
+      "dq__Measurement_SoilTemperature__Purpose_ReadytoUse",
       "ds__Aggregate_Average__Medium_Soil__Variable_Temperature"
     ],
     "class_tags": [
       "dq_Measurement_SoilTemperature",
+      "dq_Purpose_ReadytoUse",
       "ds_Aggregate_Average",
       "ds_Medium_Soil",
       "ds_Variable_Temperature"

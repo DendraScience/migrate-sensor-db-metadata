@@ -81,23 +81,25 @@
       "Unit": "NephelometricTurbidityUnit"
     },
     "dq": {
-      "Measurement": "Turbidity"
+      "Measurement": "Turbidity",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d6888835a3a94c87e901420",
-  "updated_at": "2019-08-30T02:22:59.342Z",
+  "version_id": "5d8130622da5c371a3f64cda",
+  "updated_at": "2019-09-17T19:13:38.129Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:23:22.529Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_Turbidity",
+      "dq__Measurement_Turbidity__Purpose_ReadytoUse",
       "ds__Medium_SurfaceWater__Variable_Turbidity"
     ],
     "class_tags": [
       "dq_Measurement_Turbidity",
+      "dq_Purpose_ReadytoUse",
       "ds_Medium_SurfaceWater",
       "ds_Variable_Turbidity"
     ],

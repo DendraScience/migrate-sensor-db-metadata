@@ -1,6 +1,6 @@
 {
   "_id": "5ae873f5fe27f481b210250c",
-  "name": "Elec Conductivity CS35",
+  "name": "Elec Conductivity 35cm",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -73,7 +73,7 @@
   ],
   "attributes": {
     "depth": {
-      "unit_tag": "dt_Unit_Meter",
+      "unit_tag": "dt_Unit_Centimeter",
       "value": 35
     },
     "orientation": "horizontal"
@@ -81,31 +81,33 @@
   "is_enabled": true,
   "terms": {
     "ds": {
-      "Medium": "Rock",
+      "Medium": "Soil",
       "Variable": "Moisture"
     },
     "dt": {
       "Unit": "DecisiemenPerMeter"
     },
     "dq": {
-      "Measurement": "RockMoisture"
+      "Measurement": "ElectricalConductivity",
+      "Purpose": "Raw"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d6889535a3a94625c9016fe",
-  "updated_at": "2019-08-30T02:26:27.468Z",
+  "version_id": "5d8131382da5c379bef64fae",
+  "updated_at": "2019-09-17T19:17:12.110Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:28:04.944Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_RockMoisture",
-      "ds__Medium_Rock__Variable_Moisture"
+      "dq__Measurement_ElectricalConductivity__Purpose_Raw",
+      "ds__Medium_Soil__Variable_Moisture"
     ],
     "class_tags": [
-      "dq_Measurement_RockMoisture",
-      "ds_Medium_Rock",
+      "dq_Measurement_ElectricalConductivity",
+      "dq_Purpose_Raw",
+      "ds_Medium_Soil",
       "ds_Variable_Moisture"
     ],
     "unit_tag": "dt_Unit_DecisiemenPerMeter"

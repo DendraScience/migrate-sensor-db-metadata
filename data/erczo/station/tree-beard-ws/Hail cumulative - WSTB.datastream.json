@@ -61,23 +61,25 @@
       "Unit": "Millimeter"
     },
     "dq": {
-      "Measurement": "Hail"
+      "Measurement": "Hail",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d6889d45a3a94eced9018dd",
-  "updated_at": "2019-08-30T02:28:36.340Z",
+  "version_id": "5d8131d12da5c3ec00f651ab",
+  "updated_at": "2019-09-17T19:19:45.018Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T18:32:25.818Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_Hail",
+      "dq__Measurement_Hail__Purpose_ReadytoUse",
       "ds__Aggregate_Cumulative__Medium_Hail__Variable_Height"
     ],
     "class_tags": [
       "dq_Measurement_Hail",
+      "dq_Purpose_ReadytoUse",
       "ds_Aggregate_Cumulative",
       "ds_Medium_Hail",
       "ds_Variable_Height"

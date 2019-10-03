@@ -1,7 +1,6 @@
 {
   "_id": "5ae879bffe27f420ae102dc8",
   "description": "",
-  "enabled": true,
   "name": "Precipitation mm",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -73,83 +72,38 @@
       "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Water",
-    "ds_Variable_Precipitation",
-    "dt_Unit_Millimeter"
-  ],
-  "created_at": "2018-05-01T14:29:19.125Z",
-  "updated_at": "2018-10-10T01:36:57.137Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Precipitation",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Height",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "mm",
-        "label": "Millimeter",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "f83159a2a549522d96bfac7dd21cac2e3b58ca41"
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Water",
+      "Variable": "Precipitation"
     },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "dt": {
+      "Unit": "Millimeter"
     },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "3915b0f6162c78b77c3df999d417f9444f5c407c",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "b0c7386b883ea89804e8613181308a0d15033964",
-      "scheme_id": "dt"
+    "dq": {
+      "Measurement": "Rainfall",
+      "Purpose": "ReadytoUse"
     }
-  ],
-  "_include": []
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d708fa46f13db5b1b11463b",
+  "updated_at": "2019-09-05T04:31:32.786Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:47:45.199Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_Rainfall__Purpose_ReadytoUse",
+      "ds__Medium_Water__Variable_Precipitation"
+    ],
+    "class_tags": [
+      "dq_Measurement_Rainfall",
+      "dq_Purpose_ReadytoUse",
+      "ds_Medium_Water",
+      "ds_Variable_Precipitation"
+    ],
+    "unit_tag": "dt_Unit_Millimeter"
+  }
 }

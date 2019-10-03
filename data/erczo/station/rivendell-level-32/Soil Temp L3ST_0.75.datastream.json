@@ -87,23 +87,25 @@
       "Unit": "DegreeCelsius"
     },
     "dq": {
-      "Measurement": "SoilTemperature"
+      "Measurement": "SoilTemperature",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d68893b5a3a94a4d29016a5",
-  "updated_at": "2019-08-30T02:26:03.124Z",
+  "version_id": "5d81311f2da5c33ca8f64f56",
+  "updated_at": "2019-09-17T19:16:47.428Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:27:38.977Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_SoilTemperature",
+      "dq__Measurement_SoilTemperature__Purpose_ReadytoUse",
       "ds__Medium_Soil__Variable_Temperature"
     ],
     "class_tags": [
       "dq_Measurement_SoilTemperature",
+      "dq_Purpose_ReadytoUse",
       "ds_Medium_Soil",
       "ds_Variable_Temperature"
     ],

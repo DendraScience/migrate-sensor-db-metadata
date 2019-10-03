@@ -75,30 +75,32 @@
       "Aggregate": "Average"
     },
     "dt": {
-      "Unit": "Percent"
+      "Unit": "VolumetricWaterContent"
     },
     "dq": {
-      "Measurement": "SoilMoisture"
+      "Measurement": "SoilMoisture",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d6888eb5a3a947044901583",
-  "updated_at": "2019-08-30T02:24:43.831Z",
+  "version_id": "5d8130cb2da5c33d71f64e45",
+  "updated_at": "2019-09-17T19:15:23.814Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:25:45.494Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_SoilMoisture",
+      "dq__Measurement_SoilMoisture__Purpose_ReadytoUse",
       "ds__Aggregate_Average__Medium_Soil__Variable_Moisture"
     ],
     "class_tags": [
       "dq_Measurement_SoilMoisture",
+      "dq_Purpose_ReadytoUse",
       "ds_Aggregate_Average",
       "ds_Medium_Soil",
       "ds_Variable_Moisture"
     ],
-    "unit_tag": "dt_Unit_Percent"
+    "unit_tag": "dt_Unit_VolumetricWaterContent"
   }
 }

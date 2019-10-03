@@ -82,23 +82,25 @@
       "Unit": "Meter"
     },
     "dq": {
-      "Measurement": "StreamStage"
+      "Measurement": "StreamStage",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d6888825a3a9453bb90141f",
-  "updated_at": "2019-08-30T02:22:58.769Z",
+  "version_id": "5d8130612da5c3e947f64cd9",
+  "updated_at": "2019-09-17T19:13:37.565Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:23:21.749Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_StreamStage",
+      "dq__Measurement_StreamStage__Purpose_ReadytoUse",
       "ds__Medium_SurfaceWater__Variable_Depth"
     ],
     "class_tags": [
       "dq_Measurement_StreamStage",
+      "dq_Purpose_ReadytoUse",
       "ds_Medium_SurfaceWater",
       "ds_Variable_Depth"
     ],

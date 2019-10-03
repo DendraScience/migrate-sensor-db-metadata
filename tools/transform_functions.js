@@ -113,22 +113,28 @@ exports.get_external_ref = function(de_json,ref_type) {
 
 exports.get_tag = function(dt_json,tag_prefix) {
   regex_prefix = new RegExp(tag_prefix+'*')
-  // bug in den causing tag to be removed from json
+  // den app will remove tags and replace with "terms"
   // if this is the case, it means the json has been processed and "terms" can be used instead
   if(typeof dt_json.tags === 'undefined') {
-    if(regex_prefix.test("Unit")) {
-      return dt_json.terms.dt.Unit
-    } else if(regex_prefix.test("Aggregate")) {
-      return dt_json.terms.ds.Aggregate
-    } else if(regex_prefix.test("Medium")) {
-      return dt_json.terms.ds.Medium
-    } else if(regex_prefix.test("Variable")) {
-      return dt_json.terms.ds.Variable
-    } else if(regex_prefix.test("Measurement")) {
-      return dt_json.terms.dq.Measurement
-    } else if(regex_prefix.test("DataPurpose")) {
-      return dt_json.terms.dq.DataPurpose
-    }  
+    try {
+      if(regex_prefix.test("Unit")) {
+        return dt_json.terms.dt.Unit
+      } else if(regex_prefix.test("Aggregate")) {
+        return dt_json.terms.ds.Aggregate
+      } else if(regex_prefix.test("Medium")) {
+        return dt_json.terms.ds.Medium
+      } else if(regex_prefix.test("Variable")) {
+        return dt_json.terms.ds.Variable
+      } else if(regex_prefix.test("Measurement")) {
+        return dt_json.terms.dq.Measurement
+      } else if(regex_prefix.test("DataPurpose")) {
+        return dt_json.terms.dq.DataPurpose
+      }  
+    }
+    catch (err) {
+      //console.log("get_tag(",tag_prefix,") is undefined.") //,err)
+      return ""
+    }
   } else {
     for(var k=0;k<dt_json.tags.length;k++) {
       //console.log("tag test:",tag_prefix,"=?=",dt_json.tags[k])

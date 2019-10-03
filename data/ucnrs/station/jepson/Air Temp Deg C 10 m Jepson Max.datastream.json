@@ -1,6 +1,5 @@
 {
   "_id": "5ae8792dfe27f434e4102b3d",
-  "enabled": false,
   "name": "Air Temp Deg C 10 m Max",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -58,107 +57,39 @@
       "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Air",
-    "ds_Variable_Temperature",
-    "dt_Unit_DegreeCelsius",
-    "ds_Aggregate_Maximum"
-  ],
   "attributes": {
     "height": {
       "unit_tag": "dt_Unit_Meter",
       "value": 10
     }
   },
-  "created_at": "2018-07-02T01:05:56.588Z",
-  "updated_at": "2018-07-03T19:06:10.914Z",
-  "attributes_info": {
-    "sort": {
-      "value1": 10,
-      "value2": 0
+  "is_enabled": false,
+  "terms": {
+    "ds": {
+      "Medium": "Air",
+      "Variable": "Temperature",
+      "Aggregate": "Maximum"
     },
-    "text": "10"
-  },
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Air",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Temperature",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "degC",
-        "label": "DegreeCelsius",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Maximum",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 3
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "3970be5fa5322e1c194ea44a89dda5ade6b86b1f"
-    },
-    {
-      "key": "att",
-      "str": "de050f182f5b52eb5a40a177981b5eca40465ee2"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "25655b044eddb36b76e5cc3c45e8c1b9d0787a51",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "5795c6e74091f87a34b256903db271fcca161eee",
-      "scheme_id": "dt"
+    "dt": {
+      "Unit": "DegreeCelsius"
     }
-  ],
-  "_include": []
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d708ea56f13dbc4ba1143f5",
+  "updated_at": "2019-09-05T04:27:17.292Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:42:13.953Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "ds__Aggregate_Maximum__Medium_Air__Variable_Temperature"
+    ],
+    "class_tags": [
+      "ds_Aggregate_Maximum",
+      "ds_Medium_Air",
+      "ds_Variable_Temperature"
+    ],
+    "unit_tag": "dt_Unit_DegreeCelsius"
+  }
 }

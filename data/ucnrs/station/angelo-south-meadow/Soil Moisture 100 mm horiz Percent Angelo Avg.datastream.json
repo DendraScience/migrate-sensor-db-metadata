@@ -1,0 +1,118 @@
+{
+  "_id": "5ae87a72fe27f4a0e81030cb",
+  "description": "",
+  "name": "Soil Moisture 100mm Horizontal Percent Avg",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602b3",
+  "datapoints_config": [
+    {
+      "begins_at": "2013-05-07T22:10:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3375,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs",
+      "ends_before": "2018-04-25T00:00:00.000Z"
+    },
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucac_angelo",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"VWC50_Avg\",\"VWC4_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": true
+        }
+      },
+      "begins_at": "2018-04-25T00:00:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "3375",
+      "type": "odm.datastreams.DatastreamID"
+    },
+    {
+      "identifier": "335",
+      "type": "odm.stations.StationID"
+    },
+    {
+      "identifier": "Volumetric_Water_Content_1",
+      "type": "odm.datastreams.FieldName"
+    },
+    {
+      "identifier": "47",
+      "type": "odm.stations.MethodID"
+    },
+    {
+      "identifier": "Soil Moisture Pct Avg",
+      "type": "odm.stations.VariableCode"
+    },
+    {
+      "identifier": "ucac_angelo",
+      "type": "loggernet.station"
+    },
+    {
+      "identifier": "wanda.berkeley.edu:1024",
+      "type": "loggernet.ldmp"
+    },
+    {
+      "identifier": "TenMin",
+      "type": "loggernet.table"
+    },
+    {
+      "identifier": "Volumetric Water Content Per 100 mm horiz Angelo Avg",
+      "type": "name_previous"
+    }
+  ],
+  "attributes": {
+    "depth": {
+      "unit_tag": "dt_Unit_Millimeter",
+      "value": 100
+    },
+    "orientation": "horizontal"
+  },
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Soil",
+      "Variable": "Moisture",
+      "Aggregate": "Average"
+    },
+    "dt": {
+      "Unit": "Percent"
+    },
+    "dq": {
+      "Measurement": "SoilMoisture",
+      "Purpose": "ReadytoUse"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d78082e82cb1e4177d20ac0",
+  "updated_at": "2019-09-10T20:31:42.896Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:37:44.934Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_SoilMoisture__Purpose_ReadytoUse",
+      "ds__Aggregate_Average__Medium_Soil__Variable_Moisture"
+    ],
+    "class_tags": [
+      "dq_Measurement_SoilMoisture",
+      "dq_Purpose_ReadytoUse",
+      "ds_Aggregate_Average",
+      "ds_Medium_Soil",
+      "ds_Variable_Moisture"
+    ],
+    "unit_tag": "dt_Unit_Percent"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "_id": "5ae876aefe27f4489f10291d",
-  "name": "Soil Temp CS70",
+  "name": "Soil Temp 70cm",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -73,7 +73,7 @@
   ],
   "attributes": {
     "depth": {
-      "unit_tag": "dt_Unit_Meter",
+      "unit_tag": "dt_Unit_Centimeter",
       "value": 70
     },
     "orientation": "horizontal"
@@ -88,23 +88,25 @@
       "Unit": "DegreeCelsius"
     },
     "dq": {
-      "Measurement": "SoilTemperature"
+      "Measurement": "SoilTemperature",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d68895a6f13dbd4bc1135dd",
-  "updated_at": "2019-08-30T02:26:34.444Z",
+  "version_id": "5d81313f629faa5d5ea8dae4",
+  "updated_at": "2019-09-17T19:17:19.787Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:28:19.777Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_SoilTemperature",
+      "dq__Measurement_SoilTemperature__Purpose_ReadytoUse",
       "ds__Medium_Soil__Variable_Temperature"
     ],
     "class_tags": [
       "dq_Measurement_SoilTemperature",
+      "dq_Purpose_ReadytoUse",
       "ds_Medium_Soil",
       "ds_Variable_Temperature"
     ],

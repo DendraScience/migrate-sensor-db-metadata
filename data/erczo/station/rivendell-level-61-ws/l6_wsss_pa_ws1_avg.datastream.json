@@ -1,6 +1,6 @@
 {
   "_id": "5cdccd732a4220ea29cbf74e",
-  "name": "WS1 Soil Moisture Period Average",
+  "name": "WS1 10cm Soil Moisture Period Average",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -49,7 +49,8 @@
       "Variable": "Period"
     },
     "dq": {
-      "Measurement": "SoilMoisturePeriod"
+      "Measurement": "SoilMoisturePeriod",
+      "Purpose": "Raw"
     }
   },
   "is_geo_protected": false,
@@ -60,18 +61,19 @@
       "type": "name_previous"
     }
   ],
-  "version_id": "5d6889796f13dba34811363e",
-  "updated_at": "2019-08-30T02:27:05.193Z",
+  "version_id": "5d813164629faa4f8ca8db78",
+  "updated_at": "2019-09-17T19:17:56.926Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:28:29.533Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_SoilMoisturePeriod",
+      "dq__Measurement_SoilMoisturePeriod__Purpose_Raw",
       "ds__Aggregate_Average__Medium_Soil__Variable_Period"
     ],
     "class_tags": [
       "dq_Measurement_SoilMoisturePeriod",
+      "dq_Purpose_Raw",
       "ds_Aggregate_Average",
       "ds_Medium_Soil",
       "ds_Variable_Period"

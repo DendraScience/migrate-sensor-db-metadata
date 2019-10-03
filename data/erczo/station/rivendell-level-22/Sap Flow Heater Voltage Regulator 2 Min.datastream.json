@@ -82,23 +82,25 @@
       "Unit": "Volt"
     },
     "dq": {
-      "Measurement": "InstrumentVoltage"
+      "Measurement": "InstrumentVoltage",
+      "Purpose": "StatusInformation"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d6888fa6f13db1f6711349d",
-  "updated_at": "2019-08-30T02:24:58.269Z",
+  "version_id": "5d8130da629faa22d2a8d996",
+  "updated_at": "2019-09-17T19:15:38.791Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:26:05.452Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_InstrumentVoltage",
+      "dq__Measurement_InstrumentVoltage__Purpose_StatusInformation",
       "ds__Aggregate_Minimum__Medium_Instrument__Variable_Voltage"
     ],
     "class_tags": [
       "dq_Measurement_InstrumentVoltage",
+      "dq_Purpose_StatusInformation",
       "ds_Aggregate_Minimum",
       "ds_Medium_Instrument",
       "ds_Variable_Voltage"

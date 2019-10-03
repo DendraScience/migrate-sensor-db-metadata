@@ -84,31 +84,33 @@
   "terms": {
     "ds": {
       "Medium": "Rock",
-      "Variable": "Moisture"
+      "Variable": "ElectricalConductivity"
     },
     "dt": {
       "Unit": "DecisiemenPerMeter"
     },
     "dq": {
-      "Measurement": "RockMoisture"
+      "Measurement": "ElectricalConductivity",
+      "Purpose": "Raw"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d6889e75a3a94782690190f",
-  "updated_at": "2019-08-30T02:28:55.209Z",
+  "version_id": "5d8131e32da5c30664f651f1",
+  "updated_at": "2019-09-17T19:20:03.856Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T18:33:00.837Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_RockMoisture",
-      "ds__Medium_Rock__Variable_Moisture"
+      "dq__Measurement_ElectricalConductivity__Purpose_Raw",
+      "ds__Medium_Rock__Variable_ElectricalConductivity"
     ],
     "class_tags": [
-      "dq_Measurement_RockMoisture",
+      "dq_Measurement_ElectricalConductivity",
+      "dq_Purpose_Raw",
       "ds_Medium_Rock",
-      "ds_Variable_Moisture"
+      "ds_Variable_ElectricalConductivity"
     ],
     "unit_tag": "dt_Unit_DecisiemenPerMeter"
   }

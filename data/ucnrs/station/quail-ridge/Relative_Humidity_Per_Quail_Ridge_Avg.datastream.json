@@ -4,7 +4,6 @@
   "name": "Relative Humidity Per Avg",
   "source_type": "sensor",
   "state": "ready",
-  "enabled": true,
   "datapoints_config": [
     {
       "params": {
@@ -22,101 +21,47 @@
     }
   ],
   "description": "TBD",
-  "tags": [
-    "ds_Aggregate_Average",
-    "ds_Medium_Air",
-    "ds_Variable_RelativeHumidity",
-    "dt_Unit_Percent"
-  ],
-  "updated_at": "2018-07-03T19:03:51.129Z",
-  "created_at": "2018-07-01T23:40:18.799Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Average",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      },
-      {
-        "label": "Air",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "RelativeHumidity",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "%",
-        "label": "Percent",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 3
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-aggregate"
-      },
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "f26094889cb1fcec3ada1bf103d44d6247707986"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "1da9abb24851e9bc684d30fb3826f804561c8793",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "2734b26dc0ddea857c1c6f650f5735cc8bb660eb",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": [],
   "organization_id": "58db17c424dc720001671378",
   "external_refs": [
     {
       "identifier": "Relative Humidity Per Quail Ridge Avg",
       "type": "name_previous"
     }
-  ]
+  ],
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Aggregate": "Average",
+      "Medium": "Air",
+      "Variable": "RelativeHumidity"
+    },
+    "dt": {
+      "Unit": "Percent"
+    },
+    "dq": {
+      "Measurement": "RelativeHumidity",
+      "Purpose": "ReadytoUse"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d708ef65a3a94d0659025c3",
+  "updated_at": "2019-09-05T04:28:38.105Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:43:53.698Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_RelativeHumidity__Purpose_ReadytoUse",
+      "ds__Aggregate_Average__Medium_Air__Variable_RelativeHumidity"
+    ],
+    "class_tags": [
+      "dq_Measurement_RelativeHumidity",
+      "dq_Purpose_ReadytoUse",
+      "ds_Aggregate_Average",
+      "ds_Medium_Air",
+      "ds_Variable_RelativeHumidity"
+    ],
+    "unit_tag": "dt_Unit_Percent"
+  }
 }

@@ -3,11 +3,6 @@
   "name": "Leaf Wetness Wet Min",
   "station_id": "5a37e71ba546db0001547681",
   "description": "Minutes of wetness per interval",
-  "tags": [
-    "ds_Medium_Leaf",
-    "ds_Variable_Moisture",
-    "dt_Unit_MinuteTime"
-  ],
   "datapoints_config": [
     {
       "params": {
@@ -26,86 +21,45 @@
   ],
   "source_type": "sensor",
   "state": "ready",
-  "enabled": true,
-  "created_at": "2018-07-01T23:40:14.748Z",
-  "updated_at": "2018-07-03T19:03:50.826Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Leaf",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Moisture",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "min",
-        "label": "MinuteTime",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "f26094889cb1fcec3ada1bf103d44d6247707986"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "ea7ee181f17524388a1cb839f33b0f0ae98571bc",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "7ccd07edd6afc8541a0ac3273972e3e1b52b9d5f",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": [],
   "organization_id": "58db17c424dc720001671378",
   "external_refs": [
     {
       "identifier": "Leaf Wetness Wet Min Quail Ridge",
       "type": "name_previous"
     }
-  ]
+  ],
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Leaf",
+      "Variable": "Moisture"
+    },
+    "dt": {
+      "Unit": "MinuteTime"
+    },
+    "dq": {
+      "Measurement": "LeafWetness",
+      "Purpose": "ReadytoUse"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d708ef25a3a94d9169025bf",
+  "updated_at": "2019-09-05T04:28:34.246Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:43:49.361Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_LeafWetness__Purpose_ReadytoUse",
+      "ds__Medium_Leaf__Variable_Moisture"
+    ],
+    "class_tags": [
+      "dq_Measurement_LeafWetness",
+      "dq_Purpose_ReadytoUse",
+      "ds_Medium_Leaf",
+      "ds_Variable_Moisture"
+    ],
+    "unit_tag": "dt_Unit_MinuteTime"
+  }
 }

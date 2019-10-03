@@ -1,7 +1,6 @@
 {
   "_id": "5ae879fefe27f4150e102edd",
   "description": "",
-  "enabled": true,
   "name": "Soil Temp Deg C 100 mm Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -73,107 +72,46 @@
       "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Soil",
-    "ds_Variable_Temperature",
-    "dt_Unit_DegreeCelsius",
-    "ds_Aggregate_Average"
-  ],
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
       "value": 0.1
     }
   },
-  "created_at": "2018-07-02T01:07:16.085Z",
-  "updated_at": "2018-07-03T19:06:42.422Z",
-  "attributes_info": {
-    "sort": {
-      "value1": 0.1,
-      "value2": 0
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Soil",
+      "Variable": "Temperature",
+      "Aggregate": "Average"
     },
-    "text": "0.1"
-  },
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Soil",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Temperature",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "degC",
-        "label": "DegreeCelsius",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Average",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 3
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "db741577da4b66aabeaeb5cf44dea6dd040e7e42"
+    "dt": {
+      "Unit": "DegreeCelsius"
     },
-    {
-      "key": "att",
-      "str": "6197fce17ba1b8b3470dbd8edddc6ca03b6e3a3a"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "b4c6a256529ec99265a3b4598274206e62b724be",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "5795c6e74091f87a34b256903db271fcca161eee",
-      "scheme_id": "dt"
+    "dq": {
+      "Measurement": "SoilTemperature",
+      "Purpose": "ReadytoUse"
     }
-  ],
-  "_include": []
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d708e495a3a945e2290244d",
+  "updated_at": "2019-09-05T04:25:45.270Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:40:14.711Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_SoilTemperature__Purpose_ReadytoUse",
+      "ds__Aggregate_Average__Medium_Soil__Variable_Temperature"
+    ],
+    "class_tags": [
+      "dq_Measurement_SoilTemperature",
+      "dq_Purpose_ReadytoUse",
+      "ds_Aggregate_Average",
+      "ds_Medium_Soil",
+      "ds_Variable_Temperature"
+    ],
+    "unit_tag": "dt_Unit_DegreeCelsius"
+  }
 }

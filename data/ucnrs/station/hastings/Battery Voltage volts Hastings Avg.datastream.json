@@ -1,7 +1,6 @@
 {
   "_id": "5ae8798cfe27f40989102ce0",
   "description": "",
-  "enabled": true,
   "name": "Battery Voltage volts Avg",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -73,94 +72,40 @@
       "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Battery",
-    "ds_Variable_Voltage",
-    "dt_Unit_Volt",
-    "ds_Aggregate_Average"
-  ],
-  "created_at": "2018-07-02T01:06:35.759Z",
-  "updated_at": "2018-07-03T19:06:25.399Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Battery",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Voltage",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "V",
-        "label": "Volt",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Average",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 3
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "ba86585042f16280dcb37b928326dfb6b99a7701"
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Battery",
+      "Variable": "Voltage",
+      "Aggregate": "Average"
     },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "dt": {
+      "Unit": "Volt"
     },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "88cb7b4abb9a9dc087156ae48d8195e06f631350",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "0d253c13e10350db516b0a0d7684f951c8d84985",
-      "scheme_id": "dt"
+    "dq": {
+      "Measurement": "BatteryVoltage",
+      "Purpose": "StatusInformation"
     }
-  ],
-  "_include": []
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d708e705a3a94a3779024aa",
+  "updated_at": "2019-09-05T04:26:24.933Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:41:07.929Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_BatteryVoltage__Purpose_StatusInformation",
+      "ds__Aggregate_Average__Medium_Battery__Variable_Voltage"
+    ],
+    "class_tags": [
+      "dq_Measurement_BatteryVoltage",
+      "dq_Purpose_StatusInformation",
+      "ds_Aggregate_Average",
+      "ds_Medium_Battery",
+      "ds_Variable_Voltage"
+    ],
+    "unit_tag": "dt_Unit_Volt"
+  }
 }

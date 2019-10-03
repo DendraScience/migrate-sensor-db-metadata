@@ -1,7 +1,6 @@
 {
   "_id": "5ae879bafe27f457d4102db4",
   "description": "Cumulative precipitation is the total rainfall from October 1 to the timetamp of recording. It is reset every Oct. 1. This is done on logger.",
-  "enabled": false,
   "name": "Precipitation mm Cumulative",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -73,94 +72,33 @@
       "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Water",
-    "ds_Variable_Precipitation",
-    "dt_Unit_Millimeter",
-    "ds_Aggregate_Cumulative"
-  ],
-  "created_at": "2018-05-01T14:29:14.939Z",
-  "updated_at": "2018-10-10T01:36:45.285Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Precipitation",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Height",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "mm",
-        "label": "Millimeter",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Cumulative",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 3
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "2c8f40054c130e48a795978787902424a92da43e"
+  "is_enabled": false,
+  "terms": {
+    "ds": {
+      "Medium": "Water",
+      "Variable": "Precipitation",
+      "Aggregate": "Cumulative"
     },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "04f5587b5d2fd49636f4ef115a40c0d02bfa4a78",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "b0c7386b883ea89804e8613181308a0d15033964",
-      "scheme_id": "dt"
+    "dt": {
+      "Unit": "Millimeter"
     }
-  ],
-  "_include": []
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d708f316f13db7199114542",
+  "updated_at": "2019-09-05T04:29:37.868Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:45:18.726Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "ds__Aggregate_Cumulative__Medium_Water__Variable_Precipitation"
+    ],
+    "class_tags": [
+      "ds_Aggregate_Cumulative",
+      "ds_Medium_Water",
+      "ds_Variable_Precipitation"
+    ],
+    "unit_tag": "dt_Unit_Millimeter"
+  }
 }

@@ -19,6 +19,7 @@
         }
       },
       "begins_at": "2017-09-27T23:54:00.000Z",
+      "ends_before": "2019-09-09T00:00:00.000Z",
       "path": "/influx/select"
     }
   ],
@@ -31,7 +32,8 @@
       "Variable": "RelativeHumidity"
     },
     "dq": {
-      "Measurement": "RelativeHumidity"
+      "Measurement": "RelativeHumidity",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
@@ -42,18 +44,19 @@
       "type": "name_previous"
     }
   ],
-  "version_id": "5d68897b6f13db8e60113643",
-  "updated_at": "2019-08-30T02:27:07.986Z",
+  "version_id": "5d813167629faa706fa8db7d",
+  "updated_at": "2019-09-17T19:17:59.762Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-08-05T20:21:56.898Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_RelativeHumidity",
+      "dq__Measurement_RelativeHumidity__Purpose_ReadytoUse",
       "ds__Medium_Air__Variable_RelativeHumidity"
     ],
     "class_tags": [
       "dq_Measurement_RelativeHumidity",
+      "dq_Purpose_ReadytoUse",
       "ds_Medium_Air",
       "ds_Variable_RelativeHumidity"
     ],

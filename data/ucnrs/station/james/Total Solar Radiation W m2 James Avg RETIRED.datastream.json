@@ -1,7 +1,6 @@
 {
   "_id": "5ae87a65fe27f44602103091",
   "description": "CM3 retired on May 2, 2017 and replaced with a LI200x",
-  "enabled": false,
   "name": "Total Solar Radiation W m2 Avg RETIRED",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -59,94 +58,33 @@
       "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Solar",
-    "ds_Variable_Radiation",
-    "dt_Unit_WattPerSquareMeter",
-    "ds_Aggregate_Average"
-  ],
-  "created_at": "2018-07-02T01:07:52.781Z",
-  "updated_at": "2018-07-03T19:06:57.993Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Solar",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Radiation",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "W/m^2",
-        "label": "WattPerSquareMeter",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Average",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 3
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "8da73705956f50baaf01369295bd6db12c0f5c67"
+  "is_enabled": false,
+  "terms": {
+    "ds": {
+      "Medium": "Solar",
+      "Variable": "Radiation",
+      "Aggregate": "Average"
     },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "7fea997bfc9d14bd9d196e84559ca3681d6deb67",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "4d1ef8d2d372f256104c186984a14d7b6d38ef8f",
-      "scheme_id": "dt"
+    "dt": {
+      "Unit": "WattPerSquareMeter"
     }
-  ],
-  "_include": []
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d708e996f13db60f41143d9",
+  "updated_at": "2019-09-05T04:27:05.559Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:42:00.587Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "ds__Aggregate_Average__Medium_Solar__Variable_Radiation"
+    ],
+    "class_tags": [
+      "ds_Aggregate_Average",
+      "ds_Medium_Solar",
+      "ds_Variable_Radiation"
+    ],
+    "unit_tag": "dt_Unit_WattPerSquareMeter"
+  }
 }

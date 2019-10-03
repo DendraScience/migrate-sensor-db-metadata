@@ -1,6 +1,5 @@
 {
   "_id": "5ae87a6ffe27f47cf11030bd",
-  "enabled": true,
   "name": "TX FORWARD POWER",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -72,83 +71,38 @@
       "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Instrument",
-    "ds_Variable_RadioTransmission",
-    "dt_Unit_DecibelMilliwatt"
-  ],
-  "created_at": "2018-07-02T01:07:56.019Z",
-  "updated_at": "2018-07-03T19:06:59.530Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Instrument",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "RadioTransmission",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "dBm",
-        "label": "DecibelMilliwatt",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "199a123339023d700ee108a5da2b7f5d90efcffc"
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Instrument",
+      "Variable": "RadioTransmission"
     },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "dt": {
+      "Unit": "DecibelMilliwatt"
     },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "dee0cd41b3a339aa122cb9d25a1ea9018c721fc8",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "8f8be1cd35bed81353acca910abc5edfc099ba3c",
-      "scheme_id": "dt"
+    "dq": {
+      "Measurement": "RadioSignalStrength",
+      "Purpose": "StatusInformation"
     }
-  ],
-  "_include": []
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d708e356f13db623b1142fe",
+  "updated_at": "2019-09-05T04:25:25.415Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:39:53.809Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_RadioSignalStrength__Purpose_StatusInformation",
+      "ds__Medium_Instrument__Variable_RadioTransmission"
+    ],
+    "class_tags": [
+      "dq_Measurement_RadioSignalStrength",
+      "dq_Purpose_StatusInformation",
+      "ds_Medium_Instrument",
+      "ds_Variable_RadioTransmission"
+    ],
+    "unit_tag": "dt_Unit_DecibelMilliwatt"
+  }
 }

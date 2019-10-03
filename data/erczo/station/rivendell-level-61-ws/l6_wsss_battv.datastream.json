@@ -48,7 +48,8 @@
       "Variable": "Voltage"
     },
     "dq": {
-      "Measurement": "BatteryVoltage"
+      "Measurement": "BatteryVoltage",
+      "Purpose": "StatusInformation"
     }
   },
   "is_geo_protected": false,
@@ -59,18 +60,19 @@
       "type": "name_previous"
     }
   ],
-  "version_id": "5d6889636f13dbc4a7113602",
-  "updated_at": "2019-08-30T02:26:43.994Z",
+  "version_id": "5d813149629faa3959a8db12",
+  "updated_at": "2019-09-17T19:17:29.740Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:28:25.007Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_BatteryVoltage",
+      "dq__Measurement_BatteryVoltage__Purpose_StatusInformation",
       "ds__Medium_Battery__Variable_Voltage"
     ],
     "class_tags": [
       "dq_Measurement_BatteryVoltage",
+      "dq_Purpose_StatusInformation",
       "ds_Medium_Battery",
       "ds_Variable_Voltage"
     ],

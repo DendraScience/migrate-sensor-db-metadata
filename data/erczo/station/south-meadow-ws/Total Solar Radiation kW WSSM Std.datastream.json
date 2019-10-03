@@ -81,23 +81,25 @@
       "Unit": "KilojoulePerSquareMeter"
     },
     "dq": {
-      "Measurement": "SolarRadiation"
+      "Measurement": "SolarRadiation",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d6889d05a3a94aea19018ba",
-  "updated_at": "2019-08-30T02:28:32.934Z",
+  "version_id": "5d8131cd2da5c37e85f651a5",
+  "updated_at": "2019-09-17T19:19:41.609Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T18:32:19.570Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_SolarRadiation",
+      "dq__Measurement_SolarRadiation__Purpose_ReadytoUse",
       "ds__Medium_Solar__Variable_Radiation"
     ],
     "class_tags": [
       "dq_Measurement_SolarRadiation",
+      "dq_Purpose_ReadytoUse",
       "ds_Medium_Solar",
       "ds_Variable_Radiation"
     ],

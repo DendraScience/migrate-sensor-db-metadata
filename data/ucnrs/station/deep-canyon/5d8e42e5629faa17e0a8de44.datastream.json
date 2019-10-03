@@ -1,0 +1,77 @@
+{
+  "_id": "5d8e42e5629faa17e0a8de44",
+  "is_enabled": true,
+  "name": "Soil Temperature soilt500cmin",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602bd",
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucde_boyddeepcanyon",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"Soil_T500_C_Min\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2018-11-18T08:20:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "terms": {
+    "ds": {
+      "Aggregate": "Minimum",
+      "Medium": "Soil",
+      "Variable": "Temperature"
+    },
+    "dt": {
+      "Unit": "DegreeCelsius"
+    },
+    "dq": {
+      "Measurement": "SoilTemperature",
+      "Purpose": "ReadytoUse"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "datapoints_config_built": [
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucde_boyddeepcanyon",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"Soil_T500_C_Min\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2018-11-18T08:20:00.000Z",
+      "path": "/influx/select",
+      "ends_before": "2200-02-02T00:00:00.000Z"
+    }
+  ],
+  "version_id": "5d8f72b2629faa129ba8deb8",
+  "updated_at": "2019-09-28T14:48:18.236Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-09-27T17:12:05.232Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_SoilTemperature__Purpose_ReadytoUse",
+      "ds__Aggregate_Minimum__Medium_Soil__Variable_Temperature"
+    ],
+    "class_tags": [
+      "dq_Measurement_SoilTemperature",
+      "dq_Purpose_ReadytoUse",
+      "ds_Aggregate_Minimum",
+      "ds_Medium_Soil",
+      "ds_Variable_Temperature"
+    ],
+    "unit_tag": "dt_Unit_DegreeCelsius"
+  }
+}

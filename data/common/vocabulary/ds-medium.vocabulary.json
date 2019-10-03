@@ -23,6 +23,9 @@
       "label": "Leaf"
     },
     {
+      "label": "Lightning"
+    },
+    {
       "label": "Not Applicable",
       "name": "NotApplicable"
     },
@@ -67,8 +70,8 @@
   "is_enabled": true,
   "vocabulary_type": "class",
   "is_hidden": false,
-  "version_id": "5d6ffbd45a3a946aac901933",
-  "updated_at": "2019-09-04T18:00:52.934Z",
+  "version_id": "5d795628466f5b03a699e43d",
+  "updated_at": "2019-09-11T20:16:40.881Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:22:11.483Z",
   "created_by": "5cdd9abda6fa68f95479675b"

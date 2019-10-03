@@ -1,0 +1,60 @@
+{
+  "_id": "5d76658d6f13db4f9711475e",
+  "is_enabled": true,
+  "name": "Soil Period microsec Probe 15 Avg",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "5c5b0a1cdf9d94fd2923d1f2",
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_l6_wsss",
+          "fc": "source_cs650s",
+          "sc": "\"time\", \"PA_15_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2019-09-08T09:30:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "terms": {
+    "dt": {
+      "Unit": "Microsecond"
+    },
+    "ds": {
+      "Aggregate": "Average",
+      "Medium": "Soil",
+      "Variable": "Period"
+    },
+    "dq": {
+      "Measurement": "SoilMoisturePeriod",
+      "Purpose": "Raw"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d8131612da5c34d8af6502a",
+  "updated_at": "2019-09-17T19:17:53.768Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-09-09T14:45:33.342Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_SoilMoisturePeriod__Purpose_Raw",
+      "ds__Aggregate_Average__Medium_Soil__Variable_Period"
+    ],
+    "class_tags": [
+      "dq_Measurement_SoilMoisturePeriod",
+      "dq_Purpose_Raw",
+      "ds_Aggregate_Average",
+      "ds_Medium_Soil",
+      "ds_Variable_Period"
+    ],
+    "unit_tag": "dt_Unit_Microsecond"
+  }
+}

@@ -82,23 +82,25 @@
       "Unit": "DegreeCelsius"
     },
     "dq": {
-      "Measurement": "WaterTemperature"
+      "Measurement": "WaterTemperature",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d6889a25a3a945987901822",
-  "updated_at": "2019-08-30T02:27:46.197Z",
+  "version_id": "5d81319e2da5c3e684f65101",
+  "updated_at": "2019-09-17T19:18:54.548Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:28:42.957Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_WaterTemperature",
+      "dq__Measurement_WaterTemperature__Purpose_ReadytoUse",
       "ds__Medium_Water__Variable_Temperature"
     ],
     "class_tags": [
       "dq_Measurement_WaterTemperature",
+      "dq_Purpose_ReadytoUse",
       "ds_Medium_Water",
       "ds_Variable_Temperature"
     ],

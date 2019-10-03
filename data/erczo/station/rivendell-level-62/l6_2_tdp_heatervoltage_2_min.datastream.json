@@ -32,7 +32,8 @@
       "Variable": "Voltage"
     },
     "dq": {
-      "Measurement": "SapFlowHeaterVoltage"
+      "Measurement": "SapFlowHeaterVoltage",
+      "Purpose": "StatusInformation"
     }
   },
   "is_geo_protected": false,
@@ -43,18 +44,19 @@
       "type": "name_previous"
     }
   ],
-  "version_id": "5d68898d6f13db23d9113694",
-  "updated_at": "2019-08-30T02:27:25.971Z",
+  "version_id": "5d81318a629faa159aa8dbed",
+  "updated_at": "2019-09-17T19:18:34.240Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-08-05T20:20:38.250Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_SapFlowHeaterVoltage",
+      "dq__Measurement_SapFlowHeaterVoltage__Purpose_StatusInformation",
       "ds__Aggregate_Minimum__Medium_Sap__Variable_Voltage"
     ],
     "class_tags": [
       "dq_Measurement_SapFlowHeaterVoltage",
+      "dq_Purpose_StatusInformation",
       "ds_Aggregate_Minimum",
       "ds_Medium_Sap",
       "ds_Variable_Voltage"

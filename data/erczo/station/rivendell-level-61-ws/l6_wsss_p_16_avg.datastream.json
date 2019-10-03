@@ -32,7 +32,8 @@
       "Variable": "Permittivity"
     },
     "dq": {
-      "Measurement": "Permittivity"
+      "Measurement": "Permittivity",
+      "Purpose": "Raw"
     }
   },
   "is_geo_protected": false,
@@ -43,18 +44,19 @@
       "type": "name_previous"
     }
   ],
-  "version_id": "5d6889725a3a946ca590177a",
-  "updated_at": "2019-08-30T02:26:58.787Z",
+  "version_id": "5d8131592da5c340f0f6500b",
+  "updated_at": "2019-09-17T19:17:45.232Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-08-05T20:21:49.808Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_Permittivity",
+      "dq__Measurement_Permittivity__Purpose_Raw",
       "ds__Aggregate_Average__Medium_Soil__Variable_Permittivity"
     ],
     "class_tags": [
       "dq_Measurement_Permittivity",
+      "dq_Purpose_Raw",
       "ds_Aggregate_Average",
       "ds_Medium_Soil",
       "ds_Variable_Permittivity"

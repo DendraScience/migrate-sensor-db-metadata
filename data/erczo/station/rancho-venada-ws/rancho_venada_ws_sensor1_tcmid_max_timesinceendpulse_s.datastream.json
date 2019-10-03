@@ -48,7 +48,8 @@
       "Unit": "Second"
     },
     "dq": {
-      "Measurement": "SapFlowPeriod"
+      "Measurement": "SapFlowPeriod",
+      "Purpose": "Raw"
     }
   },
   "is_geo_protected": false,
@@ -59,18 +60,19 @@
       "type": "name_previous"
     }
   ],
-  "version_id": "5d68889a6f13db2865113346",
-  "updated_at": "2019-08-30T02:23:22.586Z",
+  "version_id": "5d813079629faa8de7a8d845",
+  "updated_at": "2019-09-17T19:14:01.252Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:23:54.294Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_SapFlowPeriod",
+      "dq__Measurement_SapFlowPeriod__Purpose_Raw",
       "ds__Medium_Sap__Variable_Period"
     ],
     "class_tags": [
       "dq_Measurement_SapFlowPeriod",
+      "dq_Purpose_Raw",
       "ds_Medium_Sap",
       "ds_Variable_Period"
     ],

@@ -68,23 +68,25 @@
       "Unit": "Meter"
     },
     "dq": {
-      "Measurement": "Snowfall"
+      "Measurement": "SnowDepth",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d6888905a3a94d070901441",
-  "updated_at": "2019-08-30T02:23:12.610Z",
+  "version_id": "5d81306f2da5c37a14f64d06",
+  "updated_at": "2019-09-17T19:13:51.268Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:23:40.497Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_Snowfall",
+      "dq__Measurement_SnowDepth__Purpose_ReadytoUse",
       "ds__Medium_Snow__Variable_Depth"
     ],
     "class_tags": [
-      "dq_Measurement_Snowfall",
+      "dq_Measurement_SnowDepth",
+      "dq_Purpose_ReadytoUse",
       "ds_Medium_Snow",
       "ds_Variable_Depth"
     ],

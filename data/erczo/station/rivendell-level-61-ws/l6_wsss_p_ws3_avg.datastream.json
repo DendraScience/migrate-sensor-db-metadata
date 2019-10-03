@@ -1,6 +1,6 @@
 {
   "_id": "5cdccd73662fc21e9de83b7e",
-  "name": "WS3 Soil Moisture Permittivity Avg",
+  "name": "WS3 30cm Soil Permittivity Avg",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -49,7 +49,8 @@
       "Unit": "Dimensionless"
     },
     "dq": {
-      "Measurement": "Permittivity"
+      "Measurement": "Permittivity",
+      "Purpose": "Raw"
     }
   },
   "is_geo_protected": false,
@@ -60,18 +61,19 @@
       "type": "name_previous"
     }
   ],
-  "version_id": "5d6889786f13db22c411363d",
-  "updated_at": "2019-08-30T02:27:04.628Z",
+  "version_id": "5d81315f629faa64eea8db6f",
+  "updated_at": "2019-09-17T19:17:51.713Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:28:29.136Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_Permittivity",
+      "dq__Measurement_Permittivity__Purpose_Raw",
       "ds__Aggregate_Average__Medium_Soil__Variable_Permittivity"
     ],
     "class_tags": [
       "dq_Measurement_Permittivity",
+      "dq_Purpose_Raw",
       "ds_Aggregate_Average",
       "ds_Medium_Soil",
       "ds_Variable_Permittivity"

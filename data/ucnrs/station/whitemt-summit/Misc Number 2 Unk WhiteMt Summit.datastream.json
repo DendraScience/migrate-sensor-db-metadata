@@ -1,7 +1,6 @@
 {
   "_id": "5ae8799ffe27f46284102d34",
   "description": "Valid Range for Values unknown - only a guess because method is unknown",
-  "enabled": false,
   "name": "Misc Number 2 Unk",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -46,82 +45,31 @@
       "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Unknown",
-    "ds_Variable_Unknown",
-    "dt_Unit_Dimensionless"
-  ],
-  "created_at": "2018-07-02T01:06:46.803Z",
-  "updated_at": "2018-07-03T19:06:28.285Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Unknown",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Unknown",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "label": "Dimensionless",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "883b5328cd5a5a14baf6a860e894e90db2333a0b"
+  "is_enabled": false,
+  "terms": {
+    "ds": {
+      "Medium": "Unknown",
+      "Variable": "Unknown"
     },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "210b2648eeca5484e5cc188c1857de66c53740d9",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "bc6194f65d6298e5bbbc77877d576f7d7eb0a93e",
-      "scheme_id": "dt"
+    "dt": {
+      "Unit": "Dimensionless"
     }
-  ],
-  "_include": []
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d708f976f13db051811460c",
+  "updated_at": "2019-09-05T04:31:19.086Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:47:26.500Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "ds__Medium_Unknown__Variable_Unknown"
+    ],
+    "class_tags": [
+      "ds_Medium_Unknown",
+      "ds_Variable_Unknown"
+    ],
+    "unit_tag": "dt_Unit_Dimensionless"
+  }
 }

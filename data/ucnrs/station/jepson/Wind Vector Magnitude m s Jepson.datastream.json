@@ -1,6 +1,5 @@
 {
   "_id": "5ae87aaffe27f469e91031d7",
-  "enabled": false,
   "name": "Wind Vector Magnitude m s",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -58,83 +57,31 @@
       "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Air",
-    "ds_Variable_Speed",
-    "dt_Unit_MeterPerSecond"
-  ],
-  "created_at": "2018-07-02T01:08:15.308Z",
-  "updated_at": "2018-07-03T19:07:08.958Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Air",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Speed",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "m/s",
-        "label": "MeterPerSecond",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "3970be5fa5322e1c194ea44a89dda5ade6b86b1f"
+  "is_enabled": false,
+  "terms": {
+    "ds": {
+      "Medium": "Air",
+      "Variable": "Speed"
     },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "4f299cb1b98488f0339f42c343b9d0e616bb5870",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "ed410d68f80e0ee139fcd18c842f80a8f3dcf437",
-      "scheme_id": "dt"
+    "dt": {
+      "Unit": "MeterPerSecond"
     }
-  ],
-  "_include": []
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d708eba5a3a94ba1c902550",
+  "updated_at": "2019-09-05T04:27:38.621Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:42:43.194Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "ds__Medium_Air__Variable_Speed"
+    ],
+    "class_tags": [
+      "ds_Medium_Air",
+      "ds_Variable_Speed"
+    ],
+    "unit_tag": "dt_Unit_MeterPerSecond"
+  }
 }

@@ -1,0 +1,77 @@
+{
+  "_id": "5d8e42dd629faa98c3a8de2a",
+  "is_enabled": true,
+  "name": "Solar PhotosyntheticallyActiveRadiation paravg",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602bd",
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucde_boyddeepcanyon",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"PAR_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2018-11-18T08:20:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "terms": {
+    "dt": {
+      "Unit": "MicromolePerSquareMeter"
+    },
+    "ds": {
+      "Aggregate": "Average",
+      "Medium": "Solar",
+      "Variable": "PhotosyntheticallyActiveRadiation"
+    },
+    "dq": {
+      "Measurement": "PhotosyntheticallyActiveRadiation",
+      "Purpose": "ReadytoUse"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "datapoints_config_built": [
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucde_boyddeepcanyon",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"PAR_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2018-11-18T08:20:00.000Z",
+      "path": "/influx/select",
+      "ends_before": "2200-02-02T00:00:00.000Z"
+    }
+  ],
+  "version_id": "5d8f72a9629faa835aa8de9e",
+  "updated_at": "2019-09-28T14:48:09.771Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-09-27T17:11:57.987Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_PhotosyntheticallyActiveRadiation__Purpose_ReadytoUse",
+      "ds__Aggregate_Average__Medium_Solar__Variable_PhotosyntheticallyActiveRadiation"
+    ],
+    "class_tags": [
+      "dq_Measurement_PhotosyntheticallyActiveRadiation",
+      "dq_Purpose_ReadytoUse",
+      "ds_Aggregate_Average",
+      "ds_Medium_Solar",
+      "ds_Variable_PhotosyntheticallyActiveRadiation"
+    ],
+    "unit_tag": "dt_Unit_MicromolePerSquareMeter"
+  }
+}

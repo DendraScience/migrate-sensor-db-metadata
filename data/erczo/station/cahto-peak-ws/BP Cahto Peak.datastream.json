@@ -82,23 +82,25 @@
       "Unit": "Millibar"
     },
     "dq": {
-      "Measurement": "BarometricPressure"
+      "Measurement": "BarometricPressure",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d68888e5a3a94a31e90143d",
-  "updated_at": "2019-08-30T02:23:10.266Z",
+  "version_id": "5d81306c2da5c37b26f64cf2",
+  "updated_at": "2019-09-17T19:13:48.978Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:23:37.380Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_BarometricPressure",
+      "dq__Measurement_BarometricPressure__Purpose_ReadytoUse",
       "ds__Aggregate_Average__Medium_Air__Variable_BarometricPressure"
     ],
     "class_tags": [
       "dq_Measurement_BarometricPressure",
+      "dq_Purpose_ReadytoUse",
       "ds_Aggregate_Average",
       "ds_Medium_Air",
       "ds_Variable_BarometricPressure"

@@ -59,16 +59,16 @@
   ],
   "attributes": {
     "depth": {
-      "unit": "dt_Unit_Meter",
-      "value": 33.22
+      "value": 33.22,
+      "unit_tag": "dt_Unit_Meter"
     },
     "wellhead_height": {
-      "unit": "dt_Unit_Meter",
-      "value": 0.35
+      "value": 0.35,
+      "unit_tag": "dt_Unit_Meter"
     },
     "cable_length": {
-      "unit": "dt_Unit_Meter",
-      "value": 28.38
+      "value": 28.38,
+      "unit_tag": "dt_Unit_Meter"
     }
   },
   "is_enabled": true,
@@ -81,23 +81,25 @@
       "Unit": "Meter"
     },
     "dq": {
-      "Measurement": "WellDepth"
+      "Measurement": "WellDepth",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d68895c6f13db05c51135e0",
-  "updated_at": "2019-08-30T02:26:36.108Z",
+  "version_id": "5d813141629faa3f2ca8daf4",
+  "updated_at": "2019-09-17T19:17:21.590Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:28:22.124Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_WellDepth",
+      "dq__Measurement_WellDepth__Purpose_ReadytoUse",
       "ds__Medium_GroundWater__Variable_Depth"
     ],
     "class_tags": [
       "dq_Measurement_WellDepth",
+      "dq_Purpose_ReadytoUse",
       "ds_Medium_GroundWater",
       "ds_Variable_Depth"
     ],

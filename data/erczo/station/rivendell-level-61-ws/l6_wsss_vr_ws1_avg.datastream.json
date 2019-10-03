@@ -1,6 +1,6 @@
 {
   "_id": "5cdccf1f662fc227ffe83bbc",
-  "name": "WS1 Soil Moisture Voltage Ratio Avg",
+  "name": "WS1 10cm Soil Voltage Ratio Avg",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -29,13 +29,14 @@
     "ds": {
       "Aggregate": "Average",
       "Medium": "Soil",
-      "Variable": "Moisture"
+      "Variable": "Voltage"
     },
     "dt": {
       "Unit": "Dimensionless"
     },
     "dq": {
-      "Measurement": "SoilMoisture"
+      "Measurement": "VoltageRatio",
+      "Purpose": "Raw"
     }
   },
   "is_geo_protected": false,
@@ -46,21 +47,22 @@
       "type": "name_previous"
     }
   ],
-  "version_id": "5d68898a5a3a941f399017c5",
-  "updated_at": "2019-08-30T02:27:22.910Z",
+  "version_id": "5d813182629faa28e3a8dbdf",
+  "updated_at": "2019-09-17T19:18:26.221Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:28:33.708Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_SoilMoisture",
-      "ds__Aggregate_Average__Medium_Soil__Variable_Moisture"
+      "dq__Measurement_VoltageRatio__Purpose_Raw",
+      "ds__Aggregate_Average__Medium_Soil__Variable_Voltage"
     ],
     "class_tags": [
-      "dq_Measurement_SoilMoisture",
+      "dq_Measurement_VoltageRatio",
+      "dq_Purpose_Raw",
       "ds_Aggregate_Average",
       "ds_Medium_Soil",
-      "ds_Variable_Moisture"
+      "ds_Variable_Voltage"
     ],
     "unit_tag": "dt_Unit_Dimensionless"
   }

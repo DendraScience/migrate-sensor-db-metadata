@@ -1,7 +1,6 @@
 {
   "_id": "5ae879edfe27f418af102e93",
   "description": "",
-  "enabled": true,
   "name": "Soil Moisture TDR freq 100 mm horiz",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -18,7 +17,7 @@
         }
       },
       "path": "/legacy/datavalues-ucnrs",
-      "ends_before": "2017-02-01T11:10:00Z"
+      "ends_before": "2017-02-01T11:10:00.000Z"
     },
     {
       "params": {
@@ -31,7 +30,7 @@
           "coalesce": true
         }
       },
-      "begins_at": "2017-02-01T11:10:00Z",
+      "begins_at": "2017-02-01T11:10:00.000Z",
       "path": "/influx/select"
     }
   ],
@@ -65,12 +64,6 @@
       "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Soil",
-    "ds_Variable_Moisture",
-    "dt_Unit_Microsecond",
-    "ds_Aggregate_Average"
-  ],
   "attributes": {
     "orientation": "horizontal",
     "depth": {
@@ -78,95 +71,40 @@
       "value": 0.1
     }
   },
-  "created_at": "2018-07-02T01:07:10.968Z",
-  "updated_at": "2018-07-03T19:06:40.003Z",
-  "attributes_info": {
-    "sort": {
-      "value1": 0,
-      "value2": 0
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Soil",
+      "Variable": "Moisture",
+      "Aggregate": "Average"
     },
-    "text": ""
-  },
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Soil",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Moisture",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "µsec",
-        "label": "Microsecond",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Average",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 3
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "77499be9a141cd9062b3f1a7a80b2cc3cde56761"
+    "dt": {
+      "Unit": "Microsecond"
     },
-    {
-      "key": "att",
-      "str": "ac275e29fe2637f9c357743f77b1364eddbdfbe5"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "a419a867eee1eb7b90ff73592001f7d5e75d5420",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "fcfe091619170a6f1fd8ae9a7b901145ff5fbe98",
-      "scheme_id": "dt"
+    "dq": {
+      "Measurement": "SoilMoisture",
+      "Purpose": "ReadytoUse"
     }
-  ],
-  "_include": []
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d708ec66f13db8e72114441",
+  "updated_at": "2019-09-05T04:27:50.698Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:42:58.174Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_SoilMoisture__Purpose_ReadytoUse",
+      "ds__Aggregate_Average__Medium_Soil__Variable_Moisture"
+    ],
+    "class_tags": [
+      "dq_Measurement_SoilMoisture",
+      "dq_Purpose_ReadytoUse",
+      "ds_Aggregate_Average",
+      "ds_Medium_Soil",
+      "ds_Variable_Moisture"
+    ],
+    "unit_tag": "dt_Unit_Microsecond"
+  }
 }

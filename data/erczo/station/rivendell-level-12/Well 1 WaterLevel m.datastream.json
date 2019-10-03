@@ -18,6 +18,18 @@
         }
       },
       "path": "/legacy/datavalues2"
+    },
+    {
+      "begins_at": "2008-06-04T22:30:00.000Z",
+      "ends_before": "2010-11-21T02:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 1328,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues2"
     }
   ],
   "external_refs": [
@@ -60,16 +72,16 @@
   ],
   "attributes": {
     "depth": {
-      "unit": "dt_Unit_Meter",
-      "value": 9.5
+      "value": 9.5,
+      "unit_tag": "dt_Unit_Meter"
     },
     "wellhead_height": {
-      "unit": "dt_Unit_Meter",
-      "value": 0
+      "value": 0,
+      "unit_tag": "dt_Unit_Meter"
     },
     "cable_length": {
-      "unit": "dt_Unit_Meter",
-      "value": 7.13
+      "value": 7.13,
+      "unit_tag": "dt_Unit_Meter"
     }
   },
   "derived_from_datastream_ids": [
@@ -85,23 +97,25 @@
       "Unit": "Meter"
     },
     "dq": {
-      "Measurement": "WellDepth"
+      "Measurement": "WellDepth",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d6888cf5a3a946a1890151f",
-  "updated_at": "2019-08-30T02:24:15.876Z",
+  "version_id": "5d8130ae2da5c3267ff64de3",
+  "updated_at": "2019-09-17T19:14:54.786Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:25:07.372Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_WellDepth",
+      "dq__Measurement_WellDepth__Purpose_ReadytoUse",
       "ds__Medium_GroundWater__Variable_Depth"
     ],
     "class_tags": [
       "dq_Measurement_WellDepth",
+      "dq_Purpose_ReadytoUse",
       "ds_Medium_GroundWater",
       "ds_Variable_Depth"
     ],

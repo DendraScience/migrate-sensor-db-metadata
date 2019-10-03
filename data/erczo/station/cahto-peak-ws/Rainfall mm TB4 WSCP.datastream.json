@@ -82,23 +82,25 @@
       "Unit": "Millimeter"
     },
     "dq": {
-      "Measurement": "Rainfall"
+      "Measurement": "Rainfall",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d68888f5a3a943b3990143f",
-  "updated_at": "2019-08-30T02:23:11.445Z",
+  "version_id": "5d81306e2da5c3e2fcf64cf9",
+  "updated_at": "2019-09-17T19:13:50.108Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:23:38.945Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_Rainfall",
+      "dq__Measurement_Rainfall__Purpose_ReadytoUse",
       "ds__Medium_Water__Variable_Precipitation"
     ],
     "class_tags": [
       "dq_Measurement_Rainfall",
+      "dq_Purpose_ReadytoUse",
       "ds_Medium_Water",
       "ds_Variable_Precipitation"
     ],

@@ -1,6 +1,5 @@
 {
   "_id": "5ae879c1fe27f40ebc102dd4",
-  "enabled": true,
   "name": "Rain Gage Temp Deg C",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -72,83 +71,38 @@
       "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Instrument",
-    "ds_Variable_Temperature",
-    "dt_Unit_DegreeCelsius"
-  ],
-  "created_at": "2018-07-02T01:06:57.564Z",
-  "updated_at": "2018-07-03T19:06:33.554Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Instrument",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Temperature",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "degC",
-        "label": "DegreeCelsius",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "3970be5fa5322e1c194ea44a89dda5ade6b86b1f"
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Instrument",
+      "Variable": "Temperature"
     },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "dt": {
+      "Unit": "DegreeCelsius"
     },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "ade9a3c67024faaf9fac585305ff0e89f68a72f8",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "5795c6e74091f87a34b256903db271fcca161eee",
-      "scheme_id": "dt"
+    "dq": {
+      "Measurement": "InstrumentTemperature",
+      "Purpose": "StatusInformation"
     }
-  ],
-  "_include": []
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d708eac5a3a946dc3902531",
+  "updated_at": "2019-09-05T04:27:24.811Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:42:25.514Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_InstrumentTemperature__Purpose_StatusInformation",
+      "ds__Medium_Instrument__Variable_Temperature"
+    ],
+    "class_tags": [
+      "dq_Measurement_InstrumentTemperature",
+      "dq_Purpose_StatusInformation",
+      "ds_Medium_Instrument",
+      "ds_Variable_Temperature"
+    ],
+    "unit_tag": "dt_Unit_DegreeCelsius"
+  }
 }

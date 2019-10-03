@@ -61,23 +61,25 @@
       "Unit": "DegreeAngle"
     },
     "dq": {
-      "Measurement": "WindDirection"
+      "Measurement": "WindDirection",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d6889d56f13db75fe113792",
-  "updated_at": "2019-08-30T02:28:37.738Z",
+  "version_id": "5d8131d2629faa1ecea8dcee",
+  "updated_at": "2019-09-17T19:19:46.436Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T18:32:28.462Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_WindDirection",
+      "dq__Measurement_WindDirection__Purpose_ReadytoUse",
       "ds__Aggregate_Average__Medium_Air__Variable_Direction"
     ],
     "class_tags": [
       "dq_Measurement_WindDirection",
+      "dq_Purpose_ReadytoUse",
       "ds_Aggregate_Average",
       "ds_Medium_Air",
       "ds_Variable_Direction"

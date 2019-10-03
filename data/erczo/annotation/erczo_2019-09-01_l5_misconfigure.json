@@ -1,0 +1,54 @@
+{
+  "_id": "5d76ad456f13dbaf781149d1",
+  "actions": [
+    {
+      "exclude": true
+    }
+  ],
+  "datastream_ids": [
+    "5ae8746afe27f4665210272d",
+    "5ae8746bfe27f41993102731",
+    "5ae8746cfe27f48062102735",
+    "5ae8746cfe27f41200102739",
+    "5ae8746dfe27f45ed010273d",
+    "5ae876aafe27f416d910290d",
+    "5ae876abfe27f420cd102911",
+    "5ae876acfe27f4fb91102915",
+    "5ae876adfe27f40144102919",
+    "5ae876aefe27f4489f10291d",
+    "5ae873f4fe27f45ffb102509",
+    "5ae873f4fe27f41d6710250a",
+    "5ae873f4fe27f4292b10250b",
+    "5ae873f5fe27f481b210250c",
+    "5ae873f5fe27f4536a10250d"
+  ],
+  "description": "In switching all CS650 soil moisture sensors to report all variables, the Level 5 code was configured to use \"M4!\" in SDI-12 as per Campbell Sci's ShortCut program.  This turns out to be incorrect. It needs to be \"M3!\".   Several values were reported incorrectly until the error was caught and fixed.  These are bad values.",
+  "intervals": [
+    {
+      "begins_at": "2019-09-08T16:00:00.000Z",
+      "ends_before": "2019-09-09T00:45:00.000Z"
+    }
+  ],
+  "involved_parties": [
+    {
+      "person_id": "5ceb87d8b30920286fb66cdd",
+      "roles": [
+        "contact",
+        "reporter"
+      ]
+    }
+  ],
+  "organization_id": "58db17e824dc720001671379",
+  "title": "Level 5 Logger Misconfiguration on soil moisture sensors",
+  "is_enabled": true,
+  "state": "approved",
+  "version_id": "5d76ad456f13db76881149d0",
+  "created_at": "2019-09-09T19:51:33.260Z",
+  "updated_at": "2019-09-11T18:28:17.015Z",
+  "created_by": "5ceb8979b30920354eb66cde",
+  "updated_by": "5ceb8979b30920354eb66cde",
+  "access_levels_resolved": {
+    "member_level": 3,
+    "public_level": 1
+  }
+}

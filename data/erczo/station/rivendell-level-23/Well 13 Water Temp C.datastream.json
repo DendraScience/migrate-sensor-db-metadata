@@ -73,16 +73,16 @@
   ],
   "attributes": {
     "depth": {
-      "unit": "dt_Unit_Meter",
-      "value": 18.44
+      "value": 18.44,
+      "unit_tag": "dt_Unit_Meter"
     },
     "wellhead_height": {
-      "unit": "dt_Unit_Meter",
-      "value": 0.604
+      "value": 0.604,
+      "unit_tag": "dt_Unit_Meter"
     },
     "cable_length": {
-      "unit": "dt_Unit_Meter",
-      "value": 17.39
+      "value": 17.39,
+      "unit_tag": "dt_Unit_Meter"
     }
   },
   "is_enabled": true,
@@ -95,23 +95,25 @@
       "Unit": "DegreeCelsius"
     },
     "dq": {
-      "Measurement": "WaterTemperature"
+      "Measurement": "WaterTemperature",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d68890a6f13db12031134cd",
-  "updated_at": "2019-08-30T02:25:14.223Z",
+  "version_id": "5d8130ec629faa1909a8d9ce",
+  "updated_at": "2019-09-17T19:15:56.429Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:26:27.442Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_WaterTemperature",
+      "dq__Measurement_WaterTemperature__Purpose_ReadytoUse",
       "ds__Medium_Water__Variable_Temperature"
     ],
     "class_tags": [
       "dq_Measurement_WaterTemperature",
+      "dq_Purpose_ReadytoUse",
       "ds_Medium_Water",
       "ds_Variable_Temperature"
     ],

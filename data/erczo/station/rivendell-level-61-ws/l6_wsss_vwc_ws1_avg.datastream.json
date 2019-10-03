@@ -1,6 +1,6 @@
 {
   "_id": "5cdccf1f2a4220bc70cbf784",
-  "name": "WS1 Soil Moisture VWC Avg",
+  "name": "Soil Volumetric Water Content WS1 10cm Horizontal Avg",
   "organization_id": "58db17e824dc720001671379",
   "source_type": "sensor",
   "state": "ready",
@@ -24,7 +24,7 @@
   "is_enabled": true,
   "terms": {
     "dt": {
-      "Unit": "Percent"
+      "Unit": "VolumetricWaterContent"
     },
     "ds": {
       "Aggregate": "Average",
@@ -32,33 +32,35 @@
       "Variable": "VolumetricWaterContent"
     },
     "dq": {
-      "Measurement": "VolumetricWaterContent"
+      "Measurement": "VolumetricWaterContent",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
-  "is_hidden": false,
+  "is_hidden": true,
   "external_refs": [
     {
       "identifier": " l6_wsss WS1 Soil Moisture VWC Avg",
       "type": "name_previous"
     }
   ],
-  "version_id": "5d68898b6f13db10bd11367a",
-  "updated_at": "2019-08-30T02:27:23.748Z",
+  "version_id": "5d8131872da5c30730f650a1",
+  "updated_at": "2019-09-17T19:18:31.644Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:28:34.883Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_VolumetricWaterContent",
+      "dq__Measurement_VolumetricWaterContent__Purpose_ReadytoUse",
       "ds__Aggregate_Average__Medium_Soil__Variable_VolumetricWaterContent"
     ],
     "class_tags": [
       "dq_Measurement_VolumetricWaterContent",
+      "dq_Purpose_ReadytoUse",
       "ds_Aggregate_Average",
       "ds_Medium_Soil",
       "ds_Variable_VolumetricWaterContent"
     ],
-    "unit_tag": "dt_Unit_Percent"
+    "unit_tag": "dt_Unit_VolumetricWaterContent"
   }
 }

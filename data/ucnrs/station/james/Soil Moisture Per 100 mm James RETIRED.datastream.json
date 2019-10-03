@@ -1,7 +1,6 @@
 {
   "_id": "5ae879eafe27f401ea102e85",
   "description": "Echo retired on May 2, 2017 and replaced with a CS616",
-  "enabled": false,
   "name": "Soil Moisture Per 100 mm RETIRED",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -59,107 +58,39 @@
       "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Soil",
-    "ds_Variable_Moisture",
-    "dt_Unit_Percent",
-    "ds_Aggregate_Average"
-  ],
   "attributes": {
     "depth": {
       "unit_tag": "dt_Unit_Meter",
       "value": 0.1
     }
   },
-  "created_at": "2018-07-02T01:07:10.044Z",
-  "updated_at": "2018-07-03T19:06:39.552Z",
-  "attributes_info": {
-    "sort": {
-      "value1": 0.1,
-      "value2": 0
+  "is_enabled": false,
+  "terms": {
+    "ds": {
+      "Medium": "Soil",
+      "Variable": "Moisture",
+      "Aggregate": "Average"
     },
-    "text": "0.1"
-  },
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Soil",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Moisture",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "%",
-        "label": "Percent",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Average",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 3
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "8da73705956f50baaf01369295bd6db12c0f5c67"
-    },
-    {
-      "key": "att",
-      "str": "6197fce17ba1b8b3470dbd8edddc6ca03b6e3a3a"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "a419a867eee1eb7b90ff73592001f7d5e75d5420",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "2734b26dc0ddea857c1c6f650f5735cc8bb660eb",
-      "scheme_id": "dt"
+    "dt": {
+      "Unit": "Percent"
     }
-  ],
-  "_include": []
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d708e905a3a94e51c9024e7",
+  "updated_at": "2019-09-05T04:26:56.703Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:41:47.604Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "ds__Aggregate_Average__Medium_Soil__Variable_Moisture"
+    ],
+    "class_tags": [
+      "ds_Aggregate_Average",
+      "ds_Medium_Soil",
+      "ds_Variable_Moisture"
+    ],
+    "unit_tag": "dt_Unit_Percent"
+  }
 }

@@ -1,0 +1,87 @@
+{
+  "_id": "5d76a6b25a3a94ae82902a68",
+  "name": "WS2 20cm Soil Moisture Percent Avg",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "5c5b0a1cdf9d94fd2923d1f2",
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_l6_wsss",
+          "fc": "source_weatherstationss",
+          "sc": "\"time\", -0.053 + (0.0292 *  P_WS2_Avg) - (0.00055 *  P_WS2_Avg *  P_WS2_Avg) + (0.0000042999999999999995 *  P_WS2_Avg *  P_WS2_Avg *  P_WS2_Avg)",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2017-09-27T23:55:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "datapoints_config_built": [
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_l6_wsss",
+          "fc": "source_weatherstationss",
+          "sc": "\"time\", \"P_WS2_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2017-09-27T23:55:00.000Z",
+      "path": "/influx/select",
+      "ends_before": "2200-02-02T00:00:00.000Z"
+    }
+  ],
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Aggregate": "Average",
+      "Medium": "Soil",
+      "Variable": "Moisture"
+    },
+    "dt": {
+      "Unit": "VolumetricWaterContent"
+    },
+    "dq": {
+      "Measurement": "SoilMoisture",
+      "Purpose": "ReadytoUse"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "external_refs": [
+    {
+      "identifier": " l6_wsss WS2 Soil Moisture Permittivity Avg",
+      "type": "name_previous"
+    },
+    {
+      "identifier": "5cdccd732a42205c33cbf74c",
+      "type": "derived_from_datastream_id"
+    }
+  ],
+  "version_id": "5d8131712da5c39966f65061",
+  "updated_at": "2019-09-17T19:18:09.813Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-09-09T19:23:30.561Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_SoilMoisture__Purpose_ReadytoUse",
+      "ds__Aggregate_Average__Medium_Soil__Variable_Moisture"
+    ],
+    "class_tags": [
+      "dq_Measurement_SoilMoisture",
+      "dq_Purpose_ReadytoUse",
+      "ds_Aggregate_Average",
+      "ds_Medium_Soil",
+      "ds_Variable_Moisture"
+    ],
+    "unit_tag": "dt_Unit_VolumetricWaterContent"
+  }
+}

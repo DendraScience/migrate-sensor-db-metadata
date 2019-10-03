@@ -4,7 +4,6 @@
   "name": "Precipitation mm",
   "source_type": "sensor",
   "state": "ready",
-  "enabled": true,
   "datapoints_config": [
     {
       "params": {
@@ -37,90 +36,45 @@
     }
   ],
   "description": "TBD",
-  "tags": [
-    "ds_Medium_Water",
-    "ds_Variable_Precipitation",
-    "dt_Unit_Millimeter"
-  ],
-  "created_at": "2018-05-01T14:25:50.735Z",
-  "updated_at": "2018-10-10T01:36:40.979Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Precipitation",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Height",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "mm",
-        "label": "Millimeter",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 2
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "f26094889cb1fcec3ada1bf103d44d6247707986"
-    },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "3915b0f6162c78b77c3df999d417f9444f5c407c",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "b0c7386b883ea89804e8613181308a0d15033964",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": [],
   "organization_id": "58db17c424dc720001671378",
   "external_refs": [
     {
       "identifier": "Precipitation mm Quail Ridge",
       "type": "name_previous"
     }
-  ]
+  ],
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Water",
+      "Variable": "Precipitation"
+    },
+    "dt": {
+      "Unit": "Millimeter"
+    },
+    "dq": {
+      "Measurement": "Rainfall",
+      "Purpose": "ReadytoUse"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d708ef55a3a946daf9025c2",
+  "updated_at": "2019-09-05T04:28:37.202Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:43:52.596Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_Rainfall__Purpose_ReadytoUse",
+      "ds__Medium_Water__Variable_Precipitation"
+    ],
+    "class_tags": [
+      "dq_Measurement_Rainfall",
+      "dq_Purpose_ReadytoUse",
+      "ds_Medium_Water",
+      "ds_Variable_Precipitation"
+    ],
+    "unit_tag": "dt_Unit_Millimeter"
+  }
 }

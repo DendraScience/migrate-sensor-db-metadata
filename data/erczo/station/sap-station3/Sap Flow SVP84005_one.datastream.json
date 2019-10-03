@@ -55,23 +55,25 @@
       "Unit": "CentimeterPerHour"
     },
     "dq": {
-      "Measurement": "SapFlow"
+      "Measurement": "SapFlow",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d6889b46f13db1e22113709",
-  "updated_at": "2019-08-30T02:28:04.392Z",
+  "version_id": "5d8131b0629faab525a8dc7f",
+  "updated_at": "2019-09-17T19:19:12.934Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:29:08.025Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_SapFlow",
+      "dq__Measurement_SapFlow__Purpose_ReadytoUse",
       "ds__Medium_Sap__Variable_Flux"
     ],
     "class_tags": [
       "dq_Measurement_SapFlow",
+      "dq_Purpose_ReadytoUse",
       "ds_Medium_Sap",
       "ds_Variable_Flux"
     ],

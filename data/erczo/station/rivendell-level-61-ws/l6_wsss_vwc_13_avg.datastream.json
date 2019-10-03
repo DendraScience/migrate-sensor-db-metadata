@@ -1,0 +1,60 @@
+{
+  "_id": "5d76665c5a3a945f9d9028ec",
+  "is_enabled": true,
+  "name": "Soil Volumetric Water Content Probe 13 Avg",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "5c5b0a1cdf9d94fd2923d1f2",
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_l6_wsss",
+          "fc": "source_cs650s",
+          "sc": "\"time\", \"VWC_13_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2019-09-08T09:30:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "terms": {
+    "dt": {
+      "Unit": "VolumetricWaterContent"
+    },
+    "ds": {
+      "Aggregate": "Average",
+      "Medium": "Soil",
+      "Variable": "VolumetricWaterContent"
+    },
+    "dq": {
+      "Measurement": "VolumetricWaterContent",
+      "Purpose": "ReadytoUse"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": true,
+  "version_id": "5d813183629faa4169a8dbe2",
+  "updated_at": "2019-09-17T19:18:27.950Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-09-09T14:49:00.955Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_VolumetricWaterContent__Purpose_ReadytoUse",
+      "ds__Aggregate_Average__Medium_Soil__Variable_VolumetricWaterContent"
+    ],
+    "class_tags": [
+      "dq_Measurement_VolumetricWaterContent",
+      "dq_Purpose_ReadytoUse",
+      "ds_Aggregate_Average",
+      "ds_Medium_Soil",
+      "ds_Variable_VolumetricWaterContent"
+    ],
+    "unit_tag": "dt_Unit_VolumetricWaterContent"
+  }
+}

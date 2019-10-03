@@ -81,31 +81,33 @@
   "terms": {
     "ds": {
       "Medium": "Rock",
-      "Variable": "Moisture"
+      "Variable": "ElectricalResistance"
     },
     "dt": {
       "Unit": "Kiloohm"
     },
     "dq": {
-      "Measurement": "RockMoisture"
+      "Measurement": "Resistance",
+      "Purpose": "Raw"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d6888da6f13db27af113426",
-  "updated_at": "2019-08-30T02:24:26.366Z",
+  "version_id": "5d8130b9629faa0946a8d929",
+  "updated_at": "2019-09-17T19:15:05.417Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:25:21.758Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_RockMoisture",
-      "ds__Medium_Rock__Variable_Moisture"
+      "dq__Measurement_Resistance__Purpose_Raw",
+      "ds__Medium_Rock__Variable_ElectricalResistance"
     ],
     "class_tags": [
-      "dq_Measurement_RockMoisture",
+      "dq_Measurement_Resistance",
+      "dq_Purpose_Raw",
       "ds_Medium_Rock",
-      "ds_Variable_Moisture"
+      "ds_Variable_ElectricalResistance"
     ],
     "unit_tag": "dt_Unit_Kiloohm"
   }

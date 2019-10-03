@@ -90,23 +90,25 @@
       "Unit": "DegreeCelsius"
     },
     "dq": {
-      "Measurement": "RockTemperature"
+      "Measurement": "RockTemperature",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d6889e45a3a9466f390190b",
-  "updated_at": "2019-08-30T02:28:52.964Z",
+  "version_id": "5d8131e12da5c30041f651e3",
+  "updated_at": "2019-09-17T19:20:01.553Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T18:32:56.643Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_RockTemperature",
+      "dq__Measurement_RockTemperature__Purpose_ReadytoUse",
       "ds__Medium_Rock__Variable_Temperature"
     ],
     "class_tags": [
       "dq_Measurement_RockTemperature",
+      "dq_Purpose_ReadytoUse",
       "ds_Medium_Rock",
       "ds_Variable_Temperature"
     ],

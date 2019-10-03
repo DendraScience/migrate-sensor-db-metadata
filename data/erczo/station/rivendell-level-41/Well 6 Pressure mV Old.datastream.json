@@ -59,16 +59,16 @@
   ],
   "attributes": {
     "depth": {
-      "unit": "dt_Unit_Meter",
-      "value": 19.9
+      "value": 19.9,
+      "unit_tag": "dt_Unit_Meter"
     },
     "wellhead_height": {
-      "unit": "dt_Unit_Meter",
-      "value": 0.08
+      "value": 0.08,
+      "unit_tag": "dt_Unit_Meter"
     },
     "cable_length": {
-      "unit": "dt_Unit_Meter",
-      "value": 13.18
+      "value": 13.18,
+      "unit_tag": "dt_Unit_Meter"
     }
   },
   "is_enabled": false,
@@ -81,23 +81,25 @@
       "Unit": "Millivolt"
     },
     "dq": {
-      "Measurement": "WellLevel"
+      "Measurement": "WaterPressure",
+      "Purpose": "Raw"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d68894e6f13db299a1135ad",
-  "updated_at": "2019-08-30T02:26:22.684Z",
+  "version_id": "5d813133629faaeefea8dac6",
+  "updated_at": "2019-09-17T19:17:07.223Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:27:57.897Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_WellLevel",
+      "dq__Measurement_WaterPressure__Purpose_Raw",
       "ds__Medium_Water__Variable_Pressure"
     ],
     "class_tags": [
-      "dq_Measurement_WellLevel",
+      "dq_Measurement_WaterPressure",
+      "dq_Purpose_Raw",
       "ds_Medium_Water",
       "ds_Variable_Pressure"
     ],

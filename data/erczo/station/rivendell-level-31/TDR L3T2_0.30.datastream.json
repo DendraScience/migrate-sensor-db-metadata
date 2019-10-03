@@ -89,23 +89,25 @@
       "Unit": "Dimensionless"
     },
     "dq": {
-      "Measurement": "Permittivity"
+      "Measurement": "DielectricConstant",
+      "Purpose": "Raw"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d6889316f13db4f3f113552",
-  "updated_at": "2019-08-30T02:25:53.732Z",
+  "version_id": "5d813115629faa08d9a8da5d",
+  "updated_at": "2019-09-17T19:16:37.877Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:27:26.274Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_Permittivity",
+      "dq__Measurement_DielectricConstant__Purpose_Raw",
       "ds__Medium_Rock__Variable_DielectricStrength"
     ],
     "class_tags": [
-      "dq_Measurement_Permittivity",
+      "dq_Measurement_DielectricConstant",
+      "dq_Purpose_Raw",
       "ds_Medium_Rock",
       "ds_Variable_DielectricStrength"
     ],

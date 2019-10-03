@@ -81,23 +81,25 @@
       "Unit": "WattPerSquareMeter"
     },
     "dq": {
-      "Measurement": "SolarRadiation"
+      "Measurement": "SolarRadiation",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d68895a6f13db56721135de",
-  "updated_at": "2019-08-30T02:26:34.994Z",
+  "version_id": "5d813140629faa2c70a8dae7",
+  "updated_at": "2019-09-17T19:17:20.359Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:28:20.559Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_SolarRadiation",
+      "dq__Measurement_SolarRadiation__Purpose_ReadytoUse",
       "ds__Medium_Solar__Variable_Radiation"
     ],
     "class_tags": [
       "dq_Measurement_SolarRadiation",
+      "dq_Purpose_ReadytoUse",
       "ds_Medium_Solar",
       "ds_Variable_Radiation"
     ],

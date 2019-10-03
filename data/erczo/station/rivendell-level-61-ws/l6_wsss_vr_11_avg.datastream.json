@@ -1,0 +1,60 @@
+{
+  "_id": "5d7666565a3a94623e9028da",
+  "is_enabled": true,
+  "name": "Soil Voltage Ratio Probe 11 Avg",
+  "organization_id": "58db17e824dc720001671379",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "5c5b0a1cdf9d94fd2923d1f2",
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "api": "erczo",
+          "db": "station_l6_wsss",
+          "fc": "source_cs650s",
+          "sc": "\"time\", \"VR_11_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2019-09-08T09:30:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "terms": {
+    "dt": {
+      "Unit": "Dimensionless"
+    },
+    "ds": {
+      "Aggregate": "Average",
+      "Medium": "Soil",
+      "Variable": "VoltageRatio"
+    },
+    "dq": {
+      "Measurement": "VoltageRatio",
+      "Purpose": "Raw"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d81317d2da5c34b93f6508e",
+  "updated_at": "2019-09-17T19:18:21.914Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-09-09T14:48:54.362Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_VoltageRatio__Purpose_Raw",
+      "ds__Aggregate_Average__Medium_Soil__Variable_VoltageRatio"
+    ],
+    "class_tags": [
+      "dq_Measurement_VoltageRatio",
+      "dq_Purpose_Raw",
+      "ds_Aggregate_Average",
+      "ds_Medium_Soil",
+      "ds_Variable_VoltageRatio"
+    ],
+    "unit_tag": "dt_Unit_Dimensionless"
+  }
+}

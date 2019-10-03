@@ -1,0 +1,77 @@
+{
+  "_id": "5d8e42dc2da5c3bcf9f652f5",
+  "is_enabled": true,
+  "name": "Soil Moisture cs616vavg",
+  "organization_id": "58db17c424dc720001671378",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58e68cabdf5ce600012602bd",
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucde_boyddeepcanyon",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"CS616_V_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2018-11-18T08:20:00.000Z",
+      "path": "/influx/select"
+    }
+  ],
+  "terms": {
+    "dt": {
+      "Unit": "Microsecond"
+    },
+    "ds": {
+      "Aggregate": "Average",
+      "Medium": "Soil",
+      "Variable": "Moisture"
+    },
+    "dq": {
+      "Measurement": "SoilMoisture",
+      "Purpose": "ReadytoUse"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "datapoints_config_built": [
+    {
+      "params": {
+        "query": {
+          "api": "ucnrs",
+          "db": "station_ucde_boyddeepcanyon",
+          "fc": "source_tenmin",
+          "sc": "\"time\", \"CS616_V_Avg\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "begins_at": "2018-11-18T08:20:00.000Z",
+      "path": "/influx/select",
+      "ends_before": "2200-02-02T00:00:00.000Z"
+    }
+  ],
+  "version_id": "5d8f72a52da5c30e59f65353",
+  "updated_at": "2019-09-28T14:48:05.907Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-09-27T17:11:56.049Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_SoilMoisture__Purpose_ReadytoUse",
+      "ds__Aggregate_Average__Medium_Soil__Variable_Moisture"
+    ],
+    "class_tags": [
+      "dq_Measurement_SoilMoisture",
+      "dq_Purpose_ReadytoUse",
+      "ds_Aggregate_Average",
+      "ds_Medium_Soil",
+      "ds_Variable_Moisture"
+    ],
+    "unit_tag": "dt_Unit_Microsecond"
+  }
+}

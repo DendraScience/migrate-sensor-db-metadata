@@ -1,16 +1,9 @@
 {
   "_id": "5a78e902f55c4b0001ed026d",
-  "tags": [
-    "ds_Aggregate_Minimum",
-    "ds_Medium_Soil",
-    "ds_Variable_Temperature",
-    "dt_Unit_DegreeCelsius"
-  ],
   "station_id": "5a37e71ba546db0001547681",
   "name": "Soil Temp Deg C 500 mm Min",
   "source_type": "sensor",
   "state": "ready",
-  "enabled": true,
   "datapoints_config": [
     {
       "params": {
@@ -30,106 +23,51 @@
   "description": "TBD",
   "attributes": {
     "depth": {
-      "unit": "dt_Unit_Millimeter",
-      "value": "500"
+      "value": "500",
+      "unit_tag": "dt_Unit_Millimeter"
     }
   },
-  "created_at": "2018-07-01T23:40:31.278Z",
-  "updated_at": "2018-07-03T19:03:51.779Z",
-  "attributes_info": {
-    "sort": {
-      "value1": 20,
-      "value2": 0
-    },
-    "text": "20"
-  },
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Minimum",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      },
-      {
-        "label": "Soil",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Temperature",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "degC",
-        "label": "DegreeCelsius",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 3
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-aggregate"
-      },
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "f26094889cb1fcec3ada1bf103d44d6247707986"
-    },
-    {
-      "key": "att",
-      "str": "2d36c0a8ead57e0bd797b245de9fb3cd7606dfe5"
-    },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "b4687eb6500c7176ac46939da8c1d716055e2d31",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "5795c6e74091f87a34b256903db271fcca161eee",
-      "scheme_id": "dt"
-    }
-  ],
-  "_include": [],
   "organization_id": "58db17c424dc720001671378",
   "external_refs": [
     {
       "identifier": "Soil Temp Deg C 500 mm Quail Ridge Min",
       "type": "name_previous"
     }
-  ]
+  ],
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Aggregate": "Minimum",
+      "Medium": "Soil",
+      "Variable": "Temperature"
+    },
+    "dt": {
+      "Unit": "DegreeCelsius"
+    },
+    "dq": {
+      "Measurement": "SoilTemperature",
+      "Purpose": "ReadytoUse"
+    }
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d708efe5a3a9456d59025e0",
+  "updated_at": "2019-09-05T04:28:46.020Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:44:03.879Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_SoilTemperature__Purpose_ReadytoUse",
+      "ds__Aggregate_Minimum__Medium_Soil__Variable_Temperature"
+    ],
+    "class_tags": [
+      "dq_Measurement_SoilTemperature",
+      "dq_Purpose_ReadytoUse",
+      "ds_Aggregate_Minimum",
+      "ds_Medium_Soil",
+      "ds_Variable_Temperature"
+    ],
+    "unit_tag": "dt_Unit_DegreeCelsius"
+  }
 }

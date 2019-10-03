@@ -68,23 +68,25 @@
       "Unit": "Meter"
     },
     "dq": {
-      "Measurement": "WellDepth"
+      "Measurement": "WellDepth",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d6889a46f13db544a1136ce",
-  "updated_at": "2019-08-30T02:27:48.147Z",
+  "version_id": "5d8131a0629faa371ea8dc49",
+  "updated_at": "2019-09-17T19:18:56.515Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:28:45.641Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_WellDepth",
+      "dq__Measurement_WellDepth__Purpose_ReadytoUse",
       "ds__Medium_GroundWater__Variable_Depth"
     ],
     "class_tags": [
       "dq_Measurement_WellDepth",
+      "dq_Purpose_ReadytoUse",
       "ds_Medium_GroundWater",
       "ds_Variable_Depth"
     ],

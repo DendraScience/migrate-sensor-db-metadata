@@ -19,6 +19,7 @@
         }
       },
       "begins_at": "2017-09-28T00:00:00.000Z",
+      "ends_before": "2019-09-09T00:00:00.000Z",
       "path": "/influx/select"
     }
   ],
@@ -31,7 +32,8 @@
       "Variable": "Temperature"
     },
     "dq": {
-      "Measurement": "SoilTemperature"
+      "Measurement": "SoilTemperature",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
@@ -42,18 +44,19 @@
       "type": "name_previous"
     }
   ],
-  "version_id": "5d68898a6f13db3251113673",
-  "updated_at": "2019-08-30T02:27:22.634Z",
+  "version_id": "5d81317d2da5c3983af65087",
+  "updated_at": "2019-09-17T19:18:21.303Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-08-05T20:22:11.502Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_SoilTemperature",
+      "dq__Measurement_SoilTemperature__Purpose_ReadytoUse",
       "ds__Medium_Soil__Variable_Temperature"
     ],
     "class_tags": [
       "dq_Measurement_SoilTemperature",
+      "dq_Purpose_ReadytoUse",
       "ds_Medium_Soil",
       "ds_Variable_Temperature"
     ],

@@ -29,10 +29,11 @@
     "ds": {
       "Aggregate": "Average",
       "Medium": "Sap",
-      "Variable": "Flux"
+      "Variable": "Temperature"
     },
     "dq": {
-      "Measurement": "SapFlow"
+      "Measurement": "SapTemperatureDifference",
+      "Purpose": "Raw"
     }
   },
   "is_geo_protected": false,
@@ -43,21 +44,22 @@
       "type": "name_previous"
     }
   ],
-  "version_id": "5d68898e5a3a9434dc9017e4",
-  "updated_at": "2019-08-30T02:27:26.831Z",
+  "version_id": "5d81318b2da5c3721af650ab",
+  "updated_at": "2019-09-17T19:18:35.108Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-08-05T20:20:39.169Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_SapFlow",
-      "ds__Aggregate_Average__Medium_Sap__Variable_Flux"
+      "dq__Measurement_SapTemperatureDifference__Purpose_Raw",
+      "ds__Aggregate_Average__Medium_Sap__Variable_Temperature"
     ],
     "class_tags": [
-      "dq_Measurement_SapFlow",
+      "dq_Measurement_SapTemperatureDifference",
+      "dq_Purpose_Raw",
       "ds_Aggregate_Average",
       "ds_Medium_Sap",
-      "ds_Variable_Flux"
+      "ds_Variable_Temperature"
     ],
     "unit_tag": "dt_Unit_DegreeCelsius"
   }

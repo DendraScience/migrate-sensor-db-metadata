@@ -81,23 +81,25 @@
       "Unit": "MicromolePerSquareMeter"
     },
     "dq": {
-      "Measurement": "PhotosyntheticallyActiveRadiation"
+      "Measurement": "PhotosyntheticallyActiveRadiation",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d6889c85a3a94ce929018ac",
-  "updated_at": "2019-08-30T02:28:24.997Z",
+  "version_id": "5d8131c52da5c362ebf65182",
+  "updated_at": "2019-09-17T19:19:33.583Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T18:32:04.687Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_PhotosyntheticallyActiveRadiation",
+      "dq__Measurement_PhotosyntheticallyActiveRadiation__Purpose_ReadytoUse",
       "ds__Medium_Solar__Variable_PhotosyntheticallyActiveRadiation"
     ],
     "class_tags": [
       "dq_Measurement_PhotosyntheticallyActiveRadiation",
+      "dq_Purpose_ReadytoUse",
       "ds_Medium_Solar",
       "ds_Variable_PhotosyntheticallyActiveRadiation"
     ],

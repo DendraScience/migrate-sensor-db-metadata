@@ -81,23 +81,25 @@
       "Unit": "MinuteTime"
     },
     "dq": {
-      "Measurement": "LeafWetness"
+      "Measurement": "LeafWetness",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d68899e6f13dbe6ff1136c3",
-  "updated_at": "2019-08-30T02:27:42.019Z",
+  "version_id": "5d81319a629faa5c8aa8dc22",
+  "updated_at": "2019-09-17T19:18:50.270Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:28:37.161Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_LeafWetness",
+      "dq__Measurement_LeafWetness__Purpose_ReadytoUse",
       "ds__Medium_Leaf__Variable_Moisture"
     ],
     "class_tags": [
       "dq_Measurement_LeafWetness",
+      "dq_Purpose_ReadytoUse",
       "ds_Medium_Leaf",
       "ds_Variable_Moisture"
     ],

@@ -22,6 +22,18 @@
     },
     {
       "label": "Cumulative"
+    },
+    {
+      "label": "WindVectorCells",
+      "name": "Wind Vector Cells"
     }
-  ]
+  ],
+  "is_enabled": true,
+  "vocabulary_type": "class",
+  "is_hidden": false,
+  "version_id": "5d799bcc2d00fc03f4c572e0",
+  "updated_at": "2019-09-12T01:13:48.585Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T17:22:10.462Z",
+  "created_by": "5cdd9abda6fa68f95479675b"
 }

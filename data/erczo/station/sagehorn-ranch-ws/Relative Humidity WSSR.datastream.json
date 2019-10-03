@@ -81,23 +81,25 @@
       "Unit": "Percent"
     },
     "dq": {
-      "Measurement": "RelativeHumidity"
+      "Measurement": "RelativeHumidity",
+      "Purpose": "ReadytoUse"
     }
   },
   "is_geo_protected": false,
   "is_hidden": false,
-  "version_id": "5d6889a05a3a94600890181f",
-  "updated_at": "2019-08-30T02:27:44.530Z",
+  "version_id": "5d81319c2da5c381f4f650f4",
+  "updated_at": "2019-09-17T19:18:52.840Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:28:40.634Z",
   "created_by": "5cdd9abda6fa68f95479675b",
   "terms_info": {
     "class_keys": [
-      "dq__Measurement_RelativeHumidity",
+      "dq__Measurement_RelativeHumidity__Purpose_ReadytoUse",
       "ds__Medium_Air__Variable_RelativeHumidity"
     ],
     "class_tags": [
       "dq_Measurement_RelativeHumidity",
+      "dq_Purpose_ReadytoUse",
       "ds_Medium_Air",
       "ds_Variable_RelativeHumidity"
     ],

@@ -27,6 +27,9 @@
       "label": "Direction"
     },
     {
+      "label": "Distance"
+    },
+    {
       "label": "Discharge"
     },
     {
@@ -126,6 +129,10 @@
       "label": "Voltage"
     },
     {
+      "label": "VoltageRatio",
+      "name": "Voltage Ratio"
+    },
+    {
       "label": "Volume"
     },
     {
@@ -136,8 +143,8 @@
   "is_enabled": true,
   "vocabulary_type": "class",
   "is_hidden": false,
-  "version_id": "5d6ffbe16f13dbb79e1137e7",
-  "updated_at": "2019-09-04T18:01:05.306Z",
+  "version_id": "5d9270b4629faa6d39a8e00d",
+  "updated_at": "2019-09-30T21:16:36.063Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-05-16T17:22:11.850Z",
   "created_by": "5cdd9abda6fa68f95479675b"

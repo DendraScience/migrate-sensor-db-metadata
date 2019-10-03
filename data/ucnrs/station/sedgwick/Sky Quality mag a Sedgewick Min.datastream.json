@@ -1,6 +1,5 @@
 {
   "_id": "5ae879e7fe27f44560102e78",
-  "enabled": true,
   "name": "Sky Quality mag a Sedgewick Min",
   "organization_id": "58db17c424dc720001671378",
   "source_type": "sensor",
@@ -72,94 +71,40 @@
       "type": "name_previous"
     }
   ],
-  "tags": [
-    "ds_Medium_Sky",
-    "ds_Variable_Visibility",
-    "dt_Unit_MagnitudesperSquareArcsecond",
-    "ds_Aggregate_Minimum"
-  ],
-  "created_at": "2018-07-02T01:07:09.032Z",
-  "updated_at": "2018-07-03T19:06:39.118Z",
-  "tags_info": {
-    "resolved_terms": [
-      {
-        "label": "Sky",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-medium",
-        "vocabulary_label": "Medium"
-      },
-      {
-        "label": "Visibility",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-variable",
-        "vocabulary_label": "Variable"
-      },
-      {
-        "abbreviation": "mag/arcsec^2",
-        "label": "MagnitudesperSquareArcsecond",
-        "scheme_id": "dt",
-        "scheme_priority": 10,
-        "vocabulary_id": "dt-unit",
-        "vocabulary_label": "Unit"
-      },
-      {
-        "label": "Minimum",
-        "scheme_id": "ds",
-        "scheme_priority": 10,
-        "vocabulary_id": "ds-aggregate",
-        "vocabulary_label": "Aggregate"
-      }
-    ],
-    "scheme_refs": [
-      {
-        "_id": "ds",
-        "tag_count": 3
-      },
-      {
-        "_id": "dt",
-        "tag_count": 1
-      }
-    ],
-    "vocabulary_refs": [
-      {
-        "_id": "ds-medium"
-      },
-      {
-        "_id": "ds-variable"
-      },
-      {
-        "_id": "dt-unit"
-      },
-      {
-        "_id": "ds-aggregate"
-      }
-    ]
-  },
-  "hashes": [
-    {
-      "key": "src",
-      "str": "56200172af4e63c44d5f35f50cece0e5a69a08cd"
+  "is_enabled": true,
+  "terms": {
+    "ds": {
+      "Medium": "Sky",
+      "Variable": "Visibility",
+      "Aggregate": "Minimum"
     },
-    {
-      "key": "att",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "dt": {
+      "Unit": "MagnitudesperSquareArcsecond"
     },
-    {
-      "key": "geo",
-      "str": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    },
-    {
-      "key": "tag",
-      "str": "4887ae4e8251cd1e9d8521b2c11c75a5798b6b3b",
-      "scheme_id": "ds"
-    },
-    {
-      "key": "tag",
-      "str": "8470b2412a330eb750187ca154b31295d8bf3539",
-      "scheme_id": "dt"
+    "dq": {
+      "Measurement": "SkyQuality",
+      "Purpose": "ReadytoUse"
     }
-  ],
-  "_include": []
+  },
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "version_id": "5d708f525a3a94acb89026a1",
+  "updated_at": "2019-09-05T04:30:10.208Z",
+  "updated_by": "5cdd9abda6fa68f95479675b",
+  "created_at": "2019-05-16T18:45:53.024Z",
+  "created_by": "5cdd9abda6fa68f95479675b",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_SkyQuality__Purpose_ReadytoUse",
+      "ds__Aggregate_Minimum__Medium_Sky__Variable_Visibility"
+    ],
+    "class_tags": [
+      "dq_Measurement_SkyQuality",
+      "dq_Purpose_ReadytoUse",
+      "ds_Aggregate_Minimum",
+      "ds_Medium_Sky",
+      "ds_Variable_Visibility"
+    ],
+    "unit_tag": "dt_Unit_MagnitudesperSquareArcsecond"
+  }
 }

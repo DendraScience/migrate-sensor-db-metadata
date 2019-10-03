@@ -16,6 +16,10 @@
       "name": "Battery Voltage"
     },
     {
+      "label": "DielectricConstant",
+      "name": "Dielectric Constant"
+    },
+    {
       "label": "Discharge",
       "name": "Discharge"
     },
@@ -72,6 +76,10 @@
       "name": "Rainfall"
     },
     {
+      "label": "RainfallCumulative",
+      "name": "Rainfall Cumulative"
+    },
+    {
       "label": "RelativeHumidity",
       "name": "Relative Humidity"
     },
@@ -100,8 +108,12 @@
       "name": "Sap Flow Period"
     },
     {
-      "label": "SapFlowTemperature",
-      "name": "Sap Flow Temperature"
+      "label": "SapTemperature",
+      "name": "Sap Temperature"
+    },
+    {
+      "label": "SapTemperatureDifference",
+      "name": "Sap Temperature Difference"
     },
     {
       "label": "SkyQuality",
@@ -140,6 +152,10 @@
       "name": "Turbidity"
     },
     {
+      "label": "VoltageRatio",
+      "name": "Voltage Ratio"
+    },
+    {
       "label": "VolumetricWaterContent",
       "name": "Volumetric Water Content"
     },
@@ -166,13 +182,17 @@
     {
       "label": "WindSpeed",
       "name": "Wind Speed"
+    },
+    {
+      "label": "WindInvalidFlag",
+      "name": "Wind Invalid Flag"
     }
   ],
   "is_enabled": true,
   "vocabulary_type": "class",
   "is_hidden": false,
-  "version_id": "5d6ffb996f13dbc1511137e6",
-  "updated_at": "2019-09-04T17:59:53.633Z",
+  "version_id": "5d9270c02da5c3f0e7f654c8",
+  "updated_at": "2019-09-30T21:16:48.431Z",
   "updated_by": "5cdd9abda6fa68f95479675b",
   "created_at": "2019-08-27T22:43:47.677Z",
   "created_by": "5cdd9abda6fa68f95479675b"
