@@ -1,12 +1,8 @@
 {
   "_id": "degree-angle",
-  "convertible_to_uom_ids": [
-    "minute-angle"
-  ],
   "library_config": {
     "mathjs": {
-      "round_n": 1,
-      "unit_name": "degree"
+      "unit_name": "deg"
     }
   },
   "som_id": "met",

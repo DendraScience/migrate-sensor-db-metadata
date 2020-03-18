@@ -1,12 +1,7 @@
 {
   "_id": "centimeter",
-  "convertible_to_uom_ids": [
-    "inch",
-    "foot"
-  ],
   "library_config": {
     "mathjs": {
-      "round_n": 1,
       "unit_name": "cm"
     }
   },

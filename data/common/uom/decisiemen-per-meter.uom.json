@@ -1,12 +1,8 @@
 {
   "_id": "decisiemen-per-meter",
-  "convertible_to_uom_ids": [
-    "siemen-per-meter"
-  ],
   "library_config": {
     "mathjs": {
-      "round_n": 1,
-      "unit_name": "dS*m^-1"
+      "unit_name": "dS/m"
     }
   },
   "som_id": "met",

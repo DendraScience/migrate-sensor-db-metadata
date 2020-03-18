@@ -1,13 +1,7 @@
 {
   "_id": "pound-force-per-square-inch",
-  "convertible_to_uom_ids": [
-    "bar",
-    "centibar",
-    "millibar"
-  ],
   "library_config": {
     "mathjs": {
-      "round_n": 1,
       "unit_name": "psi"
     }
   },

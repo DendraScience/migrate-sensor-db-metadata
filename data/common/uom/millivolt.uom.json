@@ -1,11 +1,7 @@
 {
   "_id": "millivolt",
-  "convertible_to_uom_ids": [
-    "volt"
-  ],
   "library_config": {
     "mathjs": {
-      "round_n": 1,
       "unit_name": "mV"
     }
   },

@@ -1,0 +1,12 @@
+{
+  "_id": "watt-per-square-foot",
+  "library_config": {
+    "mathjs": {
+      "unit_name": "W/ft^2"
+    }
+  },
+  "som_id": "met",
+  "unit_tags": [
+    "dt_Unit_WattPerSquareFoot"
+  ]
+}

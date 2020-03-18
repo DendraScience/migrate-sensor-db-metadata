@@ -2,8 +2,7 @@
   "_id": "volt-per-meter",
   "library_config": {
     "mathjs": {
-      "round_n": 1,
-      "unit_name": "V*m^-1"
+      "unit_name": "V/m"
     }
   },
   "som_id": "met",

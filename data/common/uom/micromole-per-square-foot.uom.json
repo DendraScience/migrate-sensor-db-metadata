@@ -1,0 +1,12 @@
+{
+  "_id": "micromole-per-square-foot",
+  "library_config": {
+    "mathjs": {
+      "unit_name": "umol/ft^2"
+    }
+  },
+  "som_id": "met",
+  "unit_tags": [
+    "dt_Unit_MicromolePerSquareFoot"
+  ]
+}

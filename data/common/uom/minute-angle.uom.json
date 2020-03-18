@@ -1,12 +1,8 @@
 {
   "_id": "minute-angle",
-  "convertible_to_uom_ids": [
-    "degree-angle"
-  ],
   "library_config": {
     "mathjs": {
-      "round_n": 1,
-      "unit_name": "arcminute"
+      "unit_name": "arcmin"
     }
   },
   "som_id": "met",

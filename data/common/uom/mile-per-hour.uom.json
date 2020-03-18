@@ -1,12 +1,8 @@
 {
   "_id": "mile-per-hour",
-  "convertible_to_uom_ids": [
-    "meter-per-second"
-  ],
   "library_config": {
     "mathjs": {
-      "round_n": 1,
-      "unit_name": "mi*hr^-1"
+      "unit_name": "mi/hr"
     }
   },
   "som_id": "imp",

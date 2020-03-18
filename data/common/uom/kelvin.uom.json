@@ -1,12 +1,7 @@
 {
   "_id": "kelvin",
-  "convertible_to_uom_ids": [
-    "degree-celsius",
-    "degree-fahrenheit"
-  ],
   "library_config": {
     "mathjs": {
-      "round_n": 1,
       "unit_name": "K"
     }
   },

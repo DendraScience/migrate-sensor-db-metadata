@@ -1,13 +1,7 @@
 {
   "_id": "bar",
-  "convertible_to_uom_ids": [
-    "centibar",
-    "millibar",
-    "pound-force-per-square-inch"
-  ],
   "library_config": {
     "mathjs": {
-      "round_n": 1,
       "unit_name": "bar"
     }
   },

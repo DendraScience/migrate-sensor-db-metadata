@@ -1,12 +1,7 @@
 {
   "_id": "millibar",
-  "convertible_to_uom_ids": [
-    "bar",
-    "centibar"
-  ],
   "library_config": {
     "mathjs": {
-      "round_n": 1,
       "unit_name": "mbar"
     }
   },

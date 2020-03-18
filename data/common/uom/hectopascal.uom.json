@@ -1,12 +1,12 @@
 {
-  "_id": "centibar",
+  "_id": "hectopascal",
   "library_config": {
     "mathjs": {
-      "unit_name": "cbar"
+      "unit_name": "hPa"
     }
   },
   "som_id": "met",
   "unit_tags": [
-    "dt_Unit_Centibar"
+    "dt_Unit_Hectopascal"
   ]
 }

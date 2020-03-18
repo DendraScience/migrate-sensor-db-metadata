@@ -1,12 +1,8 @@
 {
   "_id": "megajoule-per-square-meter",
-  "convertible_to_uom_ids": [
-    "kilojoule-per-square-meter"
-  ],
   "library_config": {
     "mathjs": {
-      "round_n": 1,
-      "unit_name": "mJ*m^-2"
+      "unit_name": "MJ/m^2"
     }
   },
   "som_id": "met",

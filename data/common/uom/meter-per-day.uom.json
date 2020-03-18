@@ -1,14 +1,8 @@
 {
   "_id": "meter-per-day",
-  "convertible_to_uom_ids": [
-    "centimeter-per-hour",
-    "millimeter-per-day",
-    "millimeter-per-hour"
-  ],
   "library_config": {
     "mathjs": {
-      "round_n": 1,
-      "unit_name": "m*days^-1"
+      "unit_name": "m/day"
     }
   },
   "som_id": "met",
